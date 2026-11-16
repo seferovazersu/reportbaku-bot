@@ -35,6 +35,9 @@ MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "24"))  # nə qədər köhnə xə
 SIMILARITY = 0.70                                    # başlıqlar bu qədər oxşardırsa, təkrar sayılır
 SEEN_FILE = Path("seen.json")
 OUT_FILE = Path("selected_news.json")
+STATUS_FILE = Path("sources_status.json")
+AD_PREFIXES = ("®", "reklam", "pr:", "sponsor")      # ödənişli/reklam xəbərləri atılır
+MIN_SNIPPET = 80                                     # bundan qısa xülasə varsa, tam mətn lazım olacaq
 USER_AGENT = "Mozilla/5.0 (compatible; ReportBakuBot/1.0)"
 # -----------------------------------------
 
@@ -93,15 +96,19 @@ def fetch_feed(name, url):
         link = e.get("link", "").strip()
         if not title or not link:
             continue
+        if title.lower().startswith(AD_PREFIXES):
+            continue  # reklam xəbəridir
         when = entry_time(e)
         if when and when < cutoff:
             continue  # çox köhnədir
+        snippet = clean(e.get("summary"))[:500]
         items.append(
             {
                 "source": name,
                 "title": title,
                 # qısa parça yalnız növbəti addımda AI-yə "mövzunu anlamaq" üçün veriləcək
-                "snippet": clean(e.get("summary"))[:500],
+                "snippet": snippet,
+                "needs_fulltext": len(snippet) < MIN_SNIPPET,
                 "link": link,
                 "published": when.isoformat() if when else None,
             }
@@ -115,8 +122,10 @@ def main():
     per_source = {}
 
     print("=== Mənbələrin yoxlanması ===")
+    status = {}
     for name, url in FEEDS:
         items, state = fetch_feed(name, url)
+        status[name] = {"url": url, "state": state}
         print(f"{name:22s} {state}")
         fresh = [i for i in items if i["link"] not in seen]
         if fresh:
@@ -138,6 +147,9 @@ def main():
             if len(selected) >= TARGET_COUNT:
                 break
 
+    STATUS_FILE.write_text(
+        json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     OUT_FILE.write_text(
         json.dumps(selected, ensure_ascii=False, indent=2), encoding="utf-8"
     )
