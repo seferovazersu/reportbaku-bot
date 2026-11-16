@@ -1,0 +1,30 @@
+{
+  "AZƏRTAC": {
+    "url": "https://azertag.az/rss",
+    "state": "OK (49 təzə xəbər, HTTP 200)"
+  },
+  "Oxu.az": {
+    "url": "https://oxu.az/feed",
+    "state": "OK (200 təzə xəbər, HTTP 200)"
+  },
+  "Publika": {
+    "url": "https://publika.az/rss/",
+    "state": "OK (25 təzə xəbər, HTTP 200)"
+  },
+  "Day.az": {
+    "url": "https://news.day.az/rss/",
+    "state": "OK (50 təzə xəbər, HTTP 200)"
+  },
+  "Sia.az": {
+    "url": "https://sia.az/feed.php",
+    "state": "OK (25 təzə xəbər, HTTP 200)"
+  },
+  "Azadlıq": {
+    "url": "https://azadliq.info/feed/",
+    "state": "OK (0 təzə xəbər, HTTP 200)"
+  },
+  "Statistika Komitəsi": {
+    "url": "https://stat.gov.az/rss/en",
+    "state": "BOŞ/ÖLÜ (HTTP None)"
+  }
+}
