@@ -1,61 +1,60 @@
 [
   {
-    "category": "İDMAN",
-    "headline": "İrlandiyalı boksçu Li Rivz 31 yaşında vəfat etdi",
-    "summary": "Avqust ayında keçirilən döyüşdə beyin zədəsi alan idmançı xəstəxanada əməliyyat olunmuşdu. Komaya salınan boksçunun vəziyyəti sonradan yaxşılaşsa da, sağalma prosesində yaranan infeksiya onun ölümünə səbəb olub.",
+    "category": "SİYASƏT",
+    "headline": "Azərbaycan ilə Böyük Britaniya arasında strateji tərəfdaşlıq imzalandı",
+    "summary": "Azərbaycan və Böyük Britaniya arasında strateji tərəfdaşlıq haqqında birgə bəyannamə imzalanıb. Sənəd iki ölkə arasındakı münasibətləri yeni səviyyəyə qaldırır.",
     "highlight": [
-      "Li Rivz"
+      "Azərbaycan",
+      "Böyük Britaniya"
     ],
-    "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/idman/648796.html",
-    "sensitive": true
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sia.az/az/news/politics/1374747.html",
+    "sensitive": false
   },
   {
     "category": "İQTİSADİYYAT",
-    "headline": "Böyük Britaniya Azərbaycanda qeyri-neft sektoruna sərmayələri artırır",
-    "summary": "Böyük Britaniya Azərbaycanın ən iri xarici sərmayəçisi olaraq qalır. Britaniya şirkətləri ölkədə rəqəmsal infrastruktur, təmiz enerji və yüksək texnologiyalar istiqamətlərində fəaliyyətlərini genişləndirirlər.",
+    "headline": "Azərbaycanda saatlıq əməkhaqqı sisteminin tətbiqi gözlənilir",
+    "summary": "Milli Məclisin iclasında müzakirə olunan Əmək Məcəlləsinə dəyişikliyə əsasən, ölkədə saatlıq əməkhaqqı mexanizmi yaradılır. Layihə qısamüddətli müqavilələr və az saatlı iş rejimləri üçün yeni ödəniş qaydalarını ehtiva edir.",
     "highlight": [
-      "Böyük Britaniya",
-      "Azərbaycan"
-    ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/economy/1874931.html",
-    "sensitive": false
-  },
-  {
-    "category": "SİYASƏT",
-    "headline": "Hikmət Hacıyev Avropa Birliyinin xüsusi nümayəndəsi ilə görüş keçirib",
-    "summary": "Azərbaycan Prezidentinin köməkçisi Hikmət Hacıyev Avropa Birliyinin Cənubi Qafqaz üzrə xüsusi nümayəndəsi Maqdalena Qrono ilə bir araya gəlib. Tərəflər ikitərəfli tərəfdaşlıq əlaqələrini, regional və beynəlxalq prosesləri, eləcə də əməkdaşlığın genişləndirilməsi imkanlarını müzakirə ediblər.",
-    "highlight": [
-      "Hikmət Hacıyev",
-      "Avropa Birliyinin"
-    ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sesqazeti.az/news/politics/1374645.html",
-    "sensitive": false
-  },
-  {
-    "category": "İDMAN",
-    "headline": "Kunqfu Sanda üzrə XXXII Azərbaycan Çempionatı keçirilib",
-    "summary": "Sərhədçi İdman Olimpiya Mərkəzində təşkil olunan yarışda 65 klubdan 450-dən çox idmançı mübarizə aparıb. İki gün davam edən çempionatda Cavad İdman Klubu ölkə üzrə birinci yerə layiq görülüb.",
-    "highlight": [
-      "Kunqfu Sanda",
-      "XXXII Azərbaycan Çempionatı"
+      "saatlıq əməkhaqqı"
     ],
     "source_note": "Mənbə: Qafqazinfo",
-    "link": "https://www.qafqazinfo.az/news/detail/kunqfu-sanda-uzre-xxxii-azerbaycan-cempionati-ve-birinciliyi-kecirilib-fotolar-528790",
+    "link": "https://www.qafqazinfo.az/news/detail/saatliq-emekhaqqi-sistemi-tetbiq-edilecek-528823",
     "sensitive": false
   },
   {
-    "category": "SİYASƏT",
-    "headline": "Almaniya Azərbaycanla əlaqələri yeni strateji təməl üzərində qurur",
-    "summary": "Almaniyanın xarici işlər naziri Yohan Vadeful Cənubi Qafqazın dönüş nöqtəsində olduğunu və bölgədə sülhə nail olmaq üçün tarixi şans yarandığını bildirib. O qeyd edib ki, ötən il sülh sazişinin paraflanması əhəmiyyətli mərhələdir.",
+    "category": "İQTİSADİYYAT",
+    "headline": "DSMF-nin 2027-ci il büdcə layihəsi birinci oxunuşda təsdiqlənib",
+    "summary": "Milli Məclisin noyabrın 17-də keçirilən iclasında müvafiq qanun layihəsi parlament müzakirəsinə çıxarılıb. Sənəd birinci oxunuşda qəbul olunub.",
     "highlight": [
-      "Almaniya",
+      "DSMF",
+      "2027-ci il"
+    ],
+    "source_note": "Mənbə: Day.az",
+    "link": "https://news.day.az/azerinews/1875014.html",
+    "sensitive": false
+  },
+  {
+    "category": "İQTİSADİYYAT",
+    "headline": "Azərbaycan bazar iqtisadiyyatının dayanıqlılığı göstəricilərini yaxşılaşdırıb",
+    "summary": "Avropa Yenidənqurma və İnkişaf Bankının hesabatına əsasən, Azərbaycan 2016-cı illə müqayisədə bazar iqtisadiyyatının dayanıqlılığı göstəricilərini yaxşılaşdırıb. Ölkənin rəqabət qabiliyyəti, dövlət idarəçiliyi, ekoloji dayanıqlılıq, inklüzivlik, eləcə də sarsıntılara davamlılıq meyarları üzrə nəticələri artıb.",
+    "highlight": [
       "Azərbaycan"
     ],
-    "source_note": "Mənbə: AZƏRTAC",
-    "link": "https://azertag.az/xeber/yohan_vadeful_almaniya_azerbaycanla_munasibetlerini_yeni_strateji_esas_uzerinde_qurub-4512504",
+    "source_note": "Mənbə: Trend.az",
+    "link": "https://az.trend.az/business/4247506.html",
+    "sensitive": false
+  },
+  {
+    "category": "HADİSƏ",
+    "headline": "Litvalı kursantlar Vətən müharibəsi əməliyyatları ilə tanış olub",
+    "summary": "Litva Hərbi Akademiyasının nümayəndə heyəti Azərbaycana səfər edib. Qonaqlara Vətən müharibəsində icra olunan əməliyyatlar və hərbi dərslər barədə məlumat verilib.",
+    "highlight": [
+      "Litvalı kursantlar",
+      "Vətən müharibəsi"
+    ],
+    "source_note": "Mənbə: APA",
+    "link": "https://apa.az/military/litvali-kursantlar-veten-muharibesinde-icra-olunan-emeliyyatlar-barede-melumatlandirilib-1014683",
     "sensitive": false
   }
 ]
