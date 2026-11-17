@@ -13,6 +13,7 @@ import difflib
 import html
 import json
 import os
+import random
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -27,12 +28,10 @@ FEEDS = [
     ("Day.az", "https://news.day.az/rss/"),
     ("Sia.az", "https://sia.az/feed.php"),
     ("Azadlıq", "https://azadliq.info/feed/"),
-    # --- Yeni: ünvanlar hələ yoxlanmayıb ---
+    # Yoxlanılıb, işləyir (17.11.2026). Report.az (HTTP 403) və İctimai TV (cavab yoxdur) çıxarıldı.
     ("APA", "https://apa.az/rss"),
-    ("Report.az", "https://report.az/rss/"),
     ("Trend.az", "https://az.trend.az/rss"),
     ("Qafqazinfo", "https://qafqazinfo.az/rss"),
-    ("İctimai TV", "https://ictimai.tv/rss"),
     ("Baku TV", "https://baku.tv/rss"),
     ("Xəzər Xəbər", "https://xezerxeber.az/rss"),
 ]
@@ -141,7 +140,9 @@ def main():
     # Mənbələri növbə ilə gəzirik ki, bir saytın xəbərləri üstünlük təşkil etməsin
     selected = []
     while len(selected) < TARGET_COUNT and any(per_source.values()):
-        for name in list(per_source):
+        names = list(per_source)
+        random.shuffle(names)  # sıra hər dəfə dəyişir ki, siyahının əvvəlindəki saytlar həmişə üstün olmasın
+        for name in names:
             queue = per_source[name]
             while queue:
                 cand = queue.pop(0)
