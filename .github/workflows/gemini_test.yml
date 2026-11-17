@@ -12,49 +12,34 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python3 - <<'EOF'
-          import json, os, urllib.request, urllib.error
+          import json, os, time, urllib.request, urllib.error
 
           key = os.environ.get("GEMINI_API_KEY", "")
-          out = ["Açar var: " + str(bool(key))]
           base = "https://generativelanguage.googleapis.com/v1beta"
+          out = []
 
-          def call(url, body=None):
-              data = json.dumps(body).encode() if body else None
+          def call(model):
+              body = {"contents": [{"parts": [{"text": "Bir cümlə ilə cavab ver: Bakı hansı ölkənin paytaxtıdır?"}]}]}
               req = urllib.request.Request(
-                  url, data=data,
+                  base + "/models/" + model + ":generateContent",
+                  data=json.dumps(body).encode(),
                   headers={"x-goog-api-key": key, "Content-Type": "application/json"},
               )
+              t = time.time()
               try:
-                  with urllib.request.urlopen(req, timeout=60) as r:
-                      return json.loads(r.read())
+                  with urllib.request.urlopen(req, timeout=90) as r:
+                      data = json.loads(r.read())
+                  text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                  return model + ": OK, " + str(round(time.time() - t, 1)) + " san. - " + text[:150]
               except urllib.error.HTTPError as e:
-                  out.append("HTTP xətası " + str(e.code) + ": " + e.read().decode()[:400])
+                  return model + ": HTTP " + str(e.code) + " - " + e.read().decode()[:200]
               except Exception as e:
-                  out.append("Xəta: " + str(e)[:300])
-              return None
+                  return model + ": XƏTA - " + str(e)[:150]
 
-          models = call(base + "/models?pageSize=200")
-          out.append("Flash modelləri:")
-          if models:
-              for m in models.get("models", []):
-                  if "generateContent" in m.get("supportedGenerationMethods", []):
-                      name = m["name"].replace("models/", "")
-                      if "flash" in name:
-                          out.append(" - " + name)
+          for model in ["gemini-flash-lite-latest", "gemini-2.5-flash-lite", "gemini-2.5-flash"]:
+              out.append(call(model))
 
-          model = "gemini-flash-latest"
-          out.append("Sınaq modeli: " + model)
-          r = call(
-              base + "/models/" + model + ":generateContent",
-              {"contents": [{"parts": [{"text": "Bir cümlə ilə cavab ver: Bakı hansı ölkənin paytaxtıdır?"}]}]},
-          )
-          if r:
-              try:
-                  out.append("Sınaq cavabı: " + r["candidates"][0]["content"]["parts"][0]["text"])
-              except Exception:
-                  out.append("Gözlənilməz cavab: " + json.dumps(r)[:300])
-
-          open("result.txt", "w", encoding="utf-8").write("\n".join(out)[:3500])
+          open("result.txt", "w", encoding="utf-8").write("\n\n".join(out)[:3500])
           EOF
 
       - name: Neticeni Telegrama gonder
