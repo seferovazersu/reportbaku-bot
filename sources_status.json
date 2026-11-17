@@ -1,7 +1,7 @@
 {
   "AZƏRTAC": {
     "url": "https://azertag.az/rss",
-    "state": "OK (49 təzə xəbər, HTTP 200)"
+    "state": "OK (46 təzə xəbər, HTTP 200)"
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
@@ -23,8 +23,32 @@
     "url": "https://azadliq.info/feed/",
     "state": "OK (0 təzə xəbər, HTTP 200)"
   },
-  "Statistika Komitəsi": {
-    "url": "https://stat.gov.az/rss/en",
+  "APA": {
+    "url": "https://apa.az/rss",
+    "state": "OK (50 təzə xəbər, HTTP 200)"
+  },
+  "Report.az": {
+    "url": "https://report.az/rss/",
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
+  },
+  "Trend.az": {
+    "url": "https://az.trend.az/rss",
+    "state": "OK (25 təzə xəbər, HTTP 301)"
+  },
+  "Qafqazinfo": {
+    "url": "https://qafqazinfo.az/rss",
+    "state": "OK (100 təzə xəbər, HTTP 200)"
+  },
+  "İctimai TV": {
+    "url": "https://ictimai.tv/rss",
     "state": "BOŞ/ÖLÜ (HTTP None)"
+  },
+  "Baku TV": {
+    "url": "https://baku.tv/rss",
+    "state": "OK (50 təzə xəbər, HTTP 200)"
+  },
+  "Xəzər Xəbər": {
+    "url": "https://xezerxeber.az/rss",
+    "state": "OK (50 təzə xəbər, HTTP 301)"
   }
 }
