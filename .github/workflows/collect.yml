@@ -17,8 +17,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Kitabxanaları qur
-        run: pip install feedparser beautifulsoup4
+      - name: Şrift və kitabxanaları qur
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-inter
+          pip install feedparser beautifulsoup4 pillow requests
 
       - name: Xəbərləri topla
         run: python collect_news.py
@@ -26,10 +29,14 @@ jobs:
       - name: AI ilə post mətnlərini hazırla
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_MODEL: gemini-flash-lite-latest
         run: python process_news.py
+
+      - name: Şəkilləri hazırla və Telegram-a göndər
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python build_posts.py
 
       - name: Nəticəni repoda saxla
         run: |
