@@ -45,12 +45,23 @@ PROMPT = (
     "4. Mənbədəki 'Bakı, 17 noyabr, AZƏRTAC' kimi başlanğıc qeydlərini və agentlik adlarını yazma.\n"
     "5. headline: ən çox 12 söz, 90 simvoldan çox olmasın, məlumat verən tam fikir olsun, sonda nöqtə qoyma.\n"
     "6. summary: 2-3 qısa cümlə, cəmi 300 simvoldan çox olmasın.\n"
-    "7. category: bu siyahıdan yalnız birini seç: " + ", ".join(CATEGORIES) + ".\n"
+    "7. category: bu siyahıdan yalnız birini seç: " + ", ".join(CATEGORIES) + ". "
+    "Hava proqnozu CƏMİYYƏT sayılır.\n"
     "8. highlight: headline-dakı 1-3 əsas sözü (ad, rəqəm, açar söz) headline-da necə yazılıbsa, "
     "eyni cür yaz.\n"
-    "9. Mətn xəbər deyilsə (reklam, elan, kifayət qədər məlumat yoxdur), skip: true qaytar.\n\n"
+    "9. Mətn xəbər deyilsə (reklam, elan, kifayət qədər məlumat yoxdur), skip: true qaytar.\n"
+    "10. Azərbaycan ədəbi dilinin qrammatikasına diqqət et: felləri, hal şəkilçilərini və cümlə "
+    "quruluşunu düzgün işlət. Yazdıqdan sonra mətni bir daha oxuyub səhvləri düzəlt.\n"
+    "11. İDDİA VƏ İTTİHAMLAR: mənbədə bir tərəfin iddiası, ittihamı, ittiham aktı, şübhəsi və ya "
+    "ifadəsi varsa, onu sübut olunmuş fakt kimi yazma. Aid etməni mütləq saxla "
+    "('ittihama görə', 'iddiaya görə', 'bildirilib'). Heç kimi təqsirli adlandırma.\n"
+    "12. Cinayət, qəza, məhkəmə, müharibə və toqquşma xəbərlərində adi şəxslərin (şübhəli, "
+    "zərərçəkmiş, şahid, uşaq) adlarını yazma. Yalnız vəzifəli rəsmi şəxslərin və tanınmış "
+    "ictimai şəxslərin adlarını yaz.\n"
+    "13. sensitive: cinayət, qəza, ölüm, məhkəmə, silahlı toqquşma, ordu, sağlamlıq iddiaları və ya "
+    "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
-    '"headline": "...", "summary": "...", "highlight": ["..."]}'
+    '"headline": "...", "summary": "...", "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
 
@@ -81,10 +92,17 @@ def parse_json(raw):
     return json.loads(raw)
 
 
-def ask_gemini(item, text):
-    prompt = (
-        PROMPT
-        + "\n\nMƏNBƏ: " + item["source"]
+def ask_gemini(item, text, previous):
+    prompt = PROMPT
+    if previous:
+        prompt += (
+            "\n\nARTIQ HAZIRLANMIŞ XƏBƏRLƏRİN BAŞLIQLARI:\n- "
+            + "\n- ".join(previous)
+            + "\nƏgər bu xəbər yuxarıdakılardan biri ilə eyni hadisədən və ya eyni mövzudan "
+            "bəhs edirsə, skip: true qaytar."
+        )
+    prompt += (
+        "\n\nMƏNBƏ: " + item["source"]
         + "\nBAŞLIQ: " + item["title"]
         + "\nMƏTN:\n" + text
     )
@@ -146,6 +164,7 @@ def main():
 
     items = json.loads(IN_FILE.read_text(encoding="utf-8"))
     drafts = []
+    previous = []  # artıq hazırlanmış başlıqlar (təkrarları tutmaq üçün)
 
     for i, item in enumerate(items, 1):
         print("%d/%d [%s] %s" % (i, len(items), item["source"], item["title"]))
@@ -159,10 +178,10 @@ def main():
             print("  Mətn çox qısadır, buraxılır.")
             continue
 
-        res = ask_gemini(item, text)
+        res = ask_gemini(item, text, previous)
         time.sleep(PAUSE_SECONDS)
         if not res or res.get("skip"):
-            print("  AI bu xəbəri buraxdı.")
+            print("  AI bu xəbəri buraxdı (reklam, məlumat azlığı və ya təkrar).")
             continue
 
         headline = str(res.get("headline", "")).strip().rstrip(".")
@@ -178,6 +197,7 @@ def main():
             print("  Boş cavab, buraxılır.")
             continue
 
+        sensitive = bool(res.get("sensitive"))
         draft = {
             "category": category,
             "headline": headline,
@@ -185,12 +205,15 @@ def main():
             "highlight": highlight,
             "source_note": "Mənbə: " + item["source"],
             "link": item["link"],
+            "sensitive": sensitive,
         }
         drafts.append(draft)
+        previous.append(headline)
 
+        warning = "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl mənbə ilə diqqətlə yoxla\n\n" if sensitive else ""
         send_telegram(
-            "[%s]\n%s\n\n%s\n\n%s\n%s"
-            % (category, headline, summary, draft["source_note"], item["link"])
+            "%s[%s]\n%s\n\n%s\n\n%s\n%s"
+            % (warning, category, headline, summary, draft["source_note"], item["link"])
         )
 
     OUT_FILE.write_text(json.dumps(drafts, ensure_ascii=False, indent=2), encoding="utf-8")
