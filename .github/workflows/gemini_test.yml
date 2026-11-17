@@ -1,0 +1,51 @@
+name: Gemini test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Modelleri goster ve sinaq et
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request, urllib.error
+
+          key = os.environ.get("GEMINI_API_KEY", "")
+          print("Açar var:", bool(key))
+          base = "https://generativelanguage.googleapis.com/v1beta"
+
+          def call(url, body=None):
+              data = json.dumps(body).encode() if body else None
+              req = urllib.request.Request(
+                  url, data=data,
+                  headers={"x-goog-api-key": key, "Content-Type": "application/json"},
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  print("HTTP xətası", e.code, e.read().decode()[:500])
+                  return None
+
+          models = call(base + "/models?pageSize=200")
+          print("generateContent dəstəkləyən flash modelləri:")
+          if models:
+              for m in models.get("models", []):
+                  if "generateContent" in m.get("supportedGenerationMethods", []):
+                      name = m["name"].replace("models/", "")
+                      if "flash" in name:
+                          print(" -", name)
+
+          model = "gemini-flash-latest"
+          print("Sınaq modeli:", model)
+          r = call(
+              f"{base}/models/{model}:generateContent",
+              {"contents": [{"parts": [{"text": "Bir cümlə ilə cavab ver: Bakı hansı ölkənin paytaxtıdır?"}]}]},
+          )
+          if r:
+              print("Sınaq cavabı:", r["candidates"][0]["content"]["parts"][0]["text"])
+          EOF
