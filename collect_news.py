@@ -27,7 +27,14 @@ FEEDS = [
     ("Day.az", "https://news.day.az/rss/"),
     ("Sia.az", "https://sia.az/feed.php"),
     ("Azadlıq", "https://azadliq.info/feed/"),
-    ("Statistika Komitəsi", "https://stat.gov.az/rss/en"),
+    # --- Yeni: ünvanlar hələ yoxlanmayıb ---
+    ("APA", "https://apa.az/rss"),
+    ("Report.az", "https://report.az/rss/"),
+    ("Trend.az", "https://az.trend.az/rss"),
+    ("Qafqazinfo", "https://qafqazinfo.az/rss"),
+    ("İctimai TV", "https://ictimai.tv/rss"),
+    ("Baku TV", "https://baku.tv/rss"),
+    ("Xəzər Xəbər", "https://xezerxeber.az/rss"),
 ]
 
 TARGET_COUNT = int(os.getenv("TARGET_COUNT", "6"))   # gündə/seansda neçə xəbər
