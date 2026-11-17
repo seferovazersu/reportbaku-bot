@@ -1,67 +1,61 @@
 [
   {
-    "category": "SİYASƏT",
-    "headline": "Böyük Britaniya Azərbaycanı etibarlı tərəfdaş hesab edir",
-    "summary": "Böyük Britaniya Azərbaycanı mürəkkəb bölgədə vacib iqtisadi və siyasi tərəfdaş kimi dəyərləndirir. London gələcəkdə də sıx əməkdaşlığın davam etdirilməsində maraqlıdır.",
+    "category": "İDMAN",
+    "headline": "İrlandiyalı boksçu Li Rivz 31 yaşında vəfat etdi",
+    "summary": "Avqust ayında keçirilən döyüşdə beyin zədəsi alan idmançı xəstəxanada əməliyyat olunmuşdu. Komaya salınan boksçunun vəziyyəti sonradan yaxşılaşsa da, sağalma prosesində yaranan infeksiya onun ölümünə səbəb olub.",
+    "highlight": [
+      "Li Rivz"
+    ],
+    "source_note": "Mənbə: Publika",
+    "link": "https://publika.az/news/idman/648796.html",
+    "sensitive": true
+  },
+  {
+    "category": "İQTİSADİYYAT",
+    "headline": "Böyük Britaniya Azərbaycanda qeyri-neft sektoruna sərmayələri artırır",
+    "summary": "Böyük Britaniya Azərbaycanın ən iri xarici sərmayəçisi olaraq qalır. Britaniya şirkətləri ölkədə rəqəmsal infrastruktur, təmiz enerji və yüksək texnologiyalar istiqamətlərində fəaliyyətlərini genişləndirirlər.",
     "highlight": [
       "Böyük Britaniya",
       "Azərbaycan"
     ],
     "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/politics/1874928.html"
-  },
-  {
-    "category": "HADİSƏ",
-    "headline": "Noyabrın 18-də gözlənilən hava proqnozu açıqlanıb",
-    "summary": "Bakıda və Abşeron yarımadasında havanın dəyişkən buludlu, əsasən yağmursuz olacağı, gecə isə bəzi yerlərdə az yağış yağacağı gözlənilir. Ölkənin rayonlarında da əsasən yağmursuz hava şəraiti proqnozlaşdırılır, gündüz Naxçıvanda yağıntı, dağlıq zonada isə qar yağacağı ehtimalı var.",
-    "highlight": [
-      "Noyabrın 18-də"
-    ],
-    "source_note": "Mənbə: Qafqazinfo",
-    "link": "https://www.qafqazinfo.az/news/detail/sabah-hava-nece-olacaq-528789"
+    "link": "https://news.day.az/economy/1874931.html",
+    "sensitive": false
   },
   {
     "category": "SİYASƏT",
-    "headline": "Kamran Əliyev Buenos-Ayresdə beynəlxalq əməkdaşlıqdan danışıb",
-    "summary": "Baş prokuror Kamran Əliyevin rəhbərlik etdiyi nümayəndə heyəti Argentinada Beynəlxalq Prokurorlar Assosiasiyasının iclasında qatılıb. Tədbirdə qurumun fəaliyyəti və beynəlxalq əlaqələrin genişləndirilməsi müzakirə olunub.",
+    "headline": "Hikmət Hacıyev Avropa Birliyinin xüsusi nümayəndəsi ilə görüş keçirib",
+    "summary": "Azərbaycan Prezidentinin köməkçisi Hikmət Hacıyev Avropa Birliyinin Cənubi Qafqaz üzrə xüsusi nümayəndəsi Maqdalena Qrono ilə bir araya gəlib. Tərəflər ikitərəfli tərəfdaşlıq əlaqələrini, regional və beynəlxalq prosesləri, eləcə də əməkdaşlığın genişləndirilməsi imkanlarını müzakirə ediblər.",
     "highlight": [
-      "Kamran Əliyev",
-      "Buenos-Ayresdə"
+      "Hikmət Hacıyev",
+      "Avropa Birliyinin"
     ],
     "source_note": "Mənbə: Sia.az",
-    "link": "https://sia.az/az/news/politics/1374642.html"
+    "link": "https://sesqazeti.az/news/politics/1374645.html",
+    "sensitive": false
   },
   {
-    "category": "HADİSƏ",
-    "headline": "Sabah Bakıda və rayonlarda gözlənilən hava proqnozu",
-    "summary": "Paytaxtda hava şəraitinin dəyişkən buludlu olacağı, gecə isə bəzi şəhərətrafı ərazilərdə az yağış yağacağı ehtimal edilir. Ölkənin digər rayonlarında əsasən yağmursuz hava müşahidə olunacaq, gündüz Naxçıvanın bəzi yerlərində yağıntı, dağlıq ərazilərdə isə qar gözlənilir.",
+    "category": "İDMAN",
+    "headline": "Kunqfu Sanda üzrə XXXII Azərbaycan Çempionatı keçirilib",
+    "summary": "Sərhədçi İdman Olimpiya Mərkəzində təşkil olunan yarışda 65 klubdan 450-dən çox idmançı mübarizə aparıb. İki gün davam edən çempionatda Cavad İdman Klubu ölkə üzrə birinci yerə layiq görülüb.",
     "highlight": [
-      "Bakıda",
-      "hava proqnozu"
+      "Kunqfu Sanda",
+      "XXXII Azərbaycan Çempionatı"
     ],
-    "source_note": "Mənbə: Xəzər Xəbər",
-    "link": "https://xezerxeber.az/az/cemiyyet/sabah-yagis-yagacaq-proqnoz-3"
-  },
-  {
-    "category": "HADİSƏ",
-    "headline": "Zəngəzurda saxlanılan Nəsimi Musayevin ittiham aktı açıqlandı",
-    "summary": "Azərbaycan hərbçisi Nəsimi Musayev Şəki kəndinə keçərək altı dəfə atəş açıb və sakin Ani Avetisyanı yaralayıb. Bu hadisə ilə əlaqədar onun işi üzrə ittiham aktı ictimaiyyətə təqdim edilib.",
-    "highlight": [
-      "Nəsimi Musayev",
-      "Zəngəzur"
-    ],
-    "source_note": "Mənbə: Oxu.az",
-    "link": "https://oxu.az/siyaset/ermenistana-kecen-azerbaycanli-herbcinin-isi-uzre-ittiham-akti-aciqlandi"
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/kunqfu-sanda-uzre-xxxii-azerbaycan-cempionati-ve-birinciliyi-kecirilib-fotolar-528790",
+    "sensitive": false
   },
   {
     "category": "SİYASƏT",
-    "headline": "London və Bakı hərbi və təhlükəsizlik sahəsində əməkdaşlığı artırır",
-    "summary": "Böyük Britaniya və Azərbaycan müdafiə, kibertəhlükəsizlik və birgə hərbi hazırlıq istiqamətində əlaqələri genişləndirir. Səfir Dunkan Norman bu tərəfdaşlığın ən iddialı proqram olduğunu və ağır cinayətkarlıqla mübarizədə də birgə çalışıldıqlarını bildirib.",
+    "headline": "Almaniya Azərbaycanla əlaqələri yeni strateji təməl üzərində qurur",
+    "summary": "Almaniyanın xarici işlər naziri Yohan Vadeful Cənubi Qafqazın dönüş nöqtəsində olduğunu və bölgədə sülhə nail olmaq üçün tarixi şans yarandığını bildirib. O qeyd edib ki, ötən il sülh sazişinin paraflanması əhəmiyyətli mərhələdir.",
     "highlight": [
-      "London",
-      "Bakı"
+      "Almaniya",
+      "Azərbaycan"
     ],
-    "source_note": "Mənbə: Trend.az",
-    "link": "https://az.trend.az/azerbaijan/politics/4247341.html"
+    "source_note": "Mənbə: AZƏRTAC",
+    "link": "https://azertag.az/xeber/yohan_vadeful_almaniya_azerbaycanla_munasibetlerini_yeni_strateji_esas_uzerinde_qurub-4512504",
+    "sensitive": false
   }
 ]
