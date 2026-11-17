@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Modelleri goster ve sinaq et
+      - name: Modelleri yoxla
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -15,7 +15,7 @@ jobs:
           import json, os, urllib.request, urllib.error
 
           key = os.environ.get("GEMINI_API_KEY", "")
-          print("Açar var:", bool(key))
+          out = ["Açar var: " + str(bool(key))]
           base = "https://generativelanguage.googleapis.com/v1beta"
 
           def call(url, body=None):
@@ -28,24 +28,41 @@ jobs:
                   with urllib.request.urlopen(req, timeout=60) as r:
                       return json.loads(r.read())
               except urllib.error.HTTPError as e:
-                  print("HTTP xətası", e.code, e.read().decode()[:500])
-                  return None
+                  out.append("HTTP xətası " + str(e.code) + ": " + e.read().decode()[:400])
+              except Exception as e:
+                  out.append("Xəta: " + str(e)[:300])
+              return None
 
           models = call(base + "/models?pageSize=200")
-          print("generateContent dəstəkləyən flash modelləri:")
+          out.append("Flash modelləri:")
           if models:
               for m in models.get("models", []):
                   if "generateContent" in m.get("supportedGenerationMethods", []):
                       name = m["name"].replace("models/", "")
                       if "flash" in name:
-                          print(" -", name)
+                          out.append(" - " + name)
 
           model = "gemini-flash-latest"
-          print("Sınaq modeli:", model)
+          out.append("Sınaq modeli: " + model)
           r = call(
-              f"{base}/models/{model}:generateContent",
+              base + "/models/" + model + ":generateContent",
               {"contents": [{"parts": [{"text": "Bir cümlə ilə cavab ver: Bakı hansı ölkənin paytaxtıdır?"}]}]},
           )
           if r:
-              print("Sınaq cavabı:", r["candidates"][0]["content"]["parts"][0]["text"])
+              try:
+                  out.append("Sınaq cavabı: " + r["candidates"][0]["content"]["parts"][0]["text"])
+              except Exception:
+                  out.append("Gözlənilməz cavab: " + json.dumps(r)[:300])
+
+          open("result.txt", "w", encoding="utf-8").write("\n".join(out)[:3500])
           EOF
+
+      - name: Neticeni Telegrama gonder
+        if: always()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s --fail-with-body -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            --data-urlencode "text@result.txt"
