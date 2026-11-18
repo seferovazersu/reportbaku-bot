@@ -1,0 +1,125 @@
+name: Reels konteyner testi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Şrift, ffmpeg və kitabxanalar
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-inter ffmpeg
+          pip install pillow requests
+
+      - name: Sınaq videosunu yarat
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import build_video as b
+          res = b.make_video(
+              "SİYASƏT",
+              "Sınaq videosu: bu Reels paylaşılmayacaq",
+              "Instagram-a yükləmə yoxlanılır. Bu video yalnız texniki sınaq üçündür və paylaşılmayacaq.",
+              "Mənbə: sınaq", "test_reel.mp4", highlight=["Sınaq"])
+          print(res)
+          if not res:
+              raise SystemExit(1)
+          EOF
+          ls -la test_reel.mp4
+
+      - name: Videonu media budağına yüklə
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/media && mkdir /tmp/media
+          cp test_reel.mp4 /tmp/media/
+          cd /tmp/media
+          git init -q -b media
+          git config user.name "reportbaku-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add test_reel.mp4
+          git commit -q -m "media"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f -q origin media
+
+      - name: Instagram Reels konteynerini yoxla
+        env:
+          IG_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          IG_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, time, urllib.parse, urllib.request, urllib.error
+
+          token = os.environ["IG_TOKEN"]
+          uid = os.environ["IG_USER_ID"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          url = "https://raw.githubusercontent.com/" + repo + "/media/test_reel.mp4"
+          out = ["Video linki: " + url]
+
+          ok = False
+          for i in range(6):
+              try:
+                  req = urllib.request.Request(url, headers={"Range": "bytes=0-99"})
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      out.append("Link: HTTP %s, növ: %s, Accept-Ranges: %s, ölçü: %s" % (
+                          r.status, r.headers.get("Content-Type"), r.headers.get("Accept-Ranges"),
+                          r.headers.get("Content-Range") or r.headers.get("Content-Length")))
+                      ok = True
+                      break
+              except Exception as e:
+                  out.append("Link cəhd %d: %s" % (i + 1, str(e)[:80]))
+                  time.sleep(10)
+
+          def call(method, endpoint, params):
+              data = urllib.parse.urlencode(params).encode() if method == "POST" else None
+              q = "" if method == "POST" else "?" + urllib.parse.urlencode(params)
+              req = urllib.request.Request(
+                  "https://graph.facebook.com/" + endpoint + q, data=data, method=method)
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  return {"HTTP": e.code, "cavab": e.read().decode()[:400]}
+              except Exception as e:
+                  return {"XETA": str(e)[:200]}
+
+          if ok:
+              res = call("POST", uid + "/media", {
+                  "media_type": "REELS", "video_url": url,
+                  "caption": "Sınaq (paylaşılmır)", "access_token": token})
+              out.append("Konteyner: " + json.dumps(res, ensure_ascii=False)[:400])
+              cid = res.get("id")
+              if cid:
+                  t0 = time.time()
+                  for i in range(40):
+                      time.sleep(8)
+                      st = call("GET", cid, {"fields": "status_code,status", "access_token": token})
+                      out.append("Status (%d san.): %s" % (time.time() - t0, json.dumps(st, ensure_ascii=False)[:200]))
+                      if st.get("status_code") in ("FINISHED", "ERROR", "EXPIRED"):
+                          break
+          out.append("Paylaşım əmri (media_publish) çağırılmadı.")
+
+          open("result.txt", "w", encoding="utf-8").write("\n".join(out)[-3500:])
+          EOF
+
+      - name: Neticeni Telegrama gonder
+        if: always()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s --fail-with-body -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            --data-urlencode "text@result.txt"
