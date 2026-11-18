@@ -1,0 +1,102 @@
+name: Instagram konteyner testi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Şrift və kitabxana
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-inter
+          pip install pillow
+
+      - name: Sınaq şəklini yarat
+        run: |
+          mkdir -p test
+          python3 -c "from make_post import make_post; make_post(None, 'SİYASƏT', 'Sınaq şəkli: bu post paylaşılmayacaq', 'Instagram bağlantısı yoxlanılır. Bu şəkil yalnız texniki sınaq üçündür.', 'test/test_post.jpg', 'overlay', ['Sınaq'], 'Mənbə: sınaq')"
+
+      - name: Şəkli repoya yüklə
+        run: |
+          git config user.name "reportbaku-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add test/test_post.jpg
+          git commit -m "sinaq sekli" || true
+          git push
+
+      - name: Instagram konteynerini yoxla
+        env:
+          IG_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          IG_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, time, urllib.parse, urllib.request, urllib.error
+
+          token = os.environ["IG_TOKEN"]
+          uid = os.environ["IG_USER_ID"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          url = "https://raw.githubusercontent.com/" + repo + "/main/test/test_post.jpg"
+          out = ["Şəkil linki: " + url]
+
+          ok = False
+          for i in range(6):
+              try:
+                  with urllib.request.urlopen(url, timeout=30) as r:
+                      out.append("Link: HTTP %s, növ: %s, ölçü: %s bayt" % (
+                          r.status, r.headers.get("Content-Type"), r.headers.get("Content-Length")))
+                      ok = True
+                      break
+              except Exception as e:
+                  out.append("Link cəhd %d: %s" % (i + 1, str(e)[:80]))
+                  time.sleep(10)
+
+          def call(method, endpoint, params):
+              data = urllib.parse.urlencode(params).encode() if method == "POST" else None
+              q = "" if method == "POST" else "?" + urllib.parse.urlencode(params)
+              req = urllib.request.Request(
+                  "https://graph.facebook.com/" + endpoint + q, data=data, method=method)
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  return {"HTTP": e.code, "cavab": e.read().decode()[:400]}
+              except Exception as e:
+                  return {"XETA": str(e)[:200]}
+
+          if ok:
+              res = call("POST", uid + "/media", {
+                  "image_url": url, "caption": "Sınaq (paylaşılmır)", "access_token": token})
+              out.append("Konteyner: " + json.dumps(res, ensure_ascii=False)[:400])
+              cid = res.get("id")
+              if cid:
+                  for i in range(6):
+                      time.sleep(8)
+                      st = call("GET", cid, {"fields": "status_code,status", "access_token": token})
+                      out.append("Status: " + json.dumps(st, ensure_ascii=False)[:200])
+                      if st.get("status_code") in ("FINISHED", "ERROR", "EXPIRED"):
+                          break
+          out.append("Paylaşım əmri (media_publish) çağırılmadı.")
+
+          open("result.txt", "w", encoding="utf-8").write("\n".join(out)[:3500])
+          EOF
+
+      - name: Neticeni Telegrama gonder
+        if: always()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s --fail-with-body -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            --data-urlencode "text@result.txt"
