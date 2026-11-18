@@ -1,27 +1,28 @@
 [
   {
-    "category": "DÜNYA",
-    "headline": "Avropa rəsmiləri Trampın Putin və Si ilə görüşündən narahatdır",
-    "summary": "CNN-in məlumatına görə, Avropa rəsmiləri ABŞ prezidenti Donald Trampın Rusiya və Çin liderləri ilə mümkün razılaşmalarından narahatlıq keçirirlər. Diplomatlar bu təmasların regionun təhlükəsizliyinə mənfi təsir edə biləcəyini bildiriblər.",
+    "category": "İQTİSADİYYAT",
+    "headline": "Azərbaycanda Prezident təqaüdü alanların sayı açıqlandı",
+    "summary": "Dövlət Statistika Komitəsi tərəfindən ölkədə müxtəlif kateqoriyalar üzrə təqaüd alan şəxslərin sayı bildirilib. Məlumata əsasən, 407,6 min nəfərə Prezidentin təqaüdü və fəxri adlara görə təqaüd təyin olunub.",
+    "caption_text": "Dövlət Statistika Komitəsinin yaydığı məlumata görə, müxtəlif kateqoriyadan olan 407,6 min şəxsə Azərbaycan Respublikası Prezidentinin təqaüdü və fəxri adlara görə təqaüd təyin edilib. Açıqlamada hazırkı təqaüd məbləğləri də qeyd olunub. Belə ki, “Xalq” fəxri adı üçün 300 manat, “Əməkdar” fəxri adı üçün 200 manat, Prezidentin fərdi təqaüdü üçün 1700 manat müəyyənləşdirilib. Həmçinin ali təhsil müəssisələrinə qəbul imtahanlarında ən yüksək nəticə göstərərək Prezident təqaüdünə layiq görülən tələbələrə aylıq 350 manat verilir.",
     "highlight": [
-      "Tramp",
-      "Putin",
-      "Si"
+      "Prezident təqaüdü"
     ],
     "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/avropa/648961.html",
+    "link": "https://publika.az/news/sosial/649013.html",
     "sensitive": false
   },
   {
-    "category": "İQTİSADİYYAT",
-    "headline": "Azərbaycanda çipslərə aksiz vergisinin tətbiqi ehtimal olunur",
-    "summary": "Vergi Məcəlləsinə təklif olunan dəyişikliklərə əsasən, çipslərin aksizli malların siyahısına daxil edilməsi nəzərdə tutulur. Bu məsələ Milli Məclisin iclasının müzakirəsinə çıxarılıb.",
+    "category": "SİYASƏT",
+    "headline": "Almaniyanın xarici işlər naziri İohann Vadeful Ermənistana səfər edib",
+    "summary": "Almaniyanın XİN rəhbəri Azərbaycandakı səfərini başa vuraraq İrəvana yollanıb. Səfər marşrutu Gürcüstan hava məkanından keçməklə reallaşıb.",
+    "caption_text": "Almaniyanın xarici işlər naziri İohann Vadeful Azərbaycandakı ikigünlük səfərindən sonra İrəvana səfər edib.\n\n\"Flightradar24\" platformasının təqdim etdiyi məlumata əsasən, Almaniya Hərbi Hava Qüvvələrinə məxsus \"Airbus A350-900\" markalı təyyarə Bakıdan Gürcüstanın hava məkanından keçməklə İrəvana çatıb. Xatırladaq ki, nazir noyabrın 17-18-də Azərbaycanda səfərdə olub.",
     "highlight": [
-      "Azərbaycanda",
-      "çipslərə"
+      "İohann Vadeful",
+      "Ermənistana",
+      "Almaniyanın"
     ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/society/1875191.html",
+    "source_note": "Mənbə: Trend.az",
+    "link": "https://az.trend.az/azerbaijan/politics/4247888.html",
     "sensitive": false
   }
 ]
