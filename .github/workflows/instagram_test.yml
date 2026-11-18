@@ -1,0 +1,51 @@
+name: Instagram test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instagram-i yoxla
+        env:
+          IG_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          IG_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.parse, urllib.request, urllib.error
+
+          token = os.environ.get("IG_TOKEN", "")
+          uid = os.environ.get("IG_USER_ID", "")
+          out = ["Token var: " + str(bool(token)), "ID var: " + str(bool(uid))]
+
+          def get(host, path, fields):
+              q = urllib.parse.urlencode({"fields": fields, "access_token": token})
+              url = "https://" + host + "/" + path + "?" + q
+              try:
+                  with urllib.request.urlopen(url, timeout=40) as r:
+                      return "OK " + r.read().decode()[:300]
+              except urllib.error.HTTPError as e:
+                  return "HTTP " + str(e.code) + " " + e.read().decode()[:300]
+              except Exception as e:
+                  return "XƏTA " + str(e)[:200]
+
+          out.append("1) graph.facebook.com / ID:")
+          out.append(get("graph.facebook.com", uid, "username,media_count"))
+          out.append("2) graph.instagram.com / ID:")
+          out.append(get("graph.instagram.com", uid, "username,media_count"))
+          out.append("3) graph.facebook.com / me:")
+          out.append(get("graph.facebook.com", "me", "id,name"))
+
+          open("result.txt", "w", encoding="utf-8").write("\n".join(out)[:3500])
+          EOF
+
+      - name: Neticeni Telegrama gonder
+        if: always()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s --fail-with-body -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            --data-urlencode "text@result.txt"
