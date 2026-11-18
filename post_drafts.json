@@ -1,14 +1,26 @@
 [
   {
-    "category": "İDMAN",
-    "headline": "AVRO-2028-in seçmə mərhələsində Azərbaycan millisinin yerləşdiyi səbət bəlli olub",
-    "summary": "Millətlər Liqasının qrup mərhələsi bitdikdən sonra AVRO-2028-in seçmə mərhələsinin püşkatma səbətləri müəyyənləşib. Azərbaycan yığması təsnifat mərhələsində mübarizəyə beşinci səbətdən qatılacaq.",
+    "category": "İQTİSADİYYAT",
+    "headline": "Almaniya rəsmisi Azərbaycanın Avropanın enerji təchizatındakı rolunu vurğulayıb",
+    "summary": "Almaniyanın xarici işlər naziri İohann Vadeful Bakıda azərbaycanlı həmkarı Ceyhun Bayramovla keçirilən birgə brifinqdə respublikanın Avropanın enerji təminatında mühüm rol oynadığını bildirib. Bu barədə məlumat paylaşılan xəbərdə qeyd olunub.",
     "highlight": [
-      "AVRO-2028-in",
+      "Almaniya",
       "Azərbaycan"
     ],
-    "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/idman/648956.html",
+    "source_note": "Mənbə: Day.az",
+    "link": "https://news.day.az/economy/1875178.html",
+    "sensitive": false
+  },
+  {
+    "category": "CƏMİYYƏT",
+    "headline": "Astara Pedaqoji Kollecində Milli Dirçəliş Günü qeyd olunub",
+    "summary": "Təhsil müəssisəsində Milli Dirçəliş Gününə həsr olunan tədbir təşkil edilib. Toplantıda xalqımızın azadlıq mübarizəsinin tarixi əhəmiyyəti diqqətə çatdırılıb.",
+    "highlight": [
+      "Astara Pedaqoji Kollecində",
+      "Milli Dirçəliş Günü"
+    ],
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sesqazeti.az/news/politics/1374884.html",
     "sensitive": false
   }
 ]
