@@ -72,7 +72,8 @@ def pick_photo(headline):
 
 def build_caption(d):
     """Instagram-da görünəcək mətn."""
-    parts = [d["headline"], d["summary"], d.get("source_note", ""), HASHTAGS]
+    body = d.get("caption_text") or d["summary"]
+    parts = [d["headline"], body, d.get("source_note", ""), HASHTAGS]
     return "\n\n".join(p for p in parts if p)
 
 
@@ -99,6 +100,19 @@ def send_photo(path, caption, post_id):
     except Exception as e:
         print("  Telegram xətası:", str(e)[:150])
         return False
+
+
+def send_text(text):
+    if not (TG_TOKEN and TG_CHAT):
+        return
+    try:
+        requests.post(
+            "https://api.telegram.org/bot%s/sendMessage" % TG_TOKEN,
+            data={"chat_id": TG_CHAT, "text": text[:4000], "disable_web_page_preview": "true"},
+            timeout=60,
+        )
+    except Exception as e:
+        print("  Telegram xətası:", str(e)[:150])
 
 
 def main():
@@ -142,9 +156,10 @@ def main():
         pending.append(entry)
 
         warn = "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl mənbə ilə yoxla\n\n" if entry["sensitive"] else ""
-        tg_caption = "%s%s\n\n%s\n\n%s\n%s" % (
-            warn, d["headline"], d["summary"], d.get("source_note", ""), d.get("link", ""))
+        tg_caption = "%s%s\n\n%s\n%s" % (
+            warn, d["headline"], d.get("source_note", ""), d.get("link", ""))
         send_photo(str(out), tg_caption, post_id)
+        send_text("📝 Instagram-da görünəcək mətn (yuxarıdakı şəklin altında):\n\n" + entry["caption"])
 
     PENDING_FILE.write_text(json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\nTəsdiq gözləyən yeni postlar: %d" % len(drafts))

@@ -64,9 +64,14 @@ PROMPT = (
     "əlaqələri yeni təməl üzərində qurur' yox, 'Almaniyanın xarici işlər naziri əlaqələrin yeni "
     "təməl üzərində qurulduğunu bildirib'. Mənbədə olmayan qiymətləndirmə əlavə etmə.\n"
     "14. sensitive: cinayət, qəza, ölüm, məhkəmə, silahlı toqquşma, ordu, sağlamlıq iddiaları və ya "
-    "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n\n"
+    "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n"
+    "15. caption: Instagram yazısı üçün ətraflı mətn: 2-3 qısa abzas, cəmi 4-6 cümlə, təxminən "
+    "500-900 simvol. Əvvəl əsas xəbəri, sonra mənbədəki təfərrüatları (kim, harada, nə vaxt, "
+    "rəqəmlər, kontekst) yaz. Yalnız mənbədə olan faktlardan istifadə et, öz sözlərinlə yaz, "
+    "başlığı və xülasəni təkrar etmə, boş ifadələrlə uzatma. Mənbədə məlumat azdırsa, daha qısa "
+    "yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma. Qayda 11-13 bu mətnə də aiddir.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
-    '"headline": "...", "summary": "...", "highlight": ["..."], "sensitive": false}'
+    '"headline": "...", "summary": "...", "caption": "...", "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
 
@@ -195,10 +200,9 @@ def main():
         print("%d/%d [%s] %s" % (i, len(items), item["source"], item["title"]))
 
         text = item.get("snippet", "")
-        if item.get("needs_fulltext"):
-            full = fetch_article_text(item["link"])
-            if len(full) > len(text):
-                text = full
+        full = fetch_article_text(item["link"])   # ətraflı yazı üçün tam mətn lazımdır
+        if len(full) > len(text):
+            text = full
         if len(text) < MIN_TEXT:
             print("  Mətn çox qısadır, buraxılır.")
             continue
@@ -223,10 +227,12 @@ def main():
             continue
 
         sensitive = bool(res.get("sensitive"))
+        caption_text = str(res.get("caption", "")).strip()[:1500]
         draft = {
             "category": category,
             "headline": headline,
             "summary": summary,
+            "caption_text": caption_text or summary,
             "highlight": highlight,
             "source_note": "Mənbə: " + item["source"],
             "link": item["link"],
