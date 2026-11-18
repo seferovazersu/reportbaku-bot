@@ -1,0 +1,87 @@
+name: Ses testi
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ffmpeg və kitabxana
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          pip install requests
+
+      - name: Səsləri yarat və Telegram-a göndər
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 - <<'EOF'
+          import base64, json, os, re, subprocess, time
+          import requests
+
+          KEY = os.environ["GEMINI_API_KEY"]
+          TG = os.environ["TELEGRAM_TOKEN"]
+          CHAT = os.environ["TELEGRAM_CHAT_ID"]
+          MODELS = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview",
+                    "gemini-3.8-flash-lite-tts", "gemini-2.5-flash-preview-tts"]
+          VOICES = ["Kore", "Charon"]
+          TEXT = ("Salam, bu ReportBaku xəbər səhifəsinin səs sınağıdır. "
+                  "Bakıda bu gün hava dəyişkən buludlu olacaq, gecə isə bəzi yerlərdə az yağış gözlənilir. "
+                  "Hadisələrin doğru üzü.")
+          PROMPT = ("Read the following Azerbaijani text aloud in a calm, serious news-anchor voice, "
+                    "with clear and natural Azerbaijani pronunciation:\n" + TEXT)
+          report = []
+
+          def tg_text(t):
+              requests.post("https://api.telegram.org/bot%s/sendMessage" % TG,
+                            data={"chat_id": CHAT, "text": t[:3500]}, timeout=60)
+
+          n = 0
+          for model in MODELS:
+              for voice in VOICES:
+                  n += 1
+                  label = "%s / %s" % (model, voice)
+                  body = {
+                      "contents": [{"parts": [{"text": PROMPT}]}],
+                      "generationConfig": {
+                          "responseModalities": ["AUDIO"],
+                          "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}},
+                      },
+                  }
+                  url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model
+                  t0 = time.time()
+                  try:
+                      r = requests.post(url, json=body, headers={"x-goog-api-key": KEY}, timeout=150)
+                  except Exception as e:
+                      report.append("%s: XƏTA %s" % (label, type(e).__name__))
+                      continue
+                  if not r.ok:
+                      report.append("%s: HTTP %s %s" % (label, r.status_code, r.text[:160].replace("\n", " ")))
+                      time.sleep(8)
+                      continue
+                  try:
+                      part = r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]
+                      pcm = base64.b64decode(part["data"])
+                      m = re.search(r"rate=(\d+)", part.get("mimeType", ""))
+                      rate = m.group(1) if m else "24000"
+                      open("a.pcm", "wb").write(pcm)
+                      subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", rate,
+                                      "-ac", "1", "-i", "a.pcm", "-c:a", "libopus", "-b:a", "48k", "a.ogg"],
+                                     check=True)
+                      with open("a.ogg", "rb") as f:
+                          rr = requests.post("https://api.telegram.org/bot%s/sendVoice" % TG,
+                                             data={"chat_id": CHAT, "caption": label},
+                                             files={"voice": f}, timeout=90)
+                      sec = len(pcm) / 2 / int(rate)
+                      report.append("%s: OK, %.1f san. audio, hazırlanma %.0f san., Telegram: %s" % (
+                          label, sec, time.time() - t0, "göndərildi" if rr.ok else "xəta"))
+                  except Exception as e:
+                      report.append("%s: cavab oxunmadı (%s) %s" % (label, type(e).__name__, r.text[:120].replace("\n", " ")))
+                  time.sleep(8)
+
+          tg_text("Səs testi bitdi:\n\n" + "\n".join(report))
+          EOF
