@@ -1,0 +1,39 @@
+name: Duymeleri yoxla
+
+# Hər 5 dəqiqədən bir Telegram-da Paylaş / Ləğv et düymələrinə baxır.
+# GitHub vaxtı bəzən gecikdirə bilər (5-15 dəqiqə). Əl ilə də işə salmaq olar.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reportbaku-state
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Düymələri emal et
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: python3 poll_approvals.py
+
+      - name: Vəziyyəti saxla
+        if: always()
+        run: |
+          git config user.name "reportbaku-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if [ -e pending.json ]; then git add pending.json; fi
+          git diff --staged --quiet || git commit -m "post statusu"
+          git pull --rebase --autostash
+          git push
