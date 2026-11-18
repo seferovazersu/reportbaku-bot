@@ -1,60 +1,25 @@
 [
   {
-    "category": "SİYASƏT",
-    "headline": "Azərbaycan ilə Böyük Britaniya arasında strateji tərəfdaşlıq imzalandı",
-    "summary": "Azərbaycan və Böyük Britaniya arasında strateji tərəfdaşlıq haqqında birgə bəyannamə imzalanıb. Sənəd iki ölkə arasındakı münasibətləri yeni səviyyəyə qaldırır.",
-    "highlight": [
-      "Azərbaycan",
-      "Böyük Britaniya"
-    ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sia.az/az/news/politics/1374747.html",
-    "sensitive": false
-  },
-  {
     "category": "İQTİSADİYYAT",
-    "headline": "Azərbaycanda saatlıq əməkhaqqı sisteminin tətbiqi gözlənilir",
-    "summary": "Milli Məclisin iclasında müzakirə olunan Əmək Məcəlləsinə dəyişikliyə əsasən, ölkədə saatlıq əməkhaqqı mexanizmi yaradılır. Layihə qısamüddətli müqavilələr və az saatlı iş rejimləri üçün yeni ödəniş qaydalarını ehtiva edir.",
+    "headline": "Azərbaycanda pensiyaçıların sayı azalıb",
+    "summary": "Dövlət Statistika Komitəsinin məlumatına əsasən, 2026-cı il oktyabrın 1-nə ölkədə 1 milyon 94,2 min pensiyaçı qeydiyyatdadır. Ötən ilin eyni dövrü ilə müqayisədə pensiyaçıların sayı azalıb, orta aylıq pensiyanın məbləği isə artıb.",
     "highlight": [
-      "saatlıq əməkhaqqı"
+      "pensiyaçıların sayı azalıb"
     ],
-    "source_note": "Mənbə: Qafqazinfo",
-    "link": "https://www.qafqazinfo.az/news/detail/saatliq-emekhaqqi-sistemi-tetbiq-edilecek-528823",
-    "sensitive": false
-  },
-  {
-    "category": "İQTİSADİYYAT",
-    "headline": "DSMF-nin 2027-ci il büdcə layihəsi birinci oxunuşda təsdiqlənib",
-    "summary": "Milli Məclisin noyabrın 17-də keçirilən iclasında müvafiq qanun layihəsi parlament müzakirəsinə çıxarılıb. Sənəd birinci oxunuşda qəbul olunub.",
-    "highlight": [
-      "DSMF",
-      "2027-ci il"
-    ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/azerinews/1875014.html",
-    "sensitive": false
-  },
-  {
-    "category": "İQTİSADİYYAT",
-    "headline": "Azərbaycan bazar iqtisadiyyatının dayanıqlılığı göstəricilərini yaxşılaşdırıb",
-    "summary": "Avropa Yenidənqurma və İnkişaf Bankının hesabatına əsasən, Azərbaycan 2016-cı illə müqayisədə bazar iqtisadiyyatının dayanıqlılığı göstəricilərini yaxşılaşdırıb. Ölkənin rəqabət qabiliyyəti, dövlət idarəçiliyi, ekoloji dayanıqlılıq, inklüzivlik, eləcə də sarsıntılara davamlılıq meyarları üzrə nəticələri artıb.",
-    "highlight": [
-      "Azərbaycan"
-    ],
-    "source_note": "Mənbə: Trend.az",
-    "link": "https://az.trend.az/business/4247506.html",
+    "source_note": "Mənbə: Xəzər Xəbər",
+    "link": "https://xezerxeber.az/az/cemiyyet/pensiyacilarin-sayi-azaldi",
     "sensitive": false
   },
   {
     "category": "HADİSƏ",
-    "headline": "Litvalı kursantlar Vətən müharibəsi əməliyyatları ilə tanış olub",
-    "summary": "Litva Hərbi Akademiyasının nümayəndə heyəti Azərbaycana səfər edib. Qonaqlara Vətən müharibəsində icra olunan əməliyyatlar və hərbi dərslər barədə məlumat verilib.",
+    "headline": "Bakıda tanışının evində kişinin meyiti tapılıb",
+    "summary": "Sabunçu rayonunun Maştağa qəsəbəsində yerləşən evlərdən birində 58 yaşlı kişinin meyiti aşkar edilib. Məlumata görə, həmin şəxsin nəşi dostuna məxsus evin hamam otağında tapılıb və faktla bağlı rayon prokurorluğu tərəfindən araşdırma aparılır.",
     "highlight": [
-      "Litvalı kursantlar",
-      "Vətən müharibəsi"
+      "Bakıda",
+      "meyiti tapılıb"
     ],
-    "source_note": "Mənbə: APA",
-    "link": "https://apa.az/military/litvali-kursantlar-veten-muharibesinde-icra-olunan-emeliyyatlar-barede-melumatlandirilib-1014683",
-    "sensitive": false
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/dostunun-evinde-oldu-528911",
+    "sensitive": true
   }
 ]

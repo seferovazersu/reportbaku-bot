@@ -1,11 +1,11 @@
 {
   "AZƏRTAC": {
     "url": "https://azertag.az/rss",
-    "state": "OK (49 təzə xəbər, HTTP 200)"
+    "state": "OK (50 təzə xəbər, HTTP 200)"
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (200 təzə xəbər, HTTP 200)"
+    "state": "OK (192 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -41,6 +41,6 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (50 təzə xəbər, HTTP 301)"
+    "state": "OK (42 təzə xəbər, HTTP 301)"
   }
 }
