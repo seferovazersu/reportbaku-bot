@@ -10,6 +10,7 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timedelta, timezone
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -43,7 +44,7 @@ PROMPT = (
     "2. Mənbənin cümlələrini köçürmə. Hər şeyi öz sözlərinlə, yeni cümlə quruluşu ilə yaz.\n"
     "3. Üslub: ciddi, aydın, neytral, qısa. Emosional, şişirdilmiş və klikbeyt ifadələr olmasın.\n"
     "4. Mənbədəki 'Bakı, 17 noyabr, AZƏRTAC' kimi başlanğıc qeydlərini və agentlik adlarını yazma.\n"
-    "5. headline: ən çox 12 söz, 90 simvoldan çox olmasın, məlumat verən tam fikir olsun, sonda nöqtə qoyma.\n"
+    "5. headline: ən çox 14 söz, 100 simvoldan çox olmasın, məlumat verən tam fikir olsun, sonda nöqtə qoyma.\n"
     "6. summary: 2-3 qısa cümlə, cəmi 300 simvoldan çox olmasın.\n"
     "7. category: bu siyahıdan yalnız birini seç: " + ", ".join(CATEGORIES) + ". "
     "Hava proqnozu CƏMİYYƏT sayılır.\n"
@@ -58,12 +59,36 @@ PROMPT = (
     "12. Cinayət, qəza, məhkəmə, müharibə və toqquşma xəbərlərində adi şəxslərin (şübhəli, "
     "zərərçəkmiş, şahid, uşaq) adlarını yazma. Yalnız vəzifəli rəsmi şəxslərin və tanınmış "
     "ictimai şəxslərin adlarını yaz.\n"
-    "13. sensitive: cinayət, qəza, ölüm, məhkəmə, silahlı toqquşma, ordu, sağlamlıq iddiaları və ya "
+    "13. KİM DEDİ: rəsmi şəxsin, qurumun və ya təşkilatın fikri, qiymətləndirməsi, proqnozu və ya vədi "
+    "varsa, onu fakt kimi yazma, kimin dediyini göstər və başlıqda da saxla. Məsələn, 'Almaniya "
+    "əlaqələri yeni təməl üzərində qurur' yox, 'Almaniyanın xarici işlər naziri əlaqələrin yeni "
+    "təməl üzərində qurulduğunu bildirib'. Mənbədə olmayan qiymətləndirmə əlavə etmə.\n"
+    "14. sensitive: cinayət, qəza, ölüm, məhkəmə, silahlı toqquşma, ordu, sağlamlıq iddiaları və ya "
     "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
     '"headline": "...", "summary": "...", "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
+
+
+def recent_headlines(hours=72):
+    """Son 72 saatda hazırlanmış başlıqlar (təkrarları günlər arası da tutmaq üçün)."""
+    f = Path("pending.json")
+    if not f.exists():
+        return []
+    try:
+        items = json.loads(f.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    now = datetime.now(timezone.utc)
+    out = []
+    for p in items:
+        try:
+            if now - datetime.fromisoformat(p["created"]) <= timedelta(hours=hours):
+                out.append(p["headline"])
+        except Exception:
+            continue
+    return out[-40:]
 
 
 def fetch_article_text(url):
@@ -164,7 +189,7 @@ def main():
 
     items = json.loads(IN_FILE.read_text(encoding="utf-8"))
     drafts = []
-    previous = []  # artıq hazırlanmış başlıqlar (təkrarları tutmaq üçün)
+    previous = recent_headlines()  # artıq hazırlanmış başlıqlar (təkrarları tutmaq üçün)
 
     for i, item in enumerate(items, 1):
         print("%d/%d [%s] %s" % (i, len(items), item["source"], item["title"]))
