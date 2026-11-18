@@ -1,25 +1,27 @@
 [
   {
     "category": "DÜNYA",
-    "headline": "İsrail parlamentində spiker vəzifəsinə müxalifətin namizədi seçilib",
-    "summary": "İsrail parlamentində keçirilən səsvermədə müxalifət namizədi Knessetin yeni spikeri olub. Qadi Ayzenkotun müttəfiqi Matan Kahana 120 deputatdan 66-sının səsini qazanıb.",
+    "headline": "İngiltərə Ukraynaya hava hücumundan müdafiə raketləri göndərəcək",
+    "summary": "İngiltərə Müdafiə Nazirliyinin bəyanatına əsasən, Ukraynanın müdafiə qabiliyyətini gücləndirmək üçün 240 milyon funt-sterlinq dəyərində mindən çox hava hücumundan müdafiə raketi tədarük olunacaq. Həmçinin hərbi yardım paketinə hava hücumundan müdafiə radarlarının da daxil ediləcəyi bildirilib.",
     "highlight": [
-      "İsrail"
+      "İngiltərə",
+      "Ukrayna"
     ],
     "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/neareast/648949.html",
-    "sensitive": false
+    "link": "https://publika.az/news/dunya/648950.html",
+    "sensitive": true
   },
   {
-    "category": "HADİSƏ",
-    "headline": "Ölkə ərazisində cinayətdə şübhəli bilinən 62 nəfər saxlanılıb",
-    "summary": "Noyabrın 17-də polis tərəfindən ümumilikdə 52 cinayətin üstü açılıb. Həmçinin aparılan axtarışlar nəticəsində 116 nəfər tutularaq təhvil verilib.",
+    "category": "SİYASƏT",
+    "headline": "Azərbaycan və Almaniya XİN başçıları ikitərəfli əlaqələri müzakirə ediblər",
+    "summary": "Azərbaycan və Almaniya xarici işlər nazirləri ikitərəfli tərəfdaşlığın perspektivlərini və regional prosesləri nəzərdən keçiriblər. Tərəflər enerji, ticarət və digər sahələrdə əməkdaşlığın genişləndirilməsi imkanlarını dəyərləndiriblər.",
     "highlight": [
-      "cinayətdə şübhəli bilinən",
-      "62 nəfər"
+      "Azərbaycan",
+      "Almaniya",
+      "XİN başçıları"
     ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/azerinews/1875146.html",
-    "sensitive": true
+    "source_note": "Mənbə: Xəzər Xəbər",
+    "link": "https://xezerxeber.az/az/gundem/xi-n-bascilari-azerbaycan-almaniya-munasibetlerini-muzakire-edibler",
+    "sensitive": false
   }
 ]
