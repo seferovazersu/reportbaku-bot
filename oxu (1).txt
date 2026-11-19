@@ -1,0 +1,233 @@
+================================================================================
+REPORTBAKU - INSTAGRAM XƏBƏR SƏHİFƏSİNİN AVTOMATLAŞDIRMASI
+oxu.txt  |  Son yenilənmə: 19 noyabr 2026 (axşam)
+================================================================================
+
+Bu fayl layihənin nə olduğunu, nə işləyib-işləmədiyini, hansı fayl nə üçündür və
+necə davam etmək lazım olduğunu izah edir. Hər yenilənmədən sonra bu fayl da
+yenilənir. İçində şifrə və token YOXDUR (yalnız adları yazılıb).
+
+--------------------------------------------------------------------------------
+1. LAYİHƏ HAQQINDA
+--------------------------------------------------------------------------------
+- Səhifə: instagram.com/reportbaku  (Professional hesab)
+- Ad: ReportBaku, loqo: RB simvolu
+- Şüar: HADİSƏLƏRİN DOĞRU ÜZÜ.
+- Rənglər: tünd göy (9,24,56), ağ, qırmızı (yalnız vurğu), elektrik mavisi (46,125,255)
+- Üslub: premium, ciddi, müstəqil, müasir rəqəmsal xəbər platforması (BBC/CNN rəsmiliyi yox)
+- Şrift: Inter (Bold/ExtraBold/Regular/SemiBold)
+- Məqsəd: gündə 5-7 xəbəri avtomatik tapıb, qısa orijinal mətn və şəkil/video ilə
+  hazırlamaq; hər biri paylaşımdan əvvəl Telegram-da təsdiqə gəlir (Paylaş / Ləğv et).
+- Yalnız pulsuz alətlər istifadə olunur.
+
+--------------------------------------------------------------------------------
+2. HAZIR VƏZİYYƏT (19.11.2026)
+--------------------------------------------------------------------------------
+İŞLƏYİR (canlı sınaqdan keçib):
+  [x] RSS-dən xəbər toplama (bax: bölmə 8)
+  [x] Gemini ilə qısa başlıq, xülasə, uzun Instagram mətni (caption), səsləndirmə mətni
+  [x] Şəkil postu: 2 şablon (overlay / panel) növbələşir, 1080x1350
+  [x] Telegram-da təsdiq: ✅ Paylaş / 🎬 Reels paylaş / ❌ Ləğv et düymələri
+  [x] Instagram-a şəkil postu paylaşımı (ilk real post paylaşılıb)
+  [x] Reels videosu: Gemini TTS səsi (Kore), animasiyalı başlıq, altyazı parçaları, 1080x1920
+  [x] Instagram-a Reels paylaşımı (ilk real Reels paylaşılıb, Reels bölməsində və lentdə göründü)
+  [x] "Həssas mövzu" xəbərdarlığı, təkrar xəbərlərin süzülməsi (günlər arası da)
+  [x] Hər işə salmada 2 Reels + 1 foto post bölgüsü (19.11-də canlı sınaqdan keçib)
+  [x] Videonun uzunluğu xəbərə görə dəyişir (12-45 san.), altyazı səsə uyğun gəlir (19.11)
+
+19.11-DƏ ƏLAVƏ OLUNUB (hələ canlı sınanmayıb):
+  [ ] Dövlət qurumlarının abreviaturaları səsdə tam oxunur (FHN -> Fövqəladə Hallar Nazirliyi və s.)
+  [ ] Mənbə siyahısı dəyişdi: müxalif saytlar çıxarıldı; televiziya saytları və dövlət qurumlarının
+      saytları əlavə olundu (bax: bölmə 8)
+  [ ] Mənbələr paralel yoxlanılır (sürətli)
+
+HƏLƏ EDİLMƏYİB (plan):
+  [ ] Videonun üstündə mövzuya uyğun kiçik pəncərədə foto/video (Pexels stok və ya öz kitabxana)
+  [ ] "Mənə video göndər" axını (Telegram-a göndərilən video + mənbə/icazə sahələri)
+  [ ] Avtomatik cədvəl (gündə 5 dəfə) - hələ yalnız əl ilə işə salınır
+  [ ] Xəbərin əhəmiyyətinə görə seçim (bir neçə saytda yazılan xəbərə üstünlük)
+
+--------------------------------------------------------------------------------
+3. NECƏ İŞLƏYİR (AXIN)
+--------------------------------------------------------------------------------
+  Actions -> "Xeber topla" (əl ilə işə salınır)
+    1. collect_news.py     RSS-dən xəbər toplayır, təkrarları və reklamı süzür, 4 xəbər seçir
+    2. process_news.py     Gemini mətnləri yazır; xəbərin tam mətnini oxuyur (yalnız anlamaq üçün)
+    3. build_posts.py      xəbərləri bölür: 2 Reels (növbə) + 1 foto post (şəkil + Telegram)
+    4. build_videos.py     növbədəki Reels-lər üçün video hazırlayır, Telegram-a göndərir
+    5. media_sync.py       videoları "media" budağına qoyur (Instagram oradan götürür)
+    6. state commit        pending.json və s. repo-da saxlanır
+
+  Actions -> "Duymeleri yoxla" (hər ~5 dəqiqədən bir avtomatik; əl ilə də işə salmaq olar)
+    - poll_approvals.py: Telegram-da basılan düymələrə baxır
+    - ✅/🎬 basılıbsa: Instagram-a yükləyir, hazır olanda paylaşır, Telegram mesajını yeniləyir
+    - ❌ basılıbsa: postu ləğv edir
+    - 12 saatdan köhnə xəbər paylaşılmır ("VAXTI KEÇİB")
+    - Eyni post ikinci dəfə paylaşıla bilməz (status pending.json-da saxlanır)
+
+  Qeyd: düymə basıldıqdan sonra cavab dərhal gəlmir (5-15 dəqiqə). GitHub cədvəli bəzən gecikdirir.
+
+--------------------------------------------------------------------------------
+4. FAYLLAR
+--------------------------------------------------------------------------------
+Skriptlər (repo-nun kök qovluğunda):
+  collect_news.py     RSS mənbələri, süzgəc, seçim. "auto" mənbələrin RSS-ini səhifədən tapır.
+  process_news.py     Gemini prompt-u: başlıq, xülasə, caption, voiceover, kateqoriya, həssaslıq.
+                      Qaydalar: yalnız mənbədəki fakt, köçürmə yox, "kim dedi" göstər, iddia fakt
+                      kimi yazılmasın, adi şəxslərin adı yazılmasın, qrammatika.
+  build_posts.py      format bölgüsü (Reels/foto), şəkil yaratma, Telegram-a foto göndərmə,
+                      pending.json qeydləri.
+  build_videos.py     Reels videolarının hazırlanması və Telegram-a göndərilməsi.
+  build_video.py      video generatoru (TTS, altyazı, animasiya, ffmpeg) və ABBREVIATIONS lüğəti
+                      (FHN, XİN, DİN... səsdə tam oxunsun; yeni abreviatur əlavə etmək üçün lüğətə sətir yazın).
+                      Sınaq: `python build_video.py --demo`
+  make_post.py        şəkil generatoru (loqo, şablonlar, şrift, Bakı siluet fonu).
+  poll_approvals.py   düymə emalı və Instagram-a paylaşım (şəkil və Reels).
+  media_sync.py       "media" budağındakı köhnə videoları (48 saatdan köhnə) silir.
+
+İş axınları (.github/workflows/):
+  collect.yml         "Xeber topla" - əsas axın (əl ilə)
+  poll.yml            "Duymeleri yoxla" - hər 5 dəqiqə
+  telegram_test.yml, ses_testi.yml, video_testi.yml, reels_testi.yml,
+  instagram_container_test.yml   - sınaq iş axınları (lazım olanda əl ilə işlədilir)
+
+Digər:
+  assets/             profile_reportbaku.png (Instagram profil şəkli), logo_rb.png, nümunə postlar
+  photos/             (ixtiyari) öz fotolarınız - skript fonda istifadə edəcək. Yalnız lisenziyalı/öz fotolar!
+  pending.json        postların vəziyyəti (pending/published/cancelled/expired/queued/failed/check)
+  seen.json           artıq seçilmiş xəbərlərin linkləri (təkrarın qarşısı)
+  selected_news.json, post_drafts.json, sources_status.json   son işləmənin ara nəticələri
+  posts/              yaradılmış şəkillər (3 gündən sonra silinir)
+  "media" budağı      yaradılmış videolar (hər dəfə sıfırdan yazılır, repo şişmir)
+
+--------------------------------------------------------------------------------
+5. GİZLİ AÇARLAR (GitHub -> Settings -> Secrets and variables -> Actions)
+--------------------------------------------------------------------------------
+Yalnız adlar. Dəyərləri heç yerdə, heç kimlə paylaşmayın (söhbət, fayl, repo).
+  TELEGRAM_TOKEN       BotFather-dən alınan bot tokeni
+  TELEGRAM_CHAT_ID     sizin Telegram söhbət ID-niz
+  GEMINI_API_KEY       Google AI Studio açarı (pulsuz plan)
+  INSTAGRAM_TOKEN      Meta system-user tokeni (müddəti bitmir, güclüdür!)
+  INSTAGRAM_USER_ID    Instagram hesabının rəqəmli ID-si
+  (gələcəkdə) PEXELS_API_KEY   Pexels stok video/foto açarı
+
+Təhlükəsizlik: INSTAGRAM_TOKEN-in icazələri geniş şablondandır (ads_management, ads_read,
+instagram_basic, instagram_content_publish, instagram_manage_comments, instagram_manage_messages).
+Sızıb-sızmadığından şübhələnsəniz: Meta developer panelindən tokeni ləğv edin, yenisini yaradın,
+GitHub Secrets-də dəyişin.
+
+--------------------------------------------------------------------------------
+6. META / INSTAGRAM QURULUMU (qeyd)
+--------------------------------------------------------------------------------
+- Instagram hesabı Professional olmalıdır, açıq (public) olmalıdır.
+- Meta developer tətbiqi: "ReportBaku Poster" (Development rejimi, App review tələb olunmur).
+- Tətbiqdə: Instagram məhsulu -> "API setup with Unified login" -> konfiqurasiya
+  "Instagram API (Birleşik Giriş)", token növü "System-user access token", müddət "Never".
+- reportbaku hesabı Instagram Tester kimi əlavə olunub, dəvət qəbul olunub.
+- API ünvanı: graph.facebook.com (graph.instagram.com bu token ilə İŞLƏMİR).
+- Şəkil paylaşımı: /media (image_url) -> status FINISHED -> /media_publish
+- Reels paylaşımı: /media (media_type=REELS, video_url, share_to_feed=true) -> status FINISHED
+  (təxminən 1 dəqiqə) -> /media_publish
+- Media faylları açıq linklə verilməlidir: şəkillər main budağından, videolar "media" budağından
+  (raw.githubusercontent.com). Bu səbəbdən repo PUBLIC-dir.
+
+--------------------------------------------------------------------------------
+7. QAYDALAR VƏ HÜQUQİ MƏQAMLAR (redaksiya)
+--------------------------------------------------------------------------------
+- Hər xəbəri paylaşmazdan əvvəl mənbə linkindən yoxlayın, xüsusilə siyasi və həssas mövzularda.
+- Xəbər mətni köçürülmür: AI öz sözləri ilə yazır, altda "Mənbə: ..." göstərilir.
+- İddia/ittiham fakt kimi yazılmır; rəsmi şəxsin fikri kimin dediyi ilə verilir.
+- Cinayət/qəza/məhkəmə xəbərlərində adi şəxslərin adları yazılmır.
+- Həssas mövzu (qəza, ölüm, məhkəmə, ordu, sağlamlıq iddiaları): "⚠️ HƏSSAS MÖVZU" işarəsi,
+  bunlar üçün Reels hazırlanmır, yalnız foto post təklif olunur.
+- Fotolar: yalnız öz çəkdiyiniz və ya lisenziyalı (Unsplash/Pexels). Instagram səhifələrindən,
+  başqa saytlardan şəkil/video köçürmək OLMAZ.
+- Başqasının videosunu icazəsiz paylaşmaq müəllif hüququnu pozur. Sizə göndərilən videoda göndərənin
+  icazəsi və mənbə/tarix/yerin yoxlanması vacibdir. Qəza yerindən görüntülərdə yaralı/ölmüş insanlar
+  Instagram qaydalarını pozur və qurbanların ləyaqətinə toxunur.
+- Səsləndirmə: dövlət qurumlarının və beynəlxalq təşkilatların abreviaturaları səsdə tam adı ilə
+  oxunur. Şəkilçili formaları (məs. XİN-in) AI tam yazır; səhv oxunan olsa, bildirin.
+- Mən (AI köməkçi) hüquqşünas deyiləm; hüquqi suallar üçün hüquqşünasla məsləhətləşin.
+
+--------------------------------------------------------------------------------
+8. XƏBƏR MƏNBƏLƏRİ (RSS)
+--------------------------------------------------------------------------------
+SİYASƏT (sahibinin qərarı, 19.11.2026): müxalif saytlar mənbə olmasın. Çıxarılıb: Musavat.com,
+BBC Azərbaycanca, Azadlıq Radiosu (azadliq.org) və adı oxşar olduğu üçün azadliq.info
+(son 24 saatda xəbər vermirdi, lazım olarsa geri qaytarılır).
+Qeyd: redaksiyanın "müstəqil" üslubu və yalnız dövlət/yaxın mənbələrə əsaslanmaq arasında fərq ola bilər.
+Hər xəbərdə "kim dedi" qaydası saxlanılır ki, rəsmi fikirlər fakt kimi yazılmasın.
+
+İşləyir (19.11.2026 yoxlaması): AZƏRTAC, Oxu.az, Publika, Day.az, Sia.az, APA, Trend.az, Qafqazinfo,
+  Xəzər Xəbər, Haqqin.az, Metbuat.az, Minval.az.
+Baku TV: 19.11 axşamı işlədi (64 xəbər). Haqqin.az: eyni gün 403 verdi (GitHub serverini bəzən bloklayır, gedib-gələ bilər).
+Çıxarılıb (RSS yoxdur/bağlıdır): Report.az (403), Statistika Komitəsi, Milli.az, 1news.az, Modern.az, Interfax.az.
+
+RSS-i OLMAYAN saytlar (20.11-də əlavə olundu, "html" rejimi, hələ canlı sınanmayıb):
+  AzTV, Baku.ws, İctimai TV, DİN, FHN, AYNA, Müdafiə, XİN, Sərhəd Xidməti, Təhsil, Səhiyyə, İqtisadiyyat, Prezident.az.
+  19.11 yoxlaması göstərdi ki, bu saytların heç birində RSS linki yoxdur ("RSS tapılmadı").
+  Yeni qayda: collect_news.py xəbər siyahısı səhifəsini açır, xəbər linklərini tapır (eyni sayt, uzun mətn, yolunda
+  rəqəm), hər linkin səhifəsindən başlığı (og:title), təsviri və tarixi oxuyur; 24 saatdan köhnəni atır.
+  robots.txt qadağan edirsə, həmin sayt/səhifə oxunmur. Tarixi tapılmayan xəbərlər qəbul olunur (sources_status.json-da
+  "tarixsiz: N" yazılır).
+  Siyahı səhifələrinin ünvanları FEEDS siyahısında dördüncü sütundadır. Mənim bildiyim dəqiq ünvanlar: aztv.az/az/all-news,
+  mia.gov.az/az/news/archive/, fhn.gov.az/az/melumatlar, ayna.gov.az/az/news. Digərləri ana səhifədir (təxmin).
+  Bu rejim ümumi qaydaya əsaslanır; hər saytın quruluşu fərqlidir. Hansı saytın işlədiyi sources_status.json-da görünəcək
+  ("OK/HTML", "xəbər linki tapılmadı", "SƏHİFƏ AÇILMADI"). İşləməyənin dəqiq xəbər bölməsi ünvanı lazımdır.
+X (Twitter) hesabları oxunmur (API pulludur və qaydalara ziddir).
+Dövlət qurumlarının saytlarındakı materialların istifadə şərtlərini yoxlayın (mənbə göstərilir).
+
+--------------------------------------------------------------------------------
+9. PARAMETRLƏR (collect.yml içində dəyişdirilir)
+--------------------------------------------------------------------------------
+  TARGET_COUNT=4       hər işləmədə seçilən namizəd xəbərlərin sayı
+  REELS_PER_RUN=2      hər işləmədə neçə Reels
+  POSTS_PER_RUN=1      hər işləmədə neçə foto post
+  MAX_AGE_HOURS        (collect_news.py, 24) xəbərin yaşı
+  MAX_AGE_HOURS        (poll, 12) təsdiqdən sonra paylaşıla bilən maksimum yaş
+  GEMINI_MODEL=gemini-flash-lite-latest   mətn modeli
+  TTS_MODELS=gemini-3.1-flash-tts-preview,gemini-3.8-flash-lite-tts,gemini-3.8-flash-tts
+  TTS_VOICE=Kore       diktor səsi
+  HASHTAGS             caption-ın sonundakı heştaqlar (build_posts.py-də standart: #ReportBaku #xəbər #Azərbaycan #Bakı)
+
+--------------------------------------------------------------------------------
+10. BİLİNƏN MƏHDUDİYYƏTLƏR VƏ RİSKLƏR
+--------------------------------------------------------------------------------
+- Gemini TTS "preview" modeldir; Google dəyişə/silə bilər. Ehtiyat modellər siyahıda var.
+- gemini-2.5 modelləri yeni istifadəçilər üçün bağlanıb; pulsuz limitlər dəyişə bilər.
+- GitHub cədvəli gecikə bilər; 60 gün repo fəaliyyəti olmazsa, cədvəlli iş axınları söndürülə bilər.
+- AI səhv və ya yanlış qrammatika yarada bilər: təsdiqdən əvvəl oxuyun.
+- Video altyazısının vaxtı təxminidir (simvol sayına görə), söz-söz dəqiq deyil.
+- Telegram botları 20 MB-dan böyük faylı yükləyə bilmir (gələcək "video göndər" axınında vacib).
+- Reels emalı Instagram-da 1-6 dəqiqə çəkə bilər.
+
+--------------------------------------------------------------------------------
+11. PROBLEM HƏLLİ
+--------------------------------------------------------------------------------
+- Iş axını qırmızı ✗: Actions -> işə basın -> qırmızı addımı açın, son sətirlərə baxın.
+- "Re-run" düyməsi KÖHNƏ kodla işləyir; yeni kod üçün həmişə "Run workflow" ilə yeni iş başladın.
+- Telegram-a heç nə gəlmir: Secrets-i yoxlayın; "Telegram test" iş axınını işlədin.
+- Düyməyə basdım, dəyişiklik yoxdur: "Duymeleri yoxla"nı əl ilə işlədin (5-15 dəqiqə gecikə bilər).
+- "Paylaşım alınmadı" mesajı: mətnində səbəb yazılır; düyməyə yenidən basmaq olar.
+- "NƏTİCƏ BƏLLİ DEYİL": Instagram profilinə baxın, paylaşılıbsa-paylaşılmayıbsa əl ilə yoxlayın.
+- Video gəlmədi: Gemini səs limiti/xətası ola bilər; Telegram-da "Video hazırlanmadı" mesajı gələcək.
+
+--------------------------------------------------------------------------------
+12. LOKAL PAPKA İLƏ GITHUB-IN SİNXRONU
+--------------------------------------------------------------------------------
+Əsas mənbə GitHub repo-sudur (reportbaku-bot). Lokal papka onun surətidir.
+Ən rahat yol: GitHub Desktop proqramı ilə repo-nu həmin papkaya "clone" etmək; sonra hər dəfə
+"Fetch origin" -> "Pull" basanda papka yenilənir (bot yeni nəticələr yazdıqca da).
+Bu fayldakı (oxu.txt) dəyişikliklər üçün yeni versiyanı GitHub-a yükləyin.
+
+--------------------------------------------------------------------------------
+13. YENİ SÖHBƏTDƏ DAVAM ETMƏK ÜÇÜN MƏTN (kopyalayıb yapışdırın)
+--------------------------------------------------------------------------------
+"ReportBaku Instagram xəbər səhifəsinin avtomatlaşdırmasını davam etdirirəm. Mən proqramçı deyiləm,
+addımları sadə və ardıcıl izah et, skrinşot əvəzinə sözlə cavab verəcəm. GitHub public repo:
+reportbaku-bot. Pipeline: RSS -> Gemini mətn -> şəkil/Reels -> Telegram təsdiqi -> Instagram
+(Meta Graph API, graph.facebook.com). Hazır və planlaşdırılan işlər üçün əlavə etdiyim oxu.txt
+faylına bax. İndi etmək istədiyim: ..."
+(oxu.txt faylını da söhbətə əlavə edin.)
+
+================================================================================
