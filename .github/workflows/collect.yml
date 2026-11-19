@@ -22,10 +22,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Şrift və kitabxanaları qur
+      - name: Şrift, ffmpeg və kitabxanaları qur
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-inter
+          sudo apt-get install -y -qq fonts-inter ffmpeg
           pip install feedparser beautifulsoup4 pillow requests
 
       - name: Xəbərləri topla
@@ -44,6 +44,38 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python build_posts.py
+
+      - name: Reels videolarını hazırla və Telegram-a göndər
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python build_videos.py
+
+      - name: Videoları media budağına göndər
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ls videos_out/*.mp4 >/dev/null 2>&1; then
+            REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            rm -rf /tmp/media
+            if git clone -q --depth 1 --branch media "$REMOTE" /tmp/media 2>/dev/null; then
+              rm -rf /tmp/media/.git
+            else
+              mkdir -p /tmp/media
+            fi
+            python3 media_sync.py /tmp/media videos_out
+            cd /tmp/media
+            git init -q -b media
+            git config user.name "reportbaku-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add -A
+            git commit -q -m "media"
+            git remote add origin "$REMOTE"
+            git push -f -q origin media
+          else
+            echo "Yeni video yoxdur."
+          fi
 
       - name: Nəticəni repoda saxla
         if: always()
