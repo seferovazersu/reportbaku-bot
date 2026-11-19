@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (191 təzə xəbər, HTTP 200)"
+    "state": "OK (188 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -37,7 +37,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (70 təzə xəbər, HTTP 200)"
+    "state": "OK (61 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
