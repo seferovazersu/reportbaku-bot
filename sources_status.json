@@ -1,11 +1,11 @@
 {
   "AZƏRTAC": {
     "url": "https://azertag.az/rss",
-    "state": "OK (49 təzə xəbər, HTTP 200)"
+    "state": "OK (50 təzə xəbər, HTTP 200)"
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (177 təzə xəbər, HTTP 200)"
+    "state": "OK (174 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -19,10 +19,6 @@
     "url": "https://sia.az/feed.php",
     "state": "OK (25 təzə xəbər, HTTP 200)"
   },
-  "Azadlıq": {
-    "url": "https://azadliq.info/feed/",
-    "state": "OK (0 təzə xəbər, HTTP 200)"
-  },
   "APA": {
     "url": "https://apa.az/rss",
     "state": "OK (50 təzə xəbər, HTTP 200)"
@@ -35,52 +31,76 @@
     "url": "https://qafqazinfo.az/rss",
     "state": "OK (100 təzə xəbər, HTTP 200)"
   },
-  "Baku TV": {
-    "url": "https://baku.tv/rss",
-    "state": "OK (61 təzə xəbər, HTTP 200)"
-  },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (50 təzə xəbər, HTTP 301)"
-  },
-  "Milli.az": {
-    "url": "https://milli.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "OK (47 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
-    "url": "https://haqqin.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Musavat.com": {
-    "url": "https://musavat.com/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "1news.az": {
-    "url": "https://1news.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Modern.az": {
-    "url": "https://modern.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://haqqin.az/rss.xml",
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
     "state": "OK (50 təzə xəbər, HTTP 200)"
   },
-  "Interfax.az": {
-    "url": "https://interfax.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
   "Minval.az": {
     "url": "https://minval.az/feed/",
     "state": "OK (23 təzə xəbər, HTTP 301)"
   },
-  "BBC Azərbaycanca": {
-    "url": "https://www.bbc.com/azeri",
+  "Baku TV": {
+    "url": "https://baku.tv/rss",
+    "state": "OK (64 təzə xəbər, HTTP 200)"
+  },
+  "İctimai TV": {
+    "url": "https://ictimai.tv/",
     "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
   },
-  "Azadlıq Radiosu": {
-    "url": "https://www.azadliq.org/api/",
-    "state": "OK (15 təzə xəbər, HTTP 200)"
+  "AzTV": {
+    "url": "https://aztv.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Baku.ws": {
+    "url": "https://baku.ws/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Daxili İşlər Nazirliyi": {
+    "url": "https://mia.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Fövqəladə Hallar Nazirliyi": {
+    "url": "https://fhn.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Azərbaycan Yerüstü Nəqliyyat Agentliyi": {
+    "url": "https://ayna.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Müdafiə Nazirliyi": {
+    "url": "https://mod.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Xarici İşlər Nazirliyi": {
+    "url": "https://mfa.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Dövlət Sərhəd Xidməti": {
+    "url": "https://dsx.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Təhsil Nazirliyi": {
+    "url": "https://edu.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Səhiyyə Nazirliyi": {
+    "url": "https://sehiyye.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "İqtisadiyyat Nazirliyi": {
+    "url": "https://economy.gov.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Prezident.az": {
+    "url": "https://president.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
   }
 }
