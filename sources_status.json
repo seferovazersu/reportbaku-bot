@@ -49,15 +49,15 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (62 təzə xəbər, HTTP 200)"
+    "state": "OK (61 təzə xəbər, HTTP 200)"
   },
   "AzTV": {
     "url": "https://aztv.az/az/all-news",
-    "state": "OK/HTML (12 xəbər, tarixsiz: 12)"
+    "state": "OK/HTML (11 xəbər, tarixsiz: 11)"
   },
   "Baku.ws": {
     "url": "https://baku.ws/",
-    "state": "OK/HTML (9 xəbər)"
+    "state": "OK/HTML (8 xəbər)"
   },
   "İctimai TV": {
     "url": "https://ictimai.tv/",
@@ -69,7 +69,7 @@
   },
   "Fövqəladə Hallar Nazirliyi": {
     "url": "https://fhn.gov.az/az/melumatlar",
-    "state": "OXUNDU (9 link), amma təzə xəbər tapılmadı"
+    "state": "OK/HTML (1 xəbər, tarixsiz: 1)"
   },
   "Azərbaycan Yerüstü Nəqliyyat Agentliyi": {
     "url": "https://ayna.gov.az/az/news",
@@ -89,7 +89,7 @@
   },
   "Təhsil Nazirliyi": {
     "url": "https://edu.gov.az/az",
-    "state": "OXUNDU (6 link), amma təzə xəbər tapılmadı"
+    "state": "SƏHİFƏ AÇILMADI: The read operation timed out"
   },
   "Səhiyyə Nazirliyi": {
     "url": "https://sehiyye.gov.az/",
