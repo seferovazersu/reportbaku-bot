@@ -26,6 +26,8 @@ TG_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
 VARIANTS = ["overlay", "panel"]
 HASHTAGS = os.getenv("HASHTAGS", "#ReportBaku #xəbər #Azərbaycan #Bakı")
+REELS_PER_RUN = int(os.getenv("REELS_PER_RUN", "2"))   # hər işə salmada neçə Reels
+POSTS_PER_RUN = int(os.getenv("POSTS_PER_RUN", "1"))   # hər işə salmada neçə foto post
 KEEP_DAYS_IMAGES = 3     # köhnə şəkillər bu qədər gündən sonra silinir
 KEEP_DAYS_RECORDS = 7    # qeydlər (təkrar yoxlaması üçün) bu qədər saxlanır
 
@@ -102,6 +104,18 @@ def send_photo(path, caption, post_id):
         return False
 
 
+def assign_formats(drafts):
+    """Xəbərləri formata bölür: həssas olmayanlar Reels üçün, qalanlar foto post üçün.
+    [(format, draft), ...] qaytarır."""
+    reels = [d for d in drafts if not d.get("sensitive")][:REELS_PER_RUN]
+    rest = [d for d in drafts if not any(d is r for r in reels)]
+    posts = rest[:POSTS_PER_RUN]
+    skipped = len(drafts) - len(reels) - len(posts)
+    if skipped > 0:
+        print("Artıq xəbərlər buraxıldı: %d" % skipped)
+    return [("reel", d) for d in reels] + [("post", d) for d in posts]
+
+
 def send_text(text):
     if not (TG_TOKEN and TG_CHAT):
         return
@@ -125,23 +139,48 @@ def main():
     pending = cleanup(load_pending())
     baku = datetime.now(timezone.utc) + timedelta(hours=4)
     stamp = baku.strftime("%Y%m%d-%H%M%S")
+    plan = assign_formats(drafts)
+    n_posts = n_reels = 0
 
-    for i, d in enumerate(drafts, 1):
-        post_id = "%s-%02d" % (stamp, i)
-        out = OUT_DIR / (post_id + ".jpg")
+    for i, (fmt, d) in enumerate(plan, 1):
+        base_id = "%s-%02d" % (stamp, i)
+        caption = build_caption(d)
+
+        if fmt == "reel":
+            # video sonrakı addımda (build_videos.py) hazırlanır
+            print("%d/%d REELS növbəsinə qoyuldu: %s" % (i, len(plan), d["headline"]))
+            pending.append({
+                "id": base_id + "-r",
+                "kind": "reel",
+                "created": datetime.now(timezone.utc).isoformat(),
+                "status": "queued",
+                "category": d["category"],
+                "headline": d["headline"],
+                "summary": d["summary"],
+                "voiceover": d.get("voiceover", ""),
+                "visual_keywords": d.get("visual_keywords", []),
+                "highlight": d.get("highlight", []),
+                "source_note": d.get("source_note", ""),
+                "link": d.get("link", ""),
+                "sensitive": False,
+                "video": "",
+                "caption": caption,
+            })
+            n_reels += 1
+            continue
+
+        out = OUT_DIR / (base_id + ".jpg")
         variant = VARIANTS[(len(pending)) % 2]
         photo = pick_photo(d["headline"])
-        print("%d/%d %s  [%s, foto: %s]" % (i, len(drafts), d["headline"], variant, photo or "yoxdur"))
-
+        print("%d/%d FOTO POST: %s  [%s, foto: %s]" % (i, len(plan), d["headline"], variant, photo or "yoxdur"))
         make_post(
             photo, d["category"], d["headline"], d["summary"], str(out),
             variant=variant,
             highlight=d.get("highlight", []),
             source_note=d.get("source_note", ""),
         )
-
         entry = {
-            "id": post_id,
+            "id": base_id,
             "created": datetime.now(timezone.utc).isoformat(),
             "status": "pending",
             "category": d["category"],
@@ -152,18 +191,19 @@ def main():
             "sensitive": bool(d.get("sensitive")),
             "highlight": d.get("highlight", []),
             "image": str(out).replace("\\", "/"),
-            "caption": build_caption(d),
+            "caption": caption,
         }
         pending.append(entry)
+        n_posts += 1
 
         warn = "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl mənbə ilə yoxla\n\n" if entry["sensitive"] else ""
         tg_caption = "%s%s\n\n%s\n%s" % (
             warn, d["headline"], d.get("source_note", ""), d.get("link", ""))
-        send_photo(str(out), tg_caption, post_id)
-        send_text("📝 Instagram-da görünəcək mətn (yuxarıdakı şəklin altında):\n\n" + entry["caption"])
+        send_photo(str(out), tg_caption, base_id)
+        send_text("📝 Instagram-da görünəcək mətn (yuxarıdakı şəklin altında):\n\n" + caption)
 
     PENDING_FILE.write_text(json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("\nTəsdiq gözləyən yeni postlar: %d" % len(drafts))
+    print("\nFoto post: %d, Reels növbəsi: %d" % (n_posts, n_reels))
 
 
 if __name__ == "__main__":

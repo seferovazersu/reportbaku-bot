@@ -15,10 +15,13 @@ import json
 import os
 import random
 import re
+import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
+from bs4 import BeautifulSoup
 
 # ---------------- Ayarlar ----------------
 FEEDS = [
@@ -34,6 +37,17 @@ FEEDS = [
     ("Qafqazinfo", "https://qafqazinfo.az/rss"),
     ("Baku TV", "https://baku.tv/rss"),
     ("Xəzər Xəbər", "https://xezerxeber.az/rss"),
+    # --- Yeni namizədlər: ana səhifədən RSS linkini özü tapır ("auto"). Nəticəni sources_status.json-da görəcəksiniz.
+    ("Milli.az", "https://milli.az/", "auto"),
+    ("Haqqin.az", "https://haqqin.az/", "auto"),
+    ("Musavat.com", "https://musavat.com/", "auto"),
+    ("1news.az", "https://1news.az/", "auto"),
+    ("Modern.az", "https://modern.az/", "auto"),
+    ("Metbuat.az", "https://metbuat.az/", "auto"),
+    ("Interfax.az", "https://interfax.az/", "auto"),
+    ("Minval.az", "https://minval.az/", "auto"),
+    ("BBC Azərbaycanca", "https://www.bbc.com/azeri", "auto"),
+    ("Azadlıq Radiosu", "https://www.azadliq.org/", "auto"),
 ]
 
 TARGET_COUNT = int(os.getenv("TARGET_COUNT", "6"))   # gündə/seansda neçə xəbər
@@ -83,16 +97,39 @@ def save_seen(seen):
     )
 
 
-def fetch_feed(name, url):
-    """Bir mənbəni oxuyur. (xəbərlər_siyahısı, vəziyyət_mətni) qaytarır."""
+def discover_feed(page_url):
+    """Saytın ana səhifəsindəki <link rel="alternate" type="application/rss+xml"> etiketindən RSS ünvanını tapır."""
+    try:
+        req = urllib.request.Request(page_url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            raw = r.read()
+            charset = r.headers.get_content_charset() or "utf-8"
+        soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
+        for link in soup.find_all("link", attrs={"rel": "alternate"}):
+            kind = (link.get("type") or "").lower()
+            href = link.get("href")
+            if href and ("rss" in kind or "atom" in kind):
+                return urllib.parse.urljoin(page_url, href)
+    except Exception:
+        pass
+    return None
+
+
+def fetch_feed(name, url, auto=False):
+    """Bir mənbəni oxuyur. (xəbərlər_siyahısı, vəziyyət_mətni, istifadə_olunan_url) qaytarır."""
+    if auto:
+        found = discover_feed(url)
+        if not found:
+            return [], "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)", url
+        url = found
     try:
         feed = feedparser.parse(url, agent=USER_AGENT)
     except Exception as e:
-        return [], f"XƏTA: {e}"
+        return [], f"XƏTA: {e}", url
 
     status = getattr(feed, "status", None)
     if not feed.entries:
-        return [], f"BOŞ/ÖLÜ (HTTP {status})"
+        return [], f"BOŞ/ÖLÜ (HTTP {status})", url
 
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=MAX_AGE_HOURS)
@@ -120,7 +157,7 @@ def fetch_feed(name, url):
             }
         )
     items.sort(key=lambda x: x["published"] or "", reverse=True)
-    return items, f"OK ({len(items)} təzə xəbər, HTTP {status})"
+    return items, f"OK ({len(items)} təzə xəbər, HTTP {status})", url
 
 
 def main():
@@ -129,9 +166,10 @@ def main():
 
     print("=== Mənbələrin yoxlanması ===")
     status = {}
-    for name, url in FEEDS:
-        items, state = fetch_feed(name, url)
-        status[name] = {"url": url, "state": state}
+    for entry in FEEDS:
+        name, url = entry[0], entry[1]
+        items, state, used_url = fetch_feed(name, url, auto=len(entry) > 2 and entry[2] == "auto")
+        status[name] = {"url": used_url, "state": state}
         print(f"{name:22s} {state}")
         fresh = [i for i in items if i["link"] not in seen]
         if fresh:

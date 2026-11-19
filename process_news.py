@@ -69,9 +69,19 @@ PROMPT = (
     "500-900 simvol. Əvvəl əsas xəbəri, sonra mənbədəki təfərrüatları (kim, harada, nə vaxt, "
     "rəqəmlər, kontekst) yaz. Yalnız mənbədə olan faktlardan istifadə et, öz sözlərinlə yaz, "
     "başlığı və xülasəni təkrar etmə, boş ifadələrlə uzatma. Mənbədə məlumat azdırsa, daha qısa "
-    "yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma. Qayda 11-13 bu mətnə də aiddir.\n\n"
+    "yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma. Qayda 11-13 bu mətnə də aiddir.\n"
+    "16. voiceover: Reels videosunun diktor mətni, danışıq üçün aydın və qısa cümlələrlə. Uzunluğu "
+    "xəbərin əhəmiyyətinə və mənbədəki məlumatın çoxluğuna görə dəyişsin: sadə və kiçik xəbər "
+    "25-40 söz, orta xəbər 45-70 söz, mühüm və təfərrüatlı xəbər 75-110 söz. 110 sözdən çox "
+    "olmasın. İlk cümlə əsas xəbəri desin. Rəqəmləri sözlə yox, rəqəmlə yaz. Yalnız mənbədəki "
+    "faktlar, qayda 11-13 bu mətnə də aiddir. Sonda ReportBaku adını və ya çağırış cümləsi yazma.\n"
+    "17. visual_keywords: video fonu üçün ümumi (stok) görüntü axtarmaq üçün 2-3 qısa ingiliscə ifadə "
+    "(məsələn 'city traffic', 'stock exchange screen', 'school classroom'). Yalnız ümumi səhnələr, "
+    "şəxs adı və konkret hadisə olmasın. Xəbər konkret hadisədirsə (qəza, cinayət, ölüm, məhkəmə, "
+    "ordu) və ya ümumi görüntü oxucunu çaşdıra bilərsə, boş siyahı [] qaytar.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
-    '"headline": "...", "summary": "...", "caption": "...", "highlight": ["..."], "sensitive": false}'
+    '"headline": "...", "summary": "...", "caption": "...", "voiceover": "...", '
+    '"visual_keywords": ["..."], "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
 
@@ -233,6 +243,9 @@ def main():
             "headline": headline,
             "summary": summary,
             "caption_text": caption_text or summary,
+            "voiceover": str(res.get("voiceover", "")).strip()[:1100],
+            "visual_keywords": [str(k).strip() for k in (res.get("visual_keywords") or [])
+                                if isinstance(k, str) and k.strip()][:3],
             "highlight": highlight,
             "source_note": "Mənbə: " + item["source"],
             "link": item["link"],
