@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (182 təzə xəbər, HTTP 200)"
+    "state": "OK (180 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -37,7 +37,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "BOŞ/ÖLÜ (HTTP 403)"
+    "state": "OK (63 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
@@ -81,6 +81,6 @@
   },
   "Azadlıq Radiosu": {
     "url": "https://www.azadliq.org/api/",
-    "state": "OK (14 təzə xəbər, HTTP 200)"
+    "state": "OK (15 təzə xəbər, HTTP 200)"
   }
 }
