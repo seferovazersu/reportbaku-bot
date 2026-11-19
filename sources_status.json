@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (174 təzə xəbər, HTTP 200)"
+    "state": "OK (172 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -33,11 +33,11 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (47 təzə xəbər, HTTP 301)"
+    "state": "OK (46 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
-    "state": "BOŞ/ÖLÜ (HTTP 403)"
+    "state": "OK (20 təzə xəbər, HTTP 200)"
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
@@ -49,58 +49,58 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (64 təzə xəbər, HTTP 200)"
-  },
-  "İctimai TV": {
-    "url": "https://ictimai.tv/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "OK (62 təzə xəbər, HTTP 200)"
   },
   "AzTV": {
-    "url": "https://aztv.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://aztv.az/az/all-news",
+    "state": "OK/HTML (12 xəbər, tarixsiz: 12)"
   },
   "Baku.ws": {
     "url": "https://baku.ws/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "OK/HTML (9 xəbər)"
+  },
+  "İctimai TV": {
+    "url": "https://ictimai.tv/",
+    "state": "SƏHİFƏ AÇILMADI: <urlopen error [Errno -5] No address associated with hostname>"
   },
   "Daxili İşlər Nazirliyi": {
-    "url": "https://mia.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://mia.gov.az/az/news/archive/",
+    "state": "OK/HTML (4 xəbər, tarixsiz: 4)"
   },
   "Fövqəladə Hallar Nazirliyi": {
-    "url": "https://fhn.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://fhn.gov.az/az/melumatlar",
+    "state": "OXUNDU (9 link), amma təzə xəbər tapılmadı"
   },
   "Azərbaycan Yerüstü Nəqliyyat Agentliyi": {
-    "url": "https://ayna.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://ayna.gov.az/az/news",
+    "state": "OXUNDU (6 link), amma təzə xəbər tapılmadı"
   },
   "Müdafiə Nazirliyi": {
-    "url": "https://mod.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://mod.gov.az/az/",
+    "state": "SƏHİFƏ AÇILMADI: The read operation timed out"
   },
   "Xarici İşlər Nazirliyi": {
-    "url": "https://mfa.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://mfa.gov.az/az",
+    "state": "SƏHİFƏ AÇILMADI: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl"
   },
   "Dövlət Sərhəd Xidməti": {
     "url": "https://dsx.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "OK/HTML (4 xəbər, tarixsiz: 4)"
   },
   "Təhsil Nazirliyi": {
-    "url": "https://edu.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://edu.gov.az/az",
+    "state": "OXUNDU (6 link), amma təzə xəbər tapılmadı"
   },
   "Səhiyyə Nazirliyi": {
     "url": "https://sehiyye.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "SƏHİFƏ AÇILMADI: The read operation timed out"
   },
   "İqtisadiyyat Nazirliyi": {
     "url": "https://economy.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "SƏHİFƏ AÇILMADI: <urlopen error timed out>"
   },
   "Prezident.az": {
-    "url": "https://president.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://president.az/az",
+    "state": "OK/HTML (12 xəbər, tarixsiz: 12)"
   }
 }
