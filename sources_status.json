@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (176 təzə xəbər, HTTP 200)"
+    "state": "OK (177 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -37,7 +37,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (65 təzə xəbər, HTTP 200)"
+    "state": "OK (61 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
@@ -48,8 +48,8 @@
     "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
   },
   "Haqqin.az": {
-    "url": "https://haqqin.az/rss.xml",
-    "state": "OK (20 təzə xəbər, HTTP 200)"
+    "url": "https://haqqin.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
   },
   "Musavat.com": {
     "url": "https://musavat.com/",
@@ -81,6 +81,6 @@
   },
   "Azadlıq Radiosu": {
     "url": "https://www.azadliq.org/api/",
-    "state": "OK (16 təzə xəbər, HTTP 200)"
+    "state": "OK (15 təzə xəbər, HTTP 200)"
   }
 }
