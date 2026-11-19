@@ -24,20 +24,22 @@ yenilənir. İçində şifrə və token YOXDUR (yalnız adları yazılıb).
 2. HAZIR VƏZİYYƏT (19.11.2026)
 --------------------------------------------------------------------------------
 İŞLƏYİR (canlı sınaqdan keçib):
-  [x] RSS-dən xəbər toplama (11 mənbə işləyir, bax: bölmə 8)
+  [x] RSS-dən xəbər toplama (bax: bölmə 8)
   [x] Gemini ilə qısa başlıq, xülasə, uzun Instagram mətni (caption), səsləndirmə mətni
   [x] Şəkil postu: 2 şablon (overlay / panel) növbələşir, 1080x1350
-  [x] Telegram-da təsdiq: ✅ Paylaş / ❌ Ləğv et düymələri
+  [x] Telegram-da təsdiq: ✅ Paylaş / 🎬 Reels paylaş / ❌ Ləğv et düymələri
   [x] Instagram-a şəkil postu paylaşımı (ilk real post paylaşılıb)
-  [x] Reels videosu: Gemini TTS səsi (Kore), animasiyalı başlıq, altyazı, 1080x1920
+  [x] Reels videosu: Gemini TTS səsi (Kore), animasiyalı başlıq, altyazı parçaları, 1080x1920
   [x] Instagram-a Reels paylaşımı (ilk real Reels paylaşılıb, Reels bölməsində və lentdə göründü)
   [x] "Həssas mövzu" xəbərdarlığı, təkrar xəbərlərin süzülməsi (günlər arası da)
+  [x] Hər işə salmada 2 Reels + 1 foto post bölgüsü (19.11-də canlı sınaqdan keçib)
+  [x] Videonun uzunluğu xəbərə görə dəyişir (12-45 san.), altyazı səsə uyğun gəlir (19.11)
 
-BU YENİLƏNMƏDƏ ƏLAVƏ OLUNUB (hələ canlı sınanmayıb):
-  [ ] Hər işə salmada 2 Reels + 1 foto post bölgüsü
-  [ ] Videonun uzunluğu xəbərə görə dəyişir (12-45 san.), danışılan söz altyazı kimi görünür
-  [ ] Yeni xəbər mənbələri (RSS-i ana səhifədən özü tapır): Milli.az, Haqqin.az, Musavat.com,
-      1news.az, Modern.az, Metbuat.az, Interfax.az, Minval.az, BBC Azərbaycanca, Azadlıq Radiosu
+19.11-DƏ ƏLAVƏ OLUNUB (hələ canlı sınanmayıb):
+  [ ] Dövlət qurumlarının abreviaturaları səsdə tam oxunur (FHN -> Fövqəladə Hallar Nazirliyi və s.)
+  [ ] Mənbə siyahısı dəyişdi: müxalif saytlar çıxarıldı; televiziya saytları və dövlət qurumlarının
+      saytları əlavə olundu (bax: bölmə 8)
+  [ ] Mənbələr paralel yoxlanılır (sürətli)
 
 HƏLƏ EDİLMƏYİB (plan):
   [ ] Videonun üstündə mövzuya uyğun kiçik pəncərədə foto/video (Pexels stok və ya öz kitabxana)
@@ -76,7 +78,9 @@ Skriptlər (repo-nun kök qovluğunda):
   build_posts.py      format bölgüsü (Reels/foto), şəkil yaratma, Telegram-a foto göndərmə,
                       pending.json qeydləri.
   build_videos.py     Reels videolarının hazırlanması və Telegram-a göndərilməsi.
-  build_video.py      video generatoru (TTS, altyazı, animasiya, ffmpeg). `python build_video.py --demo`
+  build_video.py      video generatoru (TTS, altyazı, animasiya, ffmpeg) və ABBREVIATIONS lüğəti
+                      (FHN, XİN, DİN... səsdə tam oxunsun; yeni abreviatur əlavə etmək üçün lüğətə sətir yazın).
+                      Sınaq: `python build_video.py --demo`
   make_post.py        şəkil generatoru (loqo, şablonlar, şrift, Bakı siluet fonu).
   poll_approvals.py   düymə emalı və Instagram-a paylaşım (şəkil və Reels).
   media_sync.py       "media" budağındakı köhnə videoları (48 saatdan köhnə) silir.
@@ -141,17 +145,34 @@ GitHub Secrets-də dəyişin.
 - Başqasının videosunu icazəsiz paylaşmaq müəllif hüququnu pozur. Sizə göndərilən videoda göndərənin
   icazəsi və mənbə/tarix/yerin yoxlanması vacibdir. Qəza yerindən görüntülərdə yaralı/ölmüş insanlar
   Instagram qaydalarını pozur və qurbanların ləyaqətinə toxunur.
+- Səsləndirmə: dövlət qurumlarının və beynəlxalq təşkilatların abreviaturaları səsdə tam adı ilə
+  oxunur. Şəkilçili formaları (məs. XİN-in) AI tam yazır; səhv oxunan olsa, bildirin.
 - Mən (AI köməkçi) hüquqşünas deyiləm; hüquqi suallar üçün hüquqşünasla məsləhətləşin.
 
 --------------------------------------------------------------------------------
 8. XƏBƏR MƏNBƏLƏRİ (RSS)
 --------------------------------------------------------------------------------
-Yoxlanılıb və işləyir (17.11.2026): AZƏRTAC, Oxu.az, Publika, Day.az, Sia.az, Azadlıq (azadliq.info),
-  APA, Trend.az, Qafqazinfo, Baku TV, Xəzər Xəbər.
-İşləmir/çıxarılıb: Report.az (HTTP 403 - saytı botlara qapadıb), İctimai TV (cavab yoxdur),
-  Statistika Komitəsi (GitHub serverindən açılmır).
-Yeni namizədlər (yoxlanmayıb): bölmə 2-ə bax. Nəticə hər işləmədən sonra sources_status.json faylında.
-X (Twitter) hesabları oxunmur (API pulludur və qaydalara ziddir); əvəzinə portalların öz RSS-i işlədilir.
+SİYASƏT (sahibinin qərarı, 19.11.2026): müxalif saytlar mənbə olmasın. Çıxarılıb: Musavat.com,
+BBC Azərbaycanca, Azadlıq Radiosu (azadliq.org) və adı oxşar olduğu üçün azadliq.info
+(son 24 saatda xəbər vermirdi, lazım olarsa geri qaytarılır).
+Qeyd: redaksiyanın "müstəqil" üslubu və yalnız dövlət/yaxın mənbələrə əsaslanmaq arasında fərq ola bilər.
+Hər xəbərdə "kim dedi" qaydası saxlanılır ki, rəsmi fikirlər fakt kimi yazılmasın.
+
+İşləyir (19.11.2026 yoxlaması): AZƏRTAC, Oxu.az, Publika, Day.az, Sia.az, APA, Trend.az, Qafqazinfo,
+  Xəzər Xəbər, Haqqin.az, Metbuat.az, Minval.az.
+Problemli: Baku TV (17.11-də işləyirdi, 19.11-də HTTP 403 - GitHub serverini bəzən bloklayır).
+Çıxarılıb (RSS yoxdur/bağlıdır): Report.az (403), Statistika Komitəsi, Milli.az, 1news.az, Modern.az,
+  Interfax.az (RSS linki tapılmadı).
+Yeni namizədlər (ünvanlar yoxlanmayıb, collect_news.py özü RSS tapmağa çalışır): İctimai TV, AzTV, Baku.ws,
+  Daxili İşlər Nazirliyi (mia.gov.az), Fövqəladə Hallar Nazirliyi (fhn.gov.az),
+  Azərbaycan Yerüstü Nəqliyyat Agentliyi (ayna.gov.az), Müdafiə Nazirliyi, Xarici İşlər Nazirliyi,
+  Dövlət Sərhəd Xidməti, Təhsil Nazirliyi, Səhiyyə Nazirliyi, İqtisadiyyat Nazirliyi, Prezident.az.
+  Dövlət saytlarının çoxunun RSS-i olmur və ya xaricdən (GitHub serverləri) bağlı ola bilər.
+  Hansının işlədiyi hər "Xeber topla" işləməsindən sonra sources_status.json faylında yazılır.
+  RSS-i olmayan saytlar üçün növbəti variant: xəbər səhifəsini birbaşa oxumaq (hər sayt üçün ayrıca
+  qayda lazımdır; sahibi xəbər bölməsinin dəqiq ünvanını verməlidir).
+X (Twitter) hesabları oxunmur (API pulludur və qaydalara ziddir).
+Dövlət qurumlarının saytlarındakı materialların istifadə şərtlərini yoxlayın (mənbə göstərilir).
 
 --------------------------------------------------------------------------------
 9. PARAMETRLƏR (collect.yml içində dəyişdirilir)

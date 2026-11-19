@@ -46,6 +46,47 @@ TTS_PROMPT = ("Read the following Azerbaijani text aloud in a calm, serious news
               "with clear and natural Azerbaijani pronunciation:\n")
 
 
+# ---------------- Abreviaturalar ----------------
+# Səsləndirmədən əvvəl tək qalan abreviaturalar tam adı ilə əvəz olunur (şəkilçili formaları
+# AI özü tam yazır; bu lüğət ehtiyat üçündür). Yeni abreviatur əlavə etmək üçün bura sətir əlavə edin.
+ABBREVIATIONS = {
+    "FHN": "Fövqəladə Hallar Nazirliyi",
+    "XİN": "Xarici İşlər Nazirliyi",
+    "DİN": "Daxili İşlər Nazirliyi",
+    "MN": "Müdafiə Nazirliyi",
+    "ƏƏSMN": "Əmək və Əhalinin Sosial Müdafiəsi Nazirliyi",
+    "DSX": "Dövlət Sərhəd Xidməti",
+    "DTX": "Dövlət Təhlükəsizlik Xidməti",
+    "DMX": "Dövlət Miqrasiya Xidməti",
+    "DYP": "Dövlət Yol Polisi",
+    "AYNA": "Azərbaycan Yerüstü Nəqliyyat Agentliyi",
+    "BNA": "Bakı Nəqliyyat Agentliyi",
+    "ADY": "Azərbaycan Dəmir Yolları",
+    "DSMF": "Dövlət Sosial Müdafiə Fondu",
+    "DİM": "Dövlət İmtahan Mərkəzi",
+    "AMEA": "Azərbaycan Milli Elmlər Akademiyası",
+    "ƏDV": "əlavə dəyər vergisi",
+    "BMT": "Birləşmiş Millətlər Təşkilatı",
+    "ATƏT": "Avropa Təhlükəsizlik və Əməkdaşlıq Təşkilatı",
+    "MDB": "Müstəqil Dövlətlər Birliyi",
+    "ABŞ": "Amerika Birləşmiş Ştatları",
+    "BƏƏ": "Birləşmiş Ərəb Əmirlikləri",
+    "Aİ": "Avropa İttifaqı",
+}
+
+
+def expand_abbreviations(text):
+    """Tək qalan abreviaturaları (məs. 'FHN') tam adı ilə əvəz edir."""
+    for abbr in sorted(ABBREVIATIONS, key=len, reverse=True):
+        def repl(m, full=ABBREVIATIONS[abbr]):
+            before = m.string[:m.start()].rstrip()
+            if (not before or before[-1] in ".!?…") and full[:1].islower():
+                return full[:1].upper() + full[1:]      # cümlə başında böyük hərf
+            return full
+        text = re.sub(r"(?<![\w-])" + re.escape(abbr) + r"(?![\w-])", repl, text)
+    return text
+
+
 # ---------------- Səs ----------------
 def tts_pcm(text):
     """Mətni səsləndirir. (pcm_bayt, nümunə_tezliyi, model) qaytarır, alınmasa None."""
@@ -161,6 +202,7 @@ def make_video(category, headline, summary, source_note, out, photo=None,
     """Videonu yaradır. {'duration':..., 'model':..., 'words':...} qaytarır, alınmasa None."""
     headline, summary = headline.strip(), (summary or "").strip()
     script = (voiceover or "").strip() or (headline.rstrip(".") + ". " + summary)
+    script = expand_abbreviations(script)
     got = tts_pcm(script)
     if not got:
         return None

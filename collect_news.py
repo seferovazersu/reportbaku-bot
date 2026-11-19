@@ -15,6 +15,7 @@ import json
 import os
 import random
 import re
+from concurrent.futures import ThreadPoolExecutor
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -25,29 +26,37 @@ from bs4 import BeautifulSoup
 
 # ---------------- Ayarlar ----------------
 FEEDS = [
+    # --- Yoxlanılıb, işləyir ---
     ("AZƏRTAC", "https://azertag.az/rss"),
     ("Oxu.az", "https://oxu.az/feed"),
     ("Publika", "https://publika.az/rss/"),
     ("Day.az", "https://news.day.az/rss/"),
     ("Sia.az", "https://sia.az/feed.php"),
-    ("Azadlıq", "https://azadliq.info/feed/"),
-    # Yoxlanılıb, işləyir (17.11.2026). Report.az (HTTP 403) və İctimai TV (cavab yoxdur) çıxarıldı.
     ("APA", "https://apa.az/rss"),
     ("Trend.az", "https://az.trend.az/rss"),
     ("Qafqazinfo", "https://qafqazinfo.az/rss"),
-    ("Baku TV", "https://baku.tv/rss"),
     ("Xəzər Xəbər", "https://xezerxeber.az/rss"),
-    # --- Yeni namizədlər: ana səhifədən RSS linkini özü tapır ("auto"). Nəticəni sources_status.json-da görəcəksiniz.
-    ("Milli.az", "https://milli.az/", "auto"),
-    ("Haqqin.az", "https://haqqin.az/", "auto"),
-    ("Musavat.com", "https://musavat.com/", "auto"),
-    ("1news.az", "https://1news.az/", "auto"),
-    ("Modern.az", "https://modern.az/", "auto"),
-    ("Metbuat.az", "https://metbuat.az/", "auto"),
-    ("Interfax.az", "https://interfax.az/", "auto"),
-    ("Minval.az", "https://minval.az/", "auto"),
-    ("BBC Azərbaycanca", "https://www.bbc.com/azeri", "auto"),
-    ("Azadlıq Radiosu", "https://www.azadliq.org/", "auto"),
+    ("Haqqin.az", "https://haqqin.az/rss.xml"),
+    ("Metbuat.az", "https://metbuat.az/rss.xml"),
+    ("Minval.az", "https://minval.az/feed/"),
+    # Baku TV: 17.11-də işləyirdi, 19.11-də HTTP 403 verdi (GitHub serverlərini bəzən bloklayır)
+    ("Baku TV", "https://baku.tv/rss"),
+    # --- Yeni namizədlər: ana səhifədən RSS linkini özü tapır ("auto"). ---
+    # Televiziya və xəbər saytları (ünvanlar yoxlanmayıb):
+    ("İctimai TV", "https://ictimai.tv/", "auto"),
+    ("AzTV", "https://aztv.az/", "auto"),
+    ("Baku.ws", "https://baku.ws/", "auto"),
+    # Dövlət qurumları (ünvanlar yoxlanmayıb; çoxunun RSS-i olmaya bilər və ya xaricdən bağlı ola bilər):
+    ("Daxili İşlər Nazirliyi", "https://mia.gov.az/", "auto"),
+    ("Fövqəladə Hallar Nazirliyi", "https://fhn.gov.az/", "auto"),
+    ("Azərbaycan Yerüstü Nəqliyyat Agentliyi", "https://ayna.gov.az/", "auto"),
+    ("Müdafiə Nazirliyi", "https://mod.gov.az/", "auto"),
+    ("Xarici İşlər Nazirliyi", "https://mfa.gov.az/", "auto"),
+    ("Dövlət Sərhəd Xidməti", "https://dsx.gov.az/", "auto"),
+    ("Təhsil Nazirliyi", "https://edu.gov.az/", "auto"),
+    ("Səhiyyə Nazirliyi", "https://sehiyye.gov.az/", "auto"),
+    ("İqtisadiyyat Nazirliyi", "https://economy.gov.az/", "auto"),
+    ("Prezident.az", "https://president.az/", "auto"),
 ]
 
 TARGET_COUNT = int(os.getenv("TARGET_COUNT", "6"))   # gündə/seansda neçə xəbər
@@ -101,7 +110,7 @@ def discover_feed(page_url):
     """Saytın ana səhifəsindəki <link rel="alternate" type="application/rss+xml"> etiketindən RSS ünvanını tapır."""
     try:
         req = urllib.request.Request(page_url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=25) as r:
+        with urllib.request.urlopen(req, timeout=15) as r:
             raw = r.read()
             charset = r.headers.get_content_charset() or "utf-8"
         soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
@@ -166,9 +175,14 @@ def main():
 
     print("=== Mənbələrin yoxlanması ===")
     status = {}
-    for entry in FEEDS:
-        name, url = entry[0], entry[1]
-        items, state, used_url = fetch_feed(name, url, auto=len(entry) > 2 and entry[2] == "auto")
+    def _load(entry):
+        return fetch_feed(entry[0], entry[1], auto=len(entry) > 2 and entry[2] == "auto")
+
+    with ThreadPoolExecutor(max_workers=8) as pool:     # mənbələri paralel yoxlayırıq (daha sürətli)
+        results = list(pool.map(_load, FEEDS))
+
+    for entry, (items, state, used_url) in zip(FEEDS, results):
+        name = entry[0]
         status[name] = {"url": used_url, "state": state}
         print(f"{name:22s} {state}")
         fresh = [i for i in items if i["link"] not in seen]

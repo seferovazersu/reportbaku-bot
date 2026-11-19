@@ -74,7 +74,7 @@ PROMPT = (
     "xəbərin əhəmiyyətinə və mənbədəki məlumatın çoxluğuna görə dəyişsin: sadə və kiçik xəbər "
     "25-40 söz, orta xəbər 45-70 söz, mühüm və təfərrüatlı xəbər 75-110 söz. 110 sözdən çox "
     "olmasın. İlk cümlə əsas xəbəri desin. Rəqəmləri sözlə yox, rəqəmlə yaz. Yalnız mənbədəki "
-    "faktlar, qayda 11-13 bu mətnə də aiddir. Sonda ReportBaku adını və ya çağırış cümləsi yazma.\n"
+    "faktlar, qayda 11-13 bu mətnə də aiddir. Sonda ReportBaku adını və ya çağırış cümləsi yazma. Dövlət qurumlarının və beynəlxalq təşkilatların abreviaturalarını (FHN, XİN, DİN, MN, DSX, DTX, DYP, BMT, ATƏT, ABŞ, Aİ və s.) səsləndirmə mətnində HƏMİŞƏ tam adı ilə yaz və şəkilçilərini düzgün qoy (məsələn, FHN-in əvəzinə 'Fövqəladə Hallar Nazirliyinin'). Başlıqda və caption-da abreviatur qala bilər.\n"
     "17. visual_keywords: video fonu üçün ümumi (stok) görüntü axtarmaq üçün 2-3 qısa ingiliscə ifadə "
     "(məsələn 'city traffic', 'stock exchange screen', 'school classroom'). Yalnız ümumi səhnələr, "
     "şəxs adı və konkret hadisə olmasın. Xəbər konkret hadisədirsə (qəza, cinayət, ölüm, məhkəmə, "
