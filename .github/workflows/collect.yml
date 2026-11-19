@@ -30,7 +30,7 @@ jobs:
 
       - name: Xəbərləri topla
         env:
-          TARGET_COUNT: "2"
+          TARGET_COUNT: "4"
         run: python collect_news.py
 
       - name: AI ilə post mətnlərini hazırla
@@ -39,10 +39,12 @@ jobs:
           GEMINI_MODEL: gemini-flash-lite-latest
         run: python process_news.py
 
-      - name: Şəkilləri hazırla və Telegram-a göndər
+      - name: Foto postu hazırla, Reels-i növbəyə qoy
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          REELS_PER_RUN: "2"
+          POSTS_PER_RUN: "1"
         run: python build_posts.py
 
       - name: Reels videolarını hazırla və Telegram-a göndər
