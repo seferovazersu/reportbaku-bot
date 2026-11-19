@@ -48,9 +48,9 @@ def cleanup(pending):
         except Exception:
             age = timedelta(0)
         if age > timedelta(days=KEEP_DAYS_IMAGES):
-            img = Path(p.get("image", ""))
-            if img.exists():
-                img.unlink()
+            image = p.get("image")
+            if image and Path(image).is_file():
+                Path(image).unlink()
         if age <= timedelta(days=KEEP_DAYS_RECORDS):
             keep.append(p)
     return keep
@@ -150,6 +150,7 @@ def main():
             "source_note": d.get("source_note", ""),
             "link": d.get("link", ""),
             "sensitive": bool(d.get("sensitive")),
+            "highlight": d.get("highlight", []),
             "image": str(out).replace("\\", "/"),
             "caption": build_caption(d),
         }

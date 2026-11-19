@@ -23,6 +23,7 @@ IG_TOKEN = os.environ.get("INSTAGRAM_TOKEN", "")
 IG_USER_ID = os.environ.get("INSTAGRAM_USER_ID", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 BRANCH = os.environ.get("BRANCH", "main")
+MEDIA_BRANCH = os.environ.get("MEDIA_BRANCH", "media")
 MAX_AGE_HOURS = int(os.environ.get("MAX_AGE_HOURS", "12"))   # bundan köhnə xəbər paylaşılmır
 PENDING_FILE = Path("pending.json")
 GRAPH = "https://graph.facebook.com/"
@@ -89,34 +90,44 @@ def notify(text):
 
 
 def publish(post):
-    """Şəkli Instagram-a paylaşır. {'ok':..., 'stage':..., 'error':..., 'permalink':...} qaytarır."""
-    image_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])
+    """Şəkli və ya Reels videosunu Instagram-a paylaşır.
+    {'ok':..., 'stage':..., 'error':..., 'permalink':...} qaytarır."""
+    is_reel = post.get("kind") == "reel"
+    if is_reel:
+        media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
+        params = {"media_type": "REELS", "video_url": media_url, "share_to_feed": "true"}
+        wait_rounds = 60        # videonu emal etmək üçün ~6 dəqiqəyə qədər gözləyirik
+    else:
+        media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])
+        params = {"image_url": media_url}
+        wait_rounds = 10
     stage = "container"
     try:
-        for i in range(4):  # şəkil linki açılırmı
+        for i in range(4):  # link açılırmı
             try:
-                with urllib.request.urlopen(image_url, timeout=30) as r:
+                req = urllib.request.Request(media_url, headers={"Range": "bytes=0-99"})
+                with urllib.request.urlopen(req, timeout=30) as r:
                     r.read(16)
                 break
             except Exception:
                 if i == 3:
-                    raise ApiError("Şəkil linki açılmır")
+                    raise ApiError("Media linki açılmır")
                 time.sleep(10)
 
-        res = http("POST", GRAPH + IG_USER_ID + "/media", {
-            "image_url": image_url, "caption": post["caption"], "access_token": IG_TOKEN})
+        params.update({"caption": post["caption"], "access_token": IG_TOKEN})
+        res = http("POST", GRAPH + IG_USER_ID + "/media", params)
         cid = res["id"]
 
-        for _ in range(10):
-            st = http("GET", GRAPH + cid, {"fields": "status_code", "access_token": IG_TOKEN})
+        for _ in range(wait_rounds):
+            st = http("GET", GRAPH + cid, {"fields": "status_code,status", "access_token": IG_TOKEN})
             code = st.get("status_code")
             if code == "FINISHED":
                 break
             if code in ("ERROR", "EXPIRED"):
-                raise ApiError("Instagram şəkli qəbul etmədi (" + code + ")")
+                raise ApiError("Instagram faylı qəbul etmədi (%s) %s" % (code, str(st.get("status", ""))[:150]))
             time.sleep(6)
         else:
-            raise ApiError("Şəkil vaxtında hazır olmadı")
+            raise ApiError("Fayl vaxtında hazır olmadı")
 
         stage = "publish"
         res = http("POST", GRAPH + IG_USER_ID + "/media_publish", {
@@ -180,7 +191,9 @@ def main():
             finish_message(cq, "❌ LƏĞV EDİLDİ")
             continue
 
-        if action != "pub":
+        kind = post.get("kind", "post")
+        if (action == "pub" and kind != "post") or (action == "reel" and kind != "reel") \
+                or action not in ("pub", "reel"):
             answer(cq, "Naməlum əmr.")
             continue
 
@@ -195,7 +208,7 @@ def main():
 
         post["status"] = "publishing"
         save(pending)  # ikiqat paylaşımın qarşısını almaq üçün əvvəlcədən yazırıq
-        answer(cq, "Paylaşılır...")
+        answer(cq, "Reels paylaşılır..." if kind == "reel" else "Paylaşılır...")
         result = publish(post)
 
         if result["ok"]:
@@ -203,7 +216,7 @@ def main():
             post["instagram_id"] = result["media_id"]
             post["permalink"] = result["permalink"]
             save(pending)
-            line = "✅ PAYLAŞILDI"
+            line = "✅ REELS PAYLAŞILDI" if kind == "reel" else "✅ PAYLAŞILDI"
             if result["permalink"]:
                 line += "\n" + result["permalink"]
             finish_message(cq, line)
