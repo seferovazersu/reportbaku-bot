@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (188 təzə xəbər, HTTP 200)"
+    "state": "OK (182 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -37,10 +37,50 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (61 təzə xəbər, HTTP 200)"
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
     "state": "OK (50 təzə xəbər, HTTP 301)"
+  },
+  "Milli.az": {
+    "url": "https://milli.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Haqqin.az": {
+    "url": "https://haqqin.az/rss.xml",
+    "state": "OK (20 təzə xəbər, HTTP 200)"
+  },
+  "Musavat.com": {
+    "url": "https://musavat.com/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "1news.az": {
+    "url": "https://1news.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Modern.az": {
+    "url": "https://modern.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Metbuat.az": {
+    "url": "https://metbuat.az/rss.xml",
+    "state": "OK (50 təzə xəbər, HTTP 200)"
+  },
+  "Interfax.az": {
+    "url": "https://interfax.az/",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Minval.az": {
+    "url": "https://minval.az/feed/",
+    "state": "OK (23 təzə xəbər, HTTP 301)"
+  },
+  "BBC Azərbaycanca": {
+    "url": "https://www.bbc.com/azeri",
+    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+  },
+  "Azadlıq Radiosu": {
+    "url": "https://www.azadliq.org/api/",
+    "state": "OK (14 təzə xəbər, HTTP 200)"
   }
 }
