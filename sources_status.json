@@ -1,11 +1,11 @@
 {
   "AZƏRTAC": {
     "url": "https://azertag.az/rss",
-    "state": "OK (50 təzə xəbər, HTTP 200)"
+    "state": "OK (46 təzə xəbər, HTTP 200)"
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (179 təzə xəbər, HTTP 200)"
+    "state": "OK (176 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -33,7 +33,7 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (43 təzə xəbər, HTTP 301)"
+    "state": "OK (37 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -49,7 +49,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (52 təzə xəbər, HTTP 200)"
+    "state": "OK (66 təzə xəbər, HTTP 200)"
   },
   "İctimai TV": {
     "url": "https://ictimai.tv/",
