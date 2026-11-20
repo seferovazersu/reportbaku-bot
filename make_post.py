@@ -326,14 +326,18 @@ def draw_topbar(img, date):
 
 
 def draw_footer(img, y_line, source_note):
+    """Alt zolaq. Mənbə yazısı yoxdursa (şəkil/videoda mənbə göstərilmir), yalnız şüar solda yazılır."""
     d = ImageDraw.Draw(img)
     d.line([(MARGIN, y_line), (W - MARGIN, y_line)], fill=(58, 76, 112), width=2)
-    f = font(28, "semibold")
-    d.text((MARGIN, y_line + 26), source_note, font=f, fill=MUTED)
     f2 = font(20, "bold")
     tw = tracked_width(d, SLOGAN, f2, 3)
-    draw_tracked(d, W - MARGIN - tw, y_line + 32, SLOGAN, f2, SOFT, 3)
-    d.rectangle([W - MARGIN - tw - 22, y_line + 32, W - MARGIN - tw - 14, y_line + 52], fill=RED)
+    if source_note:
+        d.text((MARGIN, y_line + 26), source_note, font=font(28, "semibold"), fill=MUTED)
+        sx = W - MARGIN - tw
+    else:
+        sx = MARGIN + 22
+    draw_tracked(d, sx, y_line + 32, SLOGAN, f2, SOFT, 3)
+    d.rectangle([sx - 22, y_line + 32, sx - 14, y_line + 52], fill=RED)
 
 
 # ---------------- Şablonlar ----------------

@@ -47,8 +47,9 @@ FEEDS = [
     ("AzTV", "https://aztv.az/", "auto"),
     ("Baku.ws", "https://baku.ws/", "auto"),
     # Dövlət qurumları (ünvanlar yoxlanmayıb; çoxunun RSS-i olmaya bilər və ya xaricdən bağlı ola bilər):
-    ("Daxili İşlər Nazirliyi", "https://mia.gov.az/", "auto"),
-    ("Fövqəladə Hallar Nazirliyi", "https://fhn.gov.az/", "auto"),
+    # RSS-i olmayan dövlət saytları: xəbər səhifəsini birbaşa oxuyur ("html", xəbər linkinin şablonu)
+    ("Daxili İşlər Nazirliyi", "https://mia.gov.az/az/news/archive/", "html", r"/az/news/view/\d+"),
+    ("Fövqəladə Hallar Nazirliyi", "https://fhn.gov.az/az", "html", r"/az/melumatlar/[^/?#]+"),
     ("Azərbaycan Yerüstü Nəqliyyat Agentliyi", "https://ayna.gov.az/", "auto"),
     ("Müdafiə Nazirliyi", "https://mod.gov.az/", "auto"),
     ("Xarici İşlər Nazirliyi", "https://mfa.gov.az/", "auto"),
@@ -124,6 +125,93 @@ def discover_feed(page_url):
     return None
 
 
+AZ_MONTHS = {"yanvar": 1, "fevral": 2, "mart": 3, "aprel": 4, "may": 5, "iyun": 6, "iyul": 7,
+             "avqust": 8, "sentyabr": 9, "oktyabr": 10, "noyabr": 11, "dekabr": 12}
+DATE_NUM = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})")
+DATE_TXT = re.compile(r"(\d{1,2})\s+(" + "|".join(AZ_MONTHS) + r"),?\s+(\d{4})(?:\s+(\d{1,2}):(\d{2}))?",
+                      re.IGNORECASE)
+
+
+def parse_az_date(text):
+    """'12.11.2026' və ya '19 Noyabr, 2026 15:38' -> UTC datetime (Bakı vaxtı UTC+4). Tapılmasa None."""
+    m = DATE_TXT.search(text)
+    try:
+        if m:
+            day, month, year = int(m.group(1)), AZ_MONTHS[m.group(2).lower()], int(m.group(3))
+            hour, minute = (int(m.group(4)), int(m.group(5))) if m.group(4) else (12, 0)
+        else:
+            m = DATE_NUM.search(text)
+            if not m:
+                return None
+            day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            hour, minute = 12, 0
+        local = datetime(year, month, day, hour, minute)
+    except (ValueError, KeyError):
+        return None
+    return (local - timedelta(hours=4)).replace(tzinfo=timezone.utc)
+
+
+def fetch_html_news(name, url, pattern):
+    """RSS-i olmayan saytın xəbər səhifəsini oxuyur. Yalnız tarixi aydın olan xəbərləri götürür."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            raw = r.read()
+            charset = r.headers.get_content_charset() or "utf-8"
+    except Exception as e:
+        return [], "SƏHİFƏ AÇILMADI (%s)" % type(e).__name__, url
+    soup = BeautifulSoup(raw.decode(charset, errors="replace"), "html.parser")
+    rx = re.compile(pattern)
+    links = [a for a in soup.find_all("a", href=True) if rx.search(a["href"])]
+    if not links:
+        return [], "0 xəbər linki tapıldı (qayda uyğun deyil və ya səhifə JavaScript ilə yüklənir)", url
+
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=MAX_AGE_HOURS)
+    items, seen_links = [], set()
+    links.sort(key=lambda a: 0 if len(clean(a.get_text(" "))) >= 15 else 1)   # mətnli linklər əvvəl (başlıq üçün)
+    for a in links:
+        link = urllib.parse.urljoin(url, a["href"]).split("#")[0]
+        if link in seen_links:
+            continue
+        text = clean(a.get_text(" "))
+        text = clean(text.replace("event.title", ""))
+        # tarixi eyni xəbər qutusunda axtarırıq (qutuda yalnız 1 xəbər linki olmalıdır)
+        when, box_text = None, text
+        node = a
+        for _ in range(4):
+            node = node.parent
+            if node is None:
+                break
+            inside = {urllib.parse.urljoin(url, x["href"]).split("#")[0] for x in node.find_all("a", href=True)
+                      if rx.search(x["href"])}
+            if len(inside) > 1:
+                break
+            box_text = clean(node.get_text(" "))
+            when = parse_az_date(box_text) or parse_az_date(text)
+            if when:
+                break
+        if when is None:
+            when = parse_az_date(text)
+        if when is None or when < cutoff:
+            continue                       # tarixi bəlli olmayan və ya köhnə xəbəri götürmürük
+        seen_links.add(link)
+        title = DATE_TXT.sub("", DATE_NUM.sub("", text)).strip(" -:|")
+        if len(title) < 15:
+            title = clean(DATE_TXT.sub("", DATE_NUM.sub("", box_text))).strip(" -:|")
+        if len(title) < 15:
+            continue
+        items.append({
+            "source": name,
+            "title": title[:160],
+            "snippet": clean(DATE_TXT.sub("", DATE_NUM.sub("", box_text)))[:500],
+            "needs_fulltext": True,
+            "link": link,
+            "published": when.isoformat(),
+        })
+    items.sort(key=lambda x: x["published"], reverse=True)
+    return items, "OK (%d təzə xəbər, səhifə oxundu)" % len(items), url
+
+
 def fetch_feed(name, url, auto=False):
     """Bir mənbəni oxuyur. (xəbərlər_siyahısı, vəziyyət_mətni, istifadə_olunan_url) qaytarır."""
     if auto:
@@ -176,6 +264,8 @@ def main():
     print("=== Mənbələrin yoxlanması ===")
     status = {}
     def _load(entry):
+        if len(entry) > 3 and entry[2] == "html":
+            return fetch_html_news(entry[0], entry[1], entry[3])
         return fetch_feed(entry[0], entry[1], auto=len(entry) > 2 and entry[2] == "auto")
 
     with ThreadPoolExecutor(max_workers=8) as pool:     # mənbələri paralel yoxlayırıq (daha sürətli)

@@ -95,7 +95,8 @@ def publish(post):
     is_reel = post.get("kind") == "reel"
     if is_reel:
         media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
-        params = {"media_type": "REELS", "video_url": media_url, "share_to_feed": "true"}
+        params = {"media_type": "REELS", "video_url": media_url, "share_to_feed": "true",
+                  "thumb_offset": "3000"}   # örtük: 3-cü saniyənin kadrı (başlıq və görüntü artıq görünür)
         wait_rounds = 60        # videonu emal etmək üçün ~6 dəqiqəyə qədər gözləyirik
     else:
         media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])

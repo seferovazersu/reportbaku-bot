@@ -17,6 +17,7 @@ import requests
 
 from build_video import make_video, VW, VH
 from build_posts import pick_photo
+from stock_media import find_clip
 
 PENDING_FILE = Path("pending.json")
 OUT_DIR = Path("videos_out")
@@ -77,9 +78,14 @@ def main():
 
         print("Video: %s" % p["headline"])
         out = OUT_DIR / (p["id"] + ".mp4")
-        res = make_video(p["category"], p["headline"], p["summary"], p.get("source_note", ""),
+        inset = None
+        if not p.get("sensitive") and p.get("visual_keywords"):
+            inset = find_clip(p["visual_keywords"], p["headline"], "stock_tmp", p["id"])
+            print("  Pəncərə:", ("%s (%s)" % (inset["kind"], inset["keyword"])) if inset else "yoxdur")
+        res = make_video(p["category"], p["headline"], p["summary"], "",      # videoda mənbə yazılmır
                          str(out), photo=pick_photo(p["headline"]),
-                         highlight=p.get("highlight", []), voiceover=p.get("voiceover", ""))
+                         highlight=p.get("highlight", []), voiceover=p.get("voiceover", ""),
+                         inset=inset)
         time.sleep(PAUSE_SECONDS)
         if not res:
             p["status"] = "failed"
@@ -89,6 +95,11 @@ def main():
             continue
         made += 1
 
+        if inset and res:
+            credit = "İllüstrativ görüntü: %s" % inset.get("credit", "stok arxiv")
+            cap = p["caption"]
+            cut = cap.rfind("\n\n#")
+            p["caption"] = (cap[:cut] + "\n\n" + credit + cap[cut:]) if cut > 0 else (cap + "\n\n" + credit)
         p["status"] = "pending"
         p["video"] = out.name
         send_video(str(out),

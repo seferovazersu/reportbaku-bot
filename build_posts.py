@@ -177,7 +177,7 @@ def main():
             photo, d["category"], d["headline"], d["summary"], str(out),
             variant=variant,
             highlight=d.get("highlight", []),
-            source_note=d.get("source_note", ""),
+            source_note="",            # şəkildə mənbə yazılmır, yalnız Instagram mətnində olur
         )
         entry = {
             "id": base_id,

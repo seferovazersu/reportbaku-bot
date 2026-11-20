@@ -26,7 +26,7 @@ from pathlib import Path
 import requests
 from PIL import Image, ImageChops, ImageDraw
 
-from make_post import (MARGIN, NAVY, ELECTRIC, RED,
+from make_post import (MARGIN, NAVY, ELECTRIC, RED, cover,
                        font, wrap_words, fit_block, highlight_indices, draw_lines,
                        draw_tag, draw_topbar, draw_footer, background, gradient_mask, darken,
                        az_upper, baku_today)
@@ -37,6 +37,8 @@ TOP_H = 750                     # yuxarıdakı foto/fon hissəsi
 FOOTER_Y = TOP_H + 722          # mənbə sətri (Instagram-ın alt yazılarından yuxarıda qalır)
 LEAD, TAIL = 0.6, 1.6           # səsdən əvvəl və sonra sakit anlar (san.)
 MAX_CHUNK_WORDS = 6             # bir altyazı parçasında ən çox söz
+IW, IH, IY = 920, 430, 290      # kiçik pəncərənin (stok görüntü) ölçüsü və yuxarıdan məsafəsi
+IX = (VW - IW) // 2
 TTS_MODELS = [m.strip() for m in os.getenv(
     "TTS_MODELS",
     "gemini-3.1-flash-tts-preview,gemini-3.8-flash-lite-tts,gemini-3.8-flash-tts").split(",") if m.strip()]
@@ -187,6 +189,16 @@ def paste_fade(frame, layer, x, y, alpha, rise=22):
     frame.paste(layer, (x, yy), a)
 
 
+def read_exact(stream, n):
+    buf = b""
+    while len(buf) < n:
+        chunk = stream.read(n - len(buf))
+        if not chunk:
+            break
+        buf += chunk
+    return buf
+
+
 def pick_caption_size(probe, chunks, max_w, cap_h):
     """Bütün parçalar ≤3 sətirə və verilmiş hündürlüyə sığan ən böyük şrift ölçüsü."""
     for size in range(54, 33, -2):
@@ -198,7 +210,7 @@ def pick_caption_size(probe, chunks, max_w, cap_h):
 
 
 def make_video(category, headline, summary, source_note, out, photo=None,
-               highlight=None, date=None, voiceover=None):
+               highlight=None, date=None, voiceover=None, inset=None):
     """Videonu yaradır. {'duration':..., 'model':..., 'words':...} qaytarır, alınmasa None."""
     headline, summary = headline.strip(), (summary or "").strip()
     script = (voiceover or "").strip() or (headline.rstrip(".") + ". " + summary)
@@ -229,6 +241,30 @@ def make_video(category, headline, summary, source_note, out, photo=None,
     footer = Image.new("RGBA", (VW, 96), (0, 0, 0, 0))
     draw_footer(footer, 0, source_note)
     base.paste(footer, (0, FOOTER_Y), footer)
+
+    # --- Kiçik pəncərə (stok video/foto) ---
+    inset_mask = Image.new("L", (IW, IH), 0)
+    ImageDraw.Draw(inset_mask).rounded_rectangle([0, 0, IW - 1, IH - 1], radius=28, fill=255)
+    reader, inset_photo, last_inset, label = None, None, None, None
+    if inset:
+        try:
+            if inset.get("kind") == "video":
+                reader = subprocess.Popen(
+                    ["ffmpeg", "-loglevel", "error", "-stream_loop", "-1", "-i", inset["path"],
+                     "-vf", "scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,fps=%d" % (IW, IH, IW, IH, FPS),
+                     "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                    stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+            else:
+                inset_photo = cover(Image.open(inset["path"]).convert("RGB"), (IW, IH))
+            lf = font(18, "bold")
+            lw = int(ImageDraw.Draw(Image.new("RGB", (10, 10))).textlength("İLLÜSTRATİV GÖRÜNTÜ", font=lf)) + 44
+            label = Image.new("RGBA", (lw, 38), (0, 0, 0, 0))
+            ld = ImageDraw.Draw(label)
+            ld.rounded_rectangle([0, 0, lw - 1, 37], radius=19, fill=(4, 12, 30, 190))
+            ld.text((22, 8), "İLLÜSTRATİV GÖRÜNTÜ", font=lf, fill=(220, 228, 244))
+        except Exception as e:
+            print("  Pəncərə hazırlanmadı:", str(e)[:100])
+            reader, inset_photo = None, None
 
     # --- Başlıq ---
     max_w = VW - 2 * MARGIN
@@ -294,6 +330,25 @@ def make_video(category, headline, summary, source_note, out, photo=None,
         top = bg.crop((int(x0), int(y0), int(x0 + cw_), int(y0 + ch_))).resize((VW, TOP_H), Image.BILINEAR)
         frame.paste(top, (0, 0))
         frame.paste(topbar, (0, 120), topbar)
+        piece = None
+        if reader is not None:
+            raw = read_exact(reader.stdout, IW * IH * 3)
+            if len(raw) == IW * IH * 3:
+                last_inset = Image.frombytes("RGB", (IW, IH), raw)
+            elif last_inset is None:
+                reader.kill()
+                reader = None
+            piece = last_inset
+        elif inset_photo is not None:
+            zz = 1 + 0.06 * (t / total)
+            pw, ph = IW / zz, IH / zz
+            px0, py0 = (IW - pw) / 2, (IH - ph) / 2
+            piece = inset_photo.crop((int(px0), int(py0), int(px0 + pw), int(py0 + ph))).resize((IW, IH), Image.BILINEAR)
+        if piece is not None:
+            frame.paste(piece, (IX, IY), inset_mask)
+            ImageDraw.Draw(frame).rounded_rectangle([IX - 3, IY - 3, IX + IW + 2, IY + IH + 2],
+                                                    radius=30, outline=ELECTRIC, width=3)
+            frame.paste(label, (IX + 22, IY + IH - 58), label)
         for lay, x, y, ta in layers:
             paste_fade(frame, lay, x, y, clamp((t - ta) / 0.35))
         if t >= starts[0] - 0.05:                         # aktiv altyazı parçası
@@ -310,6 +365,8 @@ def make_video(category, headline, summary, source_note, out, photo=None,
 
     proc.stdin.close()
     proc.wait()
+    if reader is not None:
+        reader.kill()
     try:
         os.remove(audio_path)
     except OSError:
@@ -345,6 +402,13 @@ def demo():
                   "paraflanmasını əhəmiyyətli mərhələ adlandırıb.",
         highlight=["Almaniyanın"], source_note="Mənbə: AZƏRTAC")
     print("Sınaq videosu:", sample["headline"])
+    sample["source_note"] = ""
+    try:
+        from stock_media import find_clip
+        sample["inset"] = find_clip(["city traffic", "city street"], "demo", "stock_tmp", "demo")
+        print("Pexels:", sample["inset"] if sample["inset"] else "açar yoxdur və ya nəticə tapılmadı")
+    except Exception as e:
+        print("Pexels xətası:", str(e)[:100])
     res = make_video(out="video_test.mp4", **sample)
     if not res:
         print("Video alınmadı.")
