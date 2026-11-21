@@ -1,73 +1,55 @@
 [
   {
-    "category": "İDMAN",
-    "headline": "Lorenzo Mezzotero Sampdoriya qələbəsində qol vurdu",
-    "summary": "Azərbaycan milli komandasının futbolçusu Lorenzo Mezzotero İtaliya B Seriyasında fərqlənib. Onun çıxış etdiyi Sampdoriya matçda qələbə qazanıb.",
-    "caption_text": "Azərbaycan milli komandasının futbolçusu Lorenzo Mezzotero İtaliya B Seriyasının 12-ci turunda Sampdoriya heyətində qol vurub. Genuyada keçirilən Benevento oyununda start heyətində meydana çıxan 18 yaşlı hücumçu 34-cü dəqiqədə komandasının üçüncü qoluna imza atıb. Görüş Genuya təmsilçisinin 3:1 hesablı qələbəsi ilə başa çatıb. Bu nəticə Sampdoriya üçün çempionatda ardıcıl üçüncü uğur olub. Mezzotero matçın 59-cu dəqiqəsində əvəzlənib.",
-    "voiceover": "Azərbaycan milli komandasının futbolçusu Lorenzo Mezzotero İtaliya B Seriyasında qol vurub. O, Sampdoriya heyətində Benevento ilə oyunda fərqlənib. Genuyada keçirilən qarşılaşma 3:1 hesabla başa çatıb.",
+    "category": "HADİSƏ",
+    "headline": "Krasnodar hava limanı yenidən bağlandı",
+    "summary": "Rusiyanın Krasnodar şəhərinin hava limanında uçuşlara və enişlərə məhdudiyyətlər qoyulub. Federal Hava Nəqliyyatı Agentliyindən bildirilib ki, bu tədbir uçuş təhlükəsizliyini təmin etmək məqsədilə görülüb.",
+    "caption_text": "Rusiyanın Krasnodar şəhərində yerləşən hava limanında təyyarələrin qəbulu və yola salınması prosesinə məhdudiyyətlər tətbiq olunub. Məsələ ilə bağlı Federal Hava Nəqliyyatı Agentliyi açıqlama yayıb.\n\nQurumdan qeyd edilib ki, tətbiq edilən məhdudiyyət addımları uçuşların təhlükəsizliyini təmin etmək məqsədi daşıyır.",
+    "voiceover": "Rusiyanın Krasnodar hava limanında təyyarələrin enişi və uçuşuna məhdudiyyətlər tətbiq edilib. Federal Hava Nəqliyyatı Agentliyindən verilən məlumata görə, bu qərar uçuşların təhlükəsizliyini təmin etmək məqsədilə qəbul olunub.",
     "visual_keywords": [
-      "soccer match",
-      "football player celebrating"
+      "airport terminal",
+      "airplane on runway"
     ],
     "highlight": [
-      "Lorenzo Mezzotero",
-      "Sampdoriya"
+      "Krasnodar hava limanı"
     ],
-    "source_note": "Mənbə: Trend.az",
-    "link": "https://az.trend.az/azerbaijan/sports/4249307.html",
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sia.az/az/news/world/1376006.html",
+    "sensitive": false
+  },
+  {
+    "category": "CƏMİYYƏT",
+    "headline": "Qobu Park sakinləri sahibsiz itlərin hücumundan şikayət edirlər",
+    "summary": "Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən Qobu Park yaşayış massivinin sakinləri sahibsiz itlərin yaratdığı təhlükədən narazıdırlar. Sakinlər və əraziyə xidmət göstərən işçilər binaların həyətində sərbəst hərəkət edə bilmədiklərini bildirirlər.",
+    "caption_text": "Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən Qobu Park yaşayış massivində sahibsiz itlərlə bağlı problem hələ də qalmaqdadır. Sakinlər və kompleksə xidmət göstərən işçilər binaların həyətindən təhlükəsiz keçə bilmədiklərini, səhər saatlarında həyətləri təmizləyənlərin və su təchizatına nəzarət edənlərin çətinlik çəkdiyini deyirlər. \n\nİddiaya görə, əvvəllər bir səhər beş nəfər, o cümlədən su təchizatı işçisi itlərin hücumuna məruz qalaraq xəsarət alıb. Sakinlər bildirirlər ki, bir müddət əvvəl bəzi heyvanlar ərazidən götürülsə də, hazırda binaların arasında yenidən çoxlu sahibsiz it mövcuddur. Həmin heyvanlar piyadalarla yanaşı, motosikletlə hərəkət edənlərin də arxasınca qaçırlar.",
+    "voiceover": "Qobu Park yaşayış massivinin sakinləri sahibsiz itlərin hücumundan şikayətçidirlər. Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən ərazidə sakinlər və xidmət işçiləri təhlükə ilə üzləşdiklərini bildirirlər. İddiaya görə, daha əvvəl ərazidə bir neçə nəfər, o cümlədən su təchizatı işçisi itlər tərəfindən dişlənib. Sakinlər binaların arasında yenidən çoxlu sahibsiz itin toplandığını və hərəkətə mane olduğunu deyirlər.",
+    "visual_keywords": [
+      "stray dogs street",
+      "residential yard"
+    ],
+    "highlight": [
+      "Qobu Park",
+      "sahibsiz itlərin"
+    ],
+    "source_note": "Mənbə: Xəzər Xəbər",
+    "link": "https://xezerxeber.az/az/veb-tv/sahibsiz-itlerin-hucumundan-sikayetcidirler-vi-deo",
     "sensitive": false
   },
   {
     "category": "İDMAN",
-    "headline": "Real Madrid İspaniya La Liqasında Selta-nı məğlub edib",
-    "summary": "Real Madrid La Liqanın 13-cü turunda Selta ilə qarşılaşmada 2:1 hesablı qələbə qazanıb. Bu nəticədən sonra Madrid təmsilçisi xallarını 33-ə çatdırıb.",
-    "caption_text": "Real Madrid İspaniya La Liqasının 13-cü turunun ev oyununda Selta-nı 2:1 hesabı ilə üstələyib. Matçın 6-cı dəqiqəsində Pablo Duran qonaqları hesalda irəli çıxarıb. Görüşün 38-ci dəqiqəsində Real-ın hücumçusu Kilian Mbappe penaltini dəyərləndirə bilməyib. İkinci hissədə təzyiqi artıran ev sahibləri 66-cı dəqiqədə Cud Bellinqem və 85-ci dəqiqədə Karlos Espinin vurduğu qollarla qələbə qazanıblar. Qələbədən sonra kral klubu xal sayını 33-ə çatdıraraq turnir cədvəlində lider olan Barselona ilə bərabərləşib.",
-    "voiceover": "Real Madrid İspaniya La Liqasının 13-cü turunda Selta-nı 2:1 hesabı ilə məğlub edib. Görüşün 6-cı dəqiqəsində Pablo Duran qonaqları irəli çıxarıb. Qarşılaşmanın 38-ci dəqiqəsində Real Madrid-in hücumçusu Kilian Mbappe penaltini reallaşdıra bilməyib. İkinci hissədə Cud Bellinqem 66-cı dəqiqədə hesabı bərabərləşdirib, 85-ci dəqiqədə isə Karlos Espi komandasının qələbə qolunu vurub. Bu qələbədən sonra kral klubu xalını 33-ə çatdırıb.",
-    "visual_keywords": [],
+    "headline": "Real Madrid Selta-nı məğlub edib",
+    "summary": "İspaniya La Liqasında Real Madrid öz meydanında Selta komandası ilə qarşılaşdı. Madrid təmsilçisi rəqibini 2:1 hesabı ilə üstələdi.",
+    "caption_text": "İspaniya La Liqasında Real Madrid və Selta kollektivləri üz-üzə gəlib. Madrid təmsilçisi rəqibini 2:1 hesabı ilə məğlub etməyi bacarıb.\n\nMatçın 6-cı dəqiqəsində Selta heyətində Pablo Duran hesabı açıb. Görüşün 66-cı dəqiqəsində Cud Bellinqem tarazlığı bərpa edib. Karlos Espinin 85-ci dəqiqədə vurduğu qol isə Madrid klubuna qələbə qazandırıb.",
+    "voiceover": "İspaniya La Liqasında Real Madrid öz meydanında Selta komandasını qəbul edib. Madrid təmsilçisi rəqibini 2:1 hesabı ilə məğlub edib. Seltanın heyətində Pablo Duran 6-cı dəqiqədə hesabı açıb. Real Madridin heyətində Cud Bellinqem 66-cı dəqiqədə tarazlığı bərpa edib. Karlos Espinin 85-ci dəqiqədə vurduğu qol isə Madrid klubuna üstünlük qazandırıb.",
+    "visual_keywords": [
+      "football match stadium",
+      "soccer players celebrating"
+    ],
     "highlight": [
       "Real Madrid",
       "Selta"
     ],
-    "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/idman/649567.html",
-    "sensitive": false
-  },
-  {
-    "category": "DÜNYA",
-    "headline": "Tramp Putin və Si Cinpinlə görüşünün fotosunu Yalta konfransı ilə müqayisə edib",
-    "summary": "Amerika lideri Donald Tramp Vladimir Putin və Si Cinpinlə olan şəklini 1945-ci ilin Yalta konfransının görüntüsü ilə müqayisə edib. O, sosial şəbəkə hesabında “Böyük güclər: 1945, 2026” adlı kollaj paylaşıb.",
-    "caption_text": "Amerika Prezidenti Donald Tramp Rusiya Prezidenti Vladimir Putin və Çin lideri Si Cinpinlə birgə fotosunu 1945-ci ildə keçirilmiş Yalta konfransının tarixi görüntüsü ilə müqayisə edib. Amerika lideri “Truth Social” hesabında “Böyük güclər: 1945, 2026” başlığı ilə kollaj paylaşıb. Kollajın sol tərəfində SSRİ lideri İosif Stalin, ABŞ Prezidenti Franklin Ruzvelt və Böyük Britaniyanın Baş naziri Uinston Çörçillin 1945-ci ildə Yalta konfransında çəkilmiş fotosu yer alıb. Sağ tərəfdə isə Vladimir Putin, Si Cinpin və Donald Trampın birgə görüntüsü əks olunub. Qeyd edək ki, 1945-ci ilin fevralında keçirilən Yalta konfransında müttəfiq dövlətlərin liderləri İkinci Dünya müharibəsindən sonrakı beynəlxalq nizamın formalaşdırılması ilə bağlı məsələləri müzakirə etmişdilər.",
-    "voiceover": "Amerika Prezidenti Donald Tramp Rusiya Prezidenti Vladimir Putin və Çin lideri Si Cinpinlə birgə fotosunu 1945-ci ildə keçirilmiş Yalta konfransının tarixi görüntüsü ilə müqayisə edib. Amerika lideri sosial şəbəkə hesabında Böyük güclər: 1945, 2026 başlığı ilə kollaj paylaşıb. Kollajda İosif Stalin, Franklin Ruzvelt və Uinston Çörçillin Yalta konfransındakı fotosu ilə hazırkı liderlərin görüntüsü əks olunub.",
-    "visual_keywords": [
-      "historical photo collage",
-      "world leaders meeting"
-    ],
-    "highlight": [
-      "Tramp",
-      "Putin",
-      "Si Cinpin"
-    ],
     "source_note": "Mənbə: APA",
-    "link": "https://apa.az/america/tramp-putin-ve-si-cinpinle-gorusunun-fotosunu-yalta-konfransinin-goruntusu-ile-muqayise-edib-1016083",
-    "sensitive": false
-  },
-  {
-    "category": "TEXNOLOGİYA",
-    "headline": "SpaceX ABŞ Kosmik Qüvvələri üçün Falcon 9 raketini buraxdı",
-    "summary": "SpaceX şirkəti ABŞ Kosmik Qüvvələrinin tələbatı üçün növbəti raket daşıyıcısını orbitə çıxarıb. Buraxılış Kaliforniya ştatındakı hərbi bazadan reallaşdırılıb.",
-    "caption_text": "ABŞ-nin SpaceX şirkəti ölkənin Kosmik Qüvvələrinin ehtiyacları üçün nəzərdə tutulan kosmik aparatları daşıyan Falcon 9 raketini orbitə buraxıb. Şirkətin sosial şəbəkədəki məlumatına görə, raket USSF-317 missiyasının faydalı yükünü orbitə çıxarıb. \n\nDaşıyıcı raket noyabrın 20-də axşam saatlarında ABŞ-nin Kaliforniya ştatında yerləşən Vandenberq Hərbi Hava Qüvvələri bazasından start götürüb. Kosmik aparatların texniki xüsusiyyətləri və təyinatı barədə məlumat açıqlanmayıb. İxtisaslaşmış nəşrin məlumatına görə, orbitə ehtimalla bir neçə peyk çıxarılıb, lakin bu rəsmi olaraq təsdiqlənməyib.",
-    "voiceover": "SpaceX şirkəti ABŞ Kosmik Qüvvələrinin ehtiyacları üçün nəzərdə tutulan kosmik aparatları daşıyan Falcon 9 raketini orbitə buraxıb. Raket noyabrın 20-də axşam saatlarında ABŞ-nin Kaliforniya ştatında yerləşən Vandenberq Hərbi Hava Qüvvələri bazasından start götürüb. USSF-317 missiyasının faydalı yükünü daşıyan aparatın texniki xüsusiyyətləri və təyinatı barədə məlumat açıqlanmayıb. İxtisaslaşmış mətbuatda orbitə bir neçə peykin çıxarıldığı ehtimal edilsə də, rəsmi qurumlar bu məlumatı təsdiqləməyib.",
-    "visual_keywords": [
-      "space rocket launch",
-      "falcon 9 rocket",
-      "space exploration"
-    ],
-    "highlight": [
-      "SpaceX",
-      "Falcon 9"
-    ],
-    "source_note": "Mənbə: AZƏRTAC",
-    "link": "https://azertag.az/xeber/spacex_abs_kosmik_quvveleri_uchun_peykler_dasiyan_raket_buraxib-4519830",
+    "link": "https://apa.az/football/real-madrid-oz-meydaninda-seltani-meglub-edib-1016073",
     "sensitive": false
   }
 ]
