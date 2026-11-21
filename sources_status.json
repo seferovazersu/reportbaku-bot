@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (180 təzə xəbər, HTTP 200)"
+    "state": "OK (178 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -33,7 +33,7 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (33 təzə xəbər, HTTP 301)"
+    "state": "OK (35 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -49,7 +49,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (68 təzə xəbər, HTTP 200)"
+    "state": "OK (70 təzə xəbər, HTTP 200)"
   },
   "İctimai TV": {
     "url": "https://ictimai.tv/",
@@ -69,7 +69,7 @@
   },
   "Fövqəladə Hallar Nazirliyi": {
     "url": "https://fhn.gov.az/az",
-    "state": "OK (5 təzə xəbər, səhifə oxundu)"
+    "state": "OK (4 təzə xəbər, səhifə oxundu)"
   },
   "Azərbaycan Yerüstü Nəqliyyat Agentliyi": {
     "url": "https://ayna.gov.az/",
