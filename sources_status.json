@@ -29,11 +29,11 @@
   },
   "Qafqazinfo": {
     "url": "https://qafqazinfo.az/rss",
-    "state": "OK (100 təzə xəbər, HTTP 200)"
+    "state": "OK (98 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (28 təzə xəbər, HTTP 301)"
+    "state": "OK (30 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -41,7 +41,7 @@
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
-    "state": "OK (41 təzə xəbər, HTTP 200)"
+    "state": "OK (39 təzə xəbər, HTTP 200)"
   },
   "Minval.az": {
     "url": "https://minval.az/feed/",
@@ -49,58 +49,10 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (79 təzə xəbər, HTTP 200)"
-  },
-  "İctimai TV": {
-    "url": "https://ictimai.tv/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "AzTV": {
-    "url": "https://aztv.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Baku.ws": {
-    "url": "https://baku.ws/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "state": "OK (76 təzə xəbər, HTTP 200)"
   },
   "Daxili İşlər Nazirliyi": {
-    "url": "https://mia.gov.az/az/news/archive/",
-    "state": "0 xəbər linki tapıldı (qayda uyğun deyil və ya səhifə JavaScript ilə yüklənir)"
-  },
-  "Fövqəladə Hallar Nazirliyi": {
-    "url": "https://fhn.gov.az/az",
-    "state": "OK (1 təzə xəbər, səhifə oxundu)"
-  },
-  "Azərbaycan Yerüstü Nəqliyyat Agentliyi": {
-    "url": "https://ayna.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Müdafiə Nazirliyi": {
-    "url": "https://mod.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Xarici İşlər Nazirliyi": {
-    "url": "https://mfa.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Dövlət Sərhəd Xidməti": {
-    "url": "https://dsx.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Təhsil Nazirliyi": {
-    "url": "https://edu.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Səhiyyə Nazirliyi": {
-    "url": "https://sehiyye.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "İqtisadiyyat Nazirliyi": {
-    "url": "https://economy.gov.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
-  },
-  "Prezident.az": {
-    "url": "https://president.az/",
-    "state": "RSS tapılmadı (səhifə açılmadı və ya RSS linki yoxdur)"
+    "url": "https://t.me/s/polisazerbaycan",
+    "state": "OK (3 təzə xəbər, Telegram kanalı)"
   }
 }
