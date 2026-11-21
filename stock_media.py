@@ -18,6 +18,12 @@ import requests
 PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "")
 PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
 MAX_MB = 30
+LAST_ERROR = ""      # son uğursuzluğun səbəbi (diaqnostika üçün)
+
+
+def _fail(msg):
+    global LAST_ERROR
+    LAST_ERROR = msg
 
 
 def _download(url, path):
@@ -43,6 +49,8 @@ def _pixabay_video(kw, rnd, out_dir, name):
         r = requests.get("https://pixabay.com/api/videos/", timeout=30,
                          params={"key": PIXABAY_KEY, "q": kw, "per_page": 20, "safesearch": "true"})
         hits = r.json().get("hits", []) if r.ok else []
+        if not r.ok:
+            _fail("Pixabay HTTP %s" % getattr(r, "status_code", "?"))
     except Exception:
         return None
     hits = [h for h in hits if 4 <= (h.get("duration") or 0) <= 40]

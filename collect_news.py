@@ -41,23 +41,10 @@ FEEDS = [
     ("Minval.az", "https://minval.az/feed/"),
     # Baku TV: 17.11-də işləyirdi, 19.11-də HTTP 403 verdi (GitHub serverlərini bəzən bloklayır)
     ("Baku TV", "https://baku.tv/rss"),
-    # --- Yeni namizədlər: ana səhifədən RSS linkini özü tapır ("auto"). ---
-    # Televiziya və xəbər saytları (ünvanlar yoxlanmayıb):
-    ("İctimai TV", "https://ictimai.tv/", "auto"),
-    ("AzTV", "https://aztv.az/", "auto"),
-    ("Baku.ws", "https://baku.ws/", "auto"),
-    # Dövlət qurumları (ünvanlar yoxlanmayıb; çoxunun RSS-i olmaya bilər və ya xaricdən bağlı ola bilər):
-    # RSS-i olmayan dövlət saytları: xəbər səhifəsini birbaşa oxuyur ("html", xəbər linkinin şablonu)
-    ("Daxili İşlər Nazirliyi", "https://mia.gov.az/az/news/archive/", "html", r"/az/news/view/\d+"),
-    ("Fövqəladə Hallar Nazirliyi", "https://fhn.gov.az/az", "html", r"/az/melumatlar/[^/?#]+"),
-    ("Azərbaycan Yerüstü Nəqliyyat Agentliyi", "https://ayna.gov.az/", "auto"),
-    ("Müdafiə Nazirliyi", "https://mod.gov.az/", "auto"),
-    ("Xarici İşlər Nazirliyi", "https://mfa.gov.az/", "auto"),
-    ("Dövlət Sərhəd Xidməti", "https://dsx.gov.az/", "auto"),
-    ("Təhsil Nazirliyi", "https://edu.gov.az/", "auto"),
-    ("Səhiyyə Nazirliyi", "https://sehiyye.gov.az/", "auto"),
-    ("İqtisadiyyat Nazirliyi", "https://economy.gov.az/", "auto"),
-    ("Prezident.az", "https://president.az/", "auto"),
+    # --- Rəsmi qurumların açıq Telegram kanalları ("tg"; kanalın adı t.me/ünvanından götürülür) ---
+    # Dövlət saytları (mia.gov.az, fhn.gov.az və s.) GitHub serverlərindən açılmır (20.11.2026 yoxlaması),
+    # ona görə onların Telegram kanalları işlədilir. Yeni kanal əlavə etmək üçün bir sətir yazın.
+    ("Daxili İşlər Nazirliyi", "polisazerbaycan", "tg"),
 ]
 
 TARGET_COUNT = int(os.getenv("TARGET_COUNT", "6"))   # gündə/seansda neçə xəbər
@@ -212,6 +199,46 @@ def fetch_html_news(name, url, pattern):
     return items, "OK (%d təzə xəbər, səhifə oxundu)" % len(items), url
 
 
+def fetch_telegram_channel(name, handle):
+    """Açıq Telegram kanalının (t.me/s/<kanal>) son yazılarını oxuyur."""
+    url = "https://t.me/s/" + handle
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            raw = r.read()
+    except Exception as e:
+        return [], "KANAL AÇILMADI (%s)" % type(e).__name__, url
+    soup = BeautifulSoup(raw.decode("utf-8", errors="replace"), "html.parser")
+    posts = soup.select("div.tgme_widget_message[data-post]")
+    if not posts:
+        return [], "yazı tapılmadı (kanal açıq deyil və ya adı səhvdir)", url
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=MAX_AGE_HOURS)
+    items = []
+    for m in posts:
+        text_el = m.select_one(".tgme_widget_message_text")
+        time_el = m.select_one("time[datetime]")
+        text = clean(text_el.get_text(" ")) if text_el else ""
+        if len(text) < 60 or not time_el:
+            continue
+        try:
+            when = datetime.fromisoformat(time_el["datetime"].replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if when < cutoff:
+            continue
+        title = re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0][:160]
+        items.append({
+            "source": name,
+            "title": title,
+            "snippet": text[:1500],
+            "needs_fulltext": False,
+            "link": "https://t.me/" + m["data-post"],
+            "published": when.isoformat(),
+        })
+    items.sort(key=lambda x: x["published"], reverse=True)
+    return items, "OK (%d təzə xəbər, Telegram kanalı)" % len(items), url
+
+
 def fetch_feed(name, url, auto=False):
     """Bir mənbəni oxuyur. (xəbərlər_siyahısı, vəziyyət_mətni, istifadə_olunan_url) qaytarır."""
     if auto:
@@ -266,6 +293,8 @@ def main():
     def _load(entry):
         if len(entry) > 3 and entry[2] == "html":
             return fetch_html_news(entry[0], entry[1], entry[3])
+        if len(entry) > 2 and entry[2] == "tg":
+            return fetch_telegram_channel(entry[0], entry[1])
         return fetch_feed(entry[0], entry[1], auto=len(entry) > 2 and entry[2] == "auto")
 
     with ThreadPoolExecutor(max_workers=8) as pool:     # mənbələri paralel yoxlayırıq (daha sürətli)

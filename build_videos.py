@@ -10,6 +10,7 @@ Videonu media budağına göndərməyi iş axını (workflow) edir, paylaşımı
 
 import json
 import os
+import subprocess
 import time
 from pathlib import Path
 
@@ -17,6 +18,7 @@ import requests
 
 from build_video import make_video, VW, VH
 from build_posts import pick_photo
+import stock_media
 from stock_media import find_clip
 
 PENDING_FILE = Path("pending.json")
@@ -36,6 +38,32 @@ def tg_message(text):
                       timeout=60)
     except Exception as e:
         print("  Telegram xətası:", str(e)[:150])
+
+
+def window_note(p, inset):
+    """Redaktor üçün: kiçik pəncərə niyə var/yoxdur."""
+    if inset:
+        src = inset.get("credit") or "öz kitabxana"
+        return "🖼 Pəncərə: %s %s (%s)" % (src, "videosu" if inset["kind"] == "video" else "fotosu",
+                                           inset.get("keyword", ""))
+    if p.get("sensitive"):
+        return "🖼 Pəncərə yoxdur: həssas mövzu"
+    if not p.get("visual_keywords"):
+        return "🖼 Pəncərə yoxdur: AI görüntü üçün açar söz vermədi"
+    if not (stock_media.PIXABAY_KEY or stock_media.PEXELS_KEY):
+        return "🖼 Pəncərə yoxdur: PIXABAY_API_KEY işə düşmür (GitHub Secrets və collect.yml-i yoxlayın)"
+    return "🖼 Pəncərə yoxdur: stok arxivdə tapılmadı (%s) %s" % (
+        ", ".join(p["visual_keywords"]), stock_media.LAST_ERROR)
+
+
+def make_cover(video_path, cover_path, second=3):
+    """Videonun 3-cü saniyəsindən örtük şəkli çıxarır (başlıq və görüntü artıq görünür)."""
+    try:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(second), "-i", str(video_path),
+                        "-frames:v", "1", "-q:v", "2", str(cover_path)], check=False, timeout=60)
+    except Exception:
+        return False
+    return Path(cover_path).exists() and Path(cover_path).stat().st_size > 5000
 
 
 def send_video(path, caption, reel_id):
@@ -81,6 +109,10 @@ def main():
         inset = None
         if not p.get("sensitive") and p.get("visual_keywords"):
             inset = find_clip(p["visual_keywords"], p["headline"], "stock_tmp", p["id"])
+            if not inset:
+                own = pick_photo(p["headline"])          # stok tapılmadısa öz kitabxanamızdan foto
+                if own:
+                    inset = {"path": own, "kind": "photo", "credit": "", "keyword": "öz foto"}
             print("  Pəncərə:", ("%s (%s)" % (inset["kind"], inset["keyword"])) if inset else "yoxdur")
         res = make_video(p["category"], p["headline"], p["summary"], "",      # videoda mənbə yazılmır
                          str(out), photo=pick_photo(p["headline"]),
@@ -95,16 +127,19 @@ def main():
             continue
         made += 1
 
-        if inset and res:
-            credit = "İllüstrativ görüntü: %s" % inset.get("credit", "stok arxiv")
+        if inset and res and inset.get("credit"):
+            credit = "İllüstrativ görüntü: %s" % inset["credit"]
             cap = p["caption"]
             cut = cap.rfind("\n\n#")
             p["caption"] = (cap[:cut] + "\n\n" + credit + cap[cut:]) if cut > 0 else (cap + "\n\n" + credit)
+        cover = OUT_DIR / (p["id"] + ".jpg")
+        if make_cover(out, cover):
+            p["cover"] = cover.name                     # Reels örtüyü (cover_url)
         p["status"] = "pending"
         p["video"] = out.name
         send_video(str(out),
-                   "🎬 REELS ÖNİZLƏMƏ (%d san., %d söz)\n\n%s\n\n%s\n%s" % (
-                       round(res["duration"]), res.get("words", 0), p["headline"],
+                   "🎬 REELS ÖNİZLƏMƏ (%d san., %d söz)\n%s\n\n%s\n\n%s\n%s" % (
+                       round(res["duration"]), res.get("words", 0), window_note(p, inset), p["headline"],
                        p.get("source_note", ""), p.get("link", "")),
                    p["id"])
         tg_message("📝 Reels-in Instagram mətni (yuxarıdakı videonun altında):\n\n" + p["caption"])

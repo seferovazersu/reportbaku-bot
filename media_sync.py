@@ -21,7 +21,7 @@ def main(media_dir, new_dir):
     media.mkdir(parents=True, exist_ok=True)
     now_baku = datetime.now(timezone.utc) + timedelta(hours=4)
 
-    for f in media.glob("*.mp4"):
+    for f in list(media.glob("*.mp4")) + list(media.glob("*.jpg")):
         m = re.match(r"(\d{8})-(\d{6})", f.name)
         if not m:
             f.unlink()
@@ -32,7 +32,7 @@ def main(media_dir, new_dir):
             f.unlink()
             print("Silindi (köhnə):", f.name)
 
-    for f in new.glob("*.mp4"):
+    for f in list(new.glob("*.mp4")) + list(new.glob("*.jpg")):
         shutil.copy2(f, media / f.name)
         print("Əlavə olundu:", f.name)
 
