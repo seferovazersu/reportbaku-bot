@@ -1,55 +1,78 @@
 [
   {
-    "category": "HADİSƏ",
-    "headline": "Şəkidə dörd yaşlı uşağı küçə iti dişləyib",
-    "summary": "Şəhər sakini olan azyaşlı küçə itin hücumuna məruz qalıb. Xəstəxanaya yerləşdirilən uşağa müvafiq diaqnoz qoyulub.",
-    "caption_text": "Şəhərin Salman Mümtaz küçəsində azyaşlı küçə itin hücumuna məruz qalıb. İddiaya görə, Bakı şəhər sakini olan 4 yaşlı uşağı küçə iti dişləyib. Hadisədən sonra yaralı uşaq Şəki Rayon Mərkəzi Xəstəxanasına çatdırılıb. Tibb müəssisəsində aparılan müayinələr zamanı ona sağ budun yuxarı üçdəbir hissəsinin deşilmiş yarası diaqnozu qoyulub.",
-    "voiceover": "Şəkidə azyaşlı küçə itin hücumuna məruz qalıb. Hadisə şəhərin Salman Mümtaz küçəsində qeydə alınıb. Bakı şəhər sakini olan 4 yaşlı uşağı küçə iti dişləyib. Yaralı azyaşlı Şəki Rayon Mərkəzi Xəstəxanasına aparılıb və ona sağ budun yuxarı üçdəbir hissəsinin deşilmiş yarası diaqnozu qoyulub.",
-    "visual_keywords": [],
-    "highlight": [
-      "Şəkidə",
-      "it"
-    ],
-    "source_note": "Mənbə: Metbuat.az",
-    "link": "https://metbuat.az/news/1567297/sekide-4-yasli-usagi-kuce-iti-disledi.html",
-    "sensitive": true
-  },
-  {
-    "category": "İQTİSADİYYAT",
-    "headline": "İran və Ermənistan rəqəmsal və logistika sahəsində əməkdaşlığı genişləndirir",
-    "summary": "İranın rabitə və informasiya texnologiyaları nazirinin İrəvana səfəri zamanı texnologiya, logistika və kibertəhlükəsizlik sahəsində əməkdaşlıq müzakirə edilib. Tərəflər fiber-optik xətlər, süni intellekt və poçt əlaqələrinin inkişafı üzrə təkliflər nəzərdən keçiriblər.",
-    "caption_text": "Noyabrın 19-da İrəvana səfər edən İranın rabitə və informasiya texnologiyaları naziri Seyid Səttar Haşemi bir sıra görüşlər keçirib. Səfər çərçivəsində sərhəd bölgələrində radiofrekans spektrinin idarə olunması, fiber-optik rabitə xətlərinin inkişafı və beynəlxalq trafik mübadiləsi üçün alternativ marşrutların yaradılması müzakirə edilib. Həmçinin süni intellekt, məlumatların təhlili, kosmik texnologiyalar və rəqəmsal hökumət sahələrində əməkdaşlıq imkanları qiymətləndirilib.\n\nİranlı nazir Payam Xüsusi İqtisadi Zonası və Beynəlxalq Hava Limanının imkanlarından istifadə edərək birgə investisiyaların yatırılmasını, avadanlıqların istehsalını və texnoloji məhsulların ixracını təklif edib. Norduz-Meğri məntəqəsində birbaşa poçt mübadiləsinin bərpası və tranzit imkanları da diqqət mərkəzində olub. Tərəflər arasında əməkdaşlıq haqqında anlaşma memorandumunun layihəsi hazırlanıb qarşı tərəfə göndərilib.",
-    "voiceover": "İranın rabitə və informasiya texnologiyaları naziri Seyid Səttar Haşemi İrəvanda səfərdə olub. Səfər zamanı iki ölkə arasında rəqəmsal texnologiyalar, fiber-optik rabitə xətləri, süni intellekt və kibertəhlükəsizlik sahələrində əməkdaşlıq məsələləri müzakirə edilib. Tərəflər həmçinin poçt və logistika xidmətlərinin genişləndirilməsi, eləcə də birgə layihələrin həyata keçirilməsi imkanlarını nəzərdən keçiriblər.",
+    "category": "TEXNOLOGİYA",
+    "headline": "Anthropic şirkətinin səhmlərini yerləşdirməsindən sonra minlərlə işçi milyonçu olub",
+    "summary": "Nasdaq birjasında səhmlərini yerləşdirən Amerikanın Anthropic şirkətinin minlərlə əməkdaşı səhmlərin dəyəri sayəsində milyonçuya çevrilib. Şirkət tarixdə ən böyük ilkin kütləvi səhm təklifini həyata keçirərək 81,3 milyard dollar vəsait cəlb edib.",
+    "caption_text": "Amerikanın Anthropic şirkətinin Nasdaq birjasında səhmlərini yerləşdirməsindən sonra 5 mindən çox əməkdaşı səhmlərin dəyəri hesabına milyonçu olub. Hill.com platformasının məlumatına görə, Claude süni intellekt modelinin yaradıcısı olan şirkətin təxminən 2 800 əməkdaşı 10 milyon dollardan artıq, 600 nəfəri isə 100 milyon dolları ötən səhm paketlərinə sahibdir. Bundan başqa, müəssisənin 7 əməkdaşı milyarder statusu qazanıb.\n\nNoyabrın 19-da Anthropic hər biri 83 dollardan 980 milyon səhm yerləşdirərək 81,3 milyard dollar vəsait cəlb edib və tarixdə ən böyük ilkin kütləvi səhm təklifini həyata keçirib. Ticarətin başlanğıcında səhmlər 35,2 faiz bahalaşaraq 112,2 dollara çatsa da, bir saat sonra qiymət 98 dollara enib. Şirkət təsisçi olmayan işçilərinə ticarətin ilk günündə səhmlərin 10 faizədək hissəsini satmağa icazə verib.",
+    "voiceover": "Amerikanın Anthropic şirkətinin Nasdaq birjasında səhmlərini yerləşdirməsindən sonra 5 mindən çox əməkdaşı milyonçuya çevrilib. Hill.com platformasının məlumatına görə, təxminən 2800 işçinin 10 milyon dollardan, 600 nəfərin isə 100 milyon dolları ötən səhm paketləri var. Şirkətin 7 əməkdaşı isə milyarder olub. Noyabrın 19-da Anthropic 980 milyon səhm yerləşdirərək 81,3 milyard dollar vəsait cəlb edib və tarixdə ən böyük ilkin kütləvi səhm təklifini həyata keçirib. Birjaya çıxarılan səhmlər sonradan 112,2 dollara qədər bahalaşıb.",
     "visual_keywords": [
-      "technology network",
-      "fiber optic cables",
-      "digital server room"
+      "stock exchange screen",
+      "financial trading floor",
+      "technology office workers"
     ],
     "highlight": [
-      "İran",
-      "Ermənistan"
+      "Anthropic"
     ],
     "source_note": "Mənbə: Trend.az",
-    "link": "https://az.trend.az/other/world/4249163.html",
+    "link": "https://az.trend.az/other/world/4249189.html",
     "sensitive": false
   },
   {
     "category": "DÜNYA",
     "headline": "İsveçrədə silah ixracı məhdudiyyətlərinin yumşaldılması üzrə referendum keçiriləcək",
-    "summary": "İsveçrədə hərbi texnika ixracına qoyulan məhdudiyyətlərin yumşaldılması ilə əlaqədar səsvermə noyabrın 29-na təyin edilib. Bloomberg-in məlumatına görə, son sorğular dəyişiklikləri dəstəkləyənlərin 49 faiz təşkil etdiyini göstərir.",
-    "caption_text": "İsveçrədə silah və hərbi texnika ixracına qoyulan məhdudiyyətlərin yumşaldılması ilə bağlı referendum noyabrın 29-na təyin olunub. Bloomberg-in məlumatına əsasən, bu səsvermə Ukraynadakı müharibə fonunda ölkənin ənənəvi neytrallığı və Avropadakı müttəfiqləri ilə əlaqələri ətrafında müzakirələri kəskinləşdirib.\n\nSon sorğuların nəticələrinə görə, qanunvericilikdəki dəyişiklikləri ölkə vətəndaşlarının 49 faizi dəstəkləyir. Təşəbbüsün tərəfdarları və əleyhdarları arasındakı fərq isə üç faiz bəndindən çox deyil. Hərbi materiallar haqqında qanuna dəyişikliklər ötən ilin sonunda parlament tərəfindən təsdiqlənsə də, əleyhdarlar referendum keçirilməsinə nail olublar. Onlar hesab edirlər ki, qaydaların yumşaldılması İsveçrənin silahların son alıcılarına nəzarət imkanlarını zəiflədə bilər və silahların terrorçu qruplaşmalara ötürə biləcək dövlətlərin əlinə keçməsi riskini yaradar.",
-    "voiceover": "İsveçrədə silah və hərbi texnika ixracına qoyulan məhdudiyyətlərin yumşaldılması ilə bağlı referendum noyabrın 29-na təyin edilib. Bloomberg-in məlumatına görə, səsvermə Ukraynadakı müharibə fonunda ölkənin neytrallığı ətrafında müzakirələri kəskinləşdirib. Son sorğulara əsasən, dəyişiklikləri vətəndaşların 49 faizi dəstəkləyir. Tərəfdarlar və əleyhdarlar arasındakı fərq üç faiz bəndindən çox deyil. Hərbi materiallar haqqında qanuna dəyişikliklər ötən ilin sonunda parlament tərəfindən təsdiqlənib, lakin əleyhdarlar referendum keçirilməsinə nail olublar. Onlar silahların son alıcılarına nəzarətin zəifləyəcəyindən ehtiyat edirlər.",
+    "summary": "İsveçrədə noyabrın 29-da hərbi texnika və silah ixracına qoyulan məhdudiyyətlərin yumşaldılması ilə bağlı referendum təşkil olunacaq. Sorğulara əsasən, dəyişiklikləri vətəndaşların 49 faizi dəstəkləyir.",
+    "caption_text": "İsveçrədə noyabrın 29-da silah və hərbi texnika ixracı üzrə mövcud məhdudiyyətlərin yumşaldılması məsələsi referenduma çıxarılacaq. Agentlik məlumatına görə, təklif olunan dəyişikliklər ölkənin ənənəvi neytral siyasətində əsaslı dönüş ola bilər və Ukraynadakı müharibə fonunda Avropa müttəfiqləri ilə əlaqələrə təsir göstərə bilər.\n\nSon rəy sorğularının nəticələrinə görə, təşəbbüsü ölkə əhalisinin 49 faizi dəstəkləyir. Tərəfdarlar və əleyhdarlar arasındakı fərq üç faizdən az olduğu üçün səsvermənin yekunu hələ də qeyri-müəyyən olaraq qalır. Qeyd olunan düzəlişlər ötən il parlament tərəfindən təsdiqlənsə də, islahat əleyhdarları referendumun keçirilməsinə nail olublar. Onlar hesab edirlər ki, qaydaların yumşaldılması ölkədə istehsal olunan silahların sonradan kimə çatmasına nəzarəti zəiflədə bilər.",
+    "voiceover": "İsveçrədə noyabrın 29-da silah və hərbi texnika ixracı məhdudiyyətlərinin yumşaldılması üzrə referendum keçiriləcək. Bloomberg agentliyinin məlumatına görə, bu dəyişikliklər ölkənin neytral siyasətinin yenidən nəzərdən keçirilməsinə səbəb ola bilər. Son sorğulara əsasən, təşəbbüsü vətəndaşların 49 faizi dəstəkləyir.",
     "visual_keywords": [
       "swiss flag",
-      "parliament building",
-      "military export"
+      "voting ballot",
+      "parliament building"
     ],
     "highlight": [
-      "İsveçrə",
+      "İsveçrədə",
+      "silah ixracı",
       "referendum"
     ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/azerinews/1876081.html",
+    "source_note": "Mənbə: Haqqin.az",
+    "link": "https://haqqin.az/newsarchive/399022",
+    "sensitive": false
+  },
+  {
+    "category": "SİYASƏT",
+    "headline": "Yeni Azərbaycan Partiyasının yaradılmasından 34 il ötür",
+    "summary": "Yeni Azərbaycan Partiyasının təsis olunmasından 34 il keçir. Təşkilat ölkənin ağır böhran dövründə xalqın arzu və istəklərinin ifadəçisi kimi yaranıb.",
+    "caption_text": "Azərbaycan siyasi həyatında mühüm rol oynayan Yeni Azərbaycan Partiyasının yaranmasının 34 ili tamam olur. Təşkilat ötən əsrin 90-cı illərinin əvvəllərində mürəkkəb siyasi vəziyyət fonunda formalaşıb. 1992-ci il oktyabrın 16-da 91 nəfər ziyalı “Səs” qəzeti vasitəsilə Ümummilli Lider Heydər Əliyevə müraciət edərək Qurtuluş hərəkatına rəhbərlik etməyi xahiş edib. Həmin il noyabrın 21-də isə Yeni Azərbaycan Partiyası təsis olunub və Heydər Əliyev partiyanın sədri seçilib.\n\nPrezident İlham Əliyev partiyanın VIII qurultayındakı çıxışında qələbələrin başlanğıcını məhz bu siyasi qüvvənin təsis olunması ilə əlaqələndirib. Ötən illər ərzində Azərbaycan mürəkkəb inkişaf yolu keçərək ərazi bütövlüyünü və suverenliyini tam bərpa edib.",
+    "voiceover": "Yeni Azərbaycan Partiyasının yaranmasından 34 il ötür. Təşkilat ölkənin mürəkkəb siyasi böhran yaşadığı dövrdə, 1992-ci il noyabrın 21-də təsis edilib. Ümummilli Lider Heydər Əliyev partiyanın sədri seçilib. Azərbaycan Respublikasının Prezidenti, Yeni Azərbaycan Partiyasının Sədri İlham Əliyev qurultaydakı çıxışında bu siyasi qüvvənin keçdiyi inkişaf yolunun əhəmiyyətini vurğulayıb.",
+    "visual_keywords": [
+      "political party meeting",
+      "state flag",
+      "conference hall"
+    ],
+    "highlight": [
+      "Yeni Azərbaycan Partiyası",
+      "34 il"
+    ],
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sesqazeti.az/news/politics/1375920.html",
+    "sensitive": false
+  },
+  {
+    "category": "İDMAN",
+    "headline": "Azərbaycanlı UFC döyüşçüsü Tahir Abdullayev bu gün Dohada qüvvəsini sınayacaq",
+    "summary": "Azərbaycan təmsilçisi Tahir Abdullayev Qətərin paytaxtında avstraliyalı idmançı Ceyk Mettyusla üz-üzə gələcək. Görüş bu gün Dohada baş tutacaq.",
+    "caption_text": "Azərbaycanı təmsil edən Ultimate Fighting Championship döyüşçüsü Tahir Abdullayev bu gün növbəti matçına çıxacaq. İdmançının rəqibi avstraliyalı Ceyk Mettyus olacaq. Qarşılaşma Qətərin paytaxtı Doha şəhərində təşkil olunacaq.",
+    "voiceover": "Azərbaycanlı UFC döyüşçüsü Tahir Abdullayev bu gün Qətərin paytaxtı Dohada avstraliyalı Ceyk Mettyusla qarşılaşacaq.",
+    "visual_keywords": [
+      "mma fighter in cage",
+      "ufc training",
+      "boxing ring lights"
+    ],
+    "highlight": [
+      "Tahir Abdullayev",
+      "Doha"
+    ],
+    "source_note": "Mənbə: Oxu.az",
+    "link": "https://oxu.az/idman/bu-gun-tahir-abdullayevin-doyusu-var",
     "sensitive": false
   }
 ]
