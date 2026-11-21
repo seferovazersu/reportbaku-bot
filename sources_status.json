@@ -29,7 +29,7 @@
   },
   "Qafqazinfo": {
     "url": "https://qafqazinfo.az/rss",
-    "state": "OK (100 təzə xəbər, HTTP 200)"
+    "state": "OK (99 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
@@ -41,7 +41,7 @@
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
-    "state": "OK (39 təzə xəbər, HTTP 200)"
+    "state": "OK (38 təzə xəbər, HTTP 200)"
   },
   "Minval.az": {
     "url": "https://minval.az/feed/",
