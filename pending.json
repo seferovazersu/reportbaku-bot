@@ -4311,5 +4311,33 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "id": "20261123-001233-01",
+  "kind": "news",
+  "created": "2026-11-22T20:12:33.726185+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb",
+  "summary": "Texniki problem ABŞ-də uçuşların hazırlıq sistemində yaranıb. Hadisə nəticəsində Delta Air Lines reyslərində kütləvi gecikmələr qeydə alınıb.",
+  "caption_text": "Bazar günü Birləşmiş Ştatlarda aviasiya sahəsində texniki nasazlıq baş verib. Məlumata görə, təyyarələrin uçuşa hazırlıq sistemində yaranan problem Delta Air Lines şirkətinin reyslərinin kütləvi şəkildə ləngiməsinə səbəb olub.\n\nHadisədən daha çox Atlantanın hava limanı zərər çəkib. Ümumilikdə ölkə üzrə minlərlə uçuş təhlükə ilə üz-üzə qalıb.",
+  "voiceover": "ABŞ-də Delta Air Lines aviaşirkətinin reyslərində kütləvi gecikmələr qeydə alınıb. Bazar günü baş verən texniki nasazlıq təyyarələrin uçuşa hazırlıq sistemində yaranıb. Problemə görə xüsusilə Atlantanın hava limanı ciddi çətinliklərlə üzləşib.",
+  "hashtags": [
+   "#ABŞ",
+   "#DeltaAirLines",
+   "#aviasiya",
+   "#dünya",
+   "#xəbər"
+  ],
+  "highlight": [
+   "ABŞ",
+   "Delta"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Более 3,5 тысячи перелетов в США оказались под угрозой из-за сбоя Delta",
+  "link": "https://minval.az/news/124563836",
+  "sensitive": false
  }
 ]
