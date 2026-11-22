@@ -4223,9 +4223,14 @@
   "id": "20261122-234506-01",
   "kind": "news",
   "created": "2026-11-22T19:45:06.204407+00:00",
-  "status": "awaiting_media",
+  "status": "building",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file": "incoming/20261122-234506-01/1.jpg",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb",
   "summary": "ABŞ prezidentinin xüsusi elçisi Cared Kuşner Ukraynanın təhlükəsizlik zəmanətlərinin Avropanın ümumi təhlükəsizlik arxitekturasının tərkib hissəsi olmalı olduğunu bildirib. Onun sözlərinə görə, bu məsələ ayrı bir razılaşma kimi deyil, daha geniş sistemin çərçivəsində həll edilməlidir.",
