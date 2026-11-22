@@ -4285,5 +4285,31 @@
   "source_title": "Россия буксирует атакованный у берегов Финляндии сухогруз",
   "link": "https://haqqin.az/newsarchive/399095",
   "sensitive": true
+ },
+ {
+  "id": "20261123-000445-u",
+  "kind": "news",
+  "created": "2026-11-22T20:04:45.295204+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub.\n\nAtəşfəşanlıq Göyərçin abidəsinin yaxınlığında baş tutub.",
+  "media": [
+   {
+    "file": "incoming/20261123-000445-u/1.mp4",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət v",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət və istirahət parkında atəşfəşan",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
