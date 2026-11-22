@@ -1,58 +1,72 @@
 [
   {
-    "category": "TEXNOLOGİYA",
-    "headline": "BepiColombo kosmik gəmisi Merkuri planetinin orbitinə daxil olub",
-    "summary": "Avropanın BepiColombo kosmik aparatı Merkuri planetinin orbitinə çatıb. Bu barədə Avropa Kosmik Agentliyi məlumat yayıb.",
-    "caption_text": "Avropanın \"BepiColombo\" kosmik aparatı uzun illər davam edən planetlərarası uçuşunu başa vuraraq Merkuri planetinin orbitinə daxil olub. Bu barədə Avropa Kosmik Agentliyi bazar günü məlumat yayıb. Beləliklə, o, tarixdə Günəşə ən yaxın planetin orbitində birbaşa elmi məlumatlar toplayacaq ikinci kosmik aparat olub.\n\nLayihə çərçivəsində Merkurinin səthinin və ətraf fəzanın tərkibi öyrəniləcək, planetin geoloji inkişaf tarixi, daxili quruluşu və kimyəvi tərkibi araşdırılacaq. Eyni zamanda, maqnit sahəsinin mənşəyi, onun Günəş küləyi ilə qarşılıqlı təsiri təhlil ediləcək, həmçinin qütb bölgələrində su buzunun və hidrogen tərkibli birləşmələrin yayılma xəritəsi hazırlanacaq.",
-    "voiceover": "Avropanın BepiColombo kosmik aparatı uzun illər davam edən uçuşunu başa vuraraq Merkuri planetinin orbitinə daxil olub. Avropa Kosmik Agentliyinin yaydığı məlumata görə, aparat Günəşə ən yaxın planetin orbitində birbaşa elmi məlumatlar toplayacaq ikinci kosmik vasitə olub. Layihənin məqsədi Merkurinin səthini, daxili quruluşunu, maqnit sahəsini və geoloji inkişaf tarixini öyrənməkdir.",
+    "category": "İDMAN",
+    "headline": "Kəpəz və Qarabağ matçında qalib müəyyənləşməyib",
+    "summary": "Azərbaycan Premyer Liqasının XII turunun son oyununda Kəpəz və Qarabağ komandaları üz-üzə gəlib. Gəncə şəhər stadionunda keçirilən qarşılaşma qolsuz bərabərliklə başa çatıb.",
+    "caption_text": "Azərbaycan Premyer Liqasının XII turunun bağlanış matçında Kəpəz və Qarabağ komandaları qarşılaşıblar. Gəncə şəhər stadionunda baş tutan görüş qolsuz bərabərliklə yekunlaşıb.\n\nBu nəticədən sonra Qarabağ klubunun qələbəsiz seriyası 5 oyuna çatıb. Görüş öncəsi Ağdam təmsilçisi 10 oyundan 19 xalla 5-ci, Gəncə təmsilçisi isə 17 xalla 6-cı pillədə qərarlaşmışdı.",
+    "voiceover": "Azərbaycan Premyer Liqasının XII turunun son oyununda Kəpəz və Qarabağ komandaları üz-üzə gəlib. Gəncə şəhər stadionunda keçirilən qarşılaşma qolsuz bərabərliklə başa çatıb. Bu nəticə ilə Qarabağın qələbəsiz seriyası 5-ə çatıb.",
     "visual_keywords": [
-      "space probe",
-      "planet orbit",
-      "astronomy science"
+      "football match",
+      "stadium pitch",
+      "soccer players"
     ],
     "highlight": [
-      "BepiColombo",
-      "Merkuri"
+      "Kəpəz",
+      "Qarabağ"
     ],
-    "source_note": "Mənbə: Trend.az",
-    "link": "https://az.trend.az/other/world/4249378.html",
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/kepez-de-qarabagdan-xal-aldi-video-yenilenib-529413",
     "sensitive": false
   },
   {
-    "category": "DÜNYA",
-    "headline": "Politoloq Maykl Naki Krım sakinlərini yarımadanı tərk etməyə çağırıb",
-    "summary": "Politoloq Maykl Naki Krımda yaşayan Rusiya sakinlərinə müraciət edərək əraziyə ciddi çətinliklərin gözlənildiyini bildirib. O, vətəndaşları hələ imkan olarkən yarımadanı tərk etməyə dəvət edib.",
-    "caption_text": "Politoloq Maykl Naki özünün sosial şəbəkə hesabında Krımda yaşayan sakinlərə müraciət ünvanlayıb.\n\nİddiaya görə, o, Rusiya sakinlərini hələ fürsət varkən yarımadadan çıxmağa çağırıb. Naki ərazidə vəziyyətin getdikcə pisləşəcəyini, elektrik enerjisi, yanacaq, ərzaq və dərman təminatında problemlərin yaranacağını qeyd edib. O, xüsusilə uşaqlı ailələrə müharibənin sonuna qədər başqa yerlərə köçməyi məsləhət görüb.",
-    "voiceover": "Politoloq Maykl Naki Krımda yaşayan ruslara müraciət edərək hələ imkan olarkən yarımadanı tərk etməyə çağırıb. O, regionda vəziyyətin getdikcə pisləşəcəyini və təminatda ciddi çətinliklərin yaranacağını bildirib.",
+    "category": "HADİSƏ",
+    "headline": "İndoneziyada şirniyyat fabrikindəki yanğından sonra axtarışlar davam edir",
+    "summary": "İndoneziyada şirniyyat fabrikində baş verən yanğından sonra xilasedicilər dağıntıları təmizləyirlər. Hadisə nəticəsində onlarla insanın itkin düşdüyü bildirilir.",
+    "caption_text": "İndoneziyada şirniyyat fabrikinin ərazisində baş verən yanğından sonra xilasetmə işləri davam edir. Reuters agentliyinin məlumatına görə, PT Fonusa Agung Mulia müəssisəsindəki hadisədən sonra mütəxəssislər dağıntıların təmizlənməsini həyata keçirirlər. Yanğın nəticəsində onlarla şəxsin itkin düşdüyü qeyd olunur.",
+    "voiceover": "İndoneziyada şirniyyat fabrikində baş verən yanğından sonra xilasedicilər dağıntıları təmizləyirlər. Reuters agentliyinin məlumatına görə, PT Fonusa Agung Mulia müəssisəsindəki hadisədən sonra onlarla insan itkin düşüb.",
     "visual_keywords": [
-      "political analysis",
-      "news studio"
+      "factory fire",
+      "rescue operation",
+      "smoke and ruins"
     ],
     "highlight": [
-      "Maykl Naki",
-      "Krım"
+      "İndoneziyada",
+      "şirniyyat fabrikində",
+      "yanğından"
     ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sia.az/az/news/world/1376037.html",
+    "source_note": "Mənbə: Minval.az",
+    "link": "https://minval.az/news/124563754",
     "sensitive": true
   },
   {
-    "category": "CƏMİYYƏT",
-    "headline": "Bakıda və Abşeronda leysan yağacağı gözlənilir",
-    "summary": "Noyabrın 23-də Bakıda və Abşeron yarımadasında arabir intensiv yağıntıların olacağı proqnozlaşdırılır. Gündüz saatlarında yağışın tədricən kəsiləcəyi bildirilir.",
-    "caption_text": "Milli Hidrometeorologiya Xidmətinin məlumatına əsasən, noyabrın 23-də Bakıda və Abşeron yarımadasında arabir intensiv xarakterli yağıntılar gözlənilir. Gündüz yağıntıların tədricən dayanacağı, mülayim şimal-qərb küləyinin cənub-şərq küləyi ilə əvəz olunacağı qeyd olunub. Havanın temperaturunun gecə 10-12, gündüz 14-16 isti olacağı proqnozlaşdırılır. Azərbaycanın digər bölgələrində də yağmurlu hava şəraiti hökm sürəcək, dağlıq ərazilərdə qar yağacağı ehtimal edilir.",
-    "voiceover": "Bakıda və Abşeron yarımadasında noyabrın 23-də arabir intensiv yağış yağacağı gözlənilir. Milli Hidrometeorologiya Xidmətinin məlumatına görə, gündüz yağıntılar tədricən kəsiləcək. Havanın temperaturu gecə 10 ilə 12, gündüz isə 14 ilə 16 isti təşkil edəcək. Respublika ərazisinin digər rayonlarında da yağmurlu hava və dağlıq yerlərdə qar proqnozlaşdırılır.",
-    "visual_keywords": [
-      "rainy city street",
-      "weather forecast screen",
-      "overcast sky"
-    ],
+    "category": "MƏDƏNİYYƏT",
+    "headline": "Müğənni Emre Altuğun 10 ilədək həbsi tələb olunur",
+    "summary": "Türkiyəli müğənni və aktyor Emre Altuğ İzmirin Çeşmə rayonundakı əmlakında icazəsiz tikililər tikdiyi iddiası ilə məhkəmə qarşısına çıxarılacaq. İddianaməyə əsasən, sənətçi barəsində 10 ilədək azadlıqdan məhrumetmə cəzası istənilib.",
+    "caption_text": "Türkiyəli tanınmış müğənni və aktyor Emre Altuğ hüquqi problemlə üzləşib. İzmirin Çeşmə rayonunda yerləşən daşınmaz əmlakında icazəsiz tikinti işləri apardığı iddia edilən sənətçi məhkəməyə verilib.\n\nİddiaya görө, məhkəmə prosesi çərçivəsində sənətçinin 10 ilədək həbs cəzası ilə cəzalandırılması tələb olunur.",
+    "voiceover": "Türkiyəli müğənni və aktyor Emre Altuğ İzmirin Çeşmə rayonunda yerləşən daşınmaz əmlakında icazəsiz tikililər inşa etdiyi iddiası ilə məhkəməyə çıxarılacaq. Onun barəsində 10 ilədək həbs cəzası tələb edilib.",
+    "visual_keywords": [],
     "highlight": [
-      "Bakıda",
-      "Abşeronda"
+      "Emre Altuğ",
+      "10 ilədək həbs"
     ],
-    "source_note": "Mənbə: Haqqin.az",
-    "link": "https://haqqin.az/newsarchive/399099",
-    "sensitive": false
+    "source_note": "Mənbə: Oxu.az",
+    "link": "https://oxu.az/shou-biznes/turkiyeli-mugenni-emre-altugun-10-iledek-hebsi-teleb-olunur",
+    "sensitive": true
+  },
+  {
+    "category": "SAĞLAMLIQ",
+    "headline": "Almaniyada kilsədə dəm qazından 19 nəfər zəhərlənib",
+    "summary": "Bavariya torpağında kilsədə baş verən zəhərlənmə nəticəsində dörd nəfərin vəziyyəti ağırdır. Hadisənin istilik sisteminin nasazlığı üzündən yarandığı bildirilir.",
+    "caption_text": "Almaniyanın Allqoy regionunda yerləşən kilsələrdən birində dəm qazından kütləvi zəhərlənmə qeydə alınıb. Bavariya federal torpağının Bad-Qrönenbax icmasındakı ibadətgahda baş verən hadisə zamanı azı 19 nəfər zərər çəkib.\n\nPolis məlumatına görə, insident istilik sistemində yaranan nasazlıq səbəbindən ortaya çıxıb. Zərərçəkənlərdən dörd nəfərin durumunun ağır olduğu açıqlanıb. Bölgədə xilasetmə briqadaları, təcili yardım və hüquq-mühafizə qüvvələri tərəfindən təxirəsalınmaz tədbirlər həyata keçirilib.\n\nHüquq-mühafizə qurumları hadisənin dəqiq səbəblərinin hələlik tam dəqiqləşdirilmədiyini qeyd ediblər.",
+    "voiceover": "Almaniyanın Bavariya torpağında yerləşən kilsələrin birində dəm qazından azı 19 nəfər zəhərlənib. Polisə istinadən yayılmış məlumata görə, hadisə istilik sisteminin nasazlığı səbəbindən baş verib. Dörd nəfərin vəziyyətinin ağır olduğu bildirilir. Ərazidə təcili yardım və xilasetmə xidmətləri əməliyyat aparır.",
+    "visual_keywords": [],
+    "highlight": [
+      "Almaniyada",
+      "dəm qazından",
+      "zəhərlənib"
+    ],
+    "source_note": "Mənbə: Day.az",
+    "link": "https://news.day.az/azerinews/1876294.html",
+    "sensitive": true
   }
 ]
