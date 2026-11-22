@@ -4316,9 +4316,14 @@
   "id": "20261123-001233-01",
   "kind": "news",
   "created": "2026-11-22T20:12:33.726185+00:00",
-  "status": "awaiting_media",
+  "status": "building",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file": "incoming/20261123-001233-01/1.jpg",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb",
   "summary": "Texniki problem ABŞ-də uçuşların hazırlıq sistemində yaranıb. Hadisə nəticəsində Delta Air Lines reyslərində kütləvi gecikmələr qeydə alınıb.",
