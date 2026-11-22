@@ -4259,7 +4259,12 @@
   "created": "2026-11-22T19:55:31.830741+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file": "incoming/20261122-235531-01/1.jpg",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "Finlandiya sularından çıxarılan Rusiya quru yük gəmisi yedəyə götürülüb",
   "summary": "Finlandiya sularında yanğını söndürülən Rusiya quru yük gəmisi rusiyalı xilasedicilər tərəfindən yedəyə götürülüb. Hadisə nəticəsində heyət üzvləri təxliyə edilib, bir dənizçi yüngül xəsarət alıb.",
