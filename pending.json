@@ -4192,5 +4192,31 @@
   "source_title": "Meyiti yaşadığı evdən tapıldı",
   "link": "https://www.qafqazinfo.az/news/detail/meyiti-yasadigi-evden-tapildi-529456",
   "sensitive": true
+ },
+ {
+  "id": "20261122-232357-u",
+  "kind": "news",
+  "created": "2026-11-22T19:23:57.564532+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "❗️Liviya sahillərində daha bir Rusiya gəmisi vurulub",
+  "media": [
+   {
+    "file": "incoming/20261122-232357-u/1.mp4",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "❗️Liviya sahillərində daha bir Rusiya gəmisi vurulub",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "❗️Liviya sahillərində daha bir Rusiya gəmisi vurulub",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
