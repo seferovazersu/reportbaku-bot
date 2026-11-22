@@ -1,55 +1,74 @@
 [
   {
-    "category": "HADİSƏ",
-    "headline": "Krasnodar hava limanı yenidən bağlandı",
-    "summary": "Rusiyanın Krasnodar şəhərinin hava limanında uçuşlara və enişlərə məhdudiyyətlər qoyulub. Federal Hava Nəqliyyatı Agentliyindən bildirilib ki, bu tədbir uçuş təhlükəsizliyini təmin etmək məqsədilə görülüb.",
-    "caption_text": "Rusiyanın Krasnodar şəhərində yerləşən hava limanında təyyarələrin qəbulu və yola salınması prosesinə məhdudiyyətlər tətbiq olunub. Məsələ ilə bağlı Federal Hava Nəqliyyatı Agentliyi açıqlama yayıb.\n\nQurumdan qeyd edilib ki, tətbiq edilən məhdudiyyət addımları uçuşların təhlükəsizliyini təmin etmək məqsədi daşıyır.",
-    "voiceover": "Rusiyanın Krasnodar hava limanında təyyarələrin enişi və uçuşuna məhdudiyyətlər tətbiq edilib. Federal Hava Nəqliyyatı Agentliyindən verilən məlumata görə, bu qərar uçuşların təhlükəsizliyini təmin etmək məqsədilə qəbul olunub.",
-    "visual_keywords": [
-      "airport terminal",
-      "airplane on runway"
-    ],
-    "highlight": [
-      "Krasnodar hava limanı"
-    ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sia.az/az/news/world/1376006.html",
-    "sensitive": false
-  },
-  {
-    "category": "CƏMİYYƏT",
-    "headline": "Qobu Park sakinləri sahibsiz itlərin hücumundan şikayət edirlər",
-    "summary": "Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən Qobu Park yaşayış massivinin sakinləri sahibsiz itlərin yaratdığı təhlükədən narazıdırlar. Sakinlər və əraziyə xidmət göstərən işçilər binaların həyətində sərbəst hərəkət edə bilmədiklərini bildirirlər.",
-    "caption_text": "Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən Qobu Park yaşayış massivində sahibsiz itlərlə bağlı problem hələ də qalmaqdadır. Sakinlər və kompleksə xidmət göstərən işçilər binaların həyətindən təhlükəsiz keçə bilmədiklərini, səhər saatlarında həyətləri təmizləyənlərin və su təchizatına nəzarət edənlərin çətinlik çəkdiyini deyirlər. \n\nİddiaya görə, əvvəllər bir səhər beş nəfər, o cümlədən su təchizatı işçisi itlərin hücumuna məruz qalaraq xəsarət alıb. Sakinlər bildirirlər ki, bir müddət əvvəl bəzi heyvanlar ərazidən götürülsə də, hazırda binaların arasında yenidən çoxlu sahibsiz it mövcuddur. Həmin heyvanlar piyadalarla yanaşı, motosikletlə hərəkət edənlərin də arxasınca qaçırlar.",
-    "voiceover": "Qobu Park yaşayış massivinin sakinləri sahibsiz itlərin hücumundan şikayətçidirlər. Qaradağ rayonunun Lökbatan qəsəbəsində yerləşən ərazidə sakinlər və xidmət işçiləri təhlükə ilə üzləşdiklərini bildirirlər. İddiaya görə, daha əvvəl ərazidə bir neçə nəfər, o cümlədən su təchizatı işçisi itlər tərəfindən dişlənib. Sakinlər binaların arasında yenidən çoxlu sahibsiz itin toplandığını və hərəkətə mane olduğunu deyirlər.",
-    "visual_keywords": [
-      "stray dogs street",
-      "residential yard"
-    ],
-    "highlight": [
-      "Qobu Park",
-      "sahibsiz itlərin"
-    ],
-    "source_note": "Mənbə: Xəzər Xəbər",
-    "link": "https://xezerxeber.az/az/veb-tv/sahibsiz-itlerin-hucumundan-sikayetcidirler-vi-deo",
-    "sensitive": false
-  },
-  {
     "category": "İDMAN",
-    "headline": "Real Madrid Selta-nı məğlub edib",
-    "summary": "İspaniya La Liqasında Real Madrid öz meydanında Selta komandası ilə qarşılaşdı. Madrid təmsilçisi rəqibini 2:1 hesabı ilə üstələdi.",
-    "caption_text": "İspaniya La Liqasında Real Madrid və Selta kollektivləri üz-üzə gəlib. Madrid təmsilçisi rəqibini 2:1 hesabı ilə məğlub etməyi bacarıb.\n\nMatçın 6-cı dəqiqəsində Selta heyətində Pablo Duran hesabı açıb. Görüşün 66-cı dəqiqəsində Cud Bellinqem tarazlığı bərpa edib. Karlos Espinin 85-ci dəqiqədə vurduğu qol isə Madrid klubuna qələbə qazandırıb.",
-    "voiceover": "İspaniya La Liqasında Real Madrid öz meydanında Selta komandasını qəbul edib. Madrid təmsilçisi rəqibini 2:1 hesabı ilə məğlub edib. Seltanın heyətində Pablo Duran 6-cı dəqiqədə hesabı açıb. Real Madridin heyətində Cud Bellinqem 66-cı dəqiqədə tarazlığı bərpa edib. Karlos Espinin 85-ci dəqiqədə vurduğu qol isə Madrid klubuna üstünlük qazandırıb.",
+    "headline": "Azərbaycan Premyer Liqasında XII tur iki oyunla başa çatır",
+    "summary": "Azərbaycan Premyer Liqasında XII turun son oyun günündə iki qarşılaşma baş tutacaq. \"Neftçi\" \"Araz-Naxçıvan\"ın qonağı olacaq, \"Kəpəz\" isə \"Qarabağ\"ı qəbul edəcək.",
+    "caption_text": "Azərbaycan Premyer Liqasında bu gün XII tura yekun vurulacaq. Günün ilk matçında \"Neftçi\" Şamaxı şəhər stadionunda \"Araz-Naxçıvan\"ın qonağı olacaq və görüş saat 14:30-da başlayacaq. Turnir cədvəlində paytaxt klubu 24 xalla ikinci, Naxçıvan təmsilçisi isə 4 xalla on ikinci pillədə qərarlaşıb. Turun bağlanış matçında \"Kəpəz\" öz meydanında \"Qarabağ\"ı sınağa çəkəcək. Gəncə şəhər stadionunda keçiriləcək bu qarşılaşma saat 17:00-da start götürəcək. Hazırda on oyundan 19 xalı olan Ağdam təmsilçisi beşinci, Gəncə klubu isə 17 xalla altıncı sırada yer alıb.",
+    "voiceover": "Azərbaycan Premyer Liqasında XII tura bu gün iki oyunla yekun vurulacaq. Günün ilk matçında Neftçi Araz-Naxçıvanın qonağı olacaq. Görüş saat 14:30-da start götürəcək. Turnir cədvəlində paytaxt klubu 24 xalla 2-ci, Naxçıvan təmsilçisi 4 xalla sonuncu pillədə qərarlaşıb. Turun bağlanış oyununda isə Kəpəz öz meydanında Qarabağı sınağa çəkəcək. Gəncə şəhər stadionunda keçiriləcək qarşılaşma saat 17:00-da başlayacaq. Ağdam təmsilçisi 19 xalla 5-ci, Gəncə klubu isə 17 xalla 6-cı yerdədir.",
     "visual_keywords": [
       "football match stadium",
-      "soccer players celebrating"
+      "soccer players on field"
     ],
     "highlight": [
-      "Real Madrid",
-      "Selta"
+      "Azərbaycan Premyer Liqasında",
+      "XII tur"
     ],
-    "source_note": "Mənbə: APA",
-    "link": "https://apa.az/football/real-madrid-oz-meydaninda-seltani-meglub-edib-1016073",
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sia.az/az/news/sport/1376013.html",
+    "sensitive": false
+  },
+  {
+    "category": "SİYASƏT",
+    "headline": "Azərbaycan Xarici İşlər Nazirliyi Livanı Milli Günü münasibətilə təbrik edib",
+    "summary": "Azərbaycan Xarici İşlər Nazirliyi Livanın Milli Günü münasibətilə təbrik ünvanlayıb. Qurumun sosial şəbəkə hesabında Livan xalqına və hökumətinə təbriklər çatdırılıb.",
+    "caption_text": "Azərbaycan Xarici İşlər Nazirliyi Livanı Milli Günü münasibətilə təbrik edib. Nazirliyin \"X\" sosial şəbəkə hesabında yayımlanan təbrikdə Livan Respublikasının xalqına və hökumətinə səmimi arzular çatdırılıb. Qeyd edək ki, qeyd olunan tarix 1943-cü ildə Livanın Fransadan azad olaraq müstəqillik qazanması ilə əlaqədardır.",
+    "voiceover": "Azərbaycan Xarici İşlər Nazirliyi Livanı Milli Günü münasibətilə təbrik edib. Qurumun sosial şəbəkə hesabında Livan xalqına və hökumətinə təbriklər çatdırılıb. Xatırladaq ki, həmin tarix 1943-cü ildə Livanın Fransadan azad olunaraq müstəqillik qazanması ilə bağlıdır.",
+    "visual_keywords": [
+      "diplomatic meeting",
+      "flags waving",
+      "international relations"
+    ],
+    "highlight": [
+      "Azərbaycan Xarici İşlər Nazirliyi",
+      "Livan"
+    ],
+    "source_note": "Mənbə: Metbuat.az",
+    "link": "https://metbuat.az/news/1567324/azerbaycan-xin-livani-tebrik-etdi.html",
+    "sensitive": false
+  },
+  {
+    "category": "HADİSƏ",
+    "headline": "Bakı və Sumqayıtda bağlı qapı arxasında qalan 2 nəfər xilas edilib",
+    "summary": "Fövqəladə Hallar Nazirliyinin xilasetmə qüvvələri paytaxtda və Sumqayıtda əməliyyat keçirib. Qapının arxasında köməksiz qalanlardan biri uşaq olmaqla 2 nəfər xilas olunub.",
+    "caption_text": "Bakı və Sumqayıt şəhərlərində mənzillərdə bağlı qapı arxasında qalan şəxslərin xilas edilməsi istiqamətində əməliyyatlar həyata keçirilib. Fövqəladə Hallar Nazirliyinin \"112\" qaynar telefon xəttinə daxil olan məlumatlar əsasında qurumun Bakı Regional Mərkəzi və Sumqayıt Regional Mərkəzinin xilasetmə qüvvələri hərəkətə keçib.\n\nKeçirilən tədbirlər nəticəsində vətəndaşların təhlükəsizliyi təmin olunub. Xilasetmə əməliyyatları nəticəsində aralarında 1 uşaq da olmaqla ümumilikdə 2 nəfər bağlı qapı arxasından çıxarılaraq xilas edilib.",
+    "voiceover": "Bakı və Sumqayıt şəhərlərində bağlı qapı arxasında köməksiz qalan 2 nəfər xilas edilib. Fövqəladə Hallar Nazirliyinin Mətbuat xidmətindən verilən məlumata görə, qurumun \"112\" qaynar telefon xəttinə daxil olan müraciətlər əsasında Bakı Regional Mərkəzi və Sumqayıt Regional Mərkəzinin xilasetmə qüvvələri tərəfindən iki əməliyyat icra olunub. Həyata keçirilən tədbirlər nəticəsində biri uşaq olmaqla iki nəfərin həyatı xilas edilib.",
+    "visual_keywords": [],
+    "highlight": [
+      "Bakı",
+      "Sumqayıt",
+      "2 nəfər"
+    ],
+    "source_note": "Mənbə: Publika",
+    "link": "https://publika.az/news/hadise/649594.html",
+    "sensitive": true
+  },
+  {
+    "category": "TEXNOLOGİYA",
+    "headline": "BepiColombo missiyası Merkuri ətrafına çatıb",
+    "summary": "Avropa Kosmik Agentliyi və Yaponiya Aerokosmik Tədqiqat Agentliyinin birgə missiyası səkkiz ildən çox davam edən səyahətdən sonra Merkuriyə çatıb. Kosmik aparat kritik orbital manevri tamamlayaraq planet ətrafında fırlanan tarixdə ikinci missiya kimi qeydə alınıb.",
+    "caption_text": "Avropa Kosmik Agentliyi və Yaponiya Aerokosmik Tədqiqat Agentliyinin birgə “BepiColombo” missiyası səkkiz ildən çox davam edən və təxminən 10 milyard kilometrlik səyahətdən sonra Merkuriyə çatıb. Kosmik aparat kritik orbital manevri tamamlayaraq Merkuri ətrafında fırlanan tarixdə ikinci missiya kimi qeydə alınıb.\n\nMissiya çərçivəsində Avropa Kosmik Agentliyinin “Mercury Orbiter” və Yaponiya Aerokosmik Tədqiqat Agentliyinin “Mio” kosmik aparatlarının dekabrın 9-10-da ayrılaraq fərqli orbitlərə çıxması nəzərdə tutulur. Elmi müşahidələrə isə 2027-ci ilin aprelində başlanılması planlaşdırılır. Günəşə ən yaxın və Günəş sisteminin ən kiçik planeti olan Merkuri kəskin temperatur fərqləri ilə seçilir, burada gündüz səthində temperatur 450 dərəcəyə çatır, gecə isə -180 dərəcəyə enir.\n\nAparatların Merkuri ətrafında təxminən üç il fəaliyyət göstərəcəyi, yanacaqları tükəndikdən sonra isə planetin səthinə düşəcəyi gözlənilir. Alimlər planetin kiçik ölçüsünə baxmayaraq, sıx və iri metal nüvəyə malik olmasının səbəblərinə də aydınlıq gətirməyə çalışacaqlar.",
+    "voiceover": "Avropa Kosmik Agentliyi və Yaponiya Aerokosmik Tədqiqat Agentliyinin birgə BepiColombo missiyası səkkiz ildən çox davam edən və təxminən 10 milyard kilometrlik səyahətdən sonra Merkuriyə çatıb. Kosmik aparat kritik orbital manevri tamamlayaraq Merkuri ətrafında fırlanan tarixdə ikinci missiya kimi qeydə alınıb. Aparatların dekabrın 9-10-da ayrılaraq fərqli orbitlərə çıxması, elmi müşahidələrə isə 2027-ci ilin aprelində başlanılması planlaşdırılır.",
+    "visual_keywords": [
+      "space probe",
+      "planet mercury",
+      "space exploration"
+    ],
+    "highlight": [
+      "BepiColombo",
+      "Merkuri"
+    ],
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/8-illik-seyahetden-sonra-merkuriye-catdi-529417",
     "sensitive": false
   }
 ]
