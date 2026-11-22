@@ -1,11 +1,11 @@
 {
   "AZƏRTAC": {
     "url": "https://azertag.az/rss",
-    "state": "OK (50 təzə xəbər, HTTP 200)"
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (135 təzə xəbər, HTTP 200)"
+    "state": "OK (134 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -41,7 +41,7 @@
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
-    "state": "OK (33 təzə xəbər, HTTP 200)"
+    "state": "OK (31 təzə xəbər, HTTP 200)"
   },
   "Minval.az": {
     "url": "https://minval.az/feed/",
@@ -49,10 +49,10 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (48 təzə xəbər, HTTP 200)"
+    "state": "OK (47 təzə xəbər, HTTP 200)"
   },
   "Daxili İşlər Nazirliyi": {
     "url": "https://t.me/s/polisazerbaycan",
-    "state": "OK (3 təzə xəbər, Telegram kanalı)"
+    "state": "OK (2 təzə xəbər, Telegram kanalı)"
   }
 }
