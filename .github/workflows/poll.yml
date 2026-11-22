@@ -1,6 +1,7 @@
 name: Duymeleri yoxla
 
-# Hər 5 dəqiqədən bir Telegram-da Paylaş / Ləğv et düymələrinə baxır.
+# Hər ~5 dəqiqədən bir Telegram-a baxır: düymələr (✅/🎬/⏭/❌) və sizin göndərdiyiniz şəkil/video.
+# "Hazırla" basılıbsa ikinci mərhələ işə düşür (şəkil postu, karusel, Reels hazırlanır).
 # GitHub vaxtı bəzən gecikdirə bilər (5-15 dəqiqə). Əl ilə də işə salmaq olar.
 on:
   schedule:
@@ -20,20 +21,68 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Düymələri emal et
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Düymələri və mesajları emal et
+        id: poll
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-        run: python3 poll_approvals.py
+        run: python poll_approvals.py
+
+      - name: Hazırlama üçün şrift və kitabxanaları qur
+        if: steps.poll.outputs.has_work == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-inter ffmpeg
+          pip install pillow requests beautifulsoup4
+
+      - name: Xəbəri hazırla (şəkil postu, karusel, Reels)
+        if: steps.poll.outputs.has_work == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python finalize_news.py
+
+      - name: Videoları media budağına göndər
+        if: steps.poll.outputs.has_work == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ls videos_out/*.mp4 >/dev/null 2>&1; then
+            REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            rm -rf /tmp/media
+            if git clone -q --depth 1 --branch media "$REMOTE" /tmp/media 2>/dev/null; then
+              rm -rf /tmp/media/.git
+            else
+              mkdir -p /tmp/media
+            fi
+            python3 media_sync.py /tmp/media videos_out
+            cd /tmp/media
+            git init -q -b media
+            git config user.name "reportbaku-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add -A
+            git commit -q -m "media"
+            git remote add origin "$REMOTE"
+            git push -f -q origin media
+          else
+            echo "Yeni video yoxdur."
+          fi
 
       - name: Vəziyyəti saxla
         if: always()
         run: |
           git config user.name "reportbaku-bot"
           git config user.email "bot@users.noreply.github.com"
-          if [ -e pending.json ]; then git add pending.json; fi
+          for f in pending.json posts; do
+            if [ -e "$f" ]; then git add -A "$f"; fi
+          done
           git diff --staged --quiet || git commit -m "post statusu"
           git pull --rebase --autostash
           git push
