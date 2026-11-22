@@ -4218,5 +4218,34 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "id": "20261122-234506-01",
+  "kind": "news",
+  "created": "2026-11-22T19:45:06.204407+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb",
+  "summary": "ABŞ prezidentinin xüsusi elçisi Cared Kuşner Ukraynanın təhlükəsizlik zəmanətlərinin Avropanın ümumi təhlükəsizlik arxitekturasının tərkib hissəsi olmalı olduğunu bildirib. Onun sözlərinə görə, bu məsələ ayrı bir razılaşma kimi deyil, daha geniş sistemin çərçivəsində həll edilməlidir.",
+  "caption_text": "ABŞ prezidentinin xüsusi elçisi Cared Кушнер Ukraynanın təhlükəsizliyi ilə bağlı açıqlama verib. O bildirib ki, Ukraynanın təhlükəsizlik zəmanətləri xüsusi bir razılaşma deyil, Avropanın daha geniş təhlükəsizlik arxitekturasının tərkib hissəsini təşkil etməlidir. Məlumatda bu yanaşmanın əsas şərtlərdən biri olduğu qeyd edilib.",
+  "voiceover": "Amerika Birləşmiş Ştatları prezidentinin xüsusi elçisi Cared Кушнер bildirib ki, Ukraynanın təhlükəsizlik zəmanətləri ayrıca bir razılaşma deyil, Avropanın daha geniş təhlükəsizlik arxitekturasının bir hissəsi olmalıdır.",
+  "hashtags": [
+   "#ABŞ",
+   "#Ukrayna",
+   "#Avropa",
+   "#CaredKuşner",
+   "#Siyasət"
+  ],
+  "highlight": [
+   "Kuşner",
+   "Tramp",
+   "Ukraynanın"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Кушнер раскрыл, на каких условиях Трамп защитит Украину",
+  "link": "https://minval.az/news/124563835",
+  "sensitive": false
  }
 ]
