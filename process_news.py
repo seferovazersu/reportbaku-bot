@@ -78,10 +78,13 @@ PROMPT = (
     "17. visual_keywords: video fonu üçün ümumi (stok) görüntü axtarmaq üçün 2-3 qısa ingiliscə ifadə "
     "(məsələn 'city traffic', 'stock exchange screen', 'school classroom'). Yalnız ümumi səhnələr, "
     "şəxs adı və konkret hadisə olmasın. Xəbər konkret hadisədirsə (qəza, cinayət, ölüm, məhkəmə, "
-    "ordu) və ya ümumi görüntü oxucunu çaşdıra bilərsə, boş siyahı [] qaytar.\n\n"
+    "ordu) və ya ümumi görüntü oxucunu çaşdıra bilərsə, boş siyahı [] qaytar.\n"
+    "18. hashtags: xəbərə birbaşa aid 3-5 heştaq (Azərbaycanca, lazım olsa 1 ingiliscə), # ilə başlasın, "
+    "boşluqsuz olsun. Ümumi spam heştaqlar (#like4like və s.) yazma; xəbərdəki yer, qurum, mövzu və ya "
+    "hadisə adı kimi konkret heştaqlar yaz.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
     '"headline": "...", "summary": "...", "caption": "...", "voiceover": "...", '
-    '"visual_keywords": ["..."], "highlight": ["..."], "sensitive": false}'
+    '"visual_keywords": ["..."], "hashtags": ["#..."], "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
 
@@ -101,9 +104,11 @@ def recent_headlines(hours=72):
         try:
             if now - datetime.fromisoformat(p["created"]) <= timedelta(hours=hours):
                 out.append(p["headline"])
+                if p.get("source_title"):
+                    out.append(p["source_title"])
         except Exception:
             continue
-    return out[-40:]
+    return out[-60:]
 
 
 def fetch_article_text(url):
@@ -244,6 +249,9 @@ def main():
             "summary": summary,
             "caption_text": caption_text or summary,
             "voiceover": str(res.get("voiceover", "")).strip()[:1100],
+            "hashtags": [h.strip() for h in (res.get("hashtags") or []) if isinstance(h, str) and h.strip().startswith("#")][:5],
+            "image_url": item.get("image_url"),
+            "source_title": item.get("title", ""),
             "visual_keywords": [str(k).strip() for k in (res.get("visual_keywords") or [])
                                 if isinstance(k, str) and k.strip()][:3],
             "highlight": highlight,

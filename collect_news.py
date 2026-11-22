@@ -47,6 +47,11 @@ FEEDS = [
     ("Daxili İşlər Nazirliyi", "polisazerbaycan", "tg"),
 ]
 
+# Xəbərin ÖZ şəklini götürməyə icazə verilən mənbələr. Müəllif hüququ: başqa portalın şəklini icazəsiz
+# paylaşmaq risklidir (Instagram videonu silə, hesaba məhdudiyyət qoya bilər). Yalnız rəsmi qurumların öz
+# paylaşdığı mətbuat şəkilləri və ya yazılı icazə aldığınız mənbələr bura əlavə edilməlidir.
+IMAGE_OK_SOURCES = {"Daxili İşlər Nazirliyi"}
+
 TARGET_COUNT = int(os.getenv("TARGET_COUNT", "6"))   # gündə/seansda neçə xəbər
 MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "24"))  # nə qədər köhnə xəbərlər olar
 SIMILARITY = 0.70                                    # başlıqlar bu qədər oxşardırsa, təkrar sayılır
@@ -73,8 +78,39 @@ def entry_time(entry):
     return datetime(*t[:6], tzinfo=timezone.utc)
 
 
+def _stems(text):
+    """Mənalı sözlərin ilk 4 hərfi (Azərbaycan dilində şəkilçilər uzun olur, kökü müqayisə edirik)."""
+    words = re.findall(r"[\w]+", text.lower())
+    return {w[:4] for w in words if len(w) >= 4}
+
+
 def is_similar(a, b):
-    return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= SIMILARITY
+    """İki başlıq eyni hadisədən bəhs edirsə True: hərf oxşarlığı və ya ortaq söz köklərinin çoxluğu."""
+    if difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= SIMILARITY:
+        return True
+    sa, sb = _stems(a), _stems(b)
+    common = sa & sb
+    return len(common) >= 3 and len(common) / float(min(len(sa), len(sb)) or 1) >= 0.4
+
+
+def recent_titles(hours=72):
+    """Son 72 saatda hazırlanmış xəbərlərin başlıqları (AI başlığı və mənbə başlığı)."""
+    f = Path("pending.json")
+    if not f.exists():
+        return []
+    try:
+        items = json.loads(f.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    now = datetime.now(timezone.utc)
+    out = []
+    for p in items:
+        try:
+            if now - datetime.fromisoformat(p["created"]) <= timedelta(hours=hours):
+                out += [t for t in (p.get("headline"), p.get("source_title")) if t]
+        except Exception:
+            continue
+    return out
 
 
 def load_seen():
@@ -227,7 +263,13 @@ def fetch_telegram_channel(name, handle):
         if when < cutoff:
             continue
         title = re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0][:160]
+        image_url = None
+        if name in IMAGE_OK_SOURCES:
+            ph = m.select_one("a.tgme_widget_message_photo_wrap")
+            mt = re.search(r"url\(['\"]?([^'\")]+)", (ph.get("style") or "")) if ph else None
+            image_url = mt.group(1) if mt else None
         items.append({
+            "image_url": image_url,
             "source": name,
             "title": title,
             "snippet": text[:1500],
@@ -310,6 +352,7 @@ def main():
 
     # Mənbələri növbə ilə gəzirik ki, bir saytın xəbərləri üstünlük təşkil etməsin
     selected = []
+    earlier = recent_titles()
     while len(selected) < TARGET_COUNT and any(per_source.values()):
         names = list(per_source)
         random.shuffle(names)  # sıra hər dəfə dəyişir ki, siyahının əvvəlindəki saytlar həmişə üstün olmasın
@@ -317,7 +360,8 @@ def main():
             queue = per_source[name]
             while queue:
                 cand = queue.pop(0)
-                if any(is_similar(cand["title"], s["title"]) for s in selected):
+                if any(is_similar(cand["title"], s["title"]) for s in selected) or \
+                        any(is_similar(cand["title"], t) for t in earlier):
                     continue  # təkrardır
                 selected.append(cand)
                 break

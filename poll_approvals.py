@@ -72,12 +72,20 @@ def finish_message(cq, status_line):
     mid = msg.get("message_id")
     if not (chat_id and mid):
         return
-    caption = (status_line + "\n\n" + (msg.get("caption") or ""))[:1020]
     try:
-        tg("editMessageCaption", {
-            "chat_id": chat_id, "message_id": mid, "caption": caption,
-            "reply_markup": json.dumps({"inline_keyboard": []}),
-        })
+        if msg.get("caption") is not None or msg.get("photo") or msg.get("video"):
+            caption = (status_line + "\n\n" + (msg.get("caption") or ""))[:1020]
+            tg("editMessageCaption", {
+                "chat_id": chat_id, "message_id": mid, "caption": caption,
+                "reply_markup": json.dumps({"inline_keyboard": []}),
+            })
+        else:
+            text = (status_line + "\n\n" + (msg.get("text") or ""))[:4000]
+            tg("editMessageText", {
+                "chat_id": chat_id, "message_id": mid, "text": text,
+                "disable_web_page_preview": "true",
+                "reply_markup": json.dumps({"inline_keyboard": []}),
+            })
     except ApiError as e:
         print("  Mesaj yenilənmədi:", str(e)[:120])
 
@@ -89,9 +97,205 @@ def notify(text):
         print("  Bildiriş göndərilmədi:", str(e)[:120])
 
 
+def _check_link(url):
+    for i in range(4):
+        try:
+            req = urllib.request.Request(url, headers={"Range": "bytes=0-99"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                r.read(16)
+            return
+        except Exception:
+            if i == 3:
+                raise ApiError("Media linki açılmır")
+            time.sleep(10)
+
+
+def _wait_finished(cid, rounds):
+    for _ in range(rounds):
+        st = http("GET", GRAPH + cid, {"fields": "status_code,status", "access_token": IG_TOKEN})
+        code = st.get("status_code")
+        if code == "FINISHED":
+            return
+        if code in ("ERROR", "EXPIRED"):
+            raise ApiError("Instagram faylı qəbul etmədi (%s) %s" % (code, str(st.get("status", ""))[:150]))
+        time.sleep(6)
+    raise ApiError("Fayl vaxtında hazır olmadı")
+
+
+def publish_carousel(post):
+    """Karusel: şəkil(lər) + video (sağa sürüşdürməklə). {'ok':..., 'stage':..., 'error':...} qaytarır."""
+    stage = "container"
+    try:
+        children = []
+        for img in post["images"]:
+            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, img)
+            _check_link(url)
+            res = http("POST", GRAPH + IG_USER_ID + "/media", {
+                "image_url": url, "is_carousel_item": "true", "access_token": IG_TOKEN})
+            children.append(res["id"])
+        vurl = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
+        _check_link(vurl)
+        res = http("POST", GRAPH + IG_USER_ID + "/media", {
+            "media_type": "VIDEO", "video_url": vurl, "is_carousel_item": "true", "access_token": IG_TOKEN})
+        children.append(res["id"])
+        for cid in children:
+            _wait_finished(cid, 60)
+        res = http("POST", GRAPH + IG_USER_ID + "/media", {
+            "media_type": "CAROUSEL", "children": ",".join(children),
+            "caption": post["caption"], "access_token": IG_TOKEN})
+        container = res["id"]
+        _wait_finished(container, 30)
+        stage = "publish"
+        res = http("POST", GRAPH + IG_USER_ID + "/media_publish", {
+            "creation_id": container, "access_token": IG_TOKEN})
+        media_id = res["id"]
+    except ApiError as e:
+        return {"ok": False, "stage": stage, "error": str(e)}
+    permalink = ""
+    try:
+        permalink = http("GET", GRAPH + media_id, {"fields": "permalink", "access_token": IG_TOKEN}).get("permalink", "")
+    except ApiError:
+        pass
+    return {"ok": True, "media_id": media_id, "permalink": permalink}
+
+
+def message_media(m):
+    """Mesajdakı şəkil/videonu tapır: ('photo'|'video', file_id) və ya None."""
+    if m.get("photo"):
+        biggest = max(m["photo"], key=lambda x: (x.get("file_size") or 0, x.get("width", 0) * x.get("height", 0)))
+        return "photo", biggest["file_id"]
+    if m.get("video"):
+        return "video", m["video"]["file_id"]
+    d = m.get("document") or {}
+    mime = d.get("mime_type", "")
+    if mime.startswith("image/"):
+        return "photo", d["file_id"]
+    if mime.startswith("video/"):
+        return "video", d["file_id"]
+    return None
+
+
+def tg_download(file_id, dest_dir, n):
+    info = tg("getFile", {"file_id": file_id})
+    path = info["file_path"]
+    ext = os.path.splitext(path)[1] or ".bin"
+    url = "https://api.telegram.org/file/bot%s/%s" % (TG_TOKEN, path)
+    try:
+        data = urllib.request.urlopen(url, timeout=180).read()
+    except Exception as e:
+        raise ApiError("yüklənmədi (%s)" % type(e).__name__)
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+    dest = Path(dest_dir) / ("%d%s" % (n, ext))
+    dest.write_bytes(data)
+    return str(dest)
+
+
+def cleanup_media(entry):
+    for m in entry.get("media", []):
+        try:
+            Path(m["file"]).unlink()
+        except OSError:
+            pass
+
+
+def new_custom_entry(text):
+    now = datetime.now(timezone.utc)
+    return {
+        "id": (now + timedelta(hours=4)).strftime("%Y%m%d-%H%M%S") + "-u",
+        "kind": "news", "created": now.isoformat(), "status": "awaiting_media", "custom": True,
+        "raw_text": text[:3000], "media": [], "category": "CƏMİYYƏT", "headline": text[:90],
+        "summary": "", "caption_text": "", "voiceover": "", "hashtags": [], "highlight": [],
+        "source_note": "", "source_title": text[:120], "link": "", "sensitive": False,
+    }
+
+
+def handle_message(m, pending, by_id, touched):
+    """Sizin göndərdiyiniz şəkil/video: ya yeni (özünüzün) xəbər, ya da gözləyən xəbərə əlavə olunur."""
+    if str((m.get("from") or {}).get("id")) != str(TG_CHAT):
+        return
+    media = message_media(m)
+    text = (m.get("caption") or m.get("text") or "").strip()
+    if not media:
+        if text and not text.startswith("/"):
+            notify("ℹ️ Xəbər üçün şəkil və ya video göndərin. Öz xəbərinizi yaratmaq üçün şəkil/videonun altına "
+                   "xəbər mətni (ən azı 40 simvol) yazın.")
+        return
+    kind, file_id = media
+    if len(text) >= 40:
+        entry = new_custom_entry(text)
+        pending.append(entry)
+        by_id[entry["id"]] = entry
+        touched["current"] = entry
+    else:
+        entry = touched.get("current")
+        if entry is None:
+            waiting = [p for p in pending if p.get("kind") == "news" and p.get("status") == "awaiting_media"]
+            entry = waiting[-1] if waiting else None
+        if entry is None:
+            notify("⚠️ Bu media hansı xəbərə aid olduğu bəlli deyil. 'Xeber topla' ilə xəbər gətirin və ya "
+                   "mediaya xəbər mətni (ən azı 40 simvol) yazın.")
+            return
+        touched["current"] = entry
+    try:
+        path = tg_download(file_id, Path("incoming") / entry["id"], len(entry["media"]) + 1)
+    except ApiError as e:
+        notify("⚠️ Fayl yüklənmədi: %s (Telegram botlar üçün fayl ölçüsü 20 MB-dan çox ola bilməz)" % str(e)[:150])
+        return
+    entry["media"].append({"file": path, "type": kind})
+    touched.setdefault("entries", {})[entry["id"]] = entry
+
+
+def send_touch_messages(touched):
+    for e in (touched.get("entries") or {}).values():
+        n = len(e["media"])
+        if e.get("custom") and not e.get("card_sent"):
+            e["card_sent"] = True
+            markup = {"inline_keyboard": [[
+                {"text": "✅ Hazırla", "callback_data": "build:" + e["id"]},
+                {"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}]]}
+            try:
+                tg("sendMessage", {"chat_id": TG_CHAT, "reply_markup": json.dumps(markup),
+                                   "text": "📝 Sizin xəbəriniz qəbul edildi:\n\n%s\n\n📎 %d fayl. Başqa media da "
+                                           "göndərə bilərsiniz, sonra ✅ Hazırla basın." % (e["raw_text"][:500], n)})
+            except ApiError as ex:
+                print("  Kart göndərilmədi:", str(ex)[:100])
+        else:
+            notify("📎 Xəbərə fayl əlavə olundu (cəmi %d). Hazır olanda ✅ Hazırla düyməsinə basın." % n)
+
+
+def handle_news_action(cq, action, e, pending):
+    if e["status"] != "awaiting_media":
+        answer(cq, "Bu xəbər artıq: " + e["status"])
+        return
+    if action == "del":
+        e["status"] = "cancelled"
+        cleanup_media(e)
+        e["raw_text"] = ""
+        e["media"] = []
+        save(pending)
+        answer(cq, "Ləğv edildi.")
+        finish_message(cq, "❌ LƏĞV EDİLDİ")
+        return
+    if action == "build" and not e["media"]:
+        answer(cq, "Əvvəl şəkil/video göndərin, ya da ⏭ Mediasız hazırla basın.")
+        return
+    if action == "skip":
+        cleanup_media(e)
+        e["media"] = []
+    if action in ("build", "skip"):
+        e["status"] = "building"
+        save(pending)
+        answer(cq, "Hazırlanır...")
+        finish_message(cq, "⏳ HAZIRLANIR (%d fayl). Nəticə bir neçə dəqiqəyə Telegram-a gələcək." % len(e["media"]))
+        return
+    answer(cq, "Naməlum əmr.")
+
+
 def publish(post):
     """Şəkli və ya Reels videosunu Instagram-a paylaşır.
     {'ok':..., 'stage':..., 'error':..., 'permalink':...} qaytarır."""
+    if post.get("kind") == "carousel":
+        return publish_carousel(post)
     is_reel = post.get("kind") == "reel"
     if is_reel:
         media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
@@ -158,17 +362,21 @@ def main():
         print("Telegram ayarları yoxdur.")
         raise SystemExit(1)
 
-    updates = tg("getUpdates", {"allowed_updates": json.dumps(["callback_query"]), "limit": 100}) or []
+    updates = tg("getUpdates", {"allowed_updates": json.dumps(["callback_query", "message"]), "limit": 100}) or []
     if not updates:
-        print("Yeni düymə basılması yoxdur.")
+        print("Yeni düymə basılması və ya mesaj yoxdur.")
         return
 
     pending = json.loads(PENDING_FILE.read_text(encoding="utf-8")) if PENDING_FILE.exists() else []
     by_id = {p["id"]: p for p in pending}
     max_update = 0
+    touched = {}
 
     for u in updates:
         max_update = max(max_update, u["update_id"])
+        if u.get("message"):
+            handle_message(u["message"], pending, by_id, touched)
+            continue
         cq = u.get("callback_query")
         if not cq:
             continue
@@ -183,6 +391,9 @@ def main():
             answer(cq, "Bu post tapılmadı.")
             finish_message(cq, "❔ Qeyd tapılmadı (köhnə post ola bilər)")
             continue
+        if post.get("kind") == "news":
+            handle_news_action(cq, action, post, pending)
+            continue
         if post["status"] != "pending":
             answer(cq, "Bu post artıq: " + post["status"])
             finish_message(cq, "ℹ️ Bu post artıq emal olunub (%s)" % post["status"])
@@ -196,7 +407,7 @@ def main():
             continue
 
         kind = post.get("kind", "post")
-        if (action == "pub" and kind != "post") or (action == "reel" and kind != "reel") \
+        if (action == "pub" and kind not in ("post", "carousel")) or (action == "reel" and kind != "reel") \
                 or action not in ("pub", "reel"):
             answer(cq, "Naməlum əmr.")
             continue
@@ -220,7 +431,7 @@ def main():
             post["instagram_id"] = result["media_id"]
             post["permalink"] = result["permalink"]
             save(pending)
-            line = "✅ REELS PAYLAŞILDI" if kind == "reel" else "✅ PAYLAŞILDI"
+            line = {"reel": "✅ REELS PAYLAŞILDI", "carousel": "✅ KARUSEL PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
             if result["permalink"]:
                 line += "\n" + result["permalink"]
             finish_message(cq, line)
@@ -239,8 +450,16 @@ def main():
 
     # emal olunmuş düymələri Telegram-dan silmək üçün təsdiqləyirik
     tg("getUpdates", {"offset": max_update + 1, "limit": 1,
-                      "allowed_updates": json.dumps(["callback_query"])})
+                      "allowed_updates": json.dumps(["callback_query", "message"])})
     save(pending)
+    send_touch_messages(touched)
+    save(pending)
+    if any(p.get("kind") == "news" and p.get("status") == "building" for p in pending):
+        out = os.environ.get("GITHUB_OUTPUT")
+        if out:
+            with open(out, "a") as f:
+                f.write("has_work=true\n")
+        print("Hazırlanacaq xəbər var (ikinci mərhələ işə düşəcək).")
 
 
 if __name__ == "__main__":
