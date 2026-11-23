@@ -5960,7 +5960,12 @@
   "created": "2026-11-23T15:27:31.700876+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAICU2sEYWF1eWTOLkRh6h2datFDY27XAALFH2sbTg4hSJKatArDnLJbAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub",
   "summary": "Naxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni kadr təyinatı reallaşıb. Quruma Aparat rəhbəri təyin edilib.",
