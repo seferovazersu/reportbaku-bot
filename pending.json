@@ -4936,26 +4936,58 @@
   "id": "20261123-115540-u",
   "kind": "news",
   "created": "2026-11-23T07:55:40.600512+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚨🚨🚨 KİV: Türkiyənin İstanbul şəhərinin kənarında dişi şirin görünməsi yerli sakinlər arasında narahatlığa səbəb olub.\n\nİstanbul Valiliyinin məlumatına görə, noyabrın 22-də axşam saatlarında görüntülənən heyvanın olduğu ərazi müəyyənləşdirilib. \n\nŞirin diri tutulması üçün jandarma, polis, bələdiyyə və təbiəti mühafizə qurumlarının əməkdaşları əməliyyat aparırlar.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIB6GsD8WMJYQcT7TZ8FQZ6E8yyS2D6AAL_pgACTg4hSOnfHNIRg9HXPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "İstanbulun kənarında dişi şirin görünməsi narahatlıq yaradıb",
+  "summary": "Türkiyənin İstanbul şəhərinin ətrafında dişi şirin görünməsi sakinləri narahat edib. Heyvanın tutulması istiqamətində qurumlar tərəfindən əməliyyat tədbirləri həyata keçirilir.",
+  "caption_text": "Türkiyənin İstanbul şəhərinin kənarında dişi şirin müşahidə olunması sakinlərdə narahatlıq doğurub. İstanbul Valiliyinin açıqlamasına əsasən, noyabrın 22-də axşam saatlarında heyvanın göründüyü məkan dəqiqləşdirilib.\n\nŞirin zərərsiz şəkildə saxlanılması məqsədilə aidiyyəti qurumlar hərəkətə keçib. Jandarma, polis, bələdiyyə və təbiəti mühafizə idarəsinin əməkdaşları heyvanın tutulması üçün axtarış əməliyyatı aparırlar.",
+  "voiceover": "İstanbul şəhərinin kənarında dişi şirin görünməsi yerli sakinlər arasında narahatlıq yaradıb. İstanbul Valiliyinin məlumatına görə, noyabrın 22-də axşam saatlarında görüntülənən heyvanın olduğu ərazi müəyyənləşdirilib. Şirin diri tutulması üçün jandarma, polis, bələdiyyə və təbiəti mühafizə qurumlarının əməkdaşları tərəfindən əməliyyat aparılır.",
+  "hashtags": [
+   "#İstanbul",
+   "#Türkiyə",
+   "#şir",
+   "#xəbər"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚨🚨🚨 KİV: Türkiyənin İstanbul şəhərinin kənarında dişi şirin görünməsi yerli sakinlər arası",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "İstanbul",
+   "şirin"
+  ],
   "source_note": "",
   "source_title": "🚨🚨🚨 KİV: Türkiyənin İstanbul şəhərinin kənarında dişi şirin görünməsi yerli sakinlər arasında narahatlığa səbəb olub.\n\nİ",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T07:57:19.899797+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "İstanbulun kənarında dişi şirin görünməsi narahatlıq yaradıb",
+  "summary": "Türkiyənin İstanbul şəhərinin ətrafında dişi şirin görünməsi sakinləri narahat edib. Heyvanın tutulması istiqamətində qurumlar tərəfindən əməliyyat tədbirləri həyata keçirilir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "İstanbulun kənarında dişi şirin görünməsi narahatlıq yaradıb\n\nTürkiyənin İstanbul şəhərinin kənarında dişi şirin müşahidə olunması sakinlərdə narahatlıq doğurub. İstanbul Valiliyinin açıqlamasına əsasən, noyabrın 22-də axşam saatlarında heyvanın göründüyü məkan dəqiqləşdirilib.\n\nŞirin zərərsiz şəkildə saxlanılması məqsədilə aidiyyəti qurumlar hərəkətə keçib. Jandarma, polis, bələdiyyə və təbiəti mühafizə idarəsinin əməkdaşları heyvanın tutulması üçün axtarış əməliyyatı aparırlar.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #İstanbul #Türkiyə #şir",
+  "id": "20261123-115540-u-p",
+  "kind": "post",
+  "image": "posts/20261123-115540-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T07:57:19.899797+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "İstanbulun kənarında dişi şirin görünməsi narahatlıq yaradıb",
+  "summary": "Türkiyənin İstanbul şəhərinin ətrafında dişi şirin görünməsi sakinləri narahat edib. Heyvanın tutulması istiqamətində qurumlar tərəfindən əməliyyat tədbirləri həyata keçirilir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "İstanbulun kənarında dişi şirin görünməsi narahatlıq yaradıb\n\nTürkiyənin İstanbul şəhərinin kənarında dişi şirin müşahidə olunması sakinlərdə narahatlıq doğurub. İstanbul Valiliyinin açıqlamasına əsasən, noyabrın 22-də axşam saatlarında heyvanın göründüyü məkan dəqiqləşdirilib.\n\nŞirin zərərsiz şəkildə saxlanılması məqsədilə aidiyyəti qurumlar hərəkətə keçib. Jandarma, polis, bələdiyyə və təbiəti mühafizə idarəsinin əməkdaşları heyvanın tutulması üçün axtarış əməliyyatı aparırlar.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #İstanbul #Türkiyə #şir",
+  "id": "20261123-115540-u-r",
+  "kind": "reel",
+  "video": "20261123-115540-u-r.mp4",
+  "cover": "20261123-115540-u-r.jpg"
  }
 ]
