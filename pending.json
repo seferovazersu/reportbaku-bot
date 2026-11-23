@@ -5533,26 +5533,58 @@
   "id": "20261123-144930-u",
   "kind": "news",
   "created": "2026-11-23T10:49:30.914140+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🔴 Tovuzda avtomobil su kanalına aşıb – 1 nəfər ölüb, 3 nəfər yaralanıb\n\nQəribli kəndi ərazisində VAZ markalı avtomobil idarəetmədən çıxıb. Yaralıların hər üçü xəstəxanaya yerləşdirilib.\nMənbə. Apa.az",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAICJWsEGiDbdo723dZX6h3QbWXMXOtdAAKkqAACTg4hSCGuExsKfVJ9PQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Tovuzda avtomobilin su kanalına aşması nəticəsində 1 nəfər ölüb",
+  "summary": "Tovuz rayonunun Qəribli kəndi ərazisində VAZ markalı avtomobilin idarəetmədən çıxaraq su kanalına aşması qəzası baş verib. Hadisə nəticəsində 1 nəfər həyatını itirib, 3 nəfər xəsarət alaraq xəstəxanaya çatdırılıb.",
+  "caption_text": "Tovuz rayonunda qeydə alınan yol-nəqliyyat hadisəsi zamanı avtomobil su kanalına yuvarlanıb. Qəribli kəndi ərazisində baş verən qəza zamanı VAZ markalı nəqliyyat vasitəsi sürücünün idarəetməsindən çıxıb. Qəza nəticəsində 1 nəfər ölüb, daha 3 nəfər isə yaralanıb. Xəsarət alan üç nəfərin hamısı tibb müəssisəsinə yerləşdirilib.",
+  "voiceover": "Tovuz rayonunda VAZ markalı avtomobilin su kanalına aşması nəticəsində ölüm və xəsarətlə nəticələnən yol qəzası baş verib. Qəribli kəndi ərazisində qeydə alınan hadisə zamanı 1 nəfər həyatını itirib, 3 nəfər isə yaralanıb. Yaralıların hər üçü xəstəxanaya çatdırılıb.",
+  "hashtags": [
+   "#Tovuz",
+   "#Qəriblikəndi",
+   "#YolQəzası",
+   "#FövqəladəHadisə"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🔴 Tovuzda avtomobil su kanalına aşıb – 1 nəfər ölüb, 3 nəfər yaralanıb\n\nQəribli kəndi əraz",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Tovuzda",
+   "1 nəfər ölüb"
+  ],
   "source_note": "",
   "source_title": "🔴 Tovuzda avtomobil su kanalına aşıb – 1 nəfər ölüb, 3 nəfər yaralanıb\n\nQəribli kəndi ərazisində VAZ markalı avtomobil i",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T11:02:56.206011+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Tovuzda avtomobilin su kanalına aşması nəticəsində 1 nəfər ölüb",
+  "summary": "Tovuz rayonunun Qəribli kəndi ərazisində VAZ markalı avtomobilin idarəetmədən çıxaraq su kanalına aşması qəzası baş verib. Hadisə nəticəsində 1 nəfər həyatını itirib, 3 nəfər xəsarət alaraq xəstəxanaya çatdırılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Tovuzda avtomobilin su kanalına aşması nəticəsində 1 nəfər ölüb\n\nTovuz rayonunda qeydə alınan yol-nəqliyyat hadisəsi zamanı avtomobil su kanalına yuvarlanıb. Qəribli kəndi ərazisində baş verən qəza zamanı VAZ markalı nəqliyyat vasitəsi sürücünün idarəetməsindən çıxıb. Qəza nəticəsində 1 nəfər ölüb, daha 3 nəfər isə yaralanıb. Xəsarət alan üç nəfərin hamısı tibb müəssisəsinə yerləşdirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Tovuz #Qəriblikəndi #YolQəzası #FövqəladəHadisə",
+  "id": "20261123-144930-u-p",
+  "kind": "post",
+  "image": "posts/20261123-144930-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T11:02:56.206011+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Tovuzda avtomobilin su kanalına aşması nəticəsində 1 nəfər ölüb",
+  "summary": "Tovuz rayonunun Qəribli kəndi ərazisində VAZ markalı avtomobilin idarəetmədən çıxaraq su kanalına aşması qəzası baş verib. Hadisə nəticəsində 1 nəfər həyatını itirib, 3 nəfər xəsarət alaraq xəstəxanaya çatdırılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Tovuzda avtomobilin su kanalına aşması nəticəsində 1 nəfər ölüb\n\nTovuz rayonunda qeydə alınan yol-nəqliyyat hadisəsi zamanı avtomobil su kanalına yuvarlanıb. Qəribli kəndi ərazisində baş verən qəza zamanı VAZ markalı nəqliyyat vasitəsi sürücünün idarəetməsindən çıxıb. Qəza nəticəsində 1 nəfər ölüb, daha 3 nəfər isə yaralanıb. Xəsarət alan üç nəfərin hamısı tibb müəssisəsinə yerləşdirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Tovuz #Qəriblikəndi #YolQəzası #FövqəladəHadisə",
+  "id": "20261123-144930-u-r",
+  "kind": "reel",
+  "video": "20261123-144930-u-r.mp4",
+  "cover": "20261123-144930-u-r.jpg"
  }
 ]
