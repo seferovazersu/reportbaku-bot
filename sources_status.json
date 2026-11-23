@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (137 təzə xəbər, HTTP 200)"
+    "state": "OK (144 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -29,11 +29,11 @@
   },
   "Qafqazinfo": {
     "url": "https://qafqazinfo.az/rss",
-    "state": "OK (77 təzə xəbər, HTTP 200)"
+    "state": "OK (78 təzə xəbər, HTTP 200)"
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (41 təzə xəbər, HTTP 301)"
+    "state": "OK (44 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -41,7 +41,7 @@
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
-    "state": "OK (42 təzə xəbər, HTTP 200)"
+    "state": "OK (47 təzə xəbər, HTTP 200)"
   },
   "Minval.az": {
     "url": "https://minval.az/feed/",

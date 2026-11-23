@@ -5468,5 +5468,33 @@
   "kind": "reel",
   "video": "20261123-135525-01-r.mp4",
   "cover": "20261123-135525-01-r.jpg"
+ },
+ {
+  "id": "20261123-142537-01",
+  "kind": "news",
+  "created": "2026-11-23T10:25:37.357560+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "İtaliyanın xarici işlər naziri Azərbaycan bazarının əhəmiyyətini vurğulayıb",
+  "summary": "İtaliyanın xarici işlər naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla görüşüb. O, ölkəsinin Azərbaycan bazarını mühüm ixrac istiqaməti kimi qiymətləndirdiyini bildirib.",
+  "caption_text": "İtaliyanın Baş nazirinin müavini, xarici işlər və beynəlxalq əməkdaşlıq naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla birgə mətbuat konfransı keçirib. Antonio Tayaninin sözlərinə görө, İtaliya bazarların şaxələndirilməsi strategiyası çərçivəsində Azərbaycanı ixrac istiqamətlərindən biri kimi nəzərdən keçirir.\n\nİtaliyalı nazir Azərbaycan bazarının onlar üçün böyük əhəmiyyət daşıdığını vurğulayıb. O, həmçinin Dövlət Neft Şirkətinin investisiya təşəbbüsünü və yanacaqdoldurma məntəqələri şəbəkəsində yanacaq qiymətlərinin yuxarı həddinin tətbiqi qərarını yüksək qiymətləndirib. Qeyd olunub ki, iki ölkə arasında əməkdaşlıq İtaliya istehsalının 40 faizini əhatə edir.",
+  "voiceover": "İtaliyanın xarici işlər naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla birgə mətbuat konfransı keçirib. Antonio Tayani bildirib ki, İtaliya bazarların şaxələndirilməsi strategiyası çərçivəsində Azərbaycanı ixrac istiqamətlərindən biri kimi nəzərdən keçirir və Azərbaycan bazarı onlar üçün böyük əhəmiyyət daşıyır. İtaliyalı nazir həmçinin Azərbaycan Dövlət Neft Şirkətinin investisiya təşəbbüsünü və yanacaq qiymətlərinin yuxarı həddinin tətbiqi qərarını yüksək qiymətləndirib.",
+  "hashtags": [
+   "#Azərbaycan",
+   "#İtaliya",
+   "#XİN",
+   "#CeyhunBayramov",
+   "#AntonioTayani"
+  ],
+  "highlight": [
+   "İtaliyanın xarici işlər naziri",
+   "Azərbaycan"
+  ],
+  "source_note": "Mənbə: Publika",
+  "source_title": "XİN: Azərbaycan bazarı İtaliya üçün böyük əhəmiyyət daşıyır",
+  "link": "https://publika.az/news/nida_xeber/649763.html",
+  "sensitive": false
  }
 ]
