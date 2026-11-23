@@ -1,56 +1,28 @@
 [
   {
-    "category": "SİYASƏT",
-    "headline": "İtaliyanın xarici işlər naziri Azərbaycan bazarının əhəmiyyətini vurğulayıb",
-    "summary": "İtaliyanın xarici işlər naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla görüşüb. O, ölkəsinin Azərbaycan bazarını mühüm ixrac istiqaməti kimi qiymətləndirdiyini bildirib.",
-    "caption_text": "İtaliyanın Baş nazirinin müavini, xarici işlər və beynəlxalq əməkdaşlıq naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla birgə mətbuat konfransı keçirib. Antonio Tayaninin sözlərinə görө, İtaliya bazarların şaxələndirilməsi strategiyası çərçivəsində Azərbaycanı ixrac istiqamətlərindən biri kimi nəzərdən keçirir.\n\nİtaliyalı nazir Azərbaycan bazarının onlar üçün böyük əhəmiyyət daşıdığını vurğulayıb. O, həmçinin Dövlət Neft Şirkətinin investisiya təşəbbüsünü və yanacaqdoldurma məntəqələri şəbəkəsində yanacaq qiymətlərinin yuxarı həddinin tətbiqi qərarını yüksək qiymətləndirib. Qeyd olunub ki, iki ölkə arasında əməkdaşlıq İtaliya istehsalının 40 faizini əhatə edir.",
-    "voiceover": "İtaliyanın xarici işlər naziri Antonio Tayani Bakıda Azərbaycanın xarici işlər naziri Ceyhun Bayramovla birgə mətbuat konfransı keçirib. Antonio Tayani bildirib ki, İtaliya bazarların şaxələndirilməsi strategiyası çərçivəsində Azərbaycanı ixrac istiqamətlərindən biri kimi nəzərdən keçirir və Azərbaycan bazarı onlar üçün böyük əhəmiyyət daşıyır. İtaliyalı nazir həmçinin Azərbaycan Dövlət Neft Şirkətinin investisiya təşəbbüsünü və yanacaq qiymətlərinin yuxarı həddinin tətbiqi qərarını yüksək qiymətləndirib.",
-    "hashtags": [
-      "#Azərbaycan",
-      "#İtaliya",
-      "#XİN",
-      "#CeyhunBayramov",
-      "#AntonioTayani"
-    ],
-    "image_url": null,
-    "source_title": "XİN: Azərbaycan bazarı İtaliya üçün böyük əhəmiyyət daşıyır",
-    "visual_keywords": [
-      "press conference room",
-      "diplomatic handshake",
-      "flags and podium"
-    ],
-    "highlight": [
-      "İtaliyanın xarici işlər naziri",
-      "Azərbaycan"
-    ],
-    "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/nida_xeber/649763.html",
-    "sensitive": false
-  },
-  {
     "category": "TEXNOLOGİYA",
-    "headline": "Birləşmiş Ərəb Əmirlikləri GTA VI oyunundakı narkotik səhnələri ilə bağlı xəbərdarlıq edib",
-    "summary": "Birləşmiş Ərəb Əmirliklərinin Milli Narkotiklərlə Mübarizə İdarəsi valideynləri GTA VI oyunundakı riskli məzmunla bağlı xəbərdar edib. Qurum uşaqların oynadığı videooyunlara valideyn nəzarətinin artırılmasının vacibliyini vurğulayıb.",
-    "caption_text": "Birləşmiş Ərəb Əmirliklərinin Milli Narkotiklərlə Mübarizə İdarəsi valideynlərə müraciət edərək GTA VI kompüter oyununda narkotik və qeyri-qanuni əməllərin əks olunduğu səhnələrin riskləri barədə xəbərdarlıq edib. Vəsatətdə bu cür məzmunun uşaqların şüuruna və davranışına mənfi təsir göstərə biləcəyi bildirilib.\n\nİdarə azyaşlıların oynadığı videooyunlar üzərində valideyn nəzarətinin gücləndirilməsinin, yaş məhdudiyyətlərinin yoxlanılmasının və riskli davranışı normallaşdıran materialların təhlükəsi barədə uşaqlarla söhbətlərin aparılmasının vacibliyini qeyd edib. Xatırladaq ki, Grand Theft Auto videooyun sənayesində ən uğurlu mediafrançayzalardan biridir və bu oyunun релиzi noyabrın 19-da baş tutub.",
-    "voiceover": "Birləşmiş Ərəb Əmirliklərinin Milli Narkotiklərlə Mübarizə İdarəsi valideynləri GTA VI oyunundakı riskli məzmunla bağlı xəbərdar edib. Qurum bildirib ki, oyundakı narkotik və qeyri-qanuni fəaliyyət səhnələri uşaqların şüuruna və davranışına mənfi təsir göstərə bilər. İdarə azyaşlıların oynadığı videooyunlar üzərində valideyn nəzarətinin gücləndirilməsinin və yaş məhdudiyyətlərinin yoxlanılmasının vacibliyini vurğulayıb.",
+    "headline": "Marsda qədim lava axınının sirri açılıb",
+    "summary": "Tədqiqatçılar “Perseverance” марсоhodunun məlumatlarına əsasən Marsdakı Сеита́х qaya qatının əmələ gəlmə mexanizmini izah ediblər. Alimlərin qənaətinə görə, bu qat aşağı özlülüklü lava gölünün soyuması nəticəsində yaranıb.",
+    "caption_text": "Beynəlxalq tədqiqat qrupu “Communications Earth & Environment” elmi jurnalında Marsın qırmızı planetindəki Сеита́х qaya qatının yaranma səbəbini açıqlayan araşdırma dərc edib. “Perseverance” марсоhodu 2021-ci ildən bəri Jezero kraterini tədqiq edir və təxminən dörd milyard il yaşı olan bu süxur təbəqəsini qeydə alıb. Əldə edilən nəticələrə görə, həmin qat aşağı özlülüklü lavanın hərəkəti və sonradan soyuması nəticəsində formalaşıb. Tədqiqatın aparıcı müəllifi Edrian Braun bildirib ki, Yer kürəsindəki Havay adalarının lava göllərində olduğu kimi, burada da böyük olivin dənəcikləri axının soyuması zamanı əmələ gəlib.\n\nAlimlərin qənaətinə görə, bu proses Yer və Mars planetlərinin mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Tədqiqat zamanı aşağı özlülüklü lava axınının mənbədən təxminən iki yüz kilometr məsafə qət etdiyi müəyyənləşdirilib. Mütəxəssislər qeyd edirlər ki, qədim dövrlərdə aşağı özlülüklü və isti lavaların mövcudluğu Marsın daxili hissəsinin daha isti olduğunu və ehtimal ki, həyat üçün daha əlverişli şərait yaratdığını göstərə bilər.",
+    "voiceover": "Alimlər Mars planetində qədim lava axınının sirrini açıblar. Perseverance marsoxodunun tədqiq etdiyi və yaşı dörd milyard ilə yaxın olan Сеита́х qaya qatının aşağı özlülüklü lava gölünün soyuması nəticəsində yarandığı müəyyən edilib. Tədqiqatçılar hesab edirlər ki, bu proses Yer kürəsindəki lava göllərinə bənzəyir və Yerlə Marsın mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Aşağı özlülüklü lavanın mənbədən təxminən iki yüz kilometr məsafə qət etdiyi bildirilib.",
     "hashtags": [
-      "#GTA6",
-      "#BƏƏ",
-      "#Texnologiya",
-      "#Oyun"
+      "#Mars",
+      "#Perseverance",
+      "#Elm",
+      "#Kosmos"
     ],
     "image_url": null,
-    "source_title": "Правительство ОАЭ недовольно GTA VI",
+    "source_title": "Раскрыта загадка необычного движения лавы на Марсе",
     "visual_keywords": [
-      "video game controller",
-      "gaming screen"
+      "Mars surface rover",
+      "planet space exploration"
     ],
     "highlight": [
-      "Birləşmiş Ərəb Əmirlikləri",
-      "GTA VI"
+      "Marsda",
+      "lava"
     ],
     "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/hitech/1876441.html",
+    "link": "https://news.day.az/unusual/1876126.html",
     "sensitive": false
   }
 ]
