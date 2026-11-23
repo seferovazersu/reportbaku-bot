@@ -6220,5 +6220,31 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "id": "20261123-230014-u",
+  "kind": "news",
+  "created": "2026-11-23T19:00:14.479545+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nəticələnən yol qəzası baş verib.\n\nSamir Hacıyev adına 5 nömrəli orta məktəbin ingilis dili müəllimi Gülnarə Abdullayevanı piyada keçidində avtomobil vurub. \n\nO, xəstəxanaya aparılarkən yolda dünyasını dəyişib.\n\nG.Abdullayeva Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı olub və “Əməkdar müəllim” fəxri adına layiq görülüb.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAICbGsEjSZxohQIag5ZPG2IV1itkv8FAAKRG2sbTg4pSNwyjAabOskBAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü m",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nə",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
