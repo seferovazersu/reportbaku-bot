@@ -4879,7 +4879,12 @@
   "created": "2026-11-23T07:18:30.618077+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIB42sD6SXyh9FreanrZjLCbOXKjQ0VAALLHGsbTg4hSI1y_C6xstsCAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Serbiyada prezident seçkilərinin keçiriləcəyi tarix açıqlanıb",
   "summary": "Serbiyada növbəti prezident seçkilərinin vaxtı müəyyənləşib. Səsvermə dekabrın 27-də təşkil olunacaq.",
