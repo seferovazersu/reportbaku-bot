@@ -6285,7 +6285,7 @@
   "id": "20261123-232331-01",
   "kind": "news",
   "created": "2026-11-23T19:23:31.272540+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -6306,6 +6306,36 @@
   "source_note": "Mənbə: Publika",
   "source_title": "50 minlik şəhərə 70 min çinli gətirilir!",
   "link": "https://publika.az/news/mdb/649830.html",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T19:35:02.818583+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Leninqrad vilayətinə minlərlə çinli işçinin gətirilməsi planlaşdırılır",
+  "summary": "Rusiyanın Leninqrad vilayətində qaz-kimya kompleksinin inşası üçün on minlərlə çinli işçinin cəlb olunması nəzərdə tutulur. Çin korporasiyası bölgədə işləmək üçün 70 min nəfərlik icazə istəyib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/mdb/649830.html",
+  "sensitive": false,
+  "caption": "Leninqrad vilayətinə minlərlə çinli işçinin gətirilməsi planlaşdırılır\n\nRusiyanın Leninqrad vilayətində yerləşən Kinqisepp rayonuna on minlərlə çinli işçinin gətirilməsi planlaşdırılır. Məlumata görə, Çinin tikinti korporasiyası bölgədə nəhəng qaz-kimya kompleksinin inşası üçün 70 min xarici işçiyə icazə verilməsini tələb edib. Regionun müvafiq komissiyası 2027-ci il üçün 18 620 çinli mütəxəssisin işə cəlb olunmasına kvota ayırıb. Çinli fəhlələr və mühəndislər Ust-Luqa limanı yaxınlığında inşa olunan kompleksdə çalışacaqlar. Ümumi dəyəri 5,35 trilyon rubl qiymətləndirilən layihənin tikintisi Qərbin sanksiyaları fonunda çətinliklərlə üzləşib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Rusiya #Çin #Leninqrad #iqtisadiyyat",
+  "id": "20261123-232331-01-p",
+  "kind": "post",
+  "image": "posts/20261123-232331-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T19:35:02.818583+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Leninqrad vilayətinə minlərlə çinli işçinin gətirilməsi planlaşdırılır",
+  "summary": "Rusiyanın Leninqrad vilayətində qaz-kimya kompleksinin inşası üçün on minlərlə çinli işçinin cəlb olunması nəzərdə tutulur. Çin korporasiyası bölgədə işləmək üçün 70 min nəfərlik icazə istəyib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/mdb/649830.html",
+  "sensitive": false,
+  "caption": "Leninqrad vilayətinə minlərlə çinli işçinin gətirilməsi planlaşdırılır\n\nRusiyanın Leninqrad vilayətində yerləşən Kinqisepp rayonuna on minlərlə çinli işçinin gətirilməsi planlaşdırılır. Məlumata görə, Çinin tikinti korporasiyası bölgədə nəhəng qaz-kimya kompleksinin inşası üçün 70 min xarici işçiyə icazə verilməsini tələb edib. Regionun müvafiq komissiyası 2027-ci il üçün 18 620 çinli mütəxəssisin işə cəlb olunmasına kvota ayırıb. Çinli fəhlələr və mühəndislər Ust-Luqa limanı yaxınlığında inşa olunan kompleksdə çalışacaqlar. Ümumi dəyəri 5,35 trilyon rubl qiymətləndirilən layihənin tikintisi Qərbin sanksiyaları fonunda çətinliklərlə üzləşib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Rusiya #Çin #Leninqrad #iqtisadiyyat",
+  "id": "20261123-232331-01-r",
+  "kind": "reel",
+  "video": "20261123-232331-01-r.mp4",
+  "cover": "20261123-232331-01-r.jpg"
  }
 ]
