@@ -5232,5 +5232,31 @@
   "cover": "20261123-123245-u-r.jpg",
   "instagram_id": "18111029228360460",
   "permalink": "https://www.instagram.com/reel/DgE96IciIXF/"
+ },
+ {
+  "id": "20261123-124536-01",
+  "kind": "news",
+  "created": "2026-11-23T08:45:36.142035+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "ABŞ-də sərnişin qatarı yük avtomobili ilə toqquşub",
+  "summary": "ABŞ-nin Luiziana ştatının Lafayet şəhərində sərnişin qatarı buldozer daşıyan yük maşını ilə toqquşub. Qəza nəticəsində qatarın iki vaqonu relsdən çıxıb, dörd nəfər xəsarət alıb.",
+  "caption_text": "ABŞ-nin Luiziana ştatının Lafayet şəhərində qəza baş verib. Yerli polisin məlumatına görə, buldozer daşıyan yük maşını dəmiryolu keçidində mühərriki sönərək dayanıb.\n\nMaşinist qəza əyləc sistemini işə dussə də, toqquşmanın qarşısını almaq mümkün olmayıb. Hadisə zamanı qatarda 100-ə yaxın sərnişin olub və ilk iki vaqon relsdən çıxıb. Polisdən bildirilib ki, qəza nəticəsində dörd nəfər yaralanıb və onların həyatı üçün təhlükə yoxdur.",
+  "voiceover": "ABŞ-nin Luiziana ştatının Lafayet şəhərində sərnişin qatarı yük avtomobili ilə toqquşub. Qəza nəticəsində qatarın iki vaqonu relsdən çıxıb, 4 nəfər xəsarət alıb. Hüquq-mühafizə orqanlarının məlumatına görə, buldozer daşıyan yük maşını dəmiryolu keçidində dayanıb və maşinistin əyləc tətbiq etməsinə baxmayaraq, toqquşma baş verib. Hadisə zamanı qatarda 100-ə yaxın sərnişin olub, xəsarət alanların həyatı üçün təhlükə yoxdur.",
+  "hashtags": [
+   "#ABŞ",
+   "#Luiziana",
+   "#qəza",
+   "#dəmiryolu"
+  ],
+  "highlight": [
+   "ABŞ-də"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Пассажирский поезд в США протаранил фуру и сошел с рельсов",
+  "link": "https://haqqin.az/newsarchive/399156",
+  "sensitive": true
  }
 ]
