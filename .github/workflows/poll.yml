@@ -32,7 +32,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-        run: python poll_approvals.py
+        run: python run_safe.py poll_approvals.py
 
       - name: Hazırlama üçün şrift və kitabxanaları qur
         if: steps.poll.outputs.has_work == 'true'
@@ -47,7 +47,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python finalize_news.py
+        run: python run_safe.py finalize_news.py
 
       - name: Videoları media budağına göndər
         if: steps.poll.outputs.has_work == 'true'
