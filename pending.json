@@ -4515,7 +4515,7 @@
   "id": "20261123-095658-01",
   "kind": "news",
   "created": "2026-11-23T05:56:58.698905+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "CƏMİYYƏT",
@@ -4537,6 +4537,36 @@
   "source_note": "Mənbə: Sia.az",
   "source_title": "Bakıda daha 9 kəsişmədə işıqforlara velosiped bölmələri quraşdırılıb",
   "link": "https://sia.az/az/news/social/1376096.html",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T06:02:31.566639+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Bakının 9 kəsişməsindəki işıqforlara velosiped bölmələri quraşdırılıb",
+  "summary": "Paytaxtın Nəsimi və Səbail rayonlarındakı bir neçə kəsişmədə yerləşən işıqforlara velosiped bölmələri əlavə olunub. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzinin məlumatına görə, bununla da şəhər üzrə belə bölmələrin ümumi sayı 160-a çatıb.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/social/1376096.html",
+  "sensitive": false,
+  "caption": "Bakının 9 kəsişməsindəki işıqforlara velosiped bölmələri quraşdırılıb\n\nPaytaxtda mikromobilliyin inkişaf etdirilməsi və velosipedçilərin hərəkət təhlükəsizliyinin artırılması məqsədilə yeni işlər görülüb. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzinin yaydığı məlumata əsasən, Bakının daha 9 kəsişməsində yerləşən işıqforlara 28 ədəd velosiped bölməsi quraşdırılaraq istifadəyə verilib.\n\nYeni qurğular Nəsimi və Səbail rayonlarını əhatə edən Rəşid Behbudov, 28 May, Bülbül prospekti, Füzuli, Şəmsi Bədəlbəyli, Süleyman Rəhimov, Azadlıq prospekti, Dilarə Əliyeva, Nizami və Əfzələddin Xəqani küçələrinin kəsişmələrində quraşdırılıb. Bildirilib ki, bu yeniliklərlə birlikdə paytaxtın yol kəsişmələrində quraşdırılan velosiped bölmələrinin ümumi sayı 160-a çatıb.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #DİN #NİİM #velosiped #təhlükəsizlik",
+  "id": "20261123-095658-01-p",
+  "kind": "post",
+  "image": "posts/20261123-095658-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T06:02:31.566639+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Bakının 9 kəsişməsindəki işıqforlara velosiped bölmələri quraşdırılıb",
+  "summary": "Paytaxtın Nəsimi və Səbail rayonlarındakı bir neçə kəsişmədə yerləşən işıqforlara velosiped bölmələri əlavə olunub. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzinin məlumatına görə, bununla da şəhər üzrə belə bölmələrin ümumi sayı 160-a çatıb.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/social/1376096.html",
+  "sensitive": false,
+  "caption": "Bakının 9 kəsişməsindəki işıqforlara velosiped bölmələri quraşdırılıb\n\nPaytaxtda mikromobilliyin inkişaf etdirilməsi və velosipedçilərin hərəkət təhlükəsizliyinin artırılması məqsədilə yeni işlər görülüb. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzinin yaydığı məlumata əsasən, Bakının daha 9 kəsişməsində yerləşən işıqforlara 28 ədəd velosiped bölməsi quraşdırılaraq istifadəyə verilib.\n\nYeni qurğular Nəsimi və Səbail rayonlarını əhatə edən Rəşid Behbudov, 28 May, Bülbül prospekti, Füzuli, Şəmsi Bədəlbəyli, Süleyman Rəhimov, Azadlıq prospekti, Dilarə Əliyeva, Nizami və Əfzələddin Xəqani küçələrinin kəsişmələrində quraşdırılıb. Bildirilib ki, bu yeniliklərlə birlikdə paytaxtın yol kəsişmələrində quraşdırılan velosiped bölmələrinin ümumi sayı 160-a çatıb.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #DİN #NİİM #velosiped #təhlükəsizlik",
+  "id": "20261123-095658-01-r",
+  "kind": "reel",
+  "video": "20261123-095658-01-r.mp4",
+  "cover": "20261123-095658-01-r.jpg"
  }
 ]
