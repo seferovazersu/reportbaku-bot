@@ -5958,14 +5958,9 @@
   "id": "20261123-192731-01",
   "kind": "news",
   "created": "2026-11-23T15:27:31.700876+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAICU2sEYWF1eWTOLkRh6h2datFDY27XAALFH2sbTg4hSJKatArDnLJbAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "CƏMİYYƏT",
   "headline": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub",
   "summary": "Naxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni kadr təyinatı reallaşıb. Quruma Aparat rəhbəri təyin edilib.",
@@ -5984,6 +5979,36 @@
   "source_note": "Mənbə: Oxu.az",
   "source_title": "Elmin Fərəcov yüksək vəzifəyə təyin olundu",
   "link": "https://oxu.az/cemiyyet/elmin-ferecov-yuksek-vezifeye-teyin-olundu",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T16:40:44.010955+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub",
+  "summary": "Naxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni kadr təyinatı reallaşıb. Quruma Aparat rəhbəri təyin edilib.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/cemiyyet/elmin-ferecov-yuksek-vezifeye-teyin-olundu",
+  "sensitive": false,
+  "caption": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub\n\nNaxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni təyinat həyata keçirilib. Məlumata əsasən, qurumda Aparat rəhbəri vəzifəsinə təyinat olub. Yeni təyinatla bağlı digər təfərrüatlar açıqlanmayıb.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Naxçıvan #Təyinat #Nazirlik",
+  "id": "20261123-192731-01-p",
+  "kind": "post",
+  "image": "posts/20261123-192731-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T16:40:44.010955+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub",
+  "summary": "Naxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni kadr təyinatı reallaşıb. Quruma Aparat rəhbəri təyin edilib.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/cemiyyet/elmin-ferecov-yuksek-vezifeye-teyin-olundu",
+  "sensitive": false,
+  "caption": "Naxçıvanda Əmək və Əhalinin Sosial Müdafiəsi Nazirliyinə Aparat rəhbəri təyin olunub\n\nNaxçıvan Muxtar Respublikasının Əmək və Əhalinin Sosial Müdafiəsi Nazirliyində yeni təyinat həyata keçirilib. Məlumata əsasən, qurumda Aparat rəhbəri vəzifəsinə təyinat olub. Yeni təyinatla bağlı digər təfərrüatlar açıqlanmayıb.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Naxçıvan #Təyinat #Nazirlik",
+  "id": "20261123-192731-01-r",
+  "kind": "reel",
+  "video": "20261123-192731-01-r.mp4",
+  "cover": "20261123-192731-01-r.jpg"
  }
 ]
