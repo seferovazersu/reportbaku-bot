@@ -6481,26 +6481,59 @@
   "id": "20261124-003015-u",
   "kind": "news",
   "created": "2026-11-23T20:30:15.622017+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "⚽️ Milan daha bir əfsanəni heyətə qatmağa çalışır\n\nOnlar bu məqsədlə “Liverpul”un kapitanı Vircil van Deykin vəziyyətini izləyir.\n\nMəlumata görə, 35 yaşlı niderlandlı müdafiəçi karyerasını İtaliyada davam etdirməyə maraqlıdır. O, yanvar ayında müqaviləsinin son altı ayına daxil olacaq.\n\nQeyd edim ki, yayılan xəbərlərə görə, “Milan” Van Deyki 2027-ci ilin yayında azad agent kimi heyətinə qatmağı nəzərdən keçirir. Futbolçunun “Liverpul”la müqaviləsi 2027-ci il iyunun 30-da başa çatır.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAICimsEoPb_yDyHHpOdrtxAwtpvgFIdAALxG2sbTg4pSDRVrz5wdKYhAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Milan Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir",
+  "summary": "İtaliya klubu Milan Liverpulun kapitanı Vircil van Deyki heyətinə qatmaq ehtimalını nəzərdən keçirir. Futbolçunun karyerasını İtaliyada davam etdirməkdə maraqlı olduğu bildirilir.",
+  "caption_text": "İtaliyanın Milan klubu Liverpulun kapitanı Vircil van Deykin vəziyyətini yaxından izləyir. Məlumata görə, 35 yaşlı niderlandlı müdafiəçi karyerasını İtaliyada davam etdirməkdə maraqlıdır. Yayılan xəbərlərə əsasən, Milan oyunçunu 2027-ci ilin yayında azad agent kimi transfer etməyi planlaşdırır. Qeyd edək ki, futbolçunun hazırkı klubu ilə müqaviləsi 2027-ci il iyunun 30-da başa çatır və o, yanvar ayında sözləşməsinin son altı ayına daxil olacaq.",
+  "voiceover": "Milan klubu Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir. 35 yaşlı niderlandlı müdafiəçi karyerasını İtaliyada davam etdirməyə maraqlıdır. Futbolçu yanvar ayında müqaviləsinin son altı ayına daxil olacaq. Milan oyunçunu 2027-ci ilin yayında azad agent kimi heyətinə qatmağı nəzərdən keçirir. Onun Liverpul ilə müqaviləsi 2027-ci il iyunun 30-da başa çatır.",
+  "hashtags": [
+   "#Milan",
+   "#Liverpul",
+   "#VircilvanDeyk",
+   "#Futbol",
+   "#Transfer"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "⚽️ Milan daha bir əfsanəni heyətə qatmağa çalışır\n\nOnlar bu məqsədlə “Liverpul”un kapitanı",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Milan",
+   "Vircil van Deyk"
+  ],
   "source_note": "",
   "source_title": "⚽️ Milan daha bir əfsanəni heyətə qatmağa çalışır\n\nOnlar bu məqsədlə “Liverpul”un kapitanı Vircil van Deykin vəziyyətini",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T20:34:48.220925+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Milan Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir",
+  "summary": "İtaliya klubu Milan Liverpulun kapitanı Vircil van Deyki heyətinə qatmaq ehtimalını nəzərdən keçirir. Futbolçunun karyerasını İtaliyada davam etdirməkdə maraqlı olduğu bildirilir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Milan Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir\n\nİtaliyanın Milan klubu Liverpulun kapitanı Vircil van Deykin vəziyyətini yaxından izləyir. Məlumata görə, 35 yaşlı niderlandlı müdafiəçi karyerasını İtaliyada davam etdirməkdə maraqlıdır. Yayılan xəbərlərə əsasən, Milan oyunçunu 2027-ci ilin yayında azad agent kimi transfer etməyi planlaşdırır. Qeyd edək ki, futbolçunun hazırkı klubu ilə müqaviləsi 2027-ci il iyunun 30-da başa çatır və o, yanvar ayında sözləşməsinin son altı ayına daxil olacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Milan #Liverpul #VircilvanDeyk #Futbol",
+  "id": "20261124-003015-u-p",
+  "kind": "post",
+  "image": "posts/20261124-003015-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T20:34:48.220925+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Milan Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir",
+  "summary": "İtaliya klubu Milan Liverpulun kapitanı Vircil van Deyki heyətinə qatmaq ehtimalını nəzərdən keçirir. Futbolçunun karyerasını İtaliyada davam etdirməkdə maraqlı olduğu bildirilir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Milan Liverpulun kapitanı Vircil van Deykin vəziyyətini izləyir\n\nİtaliyanın Milan klubu Liverpulun kapitanı Vircil van Deykin vəziyyətini yaxından izləyir. Məlumata görə, 35 yaşlı niderlandlı müdafiəçi karyerasını İtaliyada davam etdirməkdə maraqlıdır. Yayılan xəbərlərə əsasən, Milan oyunçunu 2027-ci ilin yayında azad agent kimi transfer etməyi planlaşdırır. Qeyd edək ki, futbolçunun hazırkı klubu ilə müqaviləsi 2027-ci il iyunun 30-da başa çatır və o, yanvar ayında sözləşməsinin son altı ayına daxil olacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Milan #Liverpul #VircilvanDeyk #Futbol",
+  "id": "20261124-003015-u-r",
+  "kind": "reel",
+  "video": "20261124-003015-u-r.mp4",
+  "cover": "20261124-003015-u-r.jpg"
  }
 ]
