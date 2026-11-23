@@ -4872,5 +4872,32 @@
   "cover": "20261123-110304-u-r.jpg",
   "instagram_id": "17988421377108542",
   "permalink": "https://www.instagram.com/reel/DgEzne7HJTB/"
+ },
+ {
+  "id": "20261123-111830-01",
+  "kind": "news",
+  "created": "2026-11-23T07:18:30.618077+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Serbiyada prezident seçkilərinin keçiriləcəyi tarix açıqlanıb",
+  "summary": "Serbiyada növbəti prezident seçkilərinin vaxtı müəyyənləşib. Səsvermə dekabrın 27-də təşkil olunacaq.",
+  "caption_text": "Serbiyada prezident seçkilərinin keçiriləcəyi tarix məlum olub. Ölkənin icraedici səlahiyyətlərini həyata keçirən, parlamentin sədri Aleksandar Çupiç seçkilərin dekabrın 27-də baş tutacağını bildirib. O, bu barədə yerli televiziya kanallarından birinin efirində çıxışı zamanı məlumat verib.",
+  "voiceover": "Serbiyada prezident seçkiləri 27 dekabr tarixində keçiriləcək. Bu barədə ölkənin parlamentinin sədri Aleksandar Çupiç yerli televiziya efirində açıqlama verib.",
+  "hashtags": [
+   "#Serbiya",
+   "#prezidentseçkiləri",
+   "#AleksandarÇupiç",
+   "#dünyaxəbərləri"
+  ],
+  "highlight": [
+   "Serbiyada",
+   "prezident seçkilərinin"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "В Сербии назвали дату президентских выборов",
+  "link": "https://minval.az/news/124563862",
+  "sensitive": false
  }
 ]
