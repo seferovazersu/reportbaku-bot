@@ -4169,7 +4169,7 @@
   "id": "20261122-222427-01",
   "kind": "news",
   "created": "2026-11-22T18:24:27.449636+00:00",
-  "status": "building",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -4191,13 +4191,14 @@
   "source_note": "Mənbə: Qafqazinfo",
   "source_title": "Meyiti yaşadığı evdən tapıldı",
   "link": "https://www.qafqazinfo.az/news/detail/meyiti-yasadigi-evden-tapildi-529456",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
  },
  {
   "id": "20261122-232357-u",
   "kind": "news",
   "created": "2026-11-22T19:23:57.564532+00:00",
-  "status": "building",
+  "status": "failed",
   "custom": true,
   "raw_text": "❗️Liviya sahillərində daha bir Rusiya gəmisi vurulub",
   "media": [
@@ -4223,14 +4224,9 @@
   "id": "20261122-234506-01",
   "kind": "news",
   "created": "2026-11-22T19:45:06.204407+00:00",
-  "status": "building",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file": "incoming/20261122-234506-01/1.jpg",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "DÜNYA",
   "headline": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb",
   "summary": "ABŞ prezidentinin xüsusi elçisi Cared Kuşner Ukraynanın təhlükəsizlik zəmanətlərinin Avropanın ümumi təhlükəsizlik arxitekturasının tərkib hissəsi olmalı olduğunu bildirib. Onun sözlərinə görə, bu məsələ ayrı bir razılaşma kimi deyil, daha geniş sistemin çərçivəsində həll edilməlidir.",
@@ -4251,20 +4247,16 @@
   "source_note": "Mənbə: Minval.az",
   "source_title": "Кушнер раскрыл, на каких условиях Трамп защитит Украину",
   "link": "https://minval.az/news/124563835",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
  },
  {
   "id": "20261122-235531-01",
   "kind": "news",
   "created": "2026-11-22T19:55:31.830741+00:00",
-  "status": "building",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file": "incoming/20261122-235531-01/1.jpg",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "HADİSƏ",
   "headline": "Finlandiya sularından çıxarılan Rusiya quru yük gəmisi yedəyə götürülüb",
   "summary": "Finlandiya sularında yanğını söndürülən Rusiya quru yük gəmisi rusiyalı xilasedicilər tərəfindən yedəyə götürülüb. Hadisə nəticəsində heyət üzvləri təxliyə edilib, bir dənizçi yüngül xəsarət alıb.",
@@ -4284,28 +4276,32 @@
   "source_note": "Mənbə: Haqqin.az",
   "source_title": "Россия буксирует атакованный у берегов Финляндии сухогруз",
   "link": "https://haqqin.az/newsarchive/399095",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
  },
  {
   "id": "20261123-000445-u",
   "kind": "news",
   "created": "2026-11-22T20:04:45.295204+00:00",
-  "status": "building",
+  "status": "built",
   "custom": true,
-  "raw_text": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub.\n\nAtəşfəşanlıq Göyərçin abidəsinin yaxınlığında baş tutub.",
-  "media": [
-   {
-    "file": "incoming/20261123-000445-u/1.mp4",
-    "type": "video"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət v",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü atəşfəşanlıqla qeyd edib",
+  "summary": "Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə bayram tədbiri keçirilib. Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub.",
+  "caption_text": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü qeyd edib. Bu münasibətlə şəhərdə bayram tədbiri baş tutub.\n\nTəşkil olunan atəşfəşanlıq Nəsimi adına mədəniyyət və istirahət parkında gerçəkləşdirilib. İşıq şousu Göyərçin abidəsinin yaxınlığındakı ərazidə sakinlərin izləməsi üçün təqdim edilib.",
+  "voiceover": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü qeyd edib. Bu münasibətlə Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub. İşıq şousu Göyərçin abidəsinin yaxınlığında baş tutub.",
+  "hashtags": [
+   "#Sumqayıt",
+   "#atəşfəşanlıq",
+   "#ildönüm",
+   "#Nəsimiparkı"
+  ],
+  "highlight": [
+   "Sumqayıt",
+   "77-ci ildönümü"
+  ],
   "source_note": "",
   "source_title": "🎆 Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə Nəsimi adına mədəniyyət və istirahət parkında atəşfəşan",
   "link": "",
@@ -4316,14 +4312,9 @@
   "id": "20261123-001233-01",
   "kind": "news",
   "created": "2026-11-22T20:12:33.726185+00:00",
-  "status": "building",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file": "incoming/20261123-001233-01/1.jpg",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "DÜNYA",
   "headline": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb",
   "summary": "Texniki problem ABŞ-də uçuşların hazırlıq sistemində yaranıb. Hadisə nəticəsində Delta Air Lines reyslərində kütləvi gecikmələr qeydə alınıb.",
@@ -4343,6 +4334,152 @@
   "source_note": "Mənbə: Minval.az",
   "source_title": "Более 3,5 тысячи перелетов в США оказались под угрозой из-за сбоя Delta",
   "link": "https://minval.az/news/124563836",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "id": "20261123-093908-u",
+  "kind": "news",
+  "created": "2026-11-23T05:39:08.816800+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı minik avtomobili ilə yük avtomobilinin iştirakı ilə qəza baş verib. Sürücü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\n▪️ ARB-nin aparıcısı Ada Süleymanova ad günündən qayıdırmış. Hadisə ilə bağlı araşdırma aparılır.",
+  "media": [
+   {
+    "file": "incoming/20261123-093908-u/1.jpg",
+    "type": "photo"
+   },
+   {
+    "file": "incoming/20261123-093908-u/2.mp4",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı m",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
+ },
+ {
+  "created": "2026-11-23T05:39:37.570858+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Şəmkirdə 66 yaşlı qadının meyiti evində aşkar edilib",
+  "summary": "Şəmkir rayonunda evdən qadın meyiti tapılıb. Faktla bağlı araşdırma aparılır.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/meyiti-yasadigi-evden-tapildi-529456",
+  "sensitive": true,
+  "caption": "Şəmkirdə 66 yaşlı qadının meyiti evində aşkar edilib\n\nŞəmkir rayonunda 1960-cı il təvəllüdlü Sona Qurbanovanın meyiti yaşadığı evdə aşkarlanmb. Hadisə yerinə dərhal hüquq-mühafizə orqanlarının əməkdaşları cəlb olunub.\n\nAraşdırma işləri davam etdirilir.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Şəmkir #Polis #Prokurorluq",
+  "id": "20261122-222427-01-p",
+  "kind": "post",
+  "image": "posts/20261122-222427-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T05:39:45.285029+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb",
+  "summary": "ABŞ prezidentinin xüsusi elçisi Cared Kuşner Ukraynanın təhlükəsizlik zəmanətlərinin Avropanın ümumi təhlükəsizlik arxitekturasının tərkib hissəsi olmalı olduğunu bildirib. Onun sözlərinə görə, bu məsələ ayrı bir razılaşma kimi deyil, daha geniş sistemin çərçivəsində həll edilməlidir.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563835",
+  "sensitive": false,
+  "caption": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb\n\nABŞ prezidentinin xüsusi elçisi Cared Кушнер Ukraynanın təhlükəsizliyi ilə bağlı açıqlama verib. O bildirib ki, Ukraynanın təhlükəsizlik zəmanətləri xüsusi bir razılaşma deyil, Avropanın daha geniş təhlükəsizlik arxitekturasının tərkib hissəsini təşkil etməlidir. Məlumatda bu yanaşmanın əsas şərtlərdən biri olduğu qeyd edilib.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #Ukrayna #Avropa #CaredKuşner",
+  "id": "20261122-234506-01-p",
+  "kind": "post",
+  "image": "posts/20261122-234506-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T05:39:45.285029+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb",
+  "summary": "ABŞ prezidentinin xüsusi elçisi Cared Kuşner Ukraynanın təhlükəsizlik zəmanətlərinin Avropanın ümumi təhlükəsizlik arxitekturasının tərkib hissəsi olmalı olduğunu bildirib. Onun sözlərinə görə, bu məsələ ayrı bir razılaşma kimi deyil, daha geniş sistemin çərçivəsində həll edilməlidir.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563835",
+  "sensitive": false,
+  "caption": "Kuşner Trampın Ukraynanın təhlükəsizliyini təmin edəcəyi şərtləri açıqlayıb\n\nABŞ prezidentinin xüsusi elçisi Cared Кушнер Ukraynanın təhlükəsizliyi ilə bağlı açıqlama verib. O bildirib ki, Ukraynanın təhlükəsizlik zəmanətləri xüsusi bir razılaşma deyil, Avropanın daha geniş təhlükəsizlik arxitekturasının tərkib hissəsini təşkil etməlidir. Məlumatda bu yanaşmanın əsas şərtlərdən biri olduğu qeyd edilib.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #Ukrayna #Avropa #CaredKuşner",
+  "id": "20261122-234506-01-r",
+  "kind": "reel",
+  "video": "20261122-234506-01-r.mp4",
+  "cover": "20261122-234506-01-r.jpg"
+ },
+ {
+  "created": "2026-11-23T05:40:04.967276+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Finlandiya sularından çıxarılan Rusiya quru yük gəmisi yedəyə götürülüb",
+  "summary": "Finlandiya sularında yanğını söndürülən Rusiya quru yük gəmisi rusiyalı xilasedicilər tərəfindən yedəyə götürülüb. Hadisə nəticəsində heyət üzvləri təxliyə edilib, bir dənizçi yüngül xəsarət alıb.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399095",
+  "sensitive": true,
+  "caption": "Finlandiya sularından çıxarılan Rusiya quru yük gəmisi yedəyə götürülüb\n\nFinlandiya sahillərində pilotsuz uçuş aparatlarının hücumuna məruz qalan Rusiya bayrağı altında üzən \"Sparta II\" yük gəmisi Finlandiya sularından çıxarılmağa başlanıb. Reuters agentliyinin məlumatına görə, iki gün davam edən yanğınsöndürmə əməliyyatından sonra Rusiya xilasetmə gəmisi quru yük gəmisini yedəyə götürüb. Gəmi Finlandiya sularını tərk etdikdən sonra xilasetmə əməliyyatına görə məsuliyyət Rusiyaya keçəcək.\n\nHücumdan sonra gəminin 16 nəfərlik heyətinin hamısı yaxınlıqda olan Rusiya gəmisinə təxliyə olunub, bir dənizçi isə yüngül xəsarətlər alıb. Finlandiya hərbçilərinin ehtimalına görə, şənbə günü baş verən hücum Ukrayna tərəfindən həyata keçirilib. Quru yük gəmisini söndürmək üçün Finlandiya, Rusiya və Estoniyadan olan gəmilər cəlb edilib. Sanksiyalar siyahısında olan və Rusiyanın Müdafiə Nazirliyinə logistik xidmətlər göstərən şirkətə məxsus gəmi Sankt-Peterburqdan Kalininqrada hərəkət edirdi.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #SpartaII #Finlandiya #Rusiya #BaltiqDənizi",
+  "id": "20261122-235531-01-p",
+  "kind": "post",
+  "image": "posts/20261122-235531-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T05:40:10.123573+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü atəşfəşanlıqla qeyd edib",
+  "summary": "Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə bayram tədbiri keçirilib. Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü atəşfəşanlıqla qeyd edib\n\nSumqayıt şəhər statusu almasının 77-ci ildönümünü qeyd edib. Bu münasibətlə şəhərdə bayram tədbiri baş tutub.\n\nTəşkil olunan atəşfəşanlıq Nəsimi adına mədəniyyət və istirahət parkında gerçəkləşdirilib. İşıq şousu Göyərçin abidəsinin yaxınlığındakı ərazidə sakinlərin izləməsi üçün təqdim edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sumqayıt #atəşfəşanlıq #ildönüm #Nəsimiparkı",
+  "id": "20261123-000445-u-p",
+  "kind": "post",
+  "image": "posts/20261123-000445-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T05:40:10.123573+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü atəşfəşanlıqla qeyd edib",
+  "summary": "Sumqayıtın şəhər statusu almasının 77-ci ildönümü münasibətilə bayram tədbiri keçirilib. Nəsimi adına mədəniyyət və istirahət parkında atəşfəşanlıq təşkil olunub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Sumqayıt şəhər statusu almasının 77-ci ildönümünü atəşfəşanlıqla qeyd edib\n\nSumqayıt şəhər statusu almasının 77-ci ildönümünü qeyd edib. Bu münasibətlə şəhərdə bayram tədbiri baş tutub.\n\nTəşkil olunan atəşfəşanlıq Nəsimi adına mədəniyyət və istirahət parkında gerçəkləşdirilib. İşıq şousu Göyərçin abidəsinin yaxınlığındakı ərazidə sakinlərin izləməsi üçün təqdim edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sumqayıt #atəşfəşanlıq #ildönüm #Nəsimiparkı",
+  "id": "20261123-000445-u-r",
+  "kind": "reel",
+  "video": "20261123-000445-u-r.mp4",
+  "cover": "20261123-000445-u-r.jpg"
+ },
+ {
+  "created": "2026-11-23T05:40:28.873191+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb",
+  "summary": "Texniki problem ABŞ-də uçuşların hazırlıq sistemində yaranıb. Hadisə nəticəsində Delta Air Lines reyslərində kütləvi gecikmələr qeydə alınıb.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563836",
+  "sensitive": false,
+  "caption": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb\n\nBazar günü Birləşmiş Ştatlarda aviasiya sahəsində texniki nasazlıq baş verib. Məlumata görə, təyyarələrin uçuşa hazırlıq sistemində yaranan problem Delta Air Lines şirkətinin reyslərinin kütləvi şəkildə ləngiməsinə səbəb olub.\n\nHadisədən daha çox Atlantanın hava limanı zərər çəkib. Ümumilikdə ölkə üzrə minlərlə uçuş təhlükə ilə üz-üzə qalıb.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #DeltaAirLines #aviasiya",
+  "id": "20261123-001233-01-p",
+  "kind": "post",
+  "image": "posts/20261123-001233-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T05:40:28.873191+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb",
+  "summary": "Texniki problem ABŞ-də uçuşların hazırlıq sistemində yaranıb. Hadisə nəticəsində Delta Air Lines reyslərində kütləvi gecikmələr qeydə alınıb.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563836",
+  "sensitive": false,
+  "caption": "ABŞ-də Delta aviaşirkətinin reysləri texniki nasazlıq səbəbindən təxirə düşüb\n\nBazar günü Birləşmiş Ştatlarda aviasiya sahəsində texniki nasazlıq baş verib. Məlumata görə, təyyarələrin uçuşa hazırlıq sistemində yaranan problem Delta Air Lines şirkətinin reyslərinin kütləvi şəkildə ləngiməsinə səbəb olub.\n\nHadisədən daha çox Atlantanın hava limanı zərər çəkib. Ümumilikdə ölkə üzrə minlərlə uçuş təhlükə ilə üz-üzə qalıb.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #DeltaAirLines #aviasiya",
+  "id": "20261123-001233-01-r",
+  "kind": "reel",
+  "video": "20261123-001233-01-r.mp4",
+  "cover": "20261123-001233-01-r.jpg"
  }
 ]
