@@ -4631,5 +4631,35 @@
   "kind": "reel",
   "video": "20261123-100821-u-r.mp4",
   "cover": "20261123-100821-u-r.jpg"
+ },
+ {
+  "id": "20261123-101618-u",
+  "kind": "news",
+  "created": "2026-11-23T06:16:18.527470+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı minik avtomobili ilə yük avtomobilinin iştirakı ilə qəza baş verib. Sürücü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\nBaş vermiş qəzada dünyasını dəyişən Ada Süleyman ARB TV-nin keçmiş aparıcısı olub.",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAIBy2sD2g392XKrSnBrisT0S_ems9PxAAJepgACTg4hSDKhfHUM_CtYPQQ",
+    "type": "video"
+   },
+   {
+    "file_id": "BAACAgIAAxkBAAIBzGsD2g1dkUJEg23zoHB9VrKZvBZ_AAJfpgACTg4hSH6UcfArGGwDPQQ",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı m",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
