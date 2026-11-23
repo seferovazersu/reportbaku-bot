@@ -94,13 +94,34 @@ def fill_from_text(e):
     return bool(e["headline"] and e["summary"])
 
 
+def download_media(e):
+    """Telegram-dakı faylları (file_id ilə) bu işləmənin qovluğuna yükləyir."""
+    folder = INCOMING / e["id"]
+    folder.mkdir(parents=True, exist_ok=True)
+    for n, m in enumerate(e.get("media", []), 1):
+        if m.get("file") and Path(m["file"]).exists():
+            continue
+        r = requests.post("https://api.telegram.org/bot%s/getFile" % TG_TOKEN, data={"file_id": m["file_id"]}, timeout=60)
+        info = r.json().get("result") if r.ok else None
+        if not info:
+            raise RuntimeError("Telegram faylı tapılmadı (fayl ölçüsü 20 MB-dan çox ola bilər)")
+        data = requests.get("https://api.telegram.org/file/bot%s/%s" % (TG_TOKEN, info["file_path"]), timeout=180).content
+        ext = os.path.splitext(info["file_path"])[1] or (".jpg" if m["type"] == "photo" else ".mp4")
+        path = folder / ("%d%s" % (n, ext))
+        path.write_bytes(data)
+        m["file"] = str(path)
+
+
 def build_for(e, pending):
+    download_media(e)
     if e.get("custom") and not e.get("summary"):
         if not fill_from_text(e):
             raise RuntimeError("Mətndən xəbər hazırlanmadı (AI xülasə yaza bilmədi)")
 
     photos = [m["file"] for m in e.get("media", []) if m["type"] == "photo" and Path(m["file"]).exists()]
     videos = [m["file"] for m in e.get("media", []) if m["type"] == "video" and Path(m["file"]).exists()]
+    if e.get("media") and not (photos or videos):
+        raise RuntimeError("Göndərdiyiniz media yüklənmədi, yenidən göndərin")
     photo = photos[0] if photos else None
     video = videos[0] if videos else None
     if video and not photo:

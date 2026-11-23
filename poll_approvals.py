@@ -192,10 +192,11 @@ def tg_download(file_id, dest_dir, n):
 
 def cleanup_media(entry):
     for m in entry.get("media", []):
-        try:
-            Path(m["file"]).unlink()
-        except OSError:
-            pass
+        if m.get("file"):
+            try:
+                Path(m["file"]).unlink()
+            except OSError:
+                pass
 
 
 def new_custom_entry(text):
@@ -237,11 +238,13 @@ def handle_message(m, pending, by_id, touched):
             return
         touched["current"] = entry
     try:
-        path = tg_download(file_id, Path("incoming") / entry["id"], len(entry["media"]) + 1)
+        info = tg("getFile", {"file_id": file_id})   # yalnız yoxlama (≤20 MB); yükləmə hazırlama zamanı olur
+        if not info or not info.get("file_path"):
+            raise ApiError("fayl tapılmadı")
     except ApiError as e:
-        notify("⚠️ Fayl yüklənmədi: %s (Telegram botlar üçün fayl ölçüsü 20 MB-dan çox ola bilməz)" % str(e)[:150])
+        notify("⚠️ Fayl qəbul edilmədi: %s (Telegram botlar üçün fayl ölçüsü 20 MB-dan çox ola bilməz)" % str(e)[:150])
         return
-    entry["media"].append({"file": path, "type": kind})
+    entry["media"].append({"file_id": file_id, "type": kind})
     touched.setdefault("entries", {})[entry["id"]] = entry
 
 
