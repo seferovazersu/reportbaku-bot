@@ -5801,7 +5801,7 @@
   "id": "20261123-173208-01",
   "kind": "news",
   "created": "2026-11-23T13:32:08.949096+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SAĞLAMLIQ",
@@ -5822,6 +5822,36 @@
   "source_note": "Mənbə: APA",
   "source_title": "SN lisenziyasız şəxslərin apteklərdə oftalmoloji müayinə etməsi ilə bağlı xəbərdarlıq edib",
   "link": "https://apa.az/social/sn-lisenziyasiz-sexslerin-apteklerde-oftalmoloji-muayine-etmesi-ile-bagli-xeberdarliq-edib-1016528",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T13:49:30.140041+00:00",
+  "status": "pending",
+  "category": "SAĞLAMLIQ",
+  "headline": "Apteklərdə lisenziyasız oftalmoloji müayinələr aparılmasına qarşı xəbərdarlıq edilib",
+  "summary": "Səhiyyə Nazirliyinin Analitik Ekspertiza Mərkəzi apteklərdə lisenziyasız oftalmoloji müayinələrin aparılması ilə bağlı xəbərdarlıq yayıb. Qurum bu cür halların qanunvericiliyə zidd olduğunu və qanunamüvafiq tədbirlərin görüləcəyini bildirib.",
+  "source_note": "Mənbə: APA",
+  "link": "https://apa.az/social/sn-lisenziyasiz-sexslerin-apteklerde-oftalmoloji-muayine-etmesi-ile-bagli-xeberdarliq-edib-1016528",
+  "sensitive": true,
+  "caption": "Apteklərdə lisenziyasız oftalmoloji müayinələr aparılmasına qarşı xəbərdarlıq edilib\n\nSəhiyyə Nazirliyinin Analitik Ekspertiza Mərkəzi tərəfindən apteklərdə lisenziyasız oftalmoloji müayinələrin aparılması ilə əlaqədar xəbərdarlıq edilib.\n\nAçıqlamada qeyd olunub ki, aptek təşkilatlarının nəzdində fəaliyyət göstərən optika şöbələrinin işi müvafiq normativ hüquqi aktlarla tənzimlənir. Apteklərdə optik məhsulların satışı ilə yanaşı, həkim-oftalmoloq tərəfindən tibbi xarakterli müayinələrin həyata keçirilməsi özəl tibb fəaliyyətinə aid edilir və lisenziya tələb edir. Müvafiq lisenziya və zəruri şərtlər olmadan belə xidmətlərin göstərilməsinə yol verilməməlidir.\n\nMənbə: APA\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #sağlamlıq #SəhiyyəNazirliyi #Aptek #Oftalmoloq #TibbiLisenziya",
+  "id": "20261123-173208-01-p",
+  "kind": "post",
+  "image": "posts/20261123-173208-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T13:49:30.140041+00:00",
+  "status": "pending",
+  "category": "SAĞLAMLIQ",
+  "headline": "Apteklərdə lisenziyasız oftalmoloji müayinələr aparılmasına qarşı xəbərdarlıq edilib",
+  "summary": "Səhiyyə Nazirliyinin Analitik Ekspertiza Mərkəzi apteklərdə lisenziyasız oftalmoloji müayinələrin aparılması ilə bağlı xəbərdarlıq yayıb. Qurum bu cür halların qanunvericiliyə zidd olduğunu və qanunamüvafiq tədbirlərin görüləcəyini bildirib.",
+  "source_note": "Mənbə: APA",
+  "link": "https://apa.az/social/sn-lisenziyasiz-sexslerin-apteklerde-oftalmoloji-muayine-etmesi-ile-bagli-xeberdarliq-edib-1016528",
+  "sensitive": true,
+  "caption": "Apteklərdə lisenziyasız oftalmoloji müayinələr aparılmasına qarşı xəbərdarlıq edilib\n\nSəhiyyə Nazirliyinin Analitik Ekspertiza Mərkəzi tərəfindən apteklərdə lisenziyasız oftalmoloji müayinələrin aparılması ilə əlaqədar xəbərdarlıq edilib.\n\nAçıqlamada qeyd olunub ki, aptek təşkilatlarının nəzdində fəaliyyət göstərən optika şöbələrinin işi müvafiq normativ hüquqi aktlarla tənzimlənir. Apteklərdə optik məhsulların satışı ilə yanaşı, həkim-oftalmoloq tərəfindən tibbi xarakterli müayinələrin həyata keçirilməsi özəl tibb fəaliyyətinə aid edilir və lisenziya tələb edir. Müvafiq lisenziya və zəruri şərtlər olmadan belə xidmətlərin göstərilməsinə yol verilməməlidir.\n\nMənbə: APA\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #sağlamlıq #SəhiyyəNazirliyi #Aptek #Oftalmoloq #TibbiLisenziya",
+  "id": "20261123-173208-01-r",
+  "kind": "reel",
+  "video": "20261123-173208-01-r.mp4",
+  "cover": "20261123-173208-01-r.jpg"
  }
 ]
