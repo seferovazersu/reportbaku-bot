@@ -5146,22 +5146,25 @@
   "id": "20261123-123245-u",
   "kind": "news",
   "created": "2026-11-23T08:32:45.080528+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Prezident İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib.\n\nhttps://president.az/az/articles/view/74827",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIB92sD-PkXsceRrDJyCgWSyqnKJMFJAAIiHWsbTg4hSKvDD8qmStp0AQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev İtaliya rəsmisini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İtaliya Nazirlər Şurası Sədrinin müavini ilə görüş keçirib. Qəbul dövlət başçısının iştirakı ilə baş tutub.",
+  "caption_text": "Azərbaycan Respublikasının Prezidenti İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib. Görüş zamanı tərəfləri maraqlandıran məsələlər ətrafında müzakirələr aparılıb. Rəsmi qəbul dövlət başçısının iştirakı ilə reallaşıb.",
+  "voiceover": "Azərbaycan Prezidenti İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib. Görüşdə rəsmi şəxslər iştirak ediblər.",
+  "hashtags": [
+   "#Prezident",
+   "#İlhamƏliyev",
+   "#İtaliya",
+   "#Azərbaycan"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Prezident İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib.\n\nhttps://pre",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Prezident İlham Əliyev",
+   "İtaliya"
+  ],
   "source_note": "",
   "source_title": "Prezident İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib.\n\nhttps://president.az/az/articles/view/748",
   "link": "",
@@ -5184,7 +5187,7 @@
  },
  {
   "created": "2026-11-23T08:33:09.044369+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Bakıda məktəbli qəza nəticəsində vəfat edib",
   "summary": "Paytaxtda beşinci sinif şagirdi avtomobil vurması səbəbindən dünyasını dəyişib. Hadisə yaşayış kompleksinin ərazisində qeydə alınıb.",
@@ -5195,6 +5198,37 @@
   "id": "20261123-122835-u-r",
   "kind": "reel",
   "video": "20261123-122835-u-r.mp4",
-  "cover": "20261123-122835-u-r.jpg"
+  "cover": "20261123-122835-u-r.jpg",
+  "instagram_id": "18125519449934609",
+  "permalink": "https://www.instagram.com/reel/DgE9loQnMua/"
+ },
+ {
+  "created": "2026-11-23T08:35:23.759853+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev İtaliya rəsmisini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İtaliya Nazirlər Şurası Sədrinin müavini ilə görüş keçirib. Qəbul dövlət başçısının iştirakı ilə baş tutub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Prezident İlham Əliyev İtaliya rəsmisini qəbul edib\n\nAzərbaycan Respublikasının Prezidenti İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib. Görüş zamanı tərəfləri maraqlandıran məsələlər ətrafında müzakirələr aparılıb. Rəsmi qəbul dövlət başçısının iştirakı ilə reallaşıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Prezident #İlhamƏliyev #İtaliya",
+  "id": "20261123-123245-u-p",
+  "kind": "post",
+  "image": "posts/20261123-123245-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T08:35:23.759853+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev İtaliya rəsmisini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İtaliya Nazirlər Şurası Sədrinin müavini ilə görüş keçirib. Qəbul dövlət başçısının iştirakı ilə baş tutub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Prezident İlham Əliyev İtaliya rəsmisini qəbul edib\n\nAzərbaycan Respublikasının Prezidenti İlham Əliyev İtaliya Nazirlər Şurası Sədrinin müavinini qəbul edib. Görüş zamanı tərəfləri maraqlandıran məsələlər ətrafında müzakirələr aparılıb. Rəsmi qəbul dövlət başçısının iştirakı ilə reallaşıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Prezident #İlhamƏliyev #İtaliya",
+  "id": "20261123-123245-u-r",
+  "kind": "reel",
+  "video": "20261123-123245-u-r.mp4",
+  "cover": "20261123-123245-u-r.jpg"
  }
 ]
