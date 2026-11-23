@@ -25,7 +25,7 @@ PHOTO_DIR = Path("photos")
 TG_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
 VARIANTS = ["overlay", "panel"]
-HASHTAGS = os.getenv("HASHTAGS", "#ReportBaku #xəbər #Azərbaycan #Bakı")
+HASHTAGS = os.getenv("HASHTAGS", "#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər")
 REELS_PER_RUN = int(os.getenv("REELS_PER_RUN", "2"))   # hər işə salmada neçə Reels
 POSTS_PER_RUN = int(os.getenv("POSTS_PER_RUN", "1"))   # hər işə salmada neçə foto post
 KEEP_DAYS_IMAGES = 3     # köhnə şəkillər bu qədər gündən sonra silinir
@@ -72,11 +72,59 @@ def pick_photo(headline):
     return str(files[n % len(files)])
 
 
-def build_caption(d):
-    """Instagram-da görünəcək mətn."""
+CATEGORY_TAGS = {"SİYASƏT": "#siyasət", "İQTİSADİYYAT": "#iqtisadiyyat", "CƏMİYYƏT": "#cəmiyyət",
+                 "HADİSƏ": "#hadisə", "DÜNYA": "#dünya", "İDMAN": "#idman", "MƏDƏNİYYƏT": "#mədəniyyət",
+                 "TEXNOLOGİYA": "#texnologiya", "SAĞLAMLIQ": "#sağlamlıq"}
+MAX_TAGS = 10
+
+
+def build_hashtags(d):
+    """Sabit əsas heştaqlar + kateqoriya heştaqı + xəbərə aid AI heştaqları (təkrarsız, ən çox 10)."""
+    tags = HASHTAGS.split() + [CATEGORY_TAGS.get(d.get("category", ""), "")] + list(d.get("hashtags") or [])
+    out, seen = [], set()
+    for t in tags:
+        t = t.strip()
+        if not t.startswith("#") or len(t) < 3 or " " in t:
+            continue
+        key = t.lower()
+        if key not in seen:
+            seen.add(key)
+            out.append(t)
+    return " ".join(out[:MAX_TAGS])
+
+
+def build_caption(d, credit=""):
+    """Instagram-da görünəcək mətn: başlıq, ətraflı yazı, mənbə, foto krediti, heştaqlar."""
     body = d.get("caption_text") or d["summary"]
-    parts = [d["headline"], body, d.get("source_note", ""), HASHTAGS]
+    parts = [d["headline"], body, d.get("source_note", ""),
+             ("Foto: " + credit) if credit else "", build_hashtags(d)]
     return "\n\n".join(p for p in parts if p)
+
+
+def fetch_source_image(d, base_id):
+    """Xəbərin öz şəklini yükləyir (yalnız collect_news.py-də icazəli mənbələr üçün image_url verilir).
+    (fayl_yolu, kredit_adı) qaytarır; alınmasa (None, "")."""
+    url = d.get("image_url")
+    if not url:
+        return None, ""
+    try:
+        r = requests.get(url, timeout=40, headers={"User-Agent": "Mozilla/5.0 (compatible; ReportBakuBot/1.0)"})
+        if not r.ok or len(r.content) > 12 * 1024 * 1024:
+            return None, ""
+        from io import BytesIO
+        from PIL import Image
+        im = Image.open(BytesIO(r.content))
+        im.load()
+        if min(im.size) < 400:
+            return None, ""
+        Path("src_images").mkdir(exist_ok=True)
+        path = Path("src_images") / (base_id + ".jpg")
+        im.convert("RGB").save(path, quality=92)
+        credit = (d.get("source_note") or "").replace("Mənbə:", "").strip()
+        return str(path), credit
+    except Exception as e:
+        print("  Xəbər şəkli yüklənmədi:", str(e)[:100])
+        return None, ""
 
 
 def send_photo(path, caption, post_id):
@@ -144,7 +192,8 @@ def main():
 
     for i, (fmt, d) in enumerate(plan, 1):
         base_id = "%s-%02d" % (stamp, i)
-        caption = build_caption(d)
+        photo_file, credit = fetch_source_image(d, base_id)
+        caption = build_caption(d, credit)
 
         if fmt == "reel":
             # video sonrakı addımda (build_videos.py) hazırlanır
@@ -164,6 +213,8 @@ def main():
                 "link": d.get("link", ""),
                 "sensitive": False,
                 "video": "",
+                "photo_file": photo_file,
+                "image_credit": credit,
                 "caption": caption,
             })
             n_reels += 1
@@ -171,7 +222,7 @@ def main():
 
         out = OUT_DIR / (base_id + ".jpg")
         variant = VARIANTS[(len(pending)) % 2]
-        photo = pick_photo(d["headline"])
+        photo = photo_file or pick_photo(d["headline"])
         print("%d/%d FOTO POST: %s  [%s, foto: %s]" % (i, len(plan), d["headline"], variant, photo or "yoxdur"))
         make_post(
             photo, d["category"], d["headline"], d["summary"], str(out),

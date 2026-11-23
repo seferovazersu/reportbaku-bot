@@ -209,6 +209,35 @@ def pick_caption_size(probe, chunks, max_w, cap_h):
     return 34
 
 
+def make_cover_image(photo, category, headline, out, highlight=None, date=None):
+    """Reels örtüyü (1080x1920): xəbərin şəkli tam ekran, altda tag və böyük başlıq.
+    Profil şəbəkəsində ortadakı 3:4 hissə görünür, ona görə mətn y=950-1500 aralığındadır."""
+    date = date or baku_today()
+    img = background(photo, (VW, VH), base_y=VH - 4)
+    mask = ImageChops.lighter(gradient_mask((VW, VH), 700, 1500, 0.0, 0.93),
+                              gradient_mask((VW, VH), 0, 520, 0.55, 0.0))
+    img = darken(img, mask)
+    top = Image.new("RGBA", (VW, 160), (0, 0, 0, 0))
+    draw_topbar(top, date)
+    img.paste(top, (0, 200), top)
+    d = ImageDraw.Draw(img)
+    max_w = VW - 2 * MARGIN
+    words = headline.split()
+    f, size, lines, _ = fit_block(d, words, "extrabold", max_w, 92, 54, 5, 1.1, max_h=470)
+    hl = highlight_indices(words, highlight)
+    h = len(lines) * int(size * 1.1)
+    y = 1520 - h
+    draw_tag(img, MARGIN, y - 48 - 22, az_upper(category))
+    draw_lines(d, MARGIN, y, words, lines, f, size, 1.1,
+               lambda i: ELECTRIC if i in hl else (255, 255, 255))
+    foot = Image.new("RGBA", (VW, 96), (0, 0, 0, 0))
+    draw_footer(foot, 0, "")
+    img.paste(foot, (0, 1570), foot)
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, quality=93)
+    return out
+
+
 def make_video(category, headline, summary, source_note, out, photo=None,
                highlight=None, date=None, voiceover=None, inset=None):
     """Videonu yaradır. {'duration':..., 'model':..., 'words':...} qaytarır, alınmasa None."""
@@ -246,6 +275,7 @@ def make_video(category, headline, summary, source_note, out, photo=None,
     inset_mask = Image.new("L", (IW, IH), 0)
     ImageDraw.Draw(inset_mask).rounded_rectangle([0, 0, IW - 1, IH - 1], radius=28, fill=255)
     reader, inset_photo, last_inset, label = None, None, None, None
+    show_label = False
     if inset:
         try:
             if inset.get("kind") == "video":
@@ -257,6 +287,7 @@ def make_video(category, headline, summary, source_note, out, photo=None,
             else:
                 inset_photo = cover(Image.open(inset["path"]).convert("RGB"), (IW, IH))
             lf = font(18, "bold")
+            show_label = bool(inset.get("credit")) and inset.get("kind") != "source"
             lw = int(ImageDraw.Draw(Image.new("RGB", (10, 10))).textlength("İLLÜSTRATİV GÖRÜNTÜ", font=lf)) + 44
             label = Image.new("RGBA", (lw, 38), (0, 0, 0, 0))
             ld = ImageDraw.Draw(label)
@@ -348,7 +379,8 @@ def make_video(category, headline, summary, source_note, out, photo=None,
             frame.paste(piece, (IX, IY), inset_mask)
             ImageDraw.Draw(frame).rounded_rectangle([IX - 3, IY - 3, IX + IW + 2, IY + IH + 2],
                                                     radius=30, outline=ELECTRIC, width=3)
-            frame.paste(label, (IX + 22, IY + IH - 58), label)
+            if show_label:
+                frame.paste(label, (IX + 22, IY + IH - 58), label)
         for lay, x, y, ta in layers:
             paste_fade(frame, lay, x, y, clamp((t - ta) / 0.35))
         if t >= starts[0] - 0.05:                         # aktiv altyazı parçası
