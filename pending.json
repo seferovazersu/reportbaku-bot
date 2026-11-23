@@ -5860,7 +5860,7 @@
   "id": "20261123-175856-01",
   "kind": "news",
   "created": "2026-11-23T13:58:56.987026+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "TEXNOLOGİYA",
@@ -5879,6 +5879,36 @@
   "source_note": "Mənbə: Day.az",
   "source_title": "Робот Sergey покоряет соцсети необычным способом выноса мусора",
   "link": "https://news.day.az/unusual/1876530.html",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T14:02:12.889751+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Sergey adlı robotun zibil atması sosial şəbəkələrdə yayılıb",
+  "summary": "Tau Robotics şirkətinin hazırladığı Sergey adlı robotun zibil atma prosesi sosial şəbəkələrdə maraq doğurub. İzləyicilər həftəlik xidmət üçün ödənilən məbləğin sərfəli olduğunu bildiriblər.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/unusual/1876530.html",
+  "sensitive": false,
+  "caption": "Sergey adlı robotun zibil atması sosial şəbəkələrdə yayılıb\n\nDünya sosial şəbəkələrində Sergey adlı robotun zibil atmasını əks etdirən kadrlar sürətlə yayılır. İzləyicilər tərəfindən yazılan şərhlərdə qeyd olunur ki, həftəlik təmizlik xidməti üçün təklif edilən 240 dollar abunə haqqı saatlıq standart ödənişdən daha sərfəlidir. Xatırladaq ki, daha əvvəl Tau Robotics tərəfindən abunə xidməti istifadəyə verilmişdi.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #robot #sosialşəbəkə",
+  "id": "20261123-175856-01-p",
+  "kind": "post",
+  "image": "posts/20261123-175856-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T14:02:12.889751+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Sergey adlı robotun zibil atması sosial şəbəkələrdə yayılıb",
+  "summary": "Tau Robotics şirkətinin hazırladığı Sergey adlı robotun zibil atma prosesi sosial şəbəkələrdə maraq doğurub. İzləyicilər həftəlik xidmət üçün ödənilən məbləğin sərfəli olduğunu bildiriblər.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/unusual/1876530.html",
+  "sensitive": false,
+  "caption": "Sergey adlı robotun zibil atması sosial şəbəkələrdə yayılıb\n\nDünya sosial şəbəkələrində Sergey adlı robotun zibil atmasını əks etdirən kadrlar sürətlə yayılır. İzləyicilər tərəfindən yazılan şərhlərdə qeyd olunur ki, həftəlik təmizlik xidməti üçün təklif edilən 240 dollar abunə haqqı saatlıq standart ödənişdən daha sərfəlidir. Xatırladaq ki, daha əvvəl Tau Robotics tərəfindən abunə xidməti istifadəyə verilmişdi.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #robot #sosialşəbəkə",
+  "id": "20261123-175856-01-r",
+  "kind": "reel",
+  "video": "20261123-175856-01-r.mp4",
+  "cover": "20261123-175856-01-r.jpg"
  }
 ]
