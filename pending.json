@@ -4636,30 +4636,59 @@
   "id": "20261123-101618-u",
   "kind": "news",
   "created": "2026-11-23T06:16:18.527470+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı minik avtomobili ilə yük avtomobilinin iştirakı ilə qəza baş verib. Sürücü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\nBaş vermiş qəzada dünyasını dəyişən Ada Süleyman ARB TV-nin keçmiş aparıcısı olub.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIBy2sD2g392XKrSnBrisT0S_ems9PxAAJepgACTg4hSDKhfHUM_CtYPQQ",
-    "type": "video"
-   },
-   {
-    "file_id": "BAACAgIAAxkBAAIBzGsD2g1dkUJEg23zoHB9VrKZvBZ_AAJfpgACTg4hSH6UcfArGGwDPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Bakıda baş verən ağır qəza nəticəsində tanınmış aparıcı həyatını itirib",
+  "summary": "Lökbatan qəsəbəsində minik və yük avtomobillərinin toqquşması nəticəsində iki nəfər ölüb. Qəzada həlak olanlardan birinin keçmiş televiziya aparıcısı olduğu bildirilib.",
+  "caption_text": "Bakının Lökbatan qəsəbəsində minik avtomobili ilə yük maşınının iştirakı ilə ağır yol-nəqliyyat hadisəsi qeydə alınıb. Fövqəladə Hallar Nazirliyinin məlumatına əsaslanan hadisə nəticəsində nəqliyyat vasitəsinin sürücüsü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\nAparılmış dəqiqləşdirmələrə görə, qəza qurbanlarından biri olan Ada Sümanova ARB televiziya kanalının keçmiş aparıcısı olub. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.",
+  "voiceover": "Bakının Lökbatan qəsəbəsində minik və yük avtomobillərinin iştirakı ilə ağır qəza baş verib. Fövqəladə Hallar Nazirliyindən verilən məlumata görө, hadisə nəticəsində sürücü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar. Qəzada dünyasını dəyişənlərdən biri ARB televiziya kanalının keçmiş aparıcısı olub.",
+  "hashtags": [
+   "#Bakı",
+   "#Qəza",
+   "#FHN",
+   "#Xəbər"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Bakıda",
+   "qəza",
+   "aparıcı"
+  ],
   "source_note": "",
   "source_title": "🚨 Bakıda DƏHŞƏTLİ QƏZA: tanınmış aparıcı həyatını itirib. FHN-in məlumatına görə, Lökbatan qəsəbəsində “VOYAH” markalı m",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T06:17:52.230420+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Bakıda baş verən ağır qəza nəticəsində tanınmış aparıcı həyatını itirib",
+  "summary": "Lökbatan qəsəbəsində minik və yük avtomobillərinin toqquşması nəticəsində iki nəfər ölüb. Qəzada həlak olanlardan birinin keçmiş televiziya aparıcısı olduğu bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Bakıda baş verən ağır qəza nəticəsində tanınmış aparıcı həyatını itirib\n\nBakının Lökbatan qəsəbəsində minik avtomobili ilə yük maşınının iştirakı ilə ağır yol-nəqliyyat hadisəsi qeydə alınıb. Fövqəladə Hallar Nazirliyinin məlumatına əsaslanan hadisə nəticəsində nəqliyyat vasitəsinin sürücüsü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\nAparılmış dəqiqləşdirmələrə görə, qəza qurbanlarından biri olan Ada Sümanova ARB televiziya kanalının keçmiş aparıcısı olub. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qəza #FHN",
+  "id": "20261123-101618-u-p",
+  "kind": "post",
+  "image": "posts/20261123-101618-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T06:17:52.230420+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Bakıda baş verən ağır qəza nəticəsində tanınmış aparıcı həyatını itirib",
+  "summary": "Lökbatan qəsəbəsində minik və yük avtomobillərinin toqquşması nəticəsində iki nəfər ölüb. Qəzada həlak olanlardan birinin keçmiş televiziya aparıcısı olduğu bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Bakıda baş verən ağır qəza nəticəsində tanınmış aparıcı həyatını itirib\n\nBakının Lökbatan qəsəbəsində minik avtomobili ilə yük maşınının iştirakı ilə ağır yol-nəqliyyat hadisəsi qeydə alınıb. Fövqəladə Hallar Nazirliyinin məlumatına əsaslanan hadisə nəticəsində nəqliyyat vasitəsinin sürücüsü Anar Kərimov və sərnişin Ada Süleymanova həlak olublar.\n\nAparılmış dəqiqləşdirmələrə görə, qəza qurbanlarından biri olan Ada Sümanova ARB televiziya kanalının keçmiş aparıcısı olub. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qəza #FHN",
+  "id": "20261123-101618-u-r",
+  "kind": "reel",
+  "video": "20261123-101618-u-r.mp4",
+  "cover": "20261123-101618-u-r.jpg"
  }
 ]
