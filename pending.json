@@ -6422,7 +6422,7 @@
   "id": "20261124-001038-01",
   "kind": "news",
   "created": "2026-11-23T20:10:38.254138+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SİYASƏT",
@@ -6443,6 +6443,36 @@
   "source_note": "Mənbə: Qafqazinfo",
   "source_title": "Paşinyan Azərbaycan mahnısını paylaşdı",
   "link": "https://www.qafqazinfo.az/news/detail/pasinyan-azerbaycan-mahnisini-paylasdi-tripp-le-bagli-mesaj-verdi-529567",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T20:21:10.737681+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Nikol Paşinyan Azərbaycan mahnısını paylaşıb",
+  "summary": "Ermənistanın Baş naziri Nikol Paşinyan sosial şəbəkə hesabında Azərbaycan mahnısının erməni dilində ifasını yayımlayıb. O, paylaşımında yeni Konstitusiya layihəsinə və TRIPP layihəsinə hazırlıq görüldüyünü qeyd edib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/pasinyan-azerbaycan-mahnisini-paylasdi-tripp-le-bagli-mesaj-verdi-529567",
+  "sensitive": false,
+  "caption": "Nikol Paşinyan Azərbaycan mahnısını paylaşıb\n\nErmənistanın Baş naziri Nikol sosial şəbəkə hesabında Azərbaycanın tanınmış “Ay gəlinə bax, gəlinə” mahnısının erməni dilində ifa olunan versiyasını paylaşıb. Baş nazir qeyd edib ki, ölkəsi yeni Konstitusiya layihəsinin dərcinə və TRIPP layihəsinin təməlinin qoyulmasına hazırlıq görür.\n\nXatırladaq ki, bundan əvvəl ABŞ Prezidenti Donald Tramp və Nikol Paşinyan videomüraciət vasitəsilə Ermənistan ərazisindən keçən TRIPP marşrutu layihəsinə başlanıldığını elan etmişdilər.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #NikolPaşinyan #Ermənistan #TRIPP",
+  "id": "20261124-001038-01-p",
+  "kind": "post",
+  "image": "posts/20261124-001038-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T20:21:10.737681+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Nikol Paşinyan Azərbaycan mahnısını paylaşıb",
+  "summary": "Ermənistanın Baş naziri Nikol Paşinyan sosial şəbəkə hesabında Azərbaycan mahnısının erməni dilində ifasını yayımlayıb. O, paylaşımında yeni Konstitusiya layihəsinə və TRIPP layihəsinə hazırlıq görüldüyünü qeyd edib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/pasinyan-azerbaycan-mahnisini-paylasdi-tripp-le-bagli-mesaj-verdi-529567",
+  "sensitive": false,
+  "caption": "Nikol Paşinyan Azərbaycan mahnısını paylaşıb\n\nErmənistanın Baş naziri Nikol sosial şəbəkə hesabında Azərbaycanın tanınmış “Ay gəlinə bax, gəlinə” mahnısının erməni dilində ifa olunan versiyasını paylaşıb. Baş nazir qeyd edib ki, ölkəsi yeni Konstitusiya layihəsinin dərcinə və TRIPP layihəsinin təməlinin qoyulmasına hazırlıq görür.\n\nXatırladaq ki, bundan əvvəl ABŞ Prezidenti Donald Tramp və Nikol Paşinyan videomüraciət vasitəsilə Ermənistan ərazisindən keçən TRIPP marşrutu layihəsinə başlanıldığını elan etmişdilər.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #NikolPaşinyan #Ermənistan #TRIPP",
+  "id": "20261124-001038-01-r",
+  "kind": "reel",
+  "video": "20261124-001038-01-r.mp4",
+  "cover": "20261124-001038-01-r.jpg"
  }
 ]
