@@ -5295,7 +5295,7 @@
   "id": "20261123-133153-01",
   "kind": "news",
   "created": "2026-11-23T09:31:53.330679+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SİYASƏT",
@@ -5318,6 +5318,36 @@
   "source_note": "Mənbə: Minval.az",
   "source_title": "Пашинян и Трамп дали старт проекту TRIPP",
   "link": "https://minval.az/news/124563898",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T09:37:34.713458+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Nikol Paşinyan və Donald Tramp TRIPP layihəsinə başlayıblar",
+  "summary": "Ermənistanın Baş naziri və ABŞ-nin prezidenti TRIPP layihəsinin başlanğıcını elan ediblər. Onlar bu barədə videoaçıqlamalarla çıxış ediblər.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563898",
+  "sensitive": false,
+  "caption": "Nikol Paşinyan və Donald Tramp TRIPP layihəsinə başlayıblar\n\nErmənistanın Baş naziri Nikol Paşinyan və ABŞ-nin prezidenti Donald TRIPP layihəsinə start veriblər. Məlumatda bildirilir ki, hər iki ölkə rəhbəri bu barədə xüsusi videoaçıqlamalarla çıxış ediblər. Sənədlərin imzalanması və layihənin başlanması tərəflərin müraciətlərində qeyd olunub.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #NikolPaşinyan #DonaldTramp #TRIPP #Ermənistan",
+  "id": "20261123-133153-01-p",
+  "kind": "post",
+  "image": "posts/20261123-133153-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T09:37:34.713458+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Nikol Paşinyan və Donald Tramp TRIPP layihəsinə başlayıblar",
+  "summary": "Ermənistanın Baş naziri və ABŞ-nin prezidenti TRIPP layihəsinin başlanğıcını elan ediblər. Onlar bu barədə videoaçıqlamalarla çıxış ediblər.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124563898",
+  "sensitive": false,
+  "caption": "Nikol Paşinyan və Donald Tramp TRIPP layihəsinə başlayıblar\n\nErmənistanın Baş naziri Nikol Paşinyan və ABŞ-nin prezidenti Donald TRIPP layihəsinə start veriblər. Məlumatda bildirilir ki, hər iki ölkə rəhbəri bu barədə xüsusi videoaçıqlamalarla çıxış ediblər. Sənədlərin imzalanması və layihənin başlanması tərəflərin müraciətlərində qeyd olunub.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #NikolPaşinyan #DonaldTramp #TRIPP #Ermənistan",
+  "id": "20261123-133153-01-r",
+  "kind": "reel",
+  "video": "20261123-133153-01-r.mp4",
+  "cover": "20261123-133153-01-r.jpg"
  }
 ]
