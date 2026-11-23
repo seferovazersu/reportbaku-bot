@@ -6225,26 +6225,58 @@
   "id": "20261123-230014-u",
   "kind": "news",
   "created": "2026-11-23T19:00:14.479545+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nəticələnən yol qəzası baş verib.\n\nSamir Hacıyev adına 5 nömrəli orta məktəbin ingilis dili müəllimi Gülnarə Abdullayevanı piyada keçidində avtomobil vurub. \n\nO, xəstəxanaya aparılarkən yolda dünyasını dəyişib.\n\nG.Abdullayeva Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı olub və “Əməkdar müəllim” fəxri adına layiq görülüb.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAICbGsEjSZxohQIag5ZPG2IV1itkv8FAAKRG2sbTg4pSNwyjAabOskBAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Paytaxtda əməkdar müəllimi piyada keçidində maşın vuraraq öldürüb",
+  "summary": "Bakının Nəsimi rayonunda baş verən yol qəzasında məktəb müəllimi həyatını itirib. Xəstəxanaya aparılan yaralı yolda dünyasını dəyişib.",
+  "caption_text": "Paytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nəticələnən yol nəqliyyat hadisəsi qeydə alınıb. Samir Hacıyev adına 5 nömrəli orta məktəbin ingilis dili müəllimi piyada keçidindən keçərkən avtomobil zərbəsinə məruz qalıb.\n\nAğır xəsarətlər alan təhsil işçisi tibb müəssisəsinə çatdırılan zaman yolda ölüb. Məlum olub ki, həlak olan şəxs Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı olub və \"Əməkdar müəllim\" fəxri adına layiq görülüb.",
+  "voiceover": "Bakıda piyada keçidində baş verən ağır yol qəzasında məktəb müəllimi ölüb. Nəsimi rayonunun 4-cü mikrorayon ərazisində ingilis dili müəllimini avtomobil vurub. Ağır xəsarət alan təhsil işçisi xəstəxanaya aparılarkən yolda dünyasını dəyişib. Həlak olan şəxsin Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı və Əməkdar müəllim olduğu bildirilib.",
+  "hashtags": [
+   "#Bakı",
+   "#NəsimiRayonu",
+   "#YolQəzası",
+   "#Xəbər"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü m",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "əməkdar müəllimi",
+   "piyada keçidində"
+  ],
   "source_note": "",
   "source_title": "🥀 Əməkdar müəllimi piyada keçidində maşın vurub öldürdü\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nə",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T19:09:09.245684+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Paytaxtda əməkdar müəllimi piyada keçidində maşın vuraraq öldürüb",
+  "summary": "Bakının Nəsimi rayonunda baş verən yol qəzasında məktəb müəllimi həyatını itirib. Xəstəxanaya aparılan yaralı yolda dünyasını dəyişib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Paytaxtda əməkdar müəllimi piyada keçidində maşın vuraraq öldürüb\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nəticələnən yol nəqliyyat hadisəsi qeydə alınıb. Samir Hacıyev adına 5 nömrəli orta məktəbin ingilis dili müəllimi piyada keçidindən keçərkən avtomobil zərbəsinə məruz qalıb.\n\nAğır xəsarətlər alan təhsil işçisi tibb müəssisəsinə çatdırılan zaman yolda ölüb. Məlum olub ki, həlak olan şəxs Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı olub və \"Əməkdar müəllim\" fəxri adına layiq görülüb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #NəsimiRayonu #YolQəzası",
+  "id": "20261123-230014-u-p",
+  "kind": "post",
+  "image": "posts/20261123-230014-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T19:09:09.245684+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Paytaxtda əməkdar müəllimi piyada keçidində maşın vuraraq öldürüb",
+  "summary": "Bakının Nəsimi rayonunda baş verən yol qəzasında məktəb müəllimi həyatını itirib. Xəstəxanaya aparılan yaralı yolda dünyasını dəyişib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Paytaxtda əməkdar müəllimi piyada keçidində maşın vuraraq öldürüb\n\nPaytaxtın Nəsimi rayonunun 4-cü mikrorayon ərazisində ölümlə nəticələnən yol nəqliyyat hadisəsi qeydə alınıb. Samir Hacıyev adına 5 nömrəli orta məktəbin ingilis dili müəllimi piyada keçidindən keçərkən avtomobil zərbəsinə məruz qalıb.\n\nAğır xəsarətlər alan təhsil işçisi tibb müəssisəsinə çatdırılan zaman yolda ölüb. Məlum olub ki, həlak olan şəxs Birinci Qarabağ müharibəsi şəhidinin həyat yoldaşı olub və \"Əməkdar müəllim\" fəxri adına layiq görülüb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #NəsimiRayonu #YolQəzası",
+  "id": "20261123-230014-u-r",
+  "kind": "reel",
+  "video": "20261123-230014-u-r.mp4",
+  "cover": "20261123-230014-u-r.jpg"
  }
 ]
