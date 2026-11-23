@@ -5416,7 +5416,7 @@
   "id": "20261123-135525-01",
   "kind": "news",
   "created": "2026-11-23T09:55:25.268370+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "CƏMİYYƏT",
@@ -5437,6 +5437,36 @@
   "source_note": "Mənbə: Daxili İşlər Nazirliyi",
   "source_title": "Polis Akademiyasında kursantların peşə hazırlığının daha da təkmilləşdirilməsi istiqamətində həyata keçirilən tədbirlər çərçivəsində müxtəlif sahələr üzrə ixtis",
   "link": "https://t.me/polisazerbaycan/7035",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T10:06:25.873962+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Polis Akademiyasında kursantlar üçün mühazirələr təşkil olunub",
+  "summary": "Polis Akademiyasında kursantların peşə hazırlığının təkmilləşdirilməsi istiqamətində tədbirlər davam etdirilir. Proses çərçivəsində müxtəlif sahələr üzrə mütəxəssislərin iştirakı ilə mühazirələr keçirilir.",
+  "source_note": "Mənbə: Daxili İşlər Nazirliyi",
+  "link": "https://t.me/polisazerbaycan/7035",
+  "sensitive": false,
+  "caption": "Polis Akademiyasında kursantlar üçün mühazirələr təşkil olunub\n\nAzərbaycan Respublikasının Daxili İşlər Nazirliyinin Polis Akademiyasında təhsil alan kursantların peşə hazırlığının daha da yüksəldilməsi istiqamətində işlər davam edir. Bu çərçivədə müxtəlif sahələr üzrə ixtisaslaşmış mütəxəssislərin qismində mühazirələrin təşkili həyata keçirilir. Keçirilən dərslər və tədbirlər kursantların bilik və bacarıqlarının artırılmasına xidmət edir.\n\nMənbə: Daxili İşlər Nazirliyi\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #PolisAkademiyası #DaxiliİşlərNazirliyi #Polis #Təhsil",
+  "id": "20261123-135525-01-p",
+  "kind": "post",
+  "image": "posts/20261123-135525-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T10:06:25.873962+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Polis Akademiyasında kursantlar üçün mühazirələr təşkil olunub",
+  "summary": "Polis Akademiyasında kursantların peşə hazırlığının təkmilləşdirilməsi istiqamətində tədbirlər davam etdirilir. Proses çərçivəsində müxtəlif sahələr üzrə mütəxəssislərin iştirakı ilə mühazirələr keçirilir.",
+  "source_note": "Mənbə: Daxili İşlər Nazirliyi",
+  "link": "https://t.me/polisazerbaycan/7035",
+  "sensitive": false,
+  "caption": "Polis Akademiyasında kursantlar üçün mühazirələr təşkil olunub\n\nAzərbaycan Respublikasının Daxili İşlər Nazirliyinin Polis Akademiyasında təhsil alan kursantların peşə hazırlığının daha da yüksəldilməsi istiqamətində işlər davam edir. Bu çərçivədə müxtəlif sahələr üzrə ixtisaslaşmış mütəxəssislərin qismində mühazirələrin təşkili həyata keçirilir. Keçirilən dərslər və tədbirlər kursantların bilik və bacarıqlarının artırılmasına xidmət edir.\n\nMənbə: Daxili İşlər Nazirliyi\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #PolisAkademiyası #DaxiliİşlərNazirliyi #Polis #Təhsil",
+  "id": "20261123-135525-01-r",
+  "kind": "reel",
+  "video": "20261123-135525-01-r.mp4",
+  "cover": "20261123-135525-01-r.jpg"
  }
 ]
