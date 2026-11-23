@@ -6137,26 +6137,59 @@
   "id": "20261123-222027-u",
   "kind": "news",
   "created": "2026-11-23T18:20:27.101326+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "⚽️“Barselona” komandası “Sabah”la oyun üçün Bakıya gəlib",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAICZGsEg9xSIx-W7L1p_Q9WesBG2efsAAIxqgACTg4pSLsZhtbHBLfXPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Barselona komandası Sabahla oyun üçün Bakıya gəlib",
+  "summary": "Barselona komandası Sabahla keçiriləcək oyun üçün Bakıya gəlib. Heyət qarşılaşma məqsədilə ölkəyə gəlişini gerçəkləşdirib.",
+  "caption_text": "Barselona komandası Sabahla qarşılaşma keçirmək məqsədilə Bakı şəhərinə gəlib. Kollektiv oyun öncəsi səfərini reallaşdırıb. Komandanın Bakıya gəlişi idman ictimaiyyətinin diqqət mərkəzindədir.",
+  "voiceover": "Barselona komandası Sabahla oyun üçün Bakıya gəlib. Kollektiv qarşılaşmada iştirak etmək məqsədilə ölkəyə səfər edib.",
+  "hashtags": [
+   "#Barselona",
+   "#Sabah",
+   "#Bakı",
+   "#Futbol"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "⚽️“Barselona” komandası “Sabah”la oyun üçün Bakıya gəlib",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Barselona",
+   "Sabah",
+   "Bakıya"
+  ],
   "source_note": "",
   "source_title": "⚽️“Barselona” komandası “Sabah”la oyun üçün Bakıya gəlib",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T18:24:19.279270+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Barselona komandası Sabahla oyun üçün Bakıya gəlib",
+  "summary": "Barselona komandası Sabahla keçiriləcək oyun üçün Bakıya gəlib. Heyət qarşılaşma məqsədilə ölkəyə gəlişini gerçəkləşdirib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Barselona komandası Sabahla oyun üçün Bakıya gəlib\n\nBarselona komandası Sabahla qarşılaşma keçirmək məqsədilə Bakı şəhərinə gəlib. Kollektiv oyun öncəsi səfərini reallaşdırıb. Komandanın Bakıya gəlişi idman ictimaiyyətinin diqqət mərkəzindədir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Barselona #Sabah #Futbol",
+  "id": "20261123-222027-u-p",
+  "kind": "post",
+  "image": "posts/20261123-222027-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T18:24:19.279270+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Barselona komandası Sabahla oyun üçün Bakıya gəlib",
+  "summary": "Barselona komandası Sabahla keçiriləcək oyun üçün Bakıya gəlib. Heyət qarşılaşma məqsədilə ölkəyə gəlişini gerçəkləşdirib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Barselona komandası Sabahla oyun üçün Bakıya gəlib\n\nBarselona komandası Sabahla qarşılaşma keçirmək məqsədilə Bakı şəhərinə gəlib. Kollektiv oyun öncəsi səfərini reallaşdırıb. Komandanın Bakıya gəlişi idman ictimaiyyətinin diqqət mərkəzindədir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Barselona #Sabah #Futbol",
+  "id": "20261123-222027-u-r",
+  "kind": "reel",
+  "video": "20261123-222027-u-r.mp4",
+  "cover": "20261123-222027-u-r.jpg"
  }
 ]
