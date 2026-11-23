@@ -5915,7 +5915,7 @@
   "id": "20261123-182326-01",
   "kind": "news",
   "created": "2026-11-23T14:23:26.709180+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -5937,6 +5937,21 @@
   "source_note": "Mənbə: Sia.az",
   "source_title": "Estoniyanın müvəqqəti işlər vəkili Rusiya XİN-ə çağırılıb",
   "link": "https://sia.az/az/news/world/1376327.html",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T14:26:45.920566+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Estoniyanın müvəqqəti işlər vəkili Rusiya XİN-ə çağırılıb",
+  "summary": "Rusiya Xarici İşlər Nazirliyi sərhədin bağlanması qərarı ilə əlaqədar Estoniyanın müvəqqəti işlər vəkilinə etiraz edib. Moskva Tallinin hərəkətlərinin müharibə həddində olduğunu bildirib.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/world/1376327.html",
+  "sensitive": true,
+  "caption": "Estoniyanın müvəqqəti işlər vəkili Rusiya XİN-ə çağırılıb\n\nEstoniyanın müvəqqəti işlər vəkili Rusiya Xarici İşlər Nazirliyinə çağırılıb. Rusiya tərəfi Tallinin sərhədi bağlamaq qərarı ilə bağlı etirazını çatdırıb.\n\nMəlumata görə, Estoniyanın Ukrayna dronlarının Rusiyanın şimal-qərbinə hücumlar üçün hava məkanından istifadə etməsinə gizli şərait yaratdığı iddia olunub. Moskva bu addımları təxribatçı kimi qiymətləndirərək açıq müharibə həddində olduğunu qeyd edib. Rusiya tərəfi milli maraqları qorumaq üçün zəruri siyasi və diplomatik tədbirlər görmək hüququnu saxladığını bildirib.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Estoniya #Rusiya #XİN #Moskva",
+  "id": "20261123-182326-01-p",
+  "kind": "post",
+  "image": "posts/20261123-182326-01-p.jpg"
  }
 ]
