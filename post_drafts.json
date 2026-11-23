@@ -1,28 +1,58 @@
 [
   {
-    "category": "TEXNOLOGİYA",
-    "headline": "Marsda qədim lava axınının sirri açılıb",
-    "summary": "Tədqiqatçılar “Perseverance” марсоhodunun məlumatlarına əsasən Marsdakı Сеита́х qaya qatının əmələ gəlmə mexanizmini izah ediblər. Alimlərin qənaətinə görə, bu qat aşağı özlülüklü lava gölünün soyuması nəticəsində yaranıb.",
-    "caption_text": "Beynəlxalq tədqiqat qrupu “Communications Earth & Environment” elmi jurnalında Marsın qırmızı planetindəki Сеита́х qaya qatının yaranma səbəbini açıqlayan araşdırma dərc edib. “Perseverance” марсоhodu 2021-ci ildən bəri Jezero kraterini tədqiq edir və təxminən dörd milyard il yaşı olan bu süxur təbəqəsini qeydə alıb. Əldə edilən nəticələrə görə, həmin qat aşağı özlülüklü lavanın hərəkəti və sonradan soyuması nəticəsində formalaşıb. Tədqiqatın aparıcı müəllifi Edrian Braun bildirib ki, Yer kürəsindəki Havay adalarının lava göllərində olduğu kimi, burada da böyük olivin dənəcikləri axının soyuması zamanı əmələ gəlib.\n\nAlimlərin qənaətinə görə, bu proses Yer və Mars planetlərinin mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Tədqiqat zamanı aşağı özlülüklü lava axınının mənbədən təxminən iki yüz kilometr məsafə qət etdiyi müəyyənləşdirilib. Mütəxəssislər qeyd edirlər ki, qədim dövrlərdə aşağı özlülüklü və isti lavaların mövcudluğu Marsın daxili hissəsinin daha isti olduğunu və ehtimal ki, həyat üçün daha əlverişli şərait yaratdığını göstərə bilər.",
-    "voiceover": "Alimlər Mars planetində qədim lava axınının sirrini açıblar. Perseverance marsoxodunun tədqiq etdiyi və yaşı dörd milyard ilə yaxın olan Сеита́х qaya qatının aşağı özlülüklü lava gölünün soyuması nəticəsində yarandığı müəyyən edilib. Tədqiqatçılar hesab edirlər ki, bu proses Yer kürəsindəki lava göllərinə bənzəyir və Yerlə Marsın mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Aşağı özlülüklü lavanın mənbədən təxminən iki yüz kilometr məsafə qət etdiyi bildirilib.",
+    "category": "HADİSƏ",
+    "headline": "Bakıda velosipedçi açıq qalan lyuk səbəbindən təhlükə ilə üzləşib",
+    "summary": "Metronun “Gənclik” stansiyasının yaxınlığında hərəkət edən velosipedçi yolda üstü açıq çuxurla qarşılaşıb. O, qəzadan son anda qurtulduğunu və bunun məsuliyyət məsələsi yaratdığını bildirib.",
+    "caption_text": "Bakıda metronun “Gənclik” stansiyasının yaxınlığında velosipedlə hərəkət edən vətəndaş təhlükəli vəziyyətlə qarşılaşıb.\n\nİddiaya görə, həmin şəxs yolda böyük və üstü açıq lyuk görüb və ora düşməkdən son anda xilas olub. O, sosial şəbəkə hesabındakı paylaşımında sürətlə hərəkət etdiyini qeyd edərək diqqətsizlik ucbatından ciddi qəza keçirə biləcəyini vurğulayıb. Vətəndaş baş verə biləcək qəzaya görə kimin məsuliyyət daşıyacağını sual edib.",
+    "voiceover": "Bakıda metronun Gənclik stansiyasının yaxınlığında velosipedlə hərəkət edən vətəndaş təhlükəli anlar yaşayıb. İddiaya görə, o, yoldakı üstü açıq lyuka düşməkdən son anda xilas olub. Sosial şəbəkədə paylaşım edən həmin şəxs qəza baş verəcəyi təqdirdə bunun məsuliyyətinin kimin daşıyacağını soruşub.",
     "hashtags": [
-      "#Mars",
-      "#Perseverance",
-      "#Elm",
-      "#Kosmos"
+      "#Bakı",
+      "#Gənclik",
+      "#Hadisə",
+      "#YolTəhlükəsizliyi",
+      "#ReportBaku"
     ],
     "image_url": null,
-    "source_title": "Раскрыта загадка необычного движения лавы на Марсе",
+    "source_title": "“Velosiped bura düşsə, kim məsuliyyət daşıyacaqdı?!”",
     "visual_keywords": [
-      "Mars surface rover",
-      "planet space exploration"
+      "open manhole on city street",
+      "bicycle riding in city"
     ],
     "highlight": [
-      "Marsda",
-      "lava"
+      "Bakıda",
+      "velosipedçi",
+      "lyuk"
     ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/unusual/1876126.html",
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/velosiped-bura-dusse-kim-mesuliyyet-dasiyacaqdi-video-529528",
+    "sensitive": true
+  },
+  {
+    "category": "MƏDƏNİYYƏT",
+    "headline": "Bakıda Türkmənistan Prezidentinin kitabının təqdimatı keçirilir",
+    "summary": "Paytaxtda Türkmənistan Prezidentinin Azərbaycan dilində çap olunan kitabının təqdimat mərasimi baş tutur. Tədbir Türkmənistanın ölkəmizdəki səfirliyi tərəfindən təşkil olunub.",
+    "caption_text": "Bakıda Türkmənistan Prezidenti Sərdar Berdiməhəmmədovun Azərbaycan dilində nəşr olunan “Türkmənistanın bitərəfliyi – sülh və etimadın işıqlı yolu” adlı kitabının təqdimatı keçirilir. Tədbirin təşkilatçısı Türkmənistanın Azərbaycandakı səfirliyidir və nəşri ölkəmizdəki səfir Qurbanməmmet Elyasov təqdim edir.\n\nDoqquz fəsildən ibarət olan kitab Türkmənistanın daimi bitərəflik statusunun formalaşması tarixinə, hüquqi əsaslarına və regional sabitliyin təmin olunmasındakı roluna həsr olunub. Nəşrin sonuncu fəslində tarixi sənədlər, beynəlxalq forumlardakı çıxışlar və imzalanmış sazişlər yer alıb. Kitab daha əvvəl türkmən, rus, ingilis, yapon dillərində də işıq üzü görüb.",
+    "voiceover": "Bakıda Türkmənistan Prezidenti Sərdar Berdiməhəmmədovun Azərbaycan dilində nəşr olunan “Türkmənistanın bitərəfliyi – sülh və etimadın işıqlı yolu” kitabının təqdimatı keçirilir. Türkmənistanın Azərbaycandakı səfirliyinin təşkil etdiyi tədbirdə kitabı səfir Qurbanməmmet Elyasov təqdim edir. Doqquz fəsildən ibarət nəşr ölkənin bitərəflik statusunun hüquqi əsaslarına və regional sabitlikdəki roluna həsr olunub.",
+    "hashtags": [
+      "#Bakı",
+      "#Türkmənistan",
+      "#KitabTəqdimatı",
+      "#SərdarBerdiməhəmmədov"
+    ],
+    "image_url": null,
+    "source_title": "Bakıda Türkmənistan Prezidentinin azərbaycan dilində çap olunmuş kitabının təqdimatı keçirilir (FOTO)",
+    "visual_keywords": [
+      "book presentation event",
+      "speakers at podium",
+      "conference hall audience"
+    ],
+    "highlight": [
+      "Bakıda",
+      "Türkmənistan Prezidentinin",
+      "kitabının"
+    ],
+    "source_note": "Mənbə: Trend.az",
+    "link": "https://az.trend.az/azerbaijan/politics/4249783.html",
     "sensitive": false
   }
 ]
