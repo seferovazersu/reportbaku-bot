@@ -6364,7 +6364,7 @@
   "id": "20261123-234905-01",
   "kind": "news",
   "created": "2026-11-23T19:49:05.061409+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "İDMAN",
@@ -6384,6 +6384,36 @@
   "source_note": "Mənbə: Oxu.az",
   "source_title": "Mourinyo bəzi futbolçuların maaşlarının azaldılmasını təklif edib",
   "link": "https://oxu.az/idman/mourinyo-bezi-futbolcularin-maaslarinin-azaldilmasini-teklif-edib",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T19:55:04.022485+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Joze Mourinyo narazı futbolçuların maaşlarının azaldılmasını təklif edib",
+  "summary": "Joze Mourinyo sıx oyun təqvimindən narazılıq edən futbolçuların maaşlarının azaldılması ilə razılaşmalı olduqlarını bildirib. Real Madrid klubunun baş məşqçisi bu təkliflə çıxış edib.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/idman/mourinyo-bezi-futbolcularin-maaslarinin-azaldilmasini-teklif-edib",
+  "sensitive": false,
+  "caption": "Joze Mourinyo narazı futbolçuların maaşlarının azaldılmasını təklif edib\n\nReal Madrid futbol klubunun baş məşqçisi Joze Mourinyo diqqətçəkən təkliflə çıxış edib. O, həddindən artıq sıx oyun təqvimindən narazı olan futbolçuların məvaciblərinin azaldılması ilə razılaşmalı olduqlarını bildirib. Mütəxəssisin bu açıqlaması futbol ictimaiyyətində müzakirələrə səbəb olub.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #JozeMourinyo #RealMadrid #Futbol #İdman",
+  "id": "20261123-234905-01-p",
+  "kind": "post",
+  "image": "posts/20261123-234905-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T19:55:04.022485+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Joze Mourinyo narazı futbolçuların maaşlarının azaldılmasını təklif edib",
+  "summary": "Joze Mourinyo sıx oyun təqvimindən narazılıq edən futbolçuların maaşlarının azaldılması ilə razılaşmalı olduqlarını bildirib. Real Madrid klubunun baş məşqçisi bu təkliflə çıxış edib.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/idman/mourinyo-bezi-futbolcularin-maaslarinin-azaldilmasini-teklif-edib",
+  "sensitive": false,
+  "caption": "Joze Mourinyo narazı futbolçuların maaşlarının azaldılmasını təklif edib\n\nReal Madrid futbol klubunun baş məşqçisi Joze Mourinyo diqqətçəkən təkliflə çıxış edib. O, həddindən artıq sıx oyun təqvimindən narazı olan futbolçuların məvaciblərinin azaldılması ilə razılaşmalı olduqlarını bildirib. Mütəxəssisin bu açıqlaması futbol ictimaiyyətində müzakirələrə səbəb olub.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #JozeMourinyo #RealMadrid #Futbol #İdman",
+  "id": "20261123-234905-01-r",
+  "kind": "reel",
+  "video": "20261123-234905-01-r.mp4",
+  "cover": "20261123-234905-01-r.jpg"
  }
 ]
