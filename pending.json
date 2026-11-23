@@ -4756,7 +4756,7 @@
   "id": "20261123-104059-01",
   "kind": "news",
   "created": "2026-11-23T06:40:59.286829+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "CƏMİYYƏT",
@@ -4778,6 +4778,36 @@
   "source_note": "Mənbə: Xəzər Xəbər",
   "source_title": "Asif Əsgərov “Şöhrət” ordeni ilə təltif edilib",
   "link": "https://xezerxeber.az/az/gundem/asif-esgerov-sohret-ordeni-ile-teltif-edilib",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T06:42:13.201488+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Asif Əsgərov “Şöhrət” ordeni ilə təltif edilib",
+  "summary": "Prezident İlham Əliyevin imzaladığı Sərəncama əsasən, Asif Yunis oğlu Əsgərov “Şöhrət” ordeni ilə təltif olunub. Bu təltif onun ölkənin ictimai-siyasi həyatındakı səmərəli fəaliyyətinə görə verilib.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/gundem/asif-esgerov-sohret-ordeni-ile-teltif-edilib",
+  "sensitive": false,
+  "caption": "Asif Əsgərov “Şöhrət” ordeni ilə təltif edilib\n\nAzərbaycan Respublikasının ictimai-siyasi həyatında səmərəli fəaliyyəti ilə seçilən Asif Yunis oğlu Əsgərov yüksək dövlət mükafatına layiq görülüb.\n\nPrezident İlham Əliyevin imzaladığı müvafiq Sərəncama əsasən, o, “Şöhrət” ordeni ilə təltif edilib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #AsifƏsgərov #ŞöhrətOrdeni #Prezident #İlhamƏliyev",
+  "id": "20261123-104059-01-p",
+  "kind": "post",
+  "image": "posts/20261123-104059-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T06:42:13.201488+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Asif Əsgərov “Şöhrət” ordeni ilə təltif edilib",
+  "summary": "Prezident İlham Əliyevin imzaladığı Sərəncama əsasən, Asif Yunis oğlu Əsgərov “Şöhrət” ordeni ilə təltif olunub. Bu təltif onun ölkənin ictimai-siyasi həyatındakı səmərəli fəaliyyətinə görə verilib.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/gundem/asif-esgerov-sohret-ordeni-ile-teltif-edilib",
+  "sensitive": false,
+  "caption": "Asif Əsgərov “Şöhrət” ordeni ilə təltif edilib\n\nAzərbaycan Respublikasının ictimai-siyasi həyatında səmərəli fəaliyyəti ilə seçilən Asif Yunis oğlu Əsgərov yüksək dövlət mükafatına layiq görülüb.\n\nPrezident İlham Əliyevin imzaladığı müvafiq Sərəncama əsasən, o, “Şöhrət” ordeni ilə təltif edilib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #AsifƏsgərov #ŞöhrətOrdeni #Prezident #İlhamƏliyev",
+  "id": "20261123-104059-01-r",
+  "kind": "reel",
+  "video": "20261123-104059-01-r.mp4",
+  "cover": "20261123-104059-01-r.jpg"
  }
 ]
