@@ -4816,26 +4816,59 @@
   "id": "20261123-110304-u",
   "kind": "news",
   "created": "2026-11-23T07:03:04.850623+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Avropanın ən böyük futbol səhnəsində növbəti möhtəşəm gecə!\n\nUefa Çempionlar Liqasında əsas mərhələnin 5-ci turu!\n\nÖlkəmizi qitənin ən nüfuzlu klub turnirində təmsil edən \"Sabah\" çətin sınaq qarşısındadır. \n\nRəqib futbol tariximiz ərzində Azərbaycana gələn ən nəhəng klub olan əfsanəvi \"Barselona\"dır!\n\nBakı Olimpiya Stadionunda Azərbaycan çempionu ilə heyəti dünya ulduzlarından təşkil olunan turnirin 5 qat qalibinin dueli!\n\n\"Sabah\" - \"Barselona\" qarşılaşması\n\nNoyabrın 25-i saat 21:45-də\n\nİctimai Televiziyanın canlı efirində",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIB3WsD5PpvdzcU9NiT2VIr9qugtB3yAAKBHGsbTg4hSJ2BXCn3cxy8AQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Sabah və Barselona komandaları Bakıda qarşılaşacaq",
+  "summary": "UEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turunda Azərbaycanı təmsil edən Sabah klubu İspaniyanın Barselona komandasını qəbul edəcək. Görüş Bakı Olimpiya Stadionunda baş tutacaq.",
+  "caption_text": "UEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turu çərçivəsində maraqlı qarşılaşma baş tutacaq. Ölkəmizi qitənin nüfuzlu klub turnirində təmsil edən Sabah komandası Bakı Olimpiya Stadionunda İspaniyanın məşhur Barselona klubu ilə üz-üzə gələcək. Qarşılaşma noyabrın 25-i saat 21:45-də keçiriləcək. Matçı İctimai Televiziya vasitəsilə canlı izləmək mümkün olacaq.",
+  "voiceover": "UEFA Çempionlar Liqasının 5-ci turunda Sabah klubu Bakı Olimpiya Stadionunda Barselona ilə qarşılaşacaq. Görüş noyabrın 25-i saat 21:45-də başlayacaq. Oyunu İctimai Televiziya canlı yayımlayacaq.",
+  "hashtags": [
+   "#Sabah",
+   "#Barselona",
+   "#UCL",
+   "#Futbol",
+   "#İTV"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Avropanın ən böyük futbol səhnəsində növbəti möhtəşəm gecə!\n\nUefa Çempionlar Liqasında əsa",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Sabah",
+   "Barselona"
+  ],
   "source_note": "",
   "source_title": "Avropanın ən böyük futbol səhnəsində növbəti möhtəşəm gecə!\n\nUefa Çempionlar Liqasında əsas mərhələnin 5-ci turu!\n\nÖlkəm",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-23T07:04:44.442107+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Sabah və Barselona komandaları Bakıda qarşılaşacaq",
+  "summary": "UEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turunda Azərbaycanı təmsil edən Sabah klubu İspaniyanın Barselona komandasını qəbul edəcək. Görüş Bakı Olimpiya Stadionunda baş tutacaq.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Sabah və Barselona komandaları Bakıda qarşılaşacaq\n\nUEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turu çərçivəsində maraqlı qarşılaşma baş tutacaq. Ölkəmizi qitənin nüfuzlu klub turnirində təmsil edən Sabah komandası Bakı Olimpiya Stadionunda İspaniyanın məşhur Barselona klubu ilə üz-üzə gələcək. Qarşılaşma noyabrın 25-i saat 21:45-də keçiriləcək. Matçı İctimai Televiziya vasitəsilə canlı izləmək mümkün olacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Sabah #Barselona #UCL #Futbol",
+  "id": "20261123-110304-u-p",
+  "kind": "post",
+  "image": "posts/20261123-110304-u-p.jpg"
+ },
+ {
+  "created": "2026-11-23T07:04:44.442107+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Sabah və Barselona komandaları Bakıda qarşılaşacaq",
+  "summary": "UEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turunda Azərbaycanı təmsil edən Sabah klubu İspaniyanın Barselona komandasını qəbul edəcək. Görüş Bakı Olimpiya Stadionunda baş tutacaq.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Sabah və Barselona komandaları Bakıda qarşılaşacaq\n\nUEFA Çempionlar Liqasının əsas mərhələsinin 5-ci turu çərçivəsində maraqlı qarşılaşma baş tutacaq. Ölkəmizi qitənin nüfuzlu klub turnirində təmsil edən Sabah komandası Bakı Olimpiya Stadionunda İspaniyanın məşhur Barselona klubu ilə üz-üzə gələcək. Qarşılaşma noyabrın 25-i saat 21:45-də keçiriləcək. Matçı İctimai Televiziya vasitəsilə canlı izləmək mümkün olacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Sabah #Barselona #UCL #Futbol",
+  "id": "20261123-110304-u-r",
+  "kind": "reel",
+  "video": "20261123-110304-u-r.mp4",
+  "cover": "20261123-110304-u-r.jpg"
  }
 ]
