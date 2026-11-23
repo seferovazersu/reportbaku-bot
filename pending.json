@@ -5593,7 +5593,7 @@
   "id": "20261123-154514-01",
   "kind": "news",
   "created": "2026-11-23T11:45:14.797249+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "TEXNOLOGİYA",
@@ -5614,6 +5614,36 @@
   "source_note": "Mənbə: Day.az",
   "source_title": "Раскрыта загадка необычного движения лавы на Марсе",
   "link": "https://news.day.az/unusual/1876126.html",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T11:55:07.892964+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Marsda qədim lava axınının sirri açılıb",
+  "summary": "Tədqiqatçılar “Perseverance” марсоhodunun məlumatlarına əsasən Marsdakı Сеита́х qaya qatının əmələ gəlmə mexanizmini izah ediblər. Alimlərin qənaətinə görə, bu qat aşağı özlülüklü lava gölünün soyuması nəticəsində yaranıb.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/unusual/1876126.html",
+  "sensitive": false,
+  "caption": "Marsda qədim lava axınının sirri açılıb\n\nBeynəlxalq tədqiqat qrupu “Communications Earth & Environment” elmi jurnalında Marsın qırmızı planetindəki Сеита́х qaya qatının yaranma səbəbini açıqlayan araşdırma dərc edib. “Perseverance” марсоhodu 2021-ci ildən bəri Jezero kraterini tədqiq edir və təxminən dörd milyard il yaşı olan bu süxur təbəqəsini qeydə alıb. Əldə edilən nəticələrə görə, həmin qat aşağı özlülüklü lavanın hərəkəti və sonradan soyuması nəticəsində formalaşıb. Tədqiqatın aparıcı müəllifi Edrian Braun bildirib ki, Yer kürəsindəki Havay adalarının lava göllərində olduğu kimi, burada da böyük olivin dənəcikləri axının soyuması zamanı əmələ gəlib.\n\nAlimlərin qənaətinə görə, bu proses Yer və Mars planetlərinin mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Tədqiqat zamanı aşağı özlülüklü lava axınının mənbədən təxminən iki yüz kilometr məsafə qət etdiyi müəyyənləşdirilib. Mütəxəssislər qeyd edirlər ki, qədim dövrlərdə aşağı özlülüklü və isti lavaların mövcudluğu Marsın daxili hissəsinin daha isti olduğunu və ehtimal ki, həyat üçün daha əlverişli şərait yaratdığını göstərə bilər.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Mars #Perseverance #Elm #Kosmos",
+  "id": "20261123-154514-01-p",
+  "kind": "post",
+  "image": "posts/20261123-154514-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T11:55:07.892964+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Marsda qədim lava axınının sirri açılıb",
+  "summary": "Tədqiqatçılar “Perseverance” марсоhodunun məlumatlarına əsasən Marsdakı Сеита́х qaya qatının əmələ gəlmə mexanizmini izah ediblər. Alimlərin qənaətinə görə, bu qat aşağı özlülüklü lava gölünün soyuması nəticəsində yaranıb.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/unusual/1876126.html",
+  "sensitive": false,
+  "caption": "Marsda qədim lava axınının sirri açılıb\n\nBeynəlxalq tədqiqat qrupu “Communications Earth & Environment” elmi jurnalında Marsın qırmızı planetindəki Сеита́х qaya qatının yaranma səbəbini açıqlayan araşdırma dərc edib. “Perseverance” марсоhodu 2021-ci ildən bəri Jezero kraterini tədqiq edir və təxminən dörd milyard il yaşı olan bu süxur təbəqəsini qeydə alıb. Əldə edilən nəticələrə görə, həmin qat aşağı özlülüklü lavanın hərəkəti və sonradan soyuması nəticəsində formalaşıb. Tədqiqatın aparıcı müəllifi Edrian Braun bildirib ki, Yer kürəsindəki Havay adalarının lava göllərində olduğu kimi, burada da böyük olivin dənəcikləri axının soyuması zamanı əmələ gəlib.\n\nAlimlərin qənaətinə görə, bu proses Yer və Mars planetlərinin mantiya təbəqələrinin təkamülünün oxşar ola biləcəyini göstərir. Tədqiqat zamanı aşağı özlülüklü lava axınının mənbədən təxminən iki yüz kilometr məsafə qət etdiyi müəyyənləşdirilib. Mütəxəssislər qeyd edirlər ki, qədim dövrlərdə aşağı özlülüklü və isti lavaların mövcudluğu Marsın daxili hissəsinin daha isti olduğunu və ehtimal ki, həyat üçün daha əlverişli şərait yaratdığını göstərə bilər.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Mars #Perseverance #Elm #Kosmos",
+  "id": "20261123-154514-01-r",
+  "kind": "reel",
+  "video": "20261123-154514-01-r.mp4",
+  "cover": "20261123-154514-01-r.jpg"
  }
 ]
