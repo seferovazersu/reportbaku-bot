@@ -5354,7 +5354,7 @@
   "id": "20261123-134257-01",
   "kind": "news",
   "created": "2026-11-23T09:42:57.034722+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "İQTİSADİYYAT",
@@ -5376,6 +5376,36 @@
   "source_note": "Mənbə: Trend.az",
   "source_title": "“WeBuild” Bakı metrosunun inkişafı layihəsinin həyata keçirilməsində iştirak etməyə hazırlaşır",
   "link": "https://az.trend.az/business/4249672.html",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T09:47:57.215075+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "İtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafında iştiraka hazırlaşır",
+  "summary": "İtaliyanın “WeBuild” şirkətinin rəsmisi Bakı metrosunun inkişafı layihəsində iştirak etmək üçün hazırlıq işləri apardıqlarını bildirib. O, şirkətin beynəlxalq tikinti təcrübəsindən və Orta Dəhlizin inkişafına töhfə verməyə hazır olduqlarından danışıb.",
+  "source_note": "Mənbə: Trend.az",
+  "link": "https://az.trend.az/business/4249672.html",
+  "sensitive": false,
+  "caption": "İtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafında iştiraka hazırlaşır\n\nİtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafı layihəsinin həyata keçirilməsində iştirak etmək istiqamətində hazırlıq işləri görür. Bu barədə şirkətin Şərqi Avropa, Balkanlar və MDB ölkələri üzrə biznesin inkişafı üzrə baş meneceri Andrea Tulli Bakıda keçirilən Azərbaycan-İtaliya biznes forumunda məlumat verib.\n\nBildirilib ki, 120 ildən artıq təcrübəyə malik şirkət hazırda 50 ölkədə fəaliyyət göstərir, 150-yə yaxın layihə həyata keçirir və 95 min əməkdaşa sahibdir. Şirkət nümayəndəsi cari ildə 13,6 milyard avro gəlir əldə etdiklərini, sifariş portfelinin isə 58 milyard avro təşkil etdiyini diqqətə çatdırıb. O, həmçinin Orta Dəhlizin strateji əhəmiyyət daşıdığını qeyd edərək, dəmir yollarının tikintisi sahəsindəki imkanlarını bu istiqamətə yönəltməyə hazır olduqlarını vurğulayıb.\n\nMənbə: Trend.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #WeBuild #BakıMetrosu #İqtisadiyyat #OrtaDəhliz",
+  "id": "20261123-134257-01-p",
+  "kind": "post",
+  "image": "posts/20261123-134257-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T09:47:57.215075+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "İtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafında iştiraka hazırlaşır",
+  "summary": "İtaliyanın “WeBuild” şirkətinin rəsmisi Bakı metrosunun inkişafı layihəsində iştirak etmək üçün hazırlıq işləri apardıqlarını bildirib. O, şirkətin beynəlxalq tikinti təcrübəsindən və Orta Dəhlizin inkişafına töhfə verməyə hazır olduqlarından danışıb.",
+  "source_note": "Mənbə: Trend.az",
+  "link": "https://az.trend.az/business/4249672.html",
+  "sensitive": false,
+  "caption": "İtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafında iştiraka hazırlaşır\n\nİtaliyanın “WeBuild” şirkəti Bakı metrosunun inkişafı layihəsinin həyata keçirilməsində iştirak etmək istiqamətində hazırlıq işləri görür. Bu barədə şirkətin Şərqi Avropa, Balkanlar və MDB ölkələri üzrə biznesin inkişafı üzrə baş meneceri Andrea Tulli Bakıda keçirilən Azərbaycan-İtaliya biznes forumunda məlumat verib.\n\nBildirilib ki, 120 ildən artıq təcrübəyə malik şirkət hazırda 50 ölkədə fəaliyyət göstərir, 150-yə yaxın layihə həyata keçirir və 95 min əməkdaşa sahibdir. Şirkət nümayəndəsi cari ildə 13,6 milyard avro gəlir əldə etdiklərini, sifariş portfelinin isə 58 milyard avro təşkil etdiyini diqqətə çatdırıb. O, həmçinin Orta Dəhlizin strateji əhəmiyyət daşıdığını qeyd edərək, dəmir yollarının tikintisi sahəsindəki imkanlarını bu istiqamətə yönəltməyə hazır olduqlarını vurğulayıb.\n\nMənbə: Trend.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #WeBuild #BakıMetrosu #İqtisadiyyat #OrtaDəhliz",
+  "id": "20261123-134257-01-r",
+  "kind": "reel",
+  "video": "20261123-134257-01-r.mp4",
+  "cover": "20261123-134257-01-r.jpg"
  }
 ]
