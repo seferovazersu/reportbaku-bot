@@ -6198,13 +6198,14 @@
   "id": "20261123-223924-u",
   "kind": "news",
   "created": "2026-11-23T18:39:24.704514+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "🚰 Neftçala rayonunu içməli su ilə təmin edən əsas xəttdə qəza baş verib. Bu səbəbdən rayona suyun verilməsi müvəqqəti olaraq dayandırılıb. Hazırda aidiyyəti qurumlar 500 mm diametrli xəttdə yaranan nasazlığın aradan qaldırılması üçün təmir-bərpa işləri aparır. Qəza aradan qaldırıldıqdan sonra suyun verilişi bərpa olunacaq.",
   "media": [
    {
     "file_id": "AgACAgIAAxkBAAICaWsEiD0pmc9vVVV8M2136LGnO0W1AAJNG2sbTg4pSINc-Bzk3Sg5AQADAgADeAADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261123-223924-u/1.jpg"
    }
   ],
   "category": "CƏMİYYƏT",
