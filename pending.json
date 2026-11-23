@@ -5855,5 +5855,30 @@
   "cover": "20261123-173208-01-r.jpg",
   "instagram_id": "18196823422405631",
   "permalink": "https://www.instagram.com/reel/DgFiCgACmOS/"
+ },
+ {
+  "id": "20261123-175856-01",
+  "kind": "news",
+  "created": "2026-11-23T13:58:56.987026+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "TEXNOLOGİYA",
+  "headline": "Sergey adlı robotun zibil atması sosial şəbəkələrdə yayılıb",
+  "summary": "Tau Robotics şirkətinin hazırladığı Sergey adlı robotun zibil atma prosesi sosial şəbəkələrdə maraq doğurub. İzləyicilər həftəlik xidmət üçün ödənilən məbləğin sərfəli olduğunu bildiriblər.",
+  "caption_text": "Dünya sosial şəbəkələrində Sergey adlı robotun zibil atmasını əks etdirən kadrlar sürətlə yayılır. İzləyicilər tərəfindən yazılan şərhlərdə qeyd olunur ki, həftəlik təmizlik xidməti üçün təklif edilən 240 dollar abunə haqqı saatlıq standart ödənişdən daha sərfəlidir. Xatırladaq ki, daha əvvəl Tau Robotics tərəfindən abunə xidməti istifadəyə verilmişdi.",
+  "voiceover": "Sergey adlı robotun zibil atması sosial şəbəkələrdə geniş yayılıb. Tau Robotics tərəfindən istifadəyə verilən abunə xidməti çərçivəsində yayılan kadrlar izləyicilərin marağına səbəb olub. Şərhlərdə həftəlik təmizlik üçün tələb olunan 240 dollarlıq ödənişin standart saatlıq tarifdən daha sərfəli olduğu vurğulanıb.",
+  "hashtags": [
+   "#robot",
+   "#texnologiya",
+   "#sosialşəbəkə"
+  ],
+  "highlight": [
+   "Sergey"
+  ],
+  "source_note": "Mənbə: Day.az",
+  "source_title": "Робот Sergey покоряет соцсети необычным способом выноса мусора",
+  "link": "https://news.day.az/unusual/1876530.html",
+  "sensitive": false
  }
 ]
