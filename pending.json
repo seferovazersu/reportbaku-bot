@@ -6017,7 +6017,7 @@
   "id": "20261123-211418-01",
   "kind": "news",
   "created": "2026-11-23T17:14:18.437904+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -6039,6 +6039,36 @@
   "source_note": "Mənbə: Xəzər Xəbər",
   "source_title": "Kürü keçmək istəyən çoban suda batdı - VİDEO",
   "link": "https://xezerxeber.az/az/veb-tv/kuru-kecmek-isteyen-coban-suda-batdi-vi-deo",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T17:52:57.858126+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qazaxda çoban Kür çayında batıb",
+  "summary": "Qazax rayonunun Birinci Şıxlı kəndi ərazisində 63 yaşlı çoban Yaqub Məmmədov Kür çayını keçərkən suda batıb. Hazırda Fövqəladə Hallar Nazirliyinin xilasediciləri tərəfindən onun axtarışları davam etdirilir.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/kuru-kecmek-isteyen-coban-suda-batdi-vi-deo",
+  "sensitive": true,
+  "caption": "Qazaxda çoban Kür çayında batıb\n\nQazax rayonunda bədbəxt hadisə baş verib. Rayonun Birinci Şıxlı kəndi ərazisində Kür çayını keçmək istəyən 63 yaşlı Yaqub Məmmədov suda batıb. \n\nİllərdir heyvandarlıqla məşğul olan kişinin yaxınları onun mütəmadi olaraq çayı keçdiyini, lakin bu dəfə suyun səviyyəsinin artmasının bədbəxt hadisəyə səbəb olduğunu bildiriblər. Hadisəni onun nəvəsi görüb və nənəsinə xəbər verib. \n\nFaktla bağlı Fövqəladə Hallar Nazirliyinin Kiçik Həcmli Gəmilərə Nəzarət və Sularda Xilasetmə Dövlət Xidmətinin dalğıc-axtarış qrupunun xilasediciləri əraziyə cəlb olunub. Axtarış tədbirləri davam etdirilir.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qazax #KürÇayı #FHN",
+  "id": "20261123-211418-01-p",
+  "kind": "post",
+  "image": "posts/20261123-211418-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T17:52:57.858126+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qazaxda çoban Kür çayında batıb",
+  "summary": "Qazax rayonunun Birinci Şıxlı kəndi ərazisində 63 yaşlı çoban Yaqub Məmmədov Kür çayını keçərkən suda batıb. Hazırda Fövqəladə Hallar Nazirliyinin xilasediciləri tərəfindən onun axtarışları davam etdirilir.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/kuru-kecmek-isteyen-coban-suda-batdi-vi-deo",
+  "sensitive": true,
+  "caption": "Qazaxda çoban Kür çayında batıb\n\nQazax rayonunda bədbəxt hadisə baş verib. Rayonun Birinci Şıxlı kəndi ərazisində Kür çayını keçmək istəyən 63 yaşlı Yaqub Məmmədov suda batıb. \n\nİllərdir heyvandarlıqla məşğul olan kişinin yaxınları onun mütəmadi olaraq çayı keçdiyini, lakin bu dəfə suyun səviyyəsinin artmasının bədbəxt hadisəyə səbəb olduğunu bildiriblər. Hadisəni onun nəvəsi görüb və nənəsinə xəbər verib. \n\nFaktla bağlı Fövqəladə Hallar Nazirliyinin Kiçik Həcmli Gəmilərə Nəzarət və Sularda Xilasetmə Dövlət Xidmətinin dalğıc-axtarış qrupunun xilasediciləri əraziyə cəlb olunub. Axtarış tədbirləri davam etdirilir.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qazax #KürÇayı #FHN",
+  "id": "20261123-211418-01-r",
+  "kind": "reel",
+  "video": "20261123-211418-01-r.mp4",
+  "cover": "20261123-211418-01-r.jpg"
  }
 ]
