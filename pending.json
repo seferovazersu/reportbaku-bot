@@ -5237,7 +5237,7 @@
   "id": "20261123-124536-01",
   "kind": "news",
   "created": "2026-11-23T08:45:36.142035+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -5257,6 +5257,36 @@
   "source_note": "Mənbə: Haqqin.az",
   "source_title": "Пассажирский поезд в США протаранил фуру и сошел с рельсов",
   "link": "https://haqqin.az/newsarchive/399156",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-23T08:47:43.178786+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "ABŞ-də sərnişin qatarı yük avtomobili ilə toqquşub",
+  "summary": "ABŞ-nin Luiziana ştatının Lafayet şəhərində sərnişin qatarı buldozer daşıyan yük maşını ilə toqquşub. Qəza nəticəsində qatarın iki vaqonu relsdən çıxıb, dörd nəfər xəsarət alıb.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399156",
+  "sensitive": true,
+  "caption": "ABŞ-də sərnişin qatarı yük avtomobili ilə toqquşub\n\nABŞ-nin Luiziana ştatının Lafayet şəhərində qəza baş verib. Yerli polisin məlumatına görə, buldozer daşıyan yük maşını dəmiryolu keçidində mühərriki sönərək dayanıb.\n\nMaşinist qəza əyləc sistemini işə dussə də, toqquşmanın qarşısını almaq mümkün olmayıb. Hadisə zamanı qatarda 100-ə yaxın sərnişin olub və ilk iki vaqon relsdən çıxıb. Polisdən bildirilib ki, qəza nəticəsində dörd nəfər yaralanıb və onların həyatı üçün təhlükə yoxdur.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #ABŞ #Luiziana #qəza #dəmiryolu",
+  "id": "20261123-124536-01-p",
+  "kind": "post",
+  "image": "posts/20261123-124536-01-p.jpg"
+ },
+ {
+  "created": "2026-11-23T08:47:43.178786+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "ABŞ-də sərnişin qatarı yük avtomobili ilə toqquşub",
+  "summary": "ABŞ-nin Luiziana ştatının Lafayet şəhərində sərnişin qatarı buldozer daşıyan yük maşını ilə toqquşub. Qəza nəticəsində qatarın iki vaqonu relsdən çıxıb, dörd nəfər xəsarət alıb.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399156",
+  "sensitive": true,
+  "caption": "ABŞ-də sərnişin qatarı yük avtomobili ilə toqquşub\n\nABŞ-nin Luiziana ştatının Lafayet şəhərində qəza baş verib. Yerli polisin məlumatına görə, buldozer daşıyan yük maşını dəmiryolu keçidində mühərriki sönərək dayanıb.\n\nMaşinist qəza əyləc sistemini işə dussə də, toqquşmanın qarşısını almaq mümkün olmayıb. Hadisə zamanı qatarda 100-ə yaxın sərnişin olub və ilk iki vaqon relsdən çıxıb. Polisdən bildirilib ki, qəza nəticəsində dörd nəfər yaralanıb və onların həyatı üçün təhlükə yoxdur.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #ABŞ #Luiziana #qəza #dəmiryolu",
+  "id": "20261123-124536-01-r",
+  "kind": "reel",
+  "video": "20261123-124536-01-r.mp4",
+  "cover": "20261123-124536-01-r.jpg"
  }
 ]
