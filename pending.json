@@ -8618,5 +8618,63 @@
   "kind": "reel",
   "video": "20261124-145924-u-r.mp4",
   "cover": "20261124-145924-u-r.jpg"
+ },
+ {
+  "id": "20261124-164439-01",
+  "kind": "news",
+  "created": "2026-11-24T12:44:39.248427+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Kiyevdə infrastruktur zərbələri və iqtisadi çətinliklər fonunda restoranlar bağlanır",
+  "summary": "Kiyevdə enerji və su fasilələri, eləcə də müştəri azlığı səbəbindən ictimai iaşə obyektləri fəaliyyətini dayandırır. İri restoran şəbəkələri mövcud böhran üzündən obyektlərini bağlamaq və ya köçürmək məcburiyyətində qalıb.",
+  "caption_text": "Kiyev şəhərində infrastruktur obyektlərinə endirilən zərbələr və ağırlaşan iqtisadi şərait kafe və restoranların kütləvi bağlanmasına yol açıb. Reuters agentliyinin məlumatına görə, iaşə sektorunda müştəri axınının azalması, işçi qüvvəsi çatışmazlığı, həmçinin yanacaq, elektrik və su təchizatındakı fasilələr ciddi problemlər yaradıb. Uzun çəkən hava həyəcanı siqnalları sakinlərin mərkəzə gəlişini azaldıb.\n\nBir sıra iri şəbəkələr artıq fəaliyyətlərini daraltmağa başlayıb. “Gastro Family” iki obyektini bağlayıb, digər ikisinin işini isə dayandırıb. “Pesto Cafe” 20 restoranından 7-sini müvəqqəti bağlayıb, “Çernomorka” isə müştəri sayının 20 faiz azalması səbəbindən iki restoranını Ukraynanın qərbinə köçürüb.",
+  "voiceover": "Kiyevdə infrastruktur obyektlərinə endirilən zərbələr və iqtisadi vəziyyətin pisləşməsi fonunda kafe və restoranlar kütləvi şəkildə bağlanır. Reuters agentliyinin məlumatına görə, restoran biznesi müştəri sayının azalması, enerji və su fasilələri, həmçinin işçi çatışmazlığı ilə üzləşib. Hava həyəcanı siqnalları və yanacağın bahalaşması da vəziyyəti çətinləşdirib. Artıq iri restoran şəbəkələri, o cümlədən Gastro Family, Pesto Cafe və Çernomorka fəaliyyətlərini məhdudlaşdırmağa və ya obyektlərini köçürməyə başlayıb.",
+  "hashtags": [
+   "#Kiyev",
+   "#Ukrayna",
+   "#Restoran",
+   "#İqtisadiyyat",
+   "#Dünya"
+  ],
+  "highlight": [
+   "Kiyevdə",
+   "restoranlar"
+  ],
+  "source_note": "Mənbə: Trend.az",
+  "source_title": "Bu şəhərdə restoranlar kütləvi sürətdə bağlanır",
+  "link": "https://az.trend.az/other/world/4250224.html",
+  "sensitive": false,
+  "card_id": 850
+ },
+ {
+  "id": "20261124-164439-02",
+  "kind": "news",
+  "created": "2026-11-24T12:44:39.248427+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "CƏMİYYƏT",
+  "headline": "Nəsrəddin Tusi adına Şamaxı Astrofizika Rəsədxanası ilin ilk Super Ayının görünəcəyini açıqlayıb",
+  "summary": "Noyabrın 24-də ilin ilk Super Ayı görünəcək. Hadisə saat 18:54-də Ayın Yerə ən yaxın mövqedə olacağı zaman baş tutacaq.",
+  "caption_text": "Nəsrəddin Tusi adına Şamaxı Astrofizika Rəsədxanasının məlumatına görə, ilin ilk Super Ayı müşahidə olunacaq. Noyabrın 24-ü saat 18:54-də Ay Yerə ən yaxın mövqeyə çatacaq. Ay şimal-şərqdən saat 16:44-də doğacaq və əlverişli hava şəraiti olarsa, onu gecə boyu izləmək mümkün olacaq. Həmçinin ilin ikinci və sonuncu Super Ayının dekabrın 24-də saat 05:28-də olacağı qeyd edilib.",
+  "voiceover": "Nəsrəddin Tusi adına Şamaxı Astrofizika Rəsədxanası ilin ilk Super Ayının görünəcəyini açıqlayıb. Bildirilib ki, noyabrın 24-ü saat 18:54-də Ay Yerə ən yaxın mövqedə olacaq. Ay şimal-şərqdən saat 16:44-də doğacaq və əlverişli hava şəraiti olarsa, onu bütün gecə boyunca izləmək mümkün olacaq. İlin ikinci və sonuncu Super Ayı isə dekabrın 24-də saat 05:28-də qeydə alınacaq.",
+  "hashtags": [
+   "#SuperAy",
+   "#ŞamaxıAstrofizikaRəsədxanası",
+   "#elm",
+   "#kosmos",
+   "#Ay"
+  ],
+  "highlight": [
+   "Nəsrəddin Tusi adına Şamaxı Astrofizika Rəsədxanası",
+   "Super Ay"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "İlin ilk Super Ayı görünəcək",
+  "link": "https://www.qafqazinfo.az/news/detail/ilin-ilk-super-ayi-gorunecek-529653",
+  "sensitive": false,
+  "card_id": 851
  }
 ]
