@@ -9351,5 +9351,33 @@
   "image": "posts/20261124-205612-02-s.jpg",
   "instagram_id": "18128668535471952",
   "permalink": ""
+ },
+ {
+  "id": "20261124-215008-01",
+  "kind": "news",
+  "created": "2026-11-24T17:50:08.663209+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Türkiyədə hərbi helikopter qəzaya uğrayıb",
+  "summary": "Türkiyə Hərbi Hava Qüvvələrinə məxsus AS-532 tipli hərbi helikopter təlim uçuşu zamanı qəzaya uğrayıb. Hadisə yerində axtarış-xilasetmə əməliyyatları davam etdirilir.",
+  "caption_text": "Türkiyənin Milli Müdafiə Nazirliyinin yaydığı məlumata görə, ölkənin Hərbi Hava Qüvvələri komandanlığına məxsus AS-532 hərbi helikopteri qəzaya uğrayıb. Qəza Əskişəhərdən qalxan hava gəmisinin təlim uçuşu zamanı baş verib.\n\nQurumdan bildirilib ki, qəzaya uğrayan helikopterin qalıqları artıq tapılıb. Hazırda hadisə rayonunda axtarış-xilasetmə tədbirləri davam etdirilir.",
+  "voiceover": "Türkiyədə hərbi helikopter qəzaya uğrayıb. Türkiyənin Milli Müdafiə Nazirliyinin məlumatına görə, ölkənin Hərbi Hava Qüvvələri komandanlığına məxsus AS-532 tipli hərbi helikopter Əskişəhərdən təlim uçuşu üçün qalxdıqdan sonra qəzaya uğrayıb. Hadisə yerindən qalıqlar tapılıb və axtarış-xilasetmə əməliyyatları davam etdirilir.",
+  "hashtags": [
+   "#Türkiyə",
+   "#HərbiHelikopter",
+   "#Hadisə",
+   "#HərbiQəza"
+  ],
+  "highlight": [
+   "Türkiyədə",
+   "hərbi helikopter"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "В Турции разбился военный вертолёт",
+  "link": "https://haqqin.az/newsarchive/399323",
+  "sensitive": true,
+  "card_id": 919
  }
 ]
