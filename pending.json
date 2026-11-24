@@ -6862,7 +6862,7 @@
   "id": "20261124-080553-01",
   "kind": "news",
   "created": "2026-11-24T04:05:53.545496+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -6883,6 +6883,36 @@
   "source_note": "Mənbə: Qafqazinfo",
   "source_title": "İranda işıqlar hər gün sönəcək",
   "link": "https://www.qafqazinfo.az/news/detail/iranda-isiqlar-her-gun-sonecek-529586",
-  "sensitive": false
+  "sensitive": false,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T04:08:23.464689+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "İranda noyabrın sonundan planlı elektrik kəsintiləri olacaq",
+  "summary": "İranda enerji sərfiyyatı və yanacaq çatışmazlığı səbəbindən planlı işıq kəsintiləri tətbiq ediləcək. Məhdudiyyətlərin gün ərzində iki saat müddətində olacağı bildirilib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/iranda-isiqlar-her-gun-sonecek-529586",
+  "sensitive": false,
+  "caption": "İranda noyabrın sonundan planlı elektrik kəsintiləri olacaq\n\nİranda elektrik stansiyalarındakı yanacaq problemi və artan enerji sərfiyyatı fonunda payızın son günlərindən etibarən fasilələrlə işıq kəsintiləri baş verəcək. “Tawanir” Elektrik Paylama Şirkətinin baş direktoru Məhəmməd Allahdadın açıqlamasına əsasən, bu addım enerji istehlakının tənzimlənməsi və şəbəkənin qorunması məqsədilə atılır.\n\nMəhdudiyyətlər bölgələrdən asılı olaraq fərqli tətbiq olunacaq. Qərara görə, fasilələr hər iki gündən bir və ya gün ərzində iki saatlıq intervallarla iki saat davam edəcək. Konkret cədvəl barədə ictimaiyyətə əlavə məlumat veriləcək. Ölkənin zəngin neft və qaz ehtiyatlarına malik olmasına baxmayaraq, sanksiyalar, infrastruktur problemləri və artan tələbat enerji böhranına səbəb olur.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #İran #ElektrikKəsintisi #Enerji #DünyaXəbərləri",
+  "id": "20261124-080553-01-p",
+  "kind": "post",
+  "image": "posts/20261124-080553-01-p.jpg"
+ },
+ {
+  "created": "2026-11-24T04:08:23.464689+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "İranda noyabrın sonundan planlı elektrik kəsintiləri olacaq",
+  "summary": "İranda enerji sərfiyyatı və yanacaq çatışmazlığı səbəbindən planlı işıq kəsintiləri tətbiq ediləcək. Məhdudiyyətlərin gün ərzində iki saat müddətində olacağı bildirilib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/iranda-isiqlar-her-gun-sonecek-529586",
+  "sensitive": false,
+  "caption": "İranda noyabrın sonundan planlı elektrik kəsintiləri olacaq\n\nİranda elektrik stansiyalarındakı yanacaq problemi və artan enerji sərfiyyatı fonunda payızın son günlərindən etibarən fasilələrlə işıq kəsintiləri baş verəcək. “Tawanir” Elektrik Paylama Şirkətinin baş direktoru Məhəmməd Allahdadın açıqlamasına əsasən, bu addım enerji istehlakının tənzimlənməsi və şəbəkənin qorunması məqsədilə atılır.\n\nMəhdudiyyətlər bölgələrdən asılı olaraq fərqli tətbiq olunacaq. Qərara görə, fasilələr hər iki gündən bir və ya gün ərzində iki saatlıq intervallarla iki saat davam edəcək. Konkret cədvəl barədə ictimaiyyətə əlavə məlumat veriləcək. Ölkənin zəngin neft və qaz ehtiyatlarına malik olmasına baxmayaraq, sanksiyalar, infrastruktur problemləri və artan tələbat enerji böhranına səbəb olur.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #İran #ElektrikKəsintisi #Enerji #DünyaXəbərləri",
+  "id": "20261124-080553-01-r",
+  "kind": "reel",
+  "video": "20261124-080553-01-r.mp4",
+  "cover": "20261124-080553-01-r.jpg"
  }
 ]
