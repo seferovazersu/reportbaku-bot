@@ -7004,5 +7004,31 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "id": "20261124-082404-u",
+  "kind": "news",
+  "created": "2026-11-24T04:24:04.491956+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "Bakının bəzi yollarında nəqliyyatın sıxlığı müşahidə olunur.\n\n\"Report\" xəbər verir ki, bu barədə Nəqliyyatı İntellektual İdarəetmə Mərkəzi (NİİM) məlumat yayıb.\n\nHazırda yollardakı vəziyyət:\n\n1. Aeroport şosesi, \"Koroğlu\" metro stansiyası istiqamətində;\n\n2. Heydər Əliyev prospekti, əsas yol, mərkəz istiqamətində;\n\n3. Yusif Səfərov küçəsi, mərkəz istiqamətində;\n\n4. \"Qələbə\" dairəsi, Mətbuat prospekti istiqamətində;\n\n5. Ziya Bünyadov prospekti, Bakı Olimpiya Stadionunun qarşısından \"20 Yanvar\" metro stansiyası istiqamətində;\n\n6. Ziya Bünyadov prospekti, Əhməd Rəcəbli küçəsi ilə kəsişmədən Atatürk prospekti ilə kəsişməyə qədər;\n\n7. Üzeyir Hacıbəyli küçəsi, Azadlıq prospekti ilə kəsişməyə qədər;\n\n8. 1-ci Göl kənarı yolu, Ziya Bünyadov prospekti istiqamətində;\n\n9. Bakı-Sumqayıt şosesi, \"20 Yanvar\" metro stansiyası istiqamətində sıxlıq müşahidə olunur.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAICvGsFEUeOiK4wo4tzh_xRKrhGzWz-AAKvHGsbTg4pSAABTeOfC3YE5wEAAwIAA3kAAz0E",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "Bakının bəzi yollarında nəqliyyatın sıxlığı müşahidə olunur.\n\n\"Report\" xəbər verir ki, bu ",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "Bakının bəzi yollarında nəqliyyatın sıxlığı müşahidə olunur.\n\n\"Report\" xəbər verir ki, bu barədə Nəqliyyatı İntellektual",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
