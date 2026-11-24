@@ -8777,14 +8777,9 @@
   "id": "20261124-170811-01",
   "kind": "news",
   "created": "2026-11-24T13:08:11.445977+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDYWsFjNId_tklF1N869Fg6hWwNIVFAAJXJGsbTg4xSD9LowzaqYbDAQADAgADeAADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "CƏMİYYƏT",
   "headline": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür",
   "summary": "2020-ci il noyabrın 25-də Kəlbəcər rayonu uzun sürən işğaldan azad edilərək Azərbaycanın nəzarətinə qaytarılıb. Hazırda ərazidə genişmiqyaslı bərpa, infrastruktur və quruculuq işləri həyata keçirilir.",
@@ -8803,6 +8798,50 @@
   "source_title": "Kəlbəcərin yenidən dirçəliş dövrü",
   "link": "https://sesqazeti.az/news/politics/1376610.html",
   "sensitive": false,
-  "card_id": 864
+  "card_id": 864,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T13:16:25.791695+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür",
+  "summary": "2020-ci il noyabrın 25-də Kəlbəcər rayonu uzun sürən işğaldan azad edilərək Azərbaycanın nəzarətinə qaytarılıb. Hazırda ərazidə genişmiqyaslı bərpa, infrastruktur və quruculuq işləri həyata keçirilir.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sesqazeti.az/news/politics/1376610.html",
+  "sensitive": false,
+  "caption": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür\n\nAzərbaycanın füsunkar təbiəti və zəngin tarixi irsi ilə seçilən Kəlbəcər rayonu 1993-cü il aprelin 2-də Ermənistan silahlı qüvvələri tərəfindən işğal edilmişdi. Vətən müharibəsində qazanılan Qələbədən sonra imzalanan üçtərəfli Bəyanata əsasən, 2020-ci il noyabrın 25-də Kəlbəcər Azərbaycanın nəzarətinə qaytarıldı.\n\nİşğaldan azad olunduqdan dərhal sonra bölgədə genişmiqyaslı bərpa və quruculuq işlərinə başlanılıb. Hazırda rayonda yol-nəqliyyat infrastrukturu yenilənir, enerji və kommunikasiya xətləri qurulur, həmçinin yeni yaşayış və sosial obyektlər inşa edilir. Həyata keçirilən layihələr Böyük Qayıdışın təmin olunmasına və bölgənin iqtisadi potensialının dirçəldilməsinə xidmət edir.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Kəlbəcər #BöyükQayıdış #Qarabağ",
+  "id": "20261124-170811-01-p",
+  "kind": "post",
+  "image": "posts/20261124-170811-01-p.jpg"
+ },
+ {
+  "created": "2026-11-24T13:16:25.791695+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür",
+  "summary": "2020-ci il noyabrın 25-də Kəlbəcər rayonu uzun sürən işğaldan azad edilərək Azərbaycanın nəzarətinə qaytarılıb. Hazırda ərazidə genişmiqyaslı bərpa, infrastruktur və quruculuq işləri həyata keçirilir.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sesqazeti.az/news/politics/1376610.html",
+  "sensitive": false,
+  "caption": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür\n\nAzərbaycanın füsunkar təbiəti və zəngin tarixi irsi ilə seçilən Kəlbəcər rayonu 1993-cü il aprelin 2-də Ermənistan silahlı qüvvələri tərəfindən işğal edilmişdi. Vətən müharibəsində qazanılan Qələbədən sonra imzalanan üçtərəfli Bəyanata əsasən, 2020-ci il noyabrın 25-də Kəlbəcər Azərbaycanın nəzarətinə qaytarıldı.\n\nİşğaldan azad olunduqdan dərhal sonra bölgədə genişmiqyaslı bərpa və quruculuq işlərinə başlanılıb. Hazırda rayonda yol-nəqliyyat infrastrukturu yenilənir, enerji və kommunikasiya xətləri qurulur, həmçinin yeni yaşayış və sosial obyektlər inşa edilir. Həyata keçirilən layihələr Böyük Qayıdışın təmin olunmasına və bölgənin iqtisadi potensialının dirçəldilməsinə xidmət edir.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Kəlbəcər #BöyükQayıdış #Qarabağ",
+  "id": "20261124-170811-01-r",
+  "kind": "reel",
+  "video": "20261124-170811-01-r.mp4",
+  "cover": "20261124-170811-01-r.jpg"
+ },
+ {
+  "created": "2026-11-24T13:16:25.791695+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür",
+  "summary": "2020-ci il noyabrın 25-də Kəlbəcər rayonu uzun sürən işğaldan azad edilərək Azərbaycanın nəzarətinə qaytarılıb. Hazırda ərazidə genişmiqyaslı bərpa, infrastruktur və quruculuq işləri həyata keçirilir.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sesqazeti.az/news/politics/1376610.html",
+  "sensitive": false,
+  "caption": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür\n\nAzərbaycanın füsunkar təbiəti və zəngin tarixi irsi ilə seçilən Kəlbəcər rayonu 1993-cü il aprelin 2-də Ermənistan silahlı qüvvələri tərəfindən işğal edilmişdi. Vətən müharibəsində qazanılan Qələbədən sonra imzalanan üçtərəfli Bəyanata əsasən, 2020-ci il noyabrın 25-də Kəlbəcər Azərbaycanın nəzarətinə qaytarıldı.\n\nİşğaldan azad olunduqdan dərhal sonra bölgədə genişmiqyaslı bərpa və quruculuq işlərinə başlanılıb. Hazırda rayonda yol-nəqliyyat infrastrukturu yenilənir, enerji və kommunikasiya xətləri qurulur, həmçinin yeni yaşayış və sosial obyektlər inşa edilir. Həyata keçirilən layihələr Böyük Qayıdışın təmin olunmasına və bölgənin iqtisadi potensialının dirçəldilməsinə xidmət edir.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Kəlbəcər #BöyükQayıdış #Qarabağ",
+  "id": "20261124-170811-01-s",
+  "kind": "story",
+  "image": "posts/20261124-170811-01-s.jpg"
  }
 ]
