@@ -7192,7 +7192,7 @@
  },
  {
   "created": "2026-11-24T07:04:39.278438+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Bakıda ilk rəsmi Ducati diler mərkəzi açılıb",
   "summary": "Noyabrın 19-da Ağ Şəhər ərazisində Azərbaycanda ilk rəsmi Ducati diler mərkəzi fəaliyyətə başlayıb. Yeni mərkəz motosiklet, aksesuar satışı və peşəkar servisi bir məkanda birləşdirir.",
@@ -7203,7 +7203,9 @@
   "id": "20261124-104752-01-r",
   "kind": "reel",
   "video": "20261124-104752-01-r.mp4",
-  "cover": "20261124-104752-01-r.jpg"
+  "cover": "20261124-104752-01-r.jpg",
+  "instagram_id": "18360200488171944",
+  "permalink": "https://www.instagram.com/reel/DgHYmlbibJg/"
  },
  {
   "created": "2026-11-24T07:05:18.235202+00:00",
@@ -7230,7 +7232,7 @@
  },
  {
   "created": "2026-11-24T07:05:18.235202+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Fövqəladə Hallar Nazirliyinin Cənub Regional Mərkəzi Lənkəranda təlim keçirib",
   "summary": "Lənkəran Regional \"ASAN Xidmət\" mərkəzində fövqəladə hallar zamanı davranış və təxliyə qaydalarına həsr olunmuş təlim baş tutub. Tədbirdə qurumun əməkdaşları və könüllülər iştirak ediblər.",
@@ -7241,7 +7243,9 @@
   "id": "20261124-104752-02-r",
   "kind": "reel",
   "video": "20261124-104752-02-r.mp4",
-  "cover": "20261124-104752-02-r.jpg"
+  "cover": "20261124-104752-02-r.jpg",
+  "instagram_id": "18122557631276153",
+  "permalink": "https://www.instagram.com/reel/DgHYrQ1EiQ-/"
  },
  {
   "created": "2026-11-24T07:06:10.982311+00:00",
@@ -7259,7 +7263,7 @@
  },
  {
   "created": "2026-11-24T07:06:10.982311+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Bakı Dövlət Universiteti dekan vəzifələri üçün müsabiqə elan edib",
   "summary": "Bakı Dövlət Universitetinin 9 fakültəsi üzrə dekan vəzifələrinə müsabiqəyə start verilib. Sənəd qəbulu bir ay ərzində həyata keçiriləcək.",
@@ -7270,6 +7274,8 @@
   "id": "20261124-104752-03-r",
   "kind": "reel",
   "video": "20261124-104752-03-r.mp4",
-  "cover": "20261124-104752-03-r.jpg"
+  "cover": "20261124-104752-03-r.jpg",
+  "instagram_id": "18104492273387559",
+  "permalink": "https://www.instagram.com/reel/DgHYwNnCJMF/"
  }
 ]
