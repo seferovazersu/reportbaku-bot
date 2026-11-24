@@ -9358,7 +9358,12 @@
   "created": "2026-11-24T17:50:08.663209+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDmGsFzquUwChGeE_J2FP8EVW6L51FAAJYJGsbDcAxSHR59BKnHzxHAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "Türkiyədə hərbi helikopter qəzaya uğrayıb",
   "summary": "Türkiyə Hərbi Hava Qüvvələrinə məxsus AS-532 tipli hərbi helikopter təlim uçuşu zamanı qəzaya uğrayıb. Hadisə yerində axtarış-xilasetmə əməliyyatları davam etdirilir.",
