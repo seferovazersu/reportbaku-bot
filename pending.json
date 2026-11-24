@@ -9881,33 +9881,84 @@
   "id": "20261125-013947-u",
   "kind": "news",
   "created": "2026-11-24T21:39:47.430374+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Özcan Deniz və Deniz Çakır və Murat Başaran da daxil olmaqla 35 şəxs saxlanılıb\n\nTürkiyədə tanınmış şəxslərə qarşı aparılan narkotik istintaqı çərçivəsində yeni əməliyyat dalğası başlayıb.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDxWsGBAoM7BiiLgwl7XPP0yVsbKeeAAK-JWsbDcAxSA0VM2lW2PvxAQADAgADeAADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDxmsGBAo0kiCNPxBUIbxuDcrje-27AAK_JWsbDcAxSFETulII5AbAAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb",
+  "summary": "Türkiyədə tanınmış şəxsləri hədəf alan narkotik istintaqı əsnasında yeni əməliyyat keçirilib. Özcan Deniz, Deniz Çakır və Murat Başaranın da aralarında yer aldığı 35 nəfər saxlanılıb.",
+  "caption_text": "Türkiyədə məşhur simalara qarşı başladılan narkotik istintaqı istiqamətində növbəti əməliyyat tədbirləri icra olunub. Aparılan yoxlamalar nəticəsində aralarında sənətçilər Özcan Deniz, Deniz Çakır və Murat Başaranın da olduğu 35 nəfər saxlanılaraq nəzarətə götürülüb. İstintaq çərçivəsində araşdırmalar davam etdirilir.",
+  "voiceover": "Türkiyədə tanınmış şəxslərə qarşı aparılan narkotik istintaqı çərçivəsində yeni əməliyyat keçirilib. Özcan Deniz, Deniz Çakır və Murat Başaranın da aralarında olduğu 35 şəxs saxlanılıb.",
+  "hashtags": [
+   "#Türkiyə",
+   "#ÖzcanDeniz",
+   "#DenizÇakır",
+   "#MuratBaşaran",
+   "#narkotik"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Özcan Deniz və Deniz Çakır və Murat Başaran da daxil olmaqla 35 şəxs saxlanılıb\n\nTürkiyədə",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "35 şəxs saxlanılıb"
+  ],
   "source_note": "",
   "source_title": "Özcan Deniz və Deniz Çakır və Murat Başaran da daxil olmaqla 35 şəxs saxlanılıb\n\nTürkiyədə tanınmış şəxslərə qarşı aparı",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "groups": [
    "14364450902071330"
   ],
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T21:42:41.070673+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb",
+  "summary": "Türkiyədə tanınmış şəxsləri hədəf alan narkotik istintaqı əsnasında yeni əməliyyat keçirilib. Özcan Deniz, Deniz Çakır və Murat Başaranın da aralarında yer aldığı 35 nəfər saxlanılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb\n\nTürkiyədə məşhur simalara qarşı başladılan narkotik istintaqı istiqamətində növbəti əməliyyat tədbirləri icra olunub. Aparılan yoxlamalar nəticəsində aralarında sənətçilər Özcan Deniz, Deniz Çakır və Murat Başaranın da olduğu 35 nəfər saxlanılaraq nəzarətə götürülüb. İstintaq çərçivəsində araşdırmalar davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Türkiyə #ÖzcanDeniz #DenizÇakır #MuratBaşaran",
+  "id": "20261125-013947-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261125-013947-u-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261125-013947-u-c2.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T21:42:41.070673+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb",
+  "summary": "Türkiyədə tanınmış şəxsləri hədəf alan narkotik istintaqı əsnasında yeni əməliyyat keçirilib. Özcan Deniz, Deniz Çakır və Murat Başaranın da aralarında yer aldığı 35 nəfər saxlanılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb\n\nTürkiyədə məşhur simalara qarşı başladılan narkotik istintaqı istiqamətində növbəti əməliyyat tədbirləri icra olunub. Aparılan yoxlamalar nəticəsində aralarında sənətçilər Özcan Deniz, Deniz Çakır və Murat Başaranın da olduğu 35 nəfər saxlanılaraq nəzarətə götürülüb. İstintaq çərçivəsində araşdırmalar davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Türkiyə #ÖzcanDeniz #DenizÇakır #MuratBaşaran",
+  "id": "20261125-013947-u-r",
+  "kind": "reel",
+  "video": "20261125-013947-u-r.mp4",
+  "cover": "20261125-013947-u-r.jpg"
+ },
+ {
+  "created": "2026-11-24T21:42:41.070673+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb",
+  "summary": "Türkiyədə tanınmış şəxsləri hədəf alan narkotik istintaqı əsnasında yeni əməliyyat keçirilib. Özcan Deniz, Deniz Çakır və Murat Başaranın da aralarında yer aldığı 35 nəfər saxlanılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Türkiyədəki narkotik istintaqı çərçivəsində 35 şəxs saxlanılıb\n\nTürkiyədə məşhur simalara qarşı başladılan narkotik istintaqı istiqamətində növbəti əməliyyat tədbirləri icra olunub. Aparılan yoxlamalar nəticəsində aralarında sənətçilər Özcan Deniz, Deniz Çakır və Murat Başaranın da olduğu 35 nəfər saxlanılaraq nəzarətə götürülüb. İstintaq çərçivəsində araşdırmalar davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Türkiyə #ÖzcanDeniz #DenizÇakır #MuratBaşaran",
+  "id": "20261125-013947-u-s",
+  "kind": "story",
+  "image": "posts/20261125-013947-u-s.jpg"
  }
 ]
