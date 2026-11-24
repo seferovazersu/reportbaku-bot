@@ -8901,7 +8901,7 @@
  },
  {
   "created": "2026-11-24T13:23:35.025822+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "MƏDƏNİYYƏT",
   "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
   "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
@@ -8912,11 +8912,13 @@
   "id": "20261124-172034-u-r",
   "kind": "reel",
   "video": "20261124-172034-u-r.mp4",
-  "cover": "20261124-172034-u-r.jpg"
+  "cover": "20261124-172034-u-r.jpg",
+  "instagram_id": "18112906559630593",
+  "permalink": "https://www.instagram.com/reel/DgIDrbujN6h/"
  },
  {
   "created": "2026-11-24T13:23:35.025822+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "MƏDƏNİYYƏT",
   "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
   "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
@@ -8926,6 +8928,8 @@
   "caption": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb\n\n\"Barcelona\" klubunun rəsmi sosial media hesabında Azərbaycanın paytaxtı Bakı ilə bağlı görüntülər paylaşımlara daxil edilib. İspaniya təmsilçisinin rəsmi səhifəsində yayımlanan bu kadrlar izləyicilər tərəfindən maraqla qarşılanıb. Paylaşımın detalları və hansı səbəblə edildiyi barədə əlavə məlumat verilməyib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #Barcelona",
   "id": "20261124-172034-u-s",
   "kind": "story",
-  "image": "posts/20261124-172034-u-s.jpg"
+  "image": "posts/20261124-172034-u-s.jpg",
+  "instagram_id": "17889905664689970",
+  "permalink": ""
  }
 ]
