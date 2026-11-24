@@ -9803,7 +9803,7 @@
   "id": "20261125-013302-01",
   "kind": "news",
   "created": "2026-11-24T21:33:02.043622+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -9827,6 +9827,50 @@
   "source_title": "Зеленский: Хегсет тормозит передачу Украине 48 ракет Patriot",
   "link": "https://minval.az/news/124564190",
   "sensitive": true,
-  "card_id": 958
+  "card_id": 958,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T21:34:32.201502+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib",
+  "summary": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsinə dair sənədi hələ də imzalamadığını açıqlayıb. O, bu gecikmənin raketlərin Ukraynaya çatdırılması prosesinə maneə törətdiyini bildirib.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564190",
+  "sensitive": true,
+  "caption": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib\n\nUkrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsini təmin edən sənədi hələ də imzalamadığını bəyan edib.\n\nUkrayna lideri sözügedən sənədin imzalanmamasının raketlərin tədarük prosesini ləngitdiyini diqqətə çatdırıb. Onun sözlərinə görə, bu gecikmə müvafiq hərbi vasitələrin vaxtında alınmasına mənfi təsir göstərir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Ukrayna #ABŞ #Patriot #Siyasət",
+  "id": "20261125-013302-01-p",
+  "kind": "post",
+  "image": "posts/20261125-013302-01-p.jpg"
+ },
+ {
+  "created": "2026-11-24T21:34:32.201502+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib",
+  "summary": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsinə dair sənədi hələ də imzalamadığını açıqlayıb. O, bu gecikmənin raketlərin Ukraynaya çatdırılması prosesinə maneə törətdiyini bildirib.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564190",
+  "sensitive": true,
+  "caption": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib\n\nUkrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsini təmin edən sənədi hələ də imzalamadığını bəyan edib.\n\nUkrayna lideri sözügedən sənədin imzalanmamasının raketlərin tədarük prosesini ləngitdiyini diqqətə çatdırıb. Onun sözlərinə görə, bu gecikmə müvafiq hərbi vasitələrin vaxtında alınmasına mənfi təsir göstərir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Ukrayna #ABŞ #Patriot #Siyasət",
+  "id": "20261125-013302-01-r",
+  "kind": "reel",
+  "video": "20261125-013302-01-r.mp4",
+  "cover": "20261125-013302-01-r.jpg"
+ },
+ {
+  "created": "2026-11-24T21:34:32.201502+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib",
+  "summary": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsinə dair sənədi hələ də imzalamadığını açıqlayıb. O, bu gecikmənin raketlərin Ukraynaya çatdırılması prosesinə maneə törətdiyini bildirib.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564190",
+  "sensitive": true,
+  "caption": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib\n\nUkrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsini təmin edən sənədi hələ də imzalamadığını bəyan edib.\n\nUkrayna lideri sözügedən sənədin imzalanmamasının raketlərin tədarük prosesini ləngitdiyini diqqətə çatdırıb. Onun sözlərinə görə, bu gecikmə müvafiq hərbi vasitələrin vaxtında alınmasına mənfi təsir göstərir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Ukrayna #ABŞ #Patriot #Siyasət",
+  "id": "20261125-013302-01-s",
+  "kind": "story",
+  "image": "posts/20261125-013302-01-s.jpg"
  }
 ]
