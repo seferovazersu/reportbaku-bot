@@ -8013,13 +8013,14 @@
   "id": "20261124-135739-u",
   "kind": "news",
   "created": "2026-11-24T09:57:39.912671+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "🚌 Bakıda avtobusdan istifadədə yeni rekord!\n\n🚍 2026-cı ilin oktyabr ayında daşınan sərnişinlərin sayı 54 milyona yaxındır!\n\n2026-cı ilin yanvar-oktyabr aylarında paytaxtda şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobus marşrutları ilə 440,1 milyon sərnişin səfəri həyata keçirilib.\n\n📈 Bu, ötən ilin müvafiq dövrü ilə müqayisədə 8,1% artım deməkdir.",
   "media": [
    {
     "file_id": "AgACAgIAAxkBAAIDHGsFX4NnO-NMZIs0Ly04plXr3RTcAAIoHmsbTg4pSOR5j5vIQoFXAQADAgADeQADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261124-135739-u/1.jpg"
    }
   ],
   "category": "CƏMİYYƏT",
