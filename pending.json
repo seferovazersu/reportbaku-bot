@@ -7734,26 +7734,68 @@
   "id": "20261124-124509-u",
   "kind": "news",
   "created": "2026-11-24T08:45:09.717494+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIDAmsFTjfqwGzFHMPmUNuNKmJAfOP4AALurgACTg4pSP7ilqfNYSu_PQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev Monteneqronun Baş nazirini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin başçılıq etdiyi nümayəndə heyəti ilə görüşüb. Tərəflər arasındakı bu qəbul həmin tarixdə baş tutub.",
+  "caption_text": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib. Görüş zamanı ölkələr arasındakı münasibətlərə dair məsələlər müzakirə olunub. Səfər çərçivəsində nümayəndə heyətinin rəhbəri Bakıda rəsmi görüşlər keçirib.",
+  "voiceover": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib. Görüş zamanı tərəflər arasında müzakirələr aparılıb.",
+  "hashtags": [
+   "#Prezident",
+   "#İlhamƏliyev",
+   "#Monteneqro",
+   "#Bakı",
+   "#Siyasət"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Prezident İlham Əliyev",
+   "Monteneqronun Baş naziri"
+  ],
   "source_note": "",
   "source_title": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik et",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T08:55:07.160836+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev Monteneqronun Baş nazirini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin başçılıq etdiyi nümayəndə heyəti ilə görüşüb. Tərəflər arasındakı bu qəbul həmin tarixdə baş tutub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Prezident İlham Əliyev Monteneqronun Baş nazirini qəbul edib\n\nAzərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib. Görüş zamanı ölkələr arasındakı münasibətlərə dair məsələlər müzakirə olunub. Səfər çərçivəsində nümayəndə heyətinin rəhbəri Bakıda rəsmi görüşlər keçirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Prezident #İlhamƏliyev #Monteneqro",
+  "id": "20261124-124509-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261124-124509-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261124-124509-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T08:55:07.160836+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev Monteneqronun Baş nazirini qəbul edib",
+  "summary": "Azərbaycan Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin başçılıq etdiyi nümayəndə heyəti ilə görüşüb. Tərəflər arasındakı bu qəbul həmin tarixdə baş tutub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Prezident İlham Əliyev Monteneqronun Baş nazirini qəbul edib\n\nAzərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib. Görüş zamanı ölkələr arasındakı münasibətlərə dair məsələlər müzakirə olunub. Səfər çərçivəsində nümayəndə heyətinin rəhbəri Bakıda rəsmi görüşlər keçirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Prezident #İlhamƏliyev #Monteneqro",
+  "id": "20261124-124509-u-r",
+  "kind": "reel",
+  "video": "20261124-124509-u-r.mp4",
+  "cover": "20261124-124509-u-r.jpg"
  }
 ]
