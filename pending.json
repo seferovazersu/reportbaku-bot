@@ -9255,5 +9255,63 @@
   "image": "posts/20261124-200918-u-s.jpg",
   "instagram_id": "18090773489319767",
   "permalink": ""
+ },
+ {
+  "id": "20261124-205612-01",
+  "kind": "news",
+  "created": "2026-11-24T16:56:12.285485+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Nvidia səhmlərinin ucuzlaşması fonunda Jensen Huanqın sərvəti azalıb",
+  "summary": "Nvidia səhmlərinin 8 faiz ucuzlaşması şirkətin baş icraçı direktorunun maliyyə vəziyyətinə təsir edib. Forbes siyahısında Jensen Huanq bir pillə geriləyərək 14-cü yerə düşüb.",
+  "caption_text": "Forbes-un yaydığı məlumata görə, Nvidia şirkətinin səhmləri qısamüddətli artımdan sonra 8% dəyər itirib. Bu eniş nəticəsində qurumun baş icraçı direktoru Jensen Huanqın sərvəti 10 milyard dollardan çox azalıb.\n\nMilyarderlərin real vaxt rejimində yenilənən siyahısında Huanq 13-cü pillədən 14-cü sıraya enib. Onun ümumi sərvəti hazırda 133,1 milyard dollar təşkil edir və o, bu göstərici ilə Walmart pərakəndə satış imperiyasının varisi Elis Uoltondan geri qalıb.",
+  "voiceover": "Nvidia şirkətinin səhmləri 8 faiz ucuzlaşıb. Forbes nəşrinin məlumatına görə, bu eniş fonunda baş icraçı direktor Jensen Huanqın sərvəti 10 milyard dollardan çox azalıb. Nəticədə milyarderlər siyahısında Huanq 13-cü yerdən 14-cü yerə geriləyib. Onun hazırkı sərvəti 133,1 milyard dollar təşkil edir.",
+  "hashtags": [
+   "#Nvidia",
+   "#JensenHuanq",
+   "#Forbes",
+   "#İqtisadiyyat",
+   "#Səhmlər"
+  ],
+  "highlight": [
+   "Nvidia",
+   "Jensen Huanq"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Həmin siyahıda gerilədi",
+  "link": "https://www.qafqazinfo.az/news/detail/hemin-siyahida-geriledi-529687",
+  "sensitive": false,
+  "card_id": 911
+ },
+ {
+  "id": "20261124-205612-02",
+  "kind": "news",
+  "created": "2026-11-24T16:56:12.285485+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Almaniyanın süni intellektli dronları beynəlxalq hüququ pozur",
+  "summary": "Ekspert komissiyasının hesabatına görə, Almaniya ordusu üçün alınan yeni dronlar beynəlxalq humanitar hüququ pozur. Bu aparatların kütləvi insan tələfatına səbəb ola biləcəyi ehtimal olunur.",
+  "caption_text": "Almaniya silahlı qüvvələri üçün istehsal edilən süni intellektli zərbə pilotsuz uçuş aparatları beynəlxalq humanitar hüququn normalarını pozur.\n\nBu barədə parlamentin sifarişi ilə hazırlanan ekspert komissiyasının hesabatında bildirilib. Qeyd olunub ki, Almaniya ordusu Helsing, Stark və Rheinmetall konsernlərindən bu cür qurğuların alınmasına milyonlarla avro xərcləyir və həmin aparatlar Litvada yerləşən briqada üçün nəzərdə tutulub.\n\nAvtonom süni intellektli dronlar əlaqə tam itdikdə belə uçuşu davam etdirmək və hədəfləri məhv etmək imkanına malikdir. Hesabat müəllifləri narahatlıq ifadə ediblər ki, kritik məqamda süni intellekt nəzarətdən çıxa və dinc əhalinin kütləvi ölümünə gətirib çıxara bilər.",
+  "voiceover": "Almaniya silahlı qüvvələri üçün hazırlanan süni intellektli yeni zərbə pilotsuz uçuş aparatları beynəlxalq humanitar hüququn normalarını pozur. Almaniya parlamentinin sifarişi ilə hazırlanan ekspert komissiyasının hesabatında qeyd olunur ki, ölkə bu aparatların alınmasına milyonlarla avro xərcləyir. Avtonom qurğular əlaqə tam itdikdə belə hədəfləri məhv etmək qabiliyyətinə malikdir. Müəlliflər kritik məqamda süni intellektin nəzarətdən çıxaraq kütləvi insan tələfatına səbəb ola biləcəyindən ehtiyat edirlər.",
+  "hashtags": [
+   "#Almaniya",
+   "#Dron",
+   "#Süniİntellekt",
+   "#Ordubirlik"
+  ],
+  "highlight": [
+   "Almaniyanın",
+   "süni intellektli",
+   "dronları"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Немецкие дроны нарушают законы войны",
+  "link": "https://haqqin.az/newsarchive/399318",
+  "sensitive": true,
+  "card_id": 912
  }
 ]
