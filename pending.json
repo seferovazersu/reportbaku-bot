@@ -8294,26 +8294,58 @@
   "id": "20261124-143739-u",
   "kind": "news",
   "created": "2026-11-24T10:37:39.680605+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Türkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb.\n\n• O, maliyyə bazarlarındakı əməliyyatlarla bağlı aparılan istintaq çərçivəsində həbs edilmişdi.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDM2sFaN6aCUVZ1318gzHQwyhYu11_AAKFHmsbTg4pSI1vTeNKGuAFAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb",
+  "summary": "Türkiyənin sabiq naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb. O, maliyyə bazarlarındakı əməliyyatlarla bağlı istintaq çərçivəsində əvvəl həbs olunmuşdu.",
+  "caption_text": "Türkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya barəsində olan qərar dəyişdirilib. O, maliyyə bazarlarındakı əməliyyatlarla əlaqədar aparılan araşdırma çərçivəsində həbs edilmişdi.\n\nAparılan istintaq tədbirlərindən sonra sabiq nazir ev dustaqlığı rejiminə keçirilib.",
+  "voiceover": "Türkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb. O, maliyyə bazarlarındakı əməliyyatlarla bağlı aparılan istintaq çərçivəsində əvvəl həbs edilmişdi.",
+  "hashtags": [
+   "#Türkiyə",
+   "#FatmaBetülSayanKaya",
+   "#İstintaq",
+   "#DünyaXəbərləri"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Türkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya ev dustaqlığına bu",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Fatma Betül Sayan Kaya",
+   "ev dustaqlığına buraxılıb"
+  ],
   "source_note": "",
   "source_title": "Türkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb.\n\n• O, maliyyə bazarla",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T10:40:04.555450+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb",
+  "summary": "Türkiyənin sabiq naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb. O, maliyyə bazarlarındakı əməliyyatlarla bağlı istintaq çərçivəsində əvvəl həbs olunmuşdu.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb\n\nTürkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya barəsində olan qərar dəyişdirilib. O, maliyyə bazarlarındakı əməliyyatlarla əlaqədar aparılan araşdırma çərçivəsində həbs edilmişdi.\n\nAparılan istintaq tədbirlərindən sonra sabiq nazir ev dustaqlığı rejiminə keçirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Türkiyə #FatmaBetülSayanKaya #İstintaq #DünyaXəbərləri",
+  "id": "20261124-143739-u-p",
+  "kind": "post",
+  "image": "posts/20261124-143739-u-p.jpg"
+ },
+ {
+  "created": "2026-11-24T10:40:04.555450+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb",
+  "summary": "Türkiyənin sabiq naziri Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb. O, maliyyə bazarlarındakı əməliyyatlarla bağlı istintaq çərçivəsində əvvəl həbs olunmuşdu.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Fatma Betül Sayan Kaya ev dustaqlığına buraxılıb\n\nTürkiyənin sabiq ailə və sosial xidmətlər naziri Fatma Betül Sayan Kaya barəsində olan qərar dəyişdirilib. O, maliyyə bazarlarındakı əməliyyatlarla əlaqədar aparılan araşdırma çərçivəsində həbs edilmişdi.\n\nAparılan istintaq tədbirlərindən sonra sabiq nazir ev dustaqlığı rejiminə keçirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Türkiyə #FatmaBetülSayanKaya #İstintaq #DünyaXəbərləri",
+  "id": "20261124-143739-u-r",
+  "kind": "reel",
+  "video": "20261124-143739-u-r.mp4",
+  "cover": "20261124-143739-u-r.jpg"
  }
 ]
