@@ -8172,26 +8172,58 @@
   "id": "20261124-142331-u",
   "kind": "news",
   "created": "2026-11-24T10:23:31.785952+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🏦 Mənzil almaq daha da çətinləşəcək? - Yeni bahalaşma dalğası gəlir?\n\nAzərbaycanda tikinti xərcləri oktyabr ayında sentyabrla müqayisədə 3%, ötən ilin dekabr ayı ilə müqayisədə isə 13,5% artıb. Bahalaşma yeni mənzillərin tikinti maya dəyərinə də təsir göstərir. Bununla belə, mənzillərin satış qiymətini yalnız tikinti materiallarının qiyməti deyil, torpaq sahəsinin dəyəri, əməkhaqqı, maliyyələşmə və bazardakı tələb-təklif nisbəti də müəyyən edir.\n\nAzərbaycan Qiymətləndiricilər Cəmiyyətinin sədri Vüqar Oruc “Bakupost”a bildirib ki, tikinti xərcləri dedikdə, ilk növbədə, tikintinin maya dəyəri nəzərdə tutulur. Bu məbləğə tikintinin aparıldığı torpaq sahəsinin qiyməti, tikinti materiallarının dəyəri, işçi qüvvəsinə ödənilən əməkhaqqı və digər xərclər daxildir.\n\nOnun sözlərinə görə, maya dəyərinin artmasına müxtəlif amillər təsir edir və bu prosesi kompleks şəkildə qiymətləndirmək lazımdır.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDKWsFZY1hM-pVo5GOpbDKlOx5S_dFAAJmHmsbTg4pSOUWDgy1Nbg8AQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda tikinti xərcləri artıb",
+  "summary": "Ölkədə tikinti xərcləri oktyabrda sentyabra nisbətən 3%, ötən ilin dekabrı ilə müqayisədə isə 13,5% bahalaşıb. Bu artım yeni mənzillərin tikinti maya dəyərinə də təsir göstərir.",
+  "caption_text": "Azərbaycanda tikinti xərclərində artım qeydə alınıb. Statistikaya əsasən, bu ilin oktyabr ayında sentyabr ayı ilə müqayisədə tikinti xərcləri 3%, ötən ilin dekabr ayı ilə müqayisədə isə 13,5% çoxalıb. Baş verən bahalaşma yeni inşa edilən mənzillərin maya dəyərinə də təsir edir.\n\nAzərbaycan Qiymətləndiricilər Cəmiyyətinin sədri Vüqar Oruc bildirib ki, tikinti xərclərinə tikintinin maya dəyəri, torpaq sahəsinin qiyməti, materialların dəyəri və işçi qüvvəsinin əməkhaqqı daxildir. Onun sözlərinə görə, mənzillərin satış qiyməti yalnız materialların qiyməti ilə deyil, həm də torpağın dəyəri, əməkhaqqı, maliyyələşmə və bazardakı tələb-təklif nisbəti ilə müəyyən olunur.",
+  "voiceover": "Azərbaycanda tikinti xərcləri artıb. Rəsmi rəqəmlərə əsasən, xərclər oktyabrda sentyabrla müqayisədə 3%, ötən ilin dekabrı ilə müqayisədə isə 13,5% çoxalınıb. Bu proses yeni mənzillərin tikinti maya dəyərinə də təsir göstərir. Azərbaycan Qiymətləndiricilər Cəmiyyətinin sədri Vüqar Oruc bildirib ki, satış qiymətinə materiallarla yanaşı, torpağın dəyəri, əməkhaqqı və bazar tələb-təklifi də təsir edir.",
+  "hashtags": [
+   "#tikinti",
+   "#daşınmazəmlak",
+   "#iqtisadiyyat",
+   "#Azərbaycan",
+   "#mənzil"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🏦 Mənzil almaq daha da çətinləşəcək? - Yeni bahalaşma dalğası gəlir?\n\nAzərbaycanda tikinti",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "tikinti xərcləri"
+  ],
   "source_note": "",
   "source_title": "🏦 Mənzil almaq daha da çətinləşəcək? - Yeni bahalaşma dalğası gəlir?\n\nAzərbaycanda tikinti xərcləri oktyabr ayında senty",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T10:27:15.676719+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda tikinti xərcləri artıb",
+  "summary": "Ölkədə tikinti xərcləri oktyabrda sentyabra nisbətən 3%, ötən ilin dekabrı ilə müqayisədə isə 13,5% bahalaşıb. Bu artım yeni mənzillərin tikinti maya dəyərinə də təsir göstərir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda tikinti xərcləri artıb\n\nAzərbaycanda tikinti xərclərində artım qeydə alınıb. Statistikaya əsasən, bu ilin oktyabr ayında sentyabr ayı ilə müqayisədə tikinti xərcləri 3%, ötən ilin dekabr ayı ilə müqayisədə isə 13,5% çoxalıb. Baş verən bahalaşma yeni inşa edilən mənzillərin maya dəyərinə də təsir edir.\n\nAzərbaycan Qiymətləndiricilər Cəmiyyətinin sədri Vüqar Oruc bildirib ki, tikinti xərclərinə tikintinin maya dəyəri, torpaq sahəsinin qiyməti, materialların dəyəri və işçi qüvvəsinin əməkhaqqı daxildir. Onun sözlərinə görə, mənzillərin satış qiyməti yalnız materialların qiyməti ilə deyil, həm də torpağın dəyəri, əməkhaqqı, maliyyələşmə və bazardakı tələb-təklif nisbəti ilə müəyyən olunur.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #tikinti #daşınmazəmlak #mənzil",
+  "id": "20261124-142331-u-p",
+  "kind": "post",
+  "image": "posts/20261124-142331-u-p.jpg"
+ },
+ {
+  "created": "2026-11-24T10:27:15.676719+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda tikinti xərcləri artıb",
+  "summary": "Ölkədə tikinti xərcləri oktyabrda sentyabra nisbətən 3%, ötən ilin dekabrı ilə müqayisədə isə 13,5% bahalaşıb. Bu artım yeni mənzillərin tikinti maya dəyərinə də təsir göstərir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda tikinti xərcləri artıb\n\nAzərbaycanda tikinti xərclərində artım qeydə alınıb. Statistikaya əsasən, bu ilin oktyabr ayında sentyabr ayı ilə müqayisədə tikinti xərcləri 3%, ötən ilin dekabr ayı ilə müqayisədə isə 13,5% çoxalıb. Baş verən bahalaşma yeni inşa edilən mənzillərin maya dəyərinə də təsir edir.\n\nAzərbaycan Qiymətləndiricilər Cəmiyyətinin sədri Vüqar Oruc bildirib ki, tikinti xərclərinə tikintinin maya dəyəri, torpaq sahəsinin qiyməti, materialların dəyəri və işçi qüvvəsinin əməkhaqqı daxildir. Onun sözlərinə görə, mənzillərin satış qiyməti yalnız materialların qiyməti ilə deyil, həm də torpağın dəyəri, əməkhaqqı, maliyyələşmə və bazardakı tələb-təklif nisbəti ilə müəyyən olunur.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #tikinti #daşınmazəmlak #mənzil",
+  "id": "20261124-142331-u-r",
+  "kind": "reel",
+  "video": "20261124-142331-u-r.mp4",
+  "cover": "20261124-142331-u-r.jpg"
  }
 ]
