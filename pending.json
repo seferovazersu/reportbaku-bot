@@ -8543,34 +8543,25 @@
   "id": "20261124-145924-u",
   "kind": "news",
   "created": "2026-11-24T10:59:24.975761+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Avtobus sürücülərinin diqqətinə!\n\n🔻 Yeni quraşdırılacaq avtobus svetoforlarının hərəkət qaydaları bunlardır\n\n🚌ℹ️ Paytaxtda ilk dəfə quraşdırılacaq avtobus svetoforları ilə bağlı maarifləndirmə işləri davam etdirilir. Yeni svetoforların iş prinsipi, işıq siqnallarının mənası və hərəkət istiqamətləri ilə bağlı zəruri məlumatlar sürücülərin diqqətinə çatdırılır.\n\n➡️ DİN-in Nəqliyyatı İntellektual İdarəetmə Mərkəzinin hazırladığı bu fotoməlumat vasitəsilə avtobus sürücüləri yeni svetoforların işıq siqnalları və onların hər biri üzrə nəzərdə tutulan hərəkət qaydaları ilə tanış ola bilərlər.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDSmsFbeWKA5hAZSyHJZLHCyRkj_l1AAKdHmsbTg4pSNT4iPLli_jiAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDS2sFbeVULLLd9wIvL9xv1vgTK0ABAAKeHmsbTg4pSKZyztyqr1rTAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDTGsFbeVbqSUeKWQWAmI6HGNmsd1AAAKfHmsbTg4pSLJUfHqSdT5VAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDTWsFbeWIE60mAaLa39XTPGmC9vFLAAKgHmsbTg4pSEGgPxCK_6K2AQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "Avtobus sürücülərinin diqqətinə!\n\n🔻 Yeni quraşdırılacaq avtobus svetoforlarının hərəkət qa",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır",
+  "summary": "Bakıda yenilik olaraq tətbiq ediləcək avtobus svetoforlarının iş qaydaları açıqlanıb. Sürücülərin maarifləndirilməsi məqsədilə müvafiq fotoməlumat hazırlanıb.",
+  "caption_text": "Azərbaycan paytaxtında ilk dəfə olaraq avtobus svetoforlarının quraşdırılması nəzərdə tutulur və bu istiqamətdə maarifləndirmə tədbirləri həyata keçirilir. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzi tərəfindən yeni svetoforların tətbiqi, işıq siqnallarının mənaları və hərəkət istiqamətləri barədə zəruri məlumatlar sürücülərə çatdırılır. Hazırlanan xüsusi fotoməlumat vasitəsilə sürücülər yeni svetoforların siqnalları və hərəkət qaydaları ilə tanış olmaq imkanı əldə edirlər.",
+  "voiceover": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzi tərəfindən yeni svetoforların iş prinsipi və hərəkət qaydaları ilə bağlı maarifləndirmə işləri aparılır. Sürücülər xüsusi fotoməlumat vasitəsilə yeni işıq siqnalları və hərəkət istiqamətləri ilə tanış ola bilərlər.",
+  "hashtags": [
+   "#avtobussvetoforu",
+   "#DİN",
+   "#NİİM",
+   "#BakıNəqliyyat",
+   "#yolhərəkəti"
+  ],
+  "highlight": [
+   "avtobus svetoforları"
+  ],
   "source_note": "",
   "source_title": "Avtobus sürücülərinin diqqətinə!\n\n🔻 Yeni quraşdırılacaq avtobus svetoforlarının hərəkət qaydaları bunlardır\n\n🚌ℹ️ Paytaxt",
   "link": "",
@@ -8579,5 +8570,51 @@
    "14364143406508082"
   ],
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T11:03:58.231081+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır",
+  "summary": "Bakıda yenilik olaraq tətbiq ediləcək avtobus svetoforlarının iş qaydaları açıqlanıb. Sürücülərin maarifləndirilməsi məqsədilə müvafiq fotoməlumat hazırlanıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır\n\nAzərbaycan paytaxtında ilk dəfə olaraq avtobus svetoforlarının quraşdırılması nəzərdə tutulur və bu istiqamətdə maarifləndirmə tədbirləri həyata keçirilir. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzi tərəfindən yeni svetoforların tətbiqi, işıq siqnallarının mənaları və hərəkət istiqamətləri barədə zəruri məlumatlar sürücülərə çatdırılır. Hazırlanan xüsusi fotoməlumat vasitəsilə sürücülər yeni svetoforların siqnalları və hərəkət qaydaları ilə tanış olmaq imkanı əldə edirlər.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #avtobussvetoforu #DİN #NİİM #BakıNəqliyyat",
+  "id": "20261124-145924-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261124-145924-u-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-145924-u-c2.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-145924-u-c3.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-145924-u-c4.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T11:03:58.231081+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır",
+  "summary": "Bakıda yenilik olaraq tətbiq ediləcək avtobus svetoforlarının iş qaydaları açıqlanıb. Sürücülərin maarifləndirilməsi məqsədilə müvafiq fotoməlumat hazırlanıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Paytaxtda ilk dəfə avtobus svetoforları quraşdırılır\n\nAzərbaycan paytaxtında ilk dəfə olaraq avtobus svetoforlarının quraşdırılması nəzərdə tutulur və bu istiqamətdə maarifləndirmə tədbirləri həyata keçirilir. Daxili İşlər Nazirliyinin Nəqliyyatı İntellektual İdarəetmə Mərkəzi tərəfindən yeni svetoforların tətbiqi, işıq siqnallarının mənaları və hərəkət istiqamətləri barədə zəruri məlumatlar sürücülərə çatdırılır. Hazırlanan xüsusi fotoməlumat vasitəsilə sürücülər yeni svetoforların siqnalları və hərəkət qaydaları ilə tanış olmaq imkanı əldə edirlər.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #avtobussvetoforu #DİN #NİİM #BakıNəqliyyat",
+  "id": "20261124-145924-u-r",
+  "kind": "reel",
+  "video": "20261124-145924-u-r.mp4",
+  "cover": "20261124-145924-u-r.jpg"
  }
 ]
