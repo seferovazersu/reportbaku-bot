@@ -6686,7 +6686,36 @@
   "id": "20261124-071227-u",
   "kind": "news",
   "created": "2026-11-24T03:12:27.080202+00:00",
-  "status": "building",
+  "status": "built",
+  "custom": true,
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "İranda müğənni və komandasına şallaq cəzası verilib",
+  "summary": "İran məhkəməsi hicabsız konsert verdikləri üçün müğənni Pərəstu Əhmədi və dörd nəfərə 74 şallaq cəzası kəsib. Apellyasiya məhkəməsi şikayəti təmin etməyib və hökm qüvvədə qalıb.",
+  "caption_text": "İranda 29 yaşlı müğənni Pərəstu Əhmədi və komandasının dörd üzvü Qum şəhərində konsert zamanı hicabsız və qolsuz geyimdə çıxış etdiklərinə görə cəzalandırılıblar.\n\n2024-cü ilin dekabrında “YouTube” platformasında yayımlanan həmin konsertdən sonra Qum Cinayət Məhkəməsi onları ictimai əxlaqı pozmaqda təqsirli bilib. Məhkəmənin qərarı ilə onlara 74 şallaq zərbəsi, iki il müddətinə audiovizual fəaliyyət və xaricə səyahət qadağası tətbiq olunub.\n\nSentyabr ayında apellyasiya məhkəməsi verilən şikayəti təmin etməyib və qərarı qüvvədə saxlayıb. Vəkilin cəzanın ləğvi və ya təxirə salınması istiqamətindəki müraciətləri nəticəsiz qalıb. Cəza alanlar arasında Soheyl Fəqih Nəsiri, Əmin Tahiri, Əmirəli Pirniya və Möhsün Ləşkəri də yer alıb.",
+  "voiceover": "İranda müğənni Pərəstu Əhmədi və komandasının dörd üzvü konsertdə hicabsız və qolsuz geyimdə çıxış etdikləri üçün 74 şallaq cəzası alıblar. Qum Cinayət Məhkəməsinin hökmü ilə onlara həmçinin iki il audiovizual fəaliyyət və xaricə səyahət qadağası qoyulub. Sentyabrda apellyasiya məhkəməsi şikayəti təmin etməyib və hökm qüvvədə qalıb.",
+  "hashtags": [
+   "#İran",
+   "#PərəstuƏhmədi",
+   "#xəbərlər"
+  ],
+  "highlight": [
+   "İranda",
+   "müğənni",
+   "şallaq cəzası"
+  ],
+  "source_note": "",
+  "source_title": "⚡ İranda 29 yaşlı müğənni Pərəstu Əhmədi və komandasının dörd üzvü Qum şəhərində hicabsız və qolsuz geyimdə canlı konser",
+  "link": "",
+  "sensitive": true,
+  "card_sent": true
+ },
+ {
+  "id": "20261124-072842-u",
+  "kind": "news",
+  "created": "2026-11-24T03:28:42.591164+00:00",
+  "status": "awaiting_media",
   "custom": true,
   "raw_text": "⚡ İranda 29 yaşlı müğənni Pərəstu Əhmədi və komandasının dörd üzvü Qum şəhərində hicabsız və qolsuz geyimdə canlı konsert verdiklərinə görə 74 şallaq zərbəsi cəzası alıblar. Onlar 2024-cü ilin dekabrında “YouTube”da yayımlanan konsertdə səhnəyə başıaçıq və qolsuz libasda çıxıblar. İran qanunlarına əsasən, qadınların ictimai konsert verməsi və hicabsız çıxış etməsi qadağandır. Bu ilin iyununda Qum Cinayət Məhkəməsi Əhmədini və daha səkkiz nəfəri “ictimai əxlaqı pozmaqda” təqsirli bilib və onlara 74 şallaq, iki il audiovizual fəaliyyət və xaricə səyahət qadağası verib. Sentyabrda apellyasiya məhkəməsi şikayəti təmin etməyib və hökm qüvvədə qalıb. Vəkil bildirib ki, cəzanın ləğvi və ya təxirə salınması üçün edilən müraciətlər nəticəsiz qalıb. Cəzalandırılanlar arasında Soheyl Fəqih Nəsiri, Əmin Tahiri, Əmirəli Pirniya və Möhsün Ləşkəri də var.",
   "media": [
@@ -6707,5 +6736,34 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T03:29:08.531602+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "İranda müğənni və komandasına şallaq cəzası verilib",
+  "summary": "İran məhkəməsi hicabsız konsert verdikləri üçün müğənni Pərəstu Əhmədi və dörd nəfərə 74 şallaq cəzası kəsib. Apellyasiya məhkəməsi şikayəti təmin etməyib və hökm qüvvədə qalıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "İranda müğənni və komandasına şallaq cəzası verilib\n\nİranda 29 yaşlı müğənni Pərəstu Əhmədi və komandasının dörd üzvü Qum şəhərində konsert zamanı hicabsız və qolsuz geyimdə çıxış etdiklərinə görə cəzalandırılıblar.\n\n2024-cü ilin dekabrında “YouTube” platformasında yayımlanan həmin konsertdən sonra Qum Cinayət Məhkəməsi onları ictimai əxlaqı pozmaqda təqsirli bilib. Məhkəmənin qərarı ilə onlara 74 şallaq zərbəsi, iki il müddətinə audiovizual fəaliyyət və xaricə səyahət qadağası tətbiq olunub.\n\nSentyabr ayında apellyasiya məhkəməsi verilən şikayəti təmin etməyib və qərarı qüvvədə saxlayıb. Vəkilin cəzanın ləğvi və ya təxirə salınması istiqamətindəki müraciətləri nəticəsiz qalıb. Cəza alanlar arasında Soheyl Fəqih Nəsiri, Əmin Tahiri, Əmirəli Pirniya və Möhsün Ləşkəri də yer alıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #İran #PərəstuƏhmədi #xəbərlər",
+  "id": "20261124-071227-u-p",
+  "kind": "post",
+  "image": "posts/20261124-071227-u-p.jpg"
+ },
+ {
+  "created": "2026-11-24T03:29:08.531602+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "İranda müğənni və komandasına şallaq cəzası verilib",
+  "summary": "İran məhkəməsi hicabsız konsert verdikləri üçün müğənni Pərəstu Əhmədi və dörd nəfərə 74 şallaq cəzası kəsib. Apellyasiya məhkəməsi şikayəti təmin etməyib və hökm qüvvədə qalıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "İranda müğənni və komandasına şallaq cəzası verilib\n\nİranda 29 yaşlı müğənni Pərəstu Əhmədi və komandasının dörd üzvü Qum şəhərində konsert zamanı hicabsız və qolsuz geyimdə çıxış etdiklərinə görə cəzalandırılıblar.\n\n2024-cü ilin dekabrında “YouTube” platformasında yayımlanan həmin konsertdən sonra Qum Cinayət Məhkəməsi onları ictimai əxlaqı pozmaqda təqsirli bilib. Məhkəmənin qərarı ilə onlara 74 şallaq zərbəsi, iki il müddətinə audiovizual fəaliyyət və xaricə səyahət qadağası tətbiq olunub.\n\nSentyabr ayında apellyasiya məhkəməsi verilən şikayəti təmin etməyib və qərarı qüvvədə saxlayıb. Vəkilin cəzanın ləğvi və ya təxirə salınması istiqamətindəki müraciətləri nəticəsiz qalıb. Cəza alanlar arasında Soheyl Fəqih Nəsiri, Əmin Tahiri, Əmirəli Pirniya və Möhsün Ləşkəri də yer alıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #İran #PərəstuƏhmədi #xəbərlər",
+  "id": "20261124-071227-u-r",
+  "kind": "reel",
+  "video": "20261124-071227-u-r.mp4",
+  "cover": "20261124-071227-u-r.jpg"
  }
 ]
