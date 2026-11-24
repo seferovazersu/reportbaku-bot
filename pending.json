@@ -9719,26 +9719,80 @@
   "id": "20261125-003850-u",
   "kind": "news",
   "created": "2026-11-24T20:38:50.775490+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIDuGsF9apfq3ukK6zLo7YqmNnTT0g1AAIDtwACDcAxSNDVbvcdVKygPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Ronaldo 987-ci qolunu vurdu",
+  "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
+  "caption_text": "Portuqaliyalı futbolçu karyerasında növbəti uğura imza ataraq 987-ci dəfə rəqib qapısına yol tapıb. Onun formasını geyindiyi kollektiv keçirilən qarşılaşmada qələbə qazanmağı bacarıb. Matç başa çatıb və komanda uğurlu nəticə əldə edib.",
+  "voiceover": "Futbolçu Ronaldo karyerasında 987-ci qolunu vurdu. Onun komandası keçirilən matçda qələbə qazandı.",
+  "hashtags": [
+   "#Ronaldo",
+   "#futbol",
+   "#idman"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Ronaldo",
+   "987-ci qolunu"
+  ],
   "source_note": "",
   "source_title": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T20:39:49.662399+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Ronaldo 987-ci qolunu vurdu",
+  "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Ronaldo 987-ci qolunu vurdu\n\nPortuqaliyalı futbolçu karyerasında növbəti uğura imza ataraq 987-ci dəfə rəqib qapısına yol tapıb. Onun formasını geyindiyi kollektiv keçirilən qarşılaşmada qələbə qazanmağı bacarıb. Matç başa çatıb və komanda uğurlu nəticə əldə edib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Ronaldo #futbol",
+  "id": "20261125-003850-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261125-003850-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261125-003850-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T20:39:49.662399+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Ronaldo 987-ci qolunu vurdu",
+  "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Ronaldo 987-ci qolunu vurdu\n\nPortuqaliyalı futbolçu karyerasında növbəti uğura imza ataraq 987-ci dəfə rəqib qapısına yol tapıb. Onun formasını geyindiyi kollektiv keçirilən qarşılaşmada qələbə qazanmağı bacarıb. Matç başa çatıb və komanda uğurlu nəticə əldə edib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Ronaldo #futbol",
+  "id": "20261125-003850-u-r",
+  "kind": "reel",
+  "video": "20261125-003850-u-r.mp4",
+  "cover": "20261125-003850-u-r.jpg"
+ },
+ {
+  "created": "2026-11-24T20:39:49.662399+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Ronaldo 987-ci qolunu vurdu",
+  "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Ronaldo 987-ci qolunu vurdu\n\nPortuqaliyalı futbolçu karyerasında növbəti uğura imza ataraq 987-ci dəfə rəqib qapısına yol tapıb. Onun formasını geyindiyi kollektiv keçirilən qarşılaşmada qələbə qazanmağı bacarıb. Matç başa çatıb və komanda uğurlu nəticə əldə edib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Ronaldo #futbol",
+  "id": "20261125-003850-u-s",
+  "kind": "story",
+  "image": "posts/20261125-003850-u-s.jpg"
  }
 ]
