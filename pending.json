@@ -7606,7 +7606,12 @@
   "created": "2026-11-24T08:05:40.885197+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIC-2sFRcfZv4avmkxKm1YjlTwEDAx5AAKJHWsbTg4pSDROfRwt6DeiAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Azərbaycan və Gürcüstanın polis akademiyaları arasında memorandum imzalanıb",
   "summary": "Azərbaycan və Gürcüstanın polis akademiyaları arasında əməkdaşlıq memorandumu imzalanıb. Sənəd birgə təhsil, kadr hazırlığı və təcrübə mübadiləsini nəzərdə tutur.",
