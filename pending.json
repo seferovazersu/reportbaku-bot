@@ -10046,26 +10046,80 @@
   "id": "20261125-021217-u",
   "kind": "news",
   "created": "2026-11-24T22:12:17.087426+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət olunub\n\nDövlət Gömrük Komitəsinin məlumatına görə, vətəndaş gətirdiyi əşyaları gömrük nəzarətinə təqdim etməkdən imtina edib və aqressiv şəkildə etirazını bildirib.\n\nOnun əşyaları digər gömrük nəzarəti zonasına yönləndirilib, müvafiq akt tərtib edilərək hüquq-mühafizə orqanlarına müraciət olunub.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAID0msGC5uxmxuJE1CxUbQBCLwvWAABegACoLcAAg3AMUhTsk_BgbBbuz0E",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib",
+  "summary": "Dubaydan gələn sərnişin gömrük baxışına dəvət olunsa da, əşyalarını təqdim etməkdən imtina edib. Dövlət Gömrük Komitəsinin məlumatına görə, faktla bağlı hüquq-mühafizə orqanlarına müraciət olunub.",
+  "caption_text": "Dubay–Bakı aviareysi ilə ölkəyə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük nəzarəti zamanı baxışa dəvət edilib. Dövlət Gömrük Komitəsinin yaydığı məlumata əsasən, həmin şəxs gətirdiyi əşyaları təqdim etmək istəməyib və aqressiv şəkildə etirazını ifadə edib.\n\nBundan sonra vətəndaşın əşyaları digər gömrük nəzarəti zonasına aparılıb. Baş verən hadisə ilə əlaqədar müvafiq qaydada akt tərtib olunub və hüquq-mühafizə strukturlarına müraciət edilib.",
+  "voiceover": "Dubay–Bakı reysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət olunub. Dövlət Gömrük Komitəsinin məlumatına görə, vətəndaş əşyalarını gömrük nəzarətinə təqdim etməkdən imtina edib və aqressiv şəkildə etirazını bildirib. Onun əşyaları digər gömrük nəzarəti zonasına yönləndirilib, müvafiq akt tərtib edilərək hüquq-mühafizə orqanlarına müraciət olunub.",
+  "hashtags": [
+   "#DövlətGömrükKomitəsi",
+   "#DubayBakı",
+   "#GömrükNəzarəti"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Dubay-Bakı",
+   "gömrük"
+  ],
   "source_note": "",
   "source_title": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət olunub\n\nDövlət Gömrük Komitəs",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T22:14:07.323009+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib",
+  "summary": "Dubaydan gələn sərnişin gömrük baxışına dəvət olunsa da, əşyalarını təqdim etməkdən imtina edib. Dövlət Gömrük Komitəsinin məlumatına görə, faktla bağlı hüquq-mühafizə orqanlarına müraciət olunub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib\n\nDubay–Bakı aviareysi ilə ölkəyə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük nəzarəti zamanı baxışa dəvət edilib. Dövlət Gömrük Komitəsinin yaydığı məlumata əsasən, həmin şəxs gətirdiyi əşyaları təqdim etmək istəməyib və aqressiv şəkildə etirazını ifadə edib.\n\nBundan sonra vətəndaşın əşyaları digər gömrük nəzarəti zonasına aparılıb. Baş verən hadisə ilə əlaqədar müvafiq qaydada akt tərtib olunub və hüquq-mühafizə strukturlarına müraciət edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətGömrükKomitəsi #DubayBakı #GömrükNəzarəti",
+  "id": "20261125-021217-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261125-021217-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261125-021217-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T22:14:07.323009+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib",
+  "summary": "Dubaydan gələn sərnişin gömrük baxışına dəvət olunsa da, əşyalarını təqdim etməkdən imtina edib. Dövlət Gömrük Komitəsinin məlumatına görə, faktla bağlı hüquq-mühafizə orqanlarına müraciət olunub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib\n\nDubay–Bakı aviareysi ilə ölkəyə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük nəzarəti zamanı baxışa dəvət edilib. Dövlət Gömrük Komitəsinin yaydığı məlumata əsasən, həmin şəxs gətirdiyi əşyaları təqdim etmək istəməyib və aqressiv şəkildə etirazını ifadə edib.\n\nBundan sonra vətəndaşın əşyaları digər gömrük nəzarəti zonasına aparılıb. Baş verən hadisə ilə əlaqədar müvafiq qaydada akt tərtib olunub və hüquq-mühafizə strukturlarına müraciət edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətGömrükKomitəsi #DubayBakı #GömrükNəzarəti",
+  "id": "20261125-021217-u-r",
+  "kind": "reel",
+  "video": "20261125-021217-u-r.mp4",
+  "cover": "20261125-021217-u-r.jpg"
+ },
+ {
+  "created": "2026-11-24T22:14:07.323009+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib",
+  "summary": "Dubaydan gələn sərnişin gömrük baxışına dəvət olunsa da, əşyalarını təqdim etməkdən imtina edib. Dövlət Gömrük Komitəsinin məlumatına görə, faktla bağlı hüquq-mühafizə orqanlarına müraciət olunub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Dubay-Bakı reysi ilə gələn sərnişin gömrük baxışından imtina edib\n\nDubay–Bakı aviareysi ilə ölkəyə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük nəzarəti zamanı baxışa dəvət edilib. Dövlət Gömrük Komitəsinin yaydığı məlumata əsasən, həmin şəxs gətirdiyi əşyaları təqdim etmək istəməyib və aqressiv şəkildə etirazını ifadə edib.\n\nBundan sonra vətəndaşın əşyaları digər gömrük nəzarəti zonasına aparılıb. Baş verən hadisə ilə əlaqədar müvafiq qaydada akt tərtib olunub və hüquq-mühafizə strukturlarına müraciət edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətGömrükKomitəsi #DubayBakı #GömrükNəzarəti",
+  "id": "20261125-021217-u-s",
+  "kind": "story",
+  "image": "posts/20261125-021217-u-s.jpg"
  }
 ]
