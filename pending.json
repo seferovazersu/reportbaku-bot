@@ -6982,13 +6982,14 @@
   "id": "20261124-081942-u",
   "kind": "news",
   "created": "2026-11-24T04:19:42.644341+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "☄️Bakının bəzi yollarında nəqliyyatın sıxlığı yaranıb",
   "media": [
    {
     "file_id": "AgACAgIAAxkBAAICuWsFECyerhhgFrqWQc7qubOqKMI_AAKqHGsbTg4pSO2XhL0aw8p-AQADAgADeAADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261124-081942-u/1.jpg"
    }
   ],
   "category": "CƏMİYYƏT",
