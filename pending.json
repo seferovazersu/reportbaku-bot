@@ -9768,7 +9768,7 @@
  },
  {
   "created": "2026-11-24T20:39:49.662399+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İDMAN",
   "headline": "Ronaldo 987-ci qolunu vurdu",
   "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
@@ -9779,11 +9779,13 @@
   "id": "20261125-003850-u-r",
   "kind": "reel",
   "video": "20261125-003850-u-r.mp4",
-  "cover": "20261125-003850-u-r.jpg"
+  "cover": "20261125-003850-u-r.jpg",
+  "instagram_id": "18139785385636295",
+  "permalink": "https://www.instagram.com/reel/DgI3bCOCvmh/"
  },
  {
   "created": "2026-11-24T20:39:49.662399+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İDMAN",
   "headline": "Ronaldo 987-ci qolunu vurdu",
   "summary": "Futbolçu Ronaldo karyerasında 987-ci qoluna imza atıb. Onun çıxış etdiyi komanda matçdan qələbə ilə ayrılıb.",
@@ -9793,6 +9795,8 @@
   "caption": "Ronaldo 987-ci qolunu vurdu\n\nPortuqaliyalı futbolçu karyerasında növbəti uğura imza ataraq 987-ci dəfə rəqib qapısına yol tapıb. Onun formasını geyindiyi kollektiv keçirilən qarşılaşmada qələbə qazanmağı bacarıb. Matç başa çatıb və komanda uğurlu nəticə əldə edib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Ronaldo #futbol",
   "id": "20261125-003850-u-s",
   "kind": "story",
-  "image": "posts/20261125-003850-u-s.jpg"
+  "image": "posts/20261125-003850-u-s.jpg",
+  "instagram_id": "18113886152231803",
+  "permalink": ""
  }
 ]
