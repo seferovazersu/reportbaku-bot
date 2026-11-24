@@ -6797,5 +6797,33 @@
   "kind": "reel",
   "video": "20261124-072842-u-r.mp4",
   "cover": "20261124-072842-u-r.jpg"
+ },
+ {
+  "id": "20261124-073423-01",
+  "kind": "news",
+  "created": "2026-11-24T03:34:23.932529+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Rusiyanın kosmosa nüvə silahı yerləşdirə biləcəyi iddia edilir",
+  "summary": "Qərb kəşfiyyatının məlumatına görө, Rusiya bu ilin sonunadək kosmosa nüvə silahı yerləşdirə bilər. NATO ölkələrində narahatlıq doğuran iddia ilə bağlı Almaniya mediası araşdırma yayıb.",
+  "caption_text": "Almaniya mediasının yaydığı birgə araşdırmaya görə, Rusiya bu ilin sonunadək kosmosa nüvə silahı yerləşdirməyi planlaşdıra bilər. Qərb kəşfiyyat xidmətlərindən və Almaniya ordusundakı mənbələrə əsaslanan məlumatlar NATO ölkələrində ciddi narahatlıq yaradıb. \n\nMəlumata əsasən, söhbət Rusiyanın “Sputnik-S” adlı məxfi layihəsindən gedir və kosmik aparatın dekabr ayında orbitə buraxıla biləcəyi ehtimal olunur. Almaniya mediası qeyd edir ki, kosmosda nüvə başlığının partladılması peykləri sıradan çıxara və Yer kürəsində mülki rabitə ilə naviqasiya sistemlərində problemlər yarada bilər. \n\nRusiyanın Berlindəki səfirliyi isə iddiaları təkzib edərək onları əsassız və təbliğat kampaniyası adlandırıb. Almaniya Müdafiə Nazirliyi isə yayılan məlumatları şərh etməkdən imtina edib.",
+  "voiceover": "Qərb kəşfiyyatının məlumatına görə, Rusiya bu ilin sonunadək kosmosa nüvə silahı yerləşdirə bilər. Almaniya mediasının yaydığı araşdırmada söhbətin Rusiyanın Sputnik-S adlı məxfi layihəsindən getdiyi bildirilir. Almaniya ordusunun Kosmik Komandanlığının qiymətləndirməsinə əsasən, peyk artıq dekabr ayında orbitə buraxıla bilər. Mütəxəssislər hesab edirlər ki, kosmosda nüvə partlayışı peykləri sıradan çıxara və Yer kürəsində rabitə ilə naviqasiya sistemlərində ciddi problemlər yarada bilər. Rusiyanın Berlindəki səfirliyi isə iddiaları təkzib edərək onları əsassız adlandırıb.",
+  "hashtags": [
+   "#Rusiya",
+   "#NATO",
+   "#Kosmos",
+   "#Almaniya",
+   "#Xəbərlər"
+  ],
+  "highlight": [
+   "Rusiya",
+   "kosmosa nüvə silahı"
+  ],
+  "source_note": "Mənbə: Publika",
+  "source_title": "Kreml “kosmik qiyamət”ə hazırlaşır?!",
+  "link": "https://publika.az/news/mdb/649846.html",
+  "sensitive": true
  }
 ]
