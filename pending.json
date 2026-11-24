@@ -9165,34 +9165,24 @@
   "id": "20261124-200918-u",
   "kind": "news",
   "created": "2026-11-24T16:09:18.696535+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından mərkəz istiqamətində;\n2. Ziya Bünyadov prospekti, Bakı Olimpiya Stadionunun qarşısından “20 Yanvar” metro stansiyası istiqamətində;\n3. Ziya Bünyadov prospekti, Əhməd Rəcəbli küçəsi ilə kəsişmədən Atatürk prospekti ilə kəsişməyə qədər;\n4. Yusif Səfərov küçəsi, mərkəz istiqamətində;\n5. Yusif Səfərov küçəsi, Heydər Əliyev prospekti istiqamətində;\n6. Neftçilər prospekti, Yusif Səfərov küçəsi istiqamətində;\n7. Niyazi küçəsi, “Azneft” dairəsi istiqamətində;\n8. Dənizkənarı küçəsi, Bayraq Meydanının qarşısından “Azneft” dairəsi istiqamətində;\n9. Şəmsi Bədəlbəyli küçəsi, “Qış parkı”nın qarşısından Mərkəzi Bank istiqamətində;\n10. Bakı-Sumqayıt şosesi, “20 Yanvar” metro stansiyası istiqamətində;\n11. Bakı-Sumqayıt şosesi, “Xırdalan” dairəsi istiqamətində;\n12. 8 Noyabr prospekti, Süleyman Əhmədov küçəsi ilə kəsişmədən Zığ şosesi istiqamətində sıxlıq müşahidə olunur.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDhmsFtmleziP063kfJ_xvGBj6pGp7AAKTJWsbTg4xSKWtv-cqCgXJAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDh2sFtmnTLltQBPm4kfUO10aJyLBYAAKUJWsbTg4xSMZxzEObS-BcAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDiGsFtmmgVAk-Cn9jx6PgCmVyaFlHAAKVJWsbTg4xSDcp_Ef8Qw-mAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIDiWsFtmkVyCJQuzqN3_XXfdVuZohfAAKWJWsbTg4xSBKWOZkyTCtXAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb",
+  "summary": "Bakının əsas prospekt və küçələrində nəqliyyatın hərəkətində intensivlik müşahidə olunur. Sürücülərin bir sıra istiqamətlərdə yollarda sıxlıqla qarşılaşdığı bildirilib.",
+  "caption_text": "Paytaxtın əsas nəqliyyat qovşaqlarında və magistrallarında yaranan vəziyyət açıqlanıb.\n\nMəlumata görə, Tbilisi prospekti, Ziya Bünyadov prospekti, Yusif Səfərov küçəsi və Neftçilər prospektində nəqliyyat vasitələrinin hərəkətində sıxlıq qeydə alınıb. Eyni zamanda, Niyazi küçəsi, Dənizkənarı küçəsi, Şəmsi Bədəlbəyli küçəsi, Bakı-Sumqayıt şosesi və 8 Noyabr prospektinin müəyyən hissələrində də nəqliyyatın axınında ləngimələr müşahidə olunur.",
+  "voiceover": "Paytaxtın əsas küçə və prospektlərində yollardakı mövcud vəziyyət açıqlanıb. Tbilisi və Ziya Bünyadov prospektlərində, həmçinin Yusif Səfərov və Neftçilər prospekti istiqamətində nəqliyyatın hərəkətində sıxlıq qeydə alınıb. Eyni problemlər Bakı-Sumqayıt şosesində və 8 Noyabr prospektində də müşahidə olunur.",
+  "hashtags": [
+   "#BakıYolları",
+   "#Nəqliyyat",
+   "#Sıxlıq",
+   "#YolHərəkəti"
+  ],
+  "highlight": [
+   "sıxlıq"
+  ],
   "source_note": "",
   "source_title": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından mərkəz istiqamətində;\n2. Ziya",
   "link": "",
@@ -9201,5 +9191,65 @@
    "14364291913825642"
   ],
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T16:14:33.541342+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb",
+  "summary": "Bakının əsas prospekt və küçələrində nəqliyyatın hərəkətində intensivlik müşahidə olunur. Sürücülərin bir sıra istiqamətlərdə yollarda sıxlıqla qarşılaşdığı bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb\n\nPaytaxtın əsas nəqliyyat qovşaqlarında və magistrallarında yaranan vəziyyət açıqlanıb.\n\nMəlumata görə, Tbilisi prospekti, Ziya Bünyadov prospekti, Yusif Səfərov küçəsi və Neftçilər prospektində nəqliyyat vasitələrinin hərəkətində sıxlıq qeydə alınıb. Eyni zamanda, Niyazi küçəsi, Dənizkənarı küçəsi, Şəmsi Bədəlbəyli küçəsi, Bakı-Sumqayıt şosesi və 8 Noyabr prospektinin müəyyən hissələrində də nəqliyyatın axınında ləngimələr müşahidə olunur.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #BakıYolları #Nəqliyyat #Sıxlıq #YolHərəkəti",
+  "id": "20261124-200918-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261124-200918-u-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-200918-u-c2.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-200918-u-c3.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261124-200918-u-c4.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T16:14:33.541342+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb",
+  "summary": "Bakının əsas prospekt və küçələrində nəqliyyatın hərəkətində intensivlik müşahidə olunur. Sürücülərin bir sıra istiqamətlərdə yollarda sıxlıqla qarşılaşdığı bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb\n\nPaytaxtın əsas nəqliyyat qovşaqlarında və magistrallarında yaranan vəziyyət açıqlanıb.\n\nMəlumata görə, Tbilisi prospekti, Ziya Bünyadov prospekti, Yusif Səfərov küçəsi və Neftçilər prospektində nəqliyyat vasitələrinin hərəkətində sıxlıq qeydə alınıb. Eyni zamanda, Niyazi küçəsi, Dənizkənarı küçəsi, Şəmsi Bədəlbəyli küçəsi, Bakı-Sumqayıt şosesi və 8 Noyabr prospektinin müəyyən hissələrində də nəqliyyatın axınında ləngimələr müşahidə olunur.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #BakıYolları #Nəqliyyat #Sıxlıq #YolHərəkəti",
+  "id": "20261124-200918-u-r",
+  "kind": "reel",
+  "video": "20261124-200918-u-r.mp4",
+  "cover": "20261124-200918-u-r.jpg"
+ },
+ {
+  "created": "2026-11-24T16:14:33.541342+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb",
+  "summary": "Bakının əsas prospekt və küçələrində nəqliyyatın hərəkətində intensivlik müşahidə olunur. Sürücülərin bir sıra istiqamətlərdə yollarda sıxlıqla qarşılaşdığı bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində yollarda sıxlıq qeydə alınıb\n\nPaytaxtın əsas nəqliyyat qovşaqlarında və magistrallarında yaranan vəziyyət açıqlanıb.\n\nMəlumata görə, Tbilisi prospekti, Ziya Bünyadov prospekti, Yusif Səfərov küçəsi və Neftçilər prospektində nəqliyyat vasitələrinin hərəkətində sıxlıq qeydə alınıb. Eyni zamanda, Niyazi küçəsi, Dənizkənarı küçəsi, Şəmsi Bədəlbəyli küçəsi, Bakı-Sumqayıt şosesi və 8 Noyabr prospektinin müəyyən hissələrində də nəqliyyatın axınında ləngimələr müşahidə olunur.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #BakıYolları #Nəqliyyat #Sıxlıq #YolHərəkəti",
+  "id": "20261124-200918-u-s",
+  "kind": "story",
+  "image": "posts/20261124-200918-u-s.jpg"
  }
 ]
