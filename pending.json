@@ -6626,7 +6626,7 @@
   "id": "20261124-070411-01",
   "kind": "news",
   "created": "2026-11-24T03:04:11.329897+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SAĞLAMLIQ",
@@ -6648,6 +6648,36 @@
   "source_note": "Mənbə: Qafqazinfo",
   "source_title": "Dərdin dərmanı özü imiş...",
   "link": "https://www.qafqazinfo.az/news/detail/derdin-dermani-ozu-imis-529578",
-  "sensitive": true
+  "sensitive": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T03:07:10.386417+00:00",
+  "status": "pending",
+  "category": "SAĞLAMLIQ",
+  "headline": "Bakteriya daşıyan ağcaqanadlar infeksiyaları 69 faiz azaldıb",
+  "summary": "Braziliyada aparılan araşdırma “Wolbachia” bakteriyası daşıyan ağcaqanadların denqe və çikunqunya infeksiyalarını əhəmiyyətli dərəcədə azaltdığını göstərib. Tədqiqat nəticələri bu metodun ənənəvi üsullara qarşı təsirli strategiya ola biləcəyini üzə çıxarıb.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/derdin-dermani-ozu-imis-529578",
+  "sensitive": true,
+  "caption": "Bakteriya daşıyan ağcaqanadlar infeksiyaları 69 faiz azaldıb\n\nBraziliyada həyata keçirilən genişmiqyaslı elmi tədqiqat zamanı maraqlı nəticələr əldə olunub. Mütəxəssislərin açıqlamasına görə, virusları ötürmək qabiliyyəti olmayan “Wolbachia” bakteriyası daşıyan ağcaqanadların mövcud olduğu ərazilərdə məktəb yaşlı uşaqlar arasında denqe qızdırması və çikunqunya yoluxmaları təxminən 69 faiz azalıb. 5700-dən çox uşaq üzərində aparılan bu araşdırma ölkədə 2024-cü ildə qeydə alınan şiddətli epidemiya dövründə də öz müsbət təsirini qoruyub saxlayıb.\n\nEkspertlər bildirirlər ki, yeni metod yalnız pestisidlərə və fərdi qorunma vasitələrinə əsaslanan ənənəvi mübarizə üsullarına qarşı səmərəli alternativ ola bilər. Beynəlxalq tədqiqat qrupunun üzvü doktor Şri Edupuqantinin sözlərinə görə, bu yanaşma yoluxma riskini nəzərəçarpacaq dərəcədə aşağı salır. Yeni nəticələr həmçinin Birləşmiş Ştatların Florida ştatında irimiqyaslı virus epidemiyası ilə mübarizə aparıldığı dövrə təsadüf edib.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #sağlamlıq #tibb #elm #araşdırma #Braziliya",
+  "id": "20261124-070411-01-p",
+  "kind": "post",
+  "image": "posts/20261124-070411-01-p.jpg"
+ },
+ {
+  "created": "2026-11-24T03:07:10.386417+00:00",
+  "status": "pending",
+  "category": "SAĞLAMLIQ",
+  "headline": "Bakteriya daşıyan ağcaqanadlar infeksiyaları 69 faiz azaldıb",
+  "summary": "Braziliyada aparılan araşdırma “Wolbachia” bakteriyası daşıyan ağcaqanadların denqe və çikunqunya infeksiyalarını əhəmiyyətli dərəcədə azaltdığını göstərib. Tədqiqat nəticələri bu metodun ənənəvi üsullara qarşı təsirli strategiya ola biləcəyini üzə çıxarıb.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/derdin-dermani-ozu-imis-529578",
+  "sensitive": true,
+  "caption": "Bakteriya daşıyan ağcaqanadlar infeksiyaları 69 faiz azaldıb\n\nBraziliyada həyata keçirilən genişmiqyaslı elmi tədqiqat zamanı maraqlı nəticələr əldə olunub. Mütəxəssislərin açıqlamasına görə, virusları ötürmək qabiliyyəti olmayan “Wolbachia” bakteriyası daşıyan ağcaqanadların mövcud olduğu ərazilərdə məktəb yaşlı uşaqlar arasında denqe qızdırması və çikunqunya yoluxmaları təxminən 69 faiz azalıb. 5700-dən çox uşaq üzərində aparılan bu araşdırma ölkədə 2024-cü ildə qeydə alınan şiddətli epidemiya dövründə də öz müsbət təsirini qoruyub saxlayıb.\n\nEkspertlər bildirirlər ki, yeni metod yalnız pestisidlərə və fərdi qorunma vasitələrinə əsaslanan ənənəvi mübarizə üsullarına qarşı səmərəli alternativ ola bilər. Beynəlxalq tədqiqat qrupunun üzvü doktor Şri Edupuqantinin sözlərinə görə, bu yanaşma yoluxma riskini nəzərəçarpacaq dərəcədə aşağı salır. Yeni nəticələr həmçinin Birləşmiş Ştatların Florida ştatında irimiqyaslı virus epidemiyası ilə mübarizə aparıldığı dövrə təsadüf edib.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #sağlamlıq #tibb #elm #araşdırma #Braziliya",
+  "id": "20261124-070411-01-r",
+  "kind": "reel",
+  "video": "20261124-070411-01-r.mp4",
+  "cover": "20261124-070411-01-r.jpg"
  }
 ]
