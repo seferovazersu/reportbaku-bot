@@ -8852,26 +8852,80 @@
   "id": "20261124-172034-u",
   "kind": "news",
   "created": "2026-11-24T13:20:34.356369+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIDaWsFjxTf4aX9m6MGITAQjAABq98AAX0AAu-vAAJODjFIUqxCGUbyOt49BA",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "MƏDƏNİYYƏT",
+  "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
+  "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
+  "caption_text": "\"Barcelona\" klubunun rəsmi sosial media hesabında Azərbaycanın paytaxtı Bakı ilə bağlı görüntülər paylaşımlara daxil edilib. İspaniya təmsilçisinin rəsmi səhifəsində yayımlanan bu kadrlar izləyicilər tərəfindən maraqla qarşılanıb. Paylaşımın detalları və hansı səbəblə edildiyi barədə əlavə məlumat verilməyib.",
+  "voiceover": "\"Barcelona\" klubunun rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb. İspaniya təmsilçisinin yayımladığı kadrlar izləyicilərin diqqətini cəlb edib.",
+  "hashtags": [
+   "#Barcelona",
+   "#Bakı",
+   "#ReportBaku"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Barcelona",
+   "Bakı"
+  ],
   "source_note": "",
   "source_title": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T13:23:35.025822+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
+  "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb\n\n\"Barcelona\" klubunun rəsmi sosial media hesabında Azərbaycanın paytaxtı Bakı ilə bağlı görüntülər paylaşımlara daxil edilib. İspaniya təmsilçisinin rəsmi səhifəsində yayımlanan bu kadrlar izləyicilər tərəfindən maraqla qarşılanıb. Paylaşımın detalları və hansı səbəblə edildiyi barədə əlavə məlumat verilməyib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #Barcelona",
+  "id": "20261124-172034-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261124-172034-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261124-172034-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T13:23:35.025822+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
+  "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb\n\n\"Barcelona\" klubunun rəsmi sosial media hesabında Azərbaycanın paytaxtı Bakı ilə bağlı görüntülər paylaşımlara daxil edilib. İspaniya təmsilçisinin rəsmi səhifəsində yayımlanan bu kadrlar izləyicilər tərəfindən maraqla qarşılanıb. Paylaşımın detalları və hansı səbəblə edildiyi barədə əlavə məlumat verilməyib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #Barcelona",
+  "id": "20261124-172034-u-r",
+  "kind": "reel",
+  "video": "20261124-172034-u-r.mp4",
+  "cover": "20261124-172034-u-r.jpg"
+ },
+ {
+  "created": "2026-11-24T13:23:35.025822+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb",
+  "summary": "\"Barcelona\" futbol klubunun rəsmi sosial media səhifəsində Bakı şəhərindən kadrlar yayımlanıb. Paylaşım izləyicilərin diqqətini çəkib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Barcelona\" səhifəsində Bakıdan görüntülər paylaşılıb\n\n\"Barcelona\" klubunun rəsmi sosial media hesabında Azərbaycanın paytaxtı Bakı ilə bağlı görüntülər paylaşımlara daxil edilib. İspaniya təmsilçisinin rəsmi səhifəsində yayımlanan bu kadrlar izləyicilər tərəfindən maraqla qarşılanıb. Paylaşımın detalları və hansı səbəblə edildiyi barədə əlavə məlumat verilməyib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #Barcelona",
+  "id": "20261124-172034-u-s",
+  "kind": "story",
+  "image": "posts/20261124-172034-u-s.jpg"
  }
 ]
