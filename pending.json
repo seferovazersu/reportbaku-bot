@@ -7715,7 +7715,7 @@
  },
  {
   "created": "2026-11-24T08:15:22.214946+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SİYASƏT",
   "headline": "Azərbaycan ilə Vyetnam arasında strateji tərəfdaşlıq əlaqələri genişlənir",
   "summary": "Azərbaycan və Vyetnam arasında imzalanan Birgə Bəyannamə əməkdaşlığı strateji tərəfdaşlıq səviyyəsinə yüksəldib. Sənəd siyasi dialoq, iqtisadiyyat və enerji sahəsində yeni imkanlar açır.",
@@ -7726,6 +7726,34 @@
   "id": "20261124-120540-03-r",
   "kind": "reel",
   "video": "20261124-120540-03-r.mp4",
-  "cover": "20261124-120540-03-r.jpg"
+  "cover": "20261124-120540-03-r.jpg",
+  "instagram_id": "18150285625675780",
+  "permalink": "https://www.instagram.com/reel/DgHji0MAq_d/"
+ },
+ {
+  "id": "20261124-124509-u",
+  "kind": "news",
+  "created": "2026-11-24T08:45:09.717494+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik etdiyi nümayəndə heyətini qəbul edib.",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAIDAmsFTjfqwGzFHMPmUNuNKmJAfOP4AALurgACTg4pSP7ilqfNYSu_PQQ",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "Azərbaycan Respublikasının Prezidenti İlham Əliyev noyabrın 24-də Monteneqronun Baş naziri Miloyko Spayiçin rəhbərlik et",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
