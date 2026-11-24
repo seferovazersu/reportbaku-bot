@@ -8779,7 +8779,12 @@
   "created": "2026-11-24T13:08:11.445977+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDYWsFjNId_tklF1N869Fg6hWwNIVFAAJXJGsbTg4xSD9LowzaqYbDAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Kəlbəcər rayonunun işğaldan azad olunmasından beş il ötür",
   "summary": "2020-ci il noyabrın 25-də Kəlbəcər rayonu uzun sürən işğaldan azad edilərək Azərbaycanın nəzarətinə qaytarılıb. Hazırda ərazidə genişmiqyaslı bərpa, infrastruktur və quruculuq işləri həyata keçirilir.",
