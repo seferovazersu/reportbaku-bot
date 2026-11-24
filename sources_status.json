@@ -37,7 +37,7 @@
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
-    "state": "OK (20 təzə xəbər, HTTP 200)"
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
   },
   "Metbuat.az": {
     "url": "https://metbuat.az/rss.xml",
