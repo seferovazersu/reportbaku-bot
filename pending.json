@@ -8040,26 +8040,60 @@
   "id": "20261124-140238-u",
   "kind": "news",
   "created": "2026-11-24T10:02:38.287634+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚌 Bakıda avtobusdan istifadədə yeni rekord!\n\n🚍 2026-cı ilin oktyabr ayında daşınan sərnişinlərin sayı 54 milyona yaxındır!\n\n2026-cı ilin yanvar-oktyabr aylarında paytaxtda şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobus marşrutları ilə 440,1 milyon sərnişin səfəri həyata keçirilib.\n\n📈 Bu, ötən ilin müvafiq dövrü ilə müqayisədə 8,1% artım deməkdir.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDHGsFX4NnO-NMZIs0Ly04plXr3RTcAAIoHmsbTg4pSOR5j5vIQoFXAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Bakı avtobuslarında sərnişin daşınmasında yeni artım qeydə alınıb",
+  "summary": "Bakıətrafı və şəhərdaxili avtobus marşrutları ilə daşınan sərnişinlərin sayı artıb. Oktyabr ayında göstərici 54 milyona yaxın olub.",
+  "caption_text": "Paytaxtda ictimai nəqliyyatdan istifadə edən sərnişinlərin sayında artım müşahidə olunub. Cari ilin yanvar-oktyabr dövründə şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobus marşrutları vasitəsilə ümumilikdə 440,1 milyon sərnişin daşınması həyata keçirilib. Yalnız oktyabr ayında bu rəqəm 54 milyona yaxın təşkil edib. Qeyd olunan dövr ərzində sərnişin səfərlərinin sayı əvvəlki ilin müvafiq ayları ilə müqayisədə 8,1 faiz artıb.",
+  "voiceover": "Bakıda avtobus marşrutları ilə daşınan sərnişinlərin sayında artım qeydə alınıb. 2026-cı ilin yanvar-oktyabr aylarında şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobuslarla 440,1 milyon sərnişin səfəri gerçəkləşdirilib. Təkcə 2026-cı ilin oktyabr ayında daşınan sərnişinlərin sayı 54 milyona yaxın olub. Bu göstərici ötən ilin müvafiq dövrü ilə müqayisədə 8,1 faiz çoxdur.",
+  "hashtags": [
+   "#Bakı",
+   "#Avtobus",
+   "#İctimaiNəqliyyat",
+   "#Sərnişin",
+   "#İqtisadiyyat"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚌 Bakıda avtobusdan istifadədə yeni rekord!\n\n🚍 2026-cı ilin oktyabr ayında daşınan sərnişi",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Bakı",
+   "sərnişin",
+   "artım"
+  ],
   "source_note": "",
   "source_title": "🚌 Bakıda avtobusdan istifadədə yeni rekord!\n\n🚍 2026-cı ilin oktyabr ayında daşınan sərnişinlərin sayı 54 milyona yaxındı",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T10:04:48.433385+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Bakı avtobuslarında sərnişin daşınmasında yeni artım qeydə alınıb",
+  "summary": "Bakıətrafı və şəhərdaxili avtobus marşrutları ilə daşınan sərnişinlərin sayı artıb. Oktyabr ayında göstərici 54 milyona yaxın olub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Bakı avtobuslarında sərnişin daşınmasında yeni artım qeydə alınıb\n\nPaytaxtda ictimai nəqliyyatdan istifadə edən sərnişinlərin sayında artım müşahidə olunub. Cari ilin yanvar-oktyabr dövründə şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobus marşrutları vasitəsilə ümumilikdə 440,1 milyon sərnişin daşınması həyata keçirilib. Yalnız oktyabr ayında bu rəqəm 54 milyona yaxın təşkil edib. Qeyd olunan dövr ərzində sərnişin səfərlərinin sayı əvvəlki ilin müvafiq ayları ilə müqayisədə 8,1 faiz artıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Avtobus #İctimaiNəqliyyat #Sərnişin #İqtisadiyyat",
+  "id": "20261124-140238-u-p",
+  "kind": "post",
+  "image": "posts/20261124-140238-u-p.jpg"
+ },
+ {
+  "created": "2026-11-24T10:04:48.433385+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Bakı avtobuslarında sərnişin daşınmasında yeni artım qeydə alınıb",
+  "summary": "Bakıətrafı və şəhərdaxili avtobus marşrutları ilə daşınan sərnişinlərin sayı artıb. Oktyabr ayında göstərici 54 milyona yaxın olub.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Bakı avtobuslarında sərnişin daşınmasında yeni artım qeydə alınıb\n\nPaytaxtda ictimai nəqliyyatdan istifadə edən sərnişinlərin sayında artım müşahidə olunub. Cari ilin yanvar-oktyabr dövründə şəhərdaxili, şəhərətrafı və qəsəbələrarası avtobus marşrutları vasitəsilə ümumilikdə 440,1 milyon sərnişin daşınması həyata keçirilib. Yalnız oktyabr ayında bu rəqəm 54 milyona yaxın təşkil edib. Qeyd olunan dövr ərzində sərnişin səfərlərinin sayı əvvəlki ilin müvafiq ayları ilə müqayisədə 8,1 faiz artıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Avtobus #İctimaiNəqliyyat #Sərnişin #İqtisadiyyat",
+  "id": "20261124-140238-u-r",
+  "kind": "reel",
+  "video": "20261124-140238-u-r.mp4",
+  "cover": "20261124-140238-u-r.jpg"
  }
 ]
