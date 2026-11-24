@@ -207,6 +207,17 @@ def build_for(e, pending):
                 tg_post("sendVideo", {"caption": (warn + "🎬 REELS ÖNİZLƏMƏ (%d san.)\n\n%s" % (round(res["duration"]), e["headline"]))[:900],
                                       "supports_streaming": "true", "width": VW, "height": VH,
                                       "reply_markup": buttons("🎬 Reels paylaş", "reel", rid)}, files={"video": f})
+    # --- 3) Story (9:16 şəkil: media tam ekran + başlıq) ---
+    sid = base + "-s"
+    story_img = POSTS_DIR / (sid + ".jpg")
+    try:
+        make_cover_image(photo, e["category"], e["headline"], str(story_img), highlight=e.get("highlight", []))
+        pending.append(dict(entry_common, id=sid, kind="story", image=str(story_img).replace("\\", "/")))
+        with open(story_img, "rb") as f:
+            tg_post("sendPhoto", {"caption": (warn + "📲 STORY (24 saat)\n\n" + e["headline"])[:900],
+                                  "reply_markup": buttons("📲 Story paylaş", "story", sid)}, files={"photo": f})
+    except Exception as ex:
+        print("  Story hazırlanmadı:", str(ex)[:100])
     e["status"] = "built"
     e["raw_text"] = ""          # repo açıqdır: göndərdiyiniz xam mətn və fayl yolları saxlanılmır
     e["media"] = []

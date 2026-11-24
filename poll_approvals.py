@@ -161,6 +161,28 @@ def publish_carousel(post):
     return {"ok": True, "media_id": media_id, "permalink": permalink}
 
 
+def publish_story(post):
+    """Story (24 saat): şəkil və ya video. Caption/link stikeri API ilə mümkün deyil."""
+    stage = "container"
+    try:
+        if post.get("video"):
+            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
+            params = {"media_type": "STORIES", "video_url": url}
+        else:
+            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])
+            params = {"media_type": "STORIES", "image_url": url}
+        _check_link(url)
+        params["access_token"] = IG_TOKEN
+        cid = http("POST", GRAPH + IG_USER_ID + "/media", params)["id"]
+        _wait_finished(cid, 60)
+        stage = "publish"
+        media_id = http("POST", GRAPH + IG_USER_ID + "/media_publish", {
+            "creation_id": cid, "access_token": IG_TOKEN})["id"]
+    except ApiError as e:
+        return {"ok": False, "stage": stage, "error": str(e)}
+    return {"ok": True, "media_id": media_id, "permalink": ""}
+
+
 def message_media(m):
     """Mesajdakı şəkil/videonu tapır: ('photo'|'video', file_id) və ya None."""
     if m.get("photo"):
@@ -322,6 +344,8 @@ def publish(post):
     {'ok':..., 'stage':..., 'error':..., 'permalink':...} qaytarır."""
     if post.get("kind") == "carousel":
         return publish_carousel(post)
+    if post.get("kind") == "story":
+        return publish_story(post)
     is_reel = post.get("kind") == "reel"
     if is_reel:
         media_url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
@@ -434,7 +458,7 @@ def main():
 
         kind = post.get("kind", "post")
         if (action == "pub" and kind not in ("post", "carousel")) or (action == "reel" and kind != "reel") \
-                or action not in ("pub", "reel"):
+                or (action == "story" and kind != "story") or action not in ("pub", "reel", "story"):
             answer(cq, "Naməlum əmr.")
             continue
 
@@ -457,7 +481,7 @@ def main():
             post["instagram_id"] = result["media_id"]
             post["permalink"] = result["permalink"]
             save(pending)
-            line = {"reel": "✅ REELS PAYLAŞILDI", "carousel": "✅ KARUSEL PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
+            line = {"reel": "✅ REELS PAYLAŞILDI", "carousel": "✅ KARUSEL PAYLAŞILDI", "story": "✅ STORY PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
             if result["permalink"]:
                 line += "\n" + result["permalink"]
             finish_message(cq, line)
