@@ -9964,5 +9964,31 @@
   "image": "posts/20261125-013947-u-s.jpg",
   "instagram_id": "18112826138217612",
   "permalink": ""
+ },
+ {
+  "id": "20261125-020511-u",
+  "kind": "news",
+  "created": "2026-11-24T22:05:11.662016+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "⚽️ Noyabrın 25-də “Sabah” futbol klubunun Bakı Olimpiya Stadionunda keçirəcəyi oyunu ilə əlaqədar Milli Həmrəylik küçəsində nəqliyyat vasitələrinin hərəkətinə məhdudiyyət tətbiq ediləcək.\n\n🚌 Məhdudiyyət səbəbindən 18 müntəzəm marşrutun (24, 107, 118A, 118B, 131, 139, 148, 162, 163, 166, 173A, 173B, 197, 198, 204, 216, 217 və M8 nömrəli) hərəkət sxemi müvəqqəti dəyişdiriləcək.\n\nAvtobuslar:\n🔹 Sabunçu yol qovşağı istiqamətində Milli Həmrəylik küçəsi (kənar yol), Ziya Bünyadov və Heydər Əliyev prospektləri ilə;\n🔹 “Koroğlu” Nəqliyyat Mübadilə Mərkəzi istiqamətində isə Heydər Əliyev prospekti ilə hərəkət edəcək.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDzGsGCO7mIlpKEs2NeDUKolguYtpNAALLJWsbDcAxSKmVWynlHOblAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "⚽️ Noyabrın 25-də “Sabah” futbol klubunun Bakı Olimpiya Stadionunda keçirəcəyi oyunu ilə ə",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "⚽️ Noyabrın 25-də “Sabah” futbol klubunun Bakı Olimpiya Stadionunda keçirəcəyi oyunu ilə əlaqədar Milli Həmrəylik küçəsi",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
