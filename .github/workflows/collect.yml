@@ -27,7 +27,7 @@ jobs:
 
       - name: Xəbərləri topla
         env:
-          TARGET_COUNT: "3"
+          TARGET_COUNT: "5"
         run: python collect_news.py
 
       - name: AI ilə mətnləri hazırla
