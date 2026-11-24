@@ -7640,7 +7640,12 @@
   "created": "2026-11-24T08:05:40.885197+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIC_WsFRuBgNTOd2T-H4qRTx6Gf9H1UAAKQHWsbTg4pSM_MX3Gr89OzAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "İndoneziya Cokyakarta ilə Şuşa arasında qardaşlaşma təklif edib",
   "summary": "İndoneziyanın Azərbaycandakı səfiri Cokyakarta və Şuşa şəhərləri arasında qardaşlaşma əlaqələrinin qurulmasını təklif edib. Diplomat bu barədə Bakıda keçirilən İndoneziya Biznes Forumunda danışıb.",
@@ -7668,7 +7673,7 @@
   "id": "20261124-120540-03",
   "kind": "news",
   "created": "2026-11-24T08:05:40.885197+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SİYASƏT",
@@ -7691,6 +7696,36 @@
   "source_title": "Azərbaycan və Vyetnam arasında strateji tərəfdaşlıq yeni əməkdaşlıq imkanlarının əsasını qoyur",
   "link": "https://sesqazeti.az/news/politics/1376472.html",
   "sensitive": false,
-  "card_id": 762
+  "card_id": 762,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T08:15:22.214946+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Azərbaycan ilə Vyetnam arasında strateji tərəfdaşlıq əlaqələri genişlənir",
+  "summary": "Azərbaycan və Vyetnam arasında imzalanan Birgə Bəyannamə əməkdaşlığı strateji tərəfdaşlıq səviyyəsinə yüksəldib. Sənəd siyasi dialoq, iqtisadiyyat və enerji sahəsində yeni imkanlar açır.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sesqazeti.az/news/politics/1376472.html",
+  "sensitive": false,
+  "caption": "Azərbaycan ilə Vyetnam arasında strateji tərəfdaşlıq əlaqələri genişlənir\n\nAzərbaycanın xarici siyasətində Asiya ölkələri ilə münasibətlərin inkişafı mühüm yer tutur və Vyetnamla əlaqələr strateji tərəfdaşlıq səviyyəsinə çatıb. Strateji tərəfdaşlıq haqqında Birgə Bəyannamənin imzalanması siyasi dialoqun gücləndirilməsi və uzunmüddətli əməkdaşlıq üçün zəmin yaradır.\n\nİki ölkə arasında tarixi dostluq əlaqələri ötən əsrin ortalarından formalaşıb. 1959-cu ildə Vyetnam lideri Ho Şi Min Bakıya səfər edib, 1983-cü ildə isə Heydər Əliyev Vyetnamda səfərdə olub.\n\nTərəflər beynəlxalq məsələlərdə suverenlik, ərazi bütövlüyü və daxili işlərə qarışmamaq prinsiplərini əsas götürürlər. İqtisadiyyat, ticarət, enerji və bərpaolunan enerji sahələrində qarşılıqlı əməkdaşlıq üçün geniş potensial mövcuddur.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Vyetnam #StratejiTərəfdaşlıq",
+  "id": "20261124-120540-03-p",
+  "kind": "post",
+  "image": "posts/20261124-120540-03-p.jpg"
+ },
+ {
+  "created": "2026-11-24T08:15:22.214946+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Azərbaycan ilə Vyetnam arasında strateji tərəfdaşlıq əlaqələri genişlənir",
+  "summary": "Azərbaycan və Vyetnam arasında imzalanan Birgə Bəyannamə əməkdaşlığı strateji tərəfdaşlıq səviyyəsinə yüksəldib. Sənəd siyasi dialoq, iqtisadiyyat və enerji sahəsində yeni imkanlar açır.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sesqazeti.az/news/politics/1376472.html",
+  "sensitive": false,
+  "caption": "Azərbaycan ilə Vyetnam arasında strateji tərəfdaşlıq əlaqələri genişlənir\n\nAzərbaycanın xarici siyasətində Asiya ölkələri ilə münasibətlərin inkişafı mühüm yer tutur və Vyetnamla əlaqələr strateji tərəfdaşlıq səviyyəsinə çatıb. Strateji tərəfdaşlıq haqqında Birgə Bəyannamənin imzalanması siyasi dialoqun gücləndirilməsi və uzunmüddətli əməkdaşlıq üçün zəmin yaradır.\n\nİki ölkə arasında tarixi dostluq əlaqələri ötən əsrin ortalarından formalaşıb. 1959-cu ildə Vyetnam lideri Ho Şi Min Bakıya səfər edib, 1983-cü ildə isə Heydər Əliyev Vyetnamda səfərdə olub.\n\nTərəflər beynəlxalq məsələlərdə suverenlik, ərazi bütövlüyü və daxili işlərə qarışmamaq prinsiplərini əsas götürürlər. İqtisadiyyat, ticarət, enerji və bərpaolunan enerji sahələrində qarşılıqlı əməkdaşlıq üçün geniş potensial mövcuddur.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Vyetnam #StratejiTərəfdaşlıq",
+  "id": "20261124-120540-03-r",
+  "kind": "reel",
+  "video": "20261124-120540-03-r.mp4",
+  "cover": "20261124-120540-03-r.jpg"
  }
 ]
