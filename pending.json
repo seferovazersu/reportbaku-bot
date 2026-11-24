@@ -9692,13 +9692,14 @@
   "id": "20261125-003419-u",
   "kind": "news",
   "created": "2026-11-24T20:34:19.782938+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "🇮🇷 İran Prezidenti Məsud Pezeşkian bildirib ki, ABŞ və digər ölkələrlə problemlərin həlli üçün aparılan danışıqlar Tehranın təslim olması anlamına gəlmir. O qeyd edib ki, ölkəsi dialoq yolu ilə çətinlikləri aradan qaldırmağa çalışır, lakin milli ləyaqət və mövqedən geri çəkilmək fikrində deyil. Pezeşkian əlavə edib ki, İran təkəbbür qarşısında boyun əyməyəcək və diplomatik həll yollarında maraqlıdır. Onun sözlərinə görə, bu proses ölkənin ləyaqətinin qorunması şərtilə aparılır.",
   "media": [
    {
     "file_id": "AgACAgIAAxkBAAIDtWsF9JziTYbafhDwvJ0ZMrjMkxTAAAKJJWsbDcAxSLmGLn7q_wzEAQADAgADdwADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-003419-u/1.jpg"
    }
   ],
   "category": "CƏMİYYƏT",
