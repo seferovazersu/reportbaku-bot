@@ -9798,5 +9798,35 @@
   "image": "posts/20261125-003850-u-s.jpg",
   "instagram_id": "18113886152231803",
   "permalink": ""
+ },
+ {
+  "id": "20261125-013302-01",
+  "kind": "news",
+  "created": "2026-11-24T21:33:02.043622+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Volodimir Zelenski Pit Hegsetin Patriot raketlərinin ötürülməsini ləngitdiyini bildirib",
+  "summary": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsinə dair sənədi hələ də imzalamadığını açıqlayıb. O, bu gecikmənin raketlərin Ukraynaya çatdırılması prosesinə maneə törətdiyini bildirib.",
+  "caption_text": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsini təmin edən sənədi hələ də imzalamadığını bəyan edib.\n\nUkrayna lideri sözügedən sənədin imzalanmamasının raketlərin tədarük prosesini ləngitdiyini diqqətə çatdırıb. Onun sözlərinə görə, bu gecikmə müvafiq hərbi vasitələrin vaxtında alınmasına mənfi təsir göstərir.",
+  "voiceover": "Ukrayna Prezidenti Volodimir Zelenski Pentaqon rəhbəri Pit Hegsetin ölkəsinə 48 ədəd Patriot raketi verilməsinə dair sənədi hələ də imzalamadığını bildirib. O, bu gecikmənin raketlərin tədarük prosesinə maneə törətdiyini qeyd edib.",
+  "hashtags": [
+   "#Ukrayna",
+   "#ABŞ",
+   "#Patriot",
+   "#Siyasət",
+   "#DünyaXəbərləri"
+  ],
+  "highlight": [
+   "Volodimir Zelenski",
+   "Pit Hegset",
+   "Patriot"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Зеленский: Хегсет тормозит передачу Украине 48 ракет Patriot",
+  "link": "https://minval.az/news/124564190",
+  "sensitive": true,
+  "card_id": 958
  }
 ]
