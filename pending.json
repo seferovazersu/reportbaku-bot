@@ -10041,5 +10041,31 @@
   "image": "posts/20261125-020511-u-s.jpg",
   "instagram_id": "18095804720290371",
   "permalink": ""
+ },
+ {
+  "id": "20261125-021217-u",
+  "kind": "news",
+  "created": "2026-11-24T22:12:17.087426+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət olunub\n\nDövlət Gömrük Komitəsinin məlumatına görə, vətəndaş gətirdiyi əşyaları gömrük nəzarətinə təqdim etməkdən imtina edib və aqressiv şəkildə etirazını bildirib.\n\nOnun əşyaları digər gömrük nəzarəti zonasına yönləndirilib, müvafiq akt tərtib edilərək hüquq-mühafizə orqanlarına müraciət olunub.",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAID0msGC5uxmxuJE1CxUbQBCLwvWAABegACoLcAAg3AMUhTsk_BgbBbuz0E",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "❗️Dubay–Bakı aviareysi ilə gələn Azərbaycan vətəndaşı Eldur Hüseynov gömrük baxışına dəvət olunub\n\nDövlət Gömrük Komitəs",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
