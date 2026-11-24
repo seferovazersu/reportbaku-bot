@@ -9714,5 +9714,31 @@
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "id": "20261125-003850-u",
+  "kind": "news",
+  "created": "2026-11-24T20:38:50.775490+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAIDuGsF9apfq3ukK6zLo7YqmNnTT0g1AAIDtwACDcAxSNDVbvcdVKygPQQ",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "Ronaldo 987-ci qolunu vurdu, komandası qalib gəldi.",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
