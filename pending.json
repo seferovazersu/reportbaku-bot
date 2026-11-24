@@ -8232,26 +8232,60 @@
   "id": "20261124-143049-u",
   "kind": "news",
   "created": "2026-11-24T10:30:49.419620+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚆Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" matçı ilə əlaqədar Bakı metropoliteninin Qırmızı xəttində (M1) dəyişdirilmiş iş rejimi tətbiq olunacaq\n\nQırmızı xəttin (M1) bütün stansiyaları saat 01:00-dək sərnişinlərin girişinə açıq olacaq. Stansiyalara əlavə işçi qüvvəsi cəlb olunmaqla nəzarət gücləndiriləcək.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIDLmsFZ0Y1mfdwpvP3h7ft6mXkUO_PAAJ4HmsbTg4pSCnzrFnu9utcAQADAgADeAADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Bakı metropoliteni \"Sabah\" – \"Barselona\" matçı ilə əlaqədar gücləndirilmiş iş rejiminə keçəcək",
+  "summary": "Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" oyununa görə metronun Qırmızı xəttində iş rejimi dəyişdiriləcək. Qırmızı xəttin bütün stansiyaları gecə saat 01:00-dək sərnişinlərin girişinə açıq olacaq.",
+  "caption_text": "Bakı Olimpiya Stadionunda noyabrın 25-də baş tutacaq \"Sabah\" – \"Barselona\" qarşılaşması ilə əlaqədar Bakı metropoliteninin Qırmızı xəttində (M1) dəyişdirilmiş iş rejimi tətbiq olunacaq. Verilən məlumata görə, Qırmızı xəttin bütün stansiyaları saat 01:00-dək sərnişinlərin girişinə açıq qalacaq. Eyni zamanda, sərnişin axınına nəzarəti gücləndirmək üçün stansiyalara əlavə işçi qüvvəsi cəlb ediləcək.",
+  "voiceover": "Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək Sabah və Barselona matçı ilə əlaqədar Bakı metropoliteninin Qırmızı xəttində iş rejimi dəyişdiriləcək. Qırmızı xəttin bütün stansiyaları saat 01:00-dək sərnişinlərin girişinə açıq olacaq. Stansiyalarda təhlükəsizliyi və nizam-intizamı qorumaq məqsədilə əlavə işçi qüvvəsi cəlb edilməklə nəzarət gücləndiriləcək.",
+  "hashtags": [
+   "#BakıMetropoliteni",
+   "#SabahFC",
+   "#Barselona",
+   "#BakıOlimpiyaStadionu",
+   "#Futbol"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚆Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" matçı ilə əlaq",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Sabah",
+   "Barselona",
+   "Bakı metropoliteni"
+  ],
   "source_note": "",
   "source_title": "🚆Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" matçı ilə əlaqədar Bakı metropoliteninin Qır",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T10:33:42.109534+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Bakı metropoliteni \"Sabah\" – \"Barselona\" matçı ilə əlaqədar gücləndirilmiş iş rejiminə keçəcək",
+  "summary": "Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" oyununa görə metronun Qırmızı xəttində iş rejimi dəyişdiriləcək. Qırmızı xəttin bütün stansiyaları gecə saat 01:00-dək sərnişinlərin girişinə açıq olacaq.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Bakı metropoliteni \"Sabah\" – \"Barselona\" matçı ilə əlaqədar gücləndirilmiş iş rejiminə keçəcək\n\nBakı Olimpiya Stadionunda noyabrın 25-də baş tutacaq \"Sabah\" – \"Barselona\" qarşılaşması ilə əlaqədar Bakı metropoliteninin Qırmızı xəttində (M1) dəyişdirilmiş iş rejimi tətbiq olunacaq. Verilən məlumata görə, Qırmızı xəttin bütün stansiyaları saat 01:00-dək sərnişinlərin girişinə açıq qalacaq. Eyni zamanda, sərnişin axınına nəzarəti gücləndirmək üçün stansiyalara əlavə işçi qüvvəsi cəlb ediləcək.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #BakıMetropoliteni #SabahFC #Barselona #BakıOlimpiyaStadionu",
+  "id": "20261124-143049-u-p",
+  "kind": "post",
+  "image": "posts/20261124-143049-u-p.jpg"
+ },
+ {
+  "created": "2026-11-24T10:33:42.109534+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Bakı metropoliteni \"Sabah\" – \"Barselona\" matçı ilə əlaqədar gücləndirilmiş iş rejiminə keçəcək",
+  "summary": "Noyabrın 25-də Bakı Olimpiya Stadionunda keçiriləcək \"Sabah\" – \"Barselona\" oyununa görə metronun Qırmızı xəttində iş rejimi dəyişdiriləcək. Qırmızı xəttin bütün stansiyaları gecə saat 01:00-dək sərnişinlərin girişinə açıq olacaq.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Bakı metropoliteni \"Sabah\" – \"Barselona\" matçı ilə əlaqədar gücləndirilmiş iş rejiminə keçəcək\n\nBakı Olimpiya Stadionunda noyabrın 25-də baş tutacaq \"Sabah\" – \"Barselona\" qarşılaşması ilə əlaqədar Bakı metropoliteninin Qırmızı xəttində (M1) dəyişdirilmiş iş rejimi tətbiq olunacaq. Verilən məlumata görə, Qırmızı xəttin bütün stansiyaları saat 01:00-dək sərnişinlərin girişinə açıq qalacaq. Eyni zamanda, sərnişin axınına nəzarəti gücləndirmək üçün stansiyalara əlavə işçi qüvvəsi cəlb ediləcək.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #BakıMetropoliteni #SabahFC #Barselona #BakıOlimpiyaStadionu",
+  "id": "20261124-143049-u-r",
+  "kind": "reel",
+  "video": "20261124-143049-u-r.mp4",
+  "cover": "20261124-143049-u-r.jpg"
  }
 ]
