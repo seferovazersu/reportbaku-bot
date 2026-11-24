@@ -9262,7 +9262,12 @@
   "created": "2026-11-24T16:56:12.285485+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDkWsFyOqbUmnvaR_LRnR8EMUAASunKwACLyRrGw3AMUjejrGpkoZuUQEAAwIAA3kAAz0E",
+    "type": "photo"
+   }
+  ],
   "category": "İQTİSADİYYAT",
   "headline": "Nvidia səhmlərinin ucuzlaşması fonunda Jensen Huanqın sərvəti azalıb",
   "summary": "Nvidia səhmlərinin 8 faiz ucuzlaşması şirkətin baş icraçı direktorunun maliyyə vəziyyətinə təsir edib. Forbes siyahısında Jensen Huanq bir pillə geriləyərək 14-cü yerə düşüb.",
@@ -9289,7 +9294,7 @@
   "id": "20261124-205612-02",
   "kind": "news",
   "created": "2026-11-24T16:56:12.285485+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -9312,6 +9317,35 @@
   "source_title": "Немецкие дроны нарушают законы войны",
   "link": "https://haqqin.az/newsarchive/399318",
   "sensitive": true,
-  "card_id": 912
+  "card_id": 912,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-24T17:28:25.397887+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Almaniyanın süni intellektli dronları beynəlxalq hüququ pozur",
+  "summary": "Ekspert komissiyasının hesabatına görə, Almaniya ordusu üçün alınan yeni dronlar beynəlxalq humanitar hüququ pozur. Bu aparatların kütləvi insan tələfatına səbəb ola biləcəyi ehtimal olunur.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399318",
+  "sensitive": true,
+  "caption": "Almaniyanın süni intellektli dronları beynəlxalq hüququ pozur\n\nAlmaniya silahlı qüvvələri üçün istehsal edilən süni intellektli zərbə pilotsuz uçuş aparatları beynəlxalq humanitar hüququn normalarını pozur.\n\nBu barədə parlamentin sifarişi ilə hazırlanan ekspert komissiyasının hesabatında bildirilib. Qeyd olunub ki, Almaniya ordusu Helsing, Stark və Rheinmetall konsernlərindən bu cür qurğuların alınmasına milyonlarla avro xərcləyir və həmin aparatlar Litvada yerləşən briqada üçün nəzərdə tutulub.\n\nAvtonom süni intellektli dronlar əlaqə tam itdikdə belə uçuşu davam etdirmək və hədəfləri məhv etmək imkanına malikdir. Hesabat müəllifləri narahatlıq ifadə ediblər ki, kritik məqamda süni intellekt nəzarətdən çıxa və dinc əhalinin kütləvi ölümünə gətirib çıxara bilər.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Almaniya #Dron #Süniİntellekt #Ordubirlik",
+  "id": "20261124-205612-02-p",
+  "kind": "post",
+  "image": "posts/20261124-205612-02-p.jpg"
+ },
+ {
+  "created": "2026-11-24T17:28:25.397887+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Almaniyanın süni intellektli dronları beynəlxalq hüququ pozur",
+  "summary": "Ekspert komissiyasının hesabatına görə, Almaniya ordusu üçün alınan yeni dronlar beynəlxalq humanitar hüququ pozur. Bu aparatların kütləvi insan tələfatına səbəb ola biləcəyi ehtimal olunur.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399318",
+  "sensitive": true,
+  "caption": "Almaniyanın süni intellektli dronları beynəlxalq hüququ pozur\n\nAlmaniya silahlı qüvvələri üçün istehsal edilən süni intellektli zərbə pilotsuz uçuş aparatları beynəlxalq humanitar hüququn normalarını pozur.\n\nBu barədə parlamentin sifarişi ilə hazırlanan ekspert komissiyasının hesabatında bildirilib. Qeyd olunub ki, Almaniya ordusu Helsing, Stark və Rheinmetall konsernlərindən bu cür qurğuların alınmasına milyonlarla avro xərcləyir və həmin aparatlar Litvada yerləşən briqada üçün nəzərdə tutulub.\n\nAvtonom süni intellektli dronlar əlaqə tam itdikdə belə uçuşu davam etdirmək və hədəfləri məhv etmək imkanına malikdir. Hesabat müəllifləri narahatlıq ifadə ediblər ki, kritik məqamda süni intellekt nəzarətdən çıxa və dinc əhalinin kütləvi ölümünə gətirib çıxara bilər.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Almaniya #Dron #Süniİntellekt #Ordubirlik",
+  "id": "20261124-205612-02-s",
+  "kind": "story",
+  "image": "posts/20261124-205612-02-s.jpg"
  }
 ]
