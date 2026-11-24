@@ -8847,5 +8847,31 @@
   "image": "posts/20261124-170811-01-s.jpg",
   "instagram_id": "18115948544231969",
   "permalink": ""
+ },
+ {
+  "id": "20261124-172034-u",
+  "kind": "news",
+  "created": "2026-11-24T13:20:34.356369+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAIDaWsFjxTf4aX9m6MGITAQjAABq98AAX0AAu-vAAJODjFIUqxCGUbyOt49BA",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "\"Barcelona\"nın rəsmi sosial media səhifəsində Bakıdan görüntülər paylaşılıb.",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
