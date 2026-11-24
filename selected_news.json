@@ -1,26 +1,42 @@
 [
   {
+    "source": "Minval.az",
+    "title": "Мусабеков: «Угроза очень действенная»",
+    "snippet": "Исключение из новой Конституции Армении ссылки на Декларацию о независимости 1990 года является не просто изменением юридической формулировки, а частью более масштабного пересмотра философии армянской...",
+    "needs_fulltext": false,
+    "link": "https://minval.az/news/124563949",
+    "published": "2026-11-24T06:30:11+00:00"
+  },
+  {
     "source": "Qafqazinfo",
-    "title": "İranda işıqlar hər gün sönəcək",
+    "title": "Bakıda ilk rəsmi “Ducati” diler mərkəzi açıldı",
     "snippet": "",
     "needs_fulltext": true,
-    "link": "https://www.qafqazinfo.az/news/detail/iranda-isiqlar-her-gun-sonecek-529586",
-    "published": "2026-11-24T04:32:00+00:00"
+    "link": "https://www.qafqazinfo.az/news/detail/bakida-ilk-resmi-ducati-diler-merkezi-acildi-fotolar-529600",
+    "published": "2026-11-24T06:42:00+00:00"
   },
   {
-    "source": "Oxu.az",
-    "title": "\"Audi\"nin Çindəki zavodu milyardlarla avro zərər edib",
-    "snippet": "Almaniyanın \"Audi\" avtomobil şirkətinin Çinin Çançun şəhərində yerləşən zavodu maliyyə baxımından ciddi itkilərlə üzləşib. Müəssisənin tikintisinə 2.5 milyard avrodan çox investisiya yatırılıb.",
-    "needs_fulltext": false,
-    "link": "https://oxu.az/dunya/audi-nin-cindeki-zavodu-milyardlarla-avro-zerer-edib",
-    "published": "2026-11-24T04:04:00+00:00"
+    "source": "Publika",
+    "title": "FHN-in Cənub Regional Mərkəzi təlim keçirib",
+    "snippet": "",
+    "needs_fulltext": true,
+    "link": "https://publika.az/news/sosial/649879.html",
+    "published": "2026-11-24T06:42:00+00:00"
   },
   {
-    "source": "Haqqin.az",
-    "title": "Тайны внешней политики Еревана и болото предрассудков Григоряна",
-    "snippet": "Уйдя недавно с поста секретаря Совета безопасности Армении, Армен Григорян принялся в последние недели критиковать внешнюю политику своей страны. Начал с «евроинтеграции». Семь лет на верш...",
+    "source": "Xəzər Xəbər",
+    "title": "BDU dekan vəzifəsinə müsabiqələr elan etdi",
+    "snippet": "",
+    "needs_fulltext": true,
+    "link": "https://xezerxeber.az/az/cemiyyet/bdu-dekan-vezifesine-musabiqeler-elan-etdi",
+    "published": "2026-11-24T06:18:00+00:00"
+  },
+  {
+    "source": "Day.az",
+    "title": "Названы главные отличия дорогих смартфонов от дешевых",
+    "snippet": "В первую очередь дорогие смартфоны отличаются от доступных качеством съемки фото и видео. Об этом сообщает испанский сайт Xataka, передает Day.Az со ссылкой на Lenta.ru. Авторы медиа назвали ключевые отличия флагманских смартфонов от дешевых моделей. Главной они выделили камеру.",
     "needs_fulltext": false,
-    "link": "https://haqqin.az/newsarchive/399209",
-    "published": "2026-11-23T22:12:00+00:00"
+    "link": "https://news.day.az/hitech/1876016.html",
+    "published": "2026-11-24T06:37:00+00:00"
   }
 ]
