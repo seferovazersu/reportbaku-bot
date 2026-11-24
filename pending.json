@@ -9384,5 +9384,89 @@
   "link": "https://haqqin.az/newsarchive/399323",
   "sensitive": true,
   "card_id": 919
+ },
+ {
+  "id": "20261124-235351-01",
+  "kind": "news",
+  "created": "2026-11-24T19:53:51.767360+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Yardımlıda məktəbdən evə qayıtmayan ikinci sinif şagirdinin meyiti tapılıb",
+  "summary": "Yardımlı rayonunun Gendərə kəndində məktəbdən dönməyən ikinci sinif şagirdinin meyiti körpünün altından tapılıb. İlkin ehtimala görə, azyaşlı körpüdən yıxılaraq ölüb və hüquq-mühafizə orqanları araşdırma aparır.",
+  "caption_text": "Yardımlı rayonunun Gendərə kəndində bədbəxt hadisə baş verib. Məktəbdən çıxdıqdan sonra evə gəlməyən ikinci sinif şagirdinin axtarışları nəticəsində onun meyiti kənd ərazisindəki körpünün altından aşkarlanıb. İlkin ehtimala görə, azyaşlı körpüdən yıxılması nəticəsində həyatını itirib. Hazırda hüquq-mühafizə orqanlarının əməkdaşları tərəfindən hadisənin dəqiq səbəbləri araşdırılır.",
+  "voiceover": "Yardımlı rayonunda məktəbdən evə qayıtmayan ikinci sinif şagirdinin meyiti tapılıb. Gendərə kənd sakini dərslərdən çıxdıqdan sonra evə dönməyib və aparılan axtarışlar zamanı onun meyiti kənd ərazisindəki körpünün altından aşkarlanıb. İlkin ehtimala görə, uşaq körpüdən yıxılaraq ölüb. Hüquq-mühafizə orqanları hadisənin səbəblərini araşdırır.",
+  "hashtags": [
+   "#Yardımlı",
+   "#Hadisə",
+   "#Xəbər",
+   "#ReportBaku"
+  ],
+  "highlight": [
+   "Yardımlıda",
+   "məktəbdən evə qayıtmayan",
+   "ikinci sinif şagirdinin"
+  ],
+  "source_note": "Mənbə: APA",
+  "source_title": "Yardımlıda məktəbdən evə qayıtmayan ikinci sinif şagirdinin meyiti tapılıb",
+  "link": "https://apa.az/incident/yardimlida-mektebden-eve-qayitmayan-ikinci-sinif-sagirdinin-meyiti-tapilib-1016966",
+  "sensitive": true,
+  "card_id": 922
+ },
+ {
+  "id": "20261124-235351-02",
+  "kind": "news",
+  "created": "2026-11-24T19:53:51.767360+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "CƏMİYYƏT",
+  "headline": "Xəzər dənizinin geri çəkilməsi nəticəsində yeni quru sahələr yaranıb",
+  "summary": "Xəzər dənizinin səviyyəsinin azalması səbəbindən sahilboyu ərazilərdə yeni quru sahələr əmələ gəlib. Su altında olan ərazilərin quruya çevrilməsi nəticəsində yaranan torpaqların ümumi sahəsi 20 min hektarı ötüb.",
+  "caption_text": "Xəzər dənizinin səviyyəsində müşahidə olunan azalma sahilboyu zonalarda ciddi dəyişikliklərə səbəb olub. Mütəxəssislərin müşahidələrinə görə, suyun geri çəkilməsi fonunda əvvəllər su altında qalan ərazilər artıq tamamilə quruya çevrilib.\n\nƏldə edilən məlumata əsasən, dənizin səviyyəsinin enməsi nəticəsində yaranan yeni quru sahələrinin ümumi ərazisi artıq 20 min hektardan çoxdur. Hazırda bu prosesin ətraf mühitə və sahil infrastruktura təsirləri diqqət mərkəzindədir.",
+  "voiceover": "Xəzər dənizinin səviyyəsinin azalması fonunda sahilboyu ərazilərdə yeni quru sahələr əmələ gəlib. Vaxtilə su altında yerləşən məkanlar artıq tamamilə quruya çevrilib. Dənizin geri çəkilməsi nəticəsində yaranan yeni torpaq sahələrinin ümumi ərazisi 20 min hektarı ötüb.",
+  "hashtags": [
+   "#Xəzərdənizi",
+   "#Ekologiya",
+   "#Təbiət",
+   "#Xəzər"
+  ],
+  "highlight": [
+   "Xəzər dənizinin",
+   "quru sahələr"
+  ],
+  "source_note": "Mənbə: Oxu.az",
+  "source_title": "Xəzər dənizi geri çəkilir, yeni torpaqlar yaranır: Ekspert mümkün riskləri sadaladı - Video",
+  "link": "https://oxu.az/cemiyyet/xezer-denizi-geri-cekilir-yeni-torpaqlar-yaranir-ekspert-mumkun-riskleri-sadaladi-video",
+  "sensitive": false,
+  "card_id": 923
+ },
+ {
+  "id": "20261124-235351-03",
+  "kind": "news",
+  "created": "2026-11-24T19:53:51.767360+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Qalatasaray tək qolla qələbə qazandı",
+  "summary": "UEFA Çempionlar Liqasının Liqa mərhələsində Galatasaray doğma meydanda Aston Villa ilə üz-üzə gəlib. Görüş İstanbul təmsilçisinin minimal hesablı üstünlüyü ilə yekunlaşıb.",
+  "caption_text": "UEFA Çempionlar Liqasının Liqa mərhələsinin beşinci turu çərçivəsində Türkiyənin Qalatasaray klubu İngiltərənin Aston Villa komandasını qəbul edib. İstanbulda keçirilən qarşılaşma yerli azarkeşlərin sevinci ilə başa çatıb.\n\nMatçın gedişində gərgin mübarizə müşahidə olunub və görüşün taleyini yalnız bir qol həll edib. Yetmiş yeddinci dəqiqədə fərqlənən Deniz Gül komandasına qələbə gətirən topun müəllifi olub. Yekunda İstanbul təmsilçisi rəqibini bir cavabsız qolla məğlub edərək növbəti üç xalı aktivinə yazdırıb.",
+  "voiceover": "UEFA Çempionlar Liqasının Liqa mərhələsində beşinci tura start verilib. Türkiyə təmsilçisi Qalatasaray İstanbulda İngiltərənin Aston Villa klubu ilə qarşılaşub. Gərgin keçən matçın yetmiş yeddinci dəqiqəsində Deniz Gül hesabı açıb. Görüş İstanbul təmsilçisinin bir bəcəvər sıfır hesablı minimal qələbəsi ilə başa çatıb.",
+  "hashtags": [
+   "#Qalatasaray",
+   "#AstonVilla",
+   "#ChampionsLeague",
+   "#İdman"
+  ],
+  "highlight": [
+   "Qalatasaray"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "“Qalatasaray” tək qolla qələbə qazandı",
+  "link": "https://www.qafqazinfo.az/news/detail/qalatasaray-tek-qolla-qelebe-qazandi-video-yenilenib-529588",
+  "sensitive": false,
+  "card_id": 924
  }
 ]
