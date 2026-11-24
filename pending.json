@@ -9645,7 +9645,7 @@
  },
  {
   "created": "2026-11-24T20:29:49.942375+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Turan Əliyev İsveçin Vestra Hötaland regionunun İdarə Heyətinə üzv seçilib",
   "summary": "İsveçdə yaşayan azərbaycanəsilli siyasətçi Turan Əliyev Vestra Hötaland regionunun Logistika üzrə İdarə Heyətinin əsas üzvü seçilib. O, bu vəzifəni 2027-2030-cu illər üçün icra edəcək.",
@@ -9655,7 +9655,9 @@
   "caption": "Turan Əliyev İsveçin Vestra Hötaland regionunun İdarə Heyətinə üzv seçilib\n\nİsveçdə yaşayan azərbaycanəsilli siyasətçi Turan Əliyev əhalisinin sayına görə ölkənin ikinci ən böyük regionu olan Vestra Hötalandın Logistika üzrə İdarə Heyətinin əsas üzvü seçilib. Siyasətçi bu vəzifədə 2027-2030-cu illər ərzində fəaliyyət göstərəcək.\n\nMəlumat üçün bildirək ki, İsveçin 21 regionundan biri olan Vestra Hötaland 49 bələdiyyəni əhatə edir. Həmin regionun əhalisinin sayı təxminən 1,8 milyon nəfər təşkil edir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #TuranƏliyev #İsveç #VestraHötaland #Azərbaycanlılar",
   "id": "20261125-002745-u-p",
   "kind": "post",
-  "image": "posts/20261125-002745-u-p.jpg"
+  "image": "posts/20261125-002745-u-p.jpg",
+  "instagram_id": "17961612507293273",
+  "permalink": "https://www.instagram.com/p/DgI0vKXGl2H/"
  },
  {
   "created": "2026-11-24T20:29:49.942375+00:00",
@@ -9685,5 +9687,31 @@
   "id": "20261125-002745-u-s",
   "kind": "story",
   "image": "posts/20261125-002745-u-s.jpg"
+ },
+ {
+  "id": "20261125-003419-u",
+  "kind": "news",
+  "created": "2026-11-24T20:34:19.782938+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "🇮🇷 İran Prezidenti Məsud Pezeşkian bildirib ki, ABŞ və digər ölkələrlə problemlərin həlli üçün aparılan danışıqlar Tehranın təslim olması anlamına gəlmir. O qeyd edib ki, ölkəsi dialoq yolu ilə çətinlikləri aradan qaldırmağa çalışır, lakin milli ləyaqət və mövqedən geri çəkilmək fikrində deyil. Pezeşkian əlavə edib ki, İran təkəbbür qarşısında boyun əyməyəcək və diplomatik həll yollarında maraqlıdır. Onun sözlərinə görə, bu proses ölkənin ləyaqətinin qorunması şərtilə aparılır.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDtWsF9JziTYbafhDwvJ0ZMrjMkxTAAAKJJWsbDcAxSLmGLn7q_wzEAQADAgADdwADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "🇮🇷 İran Prezidenti Məsud Pezeşkian bildirib ki, ABŞ və digər ölkələrlə problemlərin həlli ",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "🇮🇷 İran Prezidenti Məsud Pezeşkian bildirib ki, ABŞ və digər ölkələrlə problemlərin həlli üçün aparılan danışıqlar Tehra",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
