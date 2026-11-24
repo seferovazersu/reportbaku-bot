@@ -7360,5 +7360,90 @@
   "link": "https://oxu.az/dunya/kolumbiyada-qubernatorluq-binasi-yaxinliginda-partlayis-19-nefer-yaralanib-video",
   "sensitive": true,
   "card_id": 728
+ },
+ {
+  "id": "20261124-113444-01",
+  "kind": "news",
+  "created": "2026-11-24T07:34:44.670800+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "PASHA Bank Gəncədə keçirilən regional sərgidə təmsil olunub",
+  "summary": "Bank nümayəndələri Gəncədə baş tutan sərgidə sahibkarlarla görüşlər keçirib. Tədbirdə biznes subyektlərinə maliyyə həlləri barədə məlumat verilib.",
+  "caption_text": "Gəncə İdman Sarayında “REGİONAL EXPO GƏNCƏ 2026” sərgisi təşkil olunub. Tədbir çərçivəsində “PASHA Bank”ın nümayəndələri müxtəlif sahələri təmsil edən şirkətlərlə bir araya gələrək onların inkişaf planlarını, maliyyələşmə tələbatlarını və əməkdaşlıq imkanlarını müzakirə ediblər.\n\nSahibkarlara qurumun biznes müştəriləri üçün təqdim etdiyi maliyyə xidmətləri və həlləri haçqında məlumat verilib. Sərgidə öz məhsul və xidmətlərini nümayiş etdirən 112 müəssisə iştirak edib. Həmçinin tədbir müddətində işgüzar görüşlər təşkil olunub.",
+  "voiceover": "PASHA Bank Gəncədə təşkil edilən regional sərgidə iştirak edib. Gəncə İdman Sarayında baş tutan tədbirdə bank nümayəndələri yerli şirkətlərin inkişaf planlarını və maliyyələşmə ehtiyaclarını müzakirə ediblər. Sərgidə yüz on iki müəssisə öz məhsul və xidmətlərini nümayiş etdirib.",
+  "hashtags": [
+   "#Pashabank",
+   "#Gəncə",
+   "#RegionalExpo",
+   "#İqtisadiyyat"
+  ],
+  "highlight": [
+   "PASHA Bank",
+   "Gəncə"
+  ],
+  "source_note": "Mənbə: Day.az",
+  "source_title": "PASHA Bank принял участие в выставке «REGİONAL EXPO GƏNCƏ 2026»",
+  "link": "https://news.day.az/economy/1876674.html",
+  "sensitive": false,
+  "card_id": 737
+ },
+ {
+  "id": "20261124-113444-02",
+  "kind": "news",
+  "created": "2026-11-24T07:34:44.670800+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İDMAN",
+  "headline": "CAS Mərakeşin xeyrinə qərar verəcək",
+  "summary": "İdman Arbitraj Məhkəməsinin Afrika Millətlər Kubokunun finalı ilə bağlı Mərakeşin xeyrinə qərar verəcəyi bildirilib. Daha əvvəl Afrika Futbol Konfederasiyasının Apelyasiya Komitəsi Seneqala texniki məğlubiyyət verərək Mərakeşi çempion elan etmişdi.",
+  "caption_text": "İdman Arbitraj Məhkəməsinin 2025-ci il Afrika Millətlər Kuboku finalının qalibi ilə əlaqədar Mərakeş milli komandasının lehinə qərar çıxaracağı gözlənilir. Bu barədə məlumatı \"Marca\" nəşri öz mənbələrinə istinadən yayıb.\n\nXatırladaq ki, final qarşılaşmasının son dəqiqələrində hakim Seneqalın qapısına penalti təyin etmişdi. Buna etiraz edən seneqallı oyunçular meydanı tərk etsələr də, sonradan kapitanın təsiri ilə oyuna qayıtmışdılar. Matç Seneqalın qələbəsi ilə başa çatsa da, mart ayında Afrika Futbol Konfederasiyasının Apelyasiya Komitəsi Seneqala texniki məğlubiyyət verib və Mərakeşi çempion elan etmişdi.",
+  "voiceover": "İdman Arbitraj Məhkəməsinin 2025-ci il Afrika Millətlər Kuboku finalının qalibi ilə bağlı Mərakeş milli komandasının xeyrinə qərar verəcəyi bildirilib. \"Marca\" nəşrinin məlumatına görə, daha əvvəl Afrika Futbol Konfederasiyasının Apelyasiya Komitəsi Seneqala texniki məğlubiyyət verərək Mərakeşi çempion elan etmişdi. Xatırladaq ki, final matçında hakim tərəfindən Seneqalın qapısına penalti təyin edilmiş, seneqallı futbolçular buna görə qısamüddətliyə meydanı tərk etmişdilər.",
+  "hashtags": [
+   "#İdman",
+   "#Mərakeş",
+   "#Seneqal",
+   "#Futbol"
+  ],
+  "highlight": [
+   "CAS",
+   "Mərakeş"
+  ],
+  "source_note": "Mənbə: Publika",
+  "source_title": "Seneqalın çempionluğu əlindən alınır: Məhkəmə Mərakeşin xeyrinə qərar verib",
+  "link": "https://publika.az/news/idman/649873.html",
+  "sensitive": false,
+  "card_id": 738
+ },
+ {
+  "id": "20261124-113444-03",
+  "kind": "news",
+  "created": "2026-11-24T07:34:44.670800+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "Prezident İlham Əliyev Beynəlxalq Qafqaz Konqresi iştirakçılarına müraciət edib",
+  "summary": "Prezident İlham Əliyev İğdır Universitetinin təşkilatçılığı ilə keçirilən Beynəlxalq Qafqaz Konqresinin iştirakçılarına müraciət ünvanlayıb. Müraciətdə Azərbaycan-Türkiyə münasibətləri, regional əməkdaşlıq və Zəngəzur dəhlizinin əhəmiyyəti qeyd olunub.",
+  "caption_text": "Prezident İlham Əliyev İğdır Universitetinin təşkilatçılığı ilə “İpək Yolunun yenidən dirçəlişi” mövzusuna həsr olunan Beynəlxalq Qafqaz Konqresinin iştirakçılarına müraciət ünvanlayıb. Müraciətdə İğdırın Naxçıvanla birbaşa qonşuluğunun qardaş xalqları yaxınlaşdırdığı və Şuşa Bəyannaməsi ilə Azərbaycan-Türkiyə əlaqələrinin müttəfiqlik səviyyəsinə yüksəldiyi vurğulanıb.\n\nSənəddə həmçinin Cənubi Qafqazda dayanıqlı sülhün bərqərar olunmasının əhəmiyyəti diqqətə çatdırılıb. Bildirilib ki, Zəngəzur dəhlizi Azərbaycanın əsas hissəsi ilə Naxçıvan Muxtar Respublikası arasında maneəsiz əlaqə yaradacaq, Türkiyə ilə quru nəqliyyatını genişləndirəcək və tarixi İpək Yolunun dirçəldilməsinə xidmət edəcək.",
+  "voiceover": "Azərbaycan Prezidenti İlham Əliyev İğdır Universitetinin təşkilatçılığı ilə keçirilən Beynəlxalq Qafqaz Konqresinin iştirakçılarına müraciət ünvanlayıb. Müraciətdə Azərbaycan ilə Türkiyə arasında münasibətlərin Şuşa Bəyannaməsi ilə müttəfiqlik səviyyəsinə yüksəldiyi qeyd olunub. Dövlət başçısı bildirib ki, Zəngəzur dəhlizi ölkəmizin əsas hissəsi ilə Naxçıvan Muxtar Respublikası arasında maneəsiz əlaqəni təmin edəcək və tarixi İpək Yolunun dirçəldilməsinə xidmət edəcək.",
+  "hashtags": [
+   "#Prezident",
+   "#İlhamƏliyev",
+   "#QafqazKonqresi",
+   "#ZəngəzurDəhlizi",
+   "#AzərbaycanTürkiyə"
+  ],
+  "highlight": [
+   "Prezident İlham Əliyev",
+   "Beynəlxalq Qafqaz Konqresi"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Prezidentdən Beynəlxalq Qafqaz Konqresinin iştirakçılarına müraciət",
+  "link": "https://www.qafqazinfo.az/news/detail/prezidentden-beynelxalq-qafqaz-konqresinin-istirakcilarina-muraciet-529609",
+  "sensitive": false,
+  "card_id": 739
  }
 ]
