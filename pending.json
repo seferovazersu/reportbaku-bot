@@ -8102,26 +8102,68 @@
   "id": "20261124-140955-u",
   "kind": "news",
   "created": "2026-11-24T10:09:55.279402+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🛴 Skuter üzərində iki şəxsin olması tarazlığın pozulmasına və qəza riskinin artmasına səbəb ola bilər.\n\n🙍‍♂️ Təhlükəsiz hərəkət üçün skuteri tək istifadə edin!\n\n⚠️ Qanunvericiliyə əsasən, bu qaydaların pozulması inzibati məsuliyyət yaradır və bununla bağlı cərimə nəzərdə tutulub.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIDJGsFYjrCa3YSPRaU0H1ImXufHzEsAALdrwACTg4pSAXNPitoZTwdPQQ",
-    "type": "video"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "🛴 Skuter üzərində iki şəxsin olması tarazlığın pozulmasına və qəza riskinin artmasına səbə",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Skuterdən iki nəfərin istifadəsi qəza riskini və məsuliyyət yaradır",
+  "summary": "Skuterdə iki nəfərin hərəkət etməsi tarazlığı pozaraq qəza təhlükəsini artırır. Qanunvericiliyə görə bu qaydanın pozulması inzibati məsuliyyətə və cəriməyə səbəb olur.",
+  "caption_text": "Fərdi nəqliyyat vasitələrindən istifadə zamanı təhlükəsizlik qaydalarına riayət olunması vacibdir. Skuter üzərində eyni anda iki nəfərin olması tarazlığın itirilməsinə və qəza riskinin artmasına yol açır. Təhlükəsiz hərəkəti təmin etmək üçün bu vasitədən tək nəfərin istifadəsi zəruridir. Qanunvericiliyə əsasən, həmin qaydaların pozulması halları inzibati məsuliyyət yaradır və müvafiq cərimə tətbiq edilir.",
+  "voiceover": "Skuter üzərində iki nəfərin olması tarazlığın pozulmasına və qəza riskinin artmasına səbəb ola bilər. Təhlükəsiz hərəkət üçün skuteri tək istifadə etmək lazımdır. Qanunvericiliyə əsasən, bu qaydaların pozulması inzibati məsuliyyət yaradır və cərimə nəzərdə tutulur.",
+  "hashtags": [
+   "#skuter",
+   "#təhlükəsizlik",
+   "#yolhərəkəti",
+   "#qanunvericilik",
+   "#cərimə"
+  ],
+  "highlight": [
+   "Skuter",
+   "qəza riskini"
+  ],
   "source_note": "",
   "source_title": "🛴 Skuter üzərində iki şəxsin olması tarazlığın pozulmasına və qəza riskinin artmasına səbəb ola bilər.\n\n🙍‍♂️ Təhlükəsiz ",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-24T10:14:58.405885+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Skuterdən iki nəfərin istifadəsi qəza riskini və məsuliyyət yaradır",
+  "summary": "Skuterdə iki nəfərin hərəkət etməsi tarazlığı pozaraq qəza təhlükəsini artırır. Qanunvericiliyə görə bu qaydanın pozulması inzibati məsuliyyətə və cəriməyə səbəb olur.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Skuterdən iki nəfərin istifadəsi qəza riskini və məsuliyyət yaradır\n\nFərdi nəqliyyat vasitələrindən istifadə zamanı təhlükəsizlik qaydalarına riayət olunması vacibdir. Skuter üzərində eyni anda iki nəfərin olması tarazlığın itirilməsinə və qəza riskinin artmasına yol açır. Təhlükəsiz hərəkəti təmin etmək üçün bu vasitədən tək nəfərin istifadəsi zəruridir. Qanunvericiliyə əsasən, həmin qaydaların pozulması halları inzibati məsuliyyət yaradır və müvafiq cərimə tətbiq edilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #skuter #təhlükəsizlik #yolhərəkəti #qanunvericilik",
+  "id": "20261124-140955-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261124-140955-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261124-140955-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-24T10:14:58.405885+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Skuterdən iki nəfərin istifadəsi qəza riskini və məsuliyyət yaradır",
+  "summary": "Skuterdə iki nəfərin hərəkət etməsi tarazlığı pozaraq qəza təhlükəsini artırır. Qanunvericiliyə görə bu qaydanın pozulması inzibati məsuliyyətə və cəriməyə səbəb olur.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Skuterdən iki nəfərin istifadəsi qəza riskini və məsuliyyət yaradır\n\nFərdi nəqliyyat vasitələrindən istifadə zamanı təhlükəsizlik qaydalarına riayət olunması vacibdir. Skuter üzərində eyni anda iki nəfərin olması tarazlığın itirilməsinə və qəza riskinin artmasına yol açır. Təhlükəsiz hərəkəti təmin etmək üçün bu vasitədən tək nəfərin istifadəsi zəruridir. Qanunvericiliyə əsasən, həmin qaydaların pozulması halları inzibati məsuliyyət yaradır və müvafiq cərimə tətbiq edilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #skuter #təhlükəsizlik #yolhərəkəti #qanunvericilik",
+  "id": "20261124-140955-u-r",
+  "kind": "reel",
+  "video": "20261124-140955-u-r.mp4",
+  "cover": "20261124-140955-u-r.jpg"
  }
 ]
