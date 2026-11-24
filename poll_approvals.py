@@ -126,18 +126,20 @@ def publish_carousel(post):
     """Karusel: şəkil(lər) + video (sağa sürüşdürməklə). {'ok':..., 'stage':..., 'error':...} qaytarır."""
     stage = "container"
     try:
+        items = post.get("items") or (
+            [{"type": "image", "path": i} for i in post.get("images", [])] +
+            ([{"type": "video", "file": post["video"]}] if post.get("video") else []))
         children = []
-        for img in post["images"]:
-            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, img)
+        for it in items[:10]:
+            if it["type"] == "image":
+                url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, it["path"])
+                params = {"image_url": url}
+            else:
+                url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, it["file"])
+                params = {"media_type": "VIDEO", "video_url": url}
             _check_link(url)
-            res = http("POST", GRAPH + IG_USER_ID + "/media", {
-                "image_url": url, "is_carousel_item": "true", "access_token": IG_TOKEN})
-            children.append(res["id"])
-        vurl = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
-        _check_link(vurl)
-        res = http("POST", GRAPH + IG_USER_ID + "/media", {
-            "media_type": "VIDEO", "video_url": vurl, "is_carousel_item": "true", "access_token": IG_TOKEN})
-        children.append(res["id"])
+            params.update({"is_carousel_item": "true", "access_token": IG_TOKEN})
+            children.append(http("POST", GRAPH + IG_USER_ID + "/media", params)["id"])
         for cid in children:
             _wait_finished(cid, 60)
         res = http("POST", GRAPH + IG_USER_ID + "/media", {
@@ -222,16 +224,37 @@ def handle_message(m, pending, by_id, touched):
                    "xəbər mətni (ən azı 40 simvol) yazın.")
         return
     kind, file_id = media
-    if len(text) >= 40:
+    gid = m.get("media_group_id")
+    reply_to = (m.get("reply_to_message") or {}).get("message_id")
+    target = None
+    if reply_to:                                              # kartın cavabı kimi göndərilib
+        target = next((p for p in pending if p.get("kind") == "news" and p.get("card_id") == reply_to), None)
+    if target is None and gid:                                # eyni albomun əvvəlki şəkli
+        target = next((p for p in pending if p.get("kind") == "news" and gid in p.get("groups", [])), None)
+    if target is not None and target.get("status") == "awaiting_media":
+        if gid and gid not in target.setdefault("groups", []):
+            target["groups"].append(gid)
+        touched["current"] = target
+        entry = target
+        text = ""
+    elif len(text) >= 40:
         entry = new_custom_entry(text)
+        if gid:
+            entry["groups"] = [gid]
         pending.append(entry)
         by_id[entry["id"]] = entry
         touched["current"] = entry
     else:
+        waiting = [p for p in pending if p.get("kind") == "news" and p.get("status") == "awaiting_media"]
         entry = touched.get("current")
+        if entry is not None and not (entry.get("custom") or len(waiting) == 1):
+            entry = None                      # bir neçə xəbər gözləyirsə, yalnız Reply ilə əlaqələndirilir
         if entry is None:
-            waiting = [p for p in pending if p.get("kind") == "news" and p.get("status") == "awaiting_media"]
-            entry = waiting[-1] if waiting else None
+            if len(waiting) == 1:
+                entry = waiting[0]
+            elif len(waiting) > 1:
+                notify("⚠️ Bir neçə xəbər gözləyir. Mediani aid olduğu xəbər kartına REPLY (cavab) edərək göndərin.")
+                return
         if entry is None:
             notify("⚠️ Bu media hansı xəbərə aid olduğu bəlli deyil. 'Xeber topla' ilə xəbər gətirin və ya "
                    "mediaya xəbər mətni (ən azı 40 simvol) yazın.")

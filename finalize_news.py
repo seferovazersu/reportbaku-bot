@@ -69,11 +69,20 @@ def extract_frame(video, out, second=1):
 
 
 def transcode_carousel(src, out):
-    """Karusel üçün video: 4:5 (1080x1350), H.264/AAC, ≤58 san."""
-    return run_ffmpeg(["-i", str(src), "-t", "58",
-                       "-vf", "scale=1080:1350:force_original_aspect_ratio=increase,crop=1080:1350,format=yuv420p",
-                       "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
+    """Karusel üçün video: 4:5 (1080x1350), kəsilmədən sığdırılır (bulanıq fon), H.264/AAC, ≤58 san."""
+    flt = ("[0:v]split[a][b];[a]scale=1080:1350:force_original_aspect_ratio=increase,crop=1080:1350,boxblur=25:3[bg];"
+           "[b]scale=1080:1350:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,format=yuv420p")
+    return run_ffmpeg(["-i", str(src), "-t", "58", "-filter_complex", flt, "-r", "30",
+                       "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
                        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(out)])
+
+
+def photo_45(src, out):
+    """Karusel üçün şəkil: 4:5 (1080x1350), kəsilmədən sığdırılır."""
+    from PIL import Image
+    from build_video import fit_blur
+    fit_blur(Image.open(src), (1080, 1350)).save(out, quality=92)
+    return True
 
 
 def fill_from_text(e):
@@ -133,9 +142,7 @@ def build_for(e, pending):
     VIDEOS_DIR.mkdir(exist_ok=True)
     caption = build_caption(e)
     variant = VARIANTS[len(pending) % 2]
-    both = bool(photos and video)
-
-    # --- 1) şəkil postu (və ya karusel) ---
+    # --- 1) şəkil postu (və ya karusel: birinci slayd + sizin bütün şəkil/videolarınız) ---
     img_path = POSTS_DIR / (base + "-p.jpg")
     make_post(photo, e["category"], e["headline"], e["summary"], str(img_path), variant=variant,
               highlight=e.get("highlight", []), source_note="")
@@ -144,12 +151,22 @@ def build_for(e, pending):
                     "source_note": e.get("source_note", ""), "link": e.get("link", ""),
                     "sensitive": e["sensitive"], "caption": caption}
     warn = "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl yoxlayın\n\n" if e["sensitive"] else ""
-    if both and transcode_carousel(video, VIDEOS_DIR / (base + "-k.mp4")):
+    extra_photos = photos[1:] if photos else []
+    items = [{"type": "image", "path": str(img_path).replace("\\", "/")}]
+    for n, ph in enumerate(extra_photos, 2):
+        pth = POSTS_DIR / ("%s-c%d.jpg" % (base, n))
+        if photo_45(ph, pth):
+            items.append({"type": "image", "path": str(pth).replace("\\", "/")})
+    for n, vd in enumerate(videos, 1):
+        name = "%s-k%d.mp4" % (base, n)
+        if transcode_carousel(vd, VIDEOS_DIR / name):
+            items.append({"type": "video", "file": name})
+    items = items[:10]
+    if len(items) > 1:
         kid = base + "-k"
-        pending.append(dict(entry_common, id=kid, kind="carousel", images=[str(img_path).replace("\\", "/")],
-                            video=kid + ".mp4"))
+        pending.append(dict(entry_common, id=kid, kind="carousel", items=items))
         with open(img_path, "rb") as f:
-            tg_post("sendPhoto", {"caption": (warn + "📚 KARUSEL (1-ci slayd). 2-ci slayd: sizin videonuz.\n\n" + e["headline"])[:900],
+            tg_post("sendPhoto", {"caption": (warn + "📚 KARUSEL (%d slayd: 1-ci slayd bu, qalanları sizin media)\n\n%s" % (len(items), e["headline"]))[:900],
                                   "reply_markup": buttons("✅ Karusel paylaş", "pub", kid)}, files={"photo": f})
     else:
         pid = base + "-p"

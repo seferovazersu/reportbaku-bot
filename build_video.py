@@ -24,9 +24,9 @@ import time
 from pathlib import Path
 
 import requests
-from PIL import Image, ImageChops, ImageDraw
+from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
-from make_post import (MARGIN, NAVY, ELECTRIC, RED, cover,
+from make_post import (MARGIN, NAVY, NAVY_DEEP, ELECTRIC, RED, cover,
                        font, wrap_words, fit_block, highlight_indices, draw_lines,
                        draw_tag, draw_topbar, draw_footer, background, gradient_mask, darken,
                        az_upper, baku_today)
@@ -36,7 +36,9 @@ FPS = 24
 TOP_H = 750                     # yuxarıdakı foto/fon hissəsi
 FOOTER_Y = TOP_H + 722          # mənbə sətri (Instagram-ın alt yazılarından yuxarıda qalır)
 LEAD, TAIL = 0.6, 1.6           # səsdən əvvəl və sonra sakit anlar (san.)
-MAX_CHUNK_WORDS = 6             # bir altyazı parçasında ən çox söz
+MAX_CHUNK_WORDS = 6
+FULL_TOP = 1060                 # media olduqda yuxarı pəncərənin hündürlüyü (tam eni)
+FULL_FOOTER = 1450              # media olduqda alt zolağın yeri
 IW, IH, IY = 920, 430, 290      # kiçik pəncərənin (stok görüntü) ölçüsü və yuxarıdan məsafəsi
 IX = (VW - IW) // 2
 TTS_MODELS = [m.strip() for m in os.getenv(
@@ -189,6 +191,17 @@ def paste_fade(frame, layer, x, y, alpha, rise=22):
     frame.paste(layer, (x, yy), a)
 
 
+def fit_blur(img, size):
+    """Şəkli kəsmədən sığdırır; qalan yer onun bulanıq surəti ilə dolur."""
+    w, h = size
+    bgc = cover(img.convert("RGB"), size).filter(ImageFilter.GaussianBlur(26))
+    bgc = Image.blend(bgc, Image.new("RGB", size, (4, 12, 30)), 0.35)
+    fg = img.convert("RGB")
+    fg.thumbnail(size, Image.LANCZOS)
+    bgc.paste(fg, ((w - fg.width) // 2, (h - fg.height) // 2))
+    return bgc
+
+
 def read_exact(stream, n):
     buf = b""
     while len(buf) < n:
@@ -240,7 +253,7 @@ def make_cover_image(photo, category, headline, out, highlight=None, date=None):
 
 def make_video(category, headline, summary, source_note, out, photo=None,
                highlight=None, date=None, voiceover=None, inset=None):
-    """Videonu yaradır. {'duration':..., 'model':..., 'words':...} qaytarır, alınmasa None."""
+    """Videonu yaradır (yalnız diktor səsi, altyazı yoxdur). {'duration':..., 'model':..., 'words':...} və ya None."""
     headline, summary = headline.strip(), (summary or "").strip()
     script = (voiceover or "").strip() or (headline.rstrip(".") + ". " + summary)
     script = expand_abbreviations(script)
@@ -252,62 +265,57 @@ def make_video(category, headline, summary, source_note, out, photo=None,
     total = LEAD + speech + TAIL
     n_frames = int(total * FPS)
     date = date or baku_today()
+    top_h = FULL_TOP if inset else TOP_H
+    footer_y = FULL_FOOTER if inset else FOOTER_Y
     print("  Səs: %.1f san. (%s), video: %.1f san., %d söz" % (speech, model, total, len(script.split())))
 
-    # --- Statik elementlər ---
-    base = Image.new("RGB", (VW, VH), NAVY)
-    bd = ImageDraw.Draw(base)
-    bd.rectangle([0, TOP_H, VW, TOP_H + 8], fill=ELECTRIC)
-    bd.rectangle([0, TOP_H, 230, TOP_H + 8], fill=RED)
-
-    bg = background(photo, (VW, TOP_H), base_y=TOP_H - 4)
-    bg = darken(bg, gradient_mask((VW, TOP_H), 0, 260, 0.65, 0.0))
-
-    topbar = Image.new("RGBA", (VW, 160), (0, 0, 0, 0))
-    draw_topbar(topbar, date)
-    base.paste(topbar, (0, 120), topbar)
-
-    footer = Image.new("RGBA", (VW, 96), (0, 0, 0, 0))
-    draw_footer(footer, 0, source_note)
-    base.paste(footer, (0, FOOTER_Y), footer)
-
-    # --- Kiçik pəncərə (stok video/foto) ---
-    inset_mask = Image.new("L", (IW, IH), 0)
-    ImageDraw.Draw(inset_mask).rounded_rectangle([0, 0, IW - 1, IH - 1], radius=28, fill=255)
-    reader, inset_photo, last_inset, label = None, None, None, None
-    show_label = False
+    # --- Yuxarı hissə ---
+    reader, piece_img, last_inset = None, None, None
     if inset:
         try:
             if inset.get("kind") == "video":
+                flt = ("[0:v]split[a][b];[a]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,boxblur=25:3[bg];"
+                       "[b]scale=%d:%d:force_original_aspect_ratio=decrease[fg];"
+                       "[bg][fg]overlay=(W-w)/2:(H-h)/2,fps=%d,format=rgb24" % (VW, top_h, VW, top_h, VW, top_h, FPS))
                 reader = subprocess.Popen(
                     ["ffmpeg", "-loglevel", "error", "-stream_loop", "-1", "-i", inset["path"],
-                     "-vf", "scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,fps=%d" % (IW, IH, IW, IH, FPS),
-                     "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                     "-filter_complex", flt, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                     stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
             else:
-                inset_photo = cover(Image.open(inset["path"]).convert("RGB"), (IW, IH))
-            lf = font(18, "bold")
-            show_label = bool(inset.get("credit")) and inset.get("kind") != "source"
-            lw = int(ImageDraw.Draw(Image.new("RGB", (10, 10))).textlength("İLLÜSTRATİV GÖRÜNTÜ", font=lf)) + 44
-            label = Image.new("RGBA", (lw, 38), (0, 0, 0, 0))
-            ld = ImageDraw.Draw(label)
-            ld.rounded_rectangle([0, 0, lw - 1, 37], radius=19, fill=(4, 12, 30, 190))
-            ld.text((22, 8), "İLLÜSTRATİV GÖRÜNTÜ", font=lf, fill=(220, 228, 244))
+                piece_img = fit_blur(Image.open(inset["path"]), (VW, top_h))
         except Exception as e:
-            print("  Pəncərə hazırlanmadı:", str(e)[:100])
-            reader, inset_photo = None, None
+            print("  Media hazırlanmadı:", str(e)[:100])
+            reader, piece_img = None, None
+    use_media = reader is not None or piece_img is not None
+    if not use_media:
+        top_h, footer_y = TOP_H, FOOTER_Y
+    bg = None
+    if not use_media:
+        bg = background(photo, (VW, top_h), base_y=top_h - 4)
+        bg = darken(bg, gradient_mask((VW, top_h), 0, 260, 0.65, 0.0))
 
-    # --- Başlıq ---
+    base = Image.new("RGB", (VW, VH), NAVY)
+    bd = ImageDraw.Draw(base)
+    bd.rectangle([0, top_h, VW, top_h + 8], fill=ELECTRIC)
+    bd.rectangle([0, top_h, 230, top_h + 8], fill=RED)
+    topbar = Image.new("RGBA", (VW, 160), (0, 0, 0, 0))
+    draw_topbar(topbar, date)
+    footer = Image.new("RGBA", (VW, 96), (0, 0, 0, 0))
+    draw_footer(footer, 0, source_note)
+    base.paste(footer, (0, footer_y), footer)
+    shade = Image.new("RGB", (VW, 340), NAVY_DEEP)
+    shade_mask = gradient_mask((VW, 340), 0, 340, 0.7, 0.0)
+
+    # --- Başlıq (kateqoriya etiketi mediyanın alt kənarında) ---
     max_w = VW - 2 * MARGIN
     probe = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     h_words = headline.split()
-    hf, hsize, h_lines, _ = fit_block(probe, h_words, "extrabold", max_w, 76, 48, 5, 1.12, max_h=330)
+    tag_y = top_h - 26 if use_media else top_h + 52
+    head_y = tag_y + 48 + 26
+    hf, hsize, h_lines, _ = fit_block(probe, h_words, "extrabold", max_w, 76, 46, 5, 1.12,
+                                      max_h=max(150, footer_y - 50 - head_y))
     hl = highlight_indices(h_words, highlight)
-    tag_y = TOP_H + 52
-    head_y = tag_y + 48 + 22
-    head_h = len(h_lines) * int(hsize * 1.12)
-
-    layers = []  # (qat, x, y, görünmə_vaxtı)
+    layers = []
     tag_layer = Image.new("RGBA", (700, 52), (0, 0, 0, 0))
     draw_tag(tag_layer, 0, 0, az_upper(category))
     layers.append((tag_layer, MARGIN, tag_y, 0.15))
@@ -316,32 +324,10 @@ def make_video(category, headline, summary, source_note, out, photo=None,
                          lambda i: ELECTRIC if i in hl else (255, 255, 255), max_w)
         layers.append((lay, MARGIN, head_y + li * int(hsize * 1.12), 0.3 + 0.22 * li))
 
-    # --- Altyazı parçaları ---
-    cap_y = head_y + head_h + 44
-    cap_h = FOOTER_Y - 40 - cap_y
-    chunks = split_chunks(script)
-    size = pick_caption_size(probe, chunks, max_w, cap_h)
-    cf = font(size, "semibold")
-    chunk_layers = []
-    for c in chunks:
-        cw = c.split()
-        chunk_layers.append(block_layer(cw, wrap_words(probe, cw, cf, max_w), cf, size, 1.25,
-                                        (255, 255, 255), max_w))
-
-    weights = [chunk_weight(c) for c in chunks]
-    wsum = float(sum(weights)) or 1.0
-    starts, acc = [], 0.0
-    for w in weights:
-        starts.append(LEAD + speech * acc / wsum)
-        acc += w
-
     # --- Kadrları yaz ---
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     audio_path = str(Path(out).with_suffix(".pcm"))
-    pad_head = b"\x00\x00" * int(rate * LEAD)
-    pad_tail = b"\x00\x00" * int(rate * TAIL)
-    Path(audio_path).write_bytes(pad_head + pcm + pad_tail)
-
+    Path(audio_path).write_bytes(b"\x00\x00" * int(rate * LEAD) + pcm + b"\x00\x00" * int(rate * TAIL))
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", "%dx%d" % (VW, VH), "-r", str(FPS), "-i", "-",
            "-f", "s16le", "-ar", str(rate), "-ac", "1", "-i", audio_path,
@@ -349,52 +335,32 @@ def make_video(category, headline, summary, source_note, out, photo=None,
            "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
            "-movflags", "+faststart", "-shortest", str(out)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-
-    bar_y = FOOTER_Y - 18
+    bar_y = footer_y - 18
     bar_w = VW - 2 * MARGIN
     for i in range(n_frames):
         t = i / FPS
         frame = base.copy()
-        z = 1 + 0.07 * (t / total)                       # yavaş yaxınlaşma (zoom)
-        cw_, ch_ = VW / z, TOP_H / z
-        x0, y0 = (VW - cw_) / 2, (TOP_H - ch_) / 2
-        top = bg.crop((int(x0), int(y0), int(x0 + cw_), int(y0 + ch_))).resize((VW, TOP_H), Image.BILINEAR)
-        frame.paste(top, (0, 0))
-        frame.paste(topbar, (0, 120), topbar)
-        piece = None
         if reader is not None:
-            raw = read_exact(reader.stdout, IW * IH * 3)
-            if len(raw) == IW * IH * 3:
-                last_inset = Image.frombytes("RGB", (IW, IH), raw)
-            elif last_inset is None:
-                reader.kill()
-                reader = None
-            piece = last_inset
-        elif inset_photo is not None:
-            zz = 1 + 0.06 * (t / total)
-            pw, ph = IW / zz, IH / zz
-            px0, py0 = (IW - pw) / 2, (IH - ph) / 2
-            piece = inset_photo.crop((int(px0), int(py0), int(px0 + pw), int(py0 + ph))).resize((IW, IH), Image.BILINEAR)
-        if piece is not None:
-            frame.paste(piece, (IX, IY), inset_mask)
-            ImageDraw.Draw(frame).rounded_rectangle([IX - 3, IY - 3, IX + IW + 2, IY + IH + 2],
-                                                    radius=30, outline=ELECTRIC, width=3)
-            if show_label:
-                frame.paste(label, (IX + 22, IY + IH - 58), label)
+            raw = read_exact(reader.stdout, VW * top_h * 3)
+            if len(raw) == VW * top_h * 3:
+                last_inset = Image.frombytes("RGB", (VW, top_h), raw)
+            top = last_inset if last_inset is not None else Image.new("RGB", (VW, top_h), NAVY)
+        else:
+            src = piece_img if piece_img is not None else bg
+            z = 1 + 0.05 * (t / total)                     # yavaş yaxınlaşma (zoom)
+            cw_, ch_ = VW / z, top_h / z
+            x0, y0 = (VW - cw_) / 2, (top_h - ch_) / 2
+            top = src.crop((int(x0), int(y0), int(x0 + cw_), int(y0 + ch_))).resize((VW, top_h), Image.BILINEAR)
+        frame.paste(top, (0, 0))
+        if use_media:
+            frame.paste(shade, (0, 0), shade_mask)         # üst loqonun oxunması üçün kölgə
+        frame.paste(topbar, (0, 120), topbar)
         for lay, x, y, ta in layers:
             paste_fade(frame, lay, x, y, clamp((t - ta) / 0.35))
-        if t >= starts[0] - 0.05:                         # aktiv altyazı parçası
-            idx = 0
-            for k, st in enumerate(starts):
-                if t >= st - 0.05:
-                    idx = k
-            paste_fade(frame, chunk_layers[idx], MARGIN, cap_y,
-                       clamp((t - starts[idx] + 0.05) / 0.12), rise=10)
-        d = ImageDraw.Draw(frame)                         # irəliləyiş xətti
+        d = ImageDraw.Draw(frame)                          # irəliləyiş xətti
         d.rectangle([MARGIN, bar_y, MARGIN + bar_w, bar_y + 5], fill=(30, 46, 80))
         d.rectangle([MARGIN, bar_y, MARGIN + int(bar_w * clamp(t / total)), bar_y + 5], fill=ELECTRIC)
         proc.stdin.write(frame.tobytes())
-
     proc.stdin.close()
     proc.wait()
     if reader is not None:
