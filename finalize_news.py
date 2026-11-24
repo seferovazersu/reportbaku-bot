@@ -85,6 +85,27 @@ def photo_45(src, out):
     return True
 
 
+def montage(items, out, photo_secs=4, video_secs=8):
+    """Bir neçə şəkil/videonu ardıcıl göstərən tam eni klip (Reels pəncərəsi üçün). items: [(yol, 'photo'|'video')]."""
+    W, H = 1080, 1060
+    flt = ("[0:v]split[a][b];[a]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,boxblur=25:3[bg];"
+           "[b]scale=%d:%d:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,fps=24,format=yuv420p"
+           % (W, H, W, H, W, H))
+    folder = Path(out).parent
+    segs = []
+    for i, (path, typ) in enumerate(items):
+        seg = folder / ("seg%d.mp4" % i)
+        pre = ["-loop", "1", "-t", str(photo_secs), "-i", str(path)] if typ == "photo" else ["-t", str(video_secs), "-i", str(path)]
+        if run_ffmpeg(pre + ["-filter_complex", flt, "-an", "-c:v", "libx264", "-preset", "veryfast",
+                             "-crf", "23", "-r", "24", str(seg)]):
+            segs.append(seg)
+    if not segs:
+        return False
+    lst = folder / "list.txt"
+    lst.write_text("".join("file '%s'\n" % s.resolve() for s in segs), encoding="utf-8")
+    return run_ffmpeg(["-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)])
+
+
 def fill_from_text(e):
     """Özünüzün göndərdiyi mətndən başlıq, xülasə, caption, səsləndirmə mətni hazırlayır (Gemini)."""
     from process_news import ask_gemini
@@ -183,7 +204,11 @@ def build_for(e, pending):
         rid = base + "-r"
         out = VIDEOS_DIR / (rid + ".mp4")
         inset = None
-        if video:
+        ordered = [(m["file"], m["type"]) for m in e.get("media", []) if m.get("file") and Path(m["file"]).exists()]
+        mont = INCOMING / e["id"] / "montage.mp4"
+        if len(ordered) >= 2 and montage(ordered, mont):
+            inset = {"path": str(mont), "kind": "video", "credit": "", "keyword": "xəbərin mediası (ardıcıl)"}
+        elif video:
             inset = {"path": video, "kind": "video", "credit": "", "keyword": "xəbərin videosu"}
         elif photos:
             inset = {"path": photos[0], "kind": "photo", "credit": "", "keyword": "xəbərin şəkli"}
