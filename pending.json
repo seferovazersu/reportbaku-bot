@@ -9160,5 +9160,46 @@
   "image": "posts/20261124-173958-03-s.jpg",
   "instagram_id": "18061129571569072",
   "permalink": ""
+ },
+ {
+  "id": "20261124-200918-u",
+  "kind": "news",
+  "created": "2026-11-24T16:09:18.696535+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından mərkəz istiqamətində;\n2. Ziya Bünyadov prospekti, Bakı Olimpiya Stadionunun qarşısından “20 Yanvar” metro stansiyası istiqamətində;\n3. Ziya Bünyadov prospekti, Əhməd Rəcəbli küçəsi ilə kəsişmədən Atatürk prospekti ilə kəsişməyə qədər;\n4. Yusif Səfərov küçəsi, mərkəz istiqamətində;\n5. Yusif Səfərov küçəsi, Heydər Əliyev prospekti istiqamətində;\n6. Neftçilər prospekti, Yusif Səfərov küçəsi istiqamətində;\n7. Niyazi küçəsi, “Azneft” dairəsi istiqamətində;\n8. Dənizkənarı küçəsi, Bayraq Meydanının qarşısından “Azneft” dairəsi istiqamətində;\n9. Şəmsi Bədəlbəyli küçəsi, “Qış parkı”nın qarşısından Mərkəzi Bank istiqamətində;\n10. Bakı-Sumqayıt şosesi, “20 Yanvar” metro stansiyası istiqamətində;\n11. Bakı-Sumqayıt şosesi, “Xırdalan” dairəsi istiqamətində;\n12. 8 Noyabr prospekti, Süleyman Əhmədov küçəsi ilə kəsişmədən Zığ şosesi istiqamətində sıxlıq müşahidə olunur.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIDhmsFtmleziP063kfJ_xvGBj6pGp7AAKTJWsbTg4xSKWtv-cqCgXJAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIDh2sFtmnTLltQBPm4kfUO10aJyLBYAAKUJWsbTg4xSMZxzEObS-BcAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIDiGsFtmmgVAk-Cn9jx6PgCmVyaFlHAAKVJWsbTg4xSDcp_Ef8Qw-mAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIDiWsFtmkVyCJQuzqN3_XXfdVuZohfAAKWJWsbTg4xSBKWOZkyTCtXAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "📍 Hal-hazırda yollardakı vəziyyət:\n\n1. Tbilisi prospekti, “20 Yanvar” metro stansiyasından mərkəz istiqamətində;\n2. Ziya",
+  "link": "",
+  "sensitive": false,
+  "groups": [
+   "14364291913825642"
+  ],
+  "card_sent": true
  }
 ]
