@@ -10615,26 +10615,71 @@
   "id": "20261125-081026-u",
   "kind": "news",
   "created": "2026-11-25T04:10:26.698921+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Balakənin Mahamalar kəndində qardaşlar arasında mübahisə bıçaqlanma ilə nəticələnib. 1960-cı il təvəllüdlü Sədrəddin Malahov və onun 1957-ci il təvəllüdlü qardaşı Məhəmməd Malahov arasında yaranan mübahisə zamanı Məhəmməd Malahov Sədrəddin Malahovu bıçaqlayaraq sinəsindən yaralayıb. Hadisə noyabrın 24-də axşam saatlarında baş verib. Məhəmməd Malahov polis tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi araşdırma aparır.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIEAmsGXvjjFvu0w-kSr8OvQbcrIuLwAAL0HGsbDcA5SBmFlJO2c_7RAQADAgADeAADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib",
+  "summary": "Balakən rayonunun Mahamalar kəndində qardaşlar arasında mübahisə baş verib. Hadisə zamanı qardaşlardan biri digərini bıçaqlayaraq yaralayıb.",
+  "caption_text": "Balakən rayonunun Mahamalar kəndində qardaşlar arasındakı mübahisə bıçaqlı insidentlə nəticələnib. Noyabrın 24-də axşam saatlarında qeydə alınan hadisə zamanı 1957-ci il təvəllüdlü Məhəmməd Malahov qardaşı, 1960-cı il təvəllüdlü Sədrəddin Malahovu bıçaqlayaraq sinə nahiyəsindən yaralayıb. \n\nMəhəmməd Malahov polis əməkdaşları tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi tərəfindən araşdırma aparılır.",
+  "voiceover": "Balakən rayonunun Mahamalar kəndində qardaşlar arasında mübahisə bıçaqlanma ilə nəticələnib. Noyabrın 24-də axşam saatlarında qeydə alınan hadisədə Məhəmməd Malahov qardaşı Sədrəddin Malahovu bıçaqlayaraq sinəsindən yaralayıb. Məhəmməd Malahov polis tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi tərəfindən araşdırma aparılır.",
+  "hashtags": [
+   "#Balakən",
+   "#Mahamalar",
+   "#Hadisə",
+   "#Polis"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "Balakənin Mahamalar kəndində qardaşlar arasında mübahisə bıçaqlanma ilə nəticələnib. 1960-",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Balakəndə"
+  ],
   "source_note": "",
   "source_title": "Balakənin Mahamalar kəndində qardaşlar arasında mübahisə bıçaqlanma ilə nəticələnib. 1960-cı il təvəllüdlü Sədrəddin Mal",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-25T04:11:59.787807+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib",
+  "summary": "Balakən rayonunun Mahamalar kəndində qardaşlar arasında mübahisə baş verib. Hadisə zamanı qardaşlardan biri digərini bıçaqlayaraq yaralayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib\n\nBalakən rayonunun Mahamalar kəndində qardaşlar arasındakı mübahisə bıçaqlı insidentlə nəticələnib. Noyabrın 24-də axşam saatlarında qeydə alınan hadisə zamanı 1957-ci il təvəllüdlü Məhəmməd Malahov qardaşı, 1960-cı il təvəllüdlü Sədrəddin Malahovu bıçaqlayaraq sinə nahiyəsindən yaralayıb. \n\nMəhəmməd Malahov polis əməkdaşları tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi tərəfindən araşdırma aparılır.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Balakən #Mahamalar #Polis",
+  "id": "20261125-081026-u-p",
+  "kind": "post",
+  "image": "posts/20261125-081026-u-p.jpg"
+ },
+ {
+  "created": "2026-11-25T04:11:59.787807+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib",
+  "summary": "Balakən rayonunun Mahamalar kəndində qardaşlar arasında mübahisə baş verib. Hadisə zamanı qardaşlardan biri digərini bıçaqlayaraq yaralayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib\n\nBalakən rayonunun Mahamalar kəndində qardaşlar arasındakı mübahisə bıçaqlı insidentlə nəticələnib. Noyabrın 24-də axşam saatlarında qeydə alınan hadisə zamanı 1957-ci il təvəllüdlü Məhəmməd Malahov qardaşı, 1960-cı il təvəllüdlü Sədrəddin Malahovu bıçaqlayaraq sinə nahiyəsindən yaralayıb. \n\nMəhəmməd Malahov polis əməkdaşları tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi tərəfindən araşdırma aparılır.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Balakən #Mahamalar #Polis",
+  "id": "20261125-081026-u-r",
+  "kind": "reel",
+  "video": "20261125-081026-u-r.mp4",
+  "cover": "20261125-081026-u-r.jpg"
+ },
+ {
+  "created": "2026-11-25T04:11:59.787807+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib",
+  "summary": "Balakən rayonunun Mahamalar kəndində qardaşlar arasında mübahisə baş verib. Hadisə zamanı qardaşlardan biri digərini bıçaqlayaraq yaralayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Balakəndə qardaşlar arasındakı mübahisə bıçaqlanma ilə bitib\n\nBalakən rayonunun Mahamalar kəndində qardaşlar arasındakı mübahisə bıçaqlı insidentlə nəticələnib. Noyabrın 24-də axşam saatlarında qeydə alınan hadisə zamanı 1957-ci il təvəllüdlü Məhəmməd Malahov qardaşı, 1960-cı il təvəllüdlü Sədrəddin Malahovu bıçaqlayaraq sinə nahiyəsindən yaralayıb. \n\nMəhəmməd Malahov polis əməkdaşları tərəfindən saxlanılıb. Faktla bağlı Balakən Rayon Polis Şöbəsi tərəfindən araşdırma aparılır.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Balakən #Mahamalar #Polis",
+  "id": "20261125-081026-u-s",
+  "kind": "story",
+  "image": "posts/20261125-081026-u-s.jpg"
  }
 ]
