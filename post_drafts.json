@@ -1,52 +1,80 @@
 [
   {
-    "category": "DÜNYA",
-    "headline": "Azərbaycan və Tacikistan hərbi planları müzakirə edib",
-    "summary": "Azərbaycan və Tacikistan baş qərargah rəsmiləri hərbi sahədə əməkdaşlıq perspektivlərini müzakirə ediblər. Bu barədə Müdafiə Nazirliyi məlumat yayıb.",
-    "caption_text": "Azərbaycan Silahlı Qüvvələrinin Baş Qərargah rəisi Kərim Vəliyev Tacikistan Silahlı Qüvvələri Baş Qərargahının Əməliyyat İdarəsinin rəisi Şərəf Egamzod ilə görüş keçirib. Müdafiə Nazirliyinin məlumatına görə, görüş zamanı tərəflər hərbi əməkdaşlığın gələcək perspektivlərini müzakirə ediblər.",
-    "voiceover": "Azərbaycan Silahlı Qüvvələrinin Baş Qərargah rəisi Kərim Vəliyev Tacikistan Silahlı Qüvvələri Baş Qərargahının Əməliyyat İdarəsinin rəisi Şərəf Egamzod ilə görüşüb. Müdafiə Nazirliyinin məlumatına görə, görüşdə iki ölkə arasında hərbi əməkdaşlığın perspektivləri müzakirə olunub.",
+    "category": "HADİSƏ",
+    "headline": "Bakıda yanan avtomobil yolda qalıb",
+    "summary": "Paytaxtın Ramana qəsəbəsində avtomobil yanaraq yararsız hala düşüb. Sürücü nəqliyyat vasitəsini yoldan çəkməkdən imtina edib.",
+    "caption_text": "Bakının Ramana qəsəbəsində nəqliyyat vasitəsində baş verən yanğın onu yararsız vəziyyətə salıb. Hadisə səbəbindən avtomobil yolun hərəkət hissəsində qalıb və yoldan keçən digər sürücülər bu barədə sosial şəbəkələrdə görüntülər paylaşaraq digərlərini ehtiyatlı olmağa çağırıblar.\n\nAvtomobilin sahibi olduğunu iddia edən şəxs nəqliyyat vasitəsinin yoldan kənarlaşdırılmamasını sığorta ödənişi problemi ilə əlaqələndirib. O, maşının yolun bərbad olması səbəbindən yandığını və sığortanın ziyanı ödəmədiyini bildirib.",
+    "voiceover": "Bakının Ramana qəsəbəsində avtomobil yanaraq yararsız vəziyyətə düşüb. Hadisə nəticəsində nəqliyyat vasitəsi yolun hərəkət hissəsində qalıb. Avtomobilin sahibi olduğunu iddia edən şəxs maşının yoldan götürülməməsinə səbəb kimi sığorta ödənişi məsələsini göstərib. Həmin şəxs nəqliyyat vasitəsinin yolun bərbad vəziyyətdə olması səbəbindən yandığını iddia edib.",
     "hashtags": [
-      "#Azərbaycan",
-      "#Tacikistan",
-      "#MüdafiəNazirliyi",
-      "#HərbiƏməkdaşlıq"
+      "#Bakı",
+      "#Ramana",
+      "#hadisə",
+      "#avtomobil",
+      "#sığorta"
     ],
     "image_url": null,
-    "source_title": "Генштабы Азербайджана и Таджикистана сверили военные планы",
+    "source_title": "Bakıda yanan avtomobil yolda qaldı: Sürücü maşını kənara çəkməkdən imtina etdi - Foto/Video",
     "visual_keywords": [],
     "highlight": [
-      "Azərbaycan",
-      "Tacikistan"
+      "Bakıda",
+      "yanan",
+      "avtomobil"
     ],
-    "source_note": "Mənbə: Minval.az",
-    "link": "https://minval.az/news/124564318",
+    "source_note": "Mənbə: Oxu.az",
+    "link": "https://oxu.az/hadise/bakida-yanan-avtomobil-yolda-qaldi-surucu-masini-kenara-cekmekden-imtina-etdi-foto-video",
+    "sensitive": true
+  },
+  {
+    "category": "İDMAN",
+    "headline": "\"Sabah\" - \"Barselona\" matçında ilk qol vurulub",
+    "summary": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda keçirilən \"Sabah\" - \"Barselona\" matçında hesab açılıb. Görüşün 31-ci dəqiqəsində İspaniya təmsilçisi hesabda irəli keçib.",
+    "caption_text": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda Bakı Olimpiya Stadionunda \"Sabah\" və İspaniyanın \"Barselona\" komandaları qarşılaşır. Görüşün 31-ci dəqiqəsində rəqib heyətində Entoni Qordon hesabı açıb. Qarşılaşmanın baş tutduğu anda \"Sabah\" klubu dörd turdan sonra üç xalla otuz birinci pillədə qərarlaşmışdı.",
+    "voiceover": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda keçirilən \"Sabah\" - \"Barselona\" matçında hesab açılıb. Görüşün 31-ci dəqiqəsində İspaniya təmsilçisinin oyunçusu Entoni Qordon hesabı açıb.",
+    "hashtags": [
+      "#SabahFC",
+      "#Barcelona",
+      "#ChampionsLeague",
+      "#İdman"
+    ],
+    "image_url": null,
+    "source_title": "Katalonlar Bakıda önə keçirlər",
+    "visual_keywords": [
+      "stadium match",
+      "football players"
+    ],
+    "highlight": [
+      "Sabah",
+      "Barselona"
+    ],
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/katalonlar-bakida-one-kecirler-canli-yenilenir-529723",
     "sensitive": false
   },
   {
     "category": "DÜNYA",
-    "headline": "Ukrayna Xarkov vilayətində Ayı tələsi əməliyyatını tamamlayıb",
-    "summary": "Ukrayna Silahlı Qüvvələri Xarkov vilayətində gizli şəkildə həyata keçirilən Ayı tələsi əməliyyatını başa çatdırıb. Hərbi-siyasi müşahidəçi Aleksandr Kovalenkonun sözlərinə görə, əməliyyat nəticəsində 14 yaşayış məntəqəsi və müəyyən ərazi azad edilib.",
-    "caption_text": "Ukrayna Silahlı Qüvvələrinin Xarkov vilayətində həyata keçirdiyi Ayı tələsi adlı iri əməliyyatın təfərrüatları məlum olub. Bir neçə ay ərzində ciddi məxfilik şəraitində hazırlanan tapşırıq üç həftə ərzində tamamlanıb. Ukrayna qüvvələri təxminən 200 kvadratmetr ərazini və 14 yaşayış məntəqəsini azad ediblər.\n\nİnformasiya müqaviməti qrupunun ukraynalı hərbi-siyasi müşahidəçisi Aleksandr Kovalenkonun bildirdiyinə görə, hər şey Rusiya qoşunlarının Ayı küncü əməliyyatını təşkil etmək niyyəti ilə başlayıb. Rusiya tərəfi geniş əraziləri ələ keçirdiyini iddia etsə də, əslində infiltrasiyalarla birlikdə daha məhdud sahələrə nəzarət ediblər. Ukrayna qoşunları əvvəlcə infiltrasiyaları sabitləşdirib, daha sonra isə əks-hücumlar vasitəsilə düşmənin geri çəkilməsinə nail olublar.",
-    "voiceover": "Ukrayna Silahlı Qüvvələri Xarkov vilayətində Ayı tələsi əməliyyatını başa çatdırıb. Bir neçə ay məxfi şəkildə hazırlanan əməliyyat üç həftə ərzində tamamlanıb. Hərbi-siyasi müşahidəçi Aleksandr Kovalenkonun sözlərinə görө, ukraynalılar əməliyyat nəticəsində 14 yaşayış məntəqəsini azad ediblər. Rusiya qüvvələrinin irəliləmək və müdafiəni saxlamaq üçün resursları tükəndikdən sonra Ukrayna tərəfi əks-hücuma keçib.",
+    "headline": "Avropa Parlamenti Avropa İttifaqının 2027-ci il büdcəsini təsdiqləyib",
+    "summary": "Avropa Parlamenti Avropa İttifaqının 2027-ci il üçün büdcəsini qəti olaraq təsdiq edib. Sənəd elmi tədqiqatlar, infrastruktur və Ukraynaya dəstək üçün əlavə vəsaitlərin ayrılmasını nəzərdə tutur.",
+    "caption_text": "Avropa Parlamenti Avropa İttifaqının 2027-ci il üçün büdcəsini qəti şəkildə təsdiqləyib. Bildirilib ki, sənədin qəbul edilməsinin lehinə 406, əleyhinə isə 184 deputat səs verib, 69 nəfər isə bitərəf qalıb. Ümumi büdcə öhdəliklərinin həcmi qurumun ümumi milli gəlirinin 0,99 faizini təşkil edəcək.\n\nQeyd olunub ki, deputatlar prioritet istiqamətlər üzrə maliyyələşmənin 300 milyon avro artırılmasına nail olublar. Əlavə vəsaitlər elmi araşdırmalara, nəqliyyat və energetika infrastrukturuna, həmçinin humanitar yardıma yönəldiləcək. Eyni zamanda, Ukraynaya dəstək məqsədilə verilən borcun xidməti üçün büdcədə 650 milyon avro nəzərdə tutulub.",
+    "voiceover": "Avropa Parlamenti Avropa İttifaqının 2027-ci il büdcəsini yekdilliklə deyil, səsvermə ilə təsdiqləyib. Sənədin lehinə 406 deputat səs verib. Büdcə elmi tədqiqatlar, infrastruktur və Ukraynaya dəstək üçün əlavə vəsaitlərin ayrılmasını nəzərdə tutur. Deputatlar prioritet sahələr üzrə maliyyələşməni 300 milyon avro artırıblar.",
     "hashtags": [
-      "#Ukrayna",
-      "#Xarkov",
-      "#Hərb",
+      "#AvropaParlamenti",
+      "#Avropaİttifaqı",
+      "#Büdcə2027",
       "#DünyaXəbərləri"
     ],
     "image_url": null,
-    "source_title": "Kreml tələdə: Ukraynalılar Xarkov bölgəsində rusları necə məğlub etdi...",
+    "source_title": "Европарламент утвердил бюджет ЕС на 2027 год",
     "visual_keywords": [
-      "military operation",
-      "map strategy",
-      "ukraine conflict"
+      "European Parliament building",
+      "EU flag",
+      "Brussels meeting"
     ],
     "highlight": [
-      "Ayı tələsi",
-      "Xarkov"
+      "Avropa Parlamenti",
+      "2027-ci il büdcəsini"
     ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sia.az/az/news/rey/1376920.html",
-    "sensitive": true
+    "source_note": "Mənbə: Day.az",
+    "link": "https://news.day.az/world/1877151.html",
+    "sensitive": false
   }
 ]
