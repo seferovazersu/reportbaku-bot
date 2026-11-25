@@ -11905,7 +11905,7 @@
  },
  {
   "created": "2026-11-25T14:48:29.914620+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "MƏDƏNİYYƏT",
   "headline": "Xalq artisti Elmira Şabanova vəfat edib",
   "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
@@ -11916,11 +11916,13 @@
   "id": "20261125-184438-u-r",
   "kind": "reel",
   "video": "20261125-184438-u-r.mp4",
-  "cover": "20261125-184438-u-r.jpg"
+  "cover": "20261125-184438-u-r.jpg",
+  "instagram_id": "18120523522809238",
+  "permalink": "https://www.instagram.com/reel/DgKyUJGhPGK/"
  },
  {
   "created": "2026-11-25T14:48:29.914620+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "MƏDƏNİYYƏT",
   "headline": "Xalq artisti Elmira Şabanova vəfat edib",
   "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
@@ -11930,6 +11932,8 @@
   "caption": "Xalq artisti Elmira Şabanova vəfat edib\n\nAzərbaycan mədəniyyətinə ağır itki üz verib. Xalq artisti Elmira Şabanova vəfat edib.\n\nSənətkarın ölüm xəbərini qızı Leyla Şabanova paylaşıb. O, yaxınlarının ağır itki ilə üzləşdiyini bildirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #ElmiraŞabanova #XalqArtisti",
   "id": "20261125-184438-u-s",
   "kind": "story",
-  "image": "posts/20261125-184438-u-s.jpg"
+  "image": "posts/20261125-184438-u-s.jpg",
+  "instagram_id": "18130623061895542",
+  "permalink": ""
  }
 ]
