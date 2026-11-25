@@ -12248,14 +12248,9 @@
   "id": "20261125-234025-01",
   "kind": "news",
   "created": "2026-11-25T19:40:25.277676+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIExmsHOjFxrZ1np_ZR-SWkxndB9OX6AAKKHGsbDcBBSCCQzEueLDPMAQADAgADeAADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "CƏMİYYƏT",
   "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
   "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
@@ -12274,7 +12269,8 @@
   "source_title": "Restorandan ŞİKAYƏT: \"Ağız deyəni qulaq eşitmir\" - DİN-dən RƏSMİ AÇIQLAMA/YENİLƏNİB- VİDEO",
   "link": "https://xezerxeber.az/az/veb-tv/restorandan-si-kayet-agiz-deyeni-qulaq-esitmir-di-n-den-resmi-aciqlama-yeni-leni-b-vi-deo",
   "sensitive": false,
-  "card_id": 1219
+  "card_id": 1219,
+  "raw_text": ""
  },
  {
   "id": "20261125-234025-02",
@@ -12308,14 +12304,9 @@
   "id": "20261125-234025-03",
   "kind": "news",
   "created": "2026-11-25T19:40:25.277676+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIEx2sHOmWbelLvJ9t19IW7D5Qho7Y-AAKLHGsbDcBBSIYmuaiKIiDHAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "TEXNOLOGİYA",
   "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
   "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
@@ -12336,6 +12327,93 @@
   "source_title": "Внезапное возвращение Хуанга вызвало вопросы в Конгрессе",
   "link": "https://haqqin.az/newsarchive/399435",
   "sensitive": false,
-  "card_id": 1221
+  "card_id": 1221,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-25T19:53:01.195565+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
+  "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/restorandan-si-kayet-agiz-deyeni-qulaq-esitmir-di-n-den-resmi-aciqlama-yeni-leni-b-vi-deo",
+  "sensitive": false,
+  "caption": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb\n\nBakının Fəvvarələr meydanında yerləşən restoranlardan birinin ətraf sakinlərin dincliyini pozması ilə bağlı şikayətlər daxil olub. Vətəndaşlar tərəfindən çəkilən kadrlarda iaşə obyektinin qarşısında musiqi səsləndirildiyi və səs-küyün ətrafa yayıldığı əks olunub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Nəzrin Adıgözəlzadə bildirib ki, məsələ ilə əlaqədar polis tərəfindən araşdırma aparılıb. İctimai asayişin və sakinlərin rahatlığının pozulması səbəbindən obyekt sahibi barəsində inzibati tənbeh tədbiri tətbiq olunub.\n\nQayda pozuntusunun təkrarlanacağı təqdirdə qanunvericiliyə uyğun olaraq daha sərt tədbirlərin görüləcəyi sahibkarın diqqətinə çatdırılıb. Restoranın direktoru Dilarə Quliyeva isə hər gecə təşkil edilən canlı musiqi və şou proqramların saat 12.00-da başa çatdığını qeyd edib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Baki #DİN #FəvvarələrMeydanı #XəzərXəbər",
+  "id": "20261125-234025-01-p",
+  "kind": "post",
+  "image": "posts/20261125-234025-01-p.jpg"
+ },
+ {
+  "created": "2026-11-25T19:53:01.195565+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
+  "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/restorandan-si-kayet-agiz-deyeni-qulaq-esitmir-di-n-den-resmi-aciqlama-yeni-leni-b-vi-deo",
+  "sensitive": false,
+  "caption": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb\n\nBakının Fəvvarələr meydanında yerləşən restoranlardan birinin ətraf sakinlərin dincliyini pozması ilə bağlı şikayətlər daxil olub. Vətəndaşlar tərəfindən çəkilən kadrlarda iaşə obyektinin qarşısında musiqi səsləndirildiyi və səs-küyün ətrafa yayıldığı əks olunub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Nəzrin Adıgözəlzadə bildirib ki, məsələ ilə əlaqədar polis tərəfindən araşdırma aparılıb. İctimai asayişin və sakinlərin rahatlığının pozulması səbəbindən obyekt sahibi barəsində inzibati tənbeh tədbiri tətbiq olunub.\n\nQayda pozuntusunun təkrarlanacağı təqdirdə qanunvericiliyə uyğun olaraq daha sərt tədbirlərin görüləcəyi sahibkarın diqqətinə çatdırılıb. Restoranın direktoru Dilarə Quliyeva isə hər gecə təşkil edilən canlı musiqi və şou proqramların saat 12.00-da başa çatdığını qeyd edib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Baki #DİN #FəvvarələrMeydanı #XəzərXəbər",
+  "id": "20261125-234025-01-r",
+  "kind": "reel",
+  "video": "20261125-234025-01-r.mp4",
+  "cover": "20261125-234025-01-r.jpg"
+ },
+ {
+  "created": "2026-11-25T19:53:01.195565+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
+  "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/restorandan-si-kayet-agiz-deyeni-qulaq-esitmir-di-n-den-resmi-aciqlama-yeni-leni-b-vi-deo",
+  "sensitive": false,
+  "caption": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb\n\nBakının Fəvvarələr meydanında yerləşən restoranlardan birinin ətraf sakinlərin dincliyini pozması ilə bağlı şikayətlər daxil olub. Vətəndaşlar tərəfindən çəkilən kadrlarda iaşə obyektinin qarşısında musiqi səsləndirildiyi və səs-küyün ətrafa yayıldığı əks olunub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Nəzrin Adıgözəlzadə bildirib ki, məsələ ilə əlaqədar polis tərəfindən araşdırma aparılıb. İctimai asayişin və sakinlərin rahatlığının pozulması səbəbindən obyekt sahibi barəsində inzibati tənbeh tədbiri tətbiq olunub.\n\nQayda pozuntusunun təkrarlanacağı təqdirdə qanunvericiliyə uyğun olaraq daha sərt tədbirlərin görüləcəyi sahibkarın diqqətinə çatdırılıb. Restoranın direktoru Dilarə Quliyeva isə hər gecə təşkil edilən canlı musiqi və şou proqramların saat 12.00-da başa çatdığını qeyd edib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Baki #DİN #FəvvarələrMeydanı #XəzərXəbər",
+  "id": "20261125-234025-01-s",
+  "kind": "story",
+  "image": "posts/20261125-234025-01-s.jpg"
+ },
+ {
+  "created": "2026-11-25T19:53:27.803264+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
+  "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399435",
+  "sensitive": false,
+  "caption": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub\n\nABŞ-ın Nyu-Cersi ştatından olan senator-demokrat Kori Buker Nvidia şirkətinə məktub ünvanlayıb. O, baş direktor Censen Xuanqın istefasından sonra yenidən vəzifəsinə bərpa olunması məsələsinə aydınlıq gətirilməsini tələb edib.\n\nSenator Donald Tramp administrasiyası ilə şirkətin direktorlar şurası arasındakı təmaslar barədə məlumat istəyib. Buker məktubunda həmçinin Xuanqın təhlükəsizlik təhdidi yaratmadığına dair verilən əminliklərin detallarının və müvafiq iclas protokollarının qorunub saxlanılmasını qeyd edib.\n\nXatırladaq ki, Censen Xuanq noyabrın 12-də istefa vermiş, noyabrın 23-də isə direktorlar şurasının yekdilliklə qəbul etdiyi qərarla yenidən baş direktor vəzifəsinə qaytarılmışdı. Bu hadisə və səhmlərin qiymətindəki kəskin dəyişikliklər bazar gücü ilə bağlı suallar doğurub.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Nvidia #CensenXuanq #ABŞ #Konqres",
+  "id": "20261125-234025-03-p",
+  "kind": "post",
+  "image": "posts/20261125-234025-03-p.jpg"
+ },
+ {
+  "created": "2026-11-25T19:53:27.803264+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
+  "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399435",
+  "sensitive": false,
+  "caption": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub\n\nABŞ-ın Nyu-Cersi ştatından olan senator-demokrat Kori Buker Nvidia şirkətinə məktub ünvanlayıb. O, baş direktor Censen Xuanqın istefasından sonra yenidən vəzifəsinə bərpa olunması məsələsinə aydınlıq gətirilməsini tələb edib.\n\nSenator Donald Tramp administrasiyası ilə şirkətin direktorlar şurası arasındakı təmaslar barədə məlumat istəyib. Buker məktubunda həmçinin Xuanqın təhlükəsizlik təhdidi yaratmadığına dair verilən əminliklərin detallarının və müvafiq iclas protokollarının qorunub saxlanılmasını qeyd edib.\n\nXatırladaq ki, Censen Xuanq noyabrın 12-də istefa vermiş, noyabrın 23-də isə direktorlar şurasının yekdilliklə qəbul etdiyi qərarla yenidən baş direktor vəzifəsinə qaytarılmışdı. Bu hadisə və səhmlərin qiymətindəki kəskin dəyişikliklər bazar gücü ilə bağlı suallar doğurub.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Nvidia #CensenXuanq #ABŞ #Konqres",
+  "id": "20261125-234025-03-r",
+  "kind": "reel",
+  "video": "20261125-234025-03-r.mp4",
+  "cover": "20261125-234025-03-r.jpg"
+ },
+ {
+  "created": "2026-11-25T19:53:27.803264+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
+  "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399435",
+  "sensitive": false,
+  "caption": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub\n\nABŞ-ın Nyu-Cersi ştatından olan senator-demokrat Kori Buker Nvidia şirkətinə məktub ünvanlayıb. O, baş direktor Censen Xuanqın istefasından sonra yenidən vəzifəsinə bərpa olunması məsələsinə aydınlıq gətirilməsini tələb edib.\n\nSenator Donald Tramp administrasiyası ilə şirkətin direktorlar şurası arasındakı təmaslar barədə məlumat istəyib. Buker məktubunda həmçinin Xuanqın təhlükəsizlik təhdidi yaratmadığına dair verilən əminliklərin detallarının və müvafiq iclas protokollarının qorunub saxlanılmasını qeyd edib.\n\nXatırladaq ki, Censen Xuanq noyabrın 12-də istefa vermiş, noyabrın 23-də isə direktorlar şurasının yekdilliklə qəbul etdiyi qərarla yenidən baş direktor vəzifəsinə qaytarılmışdı. Bu hadisə və səhmlərin qiymətindəki kəskin dəyişikliklər bazar gücü ilə bağlı suallar doğurub.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Nvidia #CensenXuanq #ABŞ #Konqres",
+  "id": "20261125-234025-03-s",
+  "kind": "story",
+  "image": "posts/20261125-234025-03-s.jpg"
  }
 ]
