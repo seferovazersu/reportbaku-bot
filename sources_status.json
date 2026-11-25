@@ -49,7 +49,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (67 təzə xəbər, HTTP 200)"
+    "state": "BOŞ/ÖLÜ (HTTP 403)"
   },
   "Daxili İşlər Nazirliyi": {
     "url": "https://t.me/s/polisazerbaycan",
