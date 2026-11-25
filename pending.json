@@ -11097,7 +11097,12 @@
   "created": "2026-11-25T06:10:46.841202+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEMmsGfGfRz7hRR6mo1Dnp4VenGS-hAAJ_HWsbDcA5SPrfBqvt630QAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Məhkəmə əmri ilə bağlı dövlət rüsumu dörd dəfə azaldılır",
   "summary": "Milli Məclisin komitə iclasında “Dövlət rüsumu haqqında” qanuna dəyişikliklər müzakirə edilib. Layihəyə əsasən, məhkəmə əmri üzrə rüsum 100 manatdan 25 manata endirilir.",
@@ -11124,7 +11129,12 @@
   "created": "2026-11-25T06:10:46.841202+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEM2sGfINGI2qTk0U-Xx3RhbcENmdsAAKBHWsbDcA5SExpeVZd4JelAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Kəmaləddin Heydərovun Ağdamdakı vətəndaş qəbulunun vaxtı dəyişdirilib",
   "summary": "Fövqəladə hallar naziri Kəmaləddin Heydərovun Ağdam rayonunda planlaşdırılan vətəndaş qəbulunun vaxtı dəyişdirilib. Noyabrın 27-də baş tutmalı olan görüşün yeni tarixi barədə əlavə məlumat veriləcək.",
@@ -11153,7 +11163,12 @@
   "created": "2026-11-25T06:10:46.841202+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIENGsGfJNPEc68C8w2-mgQJmmXqVINAAKCHWsbDcA5SMX4PH6LHcPVAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "Qubada BMW parkın məhəccərinə çırpılıb",
   "summary": "Qubada idarəetmədən çıxan BMW markalı avtomobil parkın hasarına çırpılıb. Qəza nəticəsində avtomobilə ziyan dəyib, sürücü və ailə üzvləri xəsarət almayıblar.",
