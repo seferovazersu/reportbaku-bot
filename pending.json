@@ -10359,7 +10359,7 @@
   "id": "20261125-073419-01",
   "kind": "news",
   "created": "2026-11-25T03:34:19.668532+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "TEXNOLOGİYA",
@@ -10381,7 +10381,8 @@
   "source_title": "TikTok-da yenilik: bu vacib funksiya da əlçatan oldu - VİDEO",
   "link": "https://xezerxeber.az/az/veb-tv/tiktok-da-yenilik-bu-vacib-funksiya-da-elcatan-oldu-vi-deo",
   "sensitive": false,
-  "card_id": 1005
+  "card_id": 1005,
+  "raw_text": ""
  },
  {
   "id": "20261125-073419-02",
@@ -10389,7 +10390,12 @@
   "created": "2026-11-25T03:34:19.668532+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAID8WsGWDQpNjDtkq-V5a1ZX78rJCYpAALdHGsbDcA5SF9IQ8QQmmisAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib",
   "summary": "Nvidia şirkətinin baş direktoru Censen Huanq şəxsi həyatı ilə bağlı yaranan qalmaqaldan sonra kollektivdən üzr istəyib. O, hərəkətləri nəticəsində yaxınlarına və həmkarlarına ağrı yaşatdığını etiraf edib.",
@@ -10417,7 +10423,12 @@
   "created": "2026-11-25T03:34:19.668532+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAID8msGWM7-l2Hvqmf-9mftB4WZcHiNAALhHGsbDcA5SBhllerTRQzaAQADAgADdwADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib",
   "summary": "Almaniyanın kansleri Fridrix Merts Avropa İttifaqının yeddiillik büdcəsinin bloklana biləcəyini bildirib. Politico nəşrinin məlumatına görə, bu addım Ukraynanın maliyyələşdirilməsi ilə əlaqədardır.",
@@ -10439,5 +10450,48 @@
   "link": "https://haqqin.az/newsarchive/399338",
   "sensitive": false,
   "card_id": 1007
+ },
+ {
+  "created": "2026-11-25T03:41:54.408351+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib",
+  "summary": "TikTok tətbiqində valideynlərin övladlarına nəzarət etməsini təmin edən Ailə ayarları funksiyası yaradılıb. Yenilik sayəsində valideynlər hesablarını əlaqələndirərək məxfilik parametrlərini idarə edə biləcəklər.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/tiktok-da-yenilik-bu-vacib-funksiya-da-elcatan-oldu-vi-deo",
+  "sensitive": false,
+  "caption": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib\n\nTikTok sosial şəbəkəsində valideynlərin övladlarının fəaliyyətinə nəzarətini asanlaşdıran yenilik tətbiq edilib. Təqdim olunan Ailə ayarları funksiyası sayəsində valideynlər öz hesablarını uşaqların profilləri ilə birləşdirə və məxfilik parametrlərini tənzimləyə bilərlər.\n\nİKT mütəxəssisi Aytac Savziyevanın verdiyi məlumata görə, bu yenilənmiş vasitə valideynlərə bir neçə istiqamət üzrə nəzarət imkanı qazandırır. Artıq valideynlər övladlarının həftə ərzində hansı paylaşımlar etdiyindən, həmin videolara gələn baxış sayından və uşaqların üstünlük verdiyi mövzulardan xəbərdar ola biləcəklər. Eyni zamanda, valideynlərin rahatlığı nəzərə alınaraq bu funksiya veb-brauzer vasitəsilə də istifadəçilərə əlçatan edilib. Mütəxəssis yaxın vaxtlarda platformada əlavə yeniliklərin də gözlənildiyini bildirib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #TikTok #AiləAyarları #İnformasiyaTexnologiyaları",
+  "id": "20261125-073419-01-p",
+  "kind": "post",
+  "image": "posts/20261125-073419-01-p.jpg"
+ },
+ {
+  "created": "2026-11-25T03:41:54.408351+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib",
+  "summary": "TikTok tətbiqində valideynlərin övladlarına nəzarət etməsini təmin edən Ailə ayarları funksiyası yaradılıb. Yenilik sayəsində valideynlər hesablarını əlaqələndirərək məxfilik parametrlərini idarə edə biləcəklər.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/tiktok-da-yenilik-bu-vacib-funksiya-da-elcatan-oldu-vi-deo",
+  "sensitive": false,
+  "caption": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib\n\nTikTok sosial şəbəkəsində valideynlərin övladlarının fəaliyyətinə nəzarətini asanlaşdıran yenilik tətbiq edilib. Təqdim olunan Ailə ayarları funksiyası sayəsində valideynlər öz hesablarını uşaqların profilləri ilə birləşdirə və məxfilik parametrlərini tənzimləyə bilərlər.\n\nİKT mütəxəssisi Aytac Savziyevanın verdiyi məlumata görə, bu yenilənmiş vasitə valideynlərə bir neçə istiqamət üzrə nəzarət imkanı qazandırır. Artıq valideynlər övladlarının həftə ərzində hansı paylaşımlar etdiyindən, həmin videolara gələn baxış sayından və uşaqların üstünlük verdiyi mövzulardan xəbərdar ola biləcəklər. Eyni zamanda, valideynlərin rahatlığı nəzərə alınaraq bu funksiya veb-brauzer vasitəsilə də istifadəçilərə əlçatan edilib. Mütəxəssis yaxın vaxtlarda platformada əlavə yeniliklərin də gözlənildiyini bildirib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #TikTok #AiləAyarları #İnformasiyaTexnologiyaları",
+  "id": "20261125-073419-01-r",
+  "kind": "reel",
+  "video": "20261125-073419-01-r.mp4",
+  "cover": "20261125-073419-01-r.jpg"
+ },
+ {
+  "created": "2026-11-25T03:41:54.408351+00:00",
+  "status": "pending",
+  "category": "TEXNOLOGİYA",
+  "headline": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib",
+  "summary": "TikTok tətbiqində valideynlərin övladlarına nəzarət etməsini təmin edən Ailə ayarları funksiyası yaradılıb. Yenilik sayəsində valideynlər hesablarını əlaqələndirərək məxfilik parametrlərini idarə edə biləcəklər.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/veb-tv/tiktok-da-yenilik-bu-vacib-funksiya-da-elcatan-oldu-vi-deo",
+  "sensitive": false,
+  "caption": "TikTok platformasında Ailə ayarları funksiyası istifadəyə verilib\n\nTikTok sosial şəbəkəsində valideynlərin övladlarının fəaliyyətinə nəzarətini asanlaşdıran yenilik tətbiq edilib. Təqdim olunan Ailə ayarları funksiyası sayəsində valideynlər öz hesablarını uşaqların profilləri ilə birləşdirə və məxfilik parametrlərini tənzimləyə bilərlər.\n\nİKT mütəxəssisi Aytac Savziyevanın verdiyi məlumata görə, bu yenilənmiş vasitə valideynlərə bir neçə istiqamət üzrə nəzarət imkanı qazandırır. Artıq valideynlər övladlarının həftə ərzində hansı paylaşımlar etdiyindən, həmin videolara gələn baxış sayından və uşaqların üstünlük verdiyi mövzulardan xəbərdar ola biləcəklər. Eyni zamanda, valideynlərin rahatlığı nəzərə alınaraq bu funksiya veb-brauzer vasitəsilə də istifadəçilərə əlçatan edilib. Mütəxəssis yaxın vaxtlarda platformada əlavə yeniliklərin də gözlənildiyini bildirib.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #TikTok #AiləAyarları #İnformasiyaTexnologiyaları",
+  "id": "20261125-073419-01-s",
+  "kind": "story",
+  "image": "posts/20261125-073419-01-s.jpg"
  }
 ]
