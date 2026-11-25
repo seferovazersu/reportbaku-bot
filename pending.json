@@ -12082,7 +12082,12 @@
   "created": "2026-11-25T15:20:44.253124+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEsGsG_nHY-sNSXSXPQikUzfE3zyzCAALPIGsbDcA5SPeFpzgZV-1XAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Azərbaycan və Tacikistan hərbi planları müzakirə edib",
   "summary": "Azərbaycan və Tacikistan baş qərargah rəsmiləri hərbi sahədə əməkdaşlıq perspektivlərini müzakirə ediblər. Bu barədə Müdafiə Nazirliyi məlumat yayıb.",
@@ -12110,7 +12115,12 @@
   "created": "2026-11-25T15:20:44.253124+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEsWsG_p7r4OZ2noPL7Ir_qIbzqCdbAALQIGsbDcA5SE6T1vfiOWjiAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Ukrayna Xarkov vilayətində Ayı tələsi əməliyyatını tamamlayıb",
   "summary": "Ukrayna Silahlı Qüvvələri Xarkov vilayətində gizli şəkildə həyata keçirilən Ayı tələsi əməliyyatını başa çatdırıb. Hərbi-siyasi müşahidəçi Aleksandr Kovalenkonun sözlərinə görə, əməliyyat nəticəsində 14 yaşayış məntəqəsi və müəyyən ərazi azad edilib.",
