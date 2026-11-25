@@ -11090,5 +11090,89 @@
   "image": "posts/20261125-100228-u-s.jpg",
   "instagram_id": "18064631225571616",
   "permalink": ""
+ },
+ {
+  "id": "20261125-101046-01",
+  "kind": "news",
+  "created": "2026-11-25T06:10:46.841202+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "CƏMİYYƏT",
+  "headline": "Məhkəmə əmri ilə bağlı dövlət rüsumu dörd dəfə azaldılır",
+  "summary": "Milli Məclisin komitə iclasında “Dövlət rüsumu haqqında” qanuna dəyişikliklər müzakirə edilib. Layihəyə əsasən, məhkəmə əmri üzrə rüsum 100 manatdan 25 manata endirilir.",
+  "caption_text": "Azərbaycanda məhkəmə əmri ilə bağlı tətbiq edilən dövlət rüsumunun məbləğinin dörd dəfəyə qədər azaldılması nəzərdə tutulur. Bu yenilik Milli Məclisin İqtisadi siyasət, sənaye və sahibkarlıq komitəsinin iclasında müzakirəyə çıxarılan “Dövlət rüsumu haqqında” qanuna təklif edilən dəyişikliklər layihəsində öz əksini tapıb.\n\nTəklif olunan dəyişikliyə əsasən, hazırda məhkəmə əmri haqqında ərizə üçün tələb olunan 100 manat məbləğindəki dövlət rüsumunun 25 manata endirilməsi planlaşdırılır. Eyni zamanda, qiymətləndirilən iddialar üzrə apellyasiya, kassasiya və əlavə kassasiya şikayətlərinin verilməsi zamanı rüsumun ilkin iddianın ümumi məbləğinə deyil, yalnız mübahisələndirilən hissəsinə şamil olunması təklif edilir. Bu dəyişiklik şikayət verən şəxslərin rüsum yükünün azalmasına imkan verəcək.",
+  "voiceover": "Məhkəmə əmri ilə bağlı dövlət rüsumunun məbləği dörd dəfəyə qədər azaldılır. Milli Məclisin İqtisadi siyasət, sənaye və sahibkarlıq komitəsinin iclasında müzakirə edilən “Dövlət rüsumu haqqında” qanuna dəyişiklik layihəsinə əsasən, məhkəmə əmri haqqında ərizəyə görə 100 manat olan rüsum 25 manata endirilir. Həmçinin qiymətləndirilən iddialar üzrə şikayətlərin verilməsinə görə müəyyən edilən dövlət rüsumunun iddianın yalnız mübahisələndirilən hissəsi ilə məhdudlaşdırılması təklif olunur.",
+  "hashtags": [
+   "#MilliMəclis",
+   "#DövlətRüsumu",
+   "#Məhkəmə",
+   "#İqtisadiyyat"
+  ],
+  "highlight": [
+   "dövlət rüsumu"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Bu rüsum 4 dəfə azaldılır",
+  "link": "https://www.qafqazinfo.az/news/detail/bu-rusum-4-defe-azaldilir-529729",
+  "sensitive": false,
+  "card_id": 1071
+ },
+ {
+  "id": "20261125-101046-02",
+  "kind": "news",
+  "created": "2026-11-25T06:10:46.841202+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "CƏMİYYƏT",
+  "headline": "Kəmaləddin Heydərovun Ağdamdakı vətəndaş qəbulunun vaxtı dəyişdirilib",
+  "summary": "Fövqəladə hallar naziri Kəmaləddin Heydərovun Ağdam rayonunda planlaşdırılan vətəndaş qəbulunun vaxtı dəyişdirilib. Noyabrın 27-də baş tutmalı olan görüşün yeni tarixi barədə əlavə məlumat veriləcək.",
+  "caption_text": "Fövqəladə hallar naziri Kəmaləddin Heydərovun Ağdam rayonunda vətəndaşlar üçün keçirilməsi nəzərdə tutulan qəbulunun vaxtında dəyişiklik edilib.\n\nFövqəladə Hallar Nazirliyindən verilən məlumata əsasən, noyabrın 27-nə təyin olunan görüş təxirə salınıb. Qəbulun yeni tarixi haqqında ictimaiyyətə əlavə məlumat açıqlanacaq.",
+  "voiceover": "Fövqəladə hallar naziri Kəmaləddin Heydərovun Ağdam rayonunda keçirilməsi nəzərdə tutulan vətəndaş qəbulunun vaxtı dəyişdirilib. Fövqəladə Hallar Nazirliyindən verilən məlumata görə, noyabrın 27-də baş tutmalı olan görüşün yeni tarixi barədə əlavə məlumat veriləcək.",
+  "hashtags": [
+   "#KəmaləddinHeydərov",
+   "#FHN",
+   "#Ağdam",
+   "#Qəbul",
+   "#Xəbərlər"
+  ],
+  "highlight": [
+   "Kəmaləddin Heydərov",
+   "Ağdam"
+  ],
+  "source_note": "Mənbə: Sia.az",
+  "source_title": "Kəmaləddin Heydərovun Ağdamdakı vətəndaş qəbulunun vaxtı dəyişdirilib",
+  "link": "https://sia.az/az/news/social/1376723.html",
+  "sensitive": false,
+  "card_id": 1072
+ },
+ {
+  "id": "20261125-101046-03",
+  "kind": "news",
+  "created": "2026-11-25T06:10:46.841202+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Qubada BMW parkın məhəccərinə çırpılıb",
+  "summary": "Qubada idarəetmədən çıxan BMW markalı avtomobil parkın hasarına çırpılıb. Qəza nəticəsində avtomobilə ziyan dəyib, sürücü və ailə üzvləri xəsarət almayıblar.",
+  "caption_text": "Quba şəhərində gecə saatlarında yol-nəqliyyat hadisəsi qeydə alınıb. İdarəetmədən çıxan minik avtomobili yoldan çıxaraq parkın hasarına çırpılıb.\n\nTəqdim olunan məlumata görə, qəza nəticəsində nəqliyyat vasitəsi ciddi zədələnib. Xoşbəxtlikdən, hadisə zamanı sürücü və avtomobildə olan ailə üzvləri xəsarət almadan xilas olublar. Faktla bağlı araşdırma aparılır.",
+  "voiceover": "Qubada gecə saatlarında yol-nəqliyyat hadisəsi baş verib. İdarəetmədən çıxan BMW markalı avtomobil parkın hasarına çırpılıb. Qəza nəticəsində maşına ciddi ziyan dəyib, sürücü və ailə üzvləri xəsarət almayıblar. Faktla bağlı araşdırma aparılır.",
+  "hashtags": [
+   "#Quba",
+   "#BMW",
+   "#YolQəzası",
+   "#Hadisə"
+  ],
+  "highlight": [
+   "Quba",
+   "BMW"
+  ],
+  "source_note": "Mənbə: Day.az",
+  "source_title": "BMW врезался в ограждение парка в губе",
+  "link": "https://news.day.az/society/1876915.html",
+  "sensitive": true,
+  "card_id": 1073
  }
 ]
