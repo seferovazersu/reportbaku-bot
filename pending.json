@@ -11940,29 +11940,34 @@
   "id": "20261125-190136-u",
   "kind": "news",
   "created": "2026-11-25T15:01:36.756785+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "Hal hazırda bakının əksər yollarında güclü tıxac müşahidə olunur.",
   "media": [
    {
     "file_id": "AgACAgIAAxkBAAIEkWsG-DI382mMGoCQpbc51fPxngnSAAKYIGsbDcA5SLR7qaeO17dMAQADAgADeQADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-190136-u/1.jpg"
    },
    {
     "file_id": "AgACAgIAAxkBAAIEkmsG-DIZAAHT8duGKfhFhP8mHu2j7wACmSBrGw3AOUjKg6FG-Dz65AEAAwIAA3kAAz0E",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-190136-u/2.jpg"
    },
    {
     "file_id": "AgACAgIAAxkBAAIEk2sG-DKmmueUxysdwSiPC6M0eAABxQACmiBrGw3AOUgCT-cbrSQbvgEAAwIAA3cAAz0E",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-190136-u/3.jpg"
    },
    {
     "file_id": "AgACAgIAAxkBAAIElGsG-DLzkjFdHOzKgH8NVMFOI0GvAAKbIGsbDcA5SK_g0Yy2CLnWAQADAgADeQADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-190136-u/4.jpg"
    },
    {
     "file_id": "AgACAgIAAxkBAAIElWsG-DJdVemY7PXrObW4vrlN7DDxAAKcIGsbDcA5SJYgfLy0Doa0AQADAgADdwADPQQ",
-    "type": "photo"
+    "type": "photo",
+    "file": "incoming/20261125-190136-u/5.jpg"
    }
   ],
   "category": "CƏMİYYƏT",
