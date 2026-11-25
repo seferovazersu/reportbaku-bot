@@ -11618,5 +11618,61 @@
   "image": "posts/20261125-130401-03-s.jpg",
   "instagram_id": "18121241245815062",
   "permalink": ""
+ },
+ {
+  "id": "20261125-175421-01",
+  "kind": "news",
+  "created": "2026-11-25T13:54:21.053968+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "SAĞLAMLIQ",
+  "headline": "Ürək çatışmazlığı həm dünyada, həm də Azərbaycanda ölüm səbəbidir",
+  "summary": "Ürək-damar xəstəlikləri həm qlobal miqyasda, həm də ölkəmizdə insan ölümünün əsas səbəblərindən biridir. Müasir tibbi yeniliklərə baxmayaraq, hər il milyonlarla şəxs ürək çatışmazlığından həyatını itirir.",
+  "caption_text": "Ürək-damar xəstəlikləri həm ölkəmizdə, həm də qlobal miqyasda insan ölümünün əsas səbəbləri arasında yer alır.\n\nMüasir dövrdə tibbi texnologiyaların inkişafına və yeni müalicə üsullarının tətbiqinə baxmayaraq, hər il milyonlarla insan məhz ürək çatışmazlığı səbəbindən dünyasını dəyişir.",
+  "voiceover": "Ürək-damar xəstəlikləri həm Azərbaycanda, həm də dünyada insan ölümünün əsas səbəblərindən biri olaraq qalır. Müasir tibbi texnologiyaların inkişafına və yeni müalicə üsullarının tətbiqinə baxmayaraq, hər il milyonlarla insan ürək çatışmazlığından dünyasını dəyişir.",
+  "hashtags": [
+   "#ürəkçatışmazlığı",
+   "#sağlamlıq",
+   "#tibb",
+   "#kardiologiya"
+  ],
+  "highlight": [
+   "Ürək çatışmazlığı",
+   "Azərbaycanda"
+  ],
+  "source_note": "Mənbə: Oxu.az",
+  "source_title": "Ürək çatışmazlığından ölənlər: Dünyada və bizdəki vəziyyət - Araşdırma",
+  "link": "https://oxu.az/cemiyyet/urek-catismazligindan-olenler-dunyada-ve-bizdeki-veziyyet-arasdirma",
+  "sensitive": true,
+  "card_id": 1134
+ },
+ {
+  "id": "20261125-175421-02",
+  "kind": "news",
+  "created": "2026-11-25T13:54:21.053968+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Temu Azərbaycanda qanunvericiliyi pozub",
+  "summary": "Antiinhisar və İstehlak Bazarına Nəzarət Dövlət Agentliyi Temu platforması ilə bağlı araşdırmanı başa çatdırıb. Araşdırmanın nəticələrinə əsasən, rəqabət qanunvericiliyinin pozulması əlamətləri müəyyən edilib.",
+  "caption_text": "Antiinhisar və İstehlak Bazarına Nəzarət Dövlət Agentliyindən verilən məlumata görə, PDD Holdings şirkətinin Temu elektron ticarət platforması üzərindən həyata keçirdiyi qiymət siyasəti və hökmran mövqedən sui-istifadə halları ilə bağlı araşdırma başa çatıb. \n\nAraşdırma prosesində rəqabət qanunvericiliyinin pozulması əlamətləri aşkar olunub. Bu səbəbdən Azərbaycan Respublikası Rəqabət Məcəlləsinin müvafiq maddələrinin tələblərinin pozulması əlamətləri üzrə iş qaldırılması məsələsinə baxılması üçün rəqabət komissiyasının yaradılması barədə qərar qəbul edilib.",
+  "voiceover": "Antiinhisar və İstehlak Bazarına Nəzarət Dövlət Agentliyindən bildirilib ki, Temu elektron ticarət platformasının fəaliyyəti ilə bağlı araşdırma yekunlaşıb. Araşdırma nəticəsində rəqabət qanunvericiliyinin pozulması halları müəyyən edilib və iş qaldırılması məsələsinə baxılması üçün rəqabət komissiyasının yaradılması barədə qərar qəbul olunub.",
+  "hashtags": [
+   "#Temu",
+   "#AntiinhisarAgentliyi",
+   "#İqtisadiyyat",
+   "#RəqabətMəcəlləsi"
+  ],
+  "highlight": [
+   "Temu",
+   "Azərbaycanda"
+  ],
+  "source_note": "Mənbə: Sia.az",
+  "source_title": "Dövlət Agentliyi: \"Temu\" Azərbaycanda qanunvericiliyi pozub",
+  "link": "https://sia.az/az/news/social/1376940.html",
+  "sensitive": false,
+  "card_id": 1135
  }
 ]
