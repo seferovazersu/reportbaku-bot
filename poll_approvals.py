@@ -300,7 +300,8 @@ def send_touch_messages(touched):
             e["card_sent"] = True
             markup = {"inline_keyboard": [[
                 {"text": "✅ Hazırla", "callback_data": "build:" + e["id"]},
-                {"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}]]}
+                {"text": "🔊 Orijinal səslə", "callback_data": "buildo:" + e["id"]}],
+                [{"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}]]}
             try:
                 tg("sendMessage", {"chat_id": TG_CHAT, "reply_markup": json.dumps(markup),
                                    "text": "📝 Sizin xəbəriniz qəbul edildi:\n\n%s\n\n📎 %d fayl. Başqa media da "
@@ -324,6 +325,12 @@ def handle_news_action(cq, action, e, pending):
         answer(cq, "Ləğv edildi.")
         finish_message(cq, "❌ LƏĞV EDİLDİ")
         return
+    if action == "buildo":
+        if not any(m["type"] == "video" for m in e["media"]):
+            answer(cq, "Orijinal səs üçün əvvəl video göndərin (karta Reply ilə).")
+            return
+        e["original_audio"] = True
+        action = "build"
     if action == "build" and not e["media"]:
         answer(cq, "Əvvəl şəkil/video göndərin, ya da ⏭ Mediasız hazırla basın.")
         return

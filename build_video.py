@@ -202,6 +202,17 @@ def fit_blur(img, size):
     return bgc
 
 
+def extract_pcm(video, rate=24000, max_secs=59):
+    """Videonun öz səsini PCM kimi çıxarır; səs yoxdursa None."""
+    try:
+        r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(video), "-vn", "-t", str(max_secs),
+                            "-ac", "1", "-ar", str(rate), "-f", "s16le", "pipe:1"],
+                           capture_output=True, timeout=300)
+        return r.stdout if r.returncode == 0 and len(r.stdout) > rate * 2 else None
+    except Exception:
+        return None
+
+
 def read_exact(stream, n):
     buf = b""
     while len(buf) < n:
@@ -252,17 +263,26 @@ def make_cover_image(photo, category, headline, out, highlight=None, date=None):
 
 
 def make_video(category, headline, summary, source_note, out, photo=None,
-               highlight=None, date=None, voiceover=None, inset=None):
-    """Videonu yaradır (yalnız diktor səsi, altyazı yoxdur). {'duration':..., 'model':..., 'words':...} və ya None."""
+               highlight=None, date=None, voiceover=None, inset=None, audio_from=None):
+    """Videonu yaradır (diktor səsi və ya audio_from videosunun öz səsi, altyazı yoxdur). {'duration':..., 'model':..., 'words':...} və ya None."""
     headline, summary = headline.strip(), (summary or "").strip()
     script = (voiceover or "").strip() or (headline.rstrip(".") + ". " + summary)
     script = expand_abbreviations(script)
-    got = tts_pcm(script)
+    lead, tail = LEAD, TAIL
+    got = None
+    if audio_from:                                   # videonun öz səsi (diktor səsi olmadan)
+        pcm0 = extract_pcm(audio_from)
+        if pcm0:
+            got, lead, tail = (pcm0, 24000, "original səs"), 0.0, 0.4
+        else:
+            print("  Videoda səs yoxdur, diktor səsi işlədilir.")
+    if not got:
+        got = tts_pcm(script)
     if not got:
         return None
     pcm, rate, model = got
     speech = len(pcm) / 2 / rate
-    total = LEAD + speech + TAIL
+    total = lead + speech + tail
     n_frames = int(total * FPS)
     date = date or baku_today()
     top_h = FULL_TOP if inset else TOP_H
@@ -327,7 +347,7 @@ def make_video(category, headline, summary, source_note, out, photo=None,
     # --- Kadrları yaz ---
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     audio_path = str(Path(out).with_suffix(".pcm"))
-    Path(audio_path).write_bytes(b"\x00\x00" * int(rate * LEAD) + pcm + b"\x00\x00" * int(rate * TAIL))
+    Path(audio_path).write_bytes(b"\x00\x00" * int(rate * lead) + pcm + b"\x00\x00" * int(rate * tail))
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", "%dx%d" % (VW, VH), "-r", str(FPS), "-i", "-",
            "-f", "s16le", "-ar", str(rate), "-ac", "1", "-i", audio_path,

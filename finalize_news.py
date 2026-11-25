@@ -206,14 +206,17 @@ def build_for(e, pending):
         inset = None
         ordered = [(m["file"], m["type"]) for m in e.get("media", []) if m.get("file") and Path(m["file"]).exists()]
         mont = INCOMING / e["id"] / "montage.mp4"
-        if len(ordered) >= 2 and montage(ordered, mont):
+        if e.get("original_audio") and video:
+            inset = {"path": video, "kind": "video", "credit": "", "keyword": "xəbərin videosu"}
+        elif len(ordered) >= 2 and montage(ordered, mont):
             inset = {"path": str(mont), "kind": "video", "credit": "", "keyword": "xəbərin mediası (ardıcıl)"}
         elif video:
             inset = {"path": video, "kind": "video", "credit": "", "keyword": "xəbərin videosu"}
         elif photos:
             inset = {"path": photos[0], "kind": "photo", "credit": "", "keyword": "xəbərin şəkli"}
         res = make_video(e["category"], e["headline"], e["summary"], "", str(out),
-                         highlight=e.get("highlight", []), voiceover=e.get("voiceover", ""), inset=inset)
+                         highlight=e.get("highlight", []), voiceover=e.get("voiceover", ""), inset=inset,
+                         audio_from=video if (e.get("original_audio") and video) else None)
         if not res:
             notify("⚠️ Reels videosu hazırlanmadı (səs xətası və ya limit). Foto post hazırdır.")
         else:
@@ -229,7 +232,7 @@ def build_for(e, pending):
                 reel["cover"] = cover.name
             pending.append(reel)
             with open(out, "rb") as f:
-                tg_post("sendVideo", {"caption": (warn + "🎬 REELS ÖNİZLƏMƏ (%d san.)\n\n%s" % (round(res["duration"]), e["headline"]))[:900],
+                tg_post("sendVideo", {"caption": (warn + "🎬 REELS ÖNİZLƏMƏ (%d san., səs: %s)\n\n%s" % (round(res["duration"]), res["model"], e["headline"]))[:900],
                                       "supports_streaming": "true", "width": VW, "height": VH,
                                       "reply_markup": buttons("🎬 Reels paylaş", "reel", rid)}, files={"video": f})
     # --- 3) Story (9:16 şəkil: media tam ekran + başlıq) ---

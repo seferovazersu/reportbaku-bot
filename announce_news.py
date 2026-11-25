@@ -38,8 +38,9 @@ def send_card(e, n=1, total=1):
         return
     markup = {"inline_keyboard": [
         [{"text": "✅ Hazırla", "callback_data": "build:" + e["id"]},
-         {"text": "⏭ Mediasız hazırla", "callback_data": "skip:" + e["id"]}],
-        [{"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}],
+         {"text": "🔊 Orijinal səslə hazırla", "callback_data": "buildo:" + e["id"]}],
+        [{"text": "⏭ Mediasız hazırla", "callback_data": "skip:" + e["id"]},
+         {"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}],
     ]}
     r = requests.post("https://api.telegram.org/bot%s/sendMessage" % TG_TOKEN,
                       data={"chat_id": TG_CHAT, "text": card_text(e, n, total)[:4000],
