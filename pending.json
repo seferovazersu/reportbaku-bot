@@ -12657,26 +12657,80 @@
   "id": "20261126-003323-u",
   "kind": "news",
   "created": "2026-11-25T20:33:23.826748+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🔥Misirdə neft məhsulları daşıyan yük maşını aşıb: 30 nəfər ölüb",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIE52sHRfUAAUWCCf_4Y_iNGGoOAXi6OgACgrIAAg3AQUgyg7yEo2W4NT0E",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
+  "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
+  "caption_text": "Misir ərazisində ağır yol qəzası qeydə alınıb. Neft məhsulları daşıyan yük maşınının aşması səbəbindən 30 nəfər ölüb. Hadisə ilə bağlı başqa təfərrüatlar açıqlanmayıb.",
+  "voiceover": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb. Hadisə ölkə ərazisində qeydə alınıb.",
+  "hashtags": [
+   "#Misir",
+   "#YolQəzası",
+   "#Hadisə"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🔥Misirdə neft məhsulları daşıyan yük maşını aşıb: 30 nəfər ölüb",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Misirdə",
+   "30 nəfər ölüb"
+  ],
   "source_note": "",
   "source_title": "🔥Misirdə neft məhsulları daşıyan yük maşını aşıb: 30 nəfər ölüb",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-25T20:34:56.123351+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
+  "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb\n\nMisir ərazisində ağır yol qəzası qeydə alınıb. Neft məhsulları daşıyan yük maşınının aşması səbəbindən 30 nəfər ölüb. Hadisə ilə bağlı başqa təfərrüatlar açıqlanmayıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Misir #YolQəzası",
+  "id": "20261126-003323-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261126-003323-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261126-003323-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-25T20:34:56.123351+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
+  "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb\n\nMisir ərazisində ağır yol qəzası qeydə alınıb. Neft məhsulları daşıyan yük maşınının aşması səbəbindən 30 nəfər ölüb. Hadisə ilə bağlı başqa təfərrüatlar açıqlanmayıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Misir #YolQəzası",
+  "id": "20261126-003323-u-r",
+  "kind": "reel",
+  "video": "20261126-003323-u-r.mp4",
+  "cover": "20261126-003323-u-r.jpg"
+ },
+ {
+  "created": "2026-11-25T20:34:56.123351+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
+  "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb\n\nMisir ərazisində ağır yol qəzası qeydə alınıb. Neft məhsulları daşıyan yük maşınının aşması səbəbindən 30 nəfər ölüb. Hadisə ilə bağlı başqa təfərrüatlar açıqlanmayıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Misir #YolQəzası",
+  "id": "20261126-003323-u-s",
+  "kind": "story",
+  "image": "posts/20261126-003323-u-s.jpg"
  }
 ]
