@@ -12250,7 +12250,12 @@
   "created": "2026-11-25T19:40:25.277676+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIExmsHOjFxrZ1np_ZR-SWkxndB9OX6AAKKHGsbDcBBSCCQzEueLDPMAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
   "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
@@ -12305,7 +12310,12 @@
   "created": "2026-11-25T19:40:25.277676+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEx2sHOmWbelLvJ9t19IW7D5Qho7Y-AAKLHGsbDcBBSIYmuaiKIiDHAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "TEXNOLOGİYA",
   "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
   "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
