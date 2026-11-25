@@ -11009,26 +11009,82 @@
   "id": "20261125-100228-u",
   "kind": "news",
   "created": "2026-11-25T06:02:28.023631+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Sizi gözləyənlərə çatmaq üçün diqqətinizi yoldan ayırmayın 📱 🚫 \n\n🚗 Sükan arxasında mobil telefondan istifadə sürücünün diqqətini yayındırır, yola nəzarəti zəiflədir və qəza riskini artırır.\n\n📵 Avtomobil idarə edərkən telefondan istifadə etməyin, diqqətinizi hər zaman yolda saxlayın.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIEKWsGeZPBLaCxDIIst_bCbrZJkkKUAAIIpAACDcA5SLvItJ8ovgfvPQQ",
-    "type": "video"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "Sizi gözləyənlərə çatmaq üçün diqqətinizi yoldan ayırmayın 📱 🚫 \n\n🚗 Sükan arxasında mobil t",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır",
+  "summary": "Sürücülərin avtomobil idarə edərkən telefondan istifadə etməsi diqqəti yayındırır və yola nəzarəti zəiflədir. Diqqətin yoldan ayrılması təhlükəli vəziyyətlərə səbəb ola bilər.",
+  "caption_text": "Nəqliyyat vasitəsini idarə edən şəxslərin sükan arxasında telefondan istifadə etməsi onların diqqətini yayındıran əsas amillərdən biridir. Bu cür hallarda yola nəzarət zəifləyir və qəza riski əhəmiyyətli dərəcədə yüksəlir. Səfər zamanı təhlükəsizliyi təmin etmək üçün diqqəti yalnız yola yönəltmək və mobil cihazlardan istifadə etməmək vacibdir.",
+  "voiceover": "Sükan arxasında mobil telefondan istifadə sürücünün diqqətini yayındırır, yola nəzarəti zəiflədir və qəza riskini artırır. Avtomobil idarə edərkən telefondan istifadə etməyin, diqqətinizi hər zaman yolda saxlayın.",
+  "hashtags": [
+   "#Sürücü",
+   "#YolTəhlükəsizliyi",
+   "#Avtomobil",
+   "#ReportBaku"
+  ],
+  "highlight": [
+   "mobil telefondan istifadə",
+   "qəza riskini"
+  ],
   "source_note": "",
   "source_title": "Sizi gözləyənlərə çatmaq üçün diqqətinizi yoldan ayırmayın 📱 🚫 \n\n🚗 Sükan arxasında mobil telefondan istifadə sürücünün d",
   "link": "",
-  "sensitive": false,
-  "card_sent": true
+  "sensitive": true,
+  "card_sent": true,
+  "original_audio": true
+ },
+ {
+  "created": "2026-11-25T06:03:58.464605+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır",
+  "summary": "Sürücülərin avtomobil idarə edərkən telefondan istifadə etməsi diqqəti yayındırır və yola nəzarəti zəiflədir. Diqqətin yoldan ayrılması təhlükəli vəziyyətlərə səbəb ola bilər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır\n\nNəqliyyat vasitəsini idarə edən şəxslərin sükan arxasında telefondan istifadə etməsi onların diqqətini yayındıran əsas amillərdən biridir. Bu cür hallarda yola nəzarət zəifləyir və qəza riski əhəmiyyətli dərəcədə yüksəlir. Səfər zamanı təhlükəsizliyi təmin etmək üçün diqqəti yalnız yola yönəltmək və mobil cihazlardan istifadə etməmək vacibdir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sürücü #YolTəhlükəsizliyi #Avtomobil",
+  "id": "20261125-100228-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261125-100228-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261125-100228-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-25T06:03:58.464605+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır",
+  "summary": "Sürücülərin avtomobil idarə edərkən telefondan istifadə etməsi diqqəti yayındırır və yola nəzarəti zəiflədir. Diqqətin yoldan ayrılması təhlükəli vəziyyətlərə səbəb ola bilər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır\n\nNəqliyyat vasitəsini idarə edən şəxslərin sükan arxasında telefondan istifadə etməsi onların diqqətini yayındıran əsas amillərdən biridir. Bu cür hallarda yola nəzarət zəifləyir və qəza riski əhəmiyyətli dərəcədə yüksəlir. Səfər zamanı təhlükəsizliyi təmin etmək üçün diqqəti yalnız yola yönəltmək və mobil cihazlardan istifadə etməmək vacibdir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sürücü #YolTəhlükəsizliyi #Avtomobil",
+  "id": "20261125-100228-u-r",
+  "kind": "reel",
+  "video": "20261125-100228-u-r.mp4",
+  "cover": "20261125-100228-u-r.jpg"
+ },
+ {
+  "created": "2026-11-25T06:03:58.464605+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır",
+  "summary": "Sürücülərin avtomobil idarə edərkən telefondan istifadə etməsi diqqəti yayındırır və yola nəzarəti zəiflədir. Diqqətin yoldan ayrılması təhlükəli vəziyyətlərə səbəb ola bilər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Sükan arxasında mobil telefondan istifadə qəza riskini artırır\n\nNəqliyyat vasitəsini idarə edən şəxslərin sükan arxasında telefondan istifadə etməsi onların diqqətini yayındıran əsas amillərdən biridir. Bu cür hallarda yola nəzarət zəifləyir və qəza riski əhəmiyyətli dərəcədə yüksəlir. Səfər zamanı təhlükəsizliyi təmin etmək üçün diqqəti yalnız yola yönəltmək və mobil cihazlardan istifadə etməmək vacibdir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sürücü #YolTəhlükəsizliyi #Avtomobil",
+  "id": "20261125-100228-u-s",
+  "kind": "story",
+  "image": "posts/20261125-100228-u-s.jpg"
  }
 ]
