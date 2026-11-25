@@ -12035,5 +12035,42 @@
    "14364953737128130"
   ],
   "card_sent": true
+ },
+ {
+  "id": "20261125-191240-u",
+  "kind": "news",
+  "created": "2026-11-25T15:12:40.025086+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "Hal hazırda bakının əksər yollarında güclü tıxac müşahidə olunur.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEkWsG-DI382mMGoCQpbc51fPxngnSAAKYIGsbDcA5SLR7qaeO17dMAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIElGsG-DLzkjFdHOzKgH8NVMFOI0GvAAKbIGsbDcA5SK_g0Yy2CLnWAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIEkmsG-DIZAAHT8duGKfhFhP8mHu2j7wACmSBrGw3AOUjKg6FG-Dz65AEAAwIAA3kAAz0E",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "Hal hazırda bakının əksər yollarında güclü tıxac müşahidə olunur.",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "Hal hazırda bakının əksər yollarında güclü tıxac müşahidə olunur.",
+  "link": "",
+  "sensitive": false,
+  "groups": [
+   "14364956147486418"
+  ],
+  "card_sent": true
  }
 ]
