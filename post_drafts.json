@@ -1,80 +1,102 @@
 [
   {
-    "category": "HADİSƏ",
-    "headline": "Bakıda yanan avtomobil yolda qalıb",
-    "summary": "Paytaxtın Ramana qəsəbəsində avtomobil yanaraq yararsız hala düşüb. Sürücü nəqliyyat vasitəsini yoldan çəkməkdən imtina edib.",
-    "caption_text": "Bakının Ramana qəsəbəsində nəqliyyat vasitəsində baş verən yanğın onu yararsız vəziyyətə salıb. Hadisə səbəbindən avtomobil yolun hərəkət hissəsində qalıb və yoldan keçən digər sürücülər bu barədə sosial şəbəkələrdə görüntülər paylaşaraq digərlərini ehtiyatlı olmağa çağırıblar.\n\nAvtomobilin sahibi olduğunu iddia edən şəxs nəqliyyat vasitəsinin yoldan kənarlaşdırılmamasını sığorta ödənişi problemi ilə əlaqələndirib. O, maşının yolun bərbad olması səbəbindən yandığını və sığortanın ziyanı ödəmədiyini bildirib.",
-    "voiceover": "Bakının Ramana qəsəbəsində avtomobil yanaraq yararsız vəziyyətə düşüb. Hadisə nəticəsində nəqliyyat vasitəsi yolun hərəkət hissəsində qalıb. Avtomobilin sahibi olduğunu iddia edən şəxs maşının yoldan götürülməməsinə səbəb kimi sığorta ödənişi məsələsini göstərib. Həmin şəxs nəqliyyat vasitəsinin yolun bərbad vəziyyətdə olması səbəbindən yandığını iddia edib.",
+    "category": "CƏMİYYƏT",
+    "headline": "Paytaxtdakı restorandan edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb",
+    "summary": "Fəvvarələr meydanındakı iaşə obyektindən gələn səslərlə bağlı sakinlər narahatlıqlarını bildiriblər. Daxili İşlər Nazirliyi tərəfindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb.",
+    "caption_text": "Bakının Fəvvarələr meydanında yerləşən restoranlardan birinin ətraf sakinlərin dincliyini pozması ilə bağlı şikayətlər daxil olub. Vətəndaşlar tərəfindən çəkilən kadrlarda iaşə obyektinin qarşısında musiqi səsləndirildiyi və səs-küyün ətrafa yayıldığı əks olunub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Nəzrin Adıgözəlzadə bildirib ki, məsələ ilə əlaqədar polis tərəfindən araşdırma aparılıb. İctimai asayişin və sakinlərin rahatlığının pozulması səbəbindən obyekt sahibi barəsində inzibati tənbeh tədbiri tətbiq olunub.\n\nQayda pozuntusunun təkrarlanacağı təqdirdə qanunvericiliyə uyğun olaraq daha sərt tədbirlərin görüləcəyi sahibkarın diqqətinə çatdırılıb. Restoranın direktoru Dilarə Quliyeva isə hər gecə təşkil edilən canlı musiqi və şou proqramların saat 12.00-da başa çatdığını qeyd edib.",
+    "voiceover": "Paytaxtdakı restoranlardan birindən edilən səs-küy şikayəti ilə bağlı polis araşdırma aparıb. Fəvvarələr meydanında yerləşən iaşə obyektində sakinlərin dincliyinin pozulması səbəbindən obyekt sahibi barəsində inzibati tənbeh tədbiri görülüb. Daxili İşlər Nazirliyindən bildirilib ki, qanun pozuntusu təkrarlanarsa, daha ciddi tədbirlər görüləcək.",
     "hashtags": [
-      "#Bakı",
-      "#Ramana",
-      "#hadisə",
-      "#avtomobil",
-      "#sığorta"
+      "#Baki",
+      "#DİN",
+      "#FəvvarələrMeydanı",
+      "#XəzərXəbər"
     ],
     "image_url": null,
-    "source_title": "Bakıda yanan avtomobil yolda qaldı: Sürücü maşını kənara çəkməkdən imtina etdi - Foto/Video",
-    "visual_keywords": [],
-    "highlight": [
-      "Bakıda",
-      "yanan",
-      "avtomobil"
+    "source_title": "Restorandan ŞİKAYƏT: \"Ağız deyəni qulaq eşitmir\" - DİN-dən RƏSMİ AÇIQLAMA/YENİLƏNİB- VİDEO",
+    "visual_keywords": [
+      "city street",
+      "restaurant exterior",
+      "police investigation"
     ],
-    "source_note": "Mənbə: Oxu.az",
-    "link": "https://oxu.az/hadise/bakida-yanan-avtomobil-yolda-qaldi-surucu-masini-kenara-cekmekden-imtina-etdi-foto-video",
-    "sensitive": true
+    "highlight": [
+      "polis"
+    ],
+    "source_note": "Mənbə: Xəzər Xəbər",
+    "link": "https://xezerxeber.az/az/veb-tv/restorandan-si-kayet-agiz-deyeni-qulaq-esitmir-di-n-den-resmi-aciqlama-yeni-leni-b-vi-deo",
+    "sensitive": false
   },
   {
     "category": "İDMAN",
-    "headline": "\"Sabah\" - \"Barselona\" matçında ilk qol vurulub",
-    "summary": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda keçirilən \"Sabah\" - \"Barselona\" matçında hesab açılıb. Görüşün 31-ci dəqiqəsində İspaniya təmsilçisi hesabda irəli keçib.",
-    "caption_text": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda Bakı Olimpiya Stadionunda \"Sabah\" və İspaniyanın \"Barselona\" komandaları qarşılaşır. Görüşün 31-ci dəqiqəsində rəqib heyətində Entoni Qordon hesabı açıb. Qarşılaşmanın baş tutduğu anda \"Sabah\" klubu dörd turdan sonra üç xalla otuz birinci pillədə qərarlaşmışdı.",
-    "voiceover": "UEFA Çempionlar Liqasının Liqa mərhələsinin V turunda keçirilən \"Sabah\" - \"Barselona\" matçında hesab açılıb. Görüşün 31-ci dəqiqəsində İspaniya təmsilçisinin oyunçusu Entoni Qordon hesabı açıb.",
+    "headline": "\"Sabah\" \"Barselona\"ya məğlub oldu",
+    "summary": "UEFA Çempionlar Liqasının Liqa mərhələsinin beşinci turunda \"Sabah\" və \"Barselona\" komandaları üz-üzə gəlib.",
+    "caption_text": "UEFA Çempionlar Liqasının Liqa mərhələsinin beşinci turu çərçivəsində \"Sabah\" və \"Barselona\" klublarının qarşılaşması yekunlaşıb. Görüş komandaların mübarizəsi ilə baş tutub.",
+    "voiceover": "UEFA Çempionlar Liqasının Liqa mərhələsinin beşinci turu çərçivəsində \"Sabah\" və \"Barselona\" qarşılaşması başa çatıb.",
     "hashtags": [
-      "#SabahFC",
-      "#Barcelona",
-      "#ChampionsLeague",
-      "#İdman"
+      "#Sabah",
+      "#Barselona",
+      "#UCL",
+      "#Futbol"
     ],
     "image_url": null,
-    "source_title": "Katalonlar Bakıda önə keçirlər",
-    "visual_keywords": [
-      "stadium match",
-      "football players"
-    ],
+    "source_title": "\"Sabah\" \"Barselona\"ya məğlub oldu - Foto/Video",
+    "visual_keywords": [],
     "highlight": [
       "Sabah",
       "Barselona"
     ],
-    "source_note": "Mənbə: Qafqazinfo",
-    "link": "https://www.qafqazinfo.az/news/detail/katalonlar-bakida-one-kecirler-canli-yenilenir-529723",
+    "source_note": "Mənbə: Oxu.az",
+    "link": "https://oxu.az/idman/bakida-futbol-bayrami-sabah-ispaniya-nehengi-ile-uz-uze-gelir",
+    "sensitive": false
+  },
+  {
+    "category": "TEXNOLOGİYA",
+    "headline": "Nvidia-nın baş direktoru Censen Xuanqın vəzifəsinə qayıtması Konqresdə suallar doğurub",
+    "summary": "ABŞ senatoru Kori Buker şirkətin rəhbəri Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı Nvidia-dan izahat tələb edib. O, Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin araşdırılmasını istəyib.",
+    "caption_text": "ABŞ-ın Nyu-Cersi ştatından olan senator-demokrat Kori Buker Nvidia şirkətinə məktub ünvanlayıb. O, baş direktor Censen Xuanqın istefasından sonra yenidən vəzifəsinə bərpa olunması məsələsinə aydınlıq gətirilməsini tələb edib.\n\nSenator Donald Tramp administrasiyası ilə şirkətin direktorlar şurası arasındakı təmaslar barədə məlumat istəyib. Buker məktubunda həmçinin Xuanqın təhlükəsizlik təhdidi yaratmadığına dair verilən əminliklərin detallarının və müvafiq iclas protokollarının qorunub saxlanılmasını qeyd edib.\n\nXatırladaq ki, Censen Xuanq noyabrın 12-də istefa vermiş, noyabrın 23-də isə direktorlar şurasının yekdilliklə qəbul etdiyi qərarla yenidən baş direktor vəzifəsinə qaytarılmışdı. Bu hadisə və səhmlərin qiymətindəki kəskin dəyişikliklər bazar gücü ilə bağlı suallar doğurub.",
+    "voiceover": "ABŞ senatoru Kori Buker Nvidia şirkətindən baş direktor Censen Xuanqın yenidən vəzifəsinə qaytarılması ilə bağlı izahat tələb edib. Senator Donald Tramp administrasiyası ilə şirkət rəhbərliyi arasındakı əlaqələrin və Xuanqın təhlükəsizlik təhdidi yaratmadığına dair təminatların araşdırılmasını istəyib. Xatırladaq ki, Censen Xuanq noyabrın 12-də istefa vermiş, noyabrın 23-də isə direktorlar şurasının qərarı ilə yenidən baş direktor vəzifəsinə qaytarılmışdı.",
+    "hashtags": [
+      "#Nvidia",
+      "#CensenXuanq",
+      "#ABŞ",
+      "#Texnologiya",
+      "#Konqres"
+    ],
+    "image_url": null,
+    "source_title": "Внезапное возвращение Хуанга вызвало вопросы в Конгрессе",
+    "visual_keywords": [
+      "stock exchange screen",
+      "corporate office building"
+    ],
+    "highlight": [
+      "Nvidia",
+      "Censen Xuanq"
+    ],
+    "source_note": "Mənbə: Haqqin.az",
+    "link": "https://haqqin.az/newsarchive/399435",
     "sensitive": false
   },
   {
     "category": "DÜNYA",
-    "headline": "Avropa Parlamenti Avropa İttifaqının 2027-ci il büdcəsini təsdiqləyib",
-    "summary": "Avropa Parlamenti Avropa İttifaqının 2027-ci il üçün büdcəsini qəti olaraq təsdiq edib. Sənəd elmi tədqiqatlar, infrastruktur və Ukraynaya dəstək üçün əlavə vəsaitlərin ayrılmasını nəzərdə tutur.",
-    "caption_text": "Avropa Parlamenti Avropa İttifaqının 2027-ci il üçün büdcəsini qəti şəkildə təsdiqləyib. Bildirilib ki, sənədin qəbul edilməsinin lehinə 406, əleyhinə isə 184 deputat səs verib, 69 nəfər isə bitərəf qalıb. Ümumi büdcə öhdəliklərinin həcmi qurumun ümumi milli gəlirinin 0,99 faizini təşkil edəcək.\n\nQeyd olunub ki, deputatlar prioritet istiqamətlər üzrə maliyyələşmənin 300 milyon avro artırılmasına nail olublar. Əlavə vəsaitlər elmi araşdırmalara, nəqliyyat və energetika infrastrukturuna, həmçinin humanitar yardıma yönəldiləcək. Eyni zamanda, Ukraynaya dəstək məqsədilə verilən borcun xidməti üçün büdcədə 650 milyon avro nəzərdə tutulub.",
-    "voiceover": "Avropa Parlamenti Avropa İttifaqının 2027-ci il büdcəsini yekdilliklə deyil, səsvermə ilə təsdiqləyib. Sənədin lehinə 406 deputat səs verib. Büdcə elmi tədqiqatlar, infrastruktur və Ukraynaya dəstək üçün əlavə vəsaitlərin ayrılmasını nəzərdə tutur. Deputatlar prioritet sahələr üzrə maliyyələşməni 300 milyon avro artırıblar.",
+    "headline": "Fransada Google şirkətinin aktivlərinə həbs qoyulub",
+    "summary": "Fransa məhkəmə orqanları Google şirkətinin yerli aktivlərinə həbs tətbiq edib. Qərar Rusiyanın Google MMC şirkətinin qaldırdığı iddia ilə əlaqədardır.",
+    "caption_text": "Fransanın məhkəmə qurumları tərəfindən Google şirkətinin ölkə ərazisindəki 1,9 milyard avro dəyərində olan aktivlərinə həbs qoyulub. Vəkil Uilyam Jülyenin açıqlamasına görə, bu tədbir Rusiyanın Google MMC şirkətinin İrlandiyanın Google Ireland Limited qurumuna qarşı irəli sürdüyü iddianın nəticəsidir. Məhkəmə icraçısının Google France şirkətinin mərkəzi ofisinə gələrək təminat xarakterli həbs qərarını təqdim etdiyi bildirilib. Qərarın qurumun bank hesablarının dondurulmasını əhatə etmədiyi, həbsin məhz Fransa bölməsinin İrlandiyadakı tərəf qarşısındakı müqavilə öhdəliklərinə şamil olunduğu qeyd edilib.",
+    "voiceover": "Fransanın məhkəmə orqanları Google şirkətinin ölkədə yerləşən 1,9 milyard avro dəyərində aktivlərinə həbs tətbiq edib. Vəkil Uilyam Jülyenin bildirdiyinə görə, bu qərar Rusiyanın Google MMC şirkətinin Google Ireland Limited şirkətinə qarşı qaldırdığı iddia ilə bağlıdır. Məhkəmə icraçısı Google France şirkətinin baş ofisinə gələrək qərar barədə rəsmi bildiriş təqdim edib.",
     "hashtags": [
-      "#AvropaParlamenti",
-      "#Avropaİttifaqı",
-      "#Büdcə2027",
-      "#DünyaXəbərləri"
+      "#Google",
+      "#Fransa",
+      "#Məhkəmə",
+      "#İqtisadiyyat"
     ],
     "image_url": null,
-    "source_title": "Европарламент утвердил бюджет ЕС на 2027 год",
-    "visual_keywords": [
-      "European Parliament building",
-      "EU flag",
-      "Brussels meeting"
-    ],
+    "source_title": "Fransada \"Google\" şirkətinin aktivlərinə həbs qoyulub",
+    "visual_keywords": [],
     "highlight": [
-      "Avropa Parlamenti",
-      "2027-ci il büdcəsini"
+      "Fransada",
+      "Google",
+      "aktivlərinə həbs qoyulub"
     ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/world/1877151.html",
-    "sensitive": false
+    "source_note": "Mənbə: Trend.az",
+    "link": "https://az.trend.az/other/world/4250743.html",
+    "sensitive": true
   }
 ]
