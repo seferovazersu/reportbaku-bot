@@ -12706,7 +12706,7 @@
  },
  {
   "created": "2026-11-25T20:34:56.123351+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
   "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
@@ -12717,11 +12717,13 @@
   "id": "20261126-003323-u-r",
   "kind": "reel",
   "video": "20261126-003323-u-r.mp4",
-  "cover": "20261126-003323-u-r.jpg"
+  "cover": "20261126-003323-u-r.jpg",
+  "instagram_id": "18147137146519792",
+  "permalink": "https://www.instagram.com/reel/DgLZ4_LBxZS/"
  },
  {
   "created": "2026-11-25T20:34:56.123351+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb",
   "summary": "Misirdə baş verən yol-nəqliyyat hadisəsində neft məhsulları daşıyan yük maşını aşıb. Qəza nəticəsində 30 nəfər həyatını itirib.",
@@ -12731,6 +12733,8 @@
   "caption": "Misirdə neft məhsulları daşıyan yük maşınının aşması nəticəsində 30 nəfər ölüb\n\nMisir ərazisində ağır yol qəzası qeydə alınıb. Neft məhsulları daşıyan yük maşınının aşması səbəbindən 30 nəfər ölüb. Hadisə ilə bağlı başqa təfərrüatlar açıqlanmayıb.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Misir #YolQəzası",
   "id": "20261126-003323-u-s",
   "kind": "story",
-  "image": "posts/20261126-003323-u-s.jpg"
+  "image": "posts/20261126-003323-u-s.jpg",
+  "instagram_id": "18402383893203877",
+  "permalink": ""
  }
 ]
