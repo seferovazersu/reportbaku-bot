@@ -33,7 +33,7 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (45 təzə xəbər, HTTP 301)"
+    "state": "OK (50 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -49,10 +49,10 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (60 təzə xəbər, HTTP 200)"
+    "state": "OK (57 təzə xəbər, HTTP 200)"
   },
   "Daxili İşlər Nazirliyi": {
     "url": "https://t.me/s/polisazerbaycan",
-    "state": "OK (4 təzə xəbər, Telegram kanalı)"
+    "state": "OK (5 təzə xəbər, Telegram kanalı)"
   }
 }
