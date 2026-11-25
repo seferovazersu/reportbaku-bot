@@ -11864,26 +11864,72 @@
   "id": "20261125-184438-u",
   "kind": "news",
   "created": "2026-11-25T14:44:38.482870+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🥀 Xalq artisti Elmira Şabanova vəfat edib. \n\nBu barədə məlumatı onun qızı Leyla Şabanova verib.\n\n\"Nəslimizin dayağı,  gözəl anamız, nənəmiz, ulu nənəmiz bu gün haqq dünyasına qovuşdu\", - deyə L. Şabanova bildirib.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIEi2sG9Dr3Pf0PtVYchot2EZ6deTclAAJ6IGsbDcA5SHUIwG8XH10OAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "MƏDƏNİYYƏT",
+  "headline": "Xalq artisti Elmira Şabanova vəfat edib",
+  "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
+  "caption_text": "Azərbaycan mədəniyyətinə ağır itki üz verib. Xalq artisti Elmira Şabanova vəfat edib.\n\nSənətkarın ölüm xəbərini qızı Leyla Şabanova paylaşıb. O, yaxınlarının ağır itki ilə üzləşdiyini bildirib.",
+  "voiceover": "Xalq artisti Elmira Şabanova vəfat edib. Bu barədə məlumatı sənətkarın qızı Leyla Şabanova verib. O, ailənin ağır itki ilə üzləşdiyini bildirib.",
+  "hashtags": [
+   "#ElmiraŞabanova",
+   "#XalqArtisti",
+   "#Mədəniyyət",
+   "#ReportBaku"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🥀 Xalq artisti Elmira Şabanova vəfat edib. \n\nBu barədə məlumatı onun qızı Leyla Şabanova v",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Elmira Şabanova",
+   "Xalq artisti"
+  ],
   "source_note": "",
   "source_title": "🥀 Xalq artisti Elmira Şabanova vəfat edib. \n\nBu barədə məlumatı onun qızı Leyla Şabanova verib.\n\n\"Nəslimizin dayağı,  gö",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-25T14:48:29.914620+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "Xalq artisti Elmira Şabanova vəfat edib",
+  "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xalq artisti Elmira Şabanova vəfat edib\n\nAzərbaycan mədəniyyətinə ağır itki üz verib. Xalq artisti Elmira Şabanova vəfat edib.\n\nSənətkarın ölüm xəbərini qızı Leyla Şabanova paylaşıb. O, yaxınlarının ağır itki ilə üzləşdiyini bildirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #ElmiraŞabanova #XalqArtisti",
+  "id": "20261125-184438-u-p",
+  "kind": "post",
+  "image": "posts/20261125-184438-u-p.jpg"
+ },
+ {
+  "created": "2026-11-25T14:48:29.914620+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "Xalq artisti Elmira Şabanova vəfat edib",
+  "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xalq artisti Elmira Şabanova vəfat edib\n\nAzərbaycan mədəniyyətinə ağır itki üz verib. Xalq artisti Elmira Şabanova vəfat edib.\n\nSənətkarın ölüm xəbərini qızı Leyla Şabanova paylaşıb. O, yaxınlarının ağır itki ilə üzləşdiyini bildirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #ElmiraŞabanova #XalqArtisti",
+  "id": "20261125-184438-u-r",
+  "kind": "reel",
+  "video": "20261125-184438-u-r.mp4",
+  "cover": "20261125-184438-u-r.jpg"
+ },
+ {
+  "created": "2026-11-25T14:48:29.914620+00:00",
+  "status": "pending",
+  "category": "MƏDƏNİYYƏT",
+  "headline": "Xalq artisti Elmira Şabanova vəfat edib",
+  "summary": "Xalq artisti Elmira Şabanova dünyasını dəyişib. Bu barədə məlumatı onun qızı Leyla Şabanova təsdiqləyib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xalq artisti Elmira Şabanova vəfat edib\n\nAzərbaycan mədəniyyətinə ağır itki üz verib. Xalq artisti Elmira Şabanova vəfat edib.\n\nSənətkarın ölüm xəbərini qızı Leyla Şabanova paylaşıb. O, yaxınlarının ağır itki ilə üzləşdiyini bildirib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #mədəniyyət #ElmiraŞabanova #XalqArtisti",
+  "id": "20261125-184438-u-s",
+  "kind": "story",
+  "image": "posts/20261125-184438-u-s.jpg"
  }
 ]
