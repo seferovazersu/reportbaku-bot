@@ -10685,5 +10685,46 @@
   "image": "posts/20261125-081026-u-s.jpg",
   "instagram_id": "18102998699426940",
   "permalink": ""
+ },
+ {
+  "id": "20261125-081903-u",
+  "kind": "news",
+  "created": "2026-11-25T04:19:03.885302+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "📍 Hal-hazırda yollardakı vəziyyət:\n\nBakı-Sumqayıt şosesi, “20 Yanvar” metro stansiyası istiqamətində;\n\n1-ci Göl kənarı yolu, Ziya Bünyadov prospekti istiqamətində;\n\nBabək prospekti, mərkəz istiqamətində;\n\nƏbdülvahab Salamzadə küçəsi, Ziya Bünyadov prospekti istiqamətində;\n\n8 Noyabr prospekti, Süleyman Əhmədov küçəsi ilə kəsişmədən mərkəz istiqamətində;\n\nHeydər Əliyev prospekti, köməkçi yol, mərkəz istiqamətində;\n\nAtatürk prospekti, Ziya Bünyadov prospekti istiqamətində;\n\nTbilisi prospekti, “20 Yanvar” metro stansiyasından mərkəz istiqamətində;\n\nYusif Səfərov küçəsi, mərkəz istiqamətində sıxlıq müşahidə olunur.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIEC2sGYafU0nZjF3MLycrmDTu3Pz_RAAL6HGsbDcA5SGvtUr3hm2BaAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIEDGsGYaevOOmypIHTNHcDJetiDWtDAAL7HGsbDcA5SBX_6ecyJUFCAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIEDWsGYadDolvF_oVj5gfoMm1QEfqfAAL8HGsbDcA5SEkL7-XY7iWHAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIEDmsGYaerXqoGIytI_Va09oG67F2QAAL9HGsbDcA5SGbeEtEev5CQAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "📍 Hal-hazırda yollardakı vəziyyət:\n\nBakı-Sumqayıt şosesi, “20 Yanvar” metro stansiyası ist",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "📍 Hal-hazırda yollardakı vəziyyət:\n\nBakı-Sumqayıt şosesi, “20 Yanvar” metro stansiyası istiqamətində;\n\n1-ci Göl kənarı y",
+  "link": "",
+  "sensitive": false,
+  "groups": [
+   "14364642620483122"
+  ],
+  "card_sent": true
  }
 ]
