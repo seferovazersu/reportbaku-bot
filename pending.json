@@ -10388,14 +10388,9 @@
   "id": "20261125-073419-02",
   "kind": "news",
   "created": "2026-11-25T03:34:19.668532+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAID8WsGWDQpNjDtkq-V5a1ZX78rJCYpAALdHGsbDcA5SF9IQ8QQmmisAQADAgADeAADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "DÜNYA",
   "headline": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib",
   "summary": "Nvidia şirkətinin baş direktoru Censen Huanq şəxsi həyatı ilə bağlı yaranan qalmaqaldan sonra kollektivdən üzr istəyib. O, hərəkətləri nəticəsində yaxınlarına və həmkarlarına ağrı yaşatdığını etiraf edib.",
@@ -10415,20 +10410,16 @@
   "source_title": "Huanq xəyanətə görə işçilərindən üzr istədi",
   "link": "https://publika.az/news/abs/650030.html",
   "sensitive": false,
-  "card_id": 1006
+  "card_id": 1006,
+  "raw_text": ""
  },
  {
   "id": "20261125-073419-03",
   "kind": "news",
   "created": "2026-11-25T03:34:19.668532+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAID8msGWM7-l2Hvqmf-9mftB4WZcHiNAALhHGsbDcA5SBhllerTRQzaAQADAgADdwADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "DÜNYA",
   "headline": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib",
   "summary": "Almaniyanın kansleri Fridrix Merts Avropa İttifaqının yeddiillik büdcəsinin bloklana biləcəyini bildirib. Politico nəşrinin məlumatına görə, bu addım Ukraynanın maliyyələşdirilməsi ilə əlaqədardır.",
@@ -10449,7 +10440,8 @@
   "source_title": "Германия ставит ультиматум Европе",
   "link": "https://haqqin.az/newsarchive/399338",
   "sensitive": false,
-  "card_id": 1007
+  "card_id": 1007,
+  "raw_text": ""
  },
  {
   "created": "2026-11-25T03:41:54.408351+00:00",
@@ -10497,5 +10489,91 @@
   "image": "posts/20261125-073419-01-s.jpg",
   "instagram_id": "18461256910123930",
   "permalink": ""
+ },
+ {
+  "created": "2026-11-25T03:56:58.116595+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib",
+  "summary": "Nvidia şirkətinin baş direktoru Censen Huanq şəxsi həyatı ilə bağlı yaranan qalmaqaldan sonra kollektivdən üzr istəyib. O, hərəkətləri nəticəsində yaxınlarına və həmkarlarına ağrı yaşatdığını etiraf edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/abs/650030.html",
+  "sensitive": false,
+  "caption": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib\n\nNvidia şirkətinin rəhbəri vəzifəsinə qayıdan Censen Huanq nikahdankənar münasibətləri ətrafında yaranan qalmaqaldan sonra əməkdaşlardan üzr istəyib. O, ümumi toplantıda öz səhvləri ilə yaxınlarına və həmkarlarına ağrı yaşatdığını, övladlarını çətin vəziyyətə saldığını bildirib. Huanq həmçinin psixoterapiya seanslarında iştirak etdiyini açıqlayıb və vəzifəsinə bərpasının ABŞ prezidenti Donald Trampın təzyiqi ilə baş verdiyi barədə məlumatları təkzib edib. Şirkət rəhbərinin istefası cəmi 11 gün davam edib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Nvidia #CensenHuanq #DünyaXəbərləri #İqtisadiyyat",
+  "id": "20261125-073419-02-p",
+  "kind": "post",
+  "image": "posts/20261125-073419-02-p.jpg"
+ },
+ {
+  "created": "2026-11-25T03:56:58.116595+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib",
+  "summary": "Nvidia şirkətinin baş direktoru Censen Huanq şəxsi həyatı ilə bağlı yaranan qalmaqaldan sonra kollektivdən üzr istəyib. O, hərəkətləri nəticəsində yaxınlarına və həmkarlarına ağrı yaşatdığını etiraf edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/abs/650030.html",
+  "sensitive": false,
+  "caption": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib\n\nNvidia şirkətinin rəhbəri vəzifəsinə qayıdan Censen Huanq nikahdankənar münasibətləri ətrafında yaranan qalmaqaldan sonra əməkdaşlardan üzr istəyib. O, ümumi toplantıda öz səhvləri ilə yaxınlarına və həmkarlarına ağrı yaşatdığını, övladlarını çətin vəziyyətə saldığını bildirib. Huanq həmçinin psixoterapiya seanslarında iştirak etdiyini açıqlayıb və vəzifəsinə bərpasının ABŞ prezidenti Donald Trampın təzyiqi ilə baş verdiyi barədə məlumatları təkzib edib. Şirkət rəhbərinin istefası cəmi 11 gün davam edib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Nvidia #CensenHuanq #DünyaXəbərləri #İqtisadiyyat",
+  "id": "20261125-073419-02-r",
+  "kind": "reel",
+  "video": "20261125-073419-02-r.mp4",
+  "cover": "20261125-073419-02-r.jpg"
+ },
+ {
+  "created": "2026-11-25T03:56:58.116595+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib",
+  "summary": "Nvidia şirkətinin baş direktoru Censen Huanq şəxsi həyatı ilə bağlı yaranan qalmaqaldan sonra kollektivdən üzr istəyib. O, hərəkətləri nəticəsində yaxınlarına və həmkarlarına ağrı yaşatdığını etiraf edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/abs/650030.html",
+  "sensitive": false,
+  "caption": "Nvidia rəhbəri Censen Huanq nikahdankənar münasibətlərə görə işçilərdən üzr istəyib\n\nNvidia şirkətinin rəhbəri vəzifəsinə qayıdan Censen Huanq nikahdankənar münasibətləri ətrafında yaranan qalmaqaldan sonra əməkdaşlardan üzr istəyib. O, ümumi toplantıda öz səhvləri ilə yaxınlarına və həmkarlarına ağrı yaşatdığını, övladlarını çətin vəziyyətə saldığını bildirib. Huanq həmçinin psixoterapiya seanslarında iştirak etdiyini açıqlayıb və vəzifəsinə bərpasının ABŞ prezidenti Donald Trampın təzyiqi ilə baş verdiyi barədə məlumatları təkzib edib. Şirkət rəhbərinin istefası cəmi 11 gün davam edib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Nvidia #CensenHuanq #DünyaXəbərləri #İqtisadiyyat",
+  "id": "20261125-073419-02-s",
+  "kind": "story",
+  "image": "posts/20261125-073419-02-s.jpg"
+ },
+ {
+  "created": "2026-11-25T03:57:51.822372+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib",
+  "summary": "Almaniyanın kansleri Fridrix Merts Avropa İttifaqının yeddiillik büdcəsinin bloklana biləcəyini bildirib. Politico nəşrinin məlumatına görə, bu addım Ukraynanın maliyyələşdirilməsi ilə əlaqədardır.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399338",
+  "sensitive": false,
+  "caption": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib\n\nAlmaniyanın kansleri Fridrix Merts bəyan edib ki, əgər bütün dövlətlər Ukraynanın maliyyələşdirilməsində iştirak etmə razılığı verməsələr, Avropa İttifaqının yeddiillik büdcəsi bloklana bilər.\n\nPolitico nəşrinin yaydığı məlumata əsasən, Almaniya rəhbərliyi Macarıstan, Slovakiya, Çexiya və Bolqarıstanın da 2027-ci ildə Ukraynaya ayrılacaq 45 milyard avro dəyərində kreditin xərclərini bölüşməsini tələb edir.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Almaniya #Avropaİttifaqı #Ukrayna #FridrixMerts",
+  "id": "20261125-073419-03-p",
+  "kind": "post",
+  "image": "posts/20261125-073419-03-p.jpg"
+ },
+ {
+  "created": "2026-11-25T03:57:51.822372+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib",
+  "summary": "Almaniyanın kansleri Fridrix Merts Avropa İttifaqının yeddiillik büdcəsinin bloklana biləcəyini bildirib. Politico nəşrinin məlumatına görə, bu addım Ukraynanın maliyyələşdirilməsi ilə əlaqədardır.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399338",
+  "sensitive": false,
+  "caption": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib\n\nAlmaniyanın kansleri Fridrix Merts bəyan edib ki, əgər bütün dövlətlər Ukraynanın maliyyələşdirilməsində iştirak etmə razılığı verməsələr, Avropa İttifaqının yeddiillik büdcəsi bloklana bilər.\n\nPolitico nəşrinin yaydığı məlumata əsasən, Almaniya rəhbərliyi Macarıstan, Slovakiya, Çexiya və Bolqarıstanın da 2027-ci ildə Ukraynaya ayrılacaq 45 milyard avro dəyərində kreditin xərclərini bölüşməsini tələb edir.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Almaniya #Avropaİttifaqı #Ukrayna #FridrixMerts",
+  "id": "20261125-073419-03-r",
+  "kind": "reel",
+  "video": "20261125-073419-03-r.mp4",
+  "cover": "20261125-073419-03-r.jpg"
+ },
+ {
+  "created": "2026-11-25T03:57:51.822372+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib",
+  "summary": "Almaniyanın kansleri Fridrix Merts Avropa İttifaqının yeddiillik büdcəsinin bloklana biləcəyini bildirib. Politico nəşrinin məlumatına görə, bu addım Ukraynanın maliyyələşdirilməsi ilə əlaqədardır.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399338",
+  "sensitive": false,
+  "caption": "Almaniya kansleri Avropa İttifaqının büdcəsini bloklamaqla hədələyib\n\nAlmaniyanın kansleri Fridrix Merts bəyan edib ki, əgər bütün dövlətlər Ukraynanın maliyyələşdirilməsində iştirak etmə razılığı verməsələr, Avropa İttifaqının yeddiillik büdcəsi bloklana bilər.\n\nPolitico nəşrinin yaydığı məlumata əsasən, Almaniya rəhbərliyi Macarıstan, Slovakiya, Çexiya və Bolqarıstanın da 2027-ci ildə Ukraynaya ayrılacaq 45 milyard avro dəyərində kreditin xərclərini bölüşməsini tələb edir.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Almaniya #Avropaİttifaqı #Ukrayna #FridrixMerts",
+  "id": "20261125-073419-03-s",
+  "kind": "story",
+  "image": "posts/20261125-073419-03-s.jpg"
  }
 ]
