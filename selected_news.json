@@ -1,42 +1,42 @@
 [
   {
-    "source": "Trend.az",
-    "title": "Noyabr ayı üzrə bütün sosial ödənişlər yekunlaşıb",
+    "source": "Day.az",
+    "title": "Bakı metrosunda sıxlıq",
+    "snippet": "Hazırda Bakı metropoliteninin \"İçərişəhər\" və \"28 May\" stansiyalarında futbol matçı ilə əlaqədar sərnişin sıxlığı müşahidə olunur. Qeyd edək ki, bu gün UEFA Çempionlar Liqasının əsas mərhələsi çərçivəsində İspaniyanın \"Barselona\" klubu Bakının \"Sabah\" komandası ilə Bakı Olimpiya Stadionunda qarşılaşacaq.",
+    "needs_fulltext": false,
+    "link": "https://news.day.az/azerinews/1877123.html",
+    "published": "2026-11-25T15:10:00+00:00"
+  },
+  {
+    "source": "Minval.az",
+    "title": "Генштабы Азербайджана и Таджикистана сверили военные планы",
+    "snippet": "Начальник Генерального штаба Вооруженных сил Азербайджана Керим Велиев обсудил с начальником Оперативного управления Генштаба ВС Таджикистана Шарафом Эгамзодом перспективы военного сотрудничества двух стран, сообщает Минобороны...",
+    "needs_fulltext": false,
+    "link": "https://minval.az/news/124564318",
+    "published": "2026-11-25T15:12:59+00:00"
+  },
+  {
+    "source": "Metbuat.az",
+    "title": "İngilis futbolunun günəşi İstanbulda batdı",
+    "snippet": "\"Qalatasaray\"ın İngiltərənin \"Aston Villa\" klubunu İstanbulda 1:0 hesabı ilə məğlub etməsi ilə Okan Buruk uğurlu statistikasını davam etdirib. Metbuat.az “Haber Global”a istinadən xəbər verir ki, RAMS Parkda keçirilən qarşılaşmada Deniz Gül 77-ci dəqiqədə vurduğu qolla komandasına qələbə qazandırıb....",
+    "needs_fulltext": false,
+    "link": "https://metbuat.az/news/1567536/ingilis-futbolunun-gunesi-istanbulda-batdi.html",
+    "published": "2026-11-25T14:42:00+00:00"
+  },
+  {
+    "source": "Qafqazinfo",
+    "title": "Ağdam Dövlət Sosial-İqtisadi Kollecinin 100 illiyi qeyd olunub",
     "snippet": "",
     "needs_fulltext": true,
-    "link": "https://az.trend.az/azerbaijan/society/4250711.html",
-    "published": "2026-11-25T14:19:00+00:00"
+    "link": "https://www.qafqazinfo.az/news/detail/agdam-dovlet-sosial-iqtisadi-kollecinin-100-illiyi-qeyd-olunub-fotolar-529801",
+    "published": "2026-11-25T15:00:00+00:00"
   },
   {
     "source": "Sia.az",
-    "title": "Krımda sakinlərə təcili olaraq ərzaq ehtiyatı toplamaq tövsiyə olunur...",
-    "snippet": "Ukraynanın işğal olunmuş əraziləri vasitəsilə çatdırılma ilə bağlı problemlərə görə...",
-    "needs_fulltext": false,
-    "link": "https://sia.az/az/news/world/1376917.html",
-    "published": "2026-11-25T14:27:00+00:00"
-  },
-  {
-    "source": "APA",
-    "title": "Ərdoğan Xəlifə Həftərlə görüşüb",
-    "snippet": "",
+    "title": "Kreml tələdə: Ukraynalılar Xarkov bölgəsində rusları necə məğlub etdi...",
+    "snippet": "Analitik ukraynalıların uğurlu əməliyyatının xronologiyasını yenidən qurdu...",
     "needs_fulltext": true,
-    "link": "https://apa.az/asia/erdogan-xelife-hefterle-gorusub-1017317",
-    "published": "2026-11-25T14:15:20+00:00"
-  },
-  {
-    "source": "Xəzər Xəbər",
-    "title": "Sumqayıtda marketdə ahıl qadına qarşı cibgirlik edilib",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://xezerxeber.az/az/hadise/sumqayitda-marketde-ahil-qadina-qarsi-cibgirlik-edilib",
-    "published": "2026-11-25T13:07:00+00:00"
-  },
-  {
-    "source": "Publika",
-    "title": "Həkimdən valideynlərə xəbərdarlıq: Uşaqlara öskürək siroplarını özbaşına verməyin",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://publika.az/news/dunya/650137.html",
-    "published": "2026-11-25T14:00:00+00:00"
+    "link": "https://sia.az/az/news/rey/1376920.html",
+    "published": "2026-11-25T15:04:00+00:00"
   }
 ]

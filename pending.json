@@ -12075,5 +12075,61 @@
    "14364956147486418"
   ],
   "card_sent": true
+ },
+ {
+  "id": "20261125-192044-01",
+  "kind": "news",
+  "created": "2026-11-25T15:20:44.253124+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Azərbaycan və Tacikistan hərbi planları müzakirə edib",
+  "summary": "Azərbaycan və Tacikistan baş qərargah rəsmiləri hərbi sahədə əməkdaşlıq perspektivlərini müzakirə ediblər. Bu barədə Müdafiə Nazirliyi məlumat yayıb.",
+  "caption_text": "Azərbaycan Silahlı Qüvvələrinin Baş Qərargah rəisi Kərim Vəliyev Tacikistan Silahlı Qüvvələri Baş Qərargahının Əməliyyat İdarəsinin rəisi Şərəf Egamzod ilə görüş keçirib. Müdafiə Nazirliyinin məlumatına görə, görüş zamanı tərəflər hərbi əməkdaşlığın gələcək perspektivlərini müzakirə ediblər.",
+  "voiceover": "Azərbaycan Silahlı Qüvvələrinin Baş Qərargah rəisi Kərim Vəliyev Tacikistan Silahlı Qüvvələri Baş Qərargahının Əməliyyat İdarəsinin rəisi Şərəf Egamzod ilə görüşüb. Müdafiə Nazirliyinin məlumatına görə, görüşdə iki ölkə arasında hərbi əməkdaşlığın perspektivləri müzakirə olunub.",
+  "hashtags": [
+   "#Azərbaycan",
+   "#Tacikistan",
+   "#MüdafiəNazirliyi",
+   "#HərbiƏməkdaşlıq"
+  ],
+  "highlight": [
+   "Azərbaycan",
+   "Tacikistan"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Генштабы Азербайджана и Таджикистана сверили военные планы",
+  "link": "https://minval.az/news/124564318",
+  "sensitive": false,
+  "card_id": 1198
+ },
+ {
+  "id": "20261125-192044-02",
+  "kind": "news",
+  "created": "2026-11-25T15:20:44.253124+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Ukrayna Xarkov vilayətində Ayı tələsi əməliyyatını tamamlayıb",
+  "summary": "Ukrayna Silahlı Qüvvələri Xarkov vilayətində gizli şəkildə həyata keçirilən Ayı tələsi əməliyyatını başa çatdırıb. Hərbi-siyasi müşahidəçi Aleksandr Kovalenkonun sözlərinə görə, əməliyyat nəticəsində 14 yaşayış məntəqəsi və müəyyən ərazi azad edilib.",
+  "caption_text": "Ukrayna Silahlı Qüvvələrinin Xarkov vilayətində həyata keçirdiyi Ayı tələsi adlı iri əməliyyatın təfərrüatları məlum olub. Bir neçə ay ərzində ciddi məxfilik şəraitində hazırlanan tapşırıq üç həftə ərzində tamamlanıb. Ukrayna qüvvələri təxminən 200 kvadratmetr ərazini və 14 yaşayış məntəqəsini azad ediblər.\n\nİnformasiya müqaviməti qrupunun ukraynalı hərbi-siyasi müşahidəçisi Aleksandr Kovalenkonun bildirdiyinə görə, hər şey Rusiya qoşunlarının Ayı küncü əməliyyatını təşkil etmək niyyəti ilə başlayıb. Rusiya tərəfi geniş əraziləri ələ keçirdiyini iddia etsə də, əslində infiltrasiyalarla birlikdə daha məhdud sahələrə nəzarət ediblər. Ukrayna qoşunları əvvəlcə infiltrasiyaları sabitləşdirib, daha sonra isə əks-hücumlar vasitəsilə düşmənin geri çəkilməsinə nail olublar.",
+  "voiceover": "Ukrayna Silahlı Qüvvələri Xarkov vilayətində Ayı tələsi əməliyyatını başa çatdırıb. Bir neçə ay məxfi şəkildə hazırlanan əməliyyat üç həftə ərzində tamamlanıb. Hərbi-siyasi müşahidəçi Aleksandr Kovalenkonun sözlərinə görө, ukraynalılar əməliyyat nəticəsində 14 yaşayış məntəqəsini azad ediblər. Rusiya qüvvələrinin irəliləmək və müdafiəni saxlamaq üçün resursları tükəndikdən sonra Ukrayna tərəfi əks-hücuma keçib.",
+  "hashtags": [
+   "#Ukrayna",
+   "#Xarkov",
+   "#Hərb",
+   "#DünyaXəbərləri"
+  ],
+  "highlight": [
+   "Ayı tələsi",
+   "Xarkov"
+  ],
+  "source_note": "Mənbə: Sia.az",
+  "source_title": "Kreml tələdə: Ukraynalılar Xarkov bölgəsində rusları necə məğlub etdi...",
+  "link": "https://sia.az/az/news/rey/1376920.html",
+  "sensitive": true,
+  "card_id": 1199
  }
 ]
