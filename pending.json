@@ -14455,7 +14455,12 @@
   "created": "2026-11-26T14:04:46.999742+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFv2sIPKNdHlyPUzfNPNKzvKxqjbYwAALzKGsb_7tISOYTw3JSrGLjAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb",
   "summary": "Sarımsağın cücərməməsi və daha uzun müddət təzə qalması üçün kök hissəsinin qısa müddət alova yaxınlaşdırılması tövsiyə edilir. Bu üsul zamanı alovun qabığa və dişlərə toxunmamasına diqqət yetirilməlidir.",
@@ -14482,7 +14487,12 @@
   "created": "2026-11-26T14:04:46.999742+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFwGsIPNUc5S4i5KfbTXn2swmJ5W2qAAL0KGsb_7tISIF0m-ckeSeLAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
   "summary": "Amerika Birləşmiş Ştatlarında əlverişsiz hava şəraiti və qasırğalar hava nəqliyyatına ciddi təsir göstərib. Ölkə ərazisində yüzlərlə aviareys ləğv olunub, minlərlə uçuşda isə gecikmələr qeydə alınıb.",
@@ -14510,7 +14520,12 @@
   "created": "2026-11-26T14:04:46.999742+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFwWsIPP2s85Sk6eNx-ooL9Z-F6Cu7AAL1KGsb_7tISEyKj8i7NVSMAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb",
   "summary": "Nəşrin məlumatına görə, ABŞ lideri ilə Çin sədrinin görüşlərindən sonra Pekin optimizm nümayiş etdirir. Lakin bu, diplomatik münasibətlərdə yeni mərhələnin başlanğıcı ola bilər.",
