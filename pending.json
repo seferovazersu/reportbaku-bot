@@ -15163,26 +15163,74 @@
   "id": "20261126-205010-u",
   "kind": "news",
   "created": "2026-11-26T16:50:10.872802+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "Parkda tapılan azyaşlı ilə bağlı yeni detallar: Valideyni cəzalandırıldı\n\nSığınacağa yerləşdirilən azyaşlının valideyni barəsində inzibati tədbir görülüb.\nOxu.Az-ın sorğusuna cavab olaraq DİN-in Mətbuat Xidmətinin əməkdaşı Lumu İsrəfilli bildirib ki, noyabrın 15-də azyaşlı Nəsimi rayonu ərazisindəki parklardan birində polis tərəfindən tapılaraq aidiyyəti üzrə təhvil verilib.\nValideynin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirildikdən sonra barəsində inzibati tənbeh tədbiri tətbiq olunub",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIF-2sIYwTKV0NKxj0Hqg7f-XcFawkmAAIsKmsb_7tISNuEtJEaAY2_AQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "raw_text": "",
+  "media": [],
   "category": "CƏMİYYƏT",
-  "headline": "Parkda tapılan azyaşlı ilə bağlı yeni detallar: Valideyni cəzalandırıldı\n\nSığınacağa yerlə",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "headline": "Parkda tapılan azyaşlının valideyni cəzalandırıldı",
+  "summary": "Nəsimi rayonundakı parklardan birində polisin taparaq sığınacağa yerləşdirdiyi azyaşlının valideyni barəsində inzibati tədbir görülüb. Daxili İşlər Nazirliyinin açıqlamasına görə, həmin şəxsin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirilib.",
+  "caption_text": "Bakı şəhərinin Nəsimi rayonu ərazisindəki parkların birində polislər tərəfindən tapılaraq aidiyyəti üzrə təhvil verilən azyaşlı ilə bağlı yeni təfərrüatlar məlum olub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Lumu İsrəfillinin məlumatına görə, hadisə noyabrın 15-də qeydə alınıb. Sığınacağa yerləşdirilən uşağın valideyninin dilənçiliklə məşğul olduğu və tüfeyli həyat tərzi sürdüyü aşkarlanıb.\n\nAparılan araşdırmalardan sonra həmin şəxs barəsində müvafiq inzibati tənbeh tədbiri tətbiq edilib.",
+  "voiceover": "Nəsimi rayonundakı parkların birində polislər tərəfindən tapılaraq sığınacağa yerləşdirilən azyaşlının valideyni cəzalandırılıb. Daxili İşlər Nazirliyinin məlumatına görə, hadisə noyabrın 15-də baş verib. Araşdırmalar zamanı valideynin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirilib və onun barəsində inzibati tənbeh tədbiri tətbiq olunub.",
+  "hashtags": [
+   "#NəsimiRayonu",
+   "#DİN",
+   "#Polis",
+   "#Cəmiyyət",
+   "#Xəbərlər"
+  ],
+  "highlight": [
+   "azyaşlının",
+   "valideyni",
+   "cəzalandırıldı"
+  ],
   "source_note": "",
   "source_title": "Parkda tapılan azyaşlı ilə bağlı yeni detallar: Valideyni cəzalandırıldı\n\nSığınacağa yerləşdirilən azyaşlının valideyni ",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-26T16:53:12.244984+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Parkda tapılan azyaşlının valideyni cəzalandırıldı",
+  "summary": "Nəsimi rayonundakı parklardan birində polisin taparaq sığınacağa yerləşdirdiyi azyaşlının valideyni barəsində inzibati tədbir görülüb. Daxili İşlər Nazirliyinin açıqlamasına görə, həmin şəxsin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Parkda tapılan azyaşlının valideyni cəzalandırıldı\n\nBakı şəhərinin Nəsimi rayonu ərazisindəki parkların birində polislər tərəfindən tapılaraq aidiyyəti üzrə təhvil verilən azyaşlı ilə bağlı yeni təfərrüatlar məlum olub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Lumu İsrəfillinin məlumatına görə, hadisə noyabrın 15-də qeydə alınıb. Sığınacağa yerləşdirilən uşağın valideyninin dilənçiliklə məşğul olduğu və tüfeyli həyat tərzi sürdüyü aşkarlanıb.\n\nAparılan araşdırmalardan sonra həmin şəxs barəsində müvafiq inzibati tənbeh tədbiri tətbiq edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NəsimiRayonu #DİN #Polis #Xəbərlər",
+  "id": "20261126-205010-u-p",
+  "kind": "post",
+  "image": "posts/20261126-205010-u-p.jpg"
+ },
+ {
+  "created": "2026-11-26T16:53:12.244984+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Parkda tapılan azyaşlının valideyni cəzalandırıldı",
+  "summary": "Nəsimi rayonundakı parklardan birində polisin taparaq sığınacağa yerləşdirdiyi azyaşlının valideyni barəsində inzibati tədbir görülüb. Daxili İşlər Nazirliyinin açıqlamasına görə, həmin şəxsin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Parkda tapılan azyaşlının valideyni cəzalandırıldı\n\nBakı şəhərinin Nəsimi rayonu ərazisindəki parkların birində polislər tərəfindən tapılaraq aidiyyəti üzrə təhvil verilən azyaşlı ilə bağlı yeni təfərrüatlar məlum olub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Lumu İsrəfillinin məlumatına görə, hadisə noyabrın 15-də qeydə alınıb. Sığınacağa yerləşdirilən uşağın valideyninin dilənçiliklə məşğul olduğu və tüfeyli həyat tərzi sürdüyü aşkarlanıb.\n\nAparılan araşdırmalardan sonra həmin şəxs barəsində müvafiq inzibati tənbeh tədbiri tətbiq edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NəsimiRayonu #DİN #Polis #Xəbərlər",
+  "id": "20261126-205010-u-r",
+  "kind": "reel",
+  "video": "20261126-205010-u-r.mp4",
+  "cover": "20261126-205010-u-r.jpg"
+ },
+ {
+  "created": "2026-11-26T16:53:12.244984+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Parkda tapılan azyaşlının valideyni cəzalandırıldı",
+  "summary": "Nəsimi rayonundakı parklardan birində polisin taparaq sığınacağa yerləşdirdiyi azyaşlının valideyni barəsində inzibati tədbir görülüb. Daxili İşlər Nazirliyinin açıqlamasına görə, həmin şəxsin dilənçilik etdiyi və tüfeyli həyat tərzi sürdüyü müəyyənləşdirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Parkda tapılan azyaşlının valideyni cəzalandırıldı\n\nBakı şəhərinin Nəsimi rayonu ərazisindəki parkların birində polislər tərəfindən tapılaraq aidiyyəti üzrə təhvil verilən azyaşlı ilə bağlı yeni təfərrüatlar məlum olub.\n\nDaxili İşlər Nazirliyinin Mətbuat Xidmətinin əməkdaşı Lumu İsrəfillinin məlumatına görə, hadisə noyabrın 15-də qeydə alınıb. Sığınacağa yerləşdirilən uşağın valideyninin dilənçiliklə məşğul olduğu və tüfeyli həyat tərzi sürdüyü aşkarlanıb.\n\nAparılan araşdırmalardan sonra həmin şəxs barəsində müvafiq inzibati tənbeh tədbiri tətbiq edilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NəsimiRayonu #DİN #Polis #Xəbərlər",
+  "id": "20261126-205010-u-s",
+  "kind": "story",
+  "image": "posts/20261126-205010-u-s.jpg"
  }
 ]
