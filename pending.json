@@ -13888,7 +13888,7 @@
   "id": "20261126-164211-01",
   "kind": "news",
   "created": "2026-11-26T12:42:11.767466+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "SİYASƏT",
@@ -13911,13 +13911,17 @@
   "source_title": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
   "link": "https://news.day.az/azerinews/1877354.html",
   "sensitive": false,
-  "card_id": 1412
+  "card_id": 1412,
+  "groups": [
+   "14365576348918626"
+  ],
+  "raw_text": ""
  },
  {
   "id": "20261126-164211-02",
   "kind": "news",
   "created": "2026-11-26T12:42:11.767466+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -13939,13 +13943,17 @@
   "source_title": "“Qubadlı” əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağı təqdim edildi",
   "link": "https://publika.az/news/nida_xeber/650311.html",
   "sensitive": false,
-  "card_id": 1413
+  "card_id": 1413,
+  "groups": [
+   "14365577801740594"
+  ],
+  "raw_text": ""
  },
  {
   "id": "20261126-164211-03",
   "kind": "news",
   "created": "2026-11-26T12:42:11.767466+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -13966,6 +13974,166 @@
   "source_title": "Krım yarımadası qaranlığa qərq olub",
   "link": "https://xezerxeber.az/az/dunya/krim-yarimadasi-qaranliga-qerq-olub",
   "sensitive": true,
-  "card_id": 1414
+  "card_id": 1414,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-26T12:49:03.637534+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
+  "summary": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə görüş keçirib. Tərəflər əməkdaşlığın inkişafı və prokurorluq orqanları arasında əlaqələrin möhkəmləndirilməsini müzakirə ediblər.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/azerinews/1877354.html",
+  "sensitive": false,
+  "caption": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb\n\nAzərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə bir araya gəlib. Nazirlər Kabinetinin Mətbuat xidmətinin məlumatına əsasən, görüşdə iki ölkə arasındakı strateji tərəfdaşlıq münasibətlərinin inkişafından məmnunluq duyulduğu ifadə olunub.\n\nTədbirdə qarşılıqlı faydalı əməkdaşlığın müxtəlif istiqamətlərdə dərinləşdirilməsi üçün geniş potensialın mövcudluğu vurğulanıb. Prokurorluq orqanlarının əlaqələrinin dinamikası yüksək qiymətləndirilib və əməkdaşlığın möhkəmləndirilməsi imkanları nəzərdən keçirilib. Görüşdə Azərbaycanın Baş prokuroru Kamran Əliyev də iştirak edib.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #ƏliƏsədov #Slovakiya #BaşNazir #Prokurorluq",
+  "id": "20261126-164211-01-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-01-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-01-c2.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-26T12:49:03.637534+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
+  "summary": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə görüş keçirib. Tərəflər əməkdaşlığın inkişafı və prokurorluq orqanları arasında əlaqələrin möhkəmləndirilməsini müzakirə ediblər.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/azerinews/1877354.html",
+  "sensitive": false,
+  "caption": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb\n\nAzərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə bir araya gəlib. Nazirlər Kabinetinin Mətbuat xidmətinin məlumatına əsasən, görüşdə iki ölkə arasındakı strateji tərəfdaşlıq münasibətlərinin inkişafından məmnunluq duyulduğu ifadə olunub.\n\nTədbirdə qarşılıqlı faydalı əməkdaşlığın müxtəlif istiqamətlərdə dərinləşdirilməsi üçün geniş potensialın mövcudluğu vurğulanıb. Prokurorluq orqanlarının əlaqələrinin dinamikası yüksək qiymətləndirilib və əməkdaşlığın möhkəmləndirilməsi imkanları nəzərdən keçirilib. Görüşdə Azərbaycanın Baş prokuroru Kamran Əliyev də iştirak edib.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #ƏliƏsədov #Slovakiya #BaşNazir #Prokurorluq",
+  "id": "20261126-164211-01-r",
+  "kind": "reel",
+  "video": "20261126-164211-01-r.mp4",
+  "cover": "20261126-164211-01-r.jpg"
+ },
+ {
+  "created": "2026-11-26T12:49:03.637534+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
+  "summary": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə görüş keçirib. Tərəflər əməkdaşlığın inkişafı və prokurorluq orqanları arasında əlaqələrin möhkəmləndirilməsini müzakirə ediblər.",
+  "source_note": "Mənbə: Day.az",
+  "link": "https://news.day.az/azerinews/1877354.html",
+  "sensitive": false,
+  "caption": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb\n\nAzərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə bir araya gəlib. Nazirlər Kabinetinin Mətbuat xidmətinin məlumatına əsasən, görüşdə iki ölkə arasındakı strateji tərəfdaşlıq münasibətlərinin inkişafından məmnunluq duyulduğu ifadə olunub.\n\nTədbirdə qarşılıqlı faydalı əməkdaşlığın müxtəlif istiqamətlərdə dərinləşdirilməsi üçün geniş potensialın mövcudluğu vurğulanıb. Prokurorluq orqanlarının əlaqələrinin dinamikası yüksək qiymətləndirilib və əməkdaşlığın möhkəmləndirilməsi imkanları nəzərdən keçirilib. Görüşdə Azərbaycanın Baş prokuroru Kamran Əliyev də iştirak edib.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #ƏliƏsədov #Slovakiya #BaşNazir #Prokurorluq",
+  "id": "20261126-164211-01-s",
+  "kind": "story",
+  "image": "posts/20261126-164211-01-s.jpg"
+ },
+ {
+  "created": "2026-11-26T12:49:42.316547+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu",
+  "summary": "Dövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının verilməsi münasibətilə təntənəli mərasim təşkil edilib. Tədbirdə Dövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev Döyüş Bayraqlarını hərbi hissələrin rəhbərlərinə təqdim edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/nida_xeber/650311.html",
+  "sensitive": false,
+  "caption": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu\n\nDövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının təqdim edilməsi ilə əlaqədar təntənəli mərasim keçirilib. Tədbir Azərbaycan Respublikasının Dövlət Himninin səsləndirilməsi ilə başlayıb və şəhidlərin əziz xatirəsi birdəqiqəlik sükutla yad olunub.\n\nÇıxış edənlər ölkənin ərazi bütövlüyünün və suverenliyinin bərpa olunmasının sərhəd mühafizəsi tarixində yeni mərhələ yaratdığını bildiriblər. Vətən müharibəsində sərhədçilərin keçdikləri döyüş yolu və işğaldan azad edilmiş ərazilərdə görülən genişmiqyaslı işlər diqqətə çatdırılıb.\n\nDövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev doğma torpaqların keşiyində dayanmağın hər bir hərbçinin müqəddəs borcu olduğunu vurğulayıb. Daha sonra hərbi şərəf və sədaqət rəmzi olan Döyüş Bayraqları hərbi hissələrin rəhbərlərinə təhvil verilib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətSərhədXidməti #Qubadlı #DöyüşBayrağı #DSX",
+  "id": "20261126-164211-02-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-02-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-02-c2.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-02-c3.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-02-c4.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-164211-02-c5.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-26T12:49:42.316547+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu",
+  "summary": "Dövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının verilməsi münasibətilə təntənəli mərasim təşkil edilib. Tədbirdə Dövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev Döyüş Bayraqlarını hərbi hissələrin rəhbərlərinə təqdim edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/nida_xeber/650311.html",
+  "sensitive": false,
+  "caption": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu\n\nDövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının təqdim edilməsi ilə əlaqədar təntənəli mərasim keçirilib. Tədbir Azərbaycan Respublikasının Dövlət Himninin səsləndirilməsi ilə başlayıb və şəhidlərin əziz xatirəsi birdəqiqəlik sükutla yad olunub.\n\nÇıxış edənlər ölkənin ərazi bütövlüyünün və suverenliyinin bərpa olunmasının sərhəd mühafizəsi tarixində yeni mərhələ yaratdığını bildiriblər. Vətən müharibəsində sərhədçilərin keçdikləri döyüş yolu və işğaldan azad edilmiş ərazilərdə görülən genişmiqyaslı işlər diqqətə çatdırılıb.\n\nDövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev doğma torpaqların keşiyində dayanmağın hər bir hərbçinin müqəddəs borcu olduğunu vurğulayıb. Daha sonra hərbi şərəf və sədaqət rəmzi olan Döyüş Bayraqları hərbi hissələrin rəhbərlərinə təhvil verilib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətSərhədXidməti #Qubadlı #DöyüşBayrağı #DSX",
+  "id": "20261126-164211-02-r",
+  "kind": "reel",
+  "video": "20261126-164211-02-r.mp4",
+  "cover": "20261126-164211-02-r.jpg"
+ },
+ {
+  "created": "2026-11-26T12:49:42.316547+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu",
+  "summary": "Dövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının verilməsi münasibətilə təntənəli mərasim təşkil edilib. Tədbirdə Dövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev Döyüş Bayraqlarını hərbi hissələrin rəhbərlərinə təqdim edib.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/nida_xeber/650311.html",
+  "sensitive": false,
+  "caption": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu\n\nDövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının təqdim edilməsi ilə əlaqədar təntənəli mərasim keçirilib. Tədbir Azərbaycan Respublikasının Dövlət Himninin səsləndirilməsi ilə başlayıb və şəhidlərin əziz xatirəsi birdəqiqəlik sükutla yad olunub.\n\nÇıxış edənlər ölkənin ərazi bütövlüyünün və suverenliyinin bərpa olunmasının sərhəd mühafizəsi tarixində yeni mərhələ yaratdığını bildiriblər. Vətən müharibəsində sərhədçilərin keçdikləri döyüş yolu və işğaldan azad edilmiş ərazilərdə görülən genişmiqyaslı işlər diqqətə çatdırılıb.\n\nDövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev doğma torpaqların keşiyində dayanmağın hər bir hərbçinin müqəddəs borcu olduğunu vurğulayıb. Daha sonra hərbi şərəf və sədaqət rəmzi olan Döyüş Bayraqları hərbi hissələrin rəhbərlərinə təhvil verilib.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #DövlətSərhədXidməti #Qubadlı #DöyüşBayrağı #DSX",
+  "id": "20261126-164211-02-s",
+  "kind": "story",
+  "image": "posts/20261126-164211-02-s.jpg"
+ },
+ {
+  "created": "2026-11-26T12:52:58.057372+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb",
+  "summary": "Krım yarımadasında qəza baş verib və bütün ərazidə elektrik təchizatı kəsilib. Sevastopol da daxil olmaqla işıqların verilməsində fasilə yaranıb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/dunya/krim-yarimadasi-qaranliga-qerq-olub",
+  "sensitive": true,
+  "caption": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb\n\nRusiyanın ilhaq etdiyi Krım yarımadasında qeydə alınan qəza nəticəsində bütün bölgəni elektrik enerjisi ilə təmin edən sistem işləməyib. \"Sevastopolenerqo\" və \"Krımenerqo\" şirkətlərinin yaydığı məlumata görə, elektrik təchizatındakı fasiləyə yarımadadan kənarda yerləşən enerji obyektlərində baş verən nasazlıq səbəb olub. Sevastopol şəhəri də daxil olmaqla bütün ərazidə işıqlar söndürülüb.\n\n\"Sevastopolenerqo\" yerli sakinlərə müraciət edərək enerji verilişi bərpa olunanadək evlərdəki elektrik cihazlarını şəbəkədən ayırmağı tövsiyə edib. Qurumlar qəzanın fəsadlarının aradan qaldırılması və elektrik enerjisinin verilişinin tezliklə bərpası istiqamətində işlər aparır.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Krım #Sevastopol #elektrik #qəza",
+  "id": "20261126-164211-03-p",
+  "kind": "post",
+  "image": "posts/20261126-164211-03-p.jpg"
+ },
+ {
+  "created": "2026-11-26T12:52:58.057372+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb",
+  "summary": "Krım yarımadasında qəza baş verib və bütün ərazidə elektrik təchizatı kəsilib. Sevastopol da daxil olmaqla işıqların verilməsində fasilə yaranıb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/dunya/krim-yarimadasi-qaranliga-qerq-olub",
+  "sensitive": true,
+  "caption": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb\n\nRusiyanın ilhaq etdiyi Krım yarımadasında qeydə alınan qəza nəticəsində bütün bölgəni elektrik enerjisi ilə təmin edən sistem işləməyib. \"Sevastopolenerqo\" və \"Krımenerqo\" şirkətlərinin yaydığı məlumata görə, elektrik təchizatındakı fasiləyə yarımadadan kənarda yerləşən enerji obyektlərində baş verən nasazlıq səbəb olub. Sevastopol şəhəri də daxil olmaqla bütün ərazidə işıqlar söndürülüb.\n\n\"Sevastopolenerqo\" yerli sakinlərə müraciət edərək enerji verilişi bərpa olunanadək evlərdəki elektrik cihazlarını şəbəkədən ayırmağı tövsiyə edib. Qurumlar qəzanın fəsadlarının aradan qaldırılması və elektrik enerjisinin verilişinin tezliklə bərpası istiqamətində işlər aparır.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Krım #Sevastopol #elektrik #qəza",
+  "id": "20261126-164211-03-r",
+  "kind": "reel",
+  "video": "20261126-164211-03-r.mp4",
+  "cover": "20261126-164211-03-r.jpg"
+ },
+ {
+  "created": "2026-11-26T12:52:58.057372+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb",
+  "summary": "Krım yarımadasında qəza baş verib və bütün ərazidə elektrik təchizatı kəsilib. Sevastopol da daxil olmaqla işıqların verilməsində fasilə yaranıb.",
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "link": "https://xezerxeber.az/az/dunya/krim-yarimadasi-qaranliga-qerq-olub",
+  "sensitive": true,
+  "caption": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb\n\nRusiyanın ilhaq etdiyi Krım yarımadasında qeydə alınan qəza nəticəsində bütün bölgəni elektrik enerjisi ilə təmin edən sistem işləməyib. \"Sevastopolenerqo\" və \"Krımenerqo\" şirkətlərinin yaydığı məlumata görə, elektrik təchizatındakı fasiləyə yarımadadan kənarda yerləşən enerji obyektlərində baş verən nasazlıq səbəb olub. Sevastopol şəhəri də daxil olmaqla bütün ərazidə işıqlar söndürülüb.\n\n\"Sevastopolenerqo\" yerli sakinlərə müraciət edərək enerji verilişi bərpa olunanadək evlərdəki elektrik cihazlarını şəbəkədən ayırmağı tövsiyə edib. Qurumlar qəzanın fəsadlarının aradan qaldırılması və elektrik enerjisinin verilişinin tezliklə bərpası istiqamətində işlər aparır.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Krım #Sevastopol #elektrik #qəza",
+  "id": "20261126-164211-03-s",
+  "kind": "story",
+  "image": "posts/20261126-164211-03-s.jpg"
  }
 ]
