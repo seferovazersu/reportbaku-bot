@@ -13375,7 +13375,12 @@
   "created": "2026-11-26T06:24:05.004178+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFLWsH1VZwEUUlvXZNgyvjiVK4r7tcAALKHWsb_7tASJf36YCEGGlXAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "İQTİSADİYYAT",
   "headline": "Qazaxıstan Azərbaycan üzərindən Avropaya yaşıl enerji ixrac edəcək",
   "summary": "Qazaxıstan Xəzər dənizinin dibindən keçəcək kabel vasitəsilə Azərbaycan ərazisindən Avropaya yaşıl enerji nəql etməyi planlaşdırır.",
