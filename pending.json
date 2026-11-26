@@ -14399,13 +14399,14 @@
   "id": "20261126-175028-u",
   "kind": "news",
   "created": "2026-11-26T13:50:28.015220+00:00",
-  "status": "awaiting_media",
+  "status": "failed",
   "custom": true,
   "raw_text": "⚡️⚡️ İbiza adası yaxınlığında tanker batdı: Ölən və xəsarət alanlar var",
   "media": [
    {
     "file_id": "BAACAgIAAxkBAAIFtmsIOItYNKXNIL6QulqBnWUSMQUiAAKGsQAC_7tISBRRaj0cvn9wPQQ",
-    "type": "video"
+    "type": "video",
+    "file": "incoming/20261126-175028-u/1.mp4"
    }
   ],
   "category": "CƏMİYYƏT",
