@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (197 təzə xəbər, HTTP 200)"
+    "state": "OK (198 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -33,7 +33,7 @@
   },
   "Xəzər Xəbər": {
     "url": "https://xezerxeber.az/rss",
-    "state": "OK (47 təzə xəbər, HTTP 301)"
+    "state": "OK (45 təzə xəbər, HTTP 301)"
   },
   "Haqqin.az": {
     "url": "https://haqqin.az/rss.xml",
@@ -49,10 +49,10 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (70 təzə xəbər, HTTP 200)"
+    "state": "OK (73 təzə xəbər, HTTP 200)"
   },
   "Daxili İşlər Nazirliyi": {
     "url": "https://t.me/s/polisazerbaycan",
-    "state": "OK (3 təzə xəbər, Telegram kanalı)"
+    "state": "OK (4 təzə xəbər, Telegram kanalı)"
   }
 }

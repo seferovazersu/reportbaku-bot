@@ -13602,5 +13602,85 @@
   "image": "posts/20261126-124133-03-s.jpg",
   "instagram_id": "18121493513332628",
   "permalink": ""
+ },
+ {
+  "id": "20261126-132030-01",
+  "kind": "news",
+  "created": "2026-11-26T09:20:30.203327+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Qəzzada sədr müavini həlak olub",
+  "summary": "Qəzza zolağında həyata keçirilən zərbə nəticəsində təhsil nazirinin müavini və həyat yoldaşı həlak olub. İsrail rəhbərliyi əməliyyatın təşkilat nümayəndələrinə qarşı yönəldiyini təsdiqləyib.",
+  "caption_text": "Fələstin media vasitələrinin yaydığı məlumata əsasən, mərkəzi hissədəki Deyr-əl-Bəlah bölgəsinə edilən gecə hücumu nəticəsində HƏMAS hökumətinin təhsil nazirinin müavini Xalid Əbu Nada və həyat yoldaşı həlak olub.\n\nİsrail Ordusu HƏMAS-ın yüksək rütbəli nümayəndəsinin hədəf alındığını təsdiqləyib. Daha sonra Baş nazir Benyamin Netanyahunun və müdafiə nazirinin açıqlamalarında mərhumun qruplaşmada iqtisadi və təhsil istiqamətlərinə cavabdeh olduğu bildirilib.\n\nİsrail rəhbərliyinin iddiasına görə, son bir ay ərzində təşkilatın səksənə yaxın döyüşçüsü zərərsizləşdirilib. Bu cür əməliyyatların məqsədli zərbələr kampaniyasının tərkib hissəsi olduğu qeyd edilib.",
+  "voiceover": "Qəzza zolağının mərkəzi hissəsində həyata keçirilən gecə hücumu nəticəsində təhsil nazirinin müavini Xalid Əbu Nada və həyat yoldaşı həlak olub. Fələstin mənbələrinin yaydığı məlumata görə, zərbə Deyr-əl-Bəlah bölgəsinə endirilib. İsrail Ordusu HƏMAS-ın yüksək rütbəli nümayəndəsinin hədəf alındığını təsdiqləyib. Baş nazir Benyamin Netanyahu və müdafiə naziri Əbu Nadanın qruplaşmada iqtisadi və təhsil istiqamətlərinə cavabdeh olduğunu bildiriblər. İsrail rəhbərliyi son bir ayda təşkilatın səksənə yaxın döyüşçüsünün zərərsizləşdirildiyini açıqlayıb.",
+  "hashtags": [
+   "#Qəzza",
+   "#İsrail",
+   "#HƏMAS",
+   "#DeyrəlBəlah"
+  ],
+  "highlight": [
+   "Qəzzada"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Гибель замминистра в Газе",
+  "link": "https://haqqin.az/newsarchive/399485",
+  "sensitive": true,
+  "card_id": 1363
+ },
+ {
+  "id": "20261126-132030-02",
+  "kind": "news",
+  "created": "2026-11-26T09:20:30.203327+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Lənkəranda evdə yanğın baş verib",
+  "summary": "Lənkəran rayonunun Şıxəkəran kəndində yaşayış evində yanğın qeydə alınıb. Hadisə nəticəsində xəsarət alan yoxdur.",
+  "caption_text": "Lənkəran rayonunun Şıxəkəran kəndində birmərtəbəli yaşayış evində yanğın olub. Hadisə nəticəsində ev əşyaları ilə birlikdə tamamilə yanıb.\n\nAlovun yaxınlıqdakı tikililərə yayılmasının qarşısını almaq üçün əraziyə iki yanğınsöndürən texnika və şəxsi heyət cəlb olunub. Yanğın zamanı xəsarət alan olmayıb və faktla bağlı araşdırma aparılır.",
+  "voiceover": "Lənkəran rayonunun Şıxəkəran kəndində birmərtəbəli yaşayış evində yanğın baş verib. Hadisə nəticəsində ümumi sahəsi 120 kvadratmetr olan üç otaqlı ev yanar konstruksiyaları və əşyaları ilə birlikdə yanıb. Əraziyə cəlb olunan yanğından mühafizə bölmələri alovun digər tikililərə keçməsinin qarşısını alıb. Hadisə zamanı xəsarət alan olmayıb və faktla əlaqədar araşdırma aparılır.",
+  "hashtags": [
+   "#Lənkəran",
+   "#Yanğın",
+   "#FövqəladəHallar"
+  ],
+  "highlight": [
+   "Lənkəranda"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Lənkəranda ev yandı",
+  "link": "https://www.qafqazinfo.az/news/detail/lenkeranda-ev-yandi-529873",
+  "sensitive": true,
+  "card_id": 1364
+ },
+ {
+  "id": "20261126-132030-03",
+  "kind": "news",
+  "created": "2026-11-26T09:20:30.203327+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Rusiya Hərbi-Kosmik Qüvvələrinin baş komandanının müavini həbs edilib",
+  "summary": "Rusiyada Hərbi-Kosmik Qüvvələrin baş komandanının silahlanma üzrə müavini, general-polkovnik Yuri Qrexov saxlanılıb. Moskvada keçirilən məhkəmə prosesində barəsində həbs qətimkan tədbiri seçilib.",
+  "caption_text": "Məlumata görə, Rusiya Hərbi-Kosmik Qüvvələrinin baş komandanının silahlanma üzrə müavini, general-polkovnik Yuri Qrexov Moskvalı hüquq-mühafizə orqanları tərəfindən həbs edilib. Noyabrın 25-də 235-ci qarnizon hərbi məhkəməsi tərəfindən onun barəsində həbs-qətimkan tədbirinin seçilməsi barədə qərar qəbul olunub.",
+  "voiceover": "Rusiya Hərbi-Kosmik Qüvvələrinin baş komandanının silahlanma üzrə müavini Yuri Qrexov həbs edilib. 235-ci qarnizon hərbi məhkəməsinin qərarı ilə general-polkovnik barəsində həbs qətimkan tədbiri seçilib. Hadisə Moskvada baş tutub.",
+  "hashtags": [
+   "#Moskva",
+   "#Rusiya",
+   "#YuriQrexov",
+   "#Hərb"
+  ],
+  "highlight": [
+   "Rusiya"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Арестован заместитель главкома ВКС РФ",
+  "link": "https://minval.az/news/124564439",
+  "sensitive": true,
+  "card_id": 1365
  }
 ]
