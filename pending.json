@@ -15569,26 +15569,74 @@
   "id": "20261126-223721-u",
   "kind": "news",
   "created": "2026-11-26T18:37:21.035866+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "⚽ Gürcüstanın Batumi şəhərində keçirilən UEFA Avropa Liqasının V turunda “Beşiktaş” və “Hapoel Beer-Şeva” arasında matçda insident baş verib. Türkiyə klubunun azarkeşləri tribunalarda Fələstin bayrağı açdıqdan sonra polis onlara sərt müdaxilə edib və bibər qazından istifadə olunub. Qarşılaşmanın 25-ci dəqiqəsində tribunada gərginlik artıb, hakimlər isə paltardəyişmə otağına gediblər. Hadisə zamanı “Beşiktaş” azarkeşlərindən biri xərəkdə təcili tibbi yardıma aparılıb. Klubun futbolçuları azarkeşləri sakitləşdirməyə çalışıblar. Stadionun ətrafında da azarkeşlərə qarşı zor tətbiq edildiyi, bəzilərinin huşunu itirənədək döyüldüyü qeyd olunub. Həmçinin, oyundan əvvəl “Beşiktaş” futbolçuları İsrail komandası ilə əl sıxmayıblar.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIGHGsIfE9P554iLLsQ1fR0yNdqyVk5AALRKmsb_7tISNe4x4nPqEFLAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
+  "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
+  "caption_text": "Gürcüstanın Batumi şəhərində baş tutan UEFA Avropa Liqasının V turunun \"Beşiktaş\" və \"Hapoel Beer-Şeva\" qarşılaşmasında insident qeydə alınıb. Türkiyə təmsilçisinin tərəfdarları tribunada Fələstin bayrağı açdıqdan sonra polis sərt tədbirlər görüb və bibər qazı tətbiq olunub. Oyunun 25-ci dəqiqəsində artan gərginlik səbəbindən hakimlər soyunub-geyinmə otağına yollanıblar. Hadisə zamanı \"Beşiktaş\" azarkeşlərindən biri xərəklə təcili tibbi yardım maşınına aparılıb, futbolçular isə tərəfdarları sakitləşdirməyə çalışıblar. Məlumatlara görə, stadion ətrafında da azarkeşlərə qarşı zor tətbiq edilib və bəziləri huşunu itirənədək döyülüb. Həmçinin matçdan əvvəl \"Beşiktaş\" oyunçularının rəqib komanda ilə əl sıxmadığı bildirilib.",
+  "voiceover": "Gürcüstanın Batumi şəhərində keçirilən UEFA Avropa Liqasının V turunun Beşiktaş və Hapoel Beer-Şeva matçında insident baş verib. Türkiyə klubunun azarkeşləri tribunalarda Fələstin bayrağı açdıqdan sonra polis sərt müdaxilə edib və bibər qazından istifadə olunub. Qarşılaşmanın 25-ci dəqiqəsində yaranan gərginlik səbəbindən hakimlər paltardəyişmə otağına gediblər. Hadisə zamanı bir azarkeş xərəkdə təcili tibbi yardıma aparılıb. Oyundan əvvəl isə Beşiktaş futbolçularının İsrail komandası ilə əl sıxmadığı qeyd edilib.",
+  "hashtags": [
+   "#Beşiktaş",
+   "#HapoelBeerŞeva",
+   "#AvropaLiqası",
+   "#Batumi",
+   "#Fələstin"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "⚽ Gürcüstanın Batumi şəhərində keçirilən UEFA Avropa Liqasının V turunda “Beşiktaş” və “Ha",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Beşiktaş",
+   "Hapoel Beer-Şeva",
+   "Fələstin bayrağı"
+  ],
   "source_note": "",
   "source_title": "⚽ Gürcüstanın Batumi şəhərində keçirilən UEFA Avropa Liqasının V turunda “Beşiktaş” və “Hapoel Beer-Şeva” arasında matçd",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-26T18:40:40.996888+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
+  "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb\n\nGürcüstanın Batumi şəhərində baş tutan UEFA Avropa Liqasının V turunun \"Beşiktaş\" və \"Hapoel Beer-Şeva\" qarşılaşmasında insident qeydə alınıb. Türkiyə təmsilçisinin tərəfdarları tribunada Fələstin bayrağı açdıqdan sonra polis sərt tədbirlər görüb və bibər qazı tətbiq olunub. Oyunun 25-ci dəqiqəsində artan gərginlik səbəbindən hakimlər soyunub-geyinmə otağına yollanıblar. Hadisə zamanı \"Beşiktaş\" azarkeşlərindən biri xərəklə təcili tibbi yardım maşınına aparılıb, futbolçular isə tərəfdarları sakitləşdirməyə çalışıblar. Məlumatlara görə, stadion ətrafında da azarkeşlərə qarşı zor tətbiq edilib və bəziləri huşunu itirənədək döyülüb. Həmçinin matçdan əvvəl \"Beşiktaş\" oyunçularının rəqib komanda ilə əl sıxmadığı bildirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Beşiktaş #HapoelBeerŞeva #AvropaLiqası #Batumi",
+  "id": "20261126-223721-u-p",
+  "kind": "post",
+  "image": "posts/20261126-223721-u-p.jpg"
+ },
+ {
+  "created": "2026-11-26T18:40:40.996888+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
+  "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb\n\nGürcüstanın Batumi şəhərində baş tutan UEFA Avropa Liqasının V turunun \"Beşiktaş\" və \"Hapoel Beer-Şeva\" qarşılaşmasında insident qeydə alınıb. Türkiyə təmsilçisinin tərəfdarları tribunada Fələstin bayrağı açdıqdan sonra polis sərt tədbirlər görüb və bibər qazı tətbiq olunub. Oyunun 25-ci dəqiqəsində artan gərginlik səbəbindən hakimlər soyunub-geyinmə otağına yollanıblar. Hadisə zamanı \"Beşiktaş\" azarkeşlərindən biri xərəklə təcili tibbi yardım maşınına aparılıb, futbolçular isə tərəfdarları sakitləşdirməyə çalışıblar. Məlumatlara görə, stadion ətrafında da azarkeşlərə qarşı zor tətbiq edilib və bəziləri huşunu itirənədək döyülüb. Həmçinin matçdan əvvəl \"Beşiktaş\" oyunçularının rəqib komanda ilə əl sıxmadığı bildirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Beşiktaş #HapoelBeerŞeva #AvropaLiqası #Batumi",
+  "id": "20261126-223721-u-r",
+  "kind": "reel",
+  "video": "20261126-223721-u-r.mp4",
+  "cover": "20261126-223721-u-r.jpg"
+ },
+ {
+  "created": "2026-11-26T18:40:40.996888+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
+  "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb\n\nGürcüstanın Batumi şəhərində baş tutan UEFA Avropa Liqasının V turunun \"Beşiktaş\" və \"Hapoel Beer-Şeva\" qarşılaşmasında insident qeydə alınıb. Türkiyə təmsilçisinin tərəfdarları tribunada Fələstin bayrağı açdıqdan sonra polis sərt tədbirlər görüb və bibər qazı tətbiq olunub. Oyunun 25-ci dəqiqəsində artan gərginlik səbəbindən hakimlər soyunub-geyinmə otağına yollanıblar. Hadisə zamanı \"Beşiktaş\" azarkeşlərindən biri xərəklə təcili tibbi yardım maşınına aparılıb, futbolçular isə tərəfdarları sakitləşdirməyə çalışıblar. Məlumatlara görə, stadion ətrafında da azarkeşlərə qarşı zor tətbiq edilib və bəziləri huşunu itirənədək döyülüb. Həmçinin matçdan əvvəl \"Beşiktaş\" oyunçularının rəqib komanda ilə əl sıxmadığı bildirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Beşiktaş #HapoelBeerŞeva #AvropaLiqası #Batumi",
+  "id": "20261126-223721-u-s",
+  "kind": "story",
+  "image": "posts/20261126-223721-u-s.jpg"
  }
 ]
