@@ -14157,7 +14157,12 @@
   "created": "2026-11-26T12:59:58.927106+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFoWsILzrPvaLYvtWiAAHC3YiJC7SKUAACkShrG_-7SEjIbMv58G77wAEAAwIAA3kAAz0E",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
   "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
@@ -14184,7 +14189,24 @@
   "created": "2026-11-26T12:59:58.927106+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFomsIL33dI0d4pqwGEIpRq4NXfBztAAKSKGsb_7tISBu4opTXn9DmAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIFo2sIL30WMxgQKNrB3M7JaliIQ94GAAKTKGsb_7tISNyBKb2iyEnpAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIFpGsIL30qywV4ROEd9cr34UcLpxrtAAKUKGsb_7tISHYzVs6UOurKAQADAgADeQADPQQ",
+    "type": "photo"
+   },
+   {
+    "file_id": "AgACAgIAAxkBAAIFpWsIL30RyAAB3x1sbvzOMqtWl0rdlwAClShrG_-7SEgvJlv6hAYQxwEAAwIAA3kAAz0E",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
   "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
@@ -14205,7 +14227,10 @@
   "source_title": "Сотрудники МЧС зашли в торговый центр Karvan и...",
   "link": "https://haqqin.az/newsarchive/399511",
   "sensitive": false,
-  "card_id": 1439
+  "card_id": 1439,
+  "groups": [
+   "14365588460451546"
+  ]
  },
  {
   "id": "20261126-165958-03",
@@ -14213,7 +14238,12 @@
   "created": "2026-11-26T12:59:58.927106+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFpmsIL6CmVp4Dw-CljgJ7_G3HvyUlAAKWKGsb_7tISMazCwERfs4WAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "SİYASƏT",
   "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
   "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
