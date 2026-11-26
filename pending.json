@@ -13886,5 +13886,90 @@
   "id": "20261126-141335-u-s",
   "kind": "story",
   "image": "posts/20261126-141335-u-s.jpg"
+ },
+ {
+  "id": "20261126-163338-01",
+  "kind": "news",
+  "created": "2026-11-26T12:33:38.421279+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Xankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu",
+  "summary": "Xankəndi şəhərində yetkinlik yaşına çatmayan qıza qarşı əxlaqsız hərəkətlər edən 18 yaşlı gənc 3 il müddətinə azadlıqdan məhrum edilib. Məhkəmənin hökmü ilə təqsirləndirilən şəxs iclas zalında həbs olunub.",
+  "caption_text": "Xankəndi Şəhər Məhkəməsində baxılan cinayət işinin materiallarına əsasən, 2025-ci ilin dekabr ayının 31-də baş verən hadisə sonradan qızın Bakıya qaçması və polis tərəfindən tapılaraq ailəsinə təhvil verilməsi ilə üzə çıxıb. Aparılan araşdırmalar nəticəsində Ağdam rayon sakini olan gənc barəsində Cinayət Məcəlləsinin müvafiq maddəsi ilə cinayət işi açılıb. Məhkəmə prosesi zamanı ev dustaqlığında olan təqsirləndirilən şəxsə 3 il həbs cəzası verilib və o, məhkəmə zalında qandallanıb.",
+  "voiceover": "Xankəndidə yetkinlik yaşına çatmayan qıza qarşı əxlaqsız hərəkətlər edən gənc həbs olunub. Xankəndi Şəhər Məhkəməsinin hökmü ilə 18 yaşlı gəncə 3 il həbs cəzası kəsilib. Məhkəmə prosesi dövründə ev dustaqlığında olan şəxs iclas zalında qandallanıb.",
+  "hashtags": [
+   "#Xankəndi",
+   "#XankəndiŞəhərMəhkəməsi",
+   "#Hadisə",
+   "#Xəbərlər"
+  ],
+  "highlight": [
+   "Xankəndi",
+   "həbs olundu"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Yeniyetmə qıza qarşı əxlaqsız hərəkətlər edən gənc həbs olundu",
+  "link": "https://www.qafqazinfo.az/news/detail/yeniyetme-qiza-qarsi-exlaqsiz-hereketler-eden-genc-hebs-olundu-529891",
+  "sensitive": true,
+  "card_id": 1391
+ },
+ {
+  "id": "20261126-163338-02",
+  "kind": "news",
+  "created": "2026-11-26T12:33:38.421279+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "Ermənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir",
+  "summary": "Ermənistanın Baş naziri Nikol Paşinyan ölkəsinin sərhədlərinin qorunması üçün tam məsuliyyəti öz üzərinə götürməli olduğunu bildirib. O, Rusiya sərhədçilərinə indiyədək göstərdikləri xidmətə görə minnətdarlıq edib.",
+  "caption_text": "Ermənistanın Baş naziri Nikol Paşinyan hökumət iclasından sonra keçirilən brifinqdə sərhəd təhlükəsizliyi məsələsinə toxunub. Jurnalistlərin Rusiya sərhədçilərinin əvəzlənməsi ilə bağlı planın olub-olmaması barədə sualını cavablandıran baş nazir dövlətin tədricən sərhədləri qorumaq üçün tam məsuliyyət daşımalı olduğunu qeyd edib. Paşinyan yaxın illərdə bu məsuliyyətin tam şəkildə öhdələrinə götürülməsinin vacibliyini vurğulayıb.",
+  "voiceover": "Ermənistanın Baş naziri Nikol Paşinyan ölkəsinin sərhədlərinin qorunması üçün tam məsuliyyəti öz üzərinə götürməli olduğunu bildirib. O, Rusiya sərhədçilərinə indiyədək çəkdikləri keşiyə görө minnətdarlığını ifadə edib. Baş nazir bu addımın yaxın illərdə atılmalı olduğunu qeyd edib.",
+  "hashtags": [
+   "#Ermənistan",
+   "#NikolPaşinyan",
+   "#Rusiya",
+   "#sərhəd"
+  ],
+  "highlight": [
+   "Ermənistan"
+  ],
+  "source_note": "Mənbə: Publika",
+  "source_title": "Paşinyandan Rusiyaya mesaj: Sərhədlərimizi özümüz qorumalıyıq",
+  "link": "https://publika.az/news/region/650289.html",
+  "sensitive": false,
+  "card_id": 1392
+ },
+ {
+  "id": "20261126-163338-03",
+  "kind": "news",
+  "created": "2026-11-26T12:33:38.421279+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib",
+  "summary": "Cari ilin yanvar-oktyabr ayları ərzində Azərbaycan 10-dan çox ölkəyə dəyəri 12 milyard dollardan çox olan neft ixrac edib. Dövlət Gömrük Komitəsinin hesabatına əsasən, ixracda əsas yeri İtaliya, Çexiya və Hindistan tutub.",
+  "caption_text": "Azərbaycan Dövlət Gömrük Komitəsinin təqdim etdiyi hesabatlığa əsasən, cari ilin yanvar-oktyabr dövründə ölkədən 10-dan çox xarici dövlətə ümumi dəyəri 12 161 967,27 min ABŞ dolları olan 18 392 916,04 ton neft ixrac olunub.\n\nMəlumata görə, göstərilən müddətdə İtaliya 6 812 047,6 min dollar dəyərində 10 532 637,45 ton neft alaraq ümumi ixracda lider mövqedə qərarlaşıb. İkinci pillədə qərarlaşan Çexiyaya 974 771,22 min dollar dəyərində 1 413 395,46 ton, üçüncü pillədəki Hindistana isə 666 532,13 min dollar dəyərində 830 049,03 ton neft göndərilib. Qeyd olunan rəqəmlər gömrük orqanlarında rəsmiləşdirilməsi başa çatdırılmış ixrac məlumatlarını əhatə edir.",
+  "voiceover": "Azərbaycan bu ilin yanvar-oktyabr aylarında 10-dan çox ölkəyə 12 milyard dollardan çox dəyərdə neft ixrac edib. Dövlət Gömrük Komitəsinin məlumatına görə, bu dövrdə İtaliya 6 milyard 812 milyon dollardan çox neft alaraq ümumi ixracda birinci olub. İkinci yerdə qərarlaşan Çexiyaya 974 milyon dollardan artıq, üçüncü yerdəki Hindistana isə 666 milyon dollardan çox neft satılıb.",
+  "hashtags": [
+   "#Azərbaycan",
+   "#Neft",
+   "#İxrac",
+   "#İqtisadiyyat",
+   "#DövlətGömrükKomitəsi"
+  ],
+  "highlight": [
+   "Azərbaycan",
+   "12 mlrd. dollar",
+   "neft ixrac edib"
+  ],
+  "source_note": "Mənbə: APA",
+  "source_title": "Azərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib - SİYAHI",
+  "link": "https://apa.az/energy-and-industry/azerbaycan-bu-il-10-dan-cox-olkeye-12-mlrd-dollarliq-neft-ixrac-edib-siyahi-1017571",
+  "sensitive": false,
+  "card_id": 1393
  }
 ]
