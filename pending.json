@@ -15711,7 +15711,7 @@
  },
  {
   "created": "2026-11-26T19:10:46.335595+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "TEXNOLOGİYA",
   "headline": "X yeniyetmələr üçün valideyn nəzarəti funksiyaları təqdim edib",
   "summary": "Platforma 13-17 yaşlı istifadəçilər üçün yeni valideyn nəzarəti alətləri yaradıb. Bu yenilik böyüklərə yeniyetmələrin tətbiqdəki fəaliyyətini tənzimləməyə imkan verəcək.",
@@ -15721,7 +15721,10 @@
   "caption": "X yeniyetmələr üçün valideyn nəzarəti funksiyaları təqdim edib\n\n“X” sosial şəbəkəsi 13-17 yaş qrupuna daxil olan yeniyetmələr üçün yeni valideyn nəzarəti funksiyalarını istifadəyə verib. Platformadan verilən məlumata görə, bu yeniliklər sayəsində böyüklər övladlarının tətbiqdə keçirdikləri vaxtı izləyə və onlara gündəlik istifadə limiti təyin edə biləcəklər.\n\nBundan əlavə, valideynlər məzmun tövsiyələrini və videoları yeniyetmələrin izlədikləri hesablarla məhdudlaşdıra, müəyyən sözləri filtrləyə və həssas media məzmununu bloklaya bilərlər. Qeyd olunub ki, valideynlərin yeniyetmələrin şəxsi mesajlarını oxumaq, axtarış və baxış tarixçəsini görmək, onların adından paylaşım etmək və ya hesablarına daxil olmaq imkanları olmayacaq.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Twitter #ValideynNəzarəti",
   "id": "20261126-225303-02-p",
   "kind": "post",
-  "image": "posts/20261126-225303-02-p.jpg"
+  "image": "posts/20261126-225303-02-p.jpg",
+  "published_at": "2026-11-26T19:14:53.782560+00:00",
+  "instagram_id": "18243897826316694",
+  "permalink": "https://www.instagram.com/p/DgN1O71EvwY/"
  },
  {
   "created": "2026-11-26T19:10:46.335595+00:00",
@@ -15768,7 +15771,7 @@
  },
  {
   "created": "2026-11-26T19:12:05.573624+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Xəzər dənizinin səviyyəsinin enməsi narahatlıq doğurur",
   "summary": "Rusiya prezidenti Vladimir Putin Xəzər dənizində suyun səviyyəsinin azalmasının region ölkələrində narahatlıq yaratdığını bildirib. O, həmçinin quruyan Aral dənizinin də ekoloji problem kimi diqqət çəkdiyini qeyd edib.",
@@ -15779,11 +15782,14 @@
   "id": "20261126-225303-03-r",
   "kind": "reel",
   "video": "20261126-225303-03-r.mp4",
-  "cover": "20261126-225303-03-r.jpg"
+  "cover": "20261126-225303-03-r.jpg",
+  "published_at": "2026-11-26T19:15:59.841968+00:00",
+  "instagram_id": "17921715525523491",
+  "permalink": "https://www.instagram.com/reel/DgN1TeMhXC8/"
  },
  {
   "created": "2026-11-26T19:12:05.573624+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Xəzər dənizinin səviyyəsinin enməsi narahatlıq doğurur",
   "summary": "Rusiya prezidenti Vladimir Putin Xəzər dənizində suyun səviyyəsinin azalmasının region ölkələrində narahatlıq yaratdığını bildirib. O, həmçinin quruyan Aral dənizinin də ekoloji problem kimi diqqət çəkdiyini qeyd edib.",
@@ -15793,6 +15799,9 @@
   "caption": "Xəzər dənizinin səviyyəsinin enməsi narahatlıq doğurur\n\nRusiya prezidenti Vladimir Putin süni intellekt aləmlərinə səyahət konfransında məktəblilər və tələbələrlə görüşü zamanı Xəzər dənizinin səviyyəsindəki dəyişikliklərə toxunub.\n\nOnun sözlərinə görə, Xəzər dənizinin səviyyəsi gah aşağı düşür, gah da qalxır, lakin hazırda getdikcə daha çox enmə müşahidə olunur və bu proses Xəzər regionunun bütün ölkələrində narahatlıq doğurur.\n\nBundan əlavə, Rusiya rəhbəri quruyan Aral dənizinə suyun son dərəcə yavaş qayıtdığını və bunun da digər ekoloji amil kimi narahatlıq yaratdığını vurğulayıb. O qeyd edib ki, həm Xəzər dənizinin, həm də Aral dənizinin tədqiqi müasir tədqiqatçılar qarşısında duran mühüm və qlobal vəzifələrdəndir.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Xəzərdənizi #VladimirPutin #Ekologiya #Rusiya",
   "id": "20261126-225303-03-s",
   "kind": "story",
-  "image": "posts/20261126-225303-03-s.jpg"
+  "image": "posts/20261126-225303-03-s.jpg",
+  "published_at": "2026-11-26T19:16:16.530453+00:00",
+  "instagram_id": "18643661800056945",
+  "permalink": ""
  }
 ]
