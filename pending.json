@@ -13713,7 +13713,7 @@
  },
  {
   "created": "2026-11-26T12:36:49.053414+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "HADİSƏ",
   "headline": "Xankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu",
   "summary": "Xankəndi şəhərində yetkinlik yaşına çatmayan qıza qarşı əxlaqsız hərəkətlər edən 18 yaşlı gənc 3 il müddətinə azadlıqdan məhrum edilib. Məhkəmənin hökmü ilə təqsirləndirilən şəxs iclas zalında həbs olunub.",
@@ -13724,11 +13724,22 @@
   "id": "20261126-163338-01-r",
   "kind": "reel",
   "video": "20261126-163338-01-r.mp4",
-  "cover": "20261126-163338-01-r.jpg"
+  "cover": "20261126-163338-01-r.jpg",
+  "publish_at": "2026-11-26T15:30:00+00:00",
+  "msg": {
+   "message_id": 1402,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl yoxlayın\n\n🎬 REELS ÖNİZLƏMƏ (21 san., səs: gemini-3.1-flash-tts-preview)\n\nXankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-26T12:36:49.053414+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "HADİSƏ",
   "headline": "Xankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu",
   "summary": "Xankəndi şəhərində yetkinlik yaşına çatmayan qıza qarşı əxlaqsız hərəkətlər edən 18 yaşlı gənc 3 il müddətinə azadlıqdan məhrum edilib. Məhkəmənin hökmü ilə təqsirləndirilən şəxs iclas zalında həbs olunub.",
@@ -13738,7 +13749,18 @@
   "caption": "Xankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu\n\nXankəndi Şəhər Məhkəməsində baxılan cinayət işinin materiallarına əsasən, 2025-ci ilin dekabr ayının 31-də baş verən hadisə sonradan qızın Bakıya qaçması və polis tərəfindən tapılaraq ailəsinə təhvil verilməsi ilə üzə çıxıb. Aparılan araşdırmalar nəticəsində Ağdam rayon sakini olan gənc barəsində Cinayət Məcəlləsinin müvafiq maddəsi ilə cinayət işi açılıb. Məhkəmə prosesi zamanı ev dustaqlığında olan təqsirləndirilən şəxsə 3 il həbs cəzası verilib və o, məhkəmə zalında qandallanıb.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Xankəndi #XankəndiŞəhərMəhkəməsi #Xəbərlər",
   "id": "20261126-163338-01-s",
   "kind": "story",
-  "image": "posts/20261126-163338-01-s.jpg"
+  "image": "posts/20261126-163338-01-s.jpg",
+  "publish_at": "2026-11-26T17:30:00+00:00",
+  "msg": {
+   "message_id": 1403,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl yoxlayın\n\n📲 STORY (24 saat)\n\nXankəndidə yeniyetmə qıza qarşı qanunazəmm hərəkətlər edən gənc həbs olundu",
+   "text": null,
+   "photo": true,
+   "video": false
+  }
  },
  {
   "created": "2026-11-26T12:37:15.469200+00:00",
@@ -13756,7 +13778,7 @@
  },
  {
   "created": "2026-11-26T12:37:15.469200+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "SİYASƏT",
   "headline": "Ermənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir",
   "summary": "Ermənistanın Baş naziri Nikol Paşinyan ölkəsinin sərhədlərinin qorunması üçün tam məsuliyyəti öz üzərinə götürməli olduğunu bildirib. O, Rusiya sərhədçilərinə indiyədək göstərdikləri xidmətə görə minnətdarlıq edib.",
@@ -13767,11 +13789,22 @@
   "id": "20261126-163338-02-r",
   "kind": "reel",
   "video": "20261126-163338-02-r.mp4",
-  "cover": "20261126-163338-02-r.jpg"
+  "cover": "20261126-163338-02-r.jpg",
+  "publish_at": "2026-11-27T05:00:00+00:00",
+  "msg": {
+   "message_id": 1406,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (20 san., səs: gemini-3.1-flash-tts-preview)\n\nErmənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-26T12:37:15.469200+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "SİYASƏT",
   "headline": "Ermənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir",
   "summary": "Ermənistanın Baş naziri Nikol Paşinyan ölkəsinin sərhədlərinin qorunması üçün tam məsuliyyəti öz üzərinə götürməli olduğunu bildirib. O, Rusiya sərhədçilərinə indiyədək göstərdikləri xidmətə görə minnətdarlıq edib.",
@@ -13781,7 +13814,18 @@
   "caption": "Ermənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir\n\nErmənistanın Baş naziri Nikol Paşinyan hökumət iclasından sonra keçirilən brifinqdə sərhəd təhlükəsizliyi məsələsinə toxunub. Jurnalistlərin Rusiya sərhədçilərinin əvəzlənməsi ilə bağlı planın olub-olmaması barədə sualını cavablandıran baş nazir dövlətin tədricən sərhədləri qorumaq üçün tam məsuliyyət daşımalı olduğunu qeyd edib. Paşinyan yaxın illərdə bu məsuliyyətin tam şəkildə öhdələrinə götürülməsinin vacibliyini vurğulayıb.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #Ermənistan #NikolPaşinyan #Rusiya #sərhəd",
   "id": "20261126-163338-02-s",
   "kind": "story",
-  "image": "posts/20261126-163338-02-s.jpg"
+  "image": "posts/20261126-163338-02-s.jpg",
+  "publish_at": "2026-11-27T08:30:00+00:00",
+  "msg": {
+   "message_id": 1407,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "📲 STORY (24 saat)\n\nErmənistan sərhədlərin qorunması məsuliyyətini öz üzərinə götürməlidir",
+   "text": null,
+   "photo": true,
+   "video": false
+  }
  },
  {
   "created": "2026-11-26T12:37:43.125283+00:00",
@@ -13799,7 +13843,7 @@
  },
  {
   "created": "2026-11-26T12:37:43.125283+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib",
   "summary": "Cari ilin yanvar-oktyabr ayları ərzində Azərbaycan 10-dan çox ölkəyə dəyəri 12 milyard dollardan çox olan neft ixrac edib. Dövlət Gömrük Komitəsinin hesabatına əsasən, ixracda əsas yeri İtaliya, Çexiya və Hindistan tutub.",
@@ -13810,11 +13854,22 @@
   "id": "20261126-163338-03-r",
   "kind": "reel",
   "video": "20261126-163338-03-r.mp4",
-  "cover": "20261126-163338-03-r.jpg"
+  "cover": "20261126-163338-03-r.jpg",
+  "publish_at": "2026-11-27T12:00:00+00:00",
+  "msg": {
+   "message_id": 1410,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (31 san., səs: gemini-3.1-flash-tts-preview)\n\nAzərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-26T12:37:43.125283+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib",
   "summary": "Cari ilin yanvar-oktyabr ayları ərzində Azərbaycan 10-dan çox ölkəyə dəyəri 12 milyard dollardan çox olan neft ixrac edib. Dövlət Gömrük Komitəsinin hesabatına əsasən, ixracda əsas yeri İtaliya, Çexiya və Hindistan tutub.",
@@ -13824,6 +13879,9 @@
   "caption": "Azərbaycan bu il 10-dan çox ölkəyə 12 mlrd. dollarlıq neft ixrac edib\n\nAzərbaycan Dövlət Gömrük Komitəsinin təqdim etdiyi hesabatlığa əsasən, cari ilin yanvar-oktyabr dövründə ölkədən 10-dan çox xarici dövlətə ümumi dəyəri 12 161 967,27 min ABŞ dolları olan 18 392 916,04 ton neft ixrac olunub.\n\nMəlumata görə, göstərilən müddətdə İtaliya 6 812 047,6 min dollar dəyərində 10 532 637,45 ton neft alaraq ümumi ixracda lider mövqedə qərarlaşıb. İkinci pillədə qərarlaşan Çexiyaya 974 771,22 min dollar dəyərində 1 413 395,46 ton, üçüncü pillədəki Hindistana isə 666 532,13 min dollar dəyərində 830 049,03 ton neft göndərilib. Qeyd olunan rəqəmlər gömrük orqanlarında rəsmiləşdirilməsi başa çatdırılmış ixrac məlumatlarını əhatə edir.\n\nMənbə: APA\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Neft #İxrac #İqtisadiyyat #DövlətGömrükKomitəsi",
   "id": "20261126-163338-03-s",
   "kind": "story",
-  "image": "posts/20261126-163338-03-s.jpg"
+  "image": "posts/20261126-163338-03-s.jpg",
+  "published_at": "2026-11-26T12:39:34.089247+00:00",
+  "instagram_id": "17926333740223673",
+  "permalink": ""
  }
 ]
