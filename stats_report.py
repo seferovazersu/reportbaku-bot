@@ -86,7 +86,7 @@ def main():
     posts = [p for p in pending if p.get("status") == "published" and p.get("instagram_id") and p.get("kind") != "story"
              and datetime.fromisoformat(p.get("published_at") or p["created"]) >= cutoff]
     rows, error = [], ""
-    for p in posts:
+    for p in (posts if os.environ.get("INSIGHTS", "0") == "1" else []):
         m, err = insights(p["instagram_id"])
         if m is None:
             error = err

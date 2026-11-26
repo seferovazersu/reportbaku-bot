@@ -379,6 +379,38 @@ def next_slot(pending):
     return None
 
 
+def publish_telegram_channel(post):
+    """Eyni paylaşımı Telegram kanalına da göndərir (TELEGRAM_CHANNEL_ID təyin olunubsa).
+    Şəkil/video GitHub linki ilə göndərilir; kanal üçün story göndərilmir."""
+    chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
+    if not chan or post.get("kind") == "story":
+        return ""
+    cap = (post.get("caption") or post.get("headline") or "")[:1000]
+    try:
+        if post.get("kind") == "carousel":
+            media = []
+            for it in (post.get("items") or [])[:10]:
+                if it["type"] == "image":
+                    url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, it["path"])
+                    media.append({"type": "photo", "media": url})
+                else:
+                    url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, it["file"])
+                    media.append({"type": "video", "media": url})
+            if media:
+                media[0]["caption"] = cap
+            tg("sendMediaGroup", {"chat_id": chan, "media": json.dumps(media)})
+        elif post.get("kind") == "reel":
+            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
+            tg("sendVideo", {"chat_id": chan, "video": url, "caption": cap, "supports_streaming": "true"})
+        else:
+            url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])
+            tg("sendPhoto", {"chat_id": chan, "photo": url, "caption": cap})
+        return "\n📣 Telegram kanalına da göndərildi"
+    except ApiError as e:
+        print("  Kanal xətası:", str(e)[:150])
+        return "\n⚠️ Telegram kanalına göndərilmədi (bot admin deyil?)"
+
+
 def run_publish(post, kind, pending, msg):
     """Postu dərhal paylaşır və Telegram mesajını yeniləyir."""
     cq = {"message": msg}
@@ -395,6 +427,7 @@ def run_publish(post, kind, pending, msg):
                 "story": "✅ STORY PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
         if result["permalink"]:
             line += "\n" + result["permalink"]
+        line += publish_telegram_channel(post)
         finish_message(cq, line)
     elif result["stage"] == "container":
         post["status"] = "pending"   # hələ paylaşılmayıb, yenidən cəhd etmək olar
