@@ -15347,7 +15347,7 @@
  },
  {
   "created": "2026-11-26T18:26:43.646802+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "TEXNOLOGİYA",
   "headline": "Tokayev: TikTok gənclərin beynini məhv edən qorxunc vasitədir",
   "summary": "Qazaxıstan Prezidenti Qasım-Jomart Tokayev sosial şəbəkələrin gənclərin beyin fəaliyyətinə mənfi təsir göstərdiyini bildirib. O, bu barədə Moskvada keçirilən \"AI Journey 2026\" konfransında danışıb.",
@@ -15358,11 +15358,22 @@
   "id": "20261126-221832-01-r",
   "kind": "reel",
   "video": "20261126-221832-01-r.mp4",
-  "cover": "20261126-221832-01-r.jpg"
+  "cover": "20261126-221832-01-r.jpg",
+  "publish_at": "2026-11-27T17:30:00+00:00",
+  "msg": {
+   "message_id": 1548,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (27 san., səs: gemini-3.1-flash-tts-preview)\n\nTokayev: TikTok gənclərin beynini məhv edən qorxunc vasitədir",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-26T18:26:43.646802+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "TEXNOLOGİYA",
   "headline": "Tokayev: TikTok gənclərin beynini məhv edən qorxunc vasitədir",
   "summary": "Qazaxıstan Prezidenti Qasım-Jomart Tokayev sosial şəbəkələrin gənclərin beyin fəaliyyətinə mənfi təsir göstərdiyini bildirib. O, bu barədə Moskvada keçirilən \"AI Journey 2026\" konfransında danışıb.",
@@ -15372,7 +15383,10 @@
   "caption": "Tokayev: TikTok gənclərin beynini məhv edən qorxunc vasitədir\n\nQazaxıstan Prezidenti Qasım-Jomart Tokayev TikTok sosial şəbəkəsinin insanların, xüsusilə də gənclərin beyin fəaliyyətinə mənfi təsir göstərdiyini bildirib. Dövlət başçısı bu barədə Moskvada keçirilən \"AI Journey 2026\" beynəlxalq konfransında süni intellekt sahəsində gənc mütəxəssislərlə görüşü zamanı danışıb.\n\nPrezident ölkəsində xalq rəqəmsal iqtisadiyyatının inkişaf etdirilməsinin vacibliyini də diqqətə çatdırıb. Onun sözlərinə görə, smartfonlardan düzgün istifadə edilməsi vətəndaşlara, o cümlədən uzaq kənd yaşayış məntəqələrində yaşayanlara internetə çıxış imkanı sayəsində qazanc əldə etməyə şərait yaradır.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #texnologiya #Qazaxıstan #TikTok #Tokayev #Moskva",
   "id": "20261126-221832-01-s",
   "kind": "story",
-  "image": "posts/20261126-221832-01-s.jpg"
+  "image": "posts/20261126-221832-01-s.jpg",
+  "published_at": "2026-11-26T18:30:03.102151+00:00",
+  "instagram_id": "18085318103342510",
+  "permalink": ""
  },
  {
   "created": "2026-11-26T18:27:15.778179+00:00",
@@ -15390,7 +15404,7 @@
  },
  {
   "created": "2026-11-26T18:27:15.778179+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasından çəkindirib",
   "summary": "İtaliyanın Baş nazir Giorgia Meloni Kiyevi hərbi əməliyyatların Aralıq dənizi regionuna genişləndirilməməsi barədə xəbərdar edib. O, bunun İtaliya sərhədlərinin təhlükəsizliyini təhdid etdiyini bildirib.",
@@ -15401,11 +15415,14 @@
   "id": "20261126-221832-02-r",
   "kind": "reel",
   "video": "20261126-221832-02-r.mp4",
-  "cover": "20261126-221832-02-r.jpg"
+  "cover": "20261126-221832-02-r.jpg",
+  "published_at": "2026-11-26T18:30:40.943052+00:00",
+  "instagram_id": "17999602767121048",
+  "permalink": "https://www.instagram.com/reel/DgNwJUDJ87S/"
  },
  {
   "created": "2026-11-26T18:27:15.778179+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasından çəkindirib",
   "summary": "İtaliyanın Baş nazir Giorgia Meloni Kiyevi hərbi əməliyyatların Aralıq dənizi regionuna genişləndirilməməsi barədə xəbərdar edib. O, bunun İtaliya sərhədlərinin təhlükəsizliyini təhdid etdiyini bildirib.",
@@ -15415,7 +15432,10 @@
   "caption": "Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasından çəkindirib\n\nİtaliyanın Baş nazir Giorgia Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasının yolverilməzliyi barədə xəbərdarlıq edib. Hökumət başçısı qeyd edib ki, belə bir addım İtaliya sərhədlərinin və vətəndaşlarının təhlükəsizliyini təhlükə altına qoyur.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Meloni #İtaliya #Kiyev",
   "id": "20261126-221832-02-s",
   "kind": "story",
-  "image": "posts/20261126-221832-02-s.jpg"
+  "image": "posts/20261126-221832-02-s.jpg",
+  "published_at": "2026-11-26T18:30:53.720121+00:00",
+  "instagram_id": "18140019427645161",
+  "permalink": ""
  },
  {
   "created": "2026-11-26T18:27:57.152099+00:00",
@@ -15433,7 +15453,7 @@
  },
  {
   "created": "2026-11-26T18:27:57.152099+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Şamaxı və Ağsu rayonları sərhədində zəlzələ olub",
   "summary": "Şamaxı və Ağsu rayonları sərhədində 4,3 гücündə zəlzələ qeydə alınıb. Yeraltı təkanlar epizentrdə 4 bala qədər hiss edilib.",
@@ -15444,11 +15464,14 @@
   "id": "20261126-221832-03-r",
   "kind": "reel",
   "video": "20261126-221832-03-r.mp4",
-  "cover": "20261126-221832-03-r.jpg"
+  "cover": "20261126-221832-03-r.jpg",
+  "published_at": "2026-11-26T18:31:31.320315+00:00",
+  "instagram_id": "18185401531429480",
+  "permalink": "https://www.instagram.com/reel/DgNwPjehUkH/"
  },
  {
   "created": "2026-11-26T18:27:57.152099+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Şamaxı və Ağsu rayonları sərhədində zəlzələ olub",
   "summary": "Şamaxı və Ağsu rayonları sərhədində 4,3 гücündə zəlzələ qeydə alınıb. Yeraltı təkanlar epizentrdə 4 bala qədər hiss edilib.",
@@ -15458,6 +15481,9 @@
   "caption": "Şamaxı və Ağsu rayonları sərhədində zəlzələ olub\n\nRespublika Seysmoloji Xidmət Mərkəzinin məlumatına görə, ölkə ərazisində yeraltı təkanlar qeydə alınıb. Şamaxı və Ağsu rayonları sərhədində baş verən zəlzələnin maqnitudası 4,3 təşkil edib. \n\nZəlzələ yerli vaxtla 26 noyabr tarixində saat 20:24-də qeydə alınıb. Təkanların ocağı 18 kilometr dərinlikdə yerləşib. Epizentrdə yeraltı təkanlar 4 bal gücündə, yaxınlıqdakı rayonlarda isə 3 bala qədər hiss olunub.\n\nMənbə: Day.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Şamaxı #Ağsu #zəlzələ #SeysmolojiXidmət",
   "id": "20261126-221832-03-s",
   "kind": "story",
-  "image": "posts/20261126-221832-03-s.jpg"
+  "image": "posts/20261126-221832-03-s.jpg",
+  "published_at": "2026-11-26T18:31:40.091413+00:00",
+  "instagram_id": "18100899518400511",
+  "permalink": ""
  }
 ]
