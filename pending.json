@@ -1,21 +1,5 @@
 [
  {
-  "id": "20261119-073606-01",
-  "created": "2026-11-19T03:36:06.587416+00:00",
-  "status": "published",
-  "category": "HADİSƏ",
-  "headline": "Bərdədə piyadanın ölümü ilə nəticələnən yol qəzası baş verib",
-  "summary": "Bərdə-Yevlax yolunda avtomobilin vurması nəticəsində piyada ölüb. Faktla bağlı araşdırma aparılır.",
-  "source_note": "Mənbə: Xəzər Xəbər",
-  "link": "https://xezerxeber.az/az/region/berdede-piyadanin-olumu-ile-neticelenen-yol-qezasi-bas-verib",
-  "sensitive": true,
-  "image": "posts/20261119-073606-01.jpg",
-  "caption": "Bərdədə piyadanın ölümü ilə nəticələnən yol qəzası baş verib\n\nBərdə rayonunda ölümlə nəticələnən yol-nəqliyyat hadisəsi qeydə alınıb. İnsident Bərdə-Yevlax avtomobil yolunun Saatlı kəndi ərazisindən keçən hissəsində baş verib.\n\nLexus markalı nəqliyyat vasitəsi yolu keçməyə çalışan piyadanı vurub. Alınan xəsarətlər səbəbindən piyada hadisə yerində həyatını itirib. Hadisə ilə əlaqədar araşdırmalara başlanılıb.\n\nMənbə: Xəzər Xəbər\n\n#ReportBaku #xəbər #Azərbaycan #Bakı",
-  "instagram_id": "18078917591759293",
-  "permalink": "https://www.instagram.com/p/Df6IquqjdQL/",
-  "video_checked": true
- },
- {
   "id": "20261119-092247-01",
   "created": "2026-11-19T05:22:47.123142+00:00",
   "status": "pending",
@@ -12973,7 +12957,12 @@
   "created": "2026-11-26T04:48:22.910038+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFBWsHvOlXVf6uCQXtW3P4i1zLOZ83AAKEHmsbDcBBSAgMYxRW4hI5AQADAgADdwADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "İDMAN",
   "headline": "Sabah Çempionlar Liqasında bir sıra klubları qabaqlayır",
   "summary": "Çempionlar Liqasının 5-ci turundan sonra Azərbaycan təmsilçisi Sabah turnir cədvəlində 33-cü pillədə qərarlaşıb. Klub Lens, Slaviya və Slovanı geridə qoyub.",
@@ -12999,7 +12988,7 @@
   "id": "20261126-084822-02",
   "kind": "news",
   "created": "2026-11-26T04:48:22.910038+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "HADİSƏ",
@@ -13022,13 +13011,14 @@
   "source_title": "Qazaxda ana və oğlunun xəsarət aldığı partlayış yerindən görüntülər - Foto/Video",
   "link": "https://oxu.az/hadise/qazaxda-evde-partlayis-olub-ana-ve-oglu-xesaret-aldilar",
   "sensitive": true,
-  "card_id": 1283
+  "card_id": 1283,
+  "raw_text": ""
  },
  {
   "id": "20261126-084822-03",
   "kind": "news",
   "created": "2026-11-26T04:48:22.910038+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "CƏMİYYƏT",
@@ -13049,6 +13039,102 @@
   "source_title": "DİQQƏT: Bu yollarda tıxac var - SİYAHI",
   "link": "https://az.trend.az/azerbaijan/society/4243542.html",
   "sensitive": false,
-  "card_id": 1284
+  "card_id": 1284,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-26T05:04:03.209490+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qazaxda fərdi yaşayış evində partlayış olub",
+  "summary": "Qazax rayonunun Yuxarı Salahlı kəndində baş verən partlayış nəticəsində ana və oğlu xəsarət alıb. Fövqəladə Hallar Nazirliyinin qüvvələri ərazidə təhlükəsizlik tədbirləri görüb.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/hadise/qazaxda-evde-partlayis-olub-ana-ve-oglu-xesaret-aldilar",
+  "sensitive": true,
+  "caption": "Qazaxda fərdi yaşayış evində partlayış olub\n\nQazax rayonunun Yuxarı Salahlı kəndində fərdi yaşayış evinin həyətyanı sahəsində yerləşən köməkçi tikilidə partlayış baş verib. İlkin məlumata görə, hadisə qaz sızması səbəbindən qeydə alınıb.\n\nFövqəladə Hallar Nazirliyinin \"112\" qaynar telefon xəttinə məlumat daxil olduqdan sonra qurumun Dövlət Yanğından Mühafizə Xidmətinin qüvvələri dərhal hadisə yerinə cəlb olunub. Araşdırma zamanı ümumi sahəsi 20 kvadratmetr olan tikilidə yanğınla nəticələnməyən partlayışın baş verdiyi müəyyən edilib.\n\nHadisə nəticəsində 1939-cu il təvəllüdlü D.Kəlayeva və oğlu, 1961-ci il təvəllüdlü M.Kəlayev yanıq xəsarətləri alaraq xəstəxanaya yerləşdiriliblər. Hər iki şəxsə tibbi yardım göstərilib, M.Kəlayevin vəziyyətinin orta ağır olduğu bildirilir. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qazax #YuxarıSalahlı #FHN #Partlayış",
+  "id": "20261126-084822-02-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261126-084822-02-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261126-084822-02-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-26T05:04:03.209490+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qazaxda fərdi yaşayış evində partlayış olub",
+  "summary": "Qazax rayonunun Yuxarı Salahlı kəndində baş verən partlayış nəticəsində ana və oğlu xəsarət alıb. Fövqəladə Hallar Nazirliyinin qüvvələri ərazidə təhlükəsizlik tədbirləri görüb.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/hadise/qazaxda-evde-partlayis-olub-ana-ve-oglu-xesaret-aldilar",
+  "sensitive": true,
+  "caption": "Qazaxda fərdi yaşayış evində partlayış olub\n\nQazax rayonunun Yuxarı Salahlı kəndində fərdi yaşayış evinin həyətyanı sahəsində yerləşən köməkçi tikilidə partlayış baş verib. İlkin məlumata görə, hadisə qaz sızması səbəbindən qeydə alınıb.\n\nFövqəladə Hallar Nazirliyinin \"112\" qaynar telefon xəttinə məlumat daxil olduqdan sonra qurumun Dövlət Yanğından Mühafizə Xidmətinin qüvvələri dərhal hadisə yerinə cəlb olunub. Araşdırma zamanı ümumi sahəsi 20 kvadratmetr olan tikilidə yanğınla nəticələnməyən partlayışın baş verdiyi müəyyən edilib.\n\nHadisə nəticəsində 1939-cu il təvəllüdlü D.Kəlayeva və oğlu, 1961-ci il təvəllüdlü M.Kəlayev yanıq xəsarətləri alaraq xəstəxanaya yerləşdiriliblər. Hər iki şəxsə tibbi yardım göstərilib, M.Kəlayevin vəziyyətinin orta ağır olduğu bildirilir. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qazax #YuxarıSalahlı #FHN #Partlayış",
+  "id": "20261126-084822-02-r",
+  "kind": "reel",
+  "video": "20261126-084822-02-r.mp4",
+  "cover": "20261126-084822-02-r.jpg"
+ },
+ {
+  "created": "2026-11-26T05:04:03.209490+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Qazaxda fərdi yaşayış evində partlayış olub",
+  "summary": "Qazax rayonunun Yuxarı Salahlı kəndində baş verən partlayış nəticəsində ana və oğlu xəsarət alıb. Fövqəladə Hallar Nazirliyinin qüvvələri ərazidə təhlükəsizlik tədbirləri görüb.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/hadise/qazaxda-evde-partlayis-olub-ana-ve-oglu-xesaret-aldilar",
+  "sensitive": true,
+  "caption": "Qazaxda fərdi yaşayış evində partlayış olub\n\nQazax rayonunun Yuxarı Salahlı kəndində fərdi yaşayış evinin həyətyanı sahəsində yerləşən köməkçi tikilidə partlayış baş verib. İlkin məlumata görə, hadisə qaz sızması səbəbindən qeydə alınıb.\n\nFövqəladə Hallar Nazirliyinin \"112\" qaynar telefon xəttinə məlumat daxil olduqdan sonra qurumun Dövlət Yanğından Mühafizə Xidmətinin qüvvələri dərhal hadisə yerinə cəlb olunub. Araşdırma zamanı ümumi sahəsi 20 kvadratmetr olan tikilidə yanğınla nəticələnməyən partlayışın baş verdiyi müəyyən edilib.\n\nHadisə nəticəsində 1939-cu il təvəllüdlü D.Kəlayeva və oğlu, 1961-ci il təvəllüdlü M.Kəlayev yanıq xəsarətləri alaraq xəstəxanaya yerləşdiriliblər. Hər iki şəxsə tibbi yardım göstərilib, M.Kəlayevin vəziyyətinin orta ağır olduğu bildirilir. Hadisə ilə bağlı aidiyyəti qurumlar tərəfindən araşdırma aparılır.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Qazax #YuxarıSalahlı #FHN #Partlayış",
+  "id": "20261126-084822-02-s",
+  "kind": "story",
+  "image": "posts/20261126-084822-02-s.jpg"
+ },
+ {
+  "created": "2026-11-26T05:05:02.386126+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib",
+  "summary": "Nəqliyyatı İntellektual İdarəetmə Mərkəzinin məlumatına əsasən, paytaxtın əsas yollarında avtomobil sıxlığı müşahidə olunur. Sürücülərin hərəkətində yaranan çətinliklər bir sıra şose və prospektləri əhatə edir.",
+  "source_note": "Mənbə: Trend.az",
+  "link": "https://az.trend.az/azerbaijan/society/4243542.html",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib\n\nNəqliyyatı İntellektual İdarəetmə Mərkəzinin yaydığı məlumata görə, paytaxtın bir sıra küçə və prospektlərində avtomobil sıxlığı qeydə alınıb. Hərəkət istiqamətləri üzrə yaranan tıxaclar Bakı-Sumqayıt və Sabunçu-Zabrat şoselərini, eləcə də Tbilisi, Ziya Bünyadov, 8 Noyabr, Babək və Heydər Əliyev prospektlərini əhatə edir.\n\nBundan əlavə, Binəqədi şosesi, Alı Mustafayev, Əbdülvahab Salamzadə, Mikayıl Əliyev, 28 May küçələri və 1-ci Göl kənarı yolunda da nəqliyyat vasitələrinin hərəkətində çətinliklər müşahidə olunur.\n\nMənbə: Trend.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NİİM #tıxac #nəqliyyat",
+  "id": "20261126-084822-03-p",
+  "kind": "post",
+  "image": "posts/20261126-084822-03-p.jpg"
+ },
+ {
+  "created": "2026-11-26T05:05:02.386126+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib",
+  "summary": "Nəqliyyatı İntellektual İdarəetmə Mərkəzinin məlumatına əsasən, paytaxtın əsas yollarında avtomobil sıxlığı müşahidə olunur. Sürücülərin hərəkətində yaranan çətinliklər bir sıra şose və prospektləri əhatə edir.",
+  "source_note": "Mənbə: Trend.az",
+  "link": "https://az.trend.az/azerbaijan/society/4243542.html",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib\n\nNəqliyyatı İntellektual İdarəetmə Mərkəzinin yaydığı məlumata görə, paytaxtın bir sıra küçə və prospektlərində avtomobil sıxlığı qeydə alınıb. Hərəkət istiqamətləri üzrə yaranan tıxaclar Bakı-Sumqayıt və Sabunçu-Zabrat şoselərini, eləcə də Tbilisi, Ziya Bünyadov, 8 Noyabr, Babək və Heydər Əliyev prospektlərini əhatə edir.\n\nBundan əlavə, Binəqədi şosesi, Alı Mustafayev, Əbdülvahab Salamzadə, Mikayıl Əliyev, 28 May küçələri və 1-ci Göl kənarı yolunda da nəqliyyat vasitələrinin hərəkətində çətinliklər müşahidə olunur.\n\nMənbə: Trend.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NİİM #tıxac #nəqliyyat",
+  "id": "20261126-084822-03-r",
+  "kind": "reel",
+  "video": "20261126-084822-03-r.mp4",
+  "cover": "20261126-084822-03-r.jpg"
+ },
+ {
+  "created": "2026-11-26T05:05:02.386126+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib",
+  "summary": "Nəqliyyatı İntellektual İdarəetmə Mərkəzinin məlumatına əsasən, paytaxtın əsas yollarında avtomobil sıxlığı müşahidə olunur. Sürücülərin hərəkətində yaranan çətinliklər bir sıra şose və prospektləri əhatə edir.",
+  "source_note": "Mənbə: Trend.az",
+  "link": "https://az.trend.az/azerbaijan/society/4243542.html",
+  "sensitive": false,
+  "caption": "Paytaxtın bir sıra küçə və prospektlərində hərəkət çətinləşib\n\nNəqliyyatı İntellektual İdarəetmə Mərkəzinin yaydığı məlumata görə, paytaxtın bir sıra küçə və prospektlərində avtomobil sıxlığı qeydə alınıb. Hərəkət istiqamətləri üzrə yaranan tıxaclar Bakı-Sumqayıt və Sabunçu-Zabrat şoselərini, eləcə də Tbilisi, Ziya Bünyadov, 8 Noyabr, Babək və Heydər Əliyev prospektlərini əhatə edir.\n\nBundan əlavə, Binəqədi şosesi, Alı Mustafayev, Əbdülvahab Salamzadə, Mikayıl Əliyev, 28 May küçələri və 1-ci Göl kənarı yolunda da nəqliyyat vasitələrinin hərəkətində çətinliklər müşahidə olunur.\n\nMənbə: Trend.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #NİİM #tıxac #nəqliyyat",
+  "id": "20261126-084822-03-s",
+  "kind": "story",
+  "image": "posts/20261126-084822-03-s.jpg"
  }
 ]
