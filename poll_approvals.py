@@ -24,9 +24,12 @@ IG_USER_ID = os.environ.get("INSTAGRAM_USER_ID", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 BRANCH = os.environ.get("BRANCH", "main")
 MEDIA_BRANCH = os.environ.get("MEDIA_BRANCH", "media")
-MAX_AGE_HOURS = int(os.environ.get("MAX_AGE_HOURS", "12"))   # bundan köhnə xəbər paylaşılmır
+MAX_AGE_HOURS = int(os.environ.get("MAX_AGE_HOURS", "24"))   # bundan köhnə xəbər paylaşılmır
 PENDING_FILE = Path("pending.json")
 GRAPH = "https://graph.facebook.com/"
+SLOTS = [s.strip() for s in os.environ.get("SLOTS", "09:00,12:30,16:00,19:30,21:30").split(",") if s.strip()]  # Bakı vaxtı
+MIN_GAP_MIN = 60          # planlaşdırılmış paylaşımlar arası minimum fasilə (dəq.)
+SLOT_LEAD_MIN = 15        # ən tez neçə dəqiqə sonraya planlanır
 
 
 class ApiError(Exception):
@@ -65,7 +68,7 @@ def answer(cq, text):
         pass  # çox köhnə düymələr üçün cavab vermək mümkün olmaya bilər
 
 
-def finish_message(cq, status_line):
+def finish_message(cq, status_line, markup=None):
     """Şəklin altındakı mətnin başına vəziyyət yazır və düymələri silir."""
     msg = cq.get("message") or {}
     chat_id = (msg.get("chat") or {}).get("id")
@@ -77,14 +80,14 @@ def finish_message(cq, status_line):
             caption = (status_line + "\n\n" + (msg.get("caption") or ""))[:1020]
             tg("editMessageCaption", {
                 "chat_id": chat_id, "message_id": mid, "caption": caption,
-                "reply_markup": json.dumps({"inline_keyboard": []}),
+                "reply_markup": json.dumps(markup or {"inline_keyboard": []}),
             })
         else:
             text = (status_line + "\n\n" + (msg.get("text") or ""))[:4000]
             tg("editMessageText", {
                 "chat_id": chat_id, "message_id": mid, "text": text,
                 "disable_web_page_preview": "true",
-                "reply_markup": json.dumps({"inline_keyboard": []}),
+                "reply_markup": json.dumps(markup or {"inline_keyboard": []}),
             })
     except ApiError as e:
         print("  Mesaj yenilənmədi:", str(e)[:120])
@@ -346,6 +349,82 @@ def handle_news_action(cq, action, e, pending):
     answer(cq, "Naməlum əmr.")
 
 
+def slim_msg(cq):
+    m = cq.get("message") or {}
+    return {"message_id": m.get("message_id"), "chat": {"id": (m.get("chat") or {}).get("id")},
+            "caption": m.get("caption"), "text": m.get("text"),
+            "photo": bool(m.get("photo")), "video": bool(m.get("video"))}
+
+
+def next_slot(pending):
+    """Növbəti boş paylaşım vaxtı (UTC). SCHEDULE=0 olarsa None (dərhal paylaşılır)."""
+    if os.environ.get("SCHEDULE", "1") == "0" or not SLOTS:
+        return None
+    now = datetime.now(timezone.utc)
+    taken = [datetime.fromisoformat(x["publish_at"]) for x in pending
+             if x.get("status") == "scheduled" and x.get("publish_at")]
+    baku_today = (now + timedelta(hours=4)).date()
+    for day in range(3):
+        d = baku_today + timedelta(days=day)
+        for t in sorted(SLOTS):
+            try:
+                h, m = [int(v) for v in t.split(":")]
+            except ValueError:
+                continue
+            cand = (datetime(d.year, d.month, d.day, h, m) - timedelta(hours=4)).replace(tzinfo=timezone.utc)
+            if cand < now + timedelta(minutes=SLOT_LEAD_MIN):
+                continue
+            if all(abs((cand - x).total_seconds()) >= MIN_GAP_MIN * 60 for x in taken):
+                return cand
+    return None
+
+
+def run_publish(post, kind, pending, msg):
+    """Postu dərhal paylaşır və Telegram mesajını yeniləyir."""
+    cq = {"message": msg}
+    post["status"] = "publishing"
+    save(pending)  # ikiqat paylaşımın qarşısını almaq üçün əvvəlcədən yazırıq
+    result = publish(post)
+    if result["ok"]:
+        post["status"] = "published"
+        post["published_at"] = datetime.now(timezone.utc).isoformat()
+        post["instagram_id"] = result["media_id"]
+        post["permalink"] = result["permalink"]
+        save(pending)
+        line = {"reel": "✅ REELS PAYLAŞILDI", "carousel": "✅ KARUSEL PAYLAŞILDI",
+                "story": "✅ STORY PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
+        if result["permalink"]:
+            line += "\n" + result["permalink"]
+        finish_message(cq, line)
+    elif result["stage"] == "container":
+        post["status"] = "pending"   # hələ paylaşılmayıb, yenidən cəhd etmək olar
+        post.pop("publish_at", None)
+        save(pending)
+        notify("⚠️ Paylaşım alınmadı: %s\nDüyməyə yenidən basa bilərsiniz.\n\n%s" % (result["error"], post["headline"]))
+    else:
+        post["status"] = "check"      # paylaşılıb-paylaşılmadığı bəlli deyil
+        save(pending)
+        finish_message(cq, "⚠️ NƏTİCƏ BƏLLİ DEYİL: Instagram-ı əl ilə yoxlayın")
+        notify("⚠️ Paylaşım əmri xəta ilə bitdi: %s\nİkiqat paylaşımın qarşısını almaq üçün bu post bağlandı. "
+               "Instagram profilinə baxıb yoxlayın.\n\n%s" % (result["error"], post["headline"]))
+
+
+def run_scheduled(pending):
+    now = datetime.now(timezone.utc)
+    for post in pending:
+        if post.get("status") != "scheduled" or not post.get("publish_at"):
+            continue
+        if datetime.fromisoformat(post["publish_at"]) > now:
+            continue
+        if now - datetime.fromisoformat(post["created"]) > timedelta(hours=MAX_AGE_HOURS + 6):
+            post["status"] = "expired"
+            save(pending)
+            finish_message({"message": post.get("msg") or {}}, "⏱ VAXTI KEÇİB")
+            continue
+        print("Planlaşdırılmış paylaşım: %s" % post["id"])
+        run_publish(post, post.get("kind", "post"), pending, post.get("msg") or {})
+
+
 def publish(post):
     """Şəkli və ya Reels videosunu Instagram-a paylaşır.
     {'ok':..., 'stage':..., 'error':..., 'permalink':...} qaytarır."""
@@ -451,7 +530,7 @@ def main():
         if post.get("kind") == "news":
             handle_news_action(cq, action, post, pending)
             continue
-        if post["status"] != "pending":
+        if post["status"] not in ("pending", "scheduled"):
             answer(cq, "Bu post artıq: " + post["status"])
             finish_message(cq, "ℹ️ Bu post artıq emal olunub (%s)" % post["status"])
             continue
@@ -465,8 +544,11 @@ def main():
 
         kind = post.get("kind", "post")
         if (action == "pub" and kind not in ("post", "carousel")) or (action == "reel" and kind != "reel") \
-                or (action == "story" and kind != "story") or action not in ("pub", "reel", "story"):
+                or (action == "story" and kind != "story") or action not in ("pub", "reel", "story", "now"):
             answer(cq, "Naməlum əmr.")
+            continue
+        if post["status"] == "scheduled" and action != "now":
+            answer(cq, "Artıq planlaşdırılıb. ⚡ İndi və ya ❌ ilə dəyişə bilərsiniz.")
             continue
 
         # --- Paylaşım ---
@@ -478,37 +560,26 @@ def main():
             finish_message(cq, "⏱ VAXTI KEÇİB (%d saatdan çox)" % MAX_AGE_HOURS)
             continue
 
-        post["status"] = "publishing"
-        save(pending)  # ikiqat paylaşımın qarşısını almaq üçün əvvəlcədən yazırıq
+        if action != "now":
+            slot = next_slot(pending)
+            if slot and (slot - datetime.fromisoformat(post["created"])) <= timedelta(hours=MAX_AGE_HOURS):
+                post["status"] = "scheduled"
+                post["publish_at"] = slot.isoformat()
+                post["msg"] = slim_msg(cq)
+                save(pending)
+                answer(cq, "Planlaşdırıldı.")
+                finish_message(cq, "🕒 PLANLAŞDIRILDI: %s (Bakı vaxtı)" % (slot + timedelta(hours=4)).strftime("%d.%m %H:%M"),
+                               {"inline_keyboard": [[{"text": "⚡ İndi paylaş", "callback_data": "now:" + post["id"]},
+                                                     {"text": "❌ Ləğv et", "callback_data": "del:" + post["id"]}]]})
+                continue
         answer(cq, "Reels paylaşılır..." if kind == "reel" else "Paylaşılır...")
-        result = publish(post)
-
-        if result["ok"]:
-            post["status"] = "published"
-            post["instagram_id"] = result["media_id"]
-            post["permalink"] = result["permalink"]
-            save(pending)
-            line = {"reel": "✅ REELS PAYLAŞILDI", "carousel": "✅ KARUSEL PAYLAŞILDI", "story": "✅ STORY PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
-            if result["permalink"]:
-                line += "\n" + result["permalink"]
-            finish_message(cq, line)
-        elif result["stage"] == "container":
-            post["status"] = "pending"   # hələ paylaşılmayıb, yenidən cəhd etmək olar
-            save(pending)
-            notify("⚠️ Paylaşım alınmadı: %s\nDüyməyə yenidən basa bilərsiniz.\n\n%s"
-                   % (result["error"], post["headline"]))
-        else:
-            post["status"] = "check"      # paylaşılıb-paylaşılmadığı bəlli deyil
-            save(pending)
-            finish_message(cq, "⚠️ NƏTİCƏ BƏLLİ DEYİL: Instagram-ı əl ilə yoxlayın")
-            notify("⚠️ Paylaşım əmri xəta ilə bitdi: %s\nİkiqat paylaşımın qarşısını almaq üçün "
-                   "bu post bağlandı. Instagram profilinə baxıb yoxlayın.\n\n%s"
-                   % (result["error"], post["headline"]))
+        run_publish(post, kind, pending, slim_msg(cq))
 
     # emal olunmuş düymələri Telegram-dan silmək üçün təsdiqləyirik
     tg("getUpdates", {"offset": max_update + 1, "limit": 1,
                       "allowed_updates": json.dumps(["callback_query", "message"])})
     save(pending)
+    run_scheduled(pending)
     send_touch_messages(touched)
     save(pending)
     if any(p.get("kind") == "news" and p.get("status") == "building" for p in pending):

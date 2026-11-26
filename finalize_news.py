@@ -50,7 +50,8 @@ def tg_post(method, data, files=None):
 def buttons(ok_text, ok_data, id_):
     return json.dumps({"inline_keyboard": [[
         {"text": ok_text, "callback_data": ok_data + ":" + id_},
-        {"text": "❌ Ləğv et", "callback_data": "del:" + id_}]]})
+        {"text": "⚡ İndi", "callback_data": "now:" + id_}],
+        [{"text": "❌ Ləğv et", "callback_data": "del:" + id_}]]})
 
 
 def notify(text):
