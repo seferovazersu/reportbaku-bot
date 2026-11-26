@@ -15238,5 +15238,91 @@
   "published_at": "2026-11-26T16:57:30.441321+00:00",
   "instagram_id": "18095308502238108",
   "permalink": ""
+ },
+ {
+  "id": "20261126-221832-01",
+  "kind": "news",
+  "created": "2026-11-26T18:18:32.379133+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "TEXNOLOGİYA",
+  "headline": "Tokayev: TikTok gənclərin beynini məhv edən qorxunc vasitədir",
+  "summary": "Qazaxıstan Prezidenti Qasım-Jomart Tokayev sosial şəbəkələrin gənclərin beyin fəaliyyətinə mənfi təsir göstərdiyini bildirib. O, bu barədə Moskvada keçirilən \"AI Journey 2026\" konfransında danışıb.",
+  "caption_text": "Qazaxıstan Prezidenti Qasım-Jomart Tokayev TikTok sosial şəbəkəsinin insanların, xüsusilə də gənclərin beyin fəaliyyətinə mənfi təsir göstərdiyini bildirib. Dövlət başçısı bu barədə Moskvada keçirilən \"AI Journey 2026\" beynəlxalq konfransında süni intellekt sahəsində gənc mütəxəssislərlə görüşü zamanı danışıb.\n\nPrezident ölkəsində xalq rəqəmsal iqtisadiyyatının inkişaf etdirilməsinin vacibliyini də diqqətə çatdırıb. Onun sözlərinə görə, smartfonlardan düzgün istifadə edilməsi vətəndaşlara, o cümlədən uzaq kənd yaşayış məntəqələrində yaşayanlara internetə çıxış imkanı sayəsində qazanc əldə etməyə şərait yaradır.",
+  "voiceover": "Qazaxıstan Prezidenti Qasım-Jomart Tokayev TikTok sosial şəbəkəsinin gənclərin beyninə mənfi təsir göstərən qorxunc vasitə olduğunu bildirib. O, bu barədə Moskvada keçirilən süni intellekt konfransında danışıb. Qazaxıstan lideri həmçinin ölkədə xalq rəqəmsal iqtisadiyyatının inkişaf etdirildiyini və vətəndaşların rəqəmsal bacarıqlara yiyələnməsinin vacibliyini vurğulayıb.",
+  "hashtags": [
+   "#Qazaxıstan",
+   "#TikTok",
+   "#Tokayev",
+   "#Texnologiya",
+   "#Moskva"
+  ],
+  "highlight": [
+   "Tokayev",
+   "TikTok"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Токаев: Tik-Tok — страшная вещь...",
+  "link": "https://haqqin.az/newsarchive/399549",
+  "sensitive": false,
+  "card_id": 1537
+ },
+ {
+  "id": "20261126-221832-02",
+  "kind": "news",
+  "created": "2026-11-26T18:18:32.379133+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasından çəkindirib",
+  "summary": "İtaliyanın Baş nazir Giorgia Meloni Kiyevi hərbi əməliyyatların Aralıq dənizi regionuna genişləndirilməməsi barədə xəbərdar edib. O, bunun İtaliya sərhədlərinin təhlükəsizliyini təhdid etdiyini bildirib.",
+  "caption_text": "İtaliyanın Baş nazir Giorgia Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasının yolverilməzliyi barədə xəbərdarlıq edib. Hökumət başçısı qeyd edib ki, belə bir addım İtaliya sərhədlərinin və vətəndaşlarının təhlükəsizliyini təhlükə altına qoyur.",
+  "voiceover": "İtaliyanın Baş naziri Giorgia Meloni Kiyevi müharibənin Aralıq dənizinə yayılmasının yolverilməzliyi barədə xəbərdar edib. O bildirib ki, bu, İtaliya sərhədlərinin və vətəndaşlarının təhlükəsizliyini təhdid edir.",
+  "hashtags": [
+   "#Meloni",
+   "#İtaliya",
+   "#Kiyev",
+   "#Dünya",
+   "#Xəbər"
+  ],
+  "highlight": [
+   "Meloni",
+   "Kiyevi"
+  ],
+  "source_note": "Mənbə: Minval.az",
+  "source_title": "Мелони предостерегла Киев от расширения войны",
+  "link": "https://minval.az/news/124564522",
+  "sensitive": true,
+  "card_id": 1538
+ },
+ {
+  "id": "20261126-221832-03",
+  "kind": "news",
+  "created": "2026-11-26T18:18:32.379133+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Şamaxı və Ağsu rayonları sərhədində zəlzələ olub",
+  "summary": "Şamaxı və Ağsu rayonları sərhədində 4,3 гücündə zəlzələ qeydə alınıb. Yeraltı təkanlar epizentrdə 4 bala qədər hiss edilib.",
+  "caption_text": "Respublika Seysmoloji Xidmət Mərkəzinin məlumatına görə, ölkə ərazisində yeraltı təkanlar qeydə alınıb. Şamaxı və Ağsu rayonları sərhədində baş verən zəlzələnin maqnitudası 4,3 təşkil edib. \n\nZəlzələ yerli vaxtla 26 noyabr tarixində saat 20:24-də qeydə alınıb. Təkanların ocağı 18 kilometr dərinlikdə yerləşib. Epizentrdə yeraltı təkanlar 4 bal gücündə, yaxınlıqdakı rayonlarda isə 3 bala qədər hiss olunub.",
+  "voiceover": "Şamaxı və Ağsu rayonları sərhədində 4,3 гücündə zəlzələ baş verib. Respublika Seysmoloji Xidmət Mərkəzindən verilən məlumata görə, yeraltı təkanlar noyabrın 26-da yerli vaxtla 20:24-də qeydə alınıb. Zəlzələnin ocağı 18 kilometr dərinlikdə yerləşib. Təkanlar epizentrdə 4 bal, ətraf rayonlarda isə 3 bala qədər hiss olunub.",
+  "hashtags": [
+   "#Şamaxı",
+   "#Ağsu",
+   "#zəlzələ",
+   "#SeysmolojiXidmət"
+  ],
+  "highlight": [
+   "Şamaxı",
+   "Ağsu"
+  ],
+  "source_note": "Mənbə: Day.az",
+  "source_title": "В Азербайджане произошло землетрясение",
+  "link": "https://news.day.az/society/1877429.html",
+  "sensitive": true,
+  "card_id": 1539
  }
 ]
