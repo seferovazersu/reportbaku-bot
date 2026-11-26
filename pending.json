@@ -13814,5 +13814,31 @@
   "id": "20261126-132030-03-s",
   "kind": "story",
   "image": "posts/20261126-132030-03-s.jpg"
+ },
+ {
+  "id": "20261126-141335-u",
+  "kind": "news",
+  "created": "2026-11-26T10:13:35.158076+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\nMotosikletlə gələn silahlı şəxslər futbolçuya atəş açıblar. Hadisə zamanı daha bir nəfər xəsarət alıb.\n\n26 yaşlı Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda, son dövrlərdə isə \"Arandas\" həvəskar komandasında çıxış edib.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFaGsIBjpoY9qeXLJRGv8RMPJ1yXN4AAIBH2sb_7tASDYe3959M8H_AQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\n",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\nMotosikletlə gələn silahlı şəx",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
