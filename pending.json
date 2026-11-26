@@ -15803,5 +15803,31 @@
   "published_at": "2026-11-26T19:16:16.530453+00:00",
   "instagram_id": "18643661800056945",
   "permalink": ""
+ },
+ {
+  "id": "20261126-235055-u",
+  "kind": "news",
+  "created": "2026-11-26T19:50:55.948874+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "❗️Naxçıvanın Babək rayonunda iki avtomobil toqquşub, 5 nəfər xəsarət alıb",
+  "media": [
+   {
+    "file_id": "BAACAgIAAxkBAAIGNmsIjY68rFz2wYXF7JF7Ljv8mvUSAAKMtQAC_7tISD2Yo0P4UyCTPQQ",
+    "type": "video"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "❗️Naxçıvanın Babək rayonunda iki avtomobil toqquşub, 5 nəfər xəsarət alıb",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "❗️Naxçıvanın Babək rayonunda iki avtomobil toqquşub, 5 nəfər xəsarət alıb",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
