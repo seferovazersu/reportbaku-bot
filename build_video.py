@@ -101,7 +101,7 @@ def tts_pcm(text):
         for attempt in range(2):
             try:
                 body = {
-                    "contents": [{"parts": [{"text": TTS_PROMPT + text}]}],
+                    "contents": [{"parts": [{"text": text}]}],
                     "generationConfig": {
                         "responseModalities": ["AUDIO"],
                         "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": TTS_VOICE}}},
