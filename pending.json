@@ -15858,7 +15858,7 @@
  },
  {
   "created": "2026-11-26T19:51:53.903684+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Naxçıvanda iki avtomobilin toqquşması nəticəsində 5 nəfər xəsarət alıb",
   "summary": "Babək rayonunda baş verən yol-nəqliyyat hadisəsində beş nəfər yaralanıb. Qəza zamanı iki nəqliyyat vasitəsi toqquşub.",
@@ -15869,11 +15869,14 @@
   "id": "20261126-235055-u-r",
   "kind": "reel",
   "video": "20261126-235055-u-r.mp4",
-  "cover": "20261126-235055-u-r.jpg"
+  "cover": "20261126-235055-u-r.jpg",
+  "published_at": "2026-11-26T19:54:49.751815+00:00",
+  "instagram_id": "18149544958602363",
+  "permalink": "https://www.instagram.com/reel/DgN5xgMhx73/"
  },
  {
   "created": "2026-11-26T19:51:53.903684+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Naxçıvanda iki avtomobilin toqquşması nəticəsində 5 nəfər xəsarət alıb",
   "summary": "Babək rayonunda baş verən yol-nəqliyyat hadisəsində beş nəfər yaralanıb. Qəza zamanı iki nəqliyyat vasitəsi toqquşub.",
@@ -15883,6 +15886,9 @@
   "caption": "Naxçıvanda iki avtomobilin toqquşması nəticəsində 5 nəfər xəsarət alıb\n\nNaxçıvan Muxtar Respublikasının Babək rayonu ərazisində avtomobillərin iştirakı ilə yol qəzası qeydə alınıb. Hadisə nəticəsində beş nəfər müxtəlif dərəcəli bədən xəsarətləri alıb. Tərəflərin toqquşması ilə nəticələnən bu hadisə bölgədə nəqliyyatın hərəkətində fasilələr yaradıb. Yaralıların vəziyyəti və qəzanın başvermə səbəbləri ilə bağlı əlavə rəsmi məlumat verilməyib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Naxçıvan #Babək #YolQəzası",
   "id": "20261126-235055-u-s",
   "kind": "story",
-  "image": "posts/20261126-235055-u-s.jpg"
+  "image": "posts/20261126-235055-u-s.jpg",
+  "published_at": "2026-11-26T19:54:57.734070+00:00",
+  "instagram_id": "17894691366458565",
+  "permalink": ""
  }
 ]
