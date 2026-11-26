@@ -15890,5 +15890,93 @@
   "published_at": "2026-11-26T19:54:57.734070+00:00",
   "instagram_id": "17894691366458565",
   "permalink": ""
+ },
+ {
+  "id": "20261127-000624-01",
+  "kind": "news",
+  "created": "2026-11-26T20:06:24.732993+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Küveytdə PUA hücumu nəticəsində iki İtaliya vətəndaşı həlak olub",
+  "summary": "Kuveyt Müdafiə Nazirliyinin məlumatına görə, ölkədə pilotsuz uçuş aparatlarının hücumu nəticəsində iki İtaliya vətəndaşı həlak olub. İtaliyanın xarici işlər naziri Antonio Tayani hücumda İranı ittiham edib, Tehran isə aidiyyəti olmadığını bildirib.",
+  "caption_text": "Kuveyt əmirliyinin Müdafiə Nazirliyinin yaydığı məlumata əsasən, ölkədə pilotsuz uçuş aparatlarının hücumu qeydə alınıb. Hadisə nəticəsində həlak olan şəxslərin müdafiə sahəsində fəaliyyət göstərən \"Rheinmetall Italia\" şirkətinin əməkdaşları olduğu və Kuveytin hava hücumundan müdafiə sistemlərinə xidmət göstərdikləri açıqlanıb.\n\nİtaliyanın xarici işlər naziri Antonio Tayani baş vermiş hücumla əlaqədar olaraq İranı ittiham edib. Öz növbəsində, İranın xarici işlər naziri Abbas Arakçı başsağlığı verərək ölkəsinin bu hadisə ilə əlaqəsinin olmadığını qeyd edib və ittihamları rədd edib.",
+  "voiceover": "Kuveyt Müdafiə Nazirliyinin məlumatına görə, ölkədə pilotsuz uçuş aparatlarının hücumu nəticəsində iki İtaliya vətəndaşı həlak olub. Həlak olan şəxslərin müdafiə sahəsində fəaliyyət göstərən \"Rheinmetall Italia\" şirkətinin əməkdaşları olduğu və Kuveytin hava hücumundan müdafiə sistemlərinə xidmət göstərdikləri bildirilib. İtaliyanın xarici işlər naziri Antonio Tayani hücumda İranı ittiham edib. İrandan isə başsağlığı verilib və Tehranın hadisə ilə əlaqəsinin olmadığı vurğulanıb.",
+  "hashtags": [
+   "#Kuveyt",
+   "#İtaliya",
+   "#İran",
+   "#PuşHücumu",
+   "#DünyaXəbərləri"
+  ],
+  "highlight": [
+   "PUA",
+   "İtaliya"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Беспилотники убили итальянцев",
+  "link": "https://haqqin.az/newsarchive/399554",
+  "sensitive": true,
+  "card_id": 1596
+ },
+ {
+  "id": "20261127-000624-02",
+  "kind": "news",
+  "created": "2026-11-26T20:06:24.732993+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Kənd yumurtası bahalaşaraq 50 qəpiyə satılır",
+  "summary": "Bakı bazarlarında bir ədəd kənd yumurtasının qiyməti 45-50 qəpiyə yüksəlib. Bahalaşmanın səbəbi bölgələrdə məhsulun azalması ilə izah olunur.",
+  "caption_text": "Paytaxtın bazarlarında kənd yumurtasının pərakəndə satış qiymətində artım qeydə alınıb. Hazırda bir ədəd yumurtanın qiyməti 45 ilə 50 qəpik arasında dəyişir.\n\nSatıcılar bildirirlər ki, qiymətlərin bahalaşmasına səbəb rayonlarda kənd yumurtası istehsalının əvvəlki dövrlərlə müqayisədə azalmasıdır. Fermerlər isə bu vəziyyətlə bağlı fərqli səbəblər irəli sürürlər.\n\nQuş Əti, Yumurta İstehsalçıları və İxracatçıları Asossasiyası İctimai Birliyinin sədri Mürvət Həsənli qiymət artımının mövsümi xarakter daşıdığını qeyd edib. Qurum rəhbərinin proqnozuna əsasən, kənd yumurtasının qiymətində ucuzlaşma gələn ilin mart ayından sonra gözlənilir.",
+  "voiceover": "Bakı bazarlarında kənd yumurtasının qiyməti bahalaşıb. Hazırda bir ədəd yumurta 45 ilə 50 qəpik arasında satılır. Satıcılar bahalaşmanı bölgələrdə kənd yumurtasının azalması ilə əlaqələndirirlər. Quş Əti, Yumurta İstehsalçıları və İxracatçıları Asossasiyası İctimai Birliyinin sədri Mürvət Həsənli qiymət artımının mövsümi olduğunu bildirib. Onun sözlərinə görə, məhsulun mart ayından sonra ucuzlaşacağı proqnozlaşdırılır.",
+  "hashtags": [
+   "#kəndyumurtası",
+   "#qiymətartımı",
+   "#iqtisadiyyat",
+   "#baku",
+   "#azərbaycan"
+  ],
+  "highlight": [
+   "Kənd yumurtası",
+   "50 qəpiyə"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Kənd yumurtası 50 qəpiyə kimi qalxdı",
+  "link": "https://www.qafqazinfo.az/news/detail/kend-yumurtasi-50-qepiye-kimi-qalxdi-video-529947",
+  "sensitive": false,
+  "card_id": 1597
+ },
+ {
+  "id": "20261127-000624-03",
+  "kind": "news",
+  "created": "2026-11-26T20:06:24.732993+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "İsveç Rusiyanın Stokholmdakı səfirini Xarici İşlər Nazirliyinə çağırıb",
+  "summary": "İsveç Xarici İşlər Nazirliyi Rusiyanın səfirini quruma dəvət edib. Görüşdə Polşanın hava məkanının pozulması və Danimarkadakı qətlə hazırlıq iddiaları müzakirə olunub.",
+  "caption_text": "İsveç Xarici İşlər Nazirliyi noyabrın 26-da Rusiyanın Stokholmdakı səfiri Sergey Belyayevi nazirliyə çağırıb. Buna səbəb noyabrın 20-də Polşanın hava məkanının pozulması və Danimarka ərazisində sui-qəsdin hazırlanması iddiaları olub. İsveçin xarici işlər naziri Mariya Malmer Stenerqard ölkəsinin Polşa və Danimarkaya tam dəstək verdiyini açıqlayıb. O, Rusiyanın Avropanı bölmək cəhdlərinin uğursuz olacağını qeyd edərək, Ukraynanı dəstəkləməyə davam edəcəklərini vurğulayıb.",
+  "voiceover": "İsveç Xarici İşlər Nazirliyi Rusiyanın Stokholmdakı səfirini quruma çağırıb. Buna səbəb Polşanın hava məkanının pozulması və Danimarka ərazisində qətlə hazırlıq iddialarıdır. İsveçin xarici işlər naziri Mariya Malmer Stenerqard ölkəsinin Polşa və Danimarkaya tam dəstək verdiyini bildirib. O, Rusiyanın Avropanı bölmək cəhdlərinin uğursuzluğa düçar olacağını qeyd edib.",
+  "hashtags": [
+   "#İsveç",
+   "#Rusiya",
+   "#Polşa",
+   "#Danimarka",
+   "#XİN"
+  ],
+  "highlight": [
+   "İsveç",
+   "Rusiya",
+   "səfirini"
+  ],
+  "source_note": "Mənbə: Sia.az",
+  "source_title": "\"Polşa və Danimarkaya tam dəstək veririk\" - İsveçdən Rusiyaya MESAJ",
+  "link": "https://sia.az/az/news/world/1377159.html",
+  "sensitive": true,
+  "card_id": 1598
  }
 ]

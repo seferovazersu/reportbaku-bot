@@ -1,84 +1,137 @@
 [
   {
-    "category": "CƏMİYYƏT",
-    "headline": "Veteranlar məktəblərdə çağırışaqədərki hazırlıq rəhbəri ola biləcəklər",
-    "summary": "Baş nazir Əli Əsədovun təsdiqlədiyi yeni əsasnaməyə əsasən, müharibə veteranları ümumi, peşə və orta ixtisas təhsili müəssisələrində dərs deyə biləcəklər. Pedaqoji təhsili olmayanlar üçün isə Elm və Təhsil Nazirliyi tərəfindən xüsusi kurslar təşkil olunacaq.",
-    "caption_text": "Azərbaycan məktəblərində çağırışaqədərki hazırlıq dərslərini müharibə veteranları tədris edə biləcəklər.\n\nBu dəyişiklik Baş nazir Əli Əsədovun qərarı ilə təsdiq olunan \"Gənclərin çağırışaqədərki hazırlığı haqqında Əsasnamə\"də əksini tapıb. Müvafiq təhsil tələblərini ödəyən veteranlar ümumi, peşə və orta ixtisas təhsili müəssisələrində bu vəzifəyə təyin oluna bilərlər. Hərbi ekspert Ədalət Verdiyevin sözlərinə görə, qərar hərbi xidmətə və hazırlıq proseslərinə fərqli baxış bucağı formalaşdıracaq.\n\nSənədlə bağlı olaraq, pedaqoji təhsili olmayan rəhbərlər üçün Elm və Təhsil Nazirliyi tərəfindən pedaqogika, psixologiya və təlim strategiyaları üzrə kurslar keçiriləcək. Həmçinin hərbi xidmət illəri bu şəxslərin pedaqoji stajına daxil ediləcək.",
-    "voiceover": "Müharibə veteranları məktəblərdə çağırışaqədərki hazırlıq rəhbəri vəzifəsinə təyin oluna biləcəklər. Bu, Azərbaycan Respublikasının Baş naziri Əli Əsədovun qərarı ilə təsdiqlənən Gənclərin çağırışaqədərki hazırlığı haqqında Əsasnamədə əksini tapıb. Müvafiq təhsil tələblərinə cavab verən veteranlar ümumi, peşə və orta ixtisas təhsili müəssisələrində dərs deyə biləcəklər. Hərbi ekspert Ədalət Verdiyev bildirib ki, bu sənədlə hərbi xidmətə və hazırlıq proseslərinə tamamilə fərqli baxış bucağı formalaşacaq. Əsasnaməyə əsasən, pedaqoji təhsili olmayan rəhbərlər üçün Azərbaycan Respublikasının Elm və Təhsil Nazirliyi tərəfindən pedaqogika, psixologiya və təlim strategiyaları üzrə kurslar təşkil ediləcək. Həmçinin hərbi xidmət illəri onların pedaqoji stajına daxil ediləcək.",
+    "category": "DÜNYA",
+    "headline": "Küveytdə PUA hücumu nəticəsində iki İtaliya vətəndaşı həlak olub",
+    "summary": "Kuveyt Müdafiə Nazirliyinin məlumatına görə, ölkədə pilotsuz uçuş aparatlarının hücumu nəticəsində iki İtaliya vətəndaşı həlak olub. İtaliyanın xarici işlər naziri Antonio Tayani hücumda İranı ittiham edib, Tehran isə aidiyyəti olmadığını bildirib.",
+    "caption_text": "Kuveyt əmirliyinin Müdafiə Nazirliyinin yaydığı məlumata əsasən, ölkədə pilotsuz uçuş aparatlarının hücumu qeydə alınıb. Hadisə nəticəsində həlak olan şəxslərin müdafiə sahəsində fəaliyyət göstərən \"Rheinmetall Italia\" şirkətinin əməkdaşları olduğu və Kuveytin hava hücumundan müdafiə sistemlərinə xidmət göstərdikləri açıqlanıb.\n\nİtaliyanın xarici işlər naziri Antonio Tayani baş vermiş hücumla əlaqədar olaraq İranı ittiham edib. Öz növbəsində, İranın xarici işlər naziri Abbas Arakçı başsağlığı verərək ölkəsinin bu hadisə ilə əlaqəsinin olmadığını qeyd edib və ittihamları rədd edib.",
+    "voiceover": "Kuveyt Müdafiə Nazirliyinin məlumatına görə, ölkədə pilotsuz uçuş aparatlarının hücumu nəticəsində iki İtaliya vətəndaşı həlak olub. Həlak olan şəxslərin müdafiə sahəsində fəaliyyət göstərən \"Rheinmetall Italia\" şirkətinin əməkdaşları olduğu və Kuveytin hava hücumundan müdafiə sistemlərinə xidmət göstərdikləri bildirilib. İtaliyanın xarici işlər naziri Antonio Tayani hücumda İranı ittiham edib. İrandan isə başsağlığı verilib və Tehranın hadisə ilə əlaqəsinin olmadığı vurğulanıb.",
     "hashtags": [
-      "#veteran",
-      "#məktəb",
-      "#təhsil",
-      "#hərbiixtisas",
+      "#Kuveyt",
+      "#İtaliya",
+      "#İran",
+      "#PuşHücumu",
+      "#DünyaXəbərləri"
+    ],
+    "image_url": null,
+    "source_title": "Беспилотники убили итальянцев",
+    "visual_keywords": [],
+    "highlight": [
+      "PUA",
+      "İtaliya"
+    ],
+    "source_note": "Mənbə: Haqqin.az",
+    "link": "https://haqqin.az/newsarchive/399554",
+    "sensitive": true
+  },
+  {
+    "category": "İQTİSADİYYAT",
+    "headline": "Kənd yumurtası bahalaşaraq 50 qəpiyə satılır",
+    "summary": "Bakı bazarlarında bir ədəd kənd yumurtasının qiyməti 45-50 qəpiyə yüksəlib. Bahalaşmanın səbəbi bölgələrdə məhsulun azalması ilə izah olunur.",
+    "caption_text": "Paytaxtın bazarlarında kənd yumurtasının pərakəndə satış qiymətində artım qeydə alınıb. Hazırda bir ədəd yumurtanın qiyməti 45 ilə 50 qəpik arasında dəyişir.\n\nSatıcılar bildirirlər ki, qiymətlərin bahalaşmasına səbəb rayonlarda kənd yumurtası istehsalının əvvəlki dövrlərlə müqayisədə azalmasıdır. Fermerlər isə bu vəziyyətlə bağlı fərqli səbəblər irəli sürürlər.\n\nQuş Əti, Yumurta İstehsalçıları və İxracatçıları Asossasiyası İctimai Birliyinin sədri Mürvət Həsənli qiymət artımının mövsümi xarakter daşıdığını qeyd edib. Qurum rəhbərinin proqnozuna əsasən, kənd yumurtasının qiymətində ucuzlaşma gələn ilin mart ayından sonra gözlənilir.",
+    "voiceover": "Bakı bazarlarında kənd yumurtasının qiyməti bahalaşıb. Hazırda bir ədəd yumurta 45 ilə 50 qəpik arasında satılır. Satıcılar bahalaşmanı bölgələrdə kənd yumurtasının azalması ilə əlaqələndirirlər. Quş Əti, Yumurta İstehsalçıları və İxracatçıları Asossasiyası İctimai Birliyinin sədri Mürvət Həsənli qiymət artımının mövsümi olduğunu bildirib. Onun sözlərinə görə, məhsulun mart ayından sonra ucuzlaşacağı proqnozlaşdırılır.",
+    "hashtags": [
+      "#kəndyumurtası",
+      "#qiymətartımı",
+      "#iqtisadiyyat",
+      "#baku",
       "#azərbaycan"
     ],
     "image_url": null,
-    "source_title": "Veteranlar məktəblərdə dərs deyəcəklər - VİDEO",
+    "source_title": "Kənd yumurtası 50 qəpiyə kimi qalxdı",
     "visual_keywords": [
-      "school classroom",
-      "military veteran",
-      "education process"
+      "market eggs",
+      "grocery shopping",
+      "supermarket shelf"
     ],
     "highlight": [
-      "Veteranlar",
-      "məktəblərdə",
-      "çağırışaqədərki hazırlıq"
-    ],
-    "source_note": "Mənbə: Xəzər Xəbər",
-    "link": "https://xezerxeber.az/az/veb-tv/veteranlar-mekteblerde-ders-deyecekler-vi-deo",
-    "sensitive": false
-  },
-  {
-    "category": "TEXNOLOGİYA",
-    "headline": "X yeniyetmələr üçün valideyn nəzarəti funksiyaları təqdim edib",
-    "summary": "Platforma 13-17 yaşlı istifadəçilər üçün yeni valideyn nəzarəti alətləri yaradıb. Bu yenilik böyüklərə yeniyetmələrin tətbiqdəki fəaliyyətini tənzimləməyə imkan verəcək.",
-    "caption_text": "“X” sosial şəbəkəsi 13-17 yaş qrupuna daxil olan yeniyetmələr üçün yeni valideyn nəzarəti funksiyalarını istifadəyə verib. Platformadan verilən məlumata görə, bu yeniliklər sayəsində böyüklər övladlarının tətbiqdə keçirdikləri vaxtı izləyə və onlara gündəlik istifadə limiti təyin edə biləcəklər.\n\nBundan əlavə, valideynlər məzmun tövsiyələrini və videoları yeniyetmələrin izlədikləri hesablarla məhdudlaşdıra, müəyyən sözləri filtrləyə və həssas media məzmununu bloklaya bilərlər. Qeyd olunub ki, valideynlərin yeniyetmələrin şəxsi mesajlarını oxumaq, axtarış və baxış tarixçəsini görmək, onların adından paylaşım etmək və ya hesablarına daxil olmaq imkanları olmayacaq.",
-    "voiceover": "X sosial şəbəkəsi 13-17 yaşlı yeniyetmələr üçün yeni valideyn nəzarəti funksiyalarını istifadəyə verib. Platformadan bildirilib ki, valideynlər yeniyetmələrin tətbiqdə keçirdiyi vaxtı izləyə və gündəlik istifadə limiti təyin edə biləcəklər. Həmçinin məzmun tövsiyələrini məhdudlaşdırmaq, sözləri filtrləmək və həssas media məzmununu bloklamaq mümkündür. Lakin valideynlər şəxsi mesajları oxuya, axtarış tarixçəsini görə və hesablaşara daxil ola bilməyəcəklər.",
-    "hashtags": [
-      "#X",
-      "#Twitter",
-      "#Texnologiya",
-      "#ValideynNəzarəti"
-    ],
-    "image_url": null,
-    "source_title": "Valideyn nəzarəti funksiyasını istifadəyə verdi",
-    "visual_keywords": [
-      "smartphone screen",
-      "social media app",
-      "parenting technology"
-    ],
-    "highlight": [
-      "X",
-      "valideyn nəzarəti"
+      "Kənd yumurtası",
+      "50 qəpiyə"
     ],
     "source_note": "Mənbə: Qafqazinfo",
-    "link": "https://www.qafqazinfo.az/news/detail/valideyn-nezareti-funksiyasini-istifadeye-verdi-529944",
+    "link": "https://www.qafqazinfo.az/news/detail/kend-yumurtasi-50-qepiye-kimi-qalxdi-video-529947",
     "sensitive": false
   },
   {
     "category": "DÜNYA",
-    "headline": "Xəzər dənizinin səviyyəsinin enməsi narahatlıq doğurur",
-    "summary": "Rusiya prezidenti Vladimir Putin Xəzər dənizində suyun səviyyəsinin azalmasının region ölkələrində narahatlıq yaratdığını bildirib. O, həmçinin quruyan Aral dənizinin də ekoloji problem kimi diqqət çəkdiyini qeyd edib.",
-    "caption_text": "Rusiya prezidenti Vladimir Putin süni intellekt aləmlərinə səyahət konfransında məktəblilər və tələbələrlə görüşü zamanı Xəzər dənizinin səviyyəsindəki dəyişikliklərə toxunub.\n\nOnun sözlərinə görə, Xəzər dənizinin səviyyəsi gah aşağı düşür, gah da qalxır, lakin hazırda getdikcə daha çox enmə müşahidə olunur və bu proses Xəzər regionunun bütün ölkələrində narahatlıq doğurur.\n\nBundan əlavə, Rusiya rəhbəri quruyan Aral dənizinə suyun son dərəcə yavaş qayıtdığını və bunun da digər ekoloji amil kimi narahatlıq yaratdığını vurğulayıb. O qeyd edib ki, həm Xəzər dənizinin, həm də Aral dənizinin tədqiqi müasir tədqiqatçılar qarşısında duran mühüm və qlobal vəzifələrdəndir.",
-    "voiceover": "Rusiya prezidenti Vladimir Putin Xəzər dənizinin səviyyəsinin enməsinin bütün Xəzər regionu ölkələrində narahatlıq doğurduğunu bildirib. Süni intellekt konfransında çıxış edən dövlət başçısı dəniz səviyyəsinin gah aşağı düşdüyünü, gah da qalxdığını, lakin hazırda getdikcə daha çox azaldığını qeyd edib. O, həmçinin quruyan Aral dənizinə suyun çox yavaş qayıtdığını diqqətə çatdıraraq, bu su hövzələrinin öyrənilməsinin qlobal vəzifə olduğunu vurğulayıb.",
+    "headline": "İsveç Rusiyanın Stokholmdakı səfirini Xarici İşlər Nazirliyinə çağırıb",
+    "summary": "İsveç Xarici İşlər Nazirliyi Rusiyanın səfirini quruma dəvət edib. Görüşdə Polşanın hava məkanının pozulması və Danimarkadakı qətlə hazırlıq iddiaları müzakirə olunub.",
+    "caption_text": "İsveç Xarici İşlər Nazirliyi noyabrın 26-da Rusiyanın Stokholmdakı səfiri Sergey Belyayevi nazirliyə çağırıb. Buna səbəb noyabrın 20-də Polşanın hava məkanının pozulması və Danimarka ərazisində sui-qəsdin hazırlanması iddiaları olub. İsveçin xarici işlər naziri Mariya Malmer Stenerqard ölkəsinin Polşa və Danimarkaya tam dəstək verdiyini açıqlayıb. O, Rusiyanın Avropanı bölmək cəhdlərinin uğursuz olacağını qeyd edərək, Ukraynanı dəstəkləməyə davam edəcəklərini vurğulayıb.",
+    "voiceover": "İsveç Xarici İşlər Nazirliyi Rusiyanın Stokholmdakı səfirini quruma çağırıb. Buna səbəb Polşanın hava məkanının pozulması və Danimarka ərazisində qətlə hazırlıq iddialarıdır. İsveçin xarici işlər naziri Mariya Malmer Stenerqard ölkəsinin Polşa və Danimarkaya tam dəstək verdiyini bildirib. O, Rusiyanın Avropanı bölmək cəhdlərinin uğursuzluğa düçar olacağını qeyd edib.",
     "hashtags": [
-      "#Xəzərdənizi",
-      "#VladimirPutin",
-      "#Ekologiya",
+      "#İsveç",
       "#Rusiya",
-      "#Dünya"
+      "#Polşa",
+      "#Danimarka",
+      "#XİN"
     ],
     "image_url": null,
-    "source_title": "Тревога Путина: «То опускается, то поднимается...»",
+    "source_title": "\"Polşa və Danimarkaya tam dəstək veririk\" - İsveçdən Rusiyaya MESAJ",
     "visual_keywords": [
-      "Caspian Sea aerial view",
-      "eco environmental problem"
+      "diplomatic meeting",
+      "ministry building",
+      "sweden flag"
     ],
     "highlight": [
-      "Xəzər dənizinin"
+      "İsveç",
+      "Rusiya",
+      "səfirini"
     ],
-    "source_note": "Mənbə: Haqqin.az",
-    "link": "https://haqqin.az/newsarchive/399550",
+    "source_note": "Mənbə: Sia.az",
+    "link": "https://sia.az/az/news/world/1377159.html",
+    "sensitive": true
+  },
+  {
+    "category": "DÜNYA",
+    "headline": "Rusiya strategiyasında NATO-nun Arktika təlimlərinə diqqət çəkilib",
+    "summary": "Rusiya Federasiyasının Arktika strategiyasında NATO-nun bölgədə nüvə silahından istifadə imkanları daxil olmaqla hərbi təlimlər keçirdiyi bildirilib. Sənəddə 2035-ci ilədək və 2050-ci ilədək olan dövrdə hərbi infrastrukturun inkişafı nəzərdə tutulur.",
+    "caption_text": "Rusiya Federasiyasının Arktika zonasının inkişafı və milli təhlükəsizliyin təmin edilməsi strategiyasında Şimali Atlantika Alyansının fəaliyyətinə dair müddəalar yer alıb. Rusiya Prezidenti Vladimir Putin tərəfindən təsdiq edilən sənəddə qeyd olunub ki, Şimali Atlantika Alyansı Arktikanı potensial hərbi əməliyyat teatrı kimi nəzərdən keçirir və Uzaq Şimal şəraitində, o cümlədən nüvə silahından istifadə imkanları üzrə təlimlər təşkil edir. Strategiya 2035-ci ilədək olan dövrü və 2050-ci ilədək perspektivi əhatə edir. Sənəddə həmçinin Arktikada hərbi infrastrukturun inkişafı, hərbi birləşmələrin gücləndirilməsi, hava, suüstü və sualtı vəziyyətə nəzarət sisteminin təkmilləşdirilməsi planlaşdırılır. Xatırladaq ki, mart ayında Şimali Atlantika Alyansı ölkələri tərəfindən Norveç, Finlandiya və İsveçin şimalında “Cold Response” hərbi təlimləri keçirilib. Sentyabrda isə Böyük Britaniya, Amerika Birləşmiş Ştatları və Norveç Yan-Mayen adasında “Atlantic City” adlı birgə hərbi təlimlər təşkil edib.",
+    "voiceover": "Rusiya Federasiyasının Arktika strategiyasında Şimali Atlantika Alyansının bölgədə nüvə silahından istifadə imkanları daxil olmaqla hərbi təlimlər keçirdiyi bildirilib. Rusiya Prezidenti Vladimir Putin tərəfindən təsdiq edilən sənəddə Şimali Atlantika Alyansının Arktikanı potensial hərbi əməliyyat teatrı kimi nəzərdən keçirdiyi qeyd olunub. 2035-ci ilədək və 2050-ci ilədək olan dövrü əhatə edən strategiyada hərbi infrastrukturun inkişafı və qoşun qruplaşmasının gücləndirilməsi nəzərdə tutulur. Mart ayında Norveç, Finlandiya və İsveçin şimalında “Cold Response” təlimləri keçirilib, sentyabrda isə Böyük Britaniya, Amerika Birləşmiş Ştatları və Norveç tərəfindən birgə hərbi manevrlər təşkil olunub.",
+    "hashtags": [
+      "#Arktika",
+      "#Rusiya",
+      "#NATO"
+    ],
+    "image_url": null,
+    "source_title": "Nüvə təhlükəsi Arktikaya sıçradı",
+    "visual_keywords": [
+      "arctic landscape",
+      "military exercise",
+      "snow military"
+    ],
+    "highlight": [
+      "Rusiya",
+      "NATO",
+      "Arktika"
+    ],
+    "source_note": "Mənbə: Publika",
+    "link": "https://publika.az/news/dunya/650350.html",
+    "sensitive": true
+  },
+  {
+    "category": "SAĞLAMLIQ",
+    "headline": "Artıq ödənilmiş tibbi sığorta haqlarının geri qaytarılması qaydası dəyişib",
+    "summary": "İcbari tibbi sığorta haqlarının geri qaytarılması proseduru yenilənib. Ödəyici artıq ödənişlə bağlı Dövlət Vergi Xidmətinə müraciət etməlidir.",
+    "caption_text": "İcbari tibbi sığorta haqlarının geri qaytarılması ilə bağlı mexanizmdə dəyişikliklər edilib. Bu sahədə məsul qurum qismində Dövlət Tibbi Sığorta və Ekspertiza Agentliyi təyin olunub. \n\nVətəndaşlar artıq ödəniş aşkar etdikdə vəsaitin qaytarılması üçün müraciət edə bilərlər. Bunun üçün ödəyici İqtisadiyyat Nazirliyi yanında Dövlət Vergi Xidmətinə müraciət etməlidir və vəsait qurumun rəyinə əsasən Dövlət Tibbi Sığorta və Ekspertiza Agentliyi tərəfindən geri qaytarılır.",
+    "voiceover": "Artıq ödənilmiş icbari tibbi sığorta haqlarının geri qaytarılması qaydalarında dəyişiklik edilib. Prosesə məsul qurum olaraq Dövlət Tibbi Sığorta və Ekspertiza Agentliyi müəyyənləşdirilib. Vətəndaşlar artıq ödənişlə bağlı İqtisadiyyat Nazirliyi yanında Dövlət Vergi Xidmətinə müraciət etməlidirlər və vəsait rəyə əsasən geri qaytarılır.",
+    "hashtags": [
+      "#tibbisığorta",
+      "#icbaritibbisığorta",
+      "#DövlətVergiXidməti",
+      "#səhiyyə"
+    ],
+    "image_url": null,
+    "source_title": "Artıq ödənilmiş tibbi sığorta haqları bu qayda ilə geri qaytarılacaq - VİDEO",
+    "visual_keywords": [
+      "insurance documents",
+      "hospital consultation",
+      "medical form"
+    ],
+    "highlight": [
+      "tibbi sığorta haqlarının",
+      "geri qaytarılması"
+    ],
+    "source_note": "Mənbə: Xəzər Xəbər",
+    "link": "https://xezerxeber.az/az/veb-tv/artiq-odenilmis-tibbi-sigorta-haqlari-bu-qayda-ile-geri-qaytarilacaq-vi-deo",
     "sensitive": false
   }
 ]
