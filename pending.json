@@ -15490,26 +15490,73 @@
   "id": "20261126-223244-u",
   "kind": "news",
   "created": "2026-11-26T18:32:44.272145+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "⚡ Kərə yağından sonra duru yağ da bahalaşıb\n\n📊 Oktyabrda Azərbaycanda bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olub.\n\n📈 Ötən ilin oktyabrı ilə müqayisədə hər iki yağ bahalaşıb. Qiymət artımı qarğıdalı yağında daha yüksək olub.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIGFmsIeycy7YWWAVvdnWil3HD2UytgAALJKmsb_7tISD6fzUSIzMJVAQADAgADeAADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda duru yağların qiyməti artıb",
+  "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
+  "caption_text": "Azərbaycanda kərə yağından sonra duru yağların da qiymətində artım müşahidə olunub. Cari ilin oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olaraq qeydə alınıb.\n\nStatistikaya əsasən, ötən ilin müvafiq dövrü ilə müqayisədə hər iki məhsul bahalaşıb. Qiymət artımı xüsusilə qarğıdalı yağında daha yüksək həcmdə özünü büruzə verib.",
+  "voiceover": "Azərbaycanda kərə yağından sonra duru yağların da qiyməti artıb. Oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olub. Ötən ilin oktyabrı ilə müqayisədə hər iki yağ bahalaşıb və qiymət artımı qarğıdalı yağında daha yüksək qeydə alınıb.",
+  "hashtags": [
+   "#duruyağ",
+   "#günəbaxanyağı",
+   "#qarğıdalıyağı",
+   "#qiymətartımı",
+   "#iqtisadiyyat"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "⚡ Kərə yağından sonra duru yağ da bahalaşıb\n\n📊 Oktyabrda Azərbaycanda bir litr günəbaxan y",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "duru yağların",
+   "qiyməti artıb"
+  ],
   "source_note": "",
   "source_title": "⚡ Kərə yağından sonra duru yağ da bahalaşıb\n\n📊 Oktyabrda Azərbaycanda bir litr günəbaxan yağının orta qiyməti 5 manat 27",
   "link": "",
   "sensitive": false,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-26T18:34:09.014899+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda duru yağların qiyməti artıb",
+  "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda duru yağların qiyməti artıb\n\nAzərbaycanda kərə yağından sonra duru yağların da qiymətində artım müşahidə olunub. Cari ilin oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olaraq qeydə alınıb.\n\nStatistikaya əsasən, ötən ilin müvafiq dövrü ilə müqayisədə hər iki məhsul bahalaşıb. Qiymət artımı xüsusilə qarğıdalı yağında daha yüksək həcmdə özünü büruzə verib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #duruyağ #günəbaxanyağı #qarğıdalıyağı #qiymətartımı",
+  "id": "20261126-223244-u-p",
+  "kind": "post",
+  "image": "posts/20261126-223244-u-p.jpg"
+ },
+ {
+  "created": "2026-11-26T18:34:09.014899+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda duru yağların qiyməti artıb",
+  "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda duru yağların qiyməti artıb\n\nAzərbaycanda kərə yağından sonra duru yağların da qiymətində artım müşahidə olunub. Cari ilin oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olaraq qeydə alınıb.\n\nStatistikaya əsasən, ötən ilin müvafiq dövrü ilə müqayisədə hər iki məhsul bahalaşıb. Qiymət artımı xüsusilə qarğıdalı yağında daha yüksək həcmdə özünü büruzə verib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #duruyağ #günəbaxanyağı #qarğıdalıyağı #qiymətartımı",
+  "id": "20261126-223244-u-r",
+  "kind": "reel",
+  "video": "20261126-223244-u-r.mp4",
+  "cover": "20261126-223244-u-r.jpg"
+ },
+ {
+  "created": "2026-11-26T18:34:09.014899+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda duru yağların qiyməti artıb",
+  "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda duru yağların qiyməti artıb\n\nAzərbaycanda kərə yağından sonra duru yağların da qiymətində artım müşahidə olunub. Cari ilin oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olaraq qeydə alınıb.\n\nStatistikaya əsasən, ötən ilin müvafiq dövrü ilə müqayisədə hər iki məhsul bahalaşıb. Qiymət artımı xüsusilə qarğıdalı yağında daha yüksək həcmdə özünü büruzə verib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #duruyağ #günəbaxanyağı #qarğıdalıyağı #qiymətartımı",
+  "id": "20261126-223244-u-s",
+  "kind": "story",
+  "image": "posts/20261126-223244-u-s.jpg"
  }
 ]
