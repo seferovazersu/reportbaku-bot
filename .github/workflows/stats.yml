@@ -1,0 +1,42 @@
+name: Hefteleik statistika
+
+# Hər bazar ertəsi 08:00 (Bakı) avtomatik; əl ilə də işə salmaq olar.
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reportbaku-state
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hesabatı hazırla
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: python run_safe.py stats_report.py
+
+      - name: Qeydi saxla
+        if: always()
+        run: |
+          git config user.name "reportbaku-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if [ -e stats.json ]; then git add stats.json; fi
+          git diff --staged --quiet || git commit -m "statistika"
+          git pull --rebase --autostash
+          git push
