@@ -1,42 +1,42 @@
 [
   {
-    "source": "Trend.az",
-    "title": "Azərbaycanın meyvə-tərəvəz ixracının dəyəri 8% artıb",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://az.trend.az/business/4251141.html",
-    "published": "2026-11-26T15:35:28+00:00"
-  },
-  {
-    "source": "Minval.az",
-    "title": "Трамп снова поверил в скорый мир между Россией и Украиной",
-    "snippet": "Президент США Дональд Трамп считает, что договориться об урегулировании войны между Россией и Украиной можно уже в ближайшее время. Об этом он написал в своей...",
-    "needs_fulltext": false,
-    "link": "https://minval.az/news/124564506",
-    "published": "2026-11-26T15:36:34+00:00"
-  },
-  {
-    "source": "Day.az",
-    "title": "Участники Международного Кавказского конгресса посетили Азербайджанский дом в Ыгдыре",
-    "snippet": "В турецком городе Ыгдыр состоялся Международный Кавказский конгресс на тему \"Возрождение Шелкового пути\". Как передает Day.Az со ссылкой на Trend, об этом сообщили в Государственном комитете по работе с диаспорой Азербайджана.",
-    "needs_fulltext": false,
-    "link": "https://news.day.az/politics/1877412.html",
-    "published": "2026-11-26T15:38:28+00:00"
-  },
-  {
     "source": "Qafqazinfo",
-    "title": "“Interium”: Funksional interyer müştərinin ehtiyaclarını anlamaqla başlayır",
+    "title": "Goranboyda Dövlət Proqramının icrası ilə bağlı monitorinqlər davam edir",
     "snippet": "",
     "needs_fulltext": true,
-    "link": "https://www.qafqazinfo.az/news/detail/interium-funksional-interyer-musterinin-ehtiyaclarini-anlamaqla-baslayir-fotolar-529930",
-    "published": "2026-11-29T05:00:00+00:00"
+    "link": "https://www.qafqazinfo.az/news/detail/goranboyda-dovlet-proqraminin-icrasi-ile-bagli-monitorinqler-davam-edir-fotolar-529927",
+    "published": "2026-11-27T03:30:00+00:00"
   },
   {
     "source": "Sia.az",
-    "title": "BMT: Mərkəzi Asiyada HİV və QİÇS-dən ölüm halları artmaqdadır...",
-    "snippet": "Bu region dünyada həm yeni HİV infeksiyalarının, həm də QİÇS-lə əlaqəli ölüm hallarının sayının 2010-cu illə müqayisədə artdığı yeganə region olaraq qalır...",
+    "title": "Putinin ordusu gözümüzün qabağında əriyib yox olur...",
+    "snippet": "Böyük itkilər Kremlin müqaviləli əsgərləri işə götürmək səylərini sarsıdır...",
+    "needs_fulltext": true,
+    "link": "https://sia.az/az/news/world/1377110.html",
+    "published": "2026-11-26T16:25:00+00:00"
+  },
+  {
+    "source": "Haqqin.az",
+    "title": "Трамп и «Яшар» за одним столом",
+    "snippet": "Вашингтон связался с лидером израильской партии «Яшар» Гади Айзенкотом для организации его встречи с президентом США Дональдом Трампом в случае формирования им нового правительства Израиля...",
     "needs_fulltext": false,
-    "link": "https://sia.az/az/news/world/1377106.html",
-    "published": "2026-11-26T15:27:00+00:00"
+    "link": "https://haqqin.az/newsarchive/399543",
+    "published": "2026-11-26T16:26:03+00:00"
+  },
+  {
+    "source": "Metbuat.az",
+    "title": "“TikTok”da övladınıza nəzarət edə biləcəksiniz",
+    "snippet": "TikTok” platforması yenilənmiş “Ailə ayarları” funksiyasını təqdim edib.Metbuat.az xəbər verir ki, bununla valideynlər öz hesablarını yeniyetmə övladlarının hesabları ilə əlaqələndirəcək, məxfilik parametrlərini idarə edə biləcəklər.Yeniliklər arasında “Ailə parametrləri” funksiyasının imkanlarının...",
+    "needs_fulltext": false,
+    "link": "https://metbuat.az/news/1567614/tiktok-da-ovladiniza-nezaret-ede-bileceksiniz.html",
+    "published": "2026-11-26T16:12:00+00:00"
+  },
+  {
+    "source": "Day.az",
+    "title": "Состоялось очередное заседание Наблюдательного совета SOCAR",
+    "snippet": "26 ноября состоялось очередное заседание Наблюдательного совета SOCAR. Как передает Day.Az со ссылкой на Trend, об этом сообщили в SOCAR.",
+    "needs_fulltext": false,
+    "link": "https://news.day.az/economy/1877419.html",
+    "published": "2026-11-26T16:28:14+00:00"
   }
 ]
