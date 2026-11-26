@@ -1,135 +1,108 @@
 [
   {
-    "category": "SİYASƏT",
-    "headline": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
-    "summary": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə görüş keçirib. Tərəflər əməkdaşlığın inkişafı və prokurorluq orqanları arasında əlaqələrin möhkəmləndirilməsini müzakirə ediblər.",
-    "caption_text": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə bir araya gəlib. Nazirlər Kabinetinin Mətbuat xidmətinin məlumatına əsasən, görüşdə iki ölkə arasındakı strateji tərəfdaşlıq münasibətlərinin inkişafından məmnunluq duyulduğu ifadə olunub.\n\nTədbirdə qarşılıqlı faydalı əməkdaşlığın müxtəlif istiqamətlərdə dərinləşdirilməsi üçün geniş potensialın mövcudluğu vurğulanıb. Prokurorluq orqanlarının əlaqələrinin dinamikası yüksək qiymətləndirilib və əməkdaşlığın möhkəmləndirilməsi imkanları nəzərdən keçirilib. Görüşdə Azərbaycanın Baş prokuroru Kamran Əliyev də iştirak edib.",
-    "voiceover": "Azərbaycanın Baş naziri Əli Əsədov Slovakiyanın Baş prokuroru Maroş Jilinka ilə görüşüb. Görüşdə iki ölkə arasında strateji tərəfdaşlığa əsaslanan münasibətlərin inkişafından məmnunluq ifadə olunub. Tərəflər prokurorluq orqanları arasında əlaqələrin möhkəmləndirilməsi imkanlarını müzakirə ediblər. Tədbirdə Azərbaycanın Baş prokuroru Kamran Əliyev də iştirak edib.",
-    "hashtags": [
-      "#ƏliƏsədov",
-      "#Slovakiya",
-      "#Azərbaycan",
-      "#BaşNazir",
-      "#Prokurorluq"
-    ],
-    "image_url": null,
-    "source_title": "Əli Əsədov Slovakiyanın Baş prokuroru ilə görüşüb",
-    "visual_keywords": [
-      "official meeting",
-      "government building",
-      "men shaking hands"
-    ],
-    "highlight": [
-      "Əli Əsədov",
-      "Slovakiya"
-    ],
-    "source_note": "Mənbə: Day.az",
-    "link": "https://news.day.az/azerinews/1877354.html",
-    "sensitive": false
-  },
-  {
     "category": "HADİSƏ",
-    "headline": "Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrə Döyüş Bayrağı təqdim olundu",
-    "summary": "Dövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının verilməsi münasibətilə təntənəli mərasim təşkil edilib. Tədbirdə Dövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev Döyüş Bayraqlarını hərbi hissələrin rəhbərlərinə təqdim edib.",
-    "caption_text": "Dövlət Sərhəd Xidmətinin \"Qubadlı\" əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının təqdim edilməsi ilə əlaqədar təntənəli mərasim keçirilib. Tədbir Azərbaycan Respublikasının Dövlət Himninin səsləndirilməsi ilə başlayıb və şəhidlərin əziz xatirəsi birdəqiqəlik sükutla yad olunub.\n\nÇıxış edənlər ölkənin ərazi bütövlüyünün və suverenliyinin bərpa olunmasının sərhəd mühafizəsi tarixində yeni mərhələ yaratdığını bildiriblər. Vətən müharibəsində sərhədçilərin keçdikləri döyüş yolu və işğaldan azad edilmiş ərazilərdə görülən genişmiqyaslı işlər diqqətə çatdırılıb.\n\nDövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev doğma torpaqların keşiyində dayanmağın hər bir hərbçinin müqəddəs borcu olduğunu vurğulayıb. Daha sonra hərbi şərəf və sədaqət rəmzi olan Döyüş Bayraqları hərbi hissələrin rəhbərlərinə təhvil verilib.",
-    "voiceover": "Dövlət Sərhəd Xidmətinin Qubadlı əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağının təqdim edilməsi münasibətilə təntənəli mərasim keçirilib. Tədbir Dövlət Himninin səsləndirilməsi ilə başlayıb və şəhidlərin xatirəsi sükutla yad olunub. Dövlət Sərhəd Xidmətinin rəisi general-polkovnik Elçin Quliyev hərbi şərəf, qəhrəmanlıq və sədaqət rəmzi olan Döyüş Bayraqlarını hərbi hissələrin rəhbərlərinə təqdim edib.",
+    "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
+    "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
+    "caption_text": "Bir müddət əvvəl hüquq-mühafizə orqanlarının əməkdaşları tərəfindən saxlanılan tanınmış vəkil Orxan Kəngərlinin barəsində seçilmiş həbs qətimkan tədbirindən verilən şikayət üzrə məhkəmə iclası keçirilib. Xatırladaq ki, onun saxlanılması barədə əvvəllər məlumat yayılmışdı.\n\nMəhkəmədə vəkilin barəsindəki həbs qərarından verilən şikayətə baxılaraq müvafiq qərar verilib. İşin digər təfərrüatları barədə hələlik əlavə məlumat açıqlanmayıb.",
+    "voiceover": "Bir neçə gün əvvəl polis tərəfindən saxlanılan tanınmış vəkil Orxan Kəngərli barəsində olan həbs qərarı ilə bağlı şikayətə baxılıb. Məhkəmə iclasında onun müraciəti üzrə müvafiq qərar qəbul edilib.",
     "hashtags": [
-      "#DövlətSərhədXidməti",
-      "#Qubadlı",
-      "#DöyüşBayrağı",
-      "#DSX"
+      "#OrxanKəngərli",
+      "#məhkəmə",
+      "#vəkil",
+      "#xəbərlər"
     ],
     "image_url": null,
-    "source_title": "“Qubadlı” əlahiddə sərhəd diviziyasına və hərbi hissələrinə Döyüş Bayrağı təqdim edildi",
-    "visual_keywords": [
-      "military ceremony",
-      "state flag",
-      "military personnel"
-    ],
-    "highlight": [
-      "Qubadlı",
-      "Döyüş Bayrağı"
-    ],
-    "source_note": "Mənbə: Publika",
-    "link": "https://publika.az/news/nida_xeber/650311.html",
-    "sensitive": false
-  },
-  {
-    "category": "HADİSƏ",
-    "headline": "Krımda qəza səbəbindən elektrik enerjisinin verilməsi dayandırılıb",
-    "summary": "Krım yarımadasında qəza baş verib və bütün ərazidə elektrik təchizatı kəsilib. Sevastopol da daxil olmaqla işıqların verilməsində fasilə yaranıb.",
-    "caption_text": "Rusiyanın ilhaq etdiyi Krım yarımadasında qeydə alınan qəza nəticəsində bütün bölgəni elektrik enerjisi ilə təmin edən sistem işləməyib. \"Sevastopolenerqo\" və \"Krımenerqo\" şirkətlərinin yaydığı məlumata görə, elektrik təchizatındakı fasiləyə yarımadadan kənarda yerləşən enerji obyektlərində baş verən nasazlıq səbəb olub. Sevastopol şəhəri də daxil olmaqla bütün ərazidə işıqlar söndürülüb.\n\n\"Sevastopolenerqo\" yerli sakinlərə müraciət edərək enerji verilişi bərpa olunanadək evlərdəki elektrik cihazlarını şəbəkədən ayırmağı tövsiyə edib. Qurumlar qəzanın fəsadlarının aradan qaldırılması və elektrik enerjisinin verilişinin tezliklə bərpası istiqamətində işlər aparır.",
-    "voiceover": "Krım yarımadasında baş verən qəza səbəbindən bütün ərazidə elektrik enerjisinin verilməsi dayandırılıb. \"Sevastopolenerqo\" və \"Krımenerqo\" şirkətlərinin məlumatına görə, Sevastopol da daxil olmaqla işıqların kəsilməsinə yarımadadan kənarda yerləşən enerji obyektlərindəki qəza səbəb olub. Sakinlərə elektrik cihazlarını şəbəkədən ayırmaq tövsiyə edilib və enerjinin bərpası üçün tədbirlər görülür.",
-    "hashtags": [
-      "#Krım",
-      "#Sevastopol",
-      "#elektrik",
-      "#qəza"
-    ],
-    "image_url": null,
-    "source_title": "Krım yarımadası qaranlığa qərq olub",
+    "source_title": "Vəkil Orxan Kəngərli ilə bağlı məhkəmədən qərar",
     "visual_keywords": [],
     "highlight": [
-      "Krım"
+      "Orxan Kəngərli"
     ],
-    "source_note": "Mənbə: Xəzər Xəbər",
-    "link": "https://xezerxeber.az/az/dunya/krim-yarimadasi-qaranliga-qerq-olub",
+    "source_note": "Mənbə: Oxu.az",
+    "link": "https://oxu.az/cemiyyet/orxan-kengerlinin-sikayetini-mehkeme-temin-etmedi",
     "sensitive": true
   },
   {
     "category": "CƏMİYYƏT",
-    "headline": "Dərsliklərdəki xarici mətnlərin plagiat olmadığı bildirilib",
-    "summary": "Azərbaycan dili dərsliklərində xarici mətnlərin uyğunlaşdırılması plagiat hesab edilə bilməz. Layihə rəhbəri Zaur İsayev mətnlərin pedaqoji və metodik tələblərə uyğunlaşdırıldığını qeyd edib.",
-    "caption_text": "Azərbaycan dili dərsliklərində yer alan xarici mətnlərin uyğunlaşdırılması plagiat kimi qiymətləndirilə bilməz. Bu barədə riyaziyyat dərsliklərinin layihə rəhbəri və həmmüəllifi Zaur İsayev məlumat verib.\n\nOnun sözlərinə görə, dərsliklərə daxil edilən materiallar müəyyən pedaqoji və metodik tələbləri qarşılamalıdır. Zaur İsayev bildirib ki, bədii əsərlərin seçilməsi ilə yanaşı, onların şagirdlərin yaş səviyyəsinə və tədris məqsədlərinə uyğunlaşdırılması da vacibdir. Müzakirə olunan bəzi mətnlərin əsasında müxtəlif ölkələrdə yayılan hadisə və süjetlər dayanır. Yazıçılar həmin süjetləri bədii şəkildə işləyərək obrazlar, xarakterlər və əlavə detallar vasitəsilə əsərə çevirirlər. Mətnlər tədris məqsədlərinə uyğunlaşdırılaraq şagirdlər üçün daha anlaşıqlı formaya salınır. Qeyd edək ki, bir müddətdir Azərbaycan dili dərsliklərində xarici mətnlərin plagiat olması ilə bağlı müzakirələr aparılır.",
-    "voiceover": "Azərbaycan dili dərsliklərində xarici mətnlərin uyğunlaşdırılması plagiat hesab edilə bilməz. Riyaziyyat dərsliklərinin layihə rəhbəri və həmmüəllifi Zaur İsayev bildirib ki, dərsliklərə daxil edilən mətnlər müəyyən pedaqoji və metodik tələblərə cavab verməlidir. O qeyd edib ki, müxtəlif ölkələrdə yayılan süjetlərin şagirdlərin yaş səviyyəsinə uyğunlaşdırılmasını plagiat kimi qiymətləndirmək düzgün deyil.",
+    "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
+    "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
+    "caption_text": "Fövqəladə Hallar Nazirliyinin Dövlət Yanğından Mühafizə Xidmətinin Sumqayıt Yanğından Mühafizə İdarəsi tərəfindən Karvan ticarət mərkəzində təlim təşkil olunub. Fövqəladə Hallar Nazirliyinin müvafiq qüvvə və texnikasının cəlb edildiyi tədbirə polis və təcili tibbi yardım xidmətinin əməkdaşları da qoşulub.\n\nTəlimin nəzəri hissəsində işçilərə yanğın və digər fövqəladə hallarda təxliyyə qaydaları barədə məlumat verilib. Həyəcan siqnalından sonra başlayan praktiki mərhələdə isə şərti yanğın söndürülüb, işçilər təhlükəsiz zona evakuasiya olunub və şərti zərərçəkənlərə ilkin tibbi yardım göstərilib.",
+    "voiceover": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbirdə məqsəd işçi heyətinə fövqəladə hallar zamanı davranış qaydalarını öyrətmək və yanğınsöndürmə bölmələrinin çevikliyini artırmaq olub. Polis və təcili tibbi yardım əməkdaşlarının da qatıldığı tədbirdə nəzəri biliklər verilib, şərti yanğın zamanı təxliyyə və ilkin tibbi yardım tədbirləri icra edilib.",
     "hashtags": [
-      "#AzərbaycanDili",
-      "#Dərslik",
-      "#Zaurİsayev",
-      "#Təhsil"
+      "#Sumqayıt",
+      "#FHN",
+      "#KarvanTicarətMərkəzi",
+      "#Təlim"
     ],
     "image_url": null,
-    "source_title": "Azərbaycan dili dərsliklərində xarici mətnlərin uyğunlaşdırılmasının plagiat olması ilə bağlı fikirlərə münasibət bildirilib",
+    "source_title": "Сотрудники МЧС зашли в торговый центр Karvan и...",
     "visual_keywords": [
-      "school textbooks",
-      "students classroom",
-      "reading book"
+      "firefighters training",
+      "shopping mall interior",
+      "emergency rescue"
     ],
     "highlight": [
-      "Dərsliklərdəki xarici mətnlərin",
-      "plagiat"
+      "Sumqayıtda",
+      "Karvan",
+      "təlim"
     ],
-    "source_note": "Mənbə: APA",
-    "link": "https://apa.az/science-and-education/azerbaycan-dili-dersliklerinde-xarici-metnlerin-uygunlasdirilmasinin-plagiat-olmasi-ile-bagli-fikirlere-munasibet-bildirilib-1017569",
+    "source_note": "Mənbə: Haqqin.az",
+    "link": "https://haqqin.az/newsarchive/399511",
+    "sensitive": false
+  },
+  {
+    "category": "SİYASƏT",
+    "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
+    "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
+    "caption_text": "İspaniyanın Baş naziri Pedro Sançes qarşıdakı Avropa İttifaqı sammitində iştirak edə bilməyəcək. Buna səbəb ölkəsində noyabrın 29-da keçiriləcək növbədənkənar parlament seçkiləridir. \n\nMəlumata görə, İspaniya hökumət başçısı Brüsseldə baş tutacaq tədbirdə ölkəsini təmsil etmək səlahiyyətini Fransa Prezidenti Emmanuel Makrona həvalə edib. Qərarın iki lider arasındakı yaxın şəxsi münasibətlər və güclü siyasi əlaqələr fonunda verildiyi bildirilib.",
+    "voiceover": "İspaniyanın Baş naziri Pedro Sançes noyabrın 26-27 tarixlərində keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidenti Emmanuel Makrona verib. Buna səbəb İspaniyada noyabrın 29-da növbədənkənar parlament seçkilərinin keçirilməsidir. Xatırladaq ki, İspaniyanın Baş naziri oktyabrın 5-də parlamentin buraxıldığını elan etmişdi.",
+    "hashtags": [
+      "#İspaniya",
+      "#Fransa",
+      "#Avropaİttifaqı",
+      "#PedroSançes",
+      "#EmmanuelMakron"
+    ],
+    "image_url": null,
+    "source_title": "Ölkəsini sammitdə özü yox, Makron təmsil edəcək",
+    "visual_keywords": [
+      "European Union summit building",
+      "politicians meeting",
+      "Brussels flags"
+    ],
+    "highlight": [
+      "Sançes",
+      "Aİ",
+      "Makron"
+    ],
+    "source_note": "Mənbə: Qafqazinfo",
+    "link": "https://www.qafqazinfo.az/news/detail/olkesini-sammitde-ozu-yox-makron-temsil-edecek-529908",
     "sensitive": false
   },
   {
     "category": "İQTİSADİYYAT",
-    "headline": "Vergi qanunvericiliyinin təkmilləşdirilməsi ilə bağlı sahibkarlarla görüş olub",
-    "summary": "İqtisadiyyat Nazirliyi yanında Dövlət Vergi Xidmətində iş adamları ilə görüş keçirilib. Tədbirdə vergi qanunvericiliyinin tətbiqi və sahibkarların təklifləri müzakirə olunub.",
-    "caption_text": "İqtisadiyyat Nazirliyi yanında Dövlət Vergi Xidmətində İş Adamları Cəmiyyətinin Milli Assosiasiyasının nümayəndələri ilə görüş təşkil edilib. Vergi siyasəti baş idarəsinin əməkdaşlarının da qatıldığı tədbirdə tənzimləmələr nəzərdən keçirilib.\n\nİştirakçılar vergi qanunvericiliyinin tətbiqi, kameral yoxlamalar və bəyannamələrin təqdim olunması zamanı yaranan çətinlikləri müzakirə ediblər. Assosiasiya təmsilçiləri bu cür tədbirlərin biznes mühitindəki çağırışların operativ şəkildə həllində əhəmiyyətli olduğunu qeyd ediblər.\n\nYekunda dövlət və biznes qurumları arasındakı əməkdaşlığın genişləndirilməsi, həmçinin vergi qanunvericiliyinin təkmilləşdirilməsi istiqamətində sahibkarların rəylərinin öyrənilməsi məqsədilə müzakirələrin davam etdiriləcəyi açıqlanıb.",
-    "voiceover": "İqtisadiyyat Nazirliyi yanında Dövlət Vergi Xidmətində sahibkarlarla görüş keçirilib. Tədbirdə vergi qanunvericiliyinin tətbiqi, kameral yoxlamalar və bəyannamələrin təqdim edilməsi zamanı yaranan çətinliklər müzakirə olunub. İş adamları bu cür görüşlərin biznes mühitindəki çağırışların həllində mühüm əhəmiyyət daşıdığını vurğulayıblar. Yekunda dövlət-biznes əməkdaşlığının genişləndirilməsi məqsədilə müzakirələrin davam etdiriləcəyi bildirilib.",
+    "headline": "Murat Ülker Bakıda “Azersun Holding”in rəhbərliyi ilə görüşüb",
+    "summary": "Türkiyəli iş adamı Murat Ülker Bakı səfəri zamanı “Azersun Holding”in rəhbər heyəti ilə bir araya gəlib. Görüşlərdə ikitərəfli əməkdaşlığın nəticələri dəyərləndirilib və strateji hədəflər müzakirə olunub.",
+    "caption_text": "Türkiyəli tanınmış iş adamı Murat Ülker Bakıya səfəri çərçivəsində “Azersun Holding”in qonağı olub. İki günlük səfər ərzində “Azersun Holding”in Baş İcraçı Direktoru Savaş Uzan və rəhbər heyətlə keçirilən görüşlərdə mövcud əməkdaşlığın nəticələri nəzərdən keçirilib, tərəfdaşlığın inkişaf perspektivləri və gələcək strateji hədəflər müzakirə edilib.\n\nSəfər proqramı çərçivəsində Murat Ülker üçün bazar ziyarəti də təşkil edilib. Ziyarət zamanı yerli pərakəndə satış sektorundakı vəziyyət və “Ülker” məhsullarının bazarda təmsil olunması ilə tanışlıq baş tutub. Xatırladaq ki, “Azersun Holding” və “Ülker” arasında tərəfdaşlıq 2019-cu ildən etibarən davam edir və holdinq brendin ölkə ərazisində rəsmi distribütorudur.",
+    "voiceover": "Türkiyəli iş adamı Murat Ülker Bakı səfəri çərçivəsində “Azersun Holding”in rəhbərliyi ilə görüşüb. İki günlük səfər zamanı tərəflər mövcud əməkdaşlığın nəticələrini dəyərləndirib, inkişaf perspektivləri və strateji hədəfləri müzakirə ediblər. Murat Ülker həmçinin bazar ziyarəti edərək yerli pərakəndə satış sektorundakı vəziyyətlə tanış olub. Qeyd edək ki, iki qurum arasında tərəfdaşlıq 2019-cu ildən davam edir.",
     "hashtags": [
-      "#VergiXidməti",
-      "#İqtisadiyyatNazirliyi",
-      "#Sahibkarlar",
-      "#Biznes",
-      "#VergiQanunvericiliyi"
+      "#MuratÜlker",
+      "#AzersunHolding",
+      "#İqtisadiyyat",
+      "#Bakı"
     ],
     "image_url": null,
-    "source_title": "Vergi qanunvericiliyinin təkmilləşdirilməsi ilə bağlı iş adamları ilə görüş keçirilib",
+    "source_title": "Murat Ülker “Azersun Holding”in rəhbərliyi ilə görüşdü",
     "visual_keywords": [
       "business meeting",
-      "office presentation",
-      "tax consultation"
+      "corporate office",
+      "market shelves"
     ],
     "highlight": [
-      "Vergi qanunvericiliyinin",
-      "sahibkarlarla",
-      "görüş"
+      "Murat Ülker",
+      "Azersun Holding"
     ],
-    "source_note": "Mənbə: Sia.az",
-    "link": "https://sesqazeti.az/news/economy/1377114.html",
+    "source_note": "Mənbə: Metbuat.az",
+    "link": "https://metbuat.az/news/1567605/murat-ulker-azersun-holding-in-rehberliyi-ile-gorusdu.html",
     "sensitive": false
   }
 ]
