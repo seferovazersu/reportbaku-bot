@@ -14155,14 +14155,9 @@
   "id": "20261126-165958-01",
   "kind": "news",
   "created": "2026-11-26T12:59:58.927106+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFoWsILzrPvaLYvtWiAAHC3YiJC7SKUAACkShrG_-7SEjIbMv58G77wAEAAwIAA3kAAz0E",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "HADİSƏ",
   "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
   "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
@@ -14181,32 +14176,16 @@
   "source_title": "Vəkil Orxan Kəngərli ilə bağlı məhkəmədən qərar",
   "link": "https://oxu.az/cemiyyet/orxan-kengerlinin-sikayetini-mehkeme-temin-etmedi",
   "sensitive": true,
-  "card_id": 1438
+  "card_id": 1438,
+  "raw_text": ""
  },
  {
   "id": "20261126-165958-02",
   "kind": "news",
   "created": "2026-11-26T12:59:58.927106+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFomsIL33dI0d4pqwGEIpRq4NXfBztAAKSKGsb_7tISBu4opTXn9DmAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIFo2sIL30WMxgQKNrB3M7JaliIQ94GAAKTKGsb_7tISNyBKb2iyEnpAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIFpGsIL30qywV4ROEd9cr34UcLpxrtAAKUKGsb_7tISHYzVs6UOurKAQADAgADeQADPQQ",
-    "type": "photo"
-   },
-   {
-    "file_id": "AgACAgIAAxkBAAIFpWsIL30RyAAB3x1sbvzOMqtWl0rdlwAClShrG_-7SEgvJlv6hAYQxwEAAwIAA3kAAz0E",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "CƏMİYYƏT",
   "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
   "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
@@ -14230,20 +14209,16 @@
   "card_id": 1439,
   "groups": [
    "14365588460451546"
-  ]
+  ],
+  "raw_text": ""
  },
  {
   "id": "20261126-165958-03",
   "kind": "news",
   "created": "2026-11-26T12:59:58.927106+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFpmsIL6CmVp4Dw-CljgJ7_G3HvyUlAAKWKGsb_7tISMazCwERfs4WAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "SİYASƏT",
   "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
   "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
@@ -14265,6 +14240,153 @@
   "source_title": "Ölkəsini sammitdə özü yox, Makron təmsil edəcək",
   "link": "https://www.qafqazinfo.az/news/detail/olkesini-sammitde-ozu-yox-makron-temsil-edecek-529908",
   "sensitive": false,
-  "card_id": 1440
+  "card_id": 1440,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-26T13:32:51.962678+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
+  "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/cemiyyet/orxan-kengerlinin-sikayetini-mehkeme-temin-etmedi",
+  "sensitive": true,
+  "caption": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb\n\nBir müddət əvvəl hüquq-mühafizə orqanlarının əməkdaşları tərəfindən saxlanılan tanınmış vəkil Orxan Kəngərlinin barəsində seçilmiş həbs qətimkan tədbirindən verilən şikayət üzrə məhkəmə iclası keçirilib. Xatırladaq ki, onun saxlanılması barədə əvvəllər məlumat yayılmışdı.\n\nMəhkəmədə vəkilin barəsindəki həbs qərarından verilən şikayətə baxılaraq müvafiq qərar verilib. İşin digər təfərrüatları barədə hələlik əlavə məlumat açıqlanmayıb.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #OrxanKəngərli #məhkəmə #vəkil #xəbərlər",
+  "id": "20261126-165958-01-p",
+  "kind": "post",
+  "image": "posts/20261126-165958-01-p.jpg"
+ },
+ {
+  "created": "2026-11-26T13:32:51.962678+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
+  "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/cemiyyet/orxan-kengerlinin-sikayetini-mehkeme-temin-etmedi",
+  "sensitive": true,
+  "caption": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb\n\nBir müddət əvvəl hüquq-mühafizə orqanlarının əməkdaşları tərəfindən saxlanılan tanınmış vəkil Orxan Kəngərlinin barəsində seçilmiş həbs qətimkan tədbirindən verilən şikayət üzrə məhkəmə iclası keçirilib. Xatırladaq ki, onun saxlanılması barədə əvvəllər məlumat yayılmışdı.\n\nMəhkəmədə vəkilin barəsindəki həbs qərarından verilən şikayətə baxılaraq müvafiq qərar verilib. İşin digər təfərrüatları barədə hələlik əlavə məlumat açıqlanmayıb.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #OrxanKəngərli #məhkəmə #vəkil #xəbərlər",
+  "id": "20261126-165958-01-r",
+  "kind": "reel",
+  "video": "20261126-165958-01-r.mp4",
+  "cover": "20261126-165958-01-r.jpg"
+ },
+ {
+  "created": "2026-11-26T13:32:51.962678+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb",
+  "summary": "Bir neçə gün əvvəl polis tərəfindən saxlanılan vəkil Orxan Kəngərlinin həbs qərarından şikayəti araşdırılıb. Məhkəmə instansiyasında onun müraciəti üzrə qərar qəbul olunub.",
+  "source_note": "Mənbə: Oxu.az",
+  "link": "https://oxu.az/cemiyyet/orxan-kengerlinin-sikayetini-mehkeme-temin-etmedi",
+  "sensitive": true,
+  "caption": "Vəkil Orxan Kəngərli barəsində həbs qərarından verilən şikayətə baxılıb\n\nBir müddət əvvəl hüquq-mühafizə orqanlarının əməkdaşları tərəfindən saxlanılan tanınmış vəkil Orxan Kəngərlinin barəsində seçilmiş həbs qətimkan tədbirindən verilən şikayət üzrə məhkəmə iclası keçirilib. Xatırladaq ki, onun saxlanılması barədə əvvəllər məlumat yayılmışdı.\n\nMəhkəmədə vəkilin barəsindəki həbs qərarından verilən şikayətə baxılaraq müvafiq qərar verilib. İşin digər təfərrüatları barədə hələlik əlavə məlumat açıqlanmayıb.\n\nMənbə: Oxu.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #OrxanKəngərli #məhkəmə #vəkil #xəbərlər",
+  "id": "20261126-165958-01-s",
+  "kind": "story",
+  "image": "posts/20261126-165958-01-s.jpg"
+ },
+ {
+  "created": "2026-11-26T13:33:39.061181+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
+  "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399511",
+  "sensitive": false,
+  "caption": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib\n\nFövqəladə Hallar Nazirliyinin Dövlət Yanğından Mühafizə Xidmətinin Sumqayıt Yanğından Mühafizə İdarəsi tərəfindən Karvan ticarət mərkəzində təlim təşkil olunub. Fövqəladə Hallar Nazirliyinin müvafiq qüvvə və texnikasının cəlb edildiyi tədbirə polis və təcili tibbi yardım xidmətinin əməkdaşları da qoşulub.\n\nTəlimin nəzəri hissəsində işçilərə yanğın və digər fövqəladə hallarda təxliyyə qaydaları barədə məlumat verilib. Həyəcan siqnalından sonra başlayan praktiki mərhələdə isə şərti yanğın söndürülüb, işçilər təhlükəsiz zona evakuasiya olunub və şərti zərərçəkənlərə ilkin tibbi yardım göstərilib.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sumqayıt #FHN #KarvanTicarətMərkəzi #Təlim",
+  "id": "20261126-165958-02-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261126-165958-02-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-165958-02-c2.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-165958-02-c3.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261126-165958-02-c4.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-26T13:33:39.061181+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
+  "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399511",
+  "sensitive": false,
+  "caption": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib\n\nFövqəladə Hallar Nazirliyinin Dövlət Yanğından Mühafizə Xidmətinin Sumqayıt Yanğından Mühafizə İdarəsi tərəfindən Karvan ticarət mərkəzində təlim təşkil olunub. Fövqəladə Hallar Nazirliyinin müvafiq qüvvə və texnikasının cəlb edildiyi tədbirə polis və təcili tibbi yardım xidmətinin əməkdaşları da qoşulub.\n\nTəlimin nəzəri hissəsində işçilərə yanğın və digər fövqəladə hallarda təxliyyə qaydaları barədə məlumat verilib. Həyəcan siqnalından sonra başlayan praktiki mərhələdə isə şərti yanğın söndürülüb, işçilər təhlükəsiz zona evakuasiya olunub və şərti zərərçəkənlərə ilkin tibbi yardım göstərilib.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sumqayıt #FHN #KarvanTicarətMərkəzi #Təlim",
+  "id": "20261126-165958-02-r",
+  "kind": "reel",
+  "video": "20261126-165958-02-r.mp4",
+  "cover": "20261126-165958-02-r.jpg"
+ },
+ {
+  "created": "2026-11-26T13:33:39.061181+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib",
+  "summary": "Fövqəladə Hallar Nazirliyinin qurumları Sumqayıtda yerləşən Karvan ticarət mərkəzində təlim keçirib. Tədbir zamanı işçi heyətinə fövqəladə hallar zamanı davranış qaydaları izah olunub və praktiki məşqlər yerinə yetirilib.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399511",
+  "sensitive": false,
+  "caption": "Sumqayıtda Karvan ticarət mərkəzində təlim keçirilib\n\nFövqəladə Hallar Nazirliyinin Dövlət Yanğından Mühafizə Xidmətinin Sumqayıt Yanğından Mühafizə İdarəsi tərəfindən Karvan ticarət mərkəzində təlim təşkil olunub. Fövqəladə Hallar Nazirliyinin müvafiq qüvvə və texnikasının cəlb edildiyi tədbirə polis və təcili tibbi yardım xidmətinin əməkdaşları da qoşulub.\n\nTəlimin nəzəri hissəsində işçilərə yanğın və digər fövqəladə hallarda təxliyyə qaydaları barədə məlumat verilib. Həyəcan siqnalından sonra başlayan praktiki mərhələdə isə şərti yanğın söndürülüb, işçilər təhlükəsiz zona evakuasiya olunub və şərti zərərçəkənlərə ilkin tibbi yardım göstərilib.\n\nMənbə: Haqqin.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #Sumqayıt #FHN #KarvanTicarətMərkəzi #Təlim",
+  "id": "20261126-165958-02-s",
+  "kind": "story",
+  "image": "posts/20261126-165958-02-s.jpg"
+ },
+ {
+  "created": "2026-11-26T13:34:39.077496+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
+  "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/olkesini-sammitde-ozu-yox-makron-temsil-edecek-529908",
+  "sensitive": false,
+  "caption": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib\n\nİspaniyanın Baş naziri Pedro Sançes qarşıdakı Avropa İttifaqı sammitində iştirak edə bilməyəcək. Buna səbəb ölkəsində noyabrın 29-da keçiriləcək növbədənkənar parlament seçkiləridir. \n\nMəlumata görə, İspaniya hökumət başçısı Brüsseldə baş tutacaq tədbirdə ölkəsini təmsil etmək səlahiyyətini Fransa Prezidenti Emmanuel Makrona həvalə edib. Qərarın iki lider arasındakı yaxın şəxsi münasibətlər və güclü siyasi əlaqələr fonunda verildiyi bildirilib.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #İspaniya #Fransa #Avropaİttifaqı #PedroSançes",
+  "id": "20261126-165958-03-p",
+  "kind": "post",
+  "image": "posts/20261126-165958-03-p.jpg"
+ },
+ {
+  "created": "2026-11-26T13:34:39.077496+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
+  "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/olkesini-sammitde-ozu-yox-makron-temsil-edecek-529908",
+  "sensitive": false,
+  "caption": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib\n\nİspaniyanın Baş naziri Pedro Sançes qarşıdakı Avropa İttifaqı sammitində iştirak edə bilməyəcək. Buna səbəb ölkəsində noyabrın 29-da keçiriləcək növbədənkənar parlament seçkiləridir. \n\nMəlumata görə, İspaniya hökumət başçısı Brüsseldə baş tutacaq tədbirdə ölkəsini təmsil etmək səlahiyyətini Fransa Prezidenti Emmanuel Makrona həvalə edib. Qərarın iki lider arasındakı yaxın şəxsi münasibətlər və güclü siyasi əlaqələr fonunda verildiyi bildirilib.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #İspaniya #Fransa #Avropaİttifaqı #PedroSançes",
+  "id": "20261126-165958-03-r",
+  "kind": "reel",
+  "video": "20261126-165958-03-r.mp4",
+  "cover": "20261126-165958-03-r.jpg"
+ },
+ {
+  "created": "2026-11-26T13:34:39.077496+00:00",
+  "status": "pending",
+  "category": "SİYASƏT",
+  "headline": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib",
+  "summary": "İspaniyanın Baş naziri noyabrın 26-27-də keçiriləcək Avropa İttifaqı sammitində iştirak etməyəcək. O, ölkəsini təmsil etmək səlahiyyətini Fransa Prezidentinə verib.",
+  "source_note": "Mənbə: Qafqazinfo",
+  "link": "https://www.qafqazinfo.az/news/detail/olkesini-sammitde-ozu-yox-makron-temsil-edecek-529908",
+  "sensitive": false,
+  "caption": "Sançes Aİ sammitində ölkəsini təmsil etməyi Makrona həvalə edib\n\nİspaniyanın Baş naziri Pedro Sançes qarşıdakı Avropa İttifaqı sammitində iştirak edə bilməyəcək. Buna səbəb ölkəsində noyabrın 29-da keçiriləcək növbədənkənar parlament seçkiləridir. \n\nMəlumata görə, İspaniya hökumət başçısı Brüsseldə baş tutacaq tədbirdə ölkəsini təmsil etmək səlahiyyətini Fransa Prezidenti Emmanuel Makrona həvalə edib. Qərarın iki lider arasındakı yaxın şəxsi münasibətlər və güclü siyasi əlaqələr fonunda verildiyi bildirilib.\n\nMənbə: Qafqazinfo\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #siyasət #İspaniya #Fransa #Avropaİttifaqı #PedroSançes",
+  "id": "20261126-165958-03-s",
+  "kind": "story",
+  "image": "posts/20261126-165958-03-s.jpg"
  }
 ]
