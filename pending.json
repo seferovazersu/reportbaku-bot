@@ -15612,7 +15612,7 @@
  },
  {
   "created": "2026-11-26T18:40:40.996888+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İDMAN",
   "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
   "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
@@ -15623,11 +15623,14 @@
   "id": "20261126-223721-u-r",
   "kind": "reel",
   "video": "20261126-223721-u-r.mp4",
-  "cover": "20261126-223721-u-r.jpg"
+  "cover": "20261126-223721-u-r.jpg",
+  "published_at": "2026-11-26T18:43:10.374767+00:00",
+  "instagram_id": "18352480153255949",
+  "permalink": "https://www.instagram.com/reel/DgNxkaZpRoz/"
  },
  {
   "created": "2026-11-26T18:40:40.996888+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İDMAN",
   "headline": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb",
   "summary": "Batumidə keçirilən matçda Türkiyə klubunun azarkeşləri Fələstin bayrağı qaldırırdıqdan sonra polis müdaxilə edib. Gərginlik səbəbindən oyun müvəqqəti dayandırılıb.",
@@ -15637,6 +15640,9 @@
   "caption": "Beşiktaş və Hapoel Beer-Şeva matçında Fələstin bayrağı insidenti yaşanıb\n\nGürcüstanın Batumi şəhərində baş tutan UEFA Avropa Liqasının V turunun \"Beşiktaş\" və \"Hapoel Beer-Şeva\" qarşılaşmasında insident qeydə alınıb. Türkiyə təmsilçisinin tərəfdarları tribunada Fələstin bayrağı açdıqdan sonra polis sərt tədbirlər görüb və bibər qazı tətbiq olunub. Oyunun 25-ci dəqiqəsində artan gərginlik səbəbindən hakimlər soyunub-geyinmə otağına yollanıblar. Hadisə zamanı \"Beşiktaş\" azarkeşlərindən biri xərəklə təcili tibbi yardım maşınına aparılıb, futbolçular isə tərəfdarları sakitləşdirməyə çalışıblar. Məlumatlara görə, stadion ətrafında da azarkeşlərə qarşı zor tətbiq edilib və bəziləri huşunu itirənədək döyülüb. Həmçinin matçdan əvvəl \"Beşiktaş\" oyunçularının rəqib komanda ilə əl sıxmadığı bildirilib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #Beşiktaş #HapoelBeerŞeva #AvropaLiqası #Batumi",
   "id": "20261126-223721-u-s",
   "kind": "story",
-  "image": "posts/20261126-223721-u-s.jpg"
+  "image": "posts/20261126-223721-u-s.jpg",
+  "published_at": "2026-11-26T18:43:26.468595+00:00",
+  "instagram_id": "18115141667520239",
+  "permalink": ""
  }
 ]
