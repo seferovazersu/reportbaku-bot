@@ -13341,7 +13341,12 @@
   "created": "2026-11-26T06:24:05.004178+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIFK2sH1L6SR3jLm2LxaDsl0QoPec8RAALJHWsb_7tASHgeF9LOxtB7AQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "HADİSƏ",
   "headline": "Yevlaxda ağır qəza: TIR mikroavtobusla toqquşub, ölənlər var",
   "summary": "Yevlax rayonunda yük avtomobili ilə mikroavtobusun toqquşması nəticəsində iki nəfər həyatını itirib. Qəza zamanı bir nəfər də xəsarət alaraq xəstəxanaya yerləşdirilib.",
