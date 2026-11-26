@@ -15532,7 +15532,7 @@
  },
  {
   "created": "2026-11-26T18:34:09.014899+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanda duru yağların qiyməti artıb",
   "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
@@ -15543,11 +15543,14 @@
   "id": "20261126-223244-u-r",
   "kind": "reel",
   "video": "20261126-223244-u-r.mp4",
-  "cover": "20261126-223244-u-r.jpg"
+  "cover": "20261126-223244-u-r.jpg",
+  "published_at": "2026-11-26T18:36:20.226513+00:00",
+  "instagram_id": "18184287100431561",
+  "permalink": "https://www.instagram.com/reel/DgNwyr3BC9Z/"
  },
  {
   "created": "2026-11-26T18:34:09.014899+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanda duru yağların qiyməti artıb",
   "summary": "Ölkədə kərə yağından sonra günəbaxan və qarğıdalı yağlarının da qiymətində bahalaşma qeydə alınıb. Oktyabr ayında bir litr günəbaxan yağı 5 manat 27 qəpik, qarğıdalı yağı isə 6 manat 92 qəpik təşkil edib.",
@@ -15557,6 +15560,9 @@
   "caption": "Azərbaycanda duru yağların qiyməti artıb\n\nAzərbaycanda kərə yağından sonra duru yağların da qiymətində artım müşahidə olunub. Cari ilin oktyabr ayında bir litr günəbaxan yağının orta qiyməti 5 manat 27 qəpik, bir litr qarğıdalı yağının orta qiyməti isə 6 manat 92 qəpik olaraq qeydə alınıb.\n\nStatistikaya əsasən, ötən ilin müvafiq dövrü ilə müqayisədə hər iki məhsul bahalaşıb. Qiymət artımı xüsusilə qarğıdalı yağında daha yüksək həcmdə özünü büruzə verib.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #duruyağ #günəbaxanyağı #qarğıdalıyağı #qiymətartımı",
   "id": "20261126-223244-u-s",
   "kind": "story",
-  "image": "posts/20261126-223244-u-s.jpg"
+  "image": "posts/20261126-223244-u-s.jpg",
+  "published_at": "2026-11-26T18:36:27.222212+00:00",
+  "instagram_id": "18648114952007001",
+  "permalink": ""
  }
 ]
