@@ -13431,5 +13431,89 @@
   "link": "https://haqqin.az/newsarchive/399453",
   "sensitive": true,
   "card_id": 1322
+ },
+ {
+  "id": "20261126-121835-01",
+  "kind": "news",
+  "created": "2026-11-26T08:18:35.564777+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Ermənistan ABŞ ilə səhmdar sazişini təsdiqlədi",
+  "summary": "Ermənistan hökuməti ABŞ ilə \"TRIPP Development Company\"nin yaradılmasına dair sazişi təsdiqləyib. Layihə çərçivəsində nəzarət zərfi ABŞ tərəfinə məxsus olacaq.",
+  "caption_text": "Ermənistan hökuməti \"TRIPP Development Company\" səhmdar sazişini təsdiqləyib. Ermənistanın ərazi idarəetməsi və infrastrukturlar nazirinin müavini Kristine Qaleçyanın məlumatına görə, şirkətin direktorlar şurası 5 nəfərdən ibarət olacaq, onlardan 2-ni erməni tərəfi, 3-nü isə amerikalı tərəf təyin edəcək. Sənəddə həmçinin investisiyalar, kadr təyinatları və digər əsas istiqamətlər üzrə qərarların hər iki tərəfin razılığı ilə qəbul edilməsi nəzərdə tutulub. Ermənistanın baş naziri Nikol Paşinyanın sözlərinə görə, səhmlərin 74 faizi ABŞ tərəfinə, 26 faizi isə Ermənistana məxsus olacaq. Saziş bir həftə ərzində imzalanacaq və müəssisə qeydiyyatdan keçəcək.",
+  "voiceover": "Ermənistan hökuməti Birləşmiş Ştatlar ilə səhmdar sazişini təsdiqləyib. Baş nazir Nikol Paşinyanın sözlərinə görə, layihə üzrə səhmlərin yetmiş dörd faizi ABŞ tərəfinə, iyirmi altı faizi isə Ermənistana məxsus olacaq. Sazişin bir həftə ərzində imzalanacağı və müəssisənin qeydiyyatdan keçəcəyi bildirilib.",
+  "hashtags": [
+   "#Ermənistan",
+   "#ABŞ",
+   "#İqtisadiyyat",
+   "#TRIPP"
+  ],
+  "highlight": [
+   "Ermənistan",
+   "ABŞ"
+  ],
+  "source_note": "Mənbə: Haqqin.az",
+  "source_title": "Армения одобрила сделку с США",
+  "link": "https://haqqin.az/newsarchive/399470",
+  "sensitive": false,
+  "card_id": 1327
+ },
+ {
+  "id": "20261126-121835-02",
+  "kind": "news",
+  "created": "2026-11-26T08:18:35.564777+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "SİYASƏT",
+  "headline": "Ermənistanda TRIPP layihəsi üçün yeni şirkət yaradılır",
+  "summary": "Ermənistan hökuməti TRIPP layihəsinin reallaşdırılması məqsədilə səhmdar cəmiyyətinin yaradılması sazişini təsdiqləyib. Baş nazir Nikol Paşinyan bu addımın layihənin icrasında əhəmiyyətli mərhələ olduğunu bildirib.",
+  "caption_text": "Ermənistan hökumətinin keçirilən iclasında TRIPP layihəsinin icrası ilə bağlı yeni qərar qəbul olunub. Təsdiqlənən saziş layihəsinə əsasən, ölkədə \"TRIPP Development Company\" adlı səhmdar cəmiyyət yaradılacaq. \n\nErmənistanın Baş nazir Nikol Paşinyan iclas zamanı bu addımın layihənin həyata keçirilməsində mühüm mərhələ olduğunu qeyd edib. Sənədin Ermənistan hökuməti ilə ABŞ-da təsis edilən \"TRIPP Development Company US\" arasında imzalanması nəzərdə tutulur.\n\nTərəflər arasında müqavilənin bir həftə ərzində imzalanması və dərindən sonra şirkətin Ermənistanda rəsmi qeydiyyatdan keçməsi gözlənilir. Ərazi idarəetməsi və infrastruktur nazirinin müavini Kristine Qaleçyanın açıqlamasına görə, qurumun idarə heyəti beş nəfərdən formalaşacaq və onların ikisini Ermənistan tərəfi təyin edəcək.",
+  "voiceover": "Ermənistanda TRIPP layihəsinin həyata keçirilməsi məqsədilə yeni səhmdar cəmiyyət yaradılır. Ermənistan hökuməti bununla bağlı saziş layihəsini təsdiqləyib. Baş nazir Nikol Paşinyan hökumətin iclasında bildirib ki, bu, layihənin icrasında mühüm mərhələdir. Sənəd Ermənistan hökuməti ilə Amerikanın TRIPP Development Company US şirkəti arasında imzalanacaq. Bir həftə ərzində imzalanması gözlənilən sənəddən sonra şirkət Ermənistanda qeydiyyata alınacaq. Ərazi idarəetməsi və infrastruktur nazirinin müavini Kristine Qaleçyan bildirib ki, şirkətin idarə heyəti beş nəfərdən ibarət olacaq və iki nəfəri Ermənistan tərəfi təyin edəcək.",
+  "hashtags": [
+   "#Ermənistan",
+   "#TRIPP",
+   "#NikolPaşinyan",
+   "#Siyasət"
+  ],
+  "highlight": [
+   "Ermənistanda",
+   "TRIPP"
+  ],
+  "source_note": "Mənbə: Xəzər Xəbər",
+  "source_title": "Ermənistanda \"TRIPP Development Company\" adlı şirkət yaradıldı",
+  "link": "https://xezerxeber.az/az/dunya/ermenistanda-tripp-development-company-adli-sirket-yaradildi",
+  "sensitive": false,
+  "card_id": 1328
+ },
+ {
+  "id": "20261126-121835-03",
+  "kind": "news",
+  "created": "2026-11-26T08:18:35.564777+00:00",
+  "status": "awaiting_media",
+  "custom": false,
+  "media": [],
+  "category": "DÜNYA",
+  "headline": "Vladimir Putinin böyük mətbuat konfransı dekabrın 10-u olacaq",
+  "summary": "Rusiya Prezidenti Vladimir Putinin ənənəvi böyük mətbuat konfransı dekabrın 10-da təşkil olunacaq. Tədbir \"Birbaşa xətt\" ilə birlikdə keçiriləcək.",
+  "caption_text": "Rusiya Prezidenti Vladimir Putinin ənənəvi böyük mətbuat konfransının keçiriləcəyi tarix açıqlanıb. Kremlin Mətbuat xidmətinin məlumatına əsasən, tədbir dekabrın 10-da baş tutacaq.\n\nBildirilib ki, cari ildə də mətbuat konfransı \"Birbaşa xətt\" tədbiri ilə birləşdirilmiş formatda reallaşdırılacaq. Xatırladaq ki, Rusiya liderinin bu iki tədbiri ilk dəfə 2020-ci ildə birgə keçirilib. 2023-cü ildən etibarən isə həmin format \"Vladimir Putinlə ilin yekunları\" adını alıb.",
+  "voiceover": "Rusiya Prezidenti Vladimir Putinin ənənəvi böyük mətbuat konfransı dekabrın 10-da keçiriləcək. Kremlin Mətbuat xidmətinin məlumatına görə, tədbir bu il də \"Birbaşa xətt\" ilə birlikdə təşkil olunacaq. Rusiya liderinin mətbuat konfransı və \"Birbaşa xətt\" ilk dəfə 2020-ci ildə birləşdirilmiş formatda baş tutub, 2023-cü ildən isə \"Vladimir Putinlə ilin yekunları\" adlandırılır.",
+  "hashtags": [
+   "#VladimirPutin",
+   "#Rusiya",
+   "#Kreml",
+   "#DünyaXəbərləri"
+  ],
+  "highlight": [
+   "Vladimir Putin",
+   "dekabrın 10-u"
+  ],
+  "source_note": "Mənbə: Qafqazinfo",
+  "source_title": "Putinin böyük mətbuat konfransı bu tarixdə keçiriləcək",
+  "link": "https://www.qafqazinfo.az/news/detail/putinin-boyuk-metbuat-konfransi-bu-tarixde-kecirilecek-529859",
+  "sensitive": false,
+  "card_id": 1329
  }
 ]
