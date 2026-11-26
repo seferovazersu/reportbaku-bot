@@ -14453,14 +14453,9 @@
   "id": "20261126-180446-01",
   "kind": "news",
   "created": "2026-11-26T14:04:46.999742+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFv2sIPKNdHlyPUzfNPNKzvKxqjbYwAALzKGsb_7tISOYTw3JSrGLjAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "CƏMİYYƏT",
   "headline": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb",
   "summary": "Sarımsağın cücərməməsi və daha uzun müddət təzə qalması üçün kök hissəsinin qısa müddət alova yaxınlaşdırılması tövsiyə edilir. Bu üsul zamanı alovun qabığa və dişlərə toxunmamasına diqqət yetirilməlidir.",
@@ -14479,20 +14474,16 @@
   "source_title": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul: Sadəcə bunu edin!",
   "link": "https://publika.az/news/metbex/650284.html",
   "sensitive": false,
-  "card_id": 1468
+  "card_id": 1468,
+  "raw_text": ""
  },
  {
   "id": "20261126-180446-02",
   "kind": "news",
   "created": "2026-11-26T14:04:46.999742+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFwGsIPNUc5S4i5KfbTXn2swmJ5W2qAAL0KGsb_7tISIF0m-ckeSeLAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "HADİSƏ",
   "headline": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
   "summary": "Amerika Birləşmiş Ştatlarında əlverişsiz hava şəraiti və qasırğalar hava nəqliyyatına ciddi təsir göstərib. Ölkə ərazisində yüzlərlə aviareys ləğv olunub, minlərlə uçuşda isə gecikmələr qeydə alınıb.",
@@ -14512,20 +14503,16 @@
   "source_title": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
   "link": "https://sia.az/az/news/world/1377141.html",
   "sensitive": true,
-  "card_id": 1469
+  "card_id": 1469,
+  "raw_text": ""
  },
  {
   "id": "20261126-180446-03",
   "kind": "news",
   "created": "2026-11-26T14:04:46.999742+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFwWsIPP2s85Sk6eNx-ooL9Z-F6Cu7AAL1KGsb_7tISEyKj8i7NVSMAQADAgADeQADPQQ",
-    "type": "photo"
-   }
-  ],
+  "media": [],
   "category": "DÜNYA",
   "headline": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb",
   "summary": "Nəşrin məlumatına görə, ABŞ lideri ilə Çin sədrinin görüşlərindən sonra Pekin optimizm nümayiş etdirir. Lakin bu, diplomatik münasibətlərdə yeni mərhələnin başlanğıcı ola bilər.",
@@ -14545,6 +14532,136 @@
   "source_title": "Foreign Affairs: Китай готовится к завершению эпохи разрядки",
   "link": "https://minval.az/news/124564420",
   "sensitive": false,
-  "card_id": 1470
+  "card_id": 1470,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-26T14:17:39.544922+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb",
+  "summary": "Sarımsağın cücərməməsi və daha uzun müddət təzə qalması üçün kök hissəsinin qısa müddət alova yaxınlaşdırılması tövsiyə edilir. Bu üsul zamanı alovun qabığa və dişlərə toxunmamasına diqqət yetirilməlidir.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/metbex/650284.html",
+  "sensitive": false,
+  "caption": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb\n\nMətbəxin əvəzolunmaz məhsullarından olan sarımsaq düzgün saxlanılmadıqda qısa müddətdə quruyur, yumşalır və cücərməyə başlayır. Mütəxəssislər sarımsağın daha uzun müddət təzə qalması üçün onun kök hissəsini yandırmağı tövsiyə edirlər.\n\nBunun üçün sarımsaqları dişlərinə ayırmadan bütöv saxlayaraq alt hissəsindəki quru kökləri bir neçə saniyə alova yaxınlaşdırmaq lazımdır. Köklərdəki quru liflər bir qədər qaraldıqda proses dayandırılmalıdır. Əsas məqsəd sarımsağı bütövlükdə yandırmaq deyil, yalnız kök hissəsinə qısa müddət istilik tətbiq etməkdir və alovun qabığa toxunmaması vacibdir.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #sarımsaq #məsləhət #mətbəx #faydalı",
+  "id": "20261126-180446-01-p",
+  "kind": "post",
+  "image": "posts/20261126-180446-01-p.jpg"
+ },
+ {
+  "created": "2026-11-26T14:17:39.544922+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb",
+  "summary": "Sarımsağın cücərməməsi və daha uzun müddət təzə qalması üçün kök hissəsinin qısa müddət alova yaxınlaşdırılması tövsiyə edilir. Bu üsul zamanı alovun qabığa və dişlərə toxunmamasına diqqət yetirilməlidir.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/metbex/650284.html",
+  "sensitive": false,
+  "caption": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb\n\nMətbəxin əvəzolunmaz məhsullarından olan sarımsaq düzgün saxlanılmadıqda qısa müddətdə quruyur, yumşalır və cücərməyə başlayır. Mütəxəssislər sarımsağın daha uzun müddət təzə qalması üçün onun kök hissəsini yandırmağı tövsiyə edirlər.\n\nBunun üçün sarımsaqları dişlərinə ayırmadan bütöv saxlayaraq alt hissəsindəki quru kökləri bir neçə saniyə alova yaxınlaşdırmaq lazımdır. Köklərdəki quru liflər bir qədər qaraldıqda proses dayandırılmalıdır. Əsas məqsəd sarımsağı bütövlükdə yandırmaq deyil, yalnız kök hissəsinə qısa müddət istilik tətbiq etməkdir və alovun qabığa toxunmaması vacibdir.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #sarımsaq #məsləhət #mətbəx #faydalı",
+  "id": "20261126-180446-01-r",
+  "kind": "reel",
+  "video": "20261126-180446-01-r.mp4",
+  "cover": "20261126-180446-01-r.jpg"
+ },
+ {
+  "created": "2026-11-26T14:17:39.544922+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb",
+  "summary": "Sarımsağın cücərməməsi və daha uzun müddət təzə qalması üçün kök hissəsinin qısa müddət alova yaxınlaşdırılması tövsiyə edilir. Bu üsul zamanı alovun qabığa və dişlərə toxunmamasına diqqət yetirilməlidir.",
+  "source_note": "Mənbə: Publika",
+  "link": "https://publika.az/news/metbex/650284.html",
+  "sensitive": false,
+  "caption": "Sarımsağın cücərməsinin qarşısını alan maraqlı üsul açıqlanıb\n\nMətbəxin əvəzolunmaz məhsullarından olan sarımsaq düzgün saxlanılmadıqda qısa müddətdə quruyur, yumşalır və cücərməyə başlayır. Mütəxəssislər sarımsağın daha uzun müddət təzə qalması üçün onun kök hissəsini yandırmağı tövsiyə edirlər.\n\nBunun üçün sarımsaqları dişlərinə ayırmadan bütöv saxlayaraq alt hissəsindəki quru kökləri bir neçə saniyə alova yaxınlaşdırmaq lazımdır. Köklərdəki quru liflər bir qədər qaraldıqda proses dayandırılmalıdır. Əsas məqsəd sarımsağı bütövlükdə yandırmaq deyil, yalnız kök hissəsinə qısa müddət istilik tətbiq etməkdir və alovun qabığa toxunmaması vacibdir.\n\nMənbə: Publika\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #sarımsaq #məsləhət #mətbəx #faydalı",
+  "id": "20261126-180446-01-s",
+  "kind": "story",
+  "image": "posts/20261126-180446-01-s.jpg"
+ },
+ {
+  "created": "2026-11-26T14:18:35.733180+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
+  "summary": "Amerika Birləşmiş Ştatlarında əlverişsiz hava şəraiti və qasırğalar hava nəqliyyatına ciddi təsir göstərib. Ölkə ərazisində yüzlərlə aviareys ləğv olunub, minlərlə uçuşda isə gecikmələr qeydə alınıb.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/world/1377141.html",
+  "sensitive": true,
+  "caption": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib\n\nAmerika Birləşmiş Ştatlarının şərq və qərb sahillərində müşahidə olunan əlverişsiz hava şəraiti və güclü qasırğalar bayram hazırlıqlarına maneə yaradıb. NBC News məlumatına görə, ölkədə 360-dan çox aviareys ləğv edilib, 460-dan artıq uçuş isə gecikib. Bundan əvvəlki gündə isə 6 mindən çox reysin cədvəlində gecikmələr yaşanıb.\n\nMəlumata əsasən, güclü yağış, külək və daşqınların şərq və cənub-şərq bölgələrində davam edəcəyi proqnozlaşdırılır. İllinoys və Missuri ştatlarında qar yağacağı, İbiza adası yaxınlığında isə fəsadların Missisipi çayının orta axınına qədər yayılacağı bildirilir. Həmçinin Nyu-Yorkda Şükranlıq Günü paradı əlverişsiz hava səbəbindən şənbə gününə təxirə salınıb. Qərb sahillərində isə daşqın xəbərdarlıqları qüvvədə qalır.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #ABŞ #Qasırğa #HavaŞəraiti #DünyaXəbərləri",
+  "id": "20261126-180446-02-p",
+  "kind": "post",
+  "image": "posts/20261126-180446-02-p.jpg"
+ },
+ {
+  "created": "2026-11-26T14:18:35.733180+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
+  "summary": "Amerika Birləşmiş Ştatlarında əlverişsiz hava şəraiti və qasırğalar hava nəqliyyatına ciddi təsir göstərib. Ölkə ərazisində yüzlərlə aviareys ləğv olunub, minlərlə uçuşda isə gecikmələr qeydə alınıb.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/world/1377141.html",
+  "sensitive": true,
+  "caption": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib\n\nAmerika Birləşmiş Ştatlarının şərq və qərb sahillərində müşahidə olunan əlverişsiz hava şəraiti və güclü qasırğalar bayram hazırlıqlarına maneə yaradıb. NBC News məlumatına görə, ölkədə 360-dan çox aviareys ləğv edilib, 460-dan artıq uçuş isə gecikib. Bundan əvvəlki gündə isə 6 mindən çox reysin cədvəlində gecikmələr yaşanıb.\n\nMəlumata əsasən, güclü yağış, külək və daşqınların şərq və cənub-şərq bölgələrində davam edəcəyi proqnozlaşdırılır. İllinoys və Missuri ştatlarında qar yağacağı, İbiza adası yaxınlığında isə fəsadların Missisipi çayının orta axınına qədər yayılacağı bildirilir. Həmçinin Nyu-Yorkda Şükranlıq Günü paradı əlverişsiz hava səbəbindən şənbə gününə təxirə salınıb. Qərb sahillərində isə daşqın xəbərdarlıqları qüvvədə qalır.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #ABŞ #Qasırğa #HavaŞəraiti #DünyaXəbərləri",
+  "id": "20261126-180446-02-r",
+  "kind": "reel",
+  "video": "20261126-180446-02-r.mp4",
+  "cover": "20261126-180446-02-r.jpg"
+ },
+ {
+  "created": "2026-11-26T14:18:35.733180+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib",
+  "summary": "Amerika Birləşmiş Ştatlarında əlverişsiz hava şəraiti və qasırğalar hava nəqliyyatına ciddi təsir göstərib. Ölkə ərazisində yüzlərlə aviareys ləğv olunub, minlərlə uçuşda isə gecikmələr qeydə alınıb.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/world/1377141.html",
+  "sensitive": true,
+  "caption": "ABŞ-da qasırğalar səbəbilə 360-dan çox aviareys ləğv edilib\n\nAmerika Birləşmiş Ştatlarının şərq və qərb sahillərində müşahidə olunan əlverişsiz hava şəraiti və güclü qasırğalar bayram hazırlıqlarına maneə yaradıb. NBC News məlumatına görə, ölkədə 360-dan çox aviareys ləğv edilib, 460-dan artıq uçuş isə gecikib. Bundan əvvəlki gündə isə 6 mindən çox reysin cədvəlində gecikmələr yaşanıb.\n\nMəlumata əsasən, güclü yağış, külək və daşqınların şərq və cənub-şərq bölgələrində davam edəcəyi proqnozlaşdırılır. İllinoys və Missuri ştatlarında qar yağacağı, İbiza adası yaxınlığında isə fəsadların Missisipi çayının orta axınına qədər yayılacağı bildirilir. Həmçinin Nyu-Yorkda Şükranlıq Günü paradı əlverişsiz hava səbəbindən şənbə gününə təxirə salınıb. Qərb sahillərində isə daşqın xəbərdarlıqları qüvvədə qalır.\n\nMənbə: Sia.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #ABŞ #Qasırğa #HavaŞəraiti #DünyaXəbərləri",
+  "id": "20261126-180446-02-s",
+  "kind": "story",
+  "image": "posts/20261126-180446-02-s.jpg"
+ },
+ {
+  "created": "2026-11-26T14:19:38.985525+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb",
+  "summary": "Nəşrin məlumatına görə, ABŞ lideri ilə Çin sədrinin görüşlərindən sonra Pekin optimizm nümayiş etdirir. Lakin bu, diplomatik münasibətlərdə yeni mərhələnin başlanğıcı ola bilər.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564420",
+  "sensitive": false,
+  "caption": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb\n\nABŞ prezidenti ilə Çin Xalq Respublikasının sədrinin son altı ayda dostluq ab-havasında keçən üç görüşündən sonra Pekin tərəfi fəal şəkildə optimizm nümayiş etdirir.\n\n\"Foreign Affairs\" nəşrinin qeyd etdiyinə görə, bu fonda Çin tərəfi gərginlik dövrünün başa çatmasına deyil, əksinə, yeni mərhələyə hazırlaşır. Hadisənin təfərrüatları və gələcək münasibətlərin istiqaməti barədə beynəlxalq mətbuatda müzakirələr davam edir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Çin #ABŞ #ForeignAffairs",
+  "id": "20261126-180446-03-p",
+  "kind": "post",
+  "image": "posts/20261126-180446-03-p.jpg"
+ },
+ {
+  "created": "2026-11-26T14:19:38.985525+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb",
+  "summary": "Nəşrin məlumatına görə, ABŞ lideri ilə Çin sədrinin görüşlərindən sonra Pekin optimizm nümayiş etdirir. Lakin bu, diplomatik münasibətlərdə yeni mərhələnin başlanğıcı ola bilər.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564420",
+  "sensitive": false,
+  "caption": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb\n\nABŞ prezidenti ilə Çin Xalq Respublikasının sədrinin son altı ayda dostluq ab-havasında keçən üç görüşündən sonra Pekin tərəfi fəal şəkildə optimizm nümayiş etdirir.\n\n\"Foreign Affairs\" nəşrinin qeyd etdiyinə görə, bu fonda Çin tərəfi gərginlik dövrünün başa çatmasına deyil, əksinə, yeni mərhələyə hazırlaşır. Hadisənin təfərrüatları və gələcək münasibətlərin istiqaməti barədə beynəlxalq mətbuatda müzakirələr davam edir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Çin #ABŞ #ForeignAffairs",
+  "id": "20261126-180446-03-r",
+  "kind": "reel",
+  "video": "20261126-180446-03-r.mp4",
+  "cover": "20261126-180446-03-r.jpg"
+ },
+ {
+  "created": "2026-11-26T14:19:38.985525+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb",
+  "summary": "Nəşrin məlumatına görə, ABŞ lideri ilə Çin sədrinin görüşlərindən sonra Pekin optimizm nümayiş etdirir. Lakin bu, diplomatik münasibətlərdə yeni mərhələnin başlanğıcı ola bilər.",
+  "source_note": "Mənbə: Minval.az",
+  "link": "https://minval.az/news/124564420",
+  "sensitive": false,
+  "caption": "Foreign Affairs jurnalı Çinin gərginlik dövrünə hazırlaşdığını yazıb\n\nABŞ prezidenti ilə Çin Xalq Respublikasının sədrinin son altı ayda dostluq ab-havasında keçən üç görüşündən sonra Pekin tərəfi fəal şəkildə optimizm nümayiş etdirir.\n\n\"Foreign Affairs\" nəşrinin qeyd etdiyinə görə, bu fonda Çin tərəfi gərginlik dövrünün başa çatmasına deyil, əksinə, yeni mərhələyə hazırlaşır. Hadisənin təfərrüatları və gələcək münasibətlərin istiqaməti barədə beynəlxalq mətbuatda müzakirələr davam edir.\n\nMənbə: Minval.az\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #Çin #ABŞ #ForeignAffairs",
+  "id": "20261126-180446-03-s",
+  "kind": "story",
+  "image": "posts/20261126-180446-03-s.jpg"
  }
 ]
