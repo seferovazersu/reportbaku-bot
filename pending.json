@@ -13819,26 +13819,72 @@
   "id": "20261126-141335-u",
   "kind": "news",
   "created": "2026-11-26T10:13:35.158076+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\nMotosikletlə gələn silahlı şəxslər futbolçuya atəş açıblar. Hadisə zamanı daha bir nəfər xəsarət alıb.\n\n26 yaşlı Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda, son dövrlərdə isə \"Arandas\" həvəskar komandasında çıxış edib.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIFaGsIBjpoY9qeXLJRGv8RMPJ1yXN4AAIBH2sb_7tASDYe3959M8H_AQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İDMAN",
+  "headline": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb",
+  "summary": "Meksikada həvəskar komandaların oyununda motosikletli silahlı şəxslərin hücumu nəticəsində futbolçu Luis Çaves həlak olub, bir nəfər yaralanıb. Hadisə ilə bağlı 26 yaşlı idmançının həyatını itirdiyi bildirilib.",
+  "caption_text": "Meksikada həvəskar komandaların qarşılaşması zamanı silahlı insident baş verib. Motosikletlə gələn naməlum şəxslər tərəfindən idmançıya atəş açılıb. Hadisə nəticəsində 26 yaşlı futbolçu Luis Çaves həyatını itirib, daha bir nəfər isə xəsarət alıb. Məlumata görə, həlak olan Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda oynayıb, son vaxtlar isə \"Arandas\" həvəskar komandasında çıxış edirdi.",
+  "voiceover": "Meksikada həvəskar komandaların oyununda silahlı insident baş verib. Motosikletlə gələn şəxslərin açdığı atəş nəticəsində 26 yaşlı futbolçu Luis Çaves öldürülüb. Hadisə zamanı daha bir nəfər xəsarət alıb. Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda, son dövrlərdə isə \"Arandas\" həvəskar komandasında çıxış edib.",
+  "hashtags": [
+   "#LuisÇaves",
+   "#Meksika",
+   "#futbol",
+   "#idman"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\n",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Luis Çaves",
+   "Meksikalı futbolçu"
+  ],
   "source_note": "",
   "source_title": "⚽️❌ Meksikalı futbolçu Luis Çaves həvəskar komandaların oyununda güllələnərək öldürülüb.\n\nMotosikletlə gələn silahlı şəx",
   "link": "",
-  "sensitive": false,
+  "sensitive": true,
   "card_sent": true
+ },
+ {
+  "created": "2026-11-26T10:18:22.013167+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb",
+  "summary": "Meksikada həvəskar komandaların oyununda motosikletli silahlı şəxslərin hücumu nəticəsində futbolçu Luis Çaves həlak olub, bir nəfər yaralanıb. Hadisə ilə bağlı 26 yaşlı idmançının həyatını itirdiyi bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb\n\nMeksikada həvəskar komandaların qarşılaşması zamanı silahlı insident baş verib. Motosikletlə gələn naməlum şəxslər tərəfindən idmançıya atəş açılıb. Hadisə nəticəsində 26 yaşlı futbolçu Luis Çaves həyatını itirib, daha bir nəfər isə xəsarət alıb. Məlumata görə, həlak olan Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda oynayıb, son vaxtlar isə \"Arandas\" həvəskar komandasında çıxış edirdi.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #LuisÇaves #Meksika #futbol",
+  "id": "20261126-141335-u-p",
+  "kind": "post",
+  "image": "posts/20261126-141335-u-p.jpg"
+ },
+ {
+  "created": "2026-11-26T10:18:22.013167+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb",
+  "summary": "Meksikada həvəskar komandaların oyununda motosikletli silahlı şəxslərin hücumu nəticəsində futbolçu Luis Çaves həlak olub, bir nəfər yaralanıb. Hadisə ilə bağlı 26 yaşlı idmançının həyatını itirdiyi bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb\n\nMeksikada həvəskar komandaların qarşılaşması zamanı silahlı insident baş verib. Motosikletlə gələn naməlum şəxslər tərəfindən idmançıya atəş açılıb. Hadisə nəticəsində 26 yaşlı futbolçu Luis Çaves həyatını itirib, daha bir nəfər isə xəsarət alıb. Məlumata görə, həlak olan Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda oynayıb, son vaxtlar isə \"Arandas\" həvəskar komandasında çıxış edirdi.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #LuisÇaves #Meksika #futbol",
+  "id": "20261126-141335-u-r",
+  "kind": "reel",
+  "video": "20261126-141335-u-r.mp4",
+  "cover": "20261126-141335-u-r.jpg"
+ },
+ {
+  "created": "2026-11-26T10:18:22.013167+00:00",
+  "status": "pending",
+  "category": "İDMAN",
+  "headline": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb",
+  "summary": "Meksikada həvəskar komandaların oyununda motosikletli silahlı şəxslərin hücumu nəticəsində futbolçu Luis Çaves həlak olub, bir nəfər yaralanıb. Hadisə ilə bağlı 26 yaşlı idmançının həyatını itirdiyi bildirilib.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Meksikalı futbolçu Luis Çaves həvəskar matç zamanı güllələnərək öldürülüb\n\nMeksikada həvəskar komandaların qarşılaşması zamanı silahlı insident baş verib. Motosikletlə gələn naməlum şəxslər tərəfindən idmançıya atəş açılıb. Hadisə nəticəsində 26 yaşlı futbolçu Luis Çaves həyatını itirib, daha bir nəfər isə xəsarət alıb. Məlumata görə, həlak olan Çaves əvvəllər \"Atletiko San-Fransisko-del-Rinkon\" klubunda oynayıb, son vaxtlar isə \"Arandas\" həvəskar komandasında çıxış edirdi.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #idman #LuisÇaves #Meksika #futbol",
+  "id": "20261126-141335-u-s",
+  "kind": "story",
+  "image": "posts/20261126-141335-u-s.jpg"
  }
 ]
