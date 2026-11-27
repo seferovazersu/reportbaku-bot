@@ -17170,11 +17170,11 @@
   "kind": "reel",
   "video": "20261127-102657-u-r.mp4",
   "cover": "20261127-102657-u-r.jpg",
-  "src_video_file_id": "BAACAgIAAxkBAAIGrWsJIRekBLxoYXU3cRlJMG-klVW8AAKWuAAC_7tISJHTmwABwkI_7z0E"
+  "original_audio": true
  },
  {
   "created": "2026-11-27T06:28:14.682410+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Fira Cəlilovanın Novxanıdakı bağ evinə basqın olub",
   "summary": "Noyabrın 26-da aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib. İddiaya görə, evdən mobil telefonlar, zinət əşyaları və avadanlıqlar aparılıb.",
@@ -17185,6 +17185,9 @@
   "tg_caption": "🚨 Aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib. İddiaya görə, evdən külli miqdarda qiymətli əşya və avadanlıq aparılıb.",
   "id": "20261127-102657-u-s",
   "kind": "story",
-  "image": "posts/20261127-102657-u-s.jpg"
+  "image": "posts/20261127-102657-u-s.jpg",
+  "published_at": "2026-11-27T06:30:21.837074+00:00",
+  "instagram_id": "18355838515269233",
+  "permalink": ""
  }
 ]
