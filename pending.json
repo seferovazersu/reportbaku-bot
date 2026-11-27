@@ -19406,7 +19406,12 @@
   "created": "2026-11-27T18:29:38.294339+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIHnWsJzDs7-1XLVFtu45_Xx3YAAQ-WAANEJWsbn1lJSNESSSmpxQj5AQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "TEXNOLOGİYA",
   "headline": "İngiltərədə süni intellekt insan müdaxiləsi olmadan ilk dəfə yemək sifariş edib",
   "summary": "İngiltərədə həyata keçirilən sınaq zamanı süni intellekt insan müdaxiləsi olmadan yemək sifarişi verib və ödəniş edib. Bu, ölkədə texnologiyanın müştəri adından real alış-veriş ödənişi həyata keçirdiyi ilk hal olaraq qeydə alınıb.",
@@ -19427,7 +19432,8 @@
   "source_title": "Süni intellekt ilk dəfə özü yemək sifariş edib ödəniş etdi",
   "link": "https://metbuat.az/news/1567692/suni-intellekt-ilk-defe-ozu-yemek-sifaris-edib-odenis-etdi.html",
   "sensitive": false,
-  "card_id": 1946
+  "card_id": 1946,
+  "card_sent": true
  },
  {
   "id": "20261127-222938-02",
@@ -19435,7 +19441,12 @@
   "created": "2026-11-27T18:29:38.294339+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIHnmsJzFescn_mvm_rGZMhLuC4saZ6AAJFJWsbn1lJSGWpWovH5cmSAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "İDMAN",
   "headline": "Neftçi Zirəni məğlub edərək liderliyini möhkəmləndirdi",
   "summary": "Misli Premyer Liqasının XIII turunda Neftçi Zirəni 1-0 hesabı ilə məğlub edib. Ardıcıl dördüncü qələbəsini qazanan Neftçi xallarını 30-a çatdıraraq turnir cədvəlindəki liderliyini möhkəmləndirib. Turun digər matçında isə Şəfa İmişliyə 3:1 hesabı ilə qalib gəlib.",
@@ -19456,7 +19467,8 @@
   "source_title": "\"Neftçi\" \"Zirə\"ni də məğlub edib",
   "link": "https://sia.az/az/news/sport/1377351.html",
   "sensitive": false,
-  "card_id": 1947
+  "card_id": 1947,
+  "card_sent": true
  },
  {
   "id": "20261127-222938-03",
@@ -19464,7 +19476,12 @@
   "created": "2026-11-27T18:29:38.294339+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIHn2sJzImWc5X1yCXN6yCSunHkkPyoAAJHJWsbn1lJSO-OIJRDAAGZfgEAAwIAA3gAAz0E",
+    "type": "photo"
+   }
+  ],
   "category": "TEXNOLOGİYA",
   "headline": "Belçikada süni intellektdən istifadə edilməyən kitablara xüsusi etiket vurulması təklif olunub",
   "summary": "Belçikanın fransızdilli nəşriyyatçıları süni intellektdən istifadə olunmadan hazırlanan kitabların xüsusi etiketlə fərqləndirilməsini təklif ediblər. Bu təşəbbüs oxuculara kitabın ərsəyə gəlməsində süni intellektdən istifadə edilib-edilmədiyini bilməyə kömək edəcək. Bununla belə, nəzarət mexanizminin tətbiqi və şərtlərin izlənməsi çətinlik törədə bilər.",
@@ -19487,6 +19504,7 @@
   "source_title": "Oxucular kitabın süni intellektdən istifadə edilmədən hazırlandığını necə biləcək?",
   "link": "https://news.day.az/azerinews/1877729.html",
   "sensitive": false,
-  "card_id": 1948
+  "card_id": 1948,
+  "card_sent": true
  }
 ]
