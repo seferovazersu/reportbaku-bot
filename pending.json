@@ -19305,7 +19305,7 @@
  },
  {
   "created": "2026-11-27T17:51:08.666857+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "CƏMİYYƏT",
   "headline": "Peşə təhsili müəssisələrinə qəbulun nəticələri və yeni əsasnamələr müzakirə olunub",
   "summary": "Elm və Təhsil Nazirliyinin təşkilatçılığı ilə peşə təhsili müəssisələrinə tələbə qəbulunun nəticələri və pedaqoji şuraların fəaliyyətini tənzimləyən yeni əsasnamələr müzakirə edilib. Tədbirdə qəbul dinamikası, məşğulluq vəziyyəti və yeni normativ tələblər barədə məlumat verilib.",
@@ -19317,11 +19317,22 @@
   "id": "20261127-214725-01-r",
   "kind": "reel",
   "video": "20261127-214725-01-r.mp4",
-  "cover": "20261127-214725-01-r.jpg"
+  "cover": "20261127-214725-01-r.jpg",
+  "publish_at": "2026-11-28T17:30:00+00:00",
+  "msg": {
+   "message_id": 1940,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (16 san., səs: gemini-3.8-flash-lite-tts)\n\nPeşə təhsili müəssisələrinə qəbulun nəticələri və yeni əsasnamələr müzakirə olunub",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-27T17:51:08.666857+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Peşə təhsili müəssisələrinə qəbulun nəticələri və yeni əsasnamələr müzakirə olunub",
   "summary": "Elm və Təhsil Nazirliyinin təşkilatçılığı ilə peşə təhsili müəssisələrinə tələbə qəbulunun nəticələri və pedaqoji şuraların fəaliyyətini tənzimləyən yeni əsasnamələr müzakirə edilib. Tədbirdə qəbul dinamikası, məşğulluq vəziyyəti və yeni normativ tələblər barədə məlumat verilib.",
@@ -19332,7 +19343,10 @@
   "tg_caption": "🏛 Peşə təhsili müəssisələrinə qəbulun nəticələri və yeni əsasnamələr müzakirə olunub\n\nElm və Təhsil Nazirliyinin təşkilatçılığı ilə Sənaye və İnnovasiyalar üzrə Bakı Dövlət Peşə Təhsili Mərkəzində tələbə qəbulunun nəticələri və pedaqoji şuraların fəaliyyətini tənzimləyən yeni əsasnamələrin müzakirəsinə həsr olunmuş görüş keçirilib.\n\nTədbirdə peşə təhsili sahəsində həyata keçirilən islahatlar, 2021–2022-ci tədris ilindən etibarən qəbulun dinamikası, plan yerləri və faktiki göstəricilər müqayisəli şəkildə təhlil edilib. Həmçinin məzunların məşğulluq vəziyyəti və yeni əsasnamələrin tətbiqi ilə bağlı məsələlər diqqətə çatdırılıb.",
   "id": "20261127-214725-01-s",
   "kind": "story",
-  "image": "posts/20261127-214725-01-s.jpg"
+  "image": "posts/20261127-214725-01-s.jpg",
+  "published_at": "2026-11-27T17:53:56.408727+00:00",
+  "instagram_id": "18156722536464167",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T17:51:46.957748+00:00",
@@ -19351,7 +19365,7 @@
  },
  {
   "created": "2026-11-27T17:51:46.957748+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "ABŞ Oman körfəzində İran limanından çıxan yük gəmisini vurub",
   "summary": "ABŞ ordusu Oman körfəzində dəniz blokadasını yarmağa cəhd edən yük gəmisini hərəkətsiz vəziyyətə salıb. Hadisə nəticəsində gəminin hərəkət sistemi sıradan çıxarılıb, mülki heyət üzvləri xəsarət almayıb.",
@@ -19363,11 +19377,14 @@
   "id": "20261127-214725-02-r",
   "kind": "reel",
   "video": "20261127-214725-02-r.mp4",
-  "cover": "20261127-214725-02-r.jpg"
+  "cover": "20261127-214725-02-r.jpg",
+  "published_at": "2026-11-27T17:54:34.461720+00:00",
+  "instagram_id": "17951234799072155",
+  "permalink": "https://www.instagram.com/reel/DgQQzqCsqvo/"
  },
  {
   "created": "2026-11-27T17:51:46.957748+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "ABŞ Oman körfəzində İran limanından çıxan yük gəmisini vurub",
   "summary": "ABŞ ordusu Oman körfəzində dəniz blokadasını yarmağa cəhd edən yük gəmisini hərəkətsiz vəziyyətə salıb. Hadisə nəticəsində gəminin hərəkət sistemi sıradan çıxarılıb, mülki heyət üzvləri xəsarət almayıb.",
@@ -19378,6 +19395,9 @@
   "tg_caption": "🚨 ABŞ ordusu Oman körfəzində dəniz blokadasını yarmağa cəhd edən kommersiya gəmisini hərəkətsiz vəziyyətə salıb.\n\nPalau bayrağı altında üzən “M/V Pacific Archer” gəmisi Bəndər-Abbas limanından çıxdıqdan sonra dəfələrlə edilən xəbərdarlıqlara baxmayaraq blokadanı keçməyə cəhd göstərib. ABŞ Mərkəzi Komandanlığının məlumatına görə, hərbi təyyarənin gəminin arxa hissəsinə endirdiyi dəqiq zərbə nəticəsində gəminin hərəkət sistemi sıradan çıxarılıb. Hadisə zamanı mülki heyət üzvlərindən xəsarət alan olmadı.",
   "id": "20261127-214725-02-s",
   "kind": "story",
-  "image": "posts/20261127-214725-02-s.jpg"
+  "image": "posts/20261127-214725-02-s.jpg",
+  "published_at": "2026-11-27T17:54:44.614909+00:00",
+  "instagram_id": "18113529263579470",
+  "permalink": ""
  }
 ]
