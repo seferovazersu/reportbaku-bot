@@ -17239,7 +17239,7 @@
  },
  {
   "created": "2026-11-27T06:42:28.810141+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Aparıcı Fira Cəlilovanın evində gizlənən axtarışdakı şəxs tutulub",
   "summary": "Novxanıdakı bağ evində on gündən çox gizlədilən Əlihüseyn Hüseynov polis tərəfindən saxlanılıb. Faktla bağlı araşdırma davam etdirilir.",
@@ -17251,11 +17251,14 @@
   "id": "20261127-104131-u-r",
   "kind": "reel",
   "video": "20261127-104131-u-r.mp4",
-  "cover": "20261127-104131-u-r.jpg"
+  "cover": "20261127-104131-u-r.jpg",
+  "published_at": "2026-11-27T06:45:28.268106+00:00",
+  "instagram_id": "17874749571644785",
+  "permalink": "https://www.instagram.com/reel/DgPEOXuq3Fb/"
  },
  {
   "created": "2026-11-27T06:42:28.810141+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Aparıcı Fira Cəlilovanın evində gizlənən axtarışdakı şəxs tutulub",
   "summary": "Novxanıdakı bağ evində on gündən çox gizlədilən Əlihüseyn Hüseynov polis tərəfindən saxlanılıb. Faktla bağlı araşdırma davam etdirilir.",
@@ -17266,6 +17269,9 @@
   "tg_caption": "🚨 Aparıcı Fira Cəlilovanın Novxanıdakı bağ evində on gündən çox gizlənən axtarışdakı şəxs polislər tərəfindən saxlanılıb. Faktla bağlı araşdırma aparılır.",
   "id": "20261127-104131-u-s",
   "kind": "story",
-  "image": "posts/20261127-104131-u-s.jpg"
+  "image": "posts/20261127-104131-u-s.jpg",
+  "published_at": "2026-11-27T06:45:45.724012+00:00",
+  "instagram_id": "18204967540383619",
+  "permalink": ""
  }
 ]
