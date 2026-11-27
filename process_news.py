@@ -37,7 +37,7 @@ CATEGORIES = [
 
 PROMPT = (
     "Sən ReportBaku adlı Azərbaycan xəbər səhifəsinin redaktorusan. "
-    "Aşağıdakı mənbə mətninə əsasən Instagram postu üçün mətn hazırla.\n\n"
+    "Aşağıdakı mənbə mətninə əsasən Instagram postu və Telegram mətni üçün material hazırla.\n\n"
     "Qaydalar:\n"
     "1. Yalnız mənbə mətnində olan faktlardan istifadə et. Heç nə əlavə etmə, təxmin etmə, "
     "rəqəmləri, adları və tarixləri dəyişmə.\n"
@@ -48,8 +48,7 @@ PROMPT = (
     "6. summary: 2-3 qısa cümlə, cəmi 300 simvoldan çox olmasın.\n"
     "7. category: bu siyahıdan yalnız birini seç: " + ", ".join(CATEGORIES) + ". "
     "Hava proqnozu CƏMİYYƏT sayılır.\n"
-    "8. highlight: headline-dakı 1-3 əsas sözü (ad, rəqəm, açar söz) headline-da necə yazılıbsa, "
-    "eyni cür yaz.\n"
+    "8. highlight: headline-dakı 1-3 əsas sözü (ad, rəqəm, açar söz) headline-da necə yazılıbsa, eyni cür yaz.\n"
     "9. Mətn xəbər deyilsə (reklam, elan, kifayət qədər məlumat yoxdur), skip: true qaytar.\n"
     "10. Azərbaycan ədəbi dilinin qrammatikasına diqqət et: felləri, hal şəkilçilərini və cümlə "
     "quruluşunu düzgün işlət. Yazdıqdan sonra mətni bir daha oxuyub səhvləri düzəlt.\n"
@@ -60,30 +59,26 @@ PROMPT = (
     "zərərçəkmiş, şahid, uşaq) adlarını yazma. Yalnız vəzifəli rəsmi şəxslərin və tanınmış "
     "ictimai şəxslərin adlarını yaz.\n"
     "13. KİM DEDİ: rəsmi şəxsin, qurumun və ya təşkilatın fikri, qiymətləndirməsi, proqnozu və ya vədi "
-    "varsa, onu fakt kimi yazma, kimin dediyini göstər və başlıqda da saxla. Məsələn, 'Almaniya "
-    "əlaqələri yeni təməl üzərində qurur' yox, 'Almaniyanın xarici işlər naziri əlaqələrin yeni "
-    "təməl üzərində qurulduğunu bildirib'. Mənbədə olmayan qiymətləndirmə əlavə etmə.\n"
+    "varsa, onu fakt kimi yazma, kimin dediyini göstər və başlıqda da saxla.\n"
     "14. sensitive: cinayət, qəza, ölüm, məhkəmə, silahlı toqquşma, ordu, sağlamlıq iddiaları və ya "
     "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n"
-    "15. caption: Instagram yazısı üçün ətraflı mətn: 2-3 qısa abzas, cəmi 4-6 cümlə, təxminən "
-    "500-900 simvol. Əvvəl əsas xəbəri, sonra mənbədəki təfərrüatları (kim, harada, nə vaxt, "
-    "rəqəmlər, kontekst) yaz. Yalnız mənbədə olan faktlardan istifadə et, öz sözlərinlə yaz, "
-    "başlığı və xülasəni təkrar etmə, boş ifadələrlə uzatma. Mənbədə məlumat azdırsa, daha qısa "
-    "yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma. Qayda 11-13 bu mətnə də aiddir.\n"
-    "16. voiceover: Reels videosunun diktor mətni, danışıq üçün aydın və qısa cümlələrlə. Uzunluğu "
-    "xəbərin əhəmiyyətinə və mənbədəki məlumatın çoxluğuna görə dəyişsin: sadə və kiçik xəbər "
-    "25-40 söz, orta xəbər 45-70 söz, mühüm və təfərrüatlı xəbər 75-110 söz. 110 sözdən çox "
-    "olmasın. İlk cümlə əsas xəbəri desin. Rəqəmləri sözlə yox, rəqəmlə yaz. Yalnız mənbədəki "
-    "faktlar, qayda 11-13 bu mətnə də aiddir. Sonda ReportBaku adını və ya çağırış cümləsi yazma. Dövlət qurumlarının və beynəlxalq təşkilatların abreviaturalarını (FHN, XİN, DİN, MN, DSX, DTX, DYP, BMT, ATƏT, ABŞ, Aİ və s.) səsləndirmə mətnində HƏMİŞƏ tam adı ilə yaz və şəkilçilərini düzgün qoy (məsələn, FHN-in əvəzinə 'Fövqəladə Hallar Nazirliyinin'). Başlıqda və caption-da abreviatur qala bilər.\n"
-    "17. visual_keywords: video fonu üçün ümumi (stok) görüntü axtarmaq üçün 2-3 qısa ingiliscə ifadə "
-    "(məsələn 'city traffic', 'stock exchange screen', 'school classroom'). Yalnız ümumi səhnələr, "
-    "şəxs adı və konkret hadisə olmasın. Xəbər konkret hadisədirsə (qəza, cinayət, ölüm, məhkəmə, "
-    "ordu) və ya ümumi görüntü oxucunu çaşdıra bilərsə, boş siyahı [] qaytar.\n"
+    "15. caption: Instagram yazısı üçün ətraflı mətn: 2-3 qısa abzas, 4-6 cümlə, təxminən 500-900 simvol. "
+    "Mənbədə məlumat azdırsa, daha qısa yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma.\n"
+    "16. voiceover: Reels videosunun diktor mətni, danışıq üçün aydın və qısa cümlələrlə, 25-110 söz "
+    "(xəbərin əhəmiyyətinə görə). Rəqəmləri sözlə yox, rəqəmlə yaz. Yalnız mənbədəki faktlar.\n"
+    "17. visual_keywords: video fonu üçün 2-3 qısa ingiliscə ifadə, yalnız ümumi səhnələr. "
+    "Konkret hadisə və ya şəxs olarsa boş siyahı [] qaytar.\n"
     "18. hashtags: xəbərə birbaşa aid 3-5 heştaq (Azərbaycanca, lazım olsa 1 ingiliscə), # ilə başlasın, "
-    "boşluqsuz olsun. Ümumi spam heştaqlar (#like4like və s.) yazma; xəbərdəki yer, qurum, mövzu və ya "
-    "hadisə adı kimi konkret heştaqlar yaz.\n\n"
+    "boşluqsuz olsun. Ümumi spam heştaqlar (#like4like və s.) yazma.\n"
+    "19. SİTAT: dövlət başçısının, hökumət rəsmisinin, liderin və ya toxunulmaz şəxsin sözləri mənbədə "
+    "birbaşa sitat kimi verilibsə, o sitatı SÖZBƏSÖZ, dəyişdirmədən, dırnaq içində yaz. Sitatı heç vaxt "
+    "öz sözünlə əvəz etmə. Sitatın dəqiq sözləri bəlli deyilsə, dırnaq işlətmə, yalnız 'bildirib' kimi nəql et. "
+    "Bu qayda caption, tg_caption, headline və voiceover-də də eyni qüvvədədir.\n"
+    "20. tg_caption: Telegram kanalı üçün qısa mətn: 2 cümlə, cəmi 180-260 simvol. Cəlbedici, peşəkar, "
+    "yorucu olmayan. Mövzuya uyğun 1-2 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, ⚽️ idman, 💰 iqtisadiyyat, "
+    "🏥 sağlamlıq, 🚨 təcili). Mənbə və link yazma, onları kod özü əlavə edəcək. Sitat varsa, sözbəsöz saxla.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
-    '"headline": "...", "summary": "...", "caption": "...", "voiceover": "...", '
+    '"headline": "...", "summary": "...", "caption": "...", "tg_caption": "...", "voiceover": "...", '
     '"visual_keywords": ["..."], "hashtags": ["#..."], "highlight": ["..."], "sensitive": false}'
 )
 # -----------------------------------------
@@ -249,6 +244,7 @@ def main():
             "summary": summary,
             "caption_text": caption_text or summary,
             "voiceover": str(res.get("voiceover", "")).strip()[:1100],
+            "tg_caption": str(res.get("tg_caption", "")).strip()[:400],
             "hashtags": [h.strip() for h in (res.get("hashtags") or []) if isinstance(h, str) and h.strip().startswith("#")][:5],
             "image_url": item.get("image_url"),
             "source_title": item.get("title", ""),

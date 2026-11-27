@@ -80,6 +80,7 @@ def main():
             "headline": d["headline"],
             "summary": d["summary"],
             "caption_text": d.get("caption_text", ""),
+            "tg_caption": d.get("tg_caption", ""),
             "voiceover": d.get("voiceover", ""),
             "hashtags": d.get("hashtags", []),
             "highlight": d.get("highlight", []),

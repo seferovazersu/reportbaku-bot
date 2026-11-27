@@ -117,6 +117,7 @@ def fill_from_text(e):
     e["headline"] = str(res.get("headline", "")).strip().rstrip(".") or e["headline"]
     e["summary"] = str(res.get("summary", "")).strip()
     e["caption_text"] = str(res.get("caption", "")).strip()[:1500] or e["summary"]
+    e["tg_caption"] = str(res.get("tg_caption", "")).strip()[:400]
     e["voiceover"] = str(res.get("voiceover", "")).strip()[:1100]
     e["category"] = str(res.get("category", "CƏMİYYƏT")).strip().upper() or "CƏMİYYƏT"
     e["hashtags"] = [h for h in (res.get("hashtags") or []) if isinstance(h, str) and h.startswith("#")][:5]
@@ -171,7 +172,7 @@ def build_for(e, pending):
     entry_common = {"created": datetime.now(timezone.utc).isoformat(), "status": "pending",
                     "category": e["category"], "headline": e["headline"], "summary": e["summary"],
                     "source_note": e.get("source_note", ""), "link": e.get("link", ""),
-                    "sensitive": e["sensitive"], "caption": caption}
+                    "sensitive": e["sensitive"], "caption": caption, "tg_caption": e.get("tg_caption", "")}
     warn = "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl yoxlayın\n\n" if e["sensitive"] else ""
     extra_photos = photos[1:] if photos else []
     items = [{"type": "image", "path": str(img_path).replace("\\", "/")}]

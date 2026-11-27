@@ -385,7 +385,9 @@ def publish_telegram_channel(post):
     chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
     if not chan or post.get("kind") == "story":
         return ""
-    cap = (post.get("caption") or post.get("headline") or "")[:1000]
+    base = post.get("tg_caption") or post.get("headline") or ""
+    src = (post.get("source_note") or "").replace("Mənbə:", "").strip()
+    cap = (base + ("\n\n📎 " + src if src else ""))[:1000]
     try:
         if post.get("kind") == "carousel":
             media = []
