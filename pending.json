@@ -16961,7 +16961,7 @@
  },
  {
   "created": "2026-11-27T06:08:41.395584+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib",
   "summary": "Noyabrın 26-da axşam saatlarında aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib. İddiaya görə, evdən mobil telefonlar, zinət əşyaları və müxtəlif avadanlıqlar aparılıb.",
@@ -16973,11 +16973,14 @@
   "id": "20261127-100614-u-r",
   "kind": "reel",
   "video": "20261127-100614-u-r.mp4",
-  "cover": "20261127-100614-u-r.jpg"
+  "cover": "20261127-100614-u-r.jpg",
+  "published_at": "2026-11-27T06:13:05.158279+00:00",
+  "instagram_id": "17967461739213339",
+  "permalink": "https://www.instagram.com/reel/DgPAhqHTHGk/"
  },
  {
   "created": "2026-11-27T06:08:41.395584+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib",
   "summary": "Noyabrın 26-da axşam saatlarında aparıcı Fira Cəlilovanın Novxanıdakı bağ evinə basqın edilib. İddiaya görə, evdən mobil telefonlar, zinət əşyaları və müxtəlif avadanlıqlar aparılıb.",
@@ -16988,6 +16991,9 @@
   "tg_caption": "🚨 Aparıcı Fira Cəlilovanın Novxanıda yerləşən bağ evinə basqın edilib. İddiaya görə, evdən mobil telefonlar, zinət əşyaları və avadanlıqlar oğurlanıb.",
   "id": "20261127-100614-u-s",
   "kind": "story",
-  "image": "posts/20261127-100614-u-s.jpg"
+  "image": "posts/20261127-100614-u-s.jpg",
+  "published_at": "2026-11-27T06:13:16.873322+00:00",
+  "instagram_id": "18121483855811719",
+  "permalink": ""
  }
 ]
