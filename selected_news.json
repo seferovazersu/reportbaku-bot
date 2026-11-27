@@ -1,42 +1,42 @@
 [
   {
     "source": "Day.az",
-    "title": "В Азербайджане введут налоговые льготы для международных автоперевозчиков",
-    "snippet": "В Азербайджане предложили освободить от налогообложения 50 процентов доходов индивидуальных предпринимателей и прибыли юридических лиц, занимающихся международными автомобильными грузоперевозками, сроком на три года.",
+    "title": "В Азербайджане расширят сферу применения оценки воздействия на окружающую среду",
+    "snippet": "В Азербайджане планируется расширить сферу применения оценки воздействия на окружающую среду (ОВОС), а также ввести новые требования к аттестации оценщиков и осуществлению ими профессиональной деятельности.",
     "needs_fulltext": false,
-    "link": "https://news.day.az/economy/1877554.html",
-    "published": "2026-11-27T08:32:30+00:00"
+    "link": "https://news.day.az/society/1877574.html",
+    "published": "2026-11-27T09:09:43+00:00"
   },
   {
-    "source": "Qafqazinfo",
-    "title": "İnfarkt keçirərkən yıxılıb xəsarət aldı",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://www.qafqazinfo.az/news/detail/infarkt-kecirerken-yixilib-xesaret-aldi-xestexanaya-aparilanda-oldu-529994",
-    "published": "2026-11-27T09:08:00+00:00"
-  },
-  {
-    "source": "APA",
-    "title": "Həyətyanı sahələrin özəlləşdirilməsi üçün əsas yaradılır",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://apa.az/social/heyetyani-sahelerin-ozellesdirilmesi-ucun-esas-yaradilir-1017290",
-    "published": "2026-11-27T08:33:53+00:00"
-  },
-  {
-    "source": "Publika",
-    "title": "FSB yüksək rütbəli rus hərbçisinə qarşı sui-qəsdin qarşısını alıb",
-    "snippet": "",
-    "needs_fulltext": true,
-    "link": "https://publika.az/news/mdb/650408.html",
-    "published": "2026-11-27T08:30:00+00:00"
+    "source": "Metbuat.az",
+    "title": "ADY-nin Qəbələ stansiyasının rəisi qəfil vəfat etdi",
+    "snippet": "Azərbaycanda vəzifəli şəxs vəfat edib.Metbuat.az ölkə.az-a istinadən xəbər verir ki, “Azərbaycan Dəmir Yolları” QSC-nin Qəbələ stansiyasının rəisi Faiq Mustafayev qəfildən dünyasını dəyişib.O, 1984-cü ildə anadan olub və “Azərbaycan Dəmir Yolları”nda 20 ilə yaxın çalışıb.",
+    "needs_fulltext": false,
+    "link": "https://metbuat.az/news/1567657/ady-nin-qebele-stansiyasinin-reisi-qefil-vefat-etdi.html",
+    "published": "2026-11-27T08:55:00+00:00"
   },
   {
     "source": "Xəzər Xəbər",
-    "title": "Sabaha gözlənilən hava proqnozu açıqlanıb",
+    "title": "Ceyhun Bayramov: Estoniya ilə münasibətlərdə çox ciddi dinamika müşahidə edirik",
     "snippet": "",
     "needs_fulltext": true,
-    "link": "https://xezerxeber.az/az/cemiyyet/sabaha-gozlenilen-hava-proqnozu-aciqlanib-2",
-    "published": "2026-11-27T08:31:00+00:00"
+    "link": "https://xezerxeber.az/az/gundem/ceyhun-bayramov-estoniya-ile-munasibetlerde-cox-ciddi-dinamika-musahide-edirik",
+    "published": "2026-11-27T09:12:00+00:00"
+  },
+  {
+    "source": "Qafqazinfo",
+    "title": "“Şəhid və qazi ailələrinə qayğı fəaliyyətimizdə prioritet olub”",
+    "snippet": "",
+    "needs_fulltext": true,
+    "link": "https://www.qafqazinfo.az/news/detail/sehid-ve-qazi-ailelerine-qaygi-fealiyyetimizde-prioritet-olub-temraz-tagiyev-530002",
+    "published": "2026-11-27T10:32:00+00:00"
+  },
+  {
+    "source": "Publika",
+    "title": "Bu dövlət rüsumu 100 manatdan 25 manata endirilir",
+    "snippet": "",
+    "needs_fulltext": true,
+    "link": "https://publika.az/news/sosial/650439.html",
+    "published": "2026-11-27T09:12:00+00:00"
   }
 ]
