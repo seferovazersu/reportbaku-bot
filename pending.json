@@ -18427,7 +18427,7 @@
  },
  {
   "created": "2026-11-27T14:48:52.373900+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Ukrayna nümayəndələri uşaqların ölkəyə qaytarıldığını açıqlayıb",
   "summary": "Ukrayna prezidenti və insan hüquqları üzrə səlahiyyətli nümayəndəsi uşaqların geri gətirildiyini bildiriblər. Rəsmilər bu prosesdə köməyə görə ABŞ-nin birinci xanımına təşəkkür ediblər.",
@@ -18439,11 +18439,14 @@
   "id": "20261127-184041-02-r",
   "kind": "reel",
   "video": "20261127-184041-02-r.mp4",
-  "cover": "20261127-184041-02-r.jpg"
+  "cover": "20261127-184041-02-r.jpg",
+  "published_at": "2026-11-27T14:53:00.592186+00:00",
+  "instagram_id": "17878786935587911",
+  "permalink": "https://www.instagram.com/reel/DgP8Bm9tnxy/"
  },
  {
   "created": "2026-11-27T14:48:52.373900+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Ukrayna nümayəndələri uşaqların ölkəyə qaytarıldığını açıqlayıb",
   "summary": "Ukrayna prezidenti və insan hüquqları üzrə səlahiyyətli nümayəndəsi uşaqların geri gətirildiyini bildiriblər. Rəsmilər bu prosesdə köməyə görə ABŞ-nin birinci xanımına təşəkkür ediblər.",
@@ -18454,7 +18457,10 @@
   "tg_caption": "🇺🇦 Ukrayna rəsmiləri bir qrup uşaq və gəncin ölkəyə geri qaytarıldığını açıqlayıblar.\n\nMəlumatı ölkə prezidenti və insan hüquqları üzrə səlahiyyətli nümayəndə yayıblar. Bildirilib ki, geri gətirilənlər arasında işğal olunmuş ərazilərdə və Rusiyada qalan şəxslər olub. Qeyd olunub ki, prosesdə ABŞ-nin birinci xanımı Melaniya Tramp vasitəçilik edib.\n\nUkrayna tərəfinin məlumatına görə, müharibə başlayandan bəri ümumilikdə 2875 uşaq geri qaytarılıb.",
   "id": "20261127-184041-02-s",
   "kind": "story",
-  "image": "posts/20261127-184041-02-s.jpg"
+  "image": "posts/20261127-184041-02-s.jpg",
+  "published_at": "2026-11-27T14:53:11.926572+00:00",
+  "instagram_id": "17879528733635841",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T14:49:26.684098+00:00",
@@ -18473,7 +18479,7 @@
  },
  {
   "created": "2026-11-27T14:49:26.684098+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SİYASƏT",
   "headline": "Dilican şəhərində Sülh körpüsü təşəbbüsünün beşinci görüşü başa çatıb",
   "summary": "Azərbaycan və Ermənistan vətəndaş cəmiyyəti nümayəndələrinin iştirakı ilə keçirilən görüşdə sülh gündəliyi müzakirə olunub. İki günlük tədbirdə 60-a yaxın şəxs iştirak edib.",
@@ -18485,11 +18491,14 @@
   "id": "20261127-184041-03-r",
   "kind": "reel",
   "video": "20261127-184041-03-r.mp4",
-  "cover": "20261127-184041-03-r.jpg"
+  "cover": "20261127-184041-03-r.jpg",
+  "published_at": "2026-11-27T14:54:00.036602+00:00",
+  "instagram_id": "18006204888033439",
+  "permalink": "https://www.instagram.com/reel/DgP8JGKT7Z4/"
  },
  {
   "created": "2026-11-27T14:49:26.684098+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SİYASƏT",
   "headline": "Dilican şəhərində Sülh körpüsü təşəbbüsünün beşinci görüşü başa çatıb",
   "summary": "Azərbaycan və Ermənistan vətəndaş cəmiyyəti nümayəndələrinin iştirakı ilə keçirilən görüşdə sülh gündəliyi müzakirə olunub. İki günlük tədbirdə 60-a yaxın şəxs iştirak edib.",
@@ -18500,6 +18509,9 @@
   "tg_caption": "🏛 Ermənistanın Dilican şəhərində Azərbaycan və Ermənistan vətəndaş cəmiyyətləri nümayəndələrinin iştirakı ilə keçirilən “Sülh körpüsü” təşəbbüsünün beşinci ikitərəfli dəyirmi masası başa çatıb.\n\nTədbirdə hər iki ölkədən ictimai təşkilatların, media və ekspert dairələrinin 60-a yaxın nümayəndəsi iştirak edib. Görüşdə sülh prosesinin möhkəmləndirilməsi, qarşılıqlı etimadın artırılması, dayanıqlı iqtisadi əməkdaşlıq və kommunikasiya marşrutlarının yaradılması imkanları müzakirə olunub.\n\nİştirakçılar həmçinin rəsmi şəxslərlə də görüşərək fikir mübadiləsi aparıblar.",
   "id": "20261127-184041-03-s",
   "kind": "story",
-  "image": "posts/20261127-184041-03-s.jpg"
+  "image": "posts/20261127-184041-03-s.jpg",
+  "published_at": "2026-11-27T14:53:20.394843+00:00",
+  "instagram_id": "18501988495104606",
+  "permalink": ""
  }
 ]
