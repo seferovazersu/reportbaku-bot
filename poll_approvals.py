@@ -297,22 +297,23 @@ def handle_message(m, pending, by_id, touched):
 
 
 def send_touch_messages(touched):
+    """Media əlavə olunan hər xəbər üçün düymələrlə mesaj: ✅ Hazırla, 🔊 Orijinal səslə (videoda), ❌ Ləğv et."""
     for e in (touched.get("entries") or {}).values():
         n = len(e["media"])
-        if e.get("custom") and not e.get("card_sent"):
-            e["card_sent"] = True
-            markup = {"inline_keyboard": [[
-                {"text": "✅ Hazırla", "callback_data": "build:" + e["id"]},
-                {"text": "🔊 Orijinal səslə", "callback_data": "buildo:" + e["id"]}],
-                [{"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}]]}
-            try:
-                tg("sendMessage", {"chat_id": TG_CHAT, "reply_markup": json.dumps(markup),
-                                   "text": "📝 Sizin xəbəriniz qəbul edildi:\n\n%s\n\n📎 %d fayl. Başqa media da "
-                                           "göndərə bilərsiniz, sonra ✅ Hazırla basın." % (e["raw_text"][:500], n)})
-            except ApiError as ex:
-                print("  Kart göndərilmədi:", str(ex)[:100])
-        else:
-            notify("📎 Xəbərə fayl əlavə olundu (cəmi %d). Hazır olanda ✅ Hazırla düyməsinə basın." % n)
+        vids = sum(1 for m in e["media"] if m["type"] == "video")
+        rows = [[{"text": "✅ Hazırla", "callback_data": "build:" + e["id"]}]]
+        if vids:
+            rows[0].append({"text": "🔊 Orijinal səslə", "callback_data": "buildo:" + e["id"]})
+        if not e.get("custom"):
+            rows.append([{"text": "⏭ Mediasız", "callback_data": "skip:" + e["id"]}])
+        rows.append([{"text": "❌ Ləğv et", "callback_data": "del:" + e["id"]}])
+        head = "📝 Sizin xəbəriniz qəbul edildi:\n\n%s\n\n" % e["raw_text"][:400] if (e.get("custom") and not e.get("card_sent")) else ""
+        e["card_sent"] = True
+        try:
+            tg("sendMessage", {"chat_id": TG_CHAT, "reply_markup": json.dumps({"inline_keyboard": rows}),
+                               "text": head + "📎 %d fayl (%d video) əlavə olundu. Seçin:" % (n, vids)})
+        except ApiError as ex:
+            print("  Düymə mesajı göndərilmədi:", str(ex)[:100])
 
 
 def handle_news_action(cq, action, e, pending):
