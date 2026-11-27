@@ -5,7 +5,7 @@
   },
   "Oxu.az": {
     "url": "https://oxu.az/feed",
-    "state": "OK (160 təzə xəbər, HTTP 200)"
+    "state": "OK (159 təzə xəbər, HTTP 200)"
   },
   "Publika": {
     "url": "https://publika.az/rss/",
@@ -49,7 +49,7 @@
   },
   "Baku TV": {
     "url": "https://baku.tv/rss",
-    "state": "OK (67 təzə xəbər, HTTP 200)"
+    "state": "OK (65 təzə xəbər, HTTP 200)"
   },
   "Daxili İşlər Nazirliyi": {
     "url": "https://t.me/s/polisazerbaycan",
