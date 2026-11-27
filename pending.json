@@ -17445,7 +17445,7 @@
  },
  {
   "created": "2026-11-27T08:46:33.013036+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Saatlıda infarkt keçirən şəxs xəstəxanaya aparılarkən vəfat edib",
   "summary": "Saatlı rayonunda evdə infarkt keçirən 68 yaşlı kişi yıxılaraq xəsarət alıb. O, qohumları tərəfindən xəstəxanaya aparılarkən yolda dünyasını dəyişib.",
@@ -17457,11 +17457,14 @@
   "id": "20261127-123518-02-r",
   "kind": "reel",
   "video": "20261127-123518-02-r.mp4",
-  "cover": "20261127-123518-02-r.jpg"
+  "cover": "20261127-123518-02-r.jpg",
+  "published_at": "2026-11-27T08:53:45.784264+00:00",
+  "instagram_id": "17880119319635897",
+  "permalink": "https://www.instagram.com/reel/DgPS6UuvJmX/"
  },
  {
   "created": "2026-11-27T08:46:33.013036+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Saatlıda infarkt keçirən şəxs xəstəxanaya aparılarkən vəfat edib",
   "summary": "Saatlı rayonunda evdə infarkt keçirən 68 yaşlı kişi yıxılaraq xəsarət alıb. O, qohumları tərəfindən xəstəxanaya aparılarkən yolda dünyasını dəyişib.",
@@ -17472,7 +17475,10 @@
   "tg_caption": "🚨 Saatlı rayonunda evdə infarkt keçirən 68 yaşlı kişi xəstəxanaya aparılarkən yolda ölüb.\n\nHadisə noyabrın 26-sı saat 05 radələrində qeydə alınıb. Bakı şəhər sakini Əlqəmzə İslam oğlu İbrahimov Mircəlalkənd kəndindəki evində infarkt keçirib və bu zaman yıxılaraq baş nahiyəsindən xəsarət alıb. Yaxınları tərəfindən xəstəxanaya çatdırılmağa çalışılarkən o, yolda dünyasını dəyişib. Faktla bağlı rayon prokurorluğu araşdırma aparır.",
   "id": "20261127-123518-02-s",
   "kind": "story",
-  "image": "posts/20261127-123518-02-s.jpg"
+  "image": "posts/20261127-123518-02-s.jpg",
+  "published_at": "2026-11-27T08:54:01.235295+00:00",
+  "instagram_id": "18106985657010744",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T08:47:09.253152+00:00",
@@ -17491,7 +17497,7 @@
  },
  {
   "created": "2026-11-27T08:47:09.253152+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "İQTİSADİYYAT",
   "headline": "Həyətyanı torpaq sahələrinin dövlət qeydiyyatı üçün yeni əsas müəyyənləşir",
   "summary": "Milli Məclisdə müzakirə edilən qanun layihəsinə əsasən, plan-ölçü sənədi daşınmaz əmlakın dövlət qeydiyyatı üçün əsas sayılacaq. Dəyişiklik vətəndaşların mülkiyyət hüququ rəsmiləşməmiş həyətyanı torpaq sahələri ilə bağlı məsələni tənzimləyəcək.",
@@ -17503,11 +17509,22 @@
   "id": "20261127-123518-03-r",
   "kind": "reel",
   "video": "20261127-123518-03-r.mp4",
-  "cover": "20261127-123518-03-r.jpg"
+  "cover": "20261127-123518-03-r.jpg",
+  "publish_at": "2026-11-28T08:30:00+00:00",
+  "msg": {
+   "message_id": 1752,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (26 san., səs: gemini-3.1-flash-tts-preview)\n\nHəyətyanı torpaq sahələrinin dövlət qeydiyyatı üçün yeni əsas müəyyənləşir",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-27T08:47:09.253152+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Həyətyanı torpaq sahələrinin dövlət qeydiyyatı üçün yeni əsas müəyyənləşir",
   "summary": "Milli Məclisdə müzakirə edilən qanun layihəsinə əsasən, plan-ölçü sənədi daşınmaz əmlakın dövlət qeydiyyatı üçün əsas sayılacaq. Dəyişiklik vətəndaşların mülkiyyət hüququ rəsmiləşməmiş həyətyanı torpaq sahələri ilə bağlı məsələni tənzimləyəcək.",
@@ -17518,6 +17535,9 @@
   "tg_caption": "💰 Milli Məclisdə həyətyanı torpaq sahələrinin özəlləşdirilməsi və qeydiyyatı ilə bağlı mühüm dəyişiklik müzakirə edilib.\n\n“Daşınmaz əmlakın dövlət reyestri haqqında” qanuna təklif olunan dəyişikliyə görə, Dövlət Torpaq və Xəritəçəkmə Komitəsi tərəfindən 2015-ci il fevralın 6-dək vətəndaşların mülkiyyətinə verilmiş həyətyanı torpaqlara dair tərtib edilmiş plan-ölçü sənədi həmin torpaq sahələri üzərində mülkiyyət hüququnun dövlət qeydiyyatına alınması üçün əsas sayılacaq. Layihə parlamentdə müzakirələrdən sonra birinci oxunuşda qəbul olunub.",
   "id": "20261127-123518-03-s",
   "kind": "story",
-  "image": "posts/20261127-123518-03-s.jpg"
+  "image": "posts/20261127-123518-03-s.jpg",
+  "published_at": "2026-11-27T08:53:05.899790+00:00",
+  "instagram_id": "18031336379699668",
+  "permalink": ""
  }
 ]
