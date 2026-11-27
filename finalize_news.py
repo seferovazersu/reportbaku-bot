@@ -117,7 +117,7 @@ def fill_from_text(e):
     e["headline"] = str(res.get("headline", "")).strip().rstrip(".") or e["headline"]
     e["summary"] = str(res.get("summary", "")).strip()
     e["caption_text"] = str(res.get("caption", "")).strip()[:1500] or e["summary"]
-    e["tg_caption"] = str(res.get("tg_caption", "")).strip()[:400]
+    e["tg_caption"] = str(res.get("tg_caption", "")).strip()[:900]
     e["voiceover"] = str(res.get("voiceover", "")).strip()[:1100]
     e["category"] = str(res.get("category", "CƏMİYYƏT")).strip().upper() or "CƏMİYYƏT"
     e["hashtags"] = [h for h in (res.get("hashtags") or []) if isinstance(h, str) and h.startswith("#")][:5]

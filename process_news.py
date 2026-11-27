@@ -74,9 +74,10 @@ PROMPT = (
     "birbaşa sitat kimi verilibsə, o sitatı SÖZBƏSÖZ, dəyişdirmədən, dırnaq içində yaz. Sitatı heç vaxt "
     "öz sözünlə əvəz etmə. Sitatın dəqiq sözləri bəlli deyilsə, dırnaq işlətmə, yalnız 'bildirib' kimi nəql et. "
     "Bu qayda caption, tg_caption, headline və voiceover-də də eyni qüvvədədir.\n"
-    "20. tg_caption: Telegram kanalı üçün qısa mətn: 2 cümlə, cəmi 180-260 simvol. Cəlbedici, peşəkar, "
-    "yorucu olmayan. Mövzuya uyğun 1-2 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, ⚽️ idman, 💰 iqtisadiyyat, "
-    "🏥 sağlamlıq, 🚨 təcili). Mənbə və link yazma, onları kod özü əlavə edəcək. Sitat varsa, sözbəsöz saxla.\n\n"
+    "20. tg_caption: Telegram kanalı üçün geniş, peşəkar mətn: 4-5 cümlə, təxminən 500-800 simvol. "
+    "Əvvəl əsas xəbər, sonra mənbədəki təfərrüatlar və kontekst. Cəlbedici, sakit və aydın üslub, "
+    "yorucu və şişirdilmiş olmasın. Mövzuya uyğun 1-3 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, ⚽️ idman, "
+    "💰 iqtisadiyyat, 🏥 sağlamlıq, 🚨 təcili). Mənbə adı və link yazma. Sitat varsa, sözbəsöz saxla.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
     '"headline": "...", "summary": "...", "caption": "...", "tg_caption": "...", "voiceover": "...", '
     '"visual_keywords": ["..."], "hashtags": ["#..."], "highlight": ["..."], "sensitive": false}'
@@ -244,7 +245,7 @@ def main():
             "summary": summary,
             "caption_text": caption_text or summary,
             "voiceover": str(res.get("voiceover", "")).strip()[:1100],
-            "tg_caption": str(res.get("tg_caption", "")).strip()[:400],
+            "tg_caption": str(res.get("tg_caption", "")).strip()[:900],
             "hashtags": [h.strip() for h in (res.get("hashtags") or []) if isinstance(h, str) and h.strip().startswith("#")][:5],
             "image_url": item.get("image_url"),
             "source_title": item.get("title", ""),
