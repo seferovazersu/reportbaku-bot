@@ -9,6 +9,7 @@ Eyni postu ikinci dəfə paylaşmaq mümkün deyil (status pending.json-da saxla
 """
 
 import json
+import re
 import os
 import time
 import urllib.error
@@ -380,15 +381,29 @@ def next_slot(pending):
     return None
 
 
+SOURCE_NAMES = ["AZƏRTAC", "AZERTAC", "APA", "Trend", "Trend.az", "Report", "Report.az", "Day.az", "Oxu.az", "Oxu",
+                "Publika", "Sia.az", "Sia", "Qafqazinfo", "Xəzər Xəbər", "Haqqin.az", "Metbuat.az", "Minval.az",
+                "Baku TV", "Baku.ws", "AzTV", "İctimai TV", "Musavat", "Milli.az", "1news", "Modern.az",
+                "Interfax", "BBC", "Azadlıq", "Sputnik", "Reuters", "AP", "Xinhua", "Interfax.az"]
+SOURCE_RX = re.compile(r"(?<![\w.])(" + "|".join(re.escape(x) for x in sorted(SOURCE_NAMES, key=len, reverse=True)) + r")(?![\w.])", re.IGNORECASE)
+SOURCE_PHRASE_RX = re.compile(r"\b(məlumatına görə|xəbər verir|xəbər verib|məlumat verir|yazır ki)\b", re.IGNORECASE)
+
+
+def scrub_sources(text):
+    """Mənbə adı və ya mənbə ifadəsi olan CÜMLƏNİ tamamilə çıxarır (cümlə pozulmasın deyə)."""
+    parts = re.split(r"(?<=[.!?])\s+|\n+", text or "")
+    kept = [s for s in parts if s.strip() and not SOURCE_RX.search(s) and not SOURCE_PHRASE_RX.search(s)]
+    out = " ".join(kept).strip()
+    return out or re.sub(r"\s+", " ", text or "").strip()
+
+
 def publish_telegram_channel(post):
     """Eyni paylaşımı Telegram kanalına da göndərir (TELEGRAM_CHANNEL_ID təyin olunubsa).
     Şəkil/video GitHub linki ilə göndərilir; kanal üçün story göndərilmir."""
     chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
     if not chan or post.get("kind") == "story":
         return ""
-    base = post.get("tg_caption") or post.get("headline") or ""
-    src = (post.get("source_note") or "").replace("Mənbə:", "").strip()
-    cap = (base + ("\n\n📎 " + src if src else ""))[:1000]
+    cap = scrub_sources(post.get("tg_caption") or post.get("headline") or "")[:1000]   # mənbə adları kanalda yazılmır
     try:
         if post.get("kind") == "carousel":
             media = []

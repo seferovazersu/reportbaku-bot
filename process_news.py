@@ -77,7 +77,7 @@ PROMPT = (
     "20. tg_caption: Telegram kanalı üçün geniş, peşəkar mətn: 4-5 cümlə, təxminən 500-800 simvol. "
     "Əvvəl əsas xəbər, sonra mənbədəki təfərrüatlar və kontekst. Cəlbedici, sakit və aydın üslub, "
     "yorucu və şişirdilmiş olmasın. Mövzuya uyğun 1-3 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, ⚽️ idman, "
-    "💰 iqtisadiyyat, 🏥 sağlamlıq, 🚨 təcili). Mənbə adı və link yazma. Sitat varsa, sözbəsöz saxla.\n\n"
+    "💰 iqtisadiyyat, 🏥 sağlamlıq, 🚨 təcili). Heç bir agentlik, saytın və ya mənbənin adını yazma (APA, AZƏRTAC, Trend, Day.az, Oxu.az, Publika və s.), 'məlumatına görə', 'xəbər verir' kimi ifadələr də yazma. Link yazma. Sitat varsa, sözbəsöz saxla.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
     '"headline": "...", "summary": "...", "caption": "...", "tg_caption": "...", "voiceover": "...", '
     '"visual_keywords": ["..."], "hashtags": ["#..."], "highlight": ["..."], "sensitive": false}'
