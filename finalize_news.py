@@ -232,11 +232,18 @@ def build_for(e, pending):
                     print("  Örtük şəkli hazırlanmadı:", str(ex)[:100])
             if not reel.get("cover") and extract_frame(out, cover, 3):
                 reel["cover"] = cover.name
+            vid_fid = next((m.get("file_id") for m in e.get("media", []) if m.get("type") == "video" and m.get("file_id")), None)
+            if vid_fid and not e.get("original_audio"):
+                reel["src_video_file_id"] = vid_fid
             pending.append(reel)
+            rows = [[{"text": "🎬 Reels paylaş", "callback_data": "reel:" + rid}, {"text": "⚡ İndi", "callback_data": "now:" + rid}]]
+            if reel.get("src_video_file_id"):
+                rows.append([{"text": "🔊 Orijinal səsi ilə yenidən", "callback_data": "reelo:" + rid}])
+            rows.append([{"text": "❌ Ləğv et", "callback_data": "del:" + rid}])
             with open(out, "rb") as f:
                 tg_post("sendVideo", {"caption": (warn + "🎬 REELS ÖNİZLƏMƏ (%d san., səs: %s)\n\n%s" % (round(res["duration"]), res["model"], e["headline"]))[:900],
                                       "supports_streaming": "true", "width": VW, "height": VH,
-                                      "reply_markup": buttons("🎬 Reels paylaş", "reel", rid)}, files={"video": f})
+                                      "reply_markup": json.dumps({"inline_keyboard": rows})}, files={"video": f})
     # --- 3) Story (9:16 şəkil: media tam ekran + başlıq) ---
     sid = base + "-s"
     story_img = POSTS_DIR / (sid + ".jpg")
@@ -253,12 +260,46 @@ def build_for(e, pending):
     e["media"] = []
 
 
+def rebuild_original(r, pending):
+    """Reels-i videonun öz səsi ilə yenidən hazırlayır (media Telegram-dan yenidən yüklənir)."""
+    folder = INCOMING / r["id"]
+    folder.mkdir(parents=True, exist_ok=True)
+    info = requests.post("https://api.telegram.org/bot%s/getFile" % TG_TOKEN,
+                         data={"file_id": r["src_video_file_id"]}, timeout=60).json().get("result")
+    if not info:
+        raise RuntimeError("Video Telegram-dan alınmadı (20 MB-dan böyük ola bilər)")
+    src = folder / "src.mp4"
+    src.write_bytes(requests.get("https://api.telegram.org/file/bot%s/%s" % (TG_TOKEN, info["file_path"]), timeout=180).content)
+    out = VIDEOS_DIR / r["video"]
+    res = make_video(r["category"], r["headline"], r["summary"], "", str(out), highlight=r.get("highlight", []),
+                     voiceover="", inset={"path": str(src), "kind": "video", "credit": "", "keyword": "xəbərin videosu"},
+                     audio_from=str(src))
+    if not res:
+        raise RuntimeError("Orijinal səslə video hazırlanmadı")
+    r["status"] = "pending"
+    r["original_audio"] = True
+    r.pop("src_video_file_id", None)
+    with open(out, "rb") as f:
+        tg_post("sendVideo", {"caption": ("🔊 REELS (ORİJİNAL SƏS, %d san.)\n\n%s" % (round(res["duration"]), r["headline"]))[:900],
+                              "supports_streaming": "true", "width": VW, "height": VH,
+                              "reply_markup": buttons("🎬 Reels paylaş", "reel", r["id"])}, files={"video": f})
+
+
 def main():
     if not PENDING_FILE.exists():
         print("pending.json yoxdur.")
         return
     pending = cleanup(json.loads(PENDING_FILE.read_text(encoding="utf-8")))
     todo = [p for p in pending if p.get("kind") == "news" and p.get("status") == "building"]
+    for r in [p for p in pending if p.get("kind") == "reel" and p.get("status") == "rebuild_orig"]:
+        print("Orijinal səslə yenidən hazırlanır:", r["headline"])
+        try:
+            rebuild_original(r, pending)
+        except Exception as ex:
+            r["status"] = "pending"
+            print("  XƏTA:", str(ex)[:200])
+            notify("⚠️ Orijinal səslə hazırlanmadı: %s" % str(ex)[:200])
+        PENDING_FILE.write_text(json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
     if not todo:
         print("Hazırlanacaq xəbər yoxdur.")
         return

@@ -579,6 +579,15 @@ def main():
             continue
 
         kind = post.get("kind", "post")
+        if action == "reelo":
+            if kind != "reel" or not post.get("src_video_file_id"):
+                answer(cq, "Bu Reels üçün orijinal səs seçimi yoxdur.")
+                continue
+            post["status"] = "rebuild_orig"
+            save(pending)
+            answer(cq, "Orijinal səslə hazırlanır...")
+            finish_message(cq, "🔊 ORİJİNAL SƏSLƏ HAZIRLANIR... (bir neçə dəqiqə)")
+            continue
         if (action == "pub" and kind not in ("post", "carousel")) or (action == "reel" and kind != "reel") \
                 or (action == "story" and kind != "story") or action not in ("pub", "reel", "story", "now"):
             answer(cq, "Naməlum əmr.")
@@ -618,7 +627,7 @@ def main():
     run_scheduled(pending)
     send_touch_messages(touched)
     save(pending)
-    if any(p.get("kind") == "news" and p.get("status") == "building" for p in pending):
+    if any((p.get("kind") == "news" and p.get("status") == "building") or p.get("status") == "rebuild_orig" for p in pending):
         out = os.environ.get("GITHUB_OUTPUT")
         if out:
             with open(out, "a") as f:
