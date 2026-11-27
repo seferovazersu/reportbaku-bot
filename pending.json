@@ -17322,7 +17322,7 @@
  },
  {
   "created": "2026-11-27T06:56:22.144305+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
   "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
@@ -17334,11 +17334,14 @@
   "id": "20261127-105231-u-r",
   "kind": "reel",
   "video": "20261127-105231-u-r.mp4",
-  "cover": "20261127-105231-u-r.jpg"
+  "cover": "20261127-105231-u-r.jpg",
+  "published_at": "2026-11-27T07:08:23.616353+00:00",
+  "instagram_id": "18142701160635460",
+  "permalink": "https://www.instagram.com/reel/DgPG2iBxF24/"
  },
  {
   "created": "2026-11-27T06:56:22.144305+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
   "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
@@ -17349,6 +17352,9 @@
   "tg_caption": "💰 Azərbaycanda yükdaşıma sahəsində vergi qanunvericiliyinə dəyişikliklər edilməsi nəzərdə tutulur.\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Təklif olunan dəyişikliyə əsasən, əmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
   "id": "20261127-105231-u-s",
   "kind": "story",
-  "image": "posts/20261127-105231-u-s.jpg"
+  "image": "posts/20261127-105231-u-s.jpg",
+  "published_at": "2026-11-27T07:07:42.924763+00:00",
+  "instagram_id": "18380470138213641",
+  "permalink": ""
  }
 ]
