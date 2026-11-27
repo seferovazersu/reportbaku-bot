@@ -18146,7 +18146,7 @@
  },
  {
   "created": "2026-11-27T13:05:37.804040+00:00",
-  "status": "scheduled",
+  "status": "published",
   "category": "DÜNYA",
   "headline": "Vaşinqtonun mövqeyi NATO-da siyasi və hərbi koordinasiyanın gələcəyinə təsir göstərəcək",
   "summary": "Politoloq Rəşad Bayramov NATO ilə Rusiya arasındakı gərginliyin səbəblərini şərh edib. O, Ukrayna müharibəsi və tərəflər arasında artan etimadsızlığın risklər yaratdığını bildirib.",
@@ -18168,6 +18168,9 @@
    "text": null,
    "photo": true,
    "video": false
-  }
+  },
+  "published_at": "2026-11-27T14:12:02.400676+00:00",
+  "instagram_id": "17982418688915660",
+  "permalink": ""
  }
 ]
