@@ -18124,7 +18124,7 @@
  },
  {
   "created": "2026-11-27T14:29:34.584219+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanın turizm imkanları İspaniya və İtaliyada təqdim olunub",
   "summary": "Azərbaycan Turizm Bürosu İspaniya və İtaliyada ölkəmizin ilboyu turizm imkanlarını tanıdıb. Barselona, Roma və Milan şəhərlərində təşkil edilən görüşlərdə yerli turizm şirkətləri iştirak ediblər.",
@@ -18136,11 +18136,22 @@
   "id": "20261127-181718-01-r",
   "kind": "reel",
   "video": "20261127-181718-01-r.mp4",
-  "cover": "20261127-181718-01-r.jpg"
+  "cover": "20261127-181718-01-r.jpg",
+  "publish_at": "2026-11-28T12:00:00+00:00",
+  "msg": {
+   "message_id": 1831,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "🎬 REELS ÖNİZLƏMƏ (26 san., səs: gemini-3.1-flash-tts-preview)\n\nAzərbaycanın turizm imkanları İspaniya və İtaliyada təqdim olunub",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-27T14:29:34.584219+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanın turizm imkanları İspaniya və İtaliyada təqdim olunub",
   "summary": "Azərbaycan Turizm Bürosu İspaniya və İtaliyada ölkəmizin ilboyu turizm imkanlarını tanıdıb. Barselona, Roma və Milan şəhərlərində təşkil edilən görüşlərdə yerli turizm şirkətləri iştirak ediblər.",
@@ -18151,7 +18162,10 @@
   "tg_caption": "🏛 Azərbaycanın ilboyu turizm imkanları İspaniya və İtaliyada təşkil olunan silsilə təqdimatlarla tanıdılıb.\n\nBarselona, Roma və Milan şəhərlərini əhatə edən tədbirlərdə yerli turizm qurumları, o cümlədən aviaşirkətlərin nümayəndələri iştirak ediblər. İştirakçılara ölkəmizin mədəni irsi, Bakının memarlığı, Şamaxı və Şəki marşrutları, qastronomiya, həmçinin qış turizmi və idman tədbirləri barədə məlumat verilib.\n\nB2B formatlı görüşlərdə gələcək əməkdaşlıq perspektivləri və yeni turizm məhsullarının hazırlanması müzakirə olunub. Qeyd olunub ki, iki ölkə arasında mövcud birbaşa hava əlaqələri turistlərin səfərlərini daha da asanlaşdırır.",
   "id": "20261127-181718-01-s",
   "kind": "story",
-  "image": "posts/20261127-181718-01-s.jpg"
+  "image": "posts/20261127-181718-01-s.jpg",
+  "published_at": "2026-11-27T14:33:02.156715+00:00",
+  "instagram_id": "18105629975381893",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T14:30:04.945793+00:00",
@@ -18170,7 +18184,7 @@
  },
  {
   "created": "2026-11-27T14:30:04.945793+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Abşeron rayonunda narkotik vasitələrin qanunsuz dövriyyəsinə qarşı əməliyyat keçirilib",
   "summary": "Abşeron rayonunda polisin keçirdiyi tədbirlər nəticəsində səkkiz nəfər saxlanılıb. Onlardan dörd kiloqramdan artıq narkotik vasitə və psixotrop həblər aşkarlanıb.",
@@ -18182,11 +18196,14 @@
   "id": "20261127-181718-02-r",
   "kind": "reel",
   "video": "20261127-181718-02-r.mp4",
-  "cover": "20261127-181718-02-r.jpg"
+  "cover": "20261127-181718-02-r.jpg",
+  "published_at": "2026-11-27T14:34:10.008181+00:00",
+  "instagram_id": "17919315165497905",
+  "permalink": "https://www.instagram.com/reel/DgP53Bqh4-h/"
  },
  {
   "created": "2026-11-27T14:30:04.945793+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Abşeron rayonunda narkotik vasitələrin qanunsuz dövriyyəsinə qarşı əməliyyat keçirilib",
   "summary": "Abşeron rayonunda polisin keçirdiyi tədbirlər nəticəsində səkkiz nəfər saxlanılıb. Onlardan dörd kiloqramdan artıq narkotik vasitə və psixotrop həblər aşkarlanıb.",
@@ -18197,7 +18214,10 @@
   "tg_caption": "🚨 Abşeron rayonunda narkotik vasitələrin qanunsuz dövriyyəsinə qarşı əməliyyat keçirilib.\n\nPolis tədbirləri nəticəsində səkkiz nəfər saxlanılıb. Onlardan ümumilikdə 4 kiloqram 200 qram narkotik maddə və 50 ədəd psixotrop tərkibli həb aşkarlanıb.\n\nFaktlarla bağlı cinayət işləri başlanılıb, araşdırma aparılır.",
   "id": "20261127-181718-02-s",
   "kind": "story",
-  "image": "posts/20261127-181718-02-s.jpg"
+  "image": "posts/20261127-181718-02-s.jpg",
+  "published_at": "2026-11-27T14:34:28.914380+00:00",
+  "instagram_id": "18098544425669213",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T14:30:31.967419+00:00",
@@ -18216,7 +18236,7 @@
  },
  {
   "created": "2026-11-27T14:30:31.967419+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SAĞLAMLIQ",
   "headline": "Prostat xərçəngi uzun müddət simptomsuz inkişaf edə bilər",
   "summary": "Uroloq Lukas Noqueyranın sözlərinə görə, prostat xərçəngi uzun müddət əlamətsiz inkişaf edə bilər. Həkim 55 yaşdan yuxarı kişilərə mütəmadi müayinədən keçməyi tövsiyə edib.",
@@ -18228,11 +18248,14 @@
   "id": "20261127-181718-03-r",
   "kind": "reel",
   "video": "20261127-181718-03-r.mp4",
-  "cover": "20261127-181718-03-r.jpg"
+  "cover": "20261127-181718-03-r.jpg",
+  "published_at": "2026-11-27T14:35:10.134873+00:00",
+  "instagram_id": "17987150196066310",
+  "permalink": "https://www.instagram.com/reel/DgP5-57PXSk/"
  },
  {
   "created": "2026-11-27T14:30:31.967419+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SAĞLAMLIQ",
   "headline": "Prostat xərçəngi uzun müddət simptomsuz inkişaf edə bilər",
   "summary": "Uroloq Lukas Noqueyranın sözlərinə görə, prostat xərçəngi uzun müddət əlamətsiz inkişaf edə bilər. Həkim 55 yaşdan yuxarı kişilərə mütəmadi müayinədən keçməyi tövsiyə edib.",
@@ -18243,6 +18266,9 @@
   "tg_caption": "🏥 Prostat xərçəngi uzun müddət heç bir əlamət vermədən inkişaf edə bilər.\n\nUroloq Lukas Noqueyra bildirib ki, sidiyə çıxmaqda çətinlik, sidikdə qan, çanaq nahiyəsində ağrı və səbəbsiz çəki itkisi bu xəstəliyin əsas əlamətləri sırasındadır. Yaş amili əsas risk faktorlarından biri olduğundan, 55 yaşdan yuxarı kişilərə mütəmadi tibbi müayinədən keçmək məsləhət görülür. Eyni zamanda, ailəsində bu xəstəlik olan şəxslər də risk qrupundadır.",
   "id": "20261127-181718-03-s",
   "kind": "story",
-  "image": "posts/20261127-181718-03-s.jpg"
+  "image": "posts/20261127-181718-03-s.jpg",
+  "published_at": "2026-11-27T14:35:28.551317+00:00",
+  "instagram_id": "18116407196266273",
+  "permalink": ""
  }
 ]
