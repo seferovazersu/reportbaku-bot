@@ -78,6 +78,15 @@ def entry_time(entry):
     return datetime(*t[:6], tzinfo=timezone.utc)
 
 
+PRACTICAL_WORDS = ["yol", "hava", "qiymət", "tarif", "xidmət", "məktəb", "ödəniş", "qanun", "sağlamlıq",
+                   "nəqliyyat", "metro", "rüsum", "əmək haqqı", "bağlan", "istifadə", "sakin", "kommunal", "təhsil"]
+
+
+def practical_score(title):
+    t = title.lower()
+    return sum(1 for w in PRACTICAL_WORDS if w in t)
+
+
 def _stems(text):
     """Mənalı sözlərin ilk 4 hərfi (Azərbaycan dilində şəkilçilər uzun olur, kökü müqayisə edirik)."""
     words = re.findall(r"[\w]+", text.lower())
@@ -351,6 +360,8 @@ def main():
             per_source[name] = fresh
 
     # Mənbələri növbə ilə gəzirik ki, bir saytın xəbərləri üstünlük təşkil etməsin
+    for name in per_source:                       # 4: praktik faydalı mövzulara üstünlük
+        per_source[name].sort(key=lambda x: -practical_score(x["title"]))
     selected = []
     earlier = recent_titles()
     while len(selected) < TARGET_COUNT and any(per_source.values()):

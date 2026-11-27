@@ -93,10 +93,20 @@ def build_hashtags(d):
     return " ".join(out[:MAX_TAGS])
 
 
+CTAS = ["Bu sizə necə təsir edəcək? Şərhdə yazın.",
+        "Dostunuza göndərin, bilməlidir.",
+        "Fikrinizi şərhdə bildirin.",
+        "Bu xəbəri yadda saxlayın."]
+
+
 def build_caption(d, credit=""):
     """Instagram-da görünəcək mətn: başlıq, ətraflı yazı, mənbə, foto krediti, heştaqlar."""
     body = d.get("caption_text") or d["summary"]
-    parts = [d["headline"], body, d.get("source_note", ""),
+    cta = CTAS[sum(ord(ch) for ch in d["headline"]) % len(CTAS)]            # 7: çağırış cümləsi
+    chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
+    tg_line = ("📲 Telegram: t.me/%s" % chan.lstrip("@")) if chan.startswith("@") else ""   # 6: profil/kanal keçidi
+    parts = [d["headline"], body, d.get("source_note", ""), cta,
+             "📍 Bakı", tg_line,
              ("Foto: " + credit) if credit else "", build_hashtags(d)]
     return "\n\n".join(p for p in parts if p)
 

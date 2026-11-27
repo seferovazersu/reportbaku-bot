@@ -119,6 +119,15 @@ def main():
             lines.append("• %s — %d (%s)" % (r["headline"], score(r), LABEL.get(r["kind"], r["kind"])))
         top_k = sorted(by_kind.items(), key=lambda x: -avg([score(r) for r in x[1]]))[0][0]
         lines.append("\n💡 Bu həftə ən güclü format: %s. Ona üstünlük verin." % LABEL.get(top_k, top_k))
+    week = [p for p in pending if p.get("status") == "published"
+            and datetime.fromisoformat(p.get("published_at") or p["created"]) >= now - timedelta(days=7)]
+    if week:
+        from collections import Counter
+        kinds = Counter(LABEL.get(p.get("kind", "post"), p.get("kind", "post")) for p in week)
+        cats = Counter(p.get("category", "?") for p in week)
+        lines.append("\n🗓 Son 7 gündə: %d paylaşım" % len(week))
+        lines.append("• Növ: " + ", ".join("%s %d" % (k, v) for k, v in kinds.most_common()))
+        lines.append("• Mövzu: " + ", ".join("%s %d" % (k, v) for k, v in cats.most_common(3)))
     STATS.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
     tg("\n".join(lines))
 

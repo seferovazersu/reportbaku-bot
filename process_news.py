@@ -64,7 +64,7 @@ PROMPT = (
     "səhv məlumatın kiməsə zərər verə biləcəyi mövzularda true, qalan hallarda false yaz.\n"
     "15. caption: Instagram yazısı üçün ətraflı mətn: 2-3 qısa abzas, 4-6 cümlə, təxminən 500-900 simvol. "
     "Mənbədə məlumat azdırsa, daha qısa yaz (ən azı 250 simvol), uydurma. Mənbə adı, link və heştaq yazma.\n"
-    "16. voiceover: Reels videosunun diktor mətni, danışıq üçün aydın və qısa cümlələrlə, 25-110 söz "
+    "16. voiceover: Reels videosunun diktor mətni, danışıq üçün aydın və çox qısa cümlələrlə, 30-55 söz (təxminən 15-25 saniyə, xəbərin əsas fikri ilk cümlədə). "
     "(xəbərin əhəmiyyətinə görə). Rəqəmləri sözlə yox, rəqəmlə yaz. Yalnız mənbədəki faktlar.\n"
     "17. visual_keywords: video fonu üçün 2-3 qısa ingiliscə ifadə, yalnız ümumi səhnələr. "
     "Konkret hadisə və ya şəxs olarsa boş siyahı [] qaytar.\n"
