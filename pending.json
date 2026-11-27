@@ -17273,5 +17273,31 @@
   "published_at": "2026-11-27T06:45:45.724012+00:00",
   "instagram_id": "18204967540383619",
   "permalink": ""
+ },
+ {
+  "id": "20261127-105231-u",
+  "kind": "news",
+  "created": "2026-11-27T06:52:31.089565+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişlənir.\n\nOxu. Az xəbər verir ki, bununla bağlı Vergi Məcəlləsinə dəyişiklik təklif olunur.\n\nƏmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIGwGsJKJp1ZFITKD7xkO0ZEb6-DF6OAAKkJ2sb_7tQSL8fh1_6U7NKAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına və digər vergi hüquqpozmaları",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
