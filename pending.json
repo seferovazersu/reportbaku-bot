@@ -18604,7 +18604,7 @@
  },
  {
   "created": "2026-11-27T15:31:39.119819+00:00",
-  "status": "pending",
+  "status": "scheduled",
   "category": "HADİSƏ",
   "headline": "Astarada iki VAZ-2107 toqquşub, azyaşlı xəsarət alıb",
   "summary": "Astara rayonunun Təngərüd kəndində iki \"VAZ-2107\" markalı avtomobilin توqquşması nəticəsində azyaşlı qız xəsarət alıb. Xəstəxanaya yerləşdirilən uşağa reanimasiya şöbəsində lazımi tibbi xidmətlər göstərilib.",
@@ -18616,11 +18616,22 @@
   "id": "20261127-192335-02-r",
   "kind": "reel",
   "video": "20261127-192335-02-r.mp4",
-  "cover": "20261127-192335-02-r.jpg"
+  "cover": "20261127-192335-02-r.jpg",
+  "publish_at": "2026-11-28T15:30:00+00:00",
+  "msg": {
+   "message_id": 1878,
+   "chat": {
+    "id": 541181633
+   },
+   "caption": "⚠️ HƏSSAS MÖVZU: paylaşmazdan əvvəl yoxlayın\n\n🎬 REELS ÖNİZLƏMƏ (27 san., səs: gemini-3.1-flash-tts-preview)\n\nAstarada iki VAZ-2107 toqquşub, azyaşlı xəsarət alıb",
+   "text": null,
+   "photo": false,
+   "video": true
+  }
  },
  {
   "created": "2026-11-27T15:31:39.119819+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Astarada iki VAZ-2107 toqquşub, azyaşlı xəsarət alıb",
   "summary": "Astara rayonunun Təngərüd kəndində iki \"VAZ-2107\" markalı avtomobilin توqquşması nəticəsində azyaşlı qız xəsarət alıb. Xəstəxanaya yerləşdirilən uşağa reanimasiya şöbəsində lazımi tibbi xidmətlər göstərilib.",
@@ -18631,7 +18642,10 @@
   "tg_caption": "🚨 Astarada iki \"VAZ-2107\" markalı avtomobilin توqquşması nəticəsində yol-nəqliyyatı hadisəsi baş verib.\n\nRayonun Təngərüd kəndində qeydə alınan qəzada 7 yaşlı qız müxtəlif dərəcəli bədən xəsarətləri alıb. Azyaşlı Lənkəran Rayon Mərkəzi xəstəxanasının təcili yardım şöbəsinə hospitalizasiya olunub. Ona zəruri ilkin tibbi xidmətlər göstərilib, qapalı kəllə-beyin travması və burun nahiyəsinin sınığı diaqnozu qoyularaq reanimasiya şöbəsinə yerləşdirilib.\n\nFaktla bağlı araşdırma aparılır.",
   "id": "20261127-192335-02-s",
   "kind": "story",
-  "image": "posts/20261127-192335-02-s.jpg"
+  "image": "posts/20261127-192335-02-s.jpg",
+  "published_at": "2026-11-27T15:35:34.404478+00:00",
+  "instagram_id": "18169783750488787",
+  "permalink": ""
  },
  {
   "created": "2026-11-27T15:32:06.985647+00:00",
@@ -18650,7 +18664,7 @@
  },
  {
   "created": "2026-11-27T15:32:06.985647+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Avropa Mərkəzi Bankı faiz dərəcələrini yenidən artıra bilər",
   "summary": "Avrozonada inflyasiyanın hədəfdən yuxarı qalacağı səbəbindən Avropa Mərkəzi Bankı dekabr ayında yeni addımlar ata bilər. Bu barədə qurumun İdarəetmə Şurasının üzvü İoaxim Nagel bildirib.",
@@ -18662,11 +18676,14 @@
   "id": "20261127-192335-03-r",
   "kind": "reel",
   "video": "20261127-192335-03-r.mp4",
-  "cover": "20261127-192335-03-r.jpg"
+  "cover": "20261127-192335-03-r.jpg",
+  "published_at": "2026-11-27T15:36:20.962677+00:00",
+  "instagram_id": "18085321202391109",
+  "permalink": "https://www.instagram.com/reel/DgQA-i5tXrm/"
  },
  {
   "created": "2026-11-27T15:32:06.985647+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Avropa Mərkəzi Bankı faiz dərəcələrini yenidən artıra bilər",
   "summary": "Avrozonada inflyasiyanın hədəfdən yuxarı qalacağı səbəbindən Avropa Mərkəzi Bankı dekabr ayında yeni addımlar ata bilər. Bu barədə qurumun İdarəetmə Şurasının üzvü İoaxim Nagel bildirib.",
@@ -18677,6 +18694,9 @@
   "tg_caption": "💰 Avropa Mərkəzi Bankı dekabr ayında faiz dərəcələrini yenidən artırmaq imkanlarını nəzərdən keçirə bilər.\n\nBuna səbəb avrozonada inflyasiyanın bir müddət daha yüksək səviyyədə qalacağı ehtimalıdır. Qurumun İdarəetmə Şurasının üzvü İoaxim Nagel bildirib ki, 2027-ci ildə də inflyasiya göstəriciləri hədəfdən yuxarı ola bilər və bu, əlavə pul-kredit tədbirlərinin görülməsini tələb edə bilər.",
   "id": "20261127-192335-03-s",
   "kind": "story",
-  "image": "posts/20261127-192335-03-s.jpg"
+  "image": "posts/20261127-192335-03-s.jpg",
+  "published_at": "2026-11-27T15:36:37.200634+00:00",
+  "instagram_id": "18461412220192811",
+  "permalink": ""
  }
 ]
