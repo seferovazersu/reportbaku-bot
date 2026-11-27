@@ -17278,26 +17278,77 @@
   "id": "20261127-105231-u",
   "kind": "news",
   "created": "2026-11-27T06:52:31.089565+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişlənir.\n\nOxu. Az xəbər verir ki, bununla bağlı Vergi Məcəlləsinə dəyişiklik təklif olunur.\n\nƏmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIGwGsJKJp1ZFITKD7xkO0ZEb6-DF6OAAKkJ2sb_7tQSL8fh1_6U7NKAQADAgADeAADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
+  "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
+  "caption_text": "Vergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına qarşı tətbiq edilən maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Bu məqsədlə Vergi Məcəlləsinə müvafiq dəyişikliklərin edilməsi təklif olunur.\n\nYeni tənzimləməyə əsasən, əmtəə təyinatlı yüklərin müəyyən olunmuş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsi məsuliyyət yaradacaq. Belə hallarda vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
+  "voiceover": "Azərbaycanda yükdaşıma sahəsində yeni maliyyə sanksiyası tətbiq olunması təklif edilir. Vergi Məcəlləsinə edilən dəyişikliyə əsasən, əmtəə təyinatlı yüklərin elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən daşınmasına görə vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq olunacaq.",
+  "hashtags": [
+   "#VergiMəcəlləsi",
+   "#Yükdaşıma",
+   "#İqtisadiyyat",
+   "#ReportBaku"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Azərbaycanda",
+   "yükdaşıma",
+   "yeni maliyyə sanksiyası"
+  ],
   "source_note": "",
   "source_title": "📢 Azərbaycanda yükdaşıma ilə bağlı yeni cərimə\n\nVergilərin qanunsuz yollarla azaldılmasına və digər vergi hüquqpozmaları",
   "link": "",
   "sensitive": false,
-  "card_sent": true
+  "card_sent": true,
+  "tg_caption": "💰 Azərbaycanda yükdaşıma sahəsində vergi qanunvericiliyinə dəyişikliklər edilməsi nəzərdə tutulur.\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Təklif olunan dəyişikliyə əsasən, əmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq."
+ },
+ {
+  "created": "2026-11-27T06:56:22.144305+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
+  "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına qarşı tətbiq edilən maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Bu məqsədlə Vergi Məcəlləsinə müvafiq dəyişikliklərin edilməsi təklif olunur.\n\nYeni tənzimləməyə əsasən, əmtəə təyinatlı yüklərin müəyyən olunmuş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsi məsuliyyət yaradacaq. Belə hallarda vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #VergiMəcəlləsi #Yükdaşıma #İqtisadiyyat",
+  "tg_caption": "💰 Azərbaycanda yükdaşıma sahəsində vergi qanunvericiliyinə dəyişikliklər edilməsi nəzərdə tutulur.\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Təklif olunan dəyişikliyə əsasən, əmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
+  "id": "20261127-105231-u-p",
+  "kind": "post",
+  "image": "posts/20261127-105231-u-p.jpg"
+ },
+ {
+  "created": "2026-11-27T06:56:22.144305+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
+  "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına qarşı tətbiq edilən maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Bu məqsədlə Vergi Məcəlləsinə müvafiq dəyişikliklərin edilməsi təklif olunur.\n\nYeni tənzimləməyə əsasən, əmtəə təyinatlı yüklərin müəyyən olunmuş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsi məsuliyyət yaradacaq. Belə hallarda vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #VergiMəcəlləsi #Yükdaşıma #İqtisadiyyat",
+  "tg_caption": "💰 Azərbaycanda yükdaşıma sahəsində vergi qanunvericiliyinə dəyişikliklər edilməsi nəzərdə tutulur.\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Təklif olunan dəyişikliyə əsasən, əmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
+  "id": "20261127-105231-u-r",
+  "kind": "reel",
+  "video": "20261127-105231-u-r.mp4",
+  "cover": "20261127-105231-u-r.jpg"
+ },
+ {
+  "created": "2026-11-27T06:56:22.144305+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq",
+  "summary": "Vergi Məcəlləsinə təklif edilən dəyişikliyə əsasən, elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən yükdaşımaya görə maliyyə sanksiyası müəyyənləşir. Qayda pozuntusu zamanı vergi ödəyicisinə malların ümumi dəyərinin 2 faizi məbləğində sanksiya tətbiq ediləcək.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "Azərbaycanda yükdaşıma qaydalarının pozulmasına görə yeni maliyyə sanksiyası tətbiq olunacaq\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına qarşı tətbiq edilən maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Bu məqsədlə Vergi Məcəlləsinə müvafiq dəyişikliklərin edilməsi təklif olunur.\n\nYeni tənzimləməyə əsasən, əmtəə təyinatlı yüklərin müəyyən olunmuş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsi məsuliyyət yaradacaq. Belə hallarda vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #VergiMəcəlləsi #Yükdaşıma #İqtisadiyyat",
+  "tg_caption": "💰 Azərbaycanda yükdaşıma sahəsində vergi qanunvericiliyinə dəyişikliklər edilməsi nəzərdə tutulur.\n\nVergilərin qanunsuz yollarla azaldılması və digər vergi hüquqpozmalarına görə maliyyə sanksiyalarının əhatə dairəsi genişləndirilir. Təklif olunan dəyişikliyə əsasən, əmtəə təyinatlı yüklərin müəyyənləşmiş qaydada elektron əmtəə-nəqliyyat qaiməsi tərtib edilmədən avtomobil nəqliyyatı ilə daşınaraq təqdim edilməsinə görə vergi ödəyicisinə verilmiş malların ümumi dəyərinin 2 faizi məbləğində maliyyə sanksiyası tətbiq olunacaq.",
+  "id": "20261127-105231-u-s",
+  "kind": "story",
+  "image": "posts/20261127-105231-u-s.jpg"
  }
 ]
