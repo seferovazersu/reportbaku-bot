@@ -17846,7 +17846,7 @@
  },
  {
   "created": "2026-11-27T09:59:27.930699+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
   "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
@@ -17858,11 +17858,14 @@
   "id": "20261127-135712-u-r",
   "kind": "reel",
   "video": "20261127-135712-u-r.mp4",
-  "cover": "20261127-135712-u-r.jpg"
+  "cover": "20261127-135712-u-r.jpg",
+  "published_at": "2026-11-27T10:07:51.453750+00:00",
+  "instagram_id": "18100007351656964",
+  "permalink": "https://www.instagram.com/reel/DgPbZU6h1h1/"
  },
  {
   "created": "2026-11-27T09:59:27.930699+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
   "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
@@ -17873,6 +17876,9 @@
   "tg_caption": "🚨 Bakıda avtoservisdə baş verən oğurluq hadisəsinin üstü açılıb.\n\nNizami rayonunun Babək prospektində yerləşən avtoservisə avtomobilini gətirən şəxs orada oğurluq törədib. O, ustanın asılqandan asılan paltarının cibindən 5000 manat götürərək ərazidən uzaqlaşıb.\n\nPolis əməkdaşlarının keçirdiyi tədbirlər nəticəsində həmin şəxs saxlanılıb. Faktla bağlı cinayət işi açılıb, araşdırmalar aparılır.",
   "id": "20261127-135712-u-s",
   "kind": "story",
-  "image": "posts/20261127-135712-u-s.jpg"
+  "image": "posts/20261127-135712-u-s.jpg",
+  "published_at": "2026-11-27T10:08:06.924870+00:00",
+  "instagram_id": "18350377444253915",
+  "permalink": ""
  }
 ]
