@@ -360,7 +360,7 @@ def slim_msg(cq):
 
 def next_slot(pending):
     """Növbəti boş paylaşım vaxtı (UTC). SCHEDULE=0 olarsa None (dərhal paylaşılır)."""
-    if os.environ.get("SCHEDULE", "1") == "0" or not SLOTS:
+    if os.environ.get("SCHEDULE", "0") != "1" or not SLOTS:   # planlaşdırma standart olaraq söndürülüb
         return None
     now = datetime.now(timezone.utc)
     taken = [datetime.fromisoformat(x["publish_at"]) for x in pending

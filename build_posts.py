@@ -10,6 +10,7 @@ Paylaşımı poll_approvals.py edir (düyməyə basılandan sonra).
 
 import hashlib
 import json
+import re
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -93,6 +94,25 @@ def build_hashtags(d):
     return " ".join(out[:MAX_TAGS])
 
 
+SRC_NAMES = ["AZƏRTAC", "AZERTAC", "APA", "Trend", "Report", "Day.az", "Oxu.az", "Oxu", "Publika", "Sia.az", "Sia",
+             "Qafqazinfo", "Xəzər Xəbər", "Haqqin.az", "Metbuat.az", "Minval.az", "Baku TV", "Baku.ws", "AzTV",
+             "İctimai TV", "Musavat", "Milli.az", "1news", "Modern.az", "Interfax", "BBC", "Azadlıq", "Sputnik",
+             "Reuters", "Xinhua"]
+SRC_RX = re.compile(r"(?<![\w.])(" + "|".join(re.escape(x) for x in sorted(SRC_NAMES, key=len, reverse=True)) + r")(?![\w.])",
+                    re.IGNORECASE)
+SRC_PHRASE_RX = re.compile(r"\b(məlumatına görə|xəbər verir|xəbər verib|məlumat verir|yazır ki)\b", re.IGNORECASE)
+
+
+def scrub_src(text):
+    """Mənbə adı və ya mənbə ifadəsi olan cümləni çıxarır (Instagram mətni üçün)."""
+    parts = re.split(r"(?<=[.!?])\s+|\n+", text or "")
+    kept = [s for s in parts if s.strip() and not SRC_RX.search(s) and not SRC_PHRASE_RX.search(s)]
+    if kept:
+        return " ".join(kept).strip()
+    cleaned = SRC_PHRASE_RX.sub("", SRC_RX.sub("", text or ""))
+    return re.sub(r"\s{2,}", " ", cleaned).strip(" ,.-:")
+
+
 CTAS = ["Bu sizə necə təsir edəcək? Şərhdə yazın.",
         "Dostunuza göndərin, bilməlidir.",
         "Fikrinizi şərhdə bildirin.",
@@ -105,7 +125,7 @@ def build_caption(d, credit=""):
     cta = CTAS[sum(ord(ch) for ch in d["headline"]) % len(CTAS)]            # 7: çağırış cümləsi
     chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
     tg_line = ("📲 Telegram: t.me/%s" % chan.lstrip("@")) if chan.startswith("@") else ""   # 6: profil/kanal keçidi
-    parts = [d["headline"], body, d.get("source_note", ""), cta,
+    parts = [scrub_src(d["headline"]), scrub_src(body), cta,
              "📍 Bakı", tg_line,
              ("Foto: " + credit) if credit else "", build_hashtags(d)]
     return "\n\n".join(p for p in parts if p)
