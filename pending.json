@@ -17803,26 +17803,76 @@
   "id": "20261127-135712-u",
   "kind": "news",
   "created": "2026-11-27T09:57:12.920460+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🔴 Maşını servisə gətirdi, ustanın 5000 manatını oğurladı - BAKIDA\n\nLent.az xəbər verir ki, hadisə Nizami rayonunun Babək prospektində yerləşən avtoservisdə baş verib. Avtomobilini servisə gətirən İ. Çobanov ustanın asılqanda qoyduğu paltarın cibindən 5000 manat götürərək oradan uzaqlaşıb.\n\nPolis İ. Çobanovu saxlayıb. Faktla bağlı cinayət işi başlanıb, araşdırma aparılır.",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIG8GsJU65cILdZUnXgBszA00mTp555AAJkKGsb_7tQSHk9_wwl8VaPAQADAgADeAADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
+  "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
+  "caption_text": "Paytaxtda avtoservisdə baş verən oğurluq hadisəsi ilə bağlı polis əməkdaşları tərəfindən tədbir görülüb. Nizami rayonunun Babək prospektində yerləşən xidmət mərkəzində avtomobilini təmirə gətirən müştəri asılqandan oğurluq edib.\n\nMəlumata əsasən, həmin şəxs ustanın asılqandan assağı saldığı paltarın cibindən 5000 manat məbləğində pul götürərək hadisə yerini tərk edib. Aparılan araşdırmalar nəticəsində şübhəli şəxs saxlanılıb.\n\nFaktla əlaqədar olaraq hüquq-mühafizə orqanları tərəfindən cinayət işi başlanıb və istintaq tədbirləri davam etdirilir.",
+  "voiceover": "Bakıda avtoservisdə oğurluq hadisəsi baş verib. Nizami rayonunun Babək prospektindəki xidmət mərkəzinə avtomobilini gətirən şəxs, ustanın paltarından 5000 manat oğurlayaraq qaçıb. Polis həmin şəxsi saxlayıb, cinayət işi başlanıb.",
+  "hashtags": [
+   "#Bakı",
+   "#Oğurluq",
+   "#Polis",
+   "#Hadisə"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🔴 Maşını servisə gətirdi, ustanın 5000 manatını oğurladı - BAKIDA\n\nLent.az xəbər verir ki,",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Bakıda",
+   "5000 manat"
+  ],
   "source_note": "",
   "source_title": "🔴 Maşını servisə gətirdi, ustanın 5000 manatını oğurladı - BAKIDA\n\nLent.az xəbər verir ki, hadisə Nizami rayonunun Babək",
   "link": "",
-  "sensitive": false,
-  "card_sent": true
+  "sensitive": true,
+  "card_sent": true,
+  "tg_caption": "🚨 Bakıda avtoservisdə baş verən oğurluq hadisəsinin üstü açılıb.\n\nNizami rayonunun Babək prospektində yerləşən avtoservisə avtomobilini gətirən şəxs orada oğurluq törədib. O, ustanın asılqandan asılan paltarının cibindən 5000 manat götürərək ərazidən uzaqlaşıb.\n\nPolis əməkdaşlarının keçirdiyi tədbirlər nəticəsində həmin şəxs saxlanılıb. Faktla bağlı cinayət işi açılıb, araşdırmalar aparılır."
+ },
+ {
+  "created": "2026-11-27T09:59:27.930699+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
+  "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Bakıda avtoservisdə 5000 manat oğurlanıb\n\nPaytaxtda avtoservisdə baş verən oğurluq hadisəsi ilə bağlı polis əməkdaşları tərəfindən tədbir görülüb. Nizami rayonunun Babək prospektində yerləşən xidmət mərkəzində avtomobilini təmirə gətirən müştəri asılqandan oğurluq edib.\n\nMəlumata əsasən, həmin şəxs ustanın asılqandan assağı saldığı paltarın cibindən 5000 manat məbləğində pul götürərək hadisə yerini tərk edib. Aparılan araşdırmalar nəticəsində şübhəli şəxs saxlanılıb.\n\nFaktla əlaqədar olaraq hüquq-mühafizə orqanları tərəfindən cinayət işi başlanıb və istintaq tədbirləri davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Oğurluq #Polis",
+  "tg_caption": "🚨 Bakıda avtoservisdə baş verən oğurluq hadisəsinin üstü açılıb.\n\nNizami rayonunun Babək prospektində yerləşən avtoservisə avtomobilini gətirən şəxs orada oğurluq törədib. O, ustanın asılqandan asılan paltarının cibindən 5000 manat götürərək ərazidən uzaqlaşıb.\n\nPolis əməkdaşlarının keçirdiyi tədbirlər nəticəsində həmin şəxs saxlanılıb. Faktla bağlı cinayət işi açılıb, araşdırmalar aparılır.",
+  "id": "20261127-135712-u-p",
+  "kind": "post",
+  "image": "posts/20261127-135712-u-p.jpg"
+ },
+ {
+  "created": "2026-11-27T09:59:27.930699+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
+  "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Bakıda avtoservisdə 5000 manat oğurlanıb\n\nPaytaxtda avtoservisdə baş verən oğurluq hadisəsi ilə bağlı polis əməkdaşları tərəfindən tədbir görülüb. Nizami rayonunun Babək prospektində yerləşən xidmət mərkəzində avtomobilini təmirə gətirən müştəri asılqandan oğurluq edib.\n\nMəlumata əsasən, həmin şəxs ustanın asılqandan assağı saldığı paltarın cibindən 5000 manat məbləğində pul götürərək hadisə yerini tərk edib. Aparılan araşdırmalar nəticəsində şübhəli şəxs saxlanılıb.\n\nFaktla əlaqədar olaraq hüquq-mühafizə orqanları tərəfindən cinayət işi başlanıb və istintaq tədbirləri davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Oğurluq #Polis",
+  "tg_caption": "🚨 Bakıda avtoservisdə baş verən oğurluq hadisəsinin üstü açılıb.\n\nNizami rayonunun Babək prospektində yerləşən avtoservisə avtomobilini gətirən şəxs orada oğurluq törədib. O, ustanın asılqandan asılan paltarının cibindən 5000 manat götürərək ərazidən uzaqlaşıb.\n\nPolis əməkdaşlarının keçirdiyi tədbirlər nəticəsində həmin şəxs saxlanılıb. Faktla bağlı cinayət işi açılıb, araşdırmalar aparılır.",
+  "id": "20261127-135712-u-r",
+  "kind": "reel",
+  "video": "20261127-135712-u-r.mp4",
+  "cover": "20261127-135712-u-r.jpg"
+ },
+ {
+  "created": "2026-11-27T09:59:27.930699+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Bakıda avtoservisdə 5000 manat oğurlanıb",
+  "summary": "Paytaxtın Nizami rayonunda yerləşən avtoservisdə oğurluq hadisəsi qeydə alınıb. Avtomobilini təmirə gətirən şəxs ustanın cibindən pul oğurladıqdan sonra ərazidən uzaqlaşıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Bakıda avtoservisdə 5000 manat oğurlanıb\n\nPaytaxtda avtoservisdə baş verən oğurluq hadisəsi ilə bağlı polis əməkdaşları tərəfindən tədbir görülüb. Nizami rayonunun Babək prospektində yerləşən xidmət mərkəzində avtomobilini təmirə gətirən müştəri asılqandan oğurluq edib.\n\nMəlumata əsasən, həmin şəxs ustanın asılqandan assağı saldığı paltarın cibindən 5000 manat məbləğində pul götürərək hadisə yerini tərk edib. Aparılan araşdırmalar nəticəsində şübhəli şəxs saxlanılıb.\n\nFaktla əlaqədar olaraq hüquq-mühafizə orqanları tərəfindən cinayət işi başlanıb və istintaq tədbirləri davam etdirilir.\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Oğurluq #Polis",
+  "tg_caption": "🚨 Bakıda avtoservisdə baş verən oğurluq hadisəsinin üstü açılıb.\n\nNizami rayonunun Babək prospektində yerləşən avtoservisə avtomobilini gətirən şəxs orada oğurluq törədib. O, ustanın asılqandan asılan paltarının cibindən 5000 manat götürərək ərazidən uzaqlaşıb.\n\nPolis əməkdaşlarının keçirdiyi tədbirlər nəticəsində həmin şəxs saxlanılıb. Faktla bağlı cinayət işi açılıb, araşdırmalar aparılır.",
+  "id": "20261127-135712-u-s",
+  "kind": "story",
+  "image": "posts/20261127-135712-u-s.jpg"
  }
 ]
