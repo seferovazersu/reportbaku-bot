@@ -21181,7 +21181,7 @@
  },
  {
   "created": "2026-11-28T09:23:17.906311+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Pirallahıda iki oğurluq hadisəsi törətməkdə şübhəli bilinən şəxslər saxlanılıb",
   "summary": "Pirallahı rayonunda baş verən iki ayrı oğurluq hadisəsi ilə əlaqədar şübhəli şəxslər müəyyən edilərək tutulub. Faktlar üzrə araşdırmalar davam etdirilir.",
@@ -21193,11 +21193,14 @@
   "id": "20261128-132205-u-r",
   "kind": "reel",
   "video": "20261128-132205-u-r.mp4",
-  "cover": "20261128-132205-u-r.jpg"
+  "cover": "20261128-132205-u-r.jpg",
+  "published_at": "2026-11-28T09:25:35.898488+00:00",
+  "instagram_id": "18138378943670207",
+  "permalink": "https://www.instagram.com/reel/DgR7WJBzEdc/"
  },
  {
   "created": "2026-11-28T09:23:17.906311+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Pirallahıda iki oğurluq hadisəsi törətməkdə şübhəli bilinən şəxslər saxlanılıb",
   "summary": "Pirallahı rayonunda baş verən iki ayrı oğurluq hadisəsi ilə əlaqədar şübhəli şəxslər müəyyən edilərək tutulub. Faktlar üzrə araşdırmalar davam etdirilir.",
@@ -21208,6 +21211,9 @@
   "tg_caption": "🚨 Pirallahı rayonunda iki ayrı oğurluq hadisəsinin üstü açılıb və şübhəli şəxslər saxlanılıb.\n\nAnbardan 9 210 manatlıq əmlak oğurlamaqda şübhəli bilinən əvvəllər məhkum olunmuş Rövşən Xəlilov tutulub. Digər hadisədə isə marketdən 1 200 manatlıq spirtli içki oğurlayan Amid Səlimov saxlanılıb.\n\nHər iki faktla bağlı araşdırma tədbirləri davam etdirilir.",
   "id": "20261128-132205-u-s",
   "kind": "story",
-  "image": "posts/20261128-132205-u-s.jpg"
+  "image": "posts/20261128-132205-u-s.jpg",
+  "published_at": "2026-11-28T09:26:10.708846+00:00",
+  "instagram_id": "18103659869557599",
+  "permalink": ""
  }
 ]
