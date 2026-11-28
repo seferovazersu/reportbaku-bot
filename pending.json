@@ -21222,7 +21222,12 @@
   "created": "2026-11-28T11:04:08.827119+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIIXmsKtYQlXW14Nl7Ylu_04iG8n4bPAAIiJmsbn1lRSEX_A5XqvoupAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "CƏMİYYƏT",
   "headline": "Azərbaycanın dağlıq yollarında duman səbəbindən görünüş məsafəsi azalacaq",
   "summary": "Noyabrın 29-da ölkənin dağlıq və dağətəyi rayonlarında dumanlı hava şəraiti hökm sürəcək. Bu səbəbdən magistral avtomobil yollarında görünüş məsafəsinin 500-1000 metrədək məhdudlaşacağı gözlənilir.",
@@ -21243,7 +21248,8 @@
   "source_title": "Yollarda görünüş məsafəsi azalacaq",
   "link": "https://metbuat.az/news/1567719/yollarda-gorunus-mesafesi-azalacaq.html",
   "sensitive": false,
-  "card_id": 2139
+  "card_id": 2139,
+  "card_sent": true
  },
  {
   "id": "20261128-150408-02",
@@ -21251,7 +21257,12 @@
   "created": "2026-11-28T11:04:08.827119+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIIX2sKtbeFwORuzLsIoC8Qi-4UIIFwAAIjJmsbn1lRSGkT36ftzrsTAQADAgADeAADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "DÜNYA",
   "headline": "Əfqanıstanda məktəb yaxınlığındakı partlayışda 7 nəfər ölüb",
   "summary": "Əfqanıstanın Kunar vilayətində məktəb yaxınlığındakı partlayıcı maddələr anbarında partlayış baş verib. Hadisə nəticəsində 7 nəfər həyatını itirib, 99-dan çox insan isə xəsarət alıb.",
@@ -21272,7 +21283,8 @@
   "source_title": "Məktəbdəki partlayışda yaralananların sayı 100-ü keçdi",
   "link": "https://publika.az/news/diger/650577.html",
   "sensitive": true,
-  "card_id": 2140
+  "card_id": 2140,
+  "card_sent": true
  },
  {
   "id": "20261128-150408-03",
@@ -21280,7 +21292,12 @@
   "created": "2026-11-28T11:04:08.827119+00:00",
   "status": "awaiting_media",
   "custom": false,
-  "media": [],
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIIYGsKtcfTlkWelUbcGdAglwqUY_xbAAIkJmsbn1lRSOFWqrW-vXwxAQADAgADdwADPQQ",
+    "type": "photo"
+   }
+  ],
   "category": "İQTİSADİYYAT",
   "headline": "ABŞ-də 112 yaşlı United Fidelity Bank müflis olaraq bağlandı",
   "summary": "ABŞ-nin İndiana ştatında fəaliyyət göstərən \"United Fidelity Bank\" müflis olması səbəbindən bağlanıb. Bu hadisə son iki ildə ölkənin bank sektorunda qeydə alınan ən böyük müflisləşmə halıdır.",
@@ -21301,6 +21318,7 @@
   "source_title": "112 yaşlı bank bağlandı",
   "link": "https://az.trend.az/other/world/4251821.html",
   "sensitive": false,
-  "card_id": 2141
+  "card_id": 2141,
+  "card_sent": true
  }
 ]
