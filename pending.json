@@ -20730,7 +20730,7 @@
  },
  {
   "created": "2026-11-28T08:13:44.658470+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Cəlilabad rayonunda İkinci Dünya müharibəsinin sonuncu iştirakçısı vəfat edib",
   "summary": "Cəlilabad rayonunda İkinci Dünya müharibəsinin sonuncu iştirakçısı Əbiş İbiş oğlu Zamanov 103 yaşında dünyasını dəyişib. O, 1942-ci ildə cəbhəyə yollanıb və döyüşlərdə yaralanıb.",
@@ -20742,11 +20742,14 @@
   "id": "20261128-121233-u-r",
   "kind": "reel",
   "video": "20261128-121233-u-r.mp4",
-  "cover": "20261128-121233-u-r.jpg"
+  "cover": "20261128-121233-u-r.jpg",
+  "published_at": "2026-11-28T08:17:06.526172+00:00",
+  "instagram_id": "18025840571948097",
+  "permalink": "https://www.instagram.com/reel/DgRzg7IN1Yy/"
  },
  {
   "created": "2026-11-28T08:13:44.658470+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Cəlilabad rayonunda İkinci Dünya müharibəsinin sonuncu iştirakçısı vəfat edib",
   "summary": "Cəlilabad rayonunda İkinci Dünya müharibəsinin sonuncu iştirakçısı Əbiş İbiş oğlu Zamanov 103 yaşında dünyasını dəyişib. O, 1942-ci ildə cəbhəyə yollanıb və döyüşlərdə yaralanıb.",
@@ -20757,6 +20760,9 @@
   "tg_caption": "🚨 Cəlilabad rayonunda İkinci Dünya müharibəsinin sonuncu iştirakçısı Əbiş İbiş oğlu Zamanov vəfat edib.\n\nVeteran 103 yaşında dünyasını dəyişib. Əbiş Zamanov 1923-cü ildə Cəlilabad rayonunun Astanlı kəndində anadan olub və 1942-ci ildə cəbhəyə yollanıb. O, 1944-cü ilin yanvarında döyüş zamanı ağır güllə yarası alaraq sağ qalmağı bacarıb. Müharibədən sonra doğma yurduna qayıdan veteranın beş övladı, onlarla nəvə və nəticəsi var.",
   "id": "20261128-121233-u-s",
   "kind": "story",
-  "image": "posts/20261128-121233-u-s.jpg"
+  "image": "posts/20261128-121233-u-s.jpg",
+  "published_at": "2026-11-28T08:17:19.296467+00:00",
+  "instagram_id": "18156195685529065",
+  "permalink": ""
  }
 ]
