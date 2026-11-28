@@ -20409,5 +20409,31 @@
   "published_at": "2026-11-28T05:32:33.105378+00:00",
   "instagram_id": "18005017950030909",
   "permalink": ""
+ },
+ {
+  "id": "20261128-111637-u",
+  "kind": "news",
+  "created": "2026-11-28T07:16:37.499296+00:00",
+  "status": "awaiting_media",
+  "custom": true,
+  "raw_text": "Dövlət sərhədini pozmağa cəhd göstərən Əfqanıstan vətəndaşları saxlanılıb. (DSX)",
+  "media": [
+   {
+    "file_id": "AgACAgIAAxkBAAIIAWsKf5Gbmyxw8AYj9kgjzChs5eTOAAKqJGsbn1lRSEJpf_lydD8JAQADAgADeQADPQQ",
+    "type": "photo"
+   }
+  ],
+  "category": "CƏMİYYƏT",
+  "headline": "Dövlət sərhədini pozmağa cəhd göstərən Əfqanıstan vətəndaşları saxlanılıb. (DSX)",
+  "summary": "",
+  "caption_text": "",
+  "voiceover": "",
+  "hashtags": [],
+  "highlight": [],
+  "source_note": "",
+  "source_title": "Dövlət sərhədini pozmağa cəhd göstərən Əfqanıstan vətəndaşları saxlanılıb. (DSX)",
+  "link": "",
+  "sensitive": false,
+  "card_sent": true
  }
 ]
