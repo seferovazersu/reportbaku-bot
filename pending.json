@@ -20338,26 +20338,87 @@
   "id": "20261128-113707-u",
   "kind": "news",
   "created": "2026-11-28T07:37:07.332462+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚨🚨🚨Maşın ağaca çırpıldı: Sürücünün xilasedilmə görüntüsü\n\nXaçmaz rayonunun Müşkür kəndində VAZ markalı minik avtomobili ağaca çırpılıb, sürücü maşında sıxılı vəziyyətdə qalıb.\n\nOxu.Az xəbər verir ki, bu barədə Fövqəladə Hallar Nazirliyi (FHN) məlumat yayıb.\n\nFHN xilasediciləri xüsusi vasitələrin köməyi ilə 2000-ci il təvəllüdlü Əkrəm Abbasovu avtomobildən çıxararaq təcili tibbi yardım briqadasına təhvil veriblər.\n\nHadisə ilə bağlı araşdırma aparılır.\n\n🔗 Son xəbərlər  ℹ Bizimlə əlaqə",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIIE2sKhJR_r1UUnS-JZz8BIt7r4esSAAIEsAACn1lRSHt2OXfhNw5NPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib",
+  "summary": "Xaçmaz rayonunda VAZ markalı minik avtomobilinin ağaca çırpılması nəticəsində sürücü nəqliyyat vasitəsində sıxılı vəziyyətdə qalıb. Fövqəladə Hallar Nazirliyinin xilasediciləri onu xilas edərək aidiyyəti üzrə təhvil veriblər.",
+  "caption_text": "Xaçmaz rayonunun Müşkür kəndində yol-nəqliyyat hadisəsi baş verib. VAZ markalı minik avtomobili ağaca çırpılıb və nəticədə sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb.\n\nMəlumat üzrə hadisə yerinə Fövqəladə Hallar Nazirliyinin xilasediciləri cəlb olunublar. Xüsusi vasitələrin tətbiqi ilə həyata keçirilən əməliyyat nəticəsində 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılıb.\n\nZərərçəkən tibbi yardım briqadasına təhvil verilib. Faktla əlaqədar olaraq araşdırma aparılır.",
+  "voiceover": "Xaçmaz rayonunun Müşkür kəndində VAZ markalı minik avtomobili ağaca çırpılıb. Sürücü maşında sıxılı vəziyyətdə qalıb. Fövqəladə Hallar Nazirliyinin xilasediciləri onu xüsusi vasitələrin köməyi ilə avtomobildən çıxararaq təcili tibbi yardım briqadasına təhvil veriblər. Faktla bağlı araşdırma aparılır.",
+  "hashtags": [
+   "#Xaçmaz",
+   "#FHN",
+   "#Qəza",
+   "#Xəbərlər"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚨🚨🚨Maşın ağaca çırpıldı: Sürücünün xilasedilmə görüntüsü\n\nXaçmaz rayonunun Müşkür kəndində",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Xaçmaz",
+   "avtomobil",
+   "sürücü"
+  ],
   "source_note": "",
   "source_title": "🚨🚨🚨Maşın ağaca çırpıldı: Sürücünün xilasedilmə görüntüsü\n\nXaçmaz rayonunun Müşkür kəndində VAZ markalı minik avtomobili ",
   "link": "",
-  "sensitive": false,
-  "card_sent": true
+  "sensitive": true,
+  "card_sent": true,
+  "tg_caption": "🚨 Xaçmaz rayonunun Müşkür kəndində yol qəzası qeydə alınıb. VAZ markalı minik avtomobili ağaca çırpılıb və sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb.\n\nFövqəladə Hallar Nazirliyinin xilasediciləri hadisə yerinə cəlb olunublar. Xüsusi vasitələrin köməyi ilə 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılaraq təcili tibbi yardım briqadasına təhvil verilib. Hadisə ilə bağlı araşdırma aparılır."
+ },
+ {
+  "created": "2026-11-28T07:38:08.105074+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib",
+  "summary": "Xaçmaz rayonunda VAZ markalı minik avtomobilinin ağaca çırpılması nəticəsində sürücü nəqliyyat vasitəsində sıxılı vəziyyətdə qalıb. Fövqəladə Hallar Nazirliyinin xilasediciləri onu xilas edərək aidiyyəti üzrə təhvil veriblər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib\n\nXaçmaz rayonunun Müşkür kəndində yol-nəqliyyat hadisəsi baş verib. VAZ markalı minik avtomobili ağaca çırpılıb və nəticədə sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb. Məlumat üzrə hadisə yerinə Fövqəladə Hallar Nazirliyinin xilasediciləri cəlb olunublar. Xüsusi vasitələrin tətbiqi ilə həyata keçirilən əməliyyat nəticəsində 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılıb. Zərərçəkən tibbi yardım briqadasına təhvil verilib. Faktla əlaqədar olaraq araşdırma aparılır.\n\nBu xəbəri yadda saxlayın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Xaçmaz #FHN #Qəza #Xəbərlər",
+  "tg_caption": "🚨 Xaçmaz rayonunun Müşkür kəndində yol qəzası qeydə alınıb. VAZ markalı minik avtomobili ağaca çırpılıb və sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb.\n\nFövqəladə Hallar Nazirliyinin xilasediciləri hadisə yerinə cəlb olunublar. Xüsusi vasitələrin köməyi ilə 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılaraq təcili tibbi yardım briqadasına təhvil verilib. Hadisə ilə bağlı araşdırma aparılır.",
+  "id": "20261128-113707-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261128-113707-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261128-113707-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-28T07:38:08.105074+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib",
+  "summary": "Xaçmaz rayonunda VAZ markalı minik avtomobilinin ağaca çırpılması nəticəsində sürücü nəqliyyat vasitəsində sıxılı vəziyyətdə qalıb. Fövqəladə Hallar Nazirliyinin xilasediciləri onu xilas edərək aidiyyəti üzrə təhvil veriblər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib\n\nXaçmaz rayonunun Müşkür kəndində yol-nəqliyyat hadisəsi baş verib. VAZ markalı minik avtomobili ağaca çırpılıb və nəticədə sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb. Məlumat üzrə hadisə yerinə Fövqəladə Hallar Nazirliyinin xilasediciləri cəlb olunublar. Xüsusi vasitələrin tətbiqi ilə həyata keçirilən əməliyyat nəticəsində 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılıb. Zərərçəkən tibbi yardım briqadasına təhvil verilib. Faktla əlaqədar olaraq araşdırma aparılır.\n\nBu xəbəri yadda saxlayın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Xaçmaz #FHN #Qəza #Xəbərlər",
+  "tg_caption": "🚨 Xaçmaz rayonunun Müşkür kəndində yol qəzası qeydə alınıb. VAZ markalı minik avtomobili ağaca çırpılıb və sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb.\n\nFövqəladə Hallar Nazirliyinin xilasediciləri hadisə yerinə cəlb olunublar. Xüsusi vasitələrin köməyi ilə 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılaraq təcili tibbi yardım briqadasına təhvil verilib. Hadisə ilə bağlı araşdırma aparılır.",
+  "id": "20261128-113707-u-r",
+  "kind": "reel",
+  "video": "20261128-113707-u-r.mp4",
+  "cover": "20261128-113707-u-r.jpg",
+  "src_video_file_id": "BAACAgIAAxkBAAIIE2sKhJR_r1UUnS-JZz8BIt7r4esSAAIEsAACn1lRSHt2OXfhNw5NPQQ"
+ },
+ {
+  "created": "2026-11-28T07:38:08.105074+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib",
+  "summary": "Xaçmaz rayonunda VAZ markalı minik avtomobilinin ağaca çırpılması nəticəsində sürücü nəqliyyat vasitəsində sıxılı vəziyyətdə qalıb. Fövqəladə Hallar Nazirliyinin xilasediciləri onu xilas edərək aidiyyəti üzrə təhvil veriblər.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Xaçmazda avtomobil ağaca çırpılıb, sürücü xilas edilib\n\nXaçmaz rayonunun Müşkür kəndində yol-nəqliyyat hadisəsi baş verib. VAZ markalı minik avtomobili ağaca çırpılıb və nəticədə sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb. Məlumat üzrə hadisə yerinə Fövqəladə Hallar Nazirliyinin xilasediciləri cəlb olunublar. Xüsusi vasitələrin tətbiqi ilə həyata keçirilən əməliyyat nəticəsində 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılıb. Zərərçəkən tibbi yardım briqadasına təhvil verilib. Faktla əlaqədar olaraq araşdırma aparılır.\n\nBu xəbəri yadda saxlayın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Xaçmaz #FHN #Qəza #Xəbərlər",
+  "tg_caption": "🚨 Xaçmaz rayonunun Müşkür kəndində yol qəzası qeydə alınıb. VAZ markalı minik avtomobili ağaca çırpılıb və sürücü maşında sıxılaraq köməksiz vəziyyətdə qalıb.\n\nFövqəladə Hallar Nazirliyinin xilasediciləri hadisə yerinə cəlb olunublar. Xüsusi vasitələrin köməyi ilə 2000-ci il təvəllüdlü sürücü avtomobildən çıxarılaraq təcili tibbi yardım briqadasına təhvil verilib. Hadisə ilə bağlı araşdırma aparılır.",
+  "id": "20261128-113707-u-s",
+  "kind": "story",
+  "image": "posts/20261128-113707-u-s.jpg"
  }
 ]
