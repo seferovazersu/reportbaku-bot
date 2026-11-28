@@ -20649,7 +20649,7 @@
  },
  {
   "created": "2026-11-28T08:08:37.563287+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SİYASƏT",
   "headline": "İlham Əliyev Baş nazir Əli Əsədovu Şərəf ordeni ilə təltif edib",
   "summary": "Prezident İlham Əliyev Baş nazir Əli Əsədovun təltif edilməsi haqqında sərəncam imzalayıb. Sənədə əsasən, Əli Əsədov Şərəf ordeni ilə mükafatlandırılıb.",
@@ -20661,11 +20661,14 @@
   "id": "20261128-120610-u-r",
   "kind": "reel",
   "video": "20261128-120610-u-r.mp4",
-  "cover": "20261128-120610-u-r.jpg"
+  "cover": "20261128-120610-u-r.jpg",
+  "published_at": "2026-11-28T08:10:41.935819+00:00",
+  "instagram_id": "18026479331949742",
+  "permalink": "https://www.instagram.com/reel/DgRyx9FhUbL/"
  },
  {
   "created": "2026-11-28T08:08:37.563287+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "SİYASƏT",
   "headline": "İlham Əliyev Baş nazir Əli Əsədovu Şərəf ordeni ilə təltif edib",
   "summary": "Prezident İlham Əliyev Baş nazir Əli Əsədovun təltif edilməsi haqqında sərəncam imzalayıb. Sənədə əsasən, Əli Əsədov Şərəf ordeni ilə mükafatlandırılıb.",
@@ -20676,6 +20679,9 @@
   "tg_caption": "🏛 Prezident İlham Əliyev Baş nazir Əli Əsədovu “Şərəf” ordeni ilə təltif edib. Dövlət başçısının imzaladığı müvafiq sərəncamla Baş nazir bu yüksək ada layiq görülüb.",
   "id": "20261128-120610-u-s",
   "kind": "story",
-  "image": "posts/20261128-120610-u-s.jpg"
+  "image": "posts/20261128-120610-u-s.jpg",
+  "published_at": "2026-11-28T08:11:00.515509+00:00",
+  "instagram_id": "18159431005459304",
+  "permalink": ""
  }
 ]
