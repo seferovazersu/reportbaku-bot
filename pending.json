@@ -20496,11 +20496,11 @@
   "kind": "reel",
   "video": "20261128-114411-u-r.mp4",
   "cover": "20261128-114411-u-r.jpg",
-  "src_video_file_id": "BAACAgIAAxkBAAIIGWsKhjiH0Quv4uI92Fedd8EYS3xFAAINsAACn1lRSGLIJIlxQqdLPQQ"
+  "original_audio": true
  },
  {
   "created": "2026-11-28T07:45:59.010345+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
   "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
@@ -20511,6 +20511,9 @@
   "tg_caption": "🚨 Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra məktəbə aparan yolun çalaları su və palçıqla dolub, bu da şagirdlərin, piyadaların və sürücülərin hərəkətini xeyli çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar. Onların bildirdiyinə görə, məsələ ilə bağlı dəfələrlə aidiyyəti qurumlara müraciət edilsə də, problem hələ də həllini tapmayıb.",
   "id": "20261128-114411-u-s",
   "kind": "story",
-  "image": "posts/20261128-114411-u-s.jpg"
+  "image": "posts/20261128-114411-u-s.jpg",
+  "published_at": "2026-11-28T07:49:13.117611+00:00",
+  "instagram_id": "18035547314879815",
+  "permalink": ""
  }
 ]
