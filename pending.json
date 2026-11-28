@@ -20523,26 +20523,76 @@
   "id": "20261128-120108-u",
   "kind": "news",
   "created": "2026-11-28T08:01:08.600153+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "\"Sədərək\" və \"Binə\" ticarət mərkəzləri bağlanır❓❓❓\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim Oxu. Az-a açıqlamasında məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib.\n\n\"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri isə belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIIIGsKiY8zTRKGuNWjo8bCOg_b4MJbAALoJGsbn1lRSAECuHJG8xQOAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "İQTİSADİYYAT",
+  "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
+  "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
+  "caption_text": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib olunub. Məsələ ilə əlaqədar olaraq \"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim açıqlama verərək yayılan xəbərlərin əsassız olduğunu və ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib.\n\nÖz növbəsində, \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı heç bir tapşırıq almadıqlarını və bu barədə məlumatlarının olmadığını qeyd edib. Hazırda hər iki ticarət mərkəzi fəaliyyətini adi rejimdə davam etdirir.",
+  "voiceover": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanacağı və başqa ünvana köçürüləcəyi ilə bağlı yayılan məlumatlar təkzib edilib. \"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim xəbərlərin əsassız olduğunu və qurumun əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlar da belə bir köçürülmə barədə məlumatlarının olmadığını qeyd ediblər.",
+  "hashtags": [
+   "#Sədərək",
+   "#Binə",
+   "#TicarətMərkəzi",
+   "#İqtisadiyyat"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzləri bağlanır❓❓❓\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzləri",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Sədərək",
+   "Binə"
+  ],
   "source_note": "",
   "source_title": "\"Sədərək\" və \"Binə\" ticarət mərkəzləri bağlanır❓❓❓\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzin",
   "link": "",
   "sensitive": false,
-  "card_sent": true
+  "card_sent": true,
+  "tg_caption": "💰 \"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib."
+ },
+ {
+  "created": "2026-11-28T08:02:48.739644+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
+  "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib olunub. Məsələ ilə əlaqədar olaraq \"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim açıqlama verərək yayılan xəbərlərin əsassız olduğunu və ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. Öz növbəsində, \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı heç bir tapşırıq almadıqlarını və bu barədə məlumatlarının olmadığını qeyd edib. Hazırda hər iki ticarət mərkəzi fəaliyyətini adi rejimdə davam etdirir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Sədərək #Binə #TicarətMərkəzi #İqtisadiyyat",
+  "tg_caption": "💰 \"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib.",
+  "id": "20261128-120108-u-p",
+  "kind": "post",
+  "image": "posts/20261128-120108-u-p.jpg"
+ },
+ {
+  "created": "2026-11-28T08:02:48.739644+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
+  "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib olunub. Məsələ ilə əlaqədar olaraq \"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim açıqlama verərək yayılan xəbərlərin əsassız olduğunu və ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. Öz növbəsində, \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı heç bir tapşırıq almadıqlarını və bu barədə məlumatlarının olmadığını qeyd edib. Hazırda hər iki ticarət mərkəzi fəaliyyətini adi rejimdə davam etdirir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Sədərək #Binə #TicarətMərkəzi #İqtisadiyyat",
+  "tg_caption": "💰 \"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib.",
+  "id": "20261128-120108-u-r",
+  "kind": "reel",
+  "video": "20261128-120108-u-r.mp4",
+  "cover": "20261128-120108-u-r.jpg"
+ },
+ {
+  "created": "2026-11-28T08:02:48.739644+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
+  "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
+  "source_note": "",
+  "link": "",
+  "sensitive": false,
+  "caption": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib\n\n\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib olunub. Məsələ ilə əlaqədar olaraq \"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim açıqlama verərək yayılan xəbərlərin əsassız olduğunu və ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. Öz növbəsində, \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı heç bir tapşırıq almadıqlarını və bu barədə məlumatlarının olmadığını qeyd edib. Hazırda hər iki ticarət mərkəzi fəaliyyətini adi rejimdə davam etdirir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #Sədərək #Binə #TicarətMərkəzi #İqtisadiyyat",
+  "tg_caption": "💰 \"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib.",
+  "id": "20261128-120108-u-s",
+  "kind": "story",
+  "image": "posts/20261128-120108-u-s.jpg"
  }
 ]
