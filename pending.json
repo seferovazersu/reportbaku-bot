@@ -20134,7 +20134,7 @@
  },
  {
   "created": "2026-11-28T07:19:08.821450+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Dövlət sərhədini pozmağa cəhd edən Əfqanıstan vətəndaşları saxlanılıb",
   "summary": "Dövlət Sərhəd Xidmətinin məlumatına əsasən, sərhədi qanunsuz keçməyə cəhd göstərən Əfqanıstan vətəndaşları tutulub. Faktla bağlı araşdırma aparılır.",
@@ -20146,11 +20146,14 @@
   "id": "20261128-111637-u-r",
   "kind": "reel",
   "video": "20261128-111637-u-r.mp4",
-  "cover": "20261128-111637-u-r.jpg"
+  "cover": "20261128-111637-u-r.jpg",
+  "published_at": "2026-11-28T07:21:56.891583+00:00",
+  "instagram_id": "18103226069667168",
+  "permalink": "https://www.instagram.com/reel/DgRtNFqueYU/"
  },
  {
   "created": "2026-11-28T07:19:08.821450+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Dövlət sərhədini pozmağa cəhd edən Əfqanıstan vətəndaşları saxlanılıb",
   "summary": "Dövlət Sərhəd Xidmətinin məlumatına əsasən, sərhədi qanunsuz keçməyə cəhd göstərən Əfqanıstan vətəndaşları tutulub. Faktla bağlı araşdırma aparılır.",
@@ -20161,6 +20164,9 @@
   "tg_caption": "🚨 Dövlət sərhədini qanunsuz olaraq keçməyə cəhd göstərən Əfqanıstan vətəndaşları saxlanılıb. Dövlət Sərhəd Xidmətinin qurumunun məlumatına görə, sərhəd pozucularının qarşısı vaxtında alınıb. Tutulan şəxslərlə bağlı zəruri prosedurlar həyata keçirilir.",
   "id": "20261128-111637-u-s",
   "kind": "story",
-  "image": "posts/20261128-111637-u-s.jpg"
+  "image": "posts/20261128-111637-u-s.jpg",
+  "published_at": "2026-11-28T07:22:09.197872+00:00",
+  "instagram_id": "18091911929297840",
+  "permalink": ""
  }
 ]
