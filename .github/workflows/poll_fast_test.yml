@@ -1,0 +1,70 @@
+name: Duymeleri yoxla (TEST - sürətli)
+
+# TEST: bir iş ~5 dəqiqə Telegram-ı fasiləsiz dinləyir (hər 15 saniyə). Köhnə "Duymeleri yoxla" dəyişməz qalır.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reportbaku-state
+  cancel-in-progress: false
+
+jobs:
+  fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Şrift, ffmpeg və kitabxanalar
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-inter ffmpeg
+          pip install pillow requests beautifulsoup4 feedparser
+
+      - name: 5 dəqiqə dinlə və emal et
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          END=$(( $(date +%s) + 300 ))
+          while [ "$(date +%s)" -lt "$END" ]; do
+            python3 run_safe.py poll_approvals.py || true
+            python3 run_safe.py finalize_news.py || true
+            sleep 15
+          done
+
+      - name: Videoları media budağına göndər
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ls videos_out/*.mp4 >/dev/null 2>&1; then
+            REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            rm -rf /tmp/media
+            if git clone -q --depth 1 --branch media "$REMOTE" /tmp/media 2>/dev/null; then rm -rf /tmp/media/.git; else mkdir -p /tmp/media; fi
+            python3 media_sync.py /tmp/media videos_out
+            cd /tmp/media && git init -q -b media && git config user.name "reportbaku-bot" && git config user.email "bot@users.noreply.github.com"
+            git add -A && git commit -q -m "media" && git remote add origin "$REMOTE" && git push -f -q origin media
+          else
+            echo "Yeni video yoxdur."
+          fi
+
+      - name: Vəziyyəti saxla
+        if: always()
+        run: |
+          git config user.name "reportbaku-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for f in pending.json posts; do if [ -e "$f" ]; then git add -A "$f"; fi; done
+          git diff --staged --quiet || git commit -m "post statusu (test)"
+          git pull --rebase --autostash
+          git push
