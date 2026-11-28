@@ -21099,7 +21099,7 @@
  },
  {
   "created": "2026-11-28T08:44:53.975892+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Əhməd Vətənə xidmətə görə ordeni ilə təltif edilib",
   "summary": "Prezident İlham Əliyev Əhməd Abdulkərim oğlu Vəliyevin 2-ci dərəcəli \"Vətənə xidmətə görə\" ordeni ilə təltif edilməsi haqqında Sərəncam imzalayıb. Təltif edilmə səbəbi kimi onun Azərbaycanda təhsil sahəsindəki xidmətləri göstərilib. Sabiq deputatın bu gün 80 yaşı tamam olur.",
@@ -21111,11 +21111,14 @@
   "id": "20261128-124220-u-r",
   "kind": "reel",
   "video": "20261128-124220-u-r.mp4",
-  "cover": "20261128-124220-u-r.jpg"
+  "cover": "20261128-124220-u-r.jpg",
+  "published_at": "2026-11-28T08:48:55.076747+00:00",
+  "instagram_id": "17959885857254736",
+  "permalink": "https://www.instagram.com/reel/DgR3KDzBOOo/"
  },
  {
   "created": "2026-11-28T08:44:53.975892+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "CƏMİYYƏT",
   "headline": "Əhməd Vətənə xidmətə görə ordeni ilə təltif edilib",
   "summary": "Prezident İlham Əliyev Əhməd Abdulkərim oğlu Vəliyevin 2-ci dərəcəli \"Vətənə xidmətə görə\" ordeni ilə təltif edilməsi haqqında Sərəncam imzalayıb. Təltif edilmə səbəbi kimi onun Azərbaycanda təhsil sahəsindəki xidmətləri göstərilib. Sabiq deputatın bu gün 80 yaşı tamam olur.",
@@ -21126,6 +21129,9 @@
   "tg_caption": "🏛 Prezident İlham Əliyev Əhməd Abdulkərim oğlu Vəliyevin 2-ci dərəcəli \"Vətənə xidmətə görə\" ordeni ilə təltif edilməsi barədə Sərəncam imzalayıb.\n\nSənədə əsasən, o, ölkədə təhsil sahəsindəki xidmətlərinə görə bu mükafata layiq görülüb. Eyni zamanda, sabiq deputat Əhməd Vəliyevin bu gün 80 yaşı tamam olur.",
   "id": "20261128-124220-u-s",
   "kind": "story",
-  "image": "posts/20261128-124220-u-s.jpg"
+  "image": "posts/20261128-124220-u-s.jpg",
+  "published_at": "2026-11-28T08:49:10.922408+00:00",
+  "instagram_id": "18217960978364944",
+  "permalink": ""
  }
 ]
