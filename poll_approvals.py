@@ -398,12 +398,13 @@ def scrub_sources(text):
 
 
 def publish_telegram_channel(post):
-    """Eyni paylaşımı Telegram kanalına da göndərir (TELEGRAM_CHANNEL_ID təyin olunubsa).
-    Şəkil/video GitHub linki ilə göndərilir; kanal üçün story göndərilmir."""
+    """Eyni paylaşımı Telegram kanalına göndərir, mesajın linkini post["tg_link"]-ə yazır."""
     chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
     if not chan or post.get("kind") == "story":
         return ""
-    cap = scrub_sources(post.get("tg_caption") or post.get("headline") or "")[:1000]   # mənbə adları kanalda yazılmır
+    base = post.get("tg_caption") or post.get("headline") or ""
+    cap = scrub_sources(base)[:1000]
+    msg_id = None
     try:
         if post.get("kind") == "carousel":
             media = []
@@ -416,17 +417,23 @@ def publish_telegram_channel(post):
                     media.append({"type": "video", "media": url})
             if media:
                 media[0]["caption"] = cap
-            tg("sendMediaGroup", {"chat_id": chan, "media": json.dumps(media)})
+            r = tg("sendMediaGroup", {"chat_id": chan, "media": json.dumps(media)})
+            msg_id = (r[0] if isinstance(r, list) and r else {}).get("message_id")
         elif post.get("kind") == "reel":
             url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, MEDIA_BRANCH, post["video"])
-            tg("sendVideo", {"chat_id": chan, "video": url, "caption": cap, "supports_streaming": "true"})
+            r = tg("sendVideo", {"chat_id": chan, "video": url, "caption": cap, "supports_streaming": "true"})
+            msg_id = (r or {}).get("message_id")
         else:
             url = "https://raw.githubusercontent.com/%s/%s/%s" % (REPO, BRANCH, post["image"])
-            tg("sendPhoto", {"chat_id": chan, "photo": url, "caption": cap})
-        return "\n📣 Telegram kanalına da göndərildi"
+            r = tg("sendPhoto", {"chat_id": chan, "photo": url, "caption": cap})
+            msg_id = (r or {}).get("message_id")
     except ApiError as e:
         print("  Kanal xətası:", str(e)[:150])
         return "\n⚠️ Telegram kanalına göndərilmədi (bot admin deyil?)"
+    if msg_id:
+        post["tg_link"] = "https://t.me/%s/%s" % (chan.lstrip("@"), msg_id)
+        return "\n📣 Telegram kanalına da göndərildi"
+    return "\n⚠️ Kanal mesajı nömrəsi alınmadı"
 
 
 def run_publish(post, kind, pending, msg):
@@ -434,6 +441,10 @@ def run_publish(post, kind, pending, msg):
     cq = {"message": msg}
     post["status"] = "publishing"
     save(pending)  # ikiqat paylaşımın qarşısını almaq üçün əvvəlcədən yazırıq
+    tg_note = publish_telegram_channel(post) if post.get("kind") != "story" else ""
+    if post.get("tg_link") and post.get("caption"):
+        post["caption"] = re.sub(r"📲 Ətraflı və tam xəbər: \S+",
+                                 "📲 Ətraflı və tam xəbər: " + post["tg_link"], post["caption"], count=1)
     result = publish(post)
     if result["ok"]:
         post["status"] = "published"
@@ -445,7 +456,7 @@ def run_publish(post, kind, pending, msg):
                 "story": "✅ STORY PAYLAŞILDI"}.get(kind, "✅ PAYLAŞILDI")
         if result["permalink"]:
             line += "\n" + result["permalink"]
-        line += publish_telegram_channel(post)
+        line += tg_note
         finish_message(cq, line)
     elif result["stage"] == "container":
         post["status"] = "pending"   # hələ paylaşılmayıb, yenidən cəhd etmək olar
