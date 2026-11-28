@@ -443,8 +443,11 @@ def run_publish(post, kind, pending, msg):
     save(pending)  # ikiqat paylaşımın qarşısını almaq üçün əvvəlcədən yazırıq
     tg_note = publish_telegram_channel(post) if post.get("kind") != "story" else ""
     if post.get("tg_link") and post.get("caption"):
-        post["caption"] = re.sub(r"📲 Ətraflı və tam xəbər: \S+",
-                                 "📲 Ətraflı və tam xəbər: " + post["tg_link"], post["caption"], count=1)
+        if "📲 Ətraflı və tam xəbər:" in post["caption"]:
+            post["caption"] = re.sub(r"📲 Ətraflı və tam xəbər: \S+",
+                                     "📲 Ətraflı və tam xəbər: " + post["tg_link"], post["caption"], count=1)
+        else:
+            post["caption"] += "\n\n📲 Ətraflı və tam xəbər: " + post["tg_link"]
     result = publish(post)
     if result["ok"]:
         post["status"] = "published"
