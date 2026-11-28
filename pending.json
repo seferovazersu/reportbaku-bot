@@ -20431,26 +20431,86 @@
   "id": "20261128-114411-u",
   "kind": "news",
   "created": "2026-11-28T07:44:11.358571+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🔴🔴Tovuzda yolda sürüşmə: Hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar.\n\nOxu.Az-ın məlumatına görə, məktəbə gedən yolun çalaları yağışdan sonra su və palçıqla dolaraq şagirdlərin, piyadaların və sürücülərin hərəkətini çətinləşdirir.\n\nSakinlər bildirirlər ki, aidiyyəti qurumlara dəfələrlə müraciət etsələr də, problem həllini tapmayıb.",
-  "media": [
-   {
-    "file_id": "BAACAgIAAxkBAAIIGWsKhjiH0Quv4uI92Fedd8EYS3xFAAINsAACn1lRSGLIJIlxQqdLPQQ",
-    "type": "video"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
+  "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
+  "caption_text": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsində sürüşmə qeydə alınıb. Yağışdan sonra məktəbə gedən yolun çalaları su və palçıqla dolaraq şagirdlərin, piyadaların və sürücülərin hərəkətini çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatlıq keçirirlər. Onların sözlərinə görə, mövcud problemlə əlaqədar aidiyyəti qurumlara dəfələrlə müraciət olunub, lakin hələ ki heç bir tədbir görülməyib.",
+  "voiceover": "Tovuzun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra yoldakı çalalar su və palçıqla dolub. Bu səbəbdən şagirdlərin, piyadaların və sürücülərin hərəkəti çətinləşib. Sakinlər aidiyyəti qurumlara müraciət etsələr də, problem hələ həll olunmayıb.",
+  "hashtags": [
+   "#Tovuz",
+   "#Yol",
+   "#Hadisə",
+   "#Xəbər",
+   "#ReportBaku"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🔴🔴Tovuzda yolda sürüşmə: Hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yo",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "Tovuz"
+  ],
   "source_note": "",
   "source_title": "🔴🔴Tovuzda yolda sürüşmə: Hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çö",
   "link": "",
-  "sensitive": false,
-  "card_sent": true
+  "sensitive": true,
+  "card_sent": true,
+  "tg_caption": "🚨 Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra məktəbə aparan yolun çalaları su və palçıqla dolub, bu da şagirdlərin, piyadaların və sürücülərin hərəkətini xeyli çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar. Onların bildirdiyinə görə, məsələ ilə bağlı dəfələrlə aidiyyəti qurumlara müraciət edilsə də, problem hələ də həllini tapmayıb."
+ },
+ {
+  "created": "2026-11-28T07:45:59.010345+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
+  "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsində sürüşmə qeydə alınıb. Yağışdan sonra məktəbə gedən yolun çalaları su və palçıqla dolaraq şagirdlərin, piyadaların və sürücülərin hərəkətini çətinləşdirib. Yerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatlıq keçirirlər. Onların sözlərinə görə, mövcud problemlə əlaqədar aidiyyəti qurumlara dəfələrlə müraciət olunub, lakin hələ ki heç bir tədbir görülməyib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Tovuz #Yol",
+  "tg_caption": "🚨 Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra məktəbə aparan yolun çalaları su və palçıqla dolub, bu da şagirdlərin, piyadaların və sürücülərin hərəkətini xeyli çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar. Onların bildirdiyinə görə, məsələ ilə bağlı dəfələrlə aidiyyəti qurumlara müraciət edilsə də, problem hələ də həllini tapmayıb.",
+  "id": "20261128-114411-u-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261128-114411-u-p.jpg"
+   },
+   {
+    "type": "video",
+    "file": "20261128-114411-u-k1.mp4"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-28T07:45:59.010345+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
+  "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsində sürüşmə qeydə alınıb. Yağışdan sonra məktəbə gedən yolun çalaları su və palçıqla dolaraq şagirdlərin, piyadaların və sürücülərin hərəkətini çətinləşdirib. Yerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatlıq keçirirlər. Onların sözlərinə görə, mövcud problemlə əlaqədar aidiyyəti qurumlara dəfələrlə müraciət olunub, lakin hələ ki heç bir tədbir görülməyib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Tovuz #Yol",
+  "tg_caption": "🚨 Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra məktəbə aparan yolun çalaları su və palçıqla dolub, bu da şagirdlərin, piyadaların və sürücülərin hərəkətini xeyli çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar. Onların bildirdiyinə görə, məsələ ilə bağlı dəfələrlə aidiyyəti qurumlara müraciət edilsə də, problem hələ də həllini tapmayıb.",
+  "id": "20261128-114411-u-r",
+  "kind": "reel",
+  "video": "20261128-114411-u-r.mp4",
+  "cover": "20261128-114411-u-r.jpg",
+  "src_video_file_id": "BAACAgIAAxkBAAIIGWsKhjiH0Quv4uI92Fedd8EYS3xFAAINsAACn1lRSGLIJIlxQqdLPQQ"
+ },
+ {
+  "created": "2026-11-28T07:45:59.010345+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
+  "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi\n\nTovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsində sürüşmə qeydə alınıb. Yağışdan sonra məktəbə gedən yolun çalaları su və palçıqla dolaraq şagirdlərin, piyadaların və sürücülərin hərəkətini çətinləşdirib. Yerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatlıq keçirirlər. Onların sözlərinə görə, mövcud problemlə əlaqədar aidiyyəti qurumlara dəfələrlə müraciət olunub, lakin hələ ki heç bir tədbir görülməyib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #Tovuz #Yol",
+  "tg_caption": "🚨 Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Yağışdan sonra məktəbə aparan yolun çalaları su və palçıqla dolub, bu da şagirdlərin, piyadaların və sürücülərin hərəkətini xeyli çətinləşdirib.\n\nYerli sakinlər yolun tamamilə yararsız hala düşəcəyindən narahatdırlar. Onların bildirdiyinə görə, məsələ ilə bağlı dəfələrlə aidiyyəti qurumlara müraciət edilsə də, problem hələ də həllini tapmayıb.",
+  "id": "20261128-114411-u-s",
+  "kind": "story",
+  "image": "posts/20261128-114411-u-s.jpg"
  }
 ]
