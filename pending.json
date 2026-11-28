@@ -16486,7 +16486,7 @@
  },
  {
   "created": "2026-11-27T08:45:52.435738+00:00",
-  "status": "scheduled",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "Azərbaycanda beynəlxalq yükdaşıma sahəsinə vergi güzəştlərinin tətbiqi təklif olunur",
   "summary": "Milli Məclisin komitə iclasında beynəlxalq avtomobil yükdaşımaları ilə məşğul olan sahibkarlar üçün vergi güzəştləri nəzərdə tutan qanun layihəsi müzakirə edilib. Təklifə əsasən, 2027-ci il yanvarın 1-dən etibarən üç il müddətinə gəlir və mənfəət vergilərinin 50 faiz azaldılması planlaşdırılır.",
@@ -16509,7 +16509,10 @@
    "text": null,
    "photo": false,
    "video": true
-  }
+  },
+  "published_at": "2026-11-28T08:31:10.958316+00:00",
+  "instagram_id": "18392327899229049",
+  "permalink": "https://www.instagram.com/reel/DgR1HvAoBMy/"
  },
  {
   "created": "2026-11-27T08:45:52.435738+00:00",
@@ -20769,7 +20772,7 @@
   "id": "20261128-122102-01",
   "kind": "news",
   "created": "2026-11-28T08:21:02.848498+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "DÜNYA",
@@ -20792,13 +20795,15 @@
   "source_title": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi",
   "link": "https://metbuat.az/news/1567698/iran-abs-ni-deniz-blokadasini-herbi-yolla-yarmaqla-hedeledi.html",
   "sensitive": true,
-  "card_id": 2098
+  "card_id": 2098,
+  "card_sent": true,
+  "raw_text": ""
  },
  {
   "id": "20261128-122102-02",
   "kind": "news",
   "created": "2026-11-28T08:21:02.848498+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "İQTİSADİYYAT",
@@ -20822,13 +20827,18 @@
   "source_title": "В рамках социального проекта AzerGold создан Дашкесанский Учебный Центр",
   "link": "https://haqqin.az/newsarchive/399683",
   "sensitive": false,
-  "card_id": 2099
+  "card_id": 2099,
+  "groups": [
+   "14366835813011530"
+  ],
+  "card_sent": true,
+  "raw_text": ""
  },
  {
   "id": "20261128-122102-03",
   "kind": "news",
   "created": "2026-11-28T08:21:02.848498+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": false,
   "media": [],
   "category": "CƏMİYYƏT",
@@ -20851,6 +20861,183 @@
   "source_title": "Gənclər Fondunun \"Səyyar Gənclər Xidməti\" layihəsinin Laçında bağlanış tədbiri keçirilib",
   "link": "https://sia.az/az/news/politics/1377376.html",
   "sensitive": false,
-  "card_id": 2100
+  "card_id": 2100,
+  "card_sent": true,
+  "raw_text": ""
+ },
+ {
+  "created": "2026-11-28T08:31:30.699108+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi",
+  "summary": "ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını yarmaq üçün hərbi addımlar ata biləcəyi barədə xəbərdarlıq edib.",
+  "source_note": "Mənbə: Metbuat.az",
+  "link": "https://metbuat.az/news/1567698/iran-abs-ni-deniz-blokadasini-herbi-yolla-yarmaqla-hedeledi.html",
+  "sensitive": true,
+  "caption": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi\n\nABŞ və İran arasında Hörmüz boğazı ətrafında gərginlik yenidən kəskinləşib. İslam İnqilabı Keşikçiləri Korpusunun komandanlarından biri dəniz blokadasını yarmağın qəti vəzifə olduğunu bildirərək hərbi addımlar atılacağı barədə xəbərdarlıq edib. Eyni zamanda, İran tərəfi ABŞ-nin ələ keçirdiyi neft tankerlərinin əməliyyat nəticəsində geri alındığını iddia edib. Digər tərəfdən, ABŞ Prezidenti Yaxın Şərqdə hərbi mövcudluğun gücləndirildiyini və bölgəyə əlavə aviadaşıyıcı gəmi göndərildiyini açıqlayıb. Qarşılıqlı sərt bəyanatlara baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə diplomatik təmaslar davam edir. İran tərəfi blokadanın götürülməsi, neft ixracına məhdudiyyətlərin yumşaldılması və dondurulmuş aktivlərin qaytarılması şərtlərindən əl çəkmədiyini bildirib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #İran #HörmüzBoğazı #DünyaXəbərləri",
+  "tg_caption": "🚨 ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını hərbi yolla yarmaq üçün addımlar ata biləcəyi barədə xəbərdarlıq edib.\n\nİslam İnqilabı Keşikçiləri Korpusunun Hava-Kosmik Qüvvələrinin komandanı Məcid Musəvi blokadanı yarmağın qəti vəzifə olduğunu bildirib. İran Ordusunun Hərbi Dəniz Qüvvələrinin komandanı Şəhram İrani isə ABŞ-nin ələ keçirdiyi iki İran neft tankerinin əməliyyat nəticəsində geri alındığını iddia edib.\n\nABŞ Prezidenti Donald Tramp bölgədə hərbi mövcudluğun gücləndirildiyini və əlavə aviadaşıyıcı gəmi göndərildiyini bildirib. Buna baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə tərəflər arasında diplomatik təmaslar və təkliflərin ötürülməsi davam edir.",
+  "id": "20261128-122102-01-p",
+  "kind": "post",
+  "image": "posts/20261128-122102-01-p.jpg"
+ },
+ {
+  "created": "2026-11-28T08:31:30.699108+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi",
+  "summary": "ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını yarmaq üçün hərbi addımlar ata biləcəyi barədə xəbərdarlıq edib.",
+  "source_note": "Mənbə: Metbuat.az",
+  "link": "https://metbuat.az/news/1567698/iran-abs-ni-deniz-blokadasini-herbi-yolla-yarmaqla-hedeledi.html",
+  "sensitive": true,
+  "caption": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi\n\nABŞ və İran arasında Hörmüz boğazı ətrafında gərginlik yenidən kəskinləşib. İslam İnqilabı Keşikçiləri Korpusunun komandanlarından biri dəniz blokadasını yarmağın qəti vəzifə olduğunu bildirərək hərbi addımlar atılacağı barədə xəbərdarlıq edib. Eyni zamanda, İran tərəfi ABŞ-nin ələ keçirdiyi neft tankerlərinin əməliyyat nəticəsində geri alındığını iddia edib. Digər tərəfdən, ABŞ Prezidenti Yaxın Şərqdə hərbi mövcudluğun gücləndirildiyini və bölgəyə əlavə aviadaşıyıcı gəmi göndərildiyini açıqlayıb. Qarşılıqlı sərt bəyanatlara baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə diplomatik təmaslar davam edir. İran tərəfi blokadanın götürülməsi, neft ixracına məhdudiyyətlərin yumşaldılması və dondurulmuş aktivlərin qaytarılması şərtlərindən əl çəkmədiyini bildirib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #İran #HörmüzBoğazı #DünyaXəbərləri",
+  "tg_caption": "🚨 ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını hərbi yolla yarmaq üçün addımlar ata biləcəyi barədə xəbərdarlıq edib.\n\nİslam İnqilabı Keşikçiləri Korpusunun Hava-Kosmik Qüvvələrinin komandanı Məcid Musəvi blokadanı yarmağın qəti vəzifə olduğunu bildirib. İran Ordusunun Hərbi Dəniz Qüvvələrinin komandanı Şəhram İrani isə ABŞ-nin ələ keçirdiyi iki İran neft tankerinin əməliyyat nəticəsində geri alındığını iddia edib.\n\nABŞ Prezidenti Donald Tramp bölgədə hərbi mövcudluğun gücləndirildiyini və əlavə aviadaşıyıcı gəmi göndərildiyini bildirib. Buna baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə tərəflər arasında diplomatik təmaslar və təkliflərin ötürülməsi davam edir.",
+  "id": "20261128-122102-01-r",
+  "kind": "reel",
+  "video": "20261128-122102-01-r.mp4",
+  "cover": "20261128-122102-01-r.jpg"
+ },
+ {
+  "created": "2026-11-28T08:31:30.699108+00:00",
+  "status": "pending",
+  "category": "DÜNYA",
+  "headline": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi",
+  "summary": "ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını yarmaq üçün hərbi addımlar ata biləcəyi barədə xəbərdarlıq edib.",
+  "source_note": "Mənbə: Metbuat.az",
+  "link": "https://metbuat.az/news/1567698/iran-abs-ni-deniz-blokadasini-herbi-yolla-yarmaqla-hedeledi.html",
+  "sensitive": true,
+  "caption": "İran ABŞ-ni dəniz blokadasını hərbi yolla yarmaqla hədələdi\n\nABŞ və İran arasında Hörmüz boğazı ətrafında gərginlik yenidən kəskinləşib. İslam İnqilabı Keşikçiləri Korpusunun komandanlarından biri dəniz blokadasını yarmağın qəti vəzifə olduğunu bildirərək hərbi addımlar atılacağı barədə xəbərdarlıq edib. Eyni zamanda, İran tərəfi ABŞ-nin ələ keçirdiyi neft tankerlərinin əməliyyat nəticəsində geri alındığını iddia edib. Digər tərəfdən, ABŞ Prezidenti Yaxın Şərqdə hərbi mövcudluğun gücləndirildiyini və bölgəyə əlavə aviadaşıyıcı gəmi göndərildiyini açıqlayıb. Qarşılıqlı sərt bəyanatlara baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə diplomatik təmaslar davam edir. İran tərəfi blokadanın götürülməsi, neft ixracına məhdudiyyətlərin yumşaldılması və dondurulmuş aktivlərin qaytarılması şərtlərindən əl çəkmədiyini bildirib.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #dünya #ABŞ #İran #HörmüzBoğazı #DünyaXəbərləri",
+  "tg_caption": "🚨 ABŞ ilə İran arasında Hörmüz boğazı ətrafında gərginlik artır. Tehran dəniz blokadasını hərbi yolla yarmaq üçün addımlar ata biləcəyi barədə xəbərdarlıq edib.\n\nİslam İnqilabı Keşikçiləri Korpusunun Hava-Kosmik Qüvvələrinin komandanı Məcid Musəvi blokadanı yarmağın qəti vəzifə olduğunu bildirib. İran Ordusunun Hərbi Dəniz Qüvvələrinin komandanı Şəhram İrani isə ABŞ-nin ələ keçirdiyi iki İran neft tankerinin əməliyyat nəticəsində geri alındığını iddia edib.\n\nABŞ Prezidenti Donald Tramp bölgədə hərbi mövcudluğun gücləndirildiyini və əlavə aviadaşıyıcı gəmi göndərildiyini bildirib. Buna baxmayaraq, Qətər və Pakistanın vasitəçiliyi ilə tərəflər arasında diplomatik təmaslar və təkliflərin ötürülməsi davam edir.",
+  "id": "20261128-122102-01-s",
+  "kind": "story",
+  "image": "posts/20261128-122102-01-s.jpg"
+ },
+ {
+  "created": "2026-11-28T08:32:09.674535+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb",
+  "summary": "\"AzerGold\" tərəfindən yaradılan mərkəz şagirdlərin ali məktəblərə hazırlığına dəstək olur. Təhsil ocağında hazırda 108 şagird ödənişsiz kurslarda iştirak edir.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399683",
+  "sensitive": false,
+  "caption": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb\n\n\"AzerGold\" QSC-nin dəstəyi ilə Daşkəsən Uчебный (Tədris) Mərkəzi fəaliyyətə başlayıb. Layihənin əsas məqsədi bölgədə təhsil imkanlarını genişləndirmək, şagirdlərin ali məktəblərə hazırlıq səviyyəsini yüksəltmək və gələcək peşə seçimində kömək etməkdir. Eyni zamanda, təşəbbüs dağ-mədən sənayesi üçün yerli kadr potensialının formalaşdırılmasına xidmət edir. Mərkəz binası əsaslı təmir olunaraq müasir avadanlıqlarla təchiz edilib, uzaq kəndlərdən gələn şagirdlərin dərsə gediş-gəlişi maliyyələşdirilir.\n\nFikrinizi şərhdə bildirin.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #AzerGold #Daşkəsən #Təhsil #İqtisadiyyat",
+  "tg_caption": "💰 Daşkəsəndə \"AzerGold\" QSC-nin təşəbbüsü və maliyyə dəstəyi ilə yeni Tədris Mərkəzi yaradılıb.\n\nLayihə çərçivəsində binada əsaslı təmir işləri aparılıb və müasir təhsil resursları ilə təchiz olunub. Hazırda mərkəzdə VII-X siniflərdən olan 108 şagird ödənişsiz hazırlıq kurslarına cəlb edilib, uzaq kəndlərdən gələn şagirdlərin nəqliyyat xərcləri isə qarşılanır. Təşəbbüs həmçinin bölgədə yeni iş yerlərinin açılmasına və kadr potensialının artırılmasına imkan yaradır.",
+  "id": "20261128-122102-02-k",
+  "kind": "carousel",
+  "items": [
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-p.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c2.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c3.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c4.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c5.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c6.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c7.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c8.jpg"
+   },
+   {
+    "type": "image",
+    "path": "posts/20261128-122102-02-c9.jpg"
+   }
+  ]
+ },
+ {
+  "created": "2026-11-28T08:32:09.674535+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb",
+  "summary": "\"AzerGold\" tərəfindən yaradılan mərkəz şagirdlərin ali məktəblərə hazırlığına dəstək olur. Təhsil ocağında hazırda 108 şagird ödənişsiz kurslarda iştirak edir.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399683",
+  "sensitive": false,
+  "caption": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb\n\n\"AzerGold\" QSC-nin dəstəyi ilə Daşkəsən Uчебный (Tədris) Mərkəzi fəaliyyətə başlayıb. Layihənin əsas məqsədi bölgədə təhsil imkanlarını genişləndirmək, şagirdlərin ali məktəblərə hazırlıq səviyyəsini yüksəltmək və gələcək peşə seçimində kömək etməkdir. Eyni zamanda, təşəbbüs dağ-mədən sənayesi üçün yerli kadr potensialının formalaşdırılmasına xidmət edir. Mərkəz binası əsaslı təmir olunaraq müasir avadanlıqlarla təchiz edilib, uzaq kəndlərdən gələn şagirdlərin dərsə gediş-gəlişi maliyyələşdirilir.\n\nFikrinizi şərhdə bildirin.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #AzerGold #Daşkəsən #Təhsil #İqtisadiyyat",
+  "tg_caption": "💰 Daşkəsəndə \"AzerGold\" QSC-nin təşəbbüsü və maliyyə dəstəyi ilə yeni Tədris Mərkəzi yaradılıb.\n\nLayihə çərçivəsində binada əsaslı təmir işləri aparılıb və müasir təhsil resursları ilə təchiz olunub. Hazırda mərkəzdə VII-X siniflərdən olan 108 şagird ödənişsiz hazırlıq kurslarına cəlb edilib, uzaq kəndlərdən gələn şagirdlərin nəqliyyat xərcləri isə qarşılanır. Təşəbbüs həmçinin bölgədə yeni iş yerlərinin açılmasına və kadr potensialının artırılmasına imkan yaradır.",
+  "id": "20261128-122102-02-r",
+  "kind": "reel",
+  "video": "20261128-122102-02-r.mp4",
+  "cover": "20261128-122102-02-r.jpg"
+ },
+ {
+  "created": "2026-11-28T08:32:09.674535+00:00",
+  "status": "pending",
+  "category": "İQTİSADİYYAT",
+  "headline": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb",
+  "summary": "\"AzerGold\" tərəfindən yaradılan mərkəz şagirdlərin ali məktəblərə hazırlığına dəstək olur. Təhsil ocağında hazırda 108 şagird ödənişsiz kurslarda iştirak edir.",
+  "source_note": "Mənbə: Haqqin.az",
+  "link": "https://haqqin.az/newsarchive/399683",
+  "sensitive": false,
+  "caption": "Daşkəsəndə \"AzerGold\" tərəfindən Tədris Mərkəzi yaradılıb\n\n\"AzerGold\" QSC-nin dəstəyi ilə Daşkəsən Uчебный (Tədris) Mərkəzi fəaliyyətə başlayıb. Layihənin əsas məqsədi bölgədə təhsil imkanlarını genişləndirmək, şagirdlərin ali məktəblərə hazırlıq səviyyəsini yüksəltmək və gələcək peşə seçimində kömək etməkdir. Eyni zamanda, təşəbbüs dağ-mədən sənayesi üçün yerli kadr potensialının formalaşdırılmasına xidmət edir. Mərkəz binası əsaslı təmir olunaraq müasir avadanlıqlarla təchiz edilib, uzaq kəndlərdən gələn şagirdlərin dərsə gediş-gəlişi maliyyələşdirilir.\n\nFikrinizi şərhdə bildirin.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #iqtisadiyyat #AzerGold #Daşkəsən #Təhsil #İqtisadiyyat",
+  "tg_caption": "💰 Daşkəsəndə \"AzerGold\" QSC-nin təşəbbüsü və maliyyə dəstəyi ilə yeni Tədris Mərkəzi yaradılıb.\n\nLayihə çərçivəsində binada əsaslı təmir işləri aparılıb və müasir təhsil resursları ilə təchiz olunub. Hazırda mərkəzdə VII-X siniflərdən olan 108 şagird ödənişsiz hazırlıq kurslarına cəlb edilib, uzaq kəndlərdən gələn şagirdlərin nəqliyyat xərcləri isə qarşılanır. Təşəbbüs həmçinin bölgədə yeni iş yerlərinin açılmasına və kadr potensialının artırılmasına imkan yaradır.",
+  "id": "20261128-122102-02-s",
+  "kind": "story",
+  "image": "posts/20261128-122102-02-s.jpg"
+ },
+ {
+  "created": "2026-11-28T08:32:45.472862+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb",
+  "summary": "İyun ayından başlayan layihə 20 şəhər və rayonda 8 mindən çox gənci əhatə edib. Son dayanacaqlar Zəngilan, Füzuli və Laçın olub.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/politics/1377376.html",
+  "sensitive": false,
+  "caption": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nAzərbaycan Respublikası Gənclər Fondunun təşkilatçılığı ilə reallaşdırılan Səyyar Gənclər Xidməti layihəsi fəaliyyətini yekunlaşdırıb. İyun ayından etibarən ölkənin 20 şəhər və rayonunu əhatə edən təşəbbüs 8 mindən çox region gəncinə çatıb. Layihənin son dayanacaqları Zəngilan, Füzuli və Laçın rayonları olub. Laçında keçirilən bağlanış tədbirində rəsmi şəxslər layihənin gənclərin inkişafı, ictimai fəallığı və dövlətçilik dəyərlərinin təşviqindəki rolunu qeyd ediblər. Altı ay ərzində gənclər üçün mindən çox müxtəlif istiqamətli fəaliyyət, o cümlədən təlimlər, vörkşoplar və intellektual oyunlar təşkil olunub.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #GənclərFondu #SəyyarGənclərXidməti #Laçın #Gənclər",
+  "tg_caption": "🏛 Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nİyun ayından fəaliyyətə başlayan layihə ölkənin 20 şəhər və rayonunda 8 mindən çox region gəncinə çatıb. Zəngilan, Füzuli və Laçın rayonlarını əhatə edən son dayanacaqlarla təşəbbüs bu il üzrə fəaliyyətini yekunlaşdırıb.\n\nLaçın rayonunda keçirilən bağlanış tədbirində xüsusi nümayəndəliyin rəsmisi Hüseyn Quliyev və Gənclər Fondunun icraçı direktoru vəzifəsini icra edən Yusif Vəliyev layihənin əhəmiyyətini vurğulayıblar. Altı ay ərzində gənclər üçün vətənpərvərlik, təhsil, rəqəmsal düşüncə və digər istiqamətlərdə mindən çox fəaliyyət təşkil edilib. Layihə Gənclələrin İnkişaf və Karyera Mərkəzi və Gənc Könüllülər İctimai Birliyinin tərəfdaşlığı ilə həyata keçirilib.",
+  "id": "20261128-122102-03-p",
+  "kind": "post",
+  "image": "posts/20261128-122102-03-p.jpg"
+ },
+ {
+  "created": "2026-11-28T08:32:45.472862+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb",
+  "summary": "İyun ayından başlayan layihə 20 şəhər və rayonda 8 mindən çox gənci əhatə edib. Son dayanacaqlar Zəngilan, Füzuli və Laçın olub.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/politics/1377376.html",
+  "sensitive": false,
+  "caption": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nAzərbaycan Respublikası Gənclər Fondunun təşkilatçılığı ilə reallaşdırılan Səyyar Gənclər Xidməti layihəsi fəaliyyətini yekunlaşdırıb. İyun ayından etibarən ölkənin 20 şəhər və rayonunu əhatə edən təşəbbüs 8 mindən çox region gəncinə çatıb. Layihənin son dayanacaqları Zəngilan, Füzuli və Laçın rayonları olub. Laçında keçirilən bağlanış tədbirində rəsmi şəxslər layihənin gənclərin inkişafı, ictimai fəallığı və dövlətçilik dəyərlərinin təşviqindəki rolunu qeyd ediblər. Altı ay ərzində gənclər üçün mindən çox müxtəlif istiqamətli fəaliyyət, o cümlədən təlimlər, vörkşoplar və intellektual oyunlar təşkil olunub.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #GənclərFondu #SəyyarGənclərXidməti #Laçın #Gənclər",
+  "tg_caption": "🏛 Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nİyun ayından fəaliyyətə başlayan layihə ölkənin 20 şəhər və rayonunda 8 mindən çox region gəncinə çatıb. Zəngilan, Füzuli və Laçın rayonlarını əhatə edən son dayanacaqlarla təşəbbüs bu il üzrə fəaliyyətini yekunlaşdırıb.\n\nLaçın rayonunda keçirilən bağlanış tədbirində xüsusi nümayəndəliyin rəsmisi Hüseyn Quliyev və Gənclər Fondunun icraçı direktoru vəzifəsini icra edən Yusif Vəliyev layihənin əhəmiyyətini vurğulayıblar. Altı ay ərzində gənclər üçün vətənpərvərlik, təhsil, rəqəmsal düşüncə və digər istiqamətlərdə mindən çox fəaliyyət təşkil edilib. Layihə Gənclələrin İnkişaf və Karyera Mərkəzi və Gənc Könüllülər İctimai Birliyinin tərəfdaşlığı ilə həyata keçirilib.",
+  "id": "20261128-122102-03-r",
+  "kind": "reel",
+  "video": "20261128-122102-03-r.mp4",
+  "cover": "20261128-122102-03-r.jpg"
+ },
+ {
+  "created": "2026-11-28T08:32:45.472862+00:00",
+  "status": "pending",
+  "category": "CƏMİYYƏT",
+  "headline": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb",
+  "summary": "İyun ayından başlayan layihə 20 şəhər və rayonda 8 mindən çox gənci əhatə edib. Son dayanacaqlar Zəngilan, Füzuli və Laçın olub.",
+  "source_note": "Mənbə: Sia.az",
+  "link": "https://sia.az/az/news/politics/1377376.html",
+  "sensitive": false,
+  "caption": "Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nAzərbaycan Respublikası Gənclər Fondunun təşkilatçılığı ilə reallaşdırılan Səyyar Gənclər Xidməti layihəsi fəaliyyətini yekunlaşdırıb. İyun ayından etibarən ölkənin 20 şəhər və rayonunu əhatə edən təşəbbüs 8 mindən çox region gəncinə çatıb. Layihənin son dayanacaqları Zəngilan, Füzuli və Laçın rayonları olub. Laçında keçirilən bağlanış tədbirində rəsmi şəxslər layihənin gənclərin inkişafı, ictimai fəallığı və dövlətçilik dəyərlərinin təşviqindəki rolunu qeyd ediblər. Altı ay ərzində gənclər üçün mindən çox müxtəlif istiqamətli fəaliyyət, o cümlədən təlimlər, vörkşoplar və intellektual oyunlar təşkil olunub.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #cəmiyyət #GənclərFondu #SəyyarGənclərXidməti #Laçın #Gənclər",
+  "tg_caption": "🏛 Gənclər Fondunun Səyyar Gənclər Xidməti layihəsi başa çatıb\n\nİyun ayından fəaliyyətə başlayan layihə ölkənin 20 şəhər və rayonunda 8 mindən çox region gəncinə çatıb. Zəngilan, Füzuli və Laçın rayonlarını əhatə edən son dayanacaqlarla təşəbbüs bu il üzrə fəaliyyətini yekunlaşdırıb.\n\nLaçın rayonunda keçirilən bağlanış tədbirində xüsusi nümayəndəliyin rəsmisi Hüseyn Quliyev və Gənclər Fondunun icraçı direktoru vəzifəsini icra edən Yusif Vəliyev layihənin əhəmiyyətini vurğulayıblar. Altı ay ərzində gənclər üçün vətənpərvərlik, təhsil, rəqəmsal düşüncə və digər istiqamətlərdə mindən çox fəaliyyət təşkil edilib. Layihə Gənclələrin İnkişaf və Karyera Mərkəzi və Gənc Könüllülər İctimai Birliyinin tərəfdaşlığı ilə həyata keçirilib.",
+  "id": "20261128-122102-03-s",
+  "kind": "story",
+  "image": "posts/20261128-122102-03-s.jpg"
  }
 ]
