@@ -20459,7 +20459,7 @@
  },
  {
   "created": "2026-11-28T07:45:59.010345+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Tovuzda yolda sürüşmə baş verdi, hərəkət çətinləşdi",
   "summary": "Tovuz rayonunun Vahidli kəndində avtomobil yolunun bir hissəsi sürüşərək çöküb. Sakinlər problemlə bağlı aidiyyəti qurumlara müraciət etsələr də, hələlik nəticə olmayıb.",
@@ -20479,7 +20479,10 @@
     "type": "video",
     "file": "20261128-114411-u-k1.mp4"
    }
-  ]
+  ],
+  "published_at": "2026-11-28T07:53:15.936431+00:00",
+  "instagram_id": "17918787591557926",
+  "permalink": "https://www.instagram.com/p/DgRw1N5kqDO/"
  },
  {
   "created": "2026-11-28T07:45:59.010345+00:00",
