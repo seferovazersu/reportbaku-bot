@@ -74,10 +74,11 @@ PROMPT = (
     "birbaşa sitat kimi verilibsə, o sitatı SÖZBƏSÖZ, dəyişdirmədən, dırnaq içində yaz. Sitatı heç vaxt "
     "öz sözünlə əvəz etmə. Sitatın dəqiq sözləri bəlli deyilsə, dırnaq işlətmə, yalnız 'bildirib' kimi nəql et. "
     "Bu qayda caption, tg_caption, headline və voiceover-də də eyni qüvvədədir.\n"
-    "20. tg_caption: Telegram kanalı üçün geniş, peşəkar mətn: 4-5 cümlə, təxminən 500-800 simvol. "
-    "Əvvəl əsas xəbər, sonra mənbədəki təfərrüatlar və kontekst. Cəlbedici, sakit və aydın üslub, "
-    "yorucu və şişirdilmiş olmasın. Mövzuya uyğun 1-3 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, ⚽️ idman, "
-    "💰 iqtisadiyyat, 🏥 sağlamlıq, 🚨 təcili). Heç bir agentlik, saytın və ya mənbənin adını yazma (APA, AZƏRTAC, Trend, Day.az, Oxu.az, Publika və s.), 'məlumatına görə', 'xəbər verir' kimi ifadələr də yazma. Link yazma. Sitat varsa, sözbəsöz saxla.\n\n"
+    "20. tg_caption: Telegram kanalı üçün ətraflı, peşəkar mətn: 5-7 cümlə, təxminən 600-950 simvol. "
+    "Əvvəl əsas xəbər, sonra mənbədəki bütün təfərrüatlar, kontekst və nə gözlənilir. Sakit, aydın üslub, "
+    "klikbeyt və şişirdilmiş ifadə olmasın. Mövzuya uyğun 1-3 emoji (🏛 siyasət, 🚗 nəqliyyat, 🌦 hava, "
+    "⚽️ idman, 💰 iqtisadiyyat, 🏥 sağlamlıq, 🚨 təcili). Mənbə adı, agentlik adı, link və "
+    "'məlumatına görə', 'xəbər verir' kimi ifadələr yazma. Sitat varsa, sözbəsöz saxla.\n\n"
     'Cavabı yalnız JSON formatında ver: {"skip": false, "category": "...", '
     '"headline": "...", "summary": "...", "caption": "...", "tg_caption": "...", "voiceover": "...", '
     '"visual_keywords": ["..."], "hashtags": ["#..."], "highlight": ["..."], "sensitive": false}'
@@ -245,7 +246,7 @@ def main():
             "summary": summary,
             "caption_text": caption_text or summary,
             "voiceover": str(res.get("voiceover", "")).strip()[:1100],
-            "tg_caption": str(res.get("tg_caption", "")).strip()[:900],
+            "tg_caption": str(res.get("tg_caption", "")).strip()[:950],
             "hashtags": [h.strip() for h in (res.get("hashtags") or []) if isinstance(h, str) and h.strip().startswith("#")][:5],
             "image_url": item.get("image_url"),
             "source_title": item.get("title", ""),

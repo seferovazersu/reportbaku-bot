@@ -122,10 +122,9 @@ CTAS = ["Bu sizə necə təsir edəcək? Şərhdə yazın.",
 def build_caption(d, credit=""):
     """Instagram-da görünəcək mətn: başlıq, ətraflı yazı, mənbə, foto krediti, heştaqlar."""
     body = d.get("caption_text") or d["summary"]
-    cta = CTAS[sum(ord(ch) for ch in d["headline"]) % len(CTAS)]            # 7: çağırış cümləsi
     chan = os.environ.get("TELEGRAM_CHANNEL_ID", "")
-    tg_line = ("📲 Telegram: t.me/%s" % chan.lstrip("@")) if chan.startswith("@") else ""   # 6: profil/kanal keçidi
-    parts = [scrub_src(d["headline"]), scrub_src(body), cta,
+    tg_line = ("📲 Ətraflı və tam xəbər: t.me/%s" % chan.lstrip("@")) if chan.startswith("@") else ""
+    parts = [scrub_src(d["headline"]), scrub_src(body),
              "📍 Bakı", tg_line,
              ("Foto: " + credit) if credit else "", build_hashtags(d)]
     return "\n\n".join(p for p in parts if p)
