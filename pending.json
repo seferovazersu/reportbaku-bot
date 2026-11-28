@@ -20566,7 +20566,7 @@
  },
  {
   "created": "2026-11-28T08:02:48.739644+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
   "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
@@ -20578,11 +20578,14 @@
   "id": "20261128-120108-u-r",
   "kind": "reel",
   "video": "20261128-120108-u-r.mp4",
-  "cover": "20261128-120108-u-r.jpg"
+  "cover": "20261128-120108-u-r.jpg",
+  "published_at": "2026-11-28T08:05:02.330404+00:00",
+  "instagram_id": "17898747165615114",
+  "permalink": "https://www.instagram.com/reel/DgRyIwoT0pl/"
  },
  {
   "created": "2026-11-28T08:02:48.739644+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "İQTİSADİYYAT",
   "headline": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin bağlanması ilə bağlı yayılan məlumatlar təkzib edilib",
   "summary": "\"Sədərək\" və \"Binə\" ticarət mərkəzlərinin köçürüləcəyi və ərazilərində universitet tikiləcəyi barədə xəbərlər əsassız adlandırılıb. Hər iki ticarət mərkəzi fəaliyyətini əvvəlki qaydada davam etdirir.",
@@ -20593,6 +20596,9 @@
   "tg_caption": "💰 \"Sədərək\" və \"Binə\" ticarət mərkəzlərinin \"Abşeron\" Ticarət Mərkəzinə köçürüləcəyi və ərazilərində universitet tikiləcəyi ilə bağlı yayılan məlumatlar təkzib edilib.\n\n\"Sədərək\" Ticarət Mərkəzinin mətbuat katibi Kəmaləddin Qədim məlumatı əsassız adlandıraraq ticarət mərkəzinin əvvəlki qaydada fəaliyyət göstərdiyini bildirib. \"Binə\" Ticarət Mərkəzində çalışan sahibkarlardan biri də belə bir köçürülmə ilə bağlı tapşırıq almadıqlarını və məlumatlarının olmadığını deyib.",
   "id": "20261128-120108-u-s",
   "kind": "story",
-  "image": "posts/20261128-120108-u-s.jpg"
+  "image": "posts/20261128-120108-u-s.jpg",
+  "published_at": "2026-11-28T08:05:14.117361+00:00",
+  "instagram_id": "18154201558558791",
+  "permalink": ""
  }
 ]
