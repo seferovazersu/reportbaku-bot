@@ -20256,26 +20256,76 @@
   "id": "20261128-113246-u",
   "kind": "news",
   "created": "2026-11-28T07:32:46.816330+00:00",
-  "status": "awaiting_media",
+  "status": "built",
   "custom": true,
-  "raw_text": "🚨 Ər və arvad qəzaya düşdülər-ÖLƏN VAR\n\nHadisə şəhər ərazisində qeydə alınıb.\n\nRayon sakini Ələddin Qədirovun idarə etdiyi VAZ-2106 və Simran Əhmədlinin sükanı arxasında olduğu \"Ford Transit\" markalı avtomobillər toqquşub.\n\nNəticədə VAZ-ın sürücüsü xəsarət alıb, sərnişini olan arvadı, 60 yaşlı Məlahət Qədirova isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır",
-  "media": [
-   {
-    "file_id": "AgACAgIAAxkBAAIIDWsKg44VPFj40w4leKUEpMT-Uv23AALDJGsbn1lRSAFaFiY_CxgjAQADAgADeQADPQQ",
-    "type": "photo"
-   }
+  "raw_text": "",
+  "media": [],
+  "category": "HADİSƏ",
+  "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
+  "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
+  "caption_text": "Şəhər ərazisində iki nəqliyyat vasitəsinin iştirakı ilə yol-nəqliyyat hadisəsi qeydə alınıb. Rayon sakininin idarə etdiyi VAZ-2106 və digər sürücünün idarə etdiyi \"Ford Transit\" markalı avtomobillər toqquşub.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, onun sərnişini olan 60 yaşlı qadın isə hadisə yerində həyatını itirib. Hadisə yerinə gələn aidiyyəti qurumlar tərəfindən müvafiq tədbirlər görülüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar davam etdirilir.",
+  "voiceover": "Şəhər ərazisində baş verən yol-nəqliyyat hadisəsində bir nəfər ölüb. VAZ-2106 və Ford Transit markalı avtomobillərin toqquşması nəticəsində minik maşınının sürücüsü xəsarət alıb, sərnişini isə hadisə yerində həyatını itirib. Faktla bağlı araşdırma aparılır.",
+  "hashtags": [
+   "#qəza",
+   "#DYP",
+   "#xəbərlər",
+   "#hadisə"
   ],
-  "category": "CƏMİYYƏT",
-  "headline": "🚨 Ər və arvad qəzaya düşdülər-ÖLƏN VAR\n\nHadisə şəhər ərazisində qeydə alınıb.\n\nRayon sakin",
-  "summary": "",
-  "caption_text": "",
-  "voiceover": "",
-  "hashtags": [],
-  "highlight": [],
+  "highlight": [
+   "avtomobil qəzasında",
+   "bir nəfər ölüb"
+  ],
   "source_note": "",
   "source_title": "🚨 Ər və arvad qəzaya düşdülər-ÖLƏN VAR\n\nHadisə şəhər ərazisində qeydə alınıb.\n\nRayon sakini Ələddin Qədirovun idarə etdi",
   "link": "",
-  "sensitive": false,
-  "card_sent": true
+  "sensitive": true,
+  "card_sent": true,
+  "tg_caption": "🚨 Şəhər ərazisində VAZ-2106 və \"Ford Transit\" markalı avtomobillərin toqquşması ilə nəticələnən yol-nəqliyyat hadisəsi baş verib.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, avtomobildə olan 60 yaşlı sərnişin isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır."
+ },
+ {
+  "created": "2026-11-28T07:33:59.970366+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
+  "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb\n\nŞəhər ərazisində iki nəqliyyat vasitəsinin iştirakı ilə yol-nəqliyyat hadisəsi qeydə alınıb. Rayon sakininin idarə etdiyi VAZ-2106 və digər sürücünün idarə etdiyi \"Ford Transit\" markalı avtomobillər toqquşub. Qəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, onun sərnişini olan 60 yaşlı qadın isə hadisə yerində həyatını itirib. Hadisə yerinə gələn aidiyyəti qurumlar tərəfindən müvafiq tədbirlər görülüb. Faktla bağlı polis tərəfindən araşdırmalar davam etdirilir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #qəza #DYP #xəbərlər",
+  "tg_caption": "🚨 Şəhər ərazisində VAZ-2106 və \"Ford Transit\" markalı avtomobillərin toqquşması ilə nəticələnən yol-nəqliyyat hadisəsi baş verib.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, avtomobildə olan 60 yaşlı sərnişin isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır.",
+  "id": "20261128-113246-u-p",
+  "kind": "post",
+  "image": "posts/20261128-113246-u-p.jpg"
+ },
+ {
+  "created": "2026-11-28T07:33:59.970366+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
+  "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb\n\nŞəhər ərazisində iki nəqliyyat vasitəsinin iştirakı ilə yol-nəqliyyat hadisəsi qeydə alınıb. Rayon sakininin idarə etdiyi VAZ-2106 və digər sürücünün idarə etdiyi \"Ford Transit\" markalı avtomobillər toqquşub. Qəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, onun sərnişini olan 60 yaşlı qadın isə hadisə yerində həyatını itirib. Hadisə yerinə gələn aidiyyəti qurumlar tərəfindən müvafiq tədbirlər görülüb. Faktla bağlı polis tərəfindən araşdırmalar davam etdirilir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #qəza #DYP #xəbərlər",
+  "tg_caption": "🚨 Şəhər ərazisində VAZ-2106 və \"Ford Transit\" markalı avtomobillərin toqquşması ilə nəticələnən yol-nəqliyyat hadisəsi baş verib.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, avtomobildə olan 60 yaşlı sərnişin isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır.",
+  "id": "20261128-113246-u-r",
+  "kind": "reel",
+  "video": "20261128-113246-u-r.mp4",
+  "cover": "20261128-113246-u-r.jpg"
+ },
+ {
+  "created": "2026-11-28T07:33:59.970366+00:00",
+  "status": "pending",
+  "category": "HADİSƏ",
+  "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
+  "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
+  "source_note": "",
+  "link": "",
+  "sensitive": true,
+  "caption": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb\n\nŞəhər ərazisində iki nəqliyyat vasitəsinin iştirakı ilə yol-nəqliyyat hadisəsi qeydə alınıb. Rayon sakininin idarə etdiyi VAZ-2106 və digər sürücünün idarə etdiyi \"Ford Transit\" markalı avtomobillər toqquşub. Qəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, onun sərnişini olan 60 yaşlı qadın isə hadisə yerində həyatını itirib. Hadisə yerinə gələn aidiyyəti qurumlar tərəfindən müvafiq tədbirlər görülüb. Faktla bağlı polis tərəfindən araşdırmalar davam etdirilir.\n\nBu sizə necə təsir edəcək? Şərhdə yazın.\n\n📍 Bakı\n\n#ReportBaku #Azərbaycan #Bakı #xəbər #sonxəbər #hadisə #qəza #DYP #xəbərlər",
+  "tg_caption": "🚨 Şəhər ərazisində VAZ-2106 və \"Ford Transit\" markalı avtomobillərin toqquşması ilə nəticələnən yol-nəqliyyat hadisəsi baş verib.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, avtomobildə olan 60 yaşlı sərnişin isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır.",
+  "id": "20261128-113246-u-s",
+  "kind": "story",
+  "image": "posts/20261128-113246-u-s.jpg"
  }
 ]
