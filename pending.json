@@ -20299,7 +20299,7 @@
  },
  {
   "created": "2026-11-28T07:33:59.970366+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
   "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
@@ -20311,11 +20311,14 @@
   "id": "20261128-113246-u-r",
   "kind": "reel",
   "video": "20261128-113246-u-r.mp4",
-  "cover": "20261128-113246-u-r.jpg"
+  "cover": "20261128-113246-u-r.jpg",
+  "published_at": "2026-11-28T07:35:53.843763+00:00",
+  "instagram_id": "18156017275543674",
+  "permalink": "https://www.instagram.com/reel/DgRuzfUMgHM/"
  },
  {
   "created": "2026-11-28T07:33:59.970366+00:00",
-  "status": "pending",
+  "status": "published",
   "category": "HADİSƏ",
   "headline": "Şəhər ərazisində baş verən avtomobil qəzasında bir nəfər ölüb",
   "summary": "Şəhərdə iki avtomobilin toqquşması nəticəsində 1 nəfər ölüb, digər şəxs isə xəsarət alıb. Faktla bağlı polis tərəfindən araşdırma aparılır.",
@@ -20326,6 +20329,9 @@
   "tg_caption": "🚨 Şəhər ərazisində VAZ-2106 və \"Ford Transit\" markalı avtomobillərin toqquşması ilə nəticələnən yol-nəqliyyat hadisəsi baş verib.\n\nQəza nəticəsində minik avtomobilinin sürücüsü xəsarət alıb, avtomobildə olan 60 yaşlı sərnişin isə hadisə yerində ölüb.\n\nFaktla bağlı polis tərəfindən araşdırmalar aparılır.",
   "id": "20261128-113246-u-s",
   "kind": "story",
-  "image": "posts/20261128-113246-u-s.jpg"
+  "image": "posts/20261128-113246-u-s.jpg",
+  "published_at": "2026-11-28T07:36:07.632605+00:00",
+  "instagram_id": "18119319539108931",
+  "permalink": ""
  }
 ]
